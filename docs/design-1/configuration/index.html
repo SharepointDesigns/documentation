@@ -3,12 +3,423 @@
 <head>
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.7.0">
-<title data-rh="true">Configuration | SharePoint Designs Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://sharepointdesigns.github.io/documentation/img/spdlogo.svg"><meta data-rh="true" name="twitter:image" content="https://sharepointdesigns.github.io/documentation/img/spdlogo.svg"><meta data-rh="true" property="og:url" content="https://sharepointdesigns.github.io/documentation/docs/design-1/configuration"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Configuration | SharePoint Designs Documentation"><link data-rh="true" rel="icon" href="/documentation/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://sharepointdesigns.github.io/documentation/docs/design-1/configuration"><link data-rh="true" rel="alternate" href="https://sharepointdesigns.github.io/documentation/docs/design-1/configuration" hreflang="en"><link data-rh="true" rel="alternate" href="https://sharepointdesigns.github.io/documentation/docs/design-1/configuration" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/documentation/blog/rss.xml" title="SharePoint Designs Documentation RSS Feed">
+<title data-rh="true">Configuration | SharePoint Designs Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://sharepointdesigns.github.io/documentation/img/spdlogo.svg"><meta data-rh="true" name="twitter:image" content="https://sharepointdesigns.github.io/documentation/img/spdlogo.svg"><meta data-rh="true" property="og:url" content="https://sharepointdesigns.github.io/documentation/docs/design-1/configuration"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Configuration | SharePoint Designs Documentation"><meta data-rh="true" name="description" content="📰 1. Features News"><meta data-rh="true" property="og:description" content="📰 1. Features News"><link data-rh="true" rel="icon" href="data:image/png;base64,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"><link data-rh="true" rel="canonical" href="https://sharepointdesigns.github.io/documentation/docs/design-1/configuration"><link data-rh="true" rel="alternate" href="https://sharepointdesigns.github.io/documentation/docs/design-1/configuration" hreflang="en"><link data-rh="true" rel="alternate" href="https://sharepointdesigns.github.io/documentation/docs/design-1/configuration" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/documentation/blog/rss.xml" title="SharePoint Designs Documentation RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/documentation/blog/atom.xml" title="SharePoint Designs Documentation Atom Feed"><link rel="stylesheet" href="/documentation/assets/css/styles.b8d2aa6b.css">
-<script src="/documentation/assets/js/runtime~main.4f82360e.js" defer="defer"></script>
-<script src="/documentation/assets/js/main.cffaf7b6.js" defer="defer"></script>
+<script src="/documentation/assets/js/runtime~main.282f064e.js" defer="defer"></script>
+<script src="/documentation/assets/js/main.148afd2e.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
-<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/documentation/img/spdlogo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/documentation/"><div class="navbar__logo"><img src="/documentation/img/spdlogo.svg" alt="SharePoint Designs Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/documentation/img/spdlogo.svg" alt="SharePoint Designs Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Documentation</b></a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/documentation/docs/intro">Introduction</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/documentation/docs/category/design-1">Design 1</a><button aria-label="Collapse sidebar category &#x27;Design 1&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/documentation/docs/design-1/installation">Installation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/documentation/docs/design-1/configuration">Configuration</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/documentation/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/documentation/docs/category/design-1"><span itemprop="name">Design 1</span></a><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Configuration</span><meta itemprop="position" content="2"></li></ul></nav><div class="theme-doc-markdown markdown"><header><h1>Configuration</h1></header></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/design-1/configuration.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/documentation/docs/design-1/installation"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Installation</div></a></nav></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/documentation/docs/intro">Documentation</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.linkedin.com/company/sharepoint-designs/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Linkedin<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.sharepointdesigns.com/blog" target="_blank" rel="noopener noreferrer" class="footer__link-item">Blog</a></li><li class="footer__item"><a href="https://github.com/sharepointdesigns" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 SharePoint Designs.</div></div></div></footer></div>
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/documentation/img/spdlogo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/documentation/"><div class="navbar__logo"><img src="/documentation/img/spdlogo.svg" alt="SharePoint Designs Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/documentation/img/spdlogo.svg" alt="SharePoint Designs Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Documentation</b></a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/sharepointdesigns" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/documentation/docs/intro">Introduction</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/documentation/docs/category/design-1">Design 1</a><button aria-label="Collapse sidebar category &#x27;Design 1&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/documentation/docs/design-1/overview">Overview</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/documentation/docs/design-1/installation">Installation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/documentation/docs/design-1/configuration">Configuration</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/documentation/docs/design-1/webparts">Webparts</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/documentation/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/documentation/docs/category/design-1"><span itemprop="name">Design 1</span></a><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Configuration</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Configuration</h1></header>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-1-features-news">📰 1. Features News<a href="#-1-features-news" class="hash-link" aria-label="Direct link to 📰 1. Features News" title="Direct link to 📰 1. Features News">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-details">📋 Details<a href="#-details" class="hash-link" aria-label="Direct link to 📋 Details" title="Direct link to 📋 Details">​</a></h3>
+<ul>
+<li><strong>Central Updates</strong>: Keep everyone informed with company news.</li>
+<li><strong>Professional Display</strong>: Present announcements/department news clearly and formally.</li>
+<li><strong>Structured Layout</strong>: Organized sections for each department.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-configuration-options">⚙️ Configuration Options<a href="#️-configuration-options" class="hash-link" aria-label="Direct link to ⚙️ Configuration Options" title="Direct link to ⚙️ Configuration Options">​</a></h3>
+<p>Easily tailor the Features News web part to fit your organization&#x27;s needs with these flexible configuration options:</p>
+<hr>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="basic-configurations"><u>Basic Configurations</u><a href="#basic-configurations" class="hash-link" aria-label="Direct link to basic-configurations" title="Direct link to basic-configurations">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="️-webpart-title">🏷️ Webpart Title<a href="#️-webpart-title" class="hash-link" aria-label="Direct link to 🏷️ Webpart Title" title="Direct link to 🏷️ Webpart Title">​</a></h5>
+<ul>
+<li>Customize the title that appears at the top of the web part.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-search-sites">🔍 Search Sites<a href="#-search-sites" class="hash-link" aria-label="Direct link to 🔍 Search Sites" title="Direct link to 🔍 Search Sites">​</a></h5>
+<ul>
+<li>Choose which SharePoint sites to fetch news from.</li>
+<li>Leave blank to pull content from the current site.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="️-filter-by-tag">🏷️ Filter by Tag<a href="#️-filter-by-tag" class="hash-link" aria-label="Direct link to 🏷️ Filter by Tag" title="Direct link to 🏷️ Filter by Tag">​</a></h5>
+<ul>
+<li>Filter news based on specific tags (e.g., <strong>Departments</strong>, <strong>Announcements</strong>) to display only relevant posts.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-enable-rss-feed">🌐 Enable RSS Feed<a href="#-enable-rss-feed" class="hash-link" aria-label="Direct link to 🌐 Enable RSS Feed" title="Direct link to 🌐 Enable RSS Feed">​</a></h5>
+<ul>
+<li>Toggle ON/OFF to enable or disable RSS feeds.</li>
+<li>Use <strong>Manage Links</strong> to add your preferred RSS sources.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-show-see-all-button">👀 Show See All Button<a href="#-show-see-all-button" class="hash-link" aria-label="Direct link to 👀 Show See All Button" title="Direct link to 👀 Show See All Button">​</a></h5>
+<ul>
+<li>Toggle to <strong>show</strong> or <strong>hide</strong> the “See All” button for users to explore more content.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="layouts"><u>Layouts</u><a href="#layouts" class="hash-link" aria-label="Direct link to layouts" title="Direct link to layouts">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-view-all-url">🔗 View All URL<a href="#-view-all-url" class="hash-link" aria-label="Direct link to 🔗 View All URL" title="Direct link to 🔗 View All URL">​</a></h5>
+<ul>
+<li>Add a custom link for the “View All” button.</li>
+<li>Leave empty to use the default destination.</li>
+<li>Default value: <code>{siteUrl}/_layouts/15/news.aspx</code></li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="️-show-category-filter">🗂️ Show Category Filter<a href="#️-show-category-filter" class="hash-link" aria-label="Direct link to 🗂️ Show Category Filter" title="Direct link to 🗂️ Show Category Filter">​</a></h5>
+<ul>
+<li>Enable or disable category filters for quick browsing.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-show-search-box">🔎 Show Search Box<a href="#-show-search-box" class="hash-link" aria-label="Direct link to 🔎 Show Search Box" title="Direct link to 🔎 Show Search Box">​</a></h5>
+<ul>
+<li>Let users search through news articles with a handy search input box.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="️-show-sort-by">↕️ Show Sort By<a href="#️-show-sort-by" class="hash-link" aria-label="Direct link to ↕️ Show Sort By" title="Direct link to ↕️ Show Sort By">​</a></h5>
+<ul>
+<li>Add a <strong>Sort</strong> option to let users reorder content by relevance, date, etc.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-choose-layout">🧩 Choose Layout<a href="#-choose-layout" class="hash-link" aria-label="Direct link to 🧩 Choose Layout" title="Direct link to 🧩 Choose Layout">​</a></h5>
+<ul>
+<li>Pick from multiple layout styles:<!-- -->
+<ul>
+<li><strong>Top Story</strong></li>
+<li><strong>Grid</strong></li>
+<li><strong>Filmstrip</strong></li>
+<li><strong>Tiles</strong></li>
+</ul>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="target-audience-"><u>Target Audience </u><a href="#target-audience-" class="hash-link" aria-label="Direct link to target-audience-" title="Direct link to target-audience-">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-target-audience">👥 Target Audience<a href="#-target-audience" class="hash-link" aria-label="Direct link to 👥 Target Audience" title="Direct link to 👥 Target Audience">​</a></h5>
+<ul>
+<li>Show posts only to selected users using audience targeting.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="manage-news-posts"><u>Manage News Posts</u><a href="#manage-news-posts" class="hash-link" aria-label="Direct link to manage-news-posts" title="Direct link to manage-news-posts">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="️-manage-news-posts">🛠️ Manage News Posts<a href="#️-manage-news-posts" class="hash-link" aria-label="Direct link to 🛠️ Manage News Posts" title="Direct link to 🛠️ Manage News Posts">​</a></h5>
+<ul>
+<li>Click to view and manage all published and draft news items in one place.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-screenshots">📸 Screenshots<a href="#-screenshots" class="hash-link" aria-label="Direct link to 📸 Screenshots" title="Direct link to 📸 Screenshots">​</a></h3>
+<ul>
+<li><strong>Screenshot</strong>: News and Announcements web part
+<img decoding="async" loading="lazy" alt="Featured News" src="/documentation/assets/images/FeaturedNews-9f44fc9323cb91e82cd72c4c62cc099b.png" width="1090" height="501" class="img_ev3q"></li>
+<li><strong>Screenshot</strong>: Property pane
+<img decoding="async" loading="lazy" alt="Featured News Property Pane" src="/documentation/assets/images/FNPropertyPane-e911837ad17fe4cd8c25a19169e91881.png" width="819" height="887" class="img_ev3q"></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-2-breaking-news">🚨 2. Breaking News<a href="#-2-breaking-news" class="hash-link" aria-label="Direct link to 🚨 2. Breaking News" title="Direct link to 🚨 2. Breaking News">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-details-1">📋 Details<a href="#-details-1" class="hash-link" aria-label="Direct link to 📋 Details" title="Direct link to 📋 Details">​</a></h3>
+<p>Deliver urgent and time-sensitive information with high visibility:</p>
+<ul>
+<li><strong>Urgent Alerts</strong>: Ideal for critical updates such as service outages, emergency messages, or security notifications.</li>
+<li><strong>Adjustable Notification</strong>: Customize how the alert appears and how long it remains visible.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-configuration-options-1">⚙️ Configuration Options<a href="#️-configuration-options-1" class="hash-link" aria-label="Direct link to ⚙️ Configuration Options" title="Direct link to ⚙️ Configuration Options">​</a></h3>
+<p>Quickly configure your <strong>Breaking News</strong> web part to match your needs:</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="basic"><u>Basic</u><a href="#basic" class="hash-link" aria-label="Direct link to basic" title="Direct link to basic">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="️-webpart-title-1">🏷️ Webpart Title<a href="#️-webpart-title-1" class="hash-link" aria-label="Direct link to 🏷️ Webpart Title" title="Direct link to 🏷️ Webpart Title">​</a></h5>
+<ul>
+<li>Set a custom title for the web part display.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="️-sub-title">🖊️ Sub Title<a href="#️-sub-title" class="hash-link" aria-label="Direct link to 🖊️ Sub Title" title="Direct link to 🖊️ Sub Title">​</a></h5>
+<ul>
+<li>Add a custom <strong>inline title</strong> to provide more context.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-select-a-list">📃 Select a List<a href="#-select-a-list" class="hash-link" aria-label="Direct link to 📃 Select a List" title="Direct link to 📃 Select a List">​</a></h5>
+<ul>
+<li>Choose a SharePoint <strong>Breaking News list</strong> from the available options.</li>
+<li>Add or update alert content directly within this list.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="view-settings"><u>View settings</u><a href="#view-settings" class="hash-link" aria-label="Direct link to view-settings" title="Direct link to view-settings">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-change-icon">🛑 Change Icon<a href="#-change-icon" class="hash-link" aria-label="Direct link to 🛑 Change Icon" title="Direct link to 🛑 Change Icon">​</a></h5>
+<ul>
+<li>Pick a custom icon that visually represents the urgency or type of alert.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="️-show-arrows">↔️ Show Arrows<a href="#️-show-arrows" class="hash-link" aria-label="Direct link to ↔️ Show Arrows" title="Direct link to ↔️ Show Arrows">​</a></h5>
+<ul>
+<li>Enable or disable <strong>navigation arrows</strong> for smoother alert scrolling.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-screenshots-1">📸 Screenshots<a href="#-screenshots-1" class="hash-link" aria-label="Direct link to 📸 Screenshots" title="Direct link to 📸 Screenshots">​</a></h3>
+<ul>
+<li><strong>Screenshot</strong>: Breaking News web part
+<img decoding="async" loading="lazy" alt="Breaking news" src="/documentation/assets/images/BreakingNews-e7fce723250d10bbe1f2350762f871c4.png" width="1090" height="184" class="img_ev3q"></li>
+<li><strong>Screenshot</strong>: Property pane
+<img decoding="async" loading="lazy" alt="BNPropertpane" src="/documentation/assets/images/BNPropertypane-573b70c1bf1da46c90edc4b42b1347f5.png" width="820" height="596" class="img_ev3q"></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-3-quick-links">🔗 3. Quick Links<a href="#-3-quick-links" class="hash-link" aria-label="Direct link to 🔗 3. Quick Links" title="Direct link to 🔗 3. Quick Links">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-details-2">📋 Details<a href="#-details-2" class="hash-link" aria-label="Direct link to 📋 Details" title="Direct link to 📋 Details">​</a></h3>
+<p>Provide fast and intuitive access to essential resources:</p>
+<ul>
+<li><strong>Essential Resources</strong>: Direct users to frequently used tools, forms, documents, and company policies.</li>
+<li><strong>Icons &amp; Labels</strong>: Enhance navigation with clearly labeled links and intuitive icons.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-configuration-options-2">⚙️ Configuration Options<a href="#️-configuration-options-2" class="hash-link" aria-label="Direct link to ⚙️ Configuration Options" title="Direct link to ⚙️ Configuration Options">​</a></h3>
+<p>Customize your <strong>Quick Links</strong> web part with the following settings:</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="basic-1"><u>Basic</u><a href="#basic-1" class="hash-link" aria-label="Direct link to basic-1" title="Direct link to basic-1">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="️-webpart-title-2">🏷️ Webpart Title<a href="#️-webpart-title-2" class="hash-link" aria-label="Direct link to 🏷️ Webpart Title" title="Direct link to 🏷️ Webpart Title">​</a></h5>
+<ul>
+<li>Set a custom title to label the web part clearly.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-select-a-list-1">📃 Select a List<a href="#-select-a-list-1" class="hash-link" aria-label="Direct link to 📃 Select a List" title="Direct link to 📃 Select a List">​</a></h5>
+<ul>
+<li>Choose the relevant SharePoint list (e.g., <strong>Tool Links</strong> or <strong>Quick Links</strong>) to populate the links.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="view-settings-1"><u>View settings</u><a href="#view-settings-1" class="hash-link" aria-label="Direct link to view-settings-1" title="Direct link to view-settings-1">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-layouts">🧱 Layouts<a href="#-layouts" class="hash-link" aria-label="Direct link to 🧱 Layouts" title="Direct link to 🧱 Layouts">​</a></h5>
+<ul>
+<li>Select your preferred layout style:<!-- -->
+<ul>
+<li><strong>Vertical</strong></li>
+<li><strong>Horizontal</strong></li>
+</ul>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="list-settings"><u>List settings</u><a href="#list-settings" class="hash-link" aria-label="Direct link to list-settings" title="Direct link to list-settings">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-view-list">🔍 View List<a href="#-view-list" class="hash-link" aria-label="Direct link to 🔍 View List" title="Direct link to 🔍 View List">​</a></h5>
+<ul>
+<li>Quickly access the connected list for edits or updates.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-screenshots-2">📸 Screenshots<a href="#-screenshots-2" class="hash-link" aria-label="Direct link to 📸 Screenshots" title="Direct link to 📸 Screenshots">​</a></h3>
+<ul>
+<li><strong>Screenshot</strong>: Quick Links web part
+<img decoding="async" loading="lazy" alt="QuickLinks" src="/documentation/assets/images/ToolLinks-070495eb131e27141b373e89f079abe5.png" width="1088" height="231" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="Quick Links" src="/documentation/assets/images/Quicklinks-75946bce7a303993f3377beb5d494fa5.png" width="410" height="532" class="img_ev3q"></li>
+<li><strong>Screenshot</strong>: Property pane
+<img decoding="async" loading="lazy" alt="QlPropertypane" src="/documentation/assets/images/QLPropertpane-cff7d71ccf66ccc742d3255e26c44a5e.png" width="817" height="691" class="img_ev3q"></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-4-employee-search">👥 4. Employee Search<a href="#-4-employee-search" class="hash-link" aria-label="Direct link to 👥 4. Employee Search" title="Direct link to 👥 4. Employee Search">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-details-3">📋 Details<a href="#-details-3" class="hash-link" aria-label="Direct link to 📋 Details" title="Direct link to 📋 Details">​</a></h3>
+<p>Easily browse and discover employee information across the organization:</p>
+<ul>
+<li><strong>Employee Directory</strong>: View detailed staff profiles including name, role, contact info, and more.</li>
+<li><strong>Easy Search</strong>: Use advanced filters to quickly locate team members by department, job title, or other attributes.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-configuration-options-3">⚙️ Configuration Options<a href="#️-configuration-options-3" class="hash-link" aria-label="Direct link to ⚙️ Configuration Options" title="Direct link to ⚙️ Configuration Options">​</a></h3>
+<p>Configure the <strong>Employee Search</strong> web part to fit your organization’s needs:</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="basic-2"><u>Basic</u><a href="#basic-2" class="hash-link" aria-label="Direct link to basic-2" title="Direct link to basic-2">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="️-webpart-title-3">🏷️ Webpart Title<a href="#️-webpart-title-3" class="hash-link" aria-label="Direct link to 🏷️ Webpart Title" title="Direct link to 🏷️ Webpart Title">​</a></h4>
+<ul>
+<li>Enter a <strong>custom title</strong> for the web part.</li>
+</ul>
+<hr>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="-query-settings"><u>🔍 Query Settings</u><a href="#-query-settings" class="hash-link" aria-label="Direct link to -query-settings" title="Direct link to -query-settings">​</a></h4>
+<p>Fine-tune what user data is displayed using query parameters:</p>
+<ul>
+<li><strong><code>$select</code></strong>: Choose user properties to display (e.g., <code>id</code>, <code>userPrincipalName</code>, <code>displayName</code>, <code>mail</code>, <code>jobTitle</code>, <code>mobilePhone</code>, <code>companyName</code>).</li>
+<li><strong><code>$filter</code></strong>: Filter users by specific property (e.g., <code>jobTitle eq &#x27;HR&#x27;</code>).</li>
+<li><strong><code>$orderby</code></strong>: Sort users based on selected field (e.g., <code>displayName</code> or <code>jobTitle</code>).</li>
+<li><strong>Number of Items per Page</strong>: Define how many user profiles appear per page.</li>
+</ul>
+<hr>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="-search-parameter"><u>🔎 Search Parameter</u><a href="#-search-parameter" class="hash-link" aria-label="Direct link to -search-parameter" title="Direct link to -search-parameter">​</a></h4>
+<ul>
+<li><strong><code>$search</code></strong>: Choose the appropriate search behavior based on your requirements.</li>
+</ul>
+<hr>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="-styling-options"><u>🎨 Styling Options</u><a href="#-styling-options" class="hash-link" aria-label="Direct link to -styling-options" title="Direct link to -styling-options">​</a></h4>
+<p>Customize the appearance and interactivity of the web part:</p>
+<ul>
+<li><strong>Show Pagination</strong>: Enable navigation to browse additional users.</li>
+<li><strong>Show Blank if No Result</strong>: Display nothing if no user is found.</li>
+<li><strong>Show Results Count</strong>: Show total number of matching users.</li>
+<li><strong>Show Live Persona Card</strong>: Display user card with details on hover.</li>
+<li><strong>Results Layout</strong>: Choose the <strong>People</strong> layout for displaying profiles.</li>
+</ul>
+<hr>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="-template-options"><u>🧩 Template Options</u><a href="#-template-options" class="hash-link" aria-label="Direct link to -template-options" title="Direct link to -template-options">​</a></h4>
+<p>Adjust how user data is visually displayed:</p>
+<ul>
+<li><strong>Manage Persona Fields</strong>: Rearrange or modify which fields show in the web part.</li>
+<li><strong>Picture Size</strong>: Set profile picture size to match your layout preferences.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-screenshots-3">📸 Screenshots<a href="#-screenshots-3" class="hash-link" aria-label="Direct link to 📸 Screenshots" title="Direct link to 📸 Screenshots">​</a></h3>
+<ul>
+<li><strong>Screenshot</strong>: Employee Search web part
+<img decoding="async" loading="lazy" alt="EmployeeSearch" src="/documentation/assets/images/EmployeeSearch-b4fd9c10b2b778fd29dc3acf79eacfae.png" width="447" height="567" class="img_ev3q"></li>
+<li><strong>Screenshot</strong>: Property pane
+<img decoding="async" loading="lazy" alt="ESPropertPane" src="/documentation/assets/images/ESPropertPane-f41f42789958e86dd7bb74eabd50fe79.png" width="519" height="759" class="img_ev3q"></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-5-rss-feed">📰 5. RSS Feed<a href="#-5-rss-feed" class="hash-link" aria-label="Direct link to 📰 5. RSS Feed" title="Direct link to 📰 5. RSS Feed">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-details-4">📋 Details<a href="#-details-4" class="hash-link" aria-label="Direct link to 📋 Details" title="Direct link to 📋 Details">​</a></h3>
+<p>Integrate external news sources directly into your intranet for broader visibility:</p>
+<ul>
+<li><strong>External News Integration</strong>: Pulls in news from trusted sources like Microsoft, TechCrunch, and more.</li>
+<li><strong>Unified Design</strong>: Seamlessly styled to match internal news web parts.</li>
+<li><strong>Content Preview</strong>: Displays headline, summary, and publication date for quick insights.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-configuration-options-4">⚙️ Configuration Options<a href="#️-configuration-options-4" class="hash-link" aria-label="Direct link to ⚙️ Configuration Options" title="Direct link to ⚙️ Configuration Options">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="️-basic-configurations"><u>⚙️ Basic Configurations</u><a href="#️-basic-configurations" class="hash-link" aria-label="Direct link to ️-basic-configurations" title="Direct link to ️-basic-configurations">​</a></h4>
+<p>Configure your <strong>RSS Feed</strong> web part with the following settings:</p>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="️-webpart-title-4">🏷️ Webpart Title<a href="#️-webpart-title-4" class="hash-link" aria-label="Direct link to 🏷️ Webpart Title" title="Direct link to 🏷️ Webpart Title">​</a></h5>
+<ul>
+<li>Enter a <strong>custom title</strong> in the first textbox to label the web part.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-rss-url">🔗 RSS URL<a href="#-rss-url" class="hash-link" aria-label="Direct link to 🔗 RSS URL" title="Direct link to 🔗 RSS URL">​</a></h5>
+<ul>
+<li>Add the <strong>RSS feed URL</strong> in the second textbox.</li>
+<li><em>Note:</em> If left blank, the feed will not load.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-rss-api-key">🔐 RSS API Key<a href="#-rss-api-key" class="hash-link" aria-label="Direct link to 🔐 RSS API Key" title="Direct link to 🔐 RSS API Key">​</a></h5>
+<ul>
+<li>Paste your <strong>API key</strong> (if required) into the third textbox.</li>
+</ul>
+<hr>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="-feed-controls"><u>🔧 Feed Controls</u><a href="#-feed-controls" class="hash-link" aria-label="Direct link to -feed-controls" title="Direct link to -feed-controls">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-max-count-per-page">📄 Max Count Per Page<a href="#-max-count-per-page" class="hash-link" aria-label="Direct link to 📄 Max Count Per Page" title="Direct link to 📄 Max Count Per Page">​</a></h5>
+<ul>
+<li>Use the <strong>first slider</strong> to set the number of feed items displayed per page.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-data-limits">📊 Data Limits<a href="#-data-limits" class="hash-link" aria-label="Direct link to 📊 Data Limits" title="Direct link to 📊 Data Limits">​</a></h5>
+<ul>
+<li>Use the <strong>second slider</strong> to determine how many articles or items are retrieved from the feed at once.</li>
+</ul>
+<hr>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="️-additional-settings"><u>🎛️ Additional Settings</u><a href="#️-additional-settings" class="hash-link" aria-label="Direct link to ️-additional-settings" title="Direct link to ️-additional-settings">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="️-see-all-button-toggle">👁️ See All Button Toggle<a href="#️-see-all-button-toggle" class="hash-link" aria-label="Direct link to 👁️ See All Button Toggle" title="Direct link to 👁️ See All Button Toggle">​</a></h5>
+<ul>
+<li>Enable or disable the <strong>&quot;See All&quot;</strong> button.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-view-all-url-1">🔗 View All URL<a href="#-view-all-url-1" class="hash-link" aria-label="Direct link to 🔗 View All URL" title="Direct link to 🔗 View All URL">​</a></h5>
+<ul>
+<li>Provide a link that the <strong>&quot;See All&quot;</strong> button redirects to.</li>
+<li>This link should show the full list of RSS feeds.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-webpart-height">📏 Webpart Height<a href="#-webpart-height" class="hash-link" aria-label="Direct link to 📏 Webpart Height" title="Direct link to 📏 Webpart Height">​</a></h5>
+<ul>
+<li>Adjust the <strong>web part height</strong> using the slider to match your layout needs.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-screenshots-4">📸 Screenshots<a href="#-screenshots-4" class="hash-link" aria-label="Direct link to 📸 Screenshots" title="Direct link to 📸 Screenshots">​</a></h3>
+<ul>
+<li><strong>Screenshot</strong>: RSS Feed web part
+<img decoding="async" loading="lazy" alt="RSSFeeds" src="/documentation/assets/images/RSSFeeds-9fcb6dabb6b53d34734a38b7805920b6.png" width="567" height="735" class="img_ev3q"></li>
+<li><strong>Screenshot</strong>: Property pane
+<img decoding="async" loading="lazy" alt="RSSPropertypane" src="/documentation/assets/images/RSSPropertypane-50393c9f2d2787f015933f503e923dac.png" width="524" height="563" class="img_ev3q"></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-6-faqs">❓ 6. FAQs<a href="#-6-faqs" class="hash-link" aria-label="Direct link to ❓ 6. FAQs" title="Direct link to ❓ 6. FAQs">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-details-5">📋 Details<a href="#-details-5" class="hash-link" aria-label="Direct link to 📋 Details" title="Direct link to 📋 Details">​</a></h3>
+<p>Provide a centralized knowledge base for commonly asked questions:</p>
+<ul>
+<li><strong>Knowledge Base</strong>: Easily accessible answers to frequent employee or customer inquiries.</li>
+<li><strong>Organized Categories</strong>: FAQs are grouped into categories for smoother navigation and quicker discovery.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-configuration-options-5">⚙️ Configuration Options<a href="#️-configuration-options-5" class="hash-link" aria-label="Direct link to ⚙️ Configuration Options" title="Direct link to ⚙️ Configuration Options">​</a></h3>
+<p>Fine-tune your <strong>FAQs</strong> web part with these settings:</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="basic-3"><u>Basic</u><a href="#basic-3" class="hash-link" aria-label="Direct link to basic-3" title="Direct link to basic-3">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="️-webpart-title-5">🏷️ Webpart Title<a href="#️-webpart-title-5" class="hash-link" aria-label="Direct link to 🏷️ Webpart Title" title="Direct link to 🏷️ Webpart Title">​</a></h5>
+<ul>
+<li>Customize the title that appears above the FAQs section.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-select-a-list-2">📃 Select a List<a href="#-select-a-list-2" class="hash-link" aria-label="Direct link to 📃 Select a List" title="Direct link to 📃 Select a List">​</a></h5>
+<ul>
+<li>Choose the SharePoint <strong>FAQs list</strong> where all Q&amp;A entries are stored and managed.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-height">📏 Height<a href="#-height" class="hash-link" aria-label="Direct link to 📏 Height" title="Direct link to 📏 Height">​</a></h5>
+<ul>
+<li>Adjust the <strong>height</strong> of the web part to fit your design needs.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-display-all-items">🔄 Display All Items<a href="#-display-all-items" class="hash-link" aria-label="Direct link to 🔄 Display All Items" title="Direct link to 🔄 Display All Items">​</a></h5>
+<ul>
+<li>Toggle ON to display <strong>all FAQ entries</strong> from the list.</li>
+<li>Toggle OFF to show a limited number.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-items-to-show">🔢 Items to Show<a href="#-items-to-show" class="hash-link" aria-label="Direct link to 🔢 Items to Show" title="Direct link to 🔢 Items to Show">​</a></h5>
+<ul>
+<li>Specify how many FAQ items to display when <strong>Display All Items</strong> is turned off.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-view-all-url-2">🔗 View All URL<a href="#-view-all-url-2" class="hash-link" aria-label="Direct link to 🔗 View All URL" title="Direct link to 🔗 View All URL">​</a></h5>
+<ul>
+<li>Add a link to the full FAQ page if available.</li>
+<li>Leave blank if no dedicated page exists.</li>
+<li>Deafult value: <code>{siteUrl}/Lists/FAQs/AllItems.aspx</code></li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="filter-items"><u>Filter items</u><a href="#filter-items" class="hash-link" aria-label="Direct link to filter-items" title="Direct link to filter-items">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-sort-by">🔤 Sort By<a href="#-sort-by" class="hash-link" aria-label="Direct link to 🔤 Sort By" title="Direct link to 🔤 Sort By">​</a></h5>
+<ul>
+<li>Choose how FAQs are ordered:<!-- -->
+<ul>
+<li><strong>A to Z</strong></li>
+<li><strong>Z to A</strong></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-screenshots-5">📸 Screenshots<a href="#-screenshots-5" class="hash-link" aria-label="Direct link to 📸 Screenshots" title="Direct link to 📸 Screenshots">​</a></h3>
+<ul>
+<li><strong>Screenshot</strong>: FAQs
+<img decoding="async" loading="lazy" alt="FAQs" src="/documentation/assets/images/FAQs-939f6b84c43630e4fd80c8d90ae74864.png" width="330" height="412" class="img_ev3q"></li>
+<li><strong>Screenshot</strong>: Property pane
+<img decoding="async" loading="lazy" alt="FAQPropertpane" src="/documentation/assets/images/FAQPropertyPane-79ffaf302d2621527e6d132f464af907.png" width="820" height="563" class="img_ev3q"></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-7-events-calendar">📅 7. Events Calendar<a href="#-7-events-calendar" class="hash-link" aria-label="Direct link to 📅 7. Events Calendar" title="Direct link to 📅 7. Events Calendar">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-details-6">📋 Details<a href="#-details-6" class="hash-link" aria-label="Direct link to 📋 Details" title="Direct link to 📋 Details">​</a></h3>
+<p>Keep everyone updated with key organizational dates and activities:</p>
+<ul>
+<li><strong>Event Calendar</strong>: Displays company meetings, events, holidays, and other important dates.</li>
+<li><strong>Detailed Info</strong>: Includes date, time, location, and other essential details for each event.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-configuration-options-6">⚙️ Configuration Options<a href="#️-configuration-options-6" class="hash-link" aria-label="Direct link to ⚙️ Configuration Options" title="Direct link to ⚙️ Configuration Options">​</a></h3>
+<p>Set up your <strong>Events Calendar</strong> web part with the following configurable settings:</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="calendar-list"><u>Calendar list</u><a href="#calendar-list" class="hash-link" aria-label="Direct link to calendar-list" title="Direct link to calendar-list">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-calendar-list">📂 Calendar List<a href="#-calendar-list" class="hash-link" aria-label="Direct link to 📂 Calendar List" title="Direct link to 📂 Calendar List">​</a></h5>
+<ul>
+<li>Quick access to the connected SharePoint <strong>Events list</strong>.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="view-configurations"><u>View configurations</u><a href="#view-configurations" class="hash-link" aria-label="Direct link to view-configurations" title="Direct link to view-configurations">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="️-webpart-title-6">🏷️ Webpart Title<a href="#️-webpart-title-6" class="hash-link" aria-label="Direct link to 🏷️ Webpart Title" title="Direct link to 🏷️ Webpart Title">​</a></h5>
+<ul>
+<li>Customize the title that appears above the calendar.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-select-a-list-3">📃 Select a List<a href="#-select-a-list-3" class="hash-link" aria-label="Direct link to 📃 Select a List" title="Direct link to 📃 Select a List">​</a></h5>
+<ul>
+<li>Choose the <strong>events list</strong> from the dropdown to fetch and display event data.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-filter-events">🧮 Filter Events<a href="#-filter-events" class="hash-link" aria-label="Direct link to 🧮 Filter Events" title="Direct link to 🧮 Filter Events">​</a></h5>
+<ul>
+<li>Select from dropdown filters to control what events are shown:<!-- -->
+<ul>
+<li><strong>Upcoming Events</strong> – Only shows future events.</li>
+<li><strong>Previous (nth) Months</strong> – Also includes past events from the specified number of months.<!-- -->
+<ul>
+<li>Past events are highlighted in the calendar, and clicking a date reveals event details.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-show-calendar">📆 Show Calendar<a href="#-show-calendar" class="hash-link" aria-label="Direct link to 📆 Show Calendar" title="Direct link to 📆 Show Calendar">​</a></h5>
+<ul>
+<li>Toggle ON/OFF to display or hide the visual calendar interface.</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="-view-all-url-3">🔗 View All URL<a href="#-view-all-url-3" class="hash-link" aria-label="Direct link to 🔗 View All URL" title="Direct link to 🔗 View All URL">​</a></h5>
+<ul>
+<li>
+<p>Link to a page where all events are listed.</p>
+</li>
+<li>
+<p>Leave default or update as needed.</p>
+<p><strong>Default Value</strong>:<br>
+<code>{siteUrl}/_layouts/15/Events.aspx?ListGuid={listID}</code></p>
+</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="️-show-event-icons">🖼️ Show Event Icons<a href="#️-show-event-icons" class="hash-link" aria-label="Direct link to 🖼️ Show Event Icons" title="Direct link to 🖼️ Show Event Icons">​</a></h5>
+<ul>
+<li>Enable or disable <strong>category icons</strong> for each event to visually distinguish event types.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="event-configurations"><u>Event Configurations</u><a href="#event-configurations" class="hash-link" aria-label="Direct link to event-configurations" title="Direct link to event-configurations">​</a></h4>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="add-new-event">Add new event<a href="#add-new-event" class="hash-link" aria-label="Direct link to Add new event" title="Direct link to Add new event">​</a></h5>
+<ul>
+<li>Click to add a new event</li>
+</ul>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id="edit-events">Edit events<a href="#edit-events" class="hash-link" aria-label="Direct link to Edit events" title="Direct link to Edit events">​</a></h5>
+<ul>
+<li>This will redirect to events list where you can make changes to the event</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-screenshots-6">📸 Screenshots<a href="#-screenshots-6" class="hash-link" aria-label="Direct link to 📸 Screenshots" title="Direct link to 📸 Screenshots">​</a></h3>
+<ul>
+<li>
+<p><strong>Screenshot</strong>: Upcoming Events
+<img decoding="async" loading="lazy" alt="UpcomingEvents" src="/documentation/assets/images/UpcomingEvents-1a1a285e837a3e830a5e265972f44c97.png" width="1904" height="910" class="img_ev3q"></p>
+</li>
+<li>
+<p><strong>Screenshot</strong>: Property pane
+<img decoding="async" loading="lazy" alt="UEPropertpane" src="/documentation/assets/images/UEPropertpane-549f833fab1b1738578ae8739a4914b5.png" width="521" height="571" class="img_ev3q"></p>
+</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/design-1/configuration.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/documentation/docs/design-1/installation"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Installation</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/documentation/docs/design-1/webparts"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Webparts</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-1-features-news" class="table-of-contents__link toc-highlight">📰 1. Features News</a><ul><li><a href="#-details" class="table-of-contents__link toc-highlight">📋 Details</a></li><li><a href="#️-configuration-options" class="table-of-contents__link toc-highlight">⚙️ Configuration Options</a></li><li><a href="#-screenshots" class="table-of-contents__link toc-highlight">📸 Screenshots</a></li></ul></li><li><a href="#-2-breaking-news" class="table-of-contents__link toc-highlight">🚨 2. Breaking News</a><ul><li><a href="#-details-1" class="table-of-contents__link toc-highlight">📋 Details</a></li><li><a href="#️-configuration-options-1" class="table-of-contents__link toc-highlight">⚙️ Configuration Options</a></li><li><a href="#-screenshots-1" class="table-of-contents__link toc-highlight">📸 Screenshots</a></li></ul></li><li><a href="#-3-quick-links" class="table-of-contents__link toc-highlight">🔗 3. Quick Links</a><ul><li><a href="#-details-2" class="table-of-contents__link toc-highlight">📋 Details</a></li><li><a href="#️-configuration-options-2" class="table-of-contents__link toc-highlight">⚙️ Configuration Options</a></li><li><a href="#-screenshots-2" class="table-of-contents__link toc-highlight">📸 Screenshots</a></li></ul></li><li><a href="#-4-employee-search" class="table-of-contents__link toc-highlight">👥 4. Employee Search</a><ul><li><a href="#-details-3" class="table-of-contents__link toc-highlight">📋 Details</a></li><li><a href="#️-configuration-options-3" class="table-of-contents__link toc-highlight">⚙️ Configuration Options</a></li><li><a href="#-screenshots-3" class="table-of-contents__link toc-highlight">📸 Screenshots</a></li></ul></li><li><a href="#-5-rss-feed" class="table-of-contents__link toc-highlight">📰 5. RSS Feed</a><ul><li><a href="#-details-4" class="table-of-contents__link toc-highlight">📋 Details</a></li><li><a href="#️-configuration-options-4" class="table-of-contents__link toc-highlight">⚙️ Configuration Options</a></li><li><a href="#-screenshots-4" class="table-of-contents__link toc-highlight">📸 Screenshots</a></li></ul></li><li><a href="#-6-faqs" class="table-of-contents__link toc-highlight">❓ 6. FAQs</a><ul><li><a href="#-details-5" class="table-of-contents__link toc-highlight">📋 Details</a></li><li><a href="#️-configuration-options-5" class="table-of-contents__link toc-highlight">⚙️ Configuration Options</a></li><li><a href="#-screenshots-5" class="table-of-contents__link toc-highlight">📸 Screenshots</a></li></ul></li><li><a href="#-7-events-calendar" class="table-of-contents__link toc-highlight">📅 7. Events Calendar</a><ul><li><a href="#-details-6" class="table-of-contents__link toc-highlight">📋 Details</a></li><li><a href="#️-configuration-options-6" class="table-of-contents__link toc-highlight">⚙️ Configuration Options</a></li><li><a href="#-screenshots-6" class="table-of-contents__link toc-highlight">📸 Screenshots</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/documentation/docs/intro">Documentation</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.linkedin.com/company/sharepoint-designs/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Linkedin<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.sharepointdesigns.com/blog" target="_blank" rel="noopener noreferrer" class="footer__link-item">Blog</a></li><li class="footer__item"><a href="https://github.com/sharepointdesigns" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 SharePoint Designs.</div></div></div></footer></div>
 </body>
 </html>
