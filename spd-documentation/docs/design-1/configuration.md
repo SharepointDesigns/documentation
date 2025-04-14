@@ -218,8 +218,32 @@ Configure the **Employee Search** web part to fit your organization’s needs:
 
 Fine-tune what user data is displayed using query parameters:
 
+<<<<<<< HEAD
+- **`$filter`**: Filter users by specific property (e.g., `jobTitle eq 'HR'`).
+
+  #### Supported `$filter` Properties for Microsoft Graph `/users`
+
+  | Property            | Description / Example Usage                                           |
+  | ------------------- | --------------------------------------------------------------------- |
+  | `displayName`       | Filter by full display name.<br/>`displayName eq 'John Doe'`          |
+  | `givenName`         | First name.<br/>`givenName eq 'John'`                                 |
+  | `surname`           | Last name.<br/>`surname eq 'Smith'`                                   |
+  | `mail`              | User's email.<br/>`mail eq 'john@contoso.com'`                        |
+  | `userPrincipalName` | UPN (login name).<br/>`userPrincipalName eq 'john@contoso.com'`       |
+  | `jobTitle`          | Filter by job title.<br/>`jobTitle eq 'HR Manager'`                   |
+  | `department`        | Department name.<br/>`department eq 'Sales'`                          |
+  | `mobilePhone`       | Mobile phone number.<br/>`mobilePhone eq '+1234567890'`               |
+  | `officeLocation`    | Office location.<br/>`officeLocation eq 'New York'`                   |
+  | `preferredLanguage` | User's language.<br/>`preferredLanguage eq 'en-US'`                   |
+  | `city`              | City name.<br/>`city eq 'Seattle'`                                    |
+  | `state`             | State or province.<br/>`state eq 'WA'`                                |
+  | `country`           | Country name.<br/>`country eq 'United States'`                        |
+  | `createdDateTime`   | Date user was created.<br/>`createdDateTime ge  2024-01-01T00:00:00Z` |
+
+=======
 - **`$select`**: Choose user properties to display (e.g., `id`, `userPrincipalName`, `displayName`, `mail`, `jobTitle`, `mobilePhone`, `companyName`).
 - **`$filter`**: Filter users by specific property (e.g., `jobTitle eq 'HR'`).
+>>>>>>> main
 - **`$orderby`**: Sort users based on selected field (e.g., `displayName` or `jobTitle`).
 - **Number of Items per Page**: Define how many user profiles appear per page.
 
@@ -254,10 +278,20 @@ Adjust how user data is visually displayed:
 
 ### 📸 Screenshots
 
+<<<<<<< HEAD
+**Screenshot**: Employee Search web part
+
+![EmployeeSearch](assets/EmployeeSearch.png)
+
+**Screenshot**: Property pane
+
+![ESPropertPane](assets/ESPropertPane.png)
+=======
 - **Screenshot**: Employee Search web part
   ![EmployeeSearch](assets/EmployeeSearch.png)
 - **Screenshot**: Property pane
   ![ESPropertPane](assets/ESPropertPane.png)
+>>>>>>> main
 
 ## 📰 5. RSS Feed
 
@@ -298,10 +332,13 @@ Configure your **RSS Feed** web part with the following settings:
 
 - Use the **first slider** to set the number of feed items displayed per page.
 
+<<<<<<< HEAD
+=======
 ##### 📊 Data Limits
 
 - Use the **second slider** to determine how many articles or items are retrieved from the feed at once.
 
+>>>>>>> main
 ---
 
 #### <u>🎛️ Additional Settings</u>
@@ -323,10 +360,20 @@ Configure your **RSS Feed** web part with the following settings:
 
 ### 📸 Screenshots
 
+<<<<<<< HEAD
+**Screenshot**: RSS Feed web part
+
+![RSSFeeds](assets/RSSFeeds.png)
+
+**Screenshot**: Property pane
+
+![RSSPropertypane](assets/RSSPropertypane.png)
+=======
 - **Screenshot**: RSS Feed web part
   ![RSSFeeds](assets/RSSFeeds.png)
 - **Screenshot**: Property pane
   ![RSSPropertypane](assets/RSSPropertypane.png)
+>>>>>>> main
 
 ## ❓ 6. FAQs
 
@@ -384,10 +431,20 @@ Fine-tune your **FAQs** web part with these settings:
 
 ### 📸 Screenshots
 
+<<<<<<< HEAD
+**Screenshot**: FAQs
+
+![FAQs](assets/FAQs.png)
+
+**Screenshot**: Property pane
+
+![FAQPropertpane](assets/FAQPropertyPane.png)
+=======
 - **Screenshot**: FAQs
   ![FAQs](assets/FAQs.png)
 - **Screenshot**: Property pane
   ![FAQPropertpane](assets/FAQPropertyPane.png)
+>>>>>>> main
 
 ## 📅 7. Events Calendar
 
@@ -436,7 +493,11 @@ Set up your **Events Calendar** web part with the following configurable setting
 - Link to a page where all events are listed.
 - Leave default or update as needed.
 
+<<<<<<< HEAD
+  **Default Value**:
+=======
   **Default Value**:  
+>>>>>>> main
   `{siteUrl}/_layouts/15/Events.aspx?ListGuid={listID}`
 
 ##### 🖼️ Show Event Icons
@@ -457,8 +518,17 @@ Set up your **Events Calendar** web part with the following configurable setting
 
 ### 📸 Screenshots
 
+<<<<<<< HEAD
+**Screenshot**: Upcoming Events
+![UpcomingEvents](assets/UpcomingEvents.png)
+
+**Screenshot**: Property pane
+
+![UEPropertpane](assets/UEPropertpane.png)
+=======
 - **Screenshot**: Upcoming Events
   ![UpcomingEvents](assets/UpcomingEvents.png)
 
 - **Screenshot**: Property pane
   ![UEPropertpane](assets/UEPropertpane.png)
+>>>>>>> main
