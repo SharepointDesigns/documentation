@@ -10,8 +10,15 @@ sidebar_position: 2
 - Approve the API Request for Employee Search webpart to work correctly.
 - **Required Permissions**
   - `User.Read.All`,
+<<<<<<< HEAD
 - Navigate to any modern SharePoint site, Click the **Settings** icon
 - Select **“Add an app”**, and choose **Intranet Design 1 by Sharepoint Designs**
+=======
+  - `Directory.AccessAsUser.All`,
+  - `Directory.Real.All`
+- Navigate to any modern SharePoint site, Click the **Settings** icon
+- Select **“Add an app”**, and choose **Design 1 by SharePoint Designs**
+>>>>>>> main
 - Click **Add**
 - After installation, go to **Site Contents** to confirm it's added to the site.
 
@@ -87,10 +94,17 @@ The following SharePoint Lists are automatically created:
 
 ## 🧹 Uninstall Guide
 
+<<<<<<< HEAD
 Follow the steps below to uninstall the **Intranet Design 1 by Sharepoint Designs** app from your SharePoint site:
 
 1. Go to your SharePoint site and click on **Site Contents** from the left side navigation or the settings menu.
 2. Find **Intranet Design 1 by Sharepoint Designs** in the list of installed apps.
+=======
+Follow the steps below to uninstall the **Design 1 by SharePoint Designs** app from your SharePoint site:
+
+1. Go to your SharePoint site and click on **Site Contents** from the left side navigation or the settings menu.
+2. Find **Design 1 by SharePoint Designs** in the list of installed apps.
+>>>>>>> main
 3. Click the three dots (···) next to the app name and select **"Remove"**.
 4. If prompted to switch to the **Classic Experience**, follow the prompt to proceed.
 5. In the Classic Experience, hover over the app again, click the three dots (···), and then click **Remove** to finalize the uninstallation.

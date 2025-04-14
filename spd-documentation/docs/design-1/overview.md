@@ -4,7 +4,11 @@ sidebar_position: 1
 
 # Overview
 
+<<<<<<< HEAD
 ## Intranet Intranet Design 1 by Sharepoint Designs
+=======
+## Intranet Design 1 by SharePoint Designs
+>>>>>>> main
 
 🧩 **Design 1 Site Setup by SharePoint Designs**  
 Effortless SharePoint site creation starts here.

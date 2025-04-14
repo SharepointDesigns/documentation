@@ -104,6 +104,7 @@ const config: Config = {
               label: "Linkedin",
               href: "https://www.linkedin.com/company/sharepoint-designs/",
             },
+<<<<<<< HEAD
             {
               label: "Blog",
               to: "https://www.sharepointdesigns.com/blog",
@@ -124,6 +125,20 @@ const config: Config = {
             {
               label: "📞 +91 9884189463",
               to: "tel:+919884189463",
+=======
+          ],
+        },
+        {
+          title: "More",
+          items: [
+            {
+              label: "Blog",
+              to: "https://www.sharepointdesigns.com/blog",
+            },
+            {
+              label: "GitHub",
+              href: "https://github.com/sharepointdesigns",
+>>>>>>> main
             },
           ],
         },
