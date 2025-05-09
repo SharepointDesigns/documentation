@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Intranet Intranet Design 1 SubPages by Sharepoint Designs
 
-🧩 **Design 1 SubPages Setup by SharePoint Designs**  
+🧩 **Design 1 SubPages Setup by SharePoint Designs**
 Effortless SharePoint site creation starts here.
 
 The **Design 1 SubPages Setup** web part by **SharePoint Designs** enables organizations to quickly deploy a well-structured and visually appealing SharePoint site, based on the popular **Design 1 SubPages** layout.
@@ -24,6 +24,14 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 ## PREREQUISITE
 
 - Please install [Intranet Design 1 by SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/wa200008452?tab=overviewhttps:/) from Microsoft AppSource to ensure proper design and functionality of your SharePoint site
+
+---
+
+## 🧪 Free Trial & Subscription
+
+- When the web part is added to a SharePoint page, a **free 14-day trial** starts automatically.
+- After the trial period ends, users will need to **purchase a license key** to continue using the web part.
+- The activation process is simple and guided — once the trial expires, users can click the **Activate** button on the web part, which opens a dialog with a **"Get Key"** option that redirects them to the payment page. [Refer here](https://sharepointdesigns.github.io/documentation/docs/design-1-subpages/installation#-activating-a-license-key)
 
 ---
 
