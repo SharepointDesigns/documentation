@@ -24,15 +24,24 @@ sidebar_position: 2
 
 ## 🧪 Testing Instructions
 
-### ➕ Add Design 1 Sub Pages Site Setup Web Part
+> **Note:** _Upon adding the web part to the page, a **free 14-day trial** will start automatically._
 
-> **Note:** _Upon adding the web part to the page, the free trial will start automatically._
+1. Navigate to a modern SharePoint page or create a new one.
+2. Edit the page and add the **"Design 1 SubPages Setup"** web part.
+   ![](assets/addwebparttoPage.png)
+3. **Republish** the page.
+4. **Select a page template** from the dropdown:
+   (_Home / Departments / Employee Resources / Policies & Procedures_)
+   ![](assets/20250509_170145_image.png)
+5. Click the **“Apply Design”** button.
 
-- Navigate to a modern SharePoint page (or create a new one).
-- Edit the page and add the **"Design 1 SubPages Site Setup"** web part.
-- Republish the page
-- "**Select a page template**" from the dropdown
-- Click the **“Apply template”** button.
+   > _Visible only after selecting a template._ > ![](assets/applyDesign.png)
+
+6. Do not close the browser. A pop-up will appear to create required lists and libraries with mock data (_Applicable only for lists_).
+7. After creation, the page will refresh automatically and proceed with adding the necessary web parts and layout.
+8. Once setup is complete, a button will appear to open the newly created page — click it to view your configured site.
+
+   ![](assets/creationComplete.png)
 
 ---
 
@@ -154,7 +163,7 @@ Follow the steps below to uninstall the **Intranet Design 1 SubPages by SharePoi
 
 ### 🗃️ Issue: Lists/Library Not Created
 
-**Solution**: Verify that the **"Apply template"** button was clicked after adding the **"Design 1 Subpages Site Setup"** web part. If the lists/Library are still not created, delete the page and reapply the design.
+**Solution**: Verify that the **"Apply template"** button was clicked after adding the **"Design 1 Subpages Setup"** web part. If the lists/Library are still not created, delete the page and reapply the design.
 
 ### 📝 Issue: Missing Demo Items
 
