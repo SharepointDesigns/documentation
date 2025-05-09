@@ -24,7 +24,7 @@ sidebar_position: 2
 
 ## 🧪 Testing Instructions
 
-> **Note:** _Upon adding the web part to the page, a **free 14-day trial** will start automatically._
+> **Note:** _Upon adding the web part to the page, a **free 15-day trial** will start automatically._
 
 1. Navigate to a modern SharePoint page or create a new one.
 2. Edit the page and add the **"Design 1 SubPages Setup"** web part.
