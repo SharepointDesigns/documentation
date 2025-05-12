@@ -18,5 +18,14 @@ import DocCard from "@theme/DocCard";
     "href": "/docs/category/design-1",
   }} />
 </article>
+<article className="col col--6 margin-bottom--lg">
+<DocCard item={{
+    "type": "link",
+    "label": "Design 2",
+    "icon":"arrow",
+    "href": "/docs/category/design-2",
+  }} />
+</article>
+
   </section>
   </article>
