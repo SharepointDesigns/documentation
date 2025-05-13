@@ -26,7 +26,7 @@ Configuration settings for each web part.
 
 #### 📌 Header Settings
 
-| **Property**       | **Description**                           | **Example / Options** |
+| 🏷️ Name      | 🎯 Purpose                            | 💡 Select Option |
 | ------------------ | ----------------------------------------- | --------------------- |
 | WebPart Title      | Title displayed for the web part          | TOP NAVIGATION        |
 | Hide WebPart Title | Toggle to show or hide the WebPart title  | Show / Hide           |
@@ -34,7 +34,7 @@ Configuration settings for each web part.
 
 #### 🎨 Appearance Settings
 
-| **Property** | **Description**                                   | **Example / Options** |
+| 🏷️ Name   | 🎯 Purpose                                   | 💡 Select Option |
 | ------------ | ------------------------------------------------- | --------------------- |
 | Layouts      | Defines the layout of the navigation items        | Horizontal            |
 | Alignment    | Aligns the navigation content                     | Left / Center / Right |
@@ -42,13 +42,13 @@ Configuration settings for each web part.
 
 #### ⚙️ General Settings
 
-| **Property**  | **Description**                                    | **Example / Options** |
+| 🏷️ Name    | 🎯 Purpose                                    | 💡 Select Option |
 | ------------- | -------------------------------------------------- | --------------------- |
 | Select a list | Selects the SharePoint list for navigation content | TopNavigation         |
 
 #### 🔐 Admin Settings
 
-| **Property**    | **Description**                           | **Example / Options** |
+| 🏷️ Name    | 🎯 Purpose                          | 💡 Select Option |
 | --------------- | ----------------------------------------- | --------------------- |
 | Show Admin Menu | Toggle to show admin-only features        | Show / Hide           |
 | Admin Users     | Specifies users who can access admin menu | xyz                   |
