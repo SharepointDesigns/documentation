@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 ---
+
 # Installation
 
 ## ⚙️ Installation Instructions
@@ -9,9 +10,11 @@ sidebar_position: 2
 - Navigate to any modern SharePoint site, Click the **Settings** icon
 
   ![](assets/addAnApp.png)
-- Select **“Add an app”**, and choose **Intranet Design 2 Site by SharePoint Designs** & **Intranet Design 2 by SharePoint Designs**
+
+- Select **“Add an app”**, and choose **Intranet Design 2 Site by SharePoint Designs**
 
   ![](assets/AddtoSite.png)
+
 - Click **Add**
 - After installation, go to **Site Contents** to confirm it's added to the site.
 
@@ -30,7 +33,7 @@ sidebar_position: 2
 4. Click the **“Apply Design”** button.
 
    > ![](assets/applyDesign.png)
-   >
+
 5. Do not close the browser. A pop-up will appear to create required lists and libraries with mock data (_Applicable only for lists_).
 6. After creation, the page will refresh automatically and proceed with adding the necessary web parts and layout.
 7. Once setup is complete, a button will appear to open the newly created page — click it to view your configured site.
@@ -45,15 +48,14 @@ sidebar_position: 2
 
 ### License Activation Steps
 
-
-| **Step** | **Action**                 | **Details / Notes**                                                                                                                                                                                                                                                                                                 |
-| ---------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1        | Go to the app page         | Navigate to the SharePoint page where the app is installed.                                                                                                                                                                                                                                                         |
+| **Step** | **Action**                 | **Details / Notes**                                                                                                                                                                                                                                                                                              |
+| -------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1        | Go to the app page         | Navigate to the SharePoint page where the app is installed.                                                                                                                                                                                                                                                      |
 | 2        | Open activation panel      | - If the trial**has expired**, you'll see an **"Activate"** button on the app — click it.<br/>![](assets/activate.png)<br/>- If the trial **is still active** and you want to activate it, edit the page → open the **Web Part property panel** → click **"Activate License"**.<br />![](assets/activatewpp.png) |
-| 3        | Launch activation dialog   | A dialog box will appear prompting for a key.<br/><br/>![](assets/GetKey.png)                                                                                                                                                                                                                                       |
-| 4        | Click**Get Key**           | In the license dialog, click**Get Key** — this will take you to the payment page in a new tab.                                                                                                                                                                                                                     |
-| 5        | Purchase the license       | Complete the payment process. Once done, you’ll receive a license key via email. Be sure to check your spam/junk folder if you don't see it.                                                                                                                                                                       |
-| 6        | Enter and activate the key | Go back to the SharePoint page, paste the license key into the dialog box, and click**Activate** to complete activation.                                                                                                                                                                                            |
+| 3        | Launch activation dialog   | A dialog box will appear prompting for a key.<br/><br/>![](assets/GetKey.png)                                                                                                                                                                                                                                    |
+| 4        | Click**Get Key**           | In the license dialog, click**Get Key** — this will take you to the payment page in a new tab.                                                                                                                                                                                                                   |
+| 5        | Purchase the license       | Complete the payment process. Once done, you’ll receive a license key via email. Be sure to check your spam/junk folder if you don't see it.                                                                                                                                                                     |
+| 6        | Enter and activate the key | Go back to the SharePoint page, paste the license key into the dialog box, and click**Activate** to complete activation.                                                                                                                                                                                         |
 
 ✅ **Done! Your app is now fully activated.**
 
@@ -77,9 +79,8 @@ The following SharePoint Lists are automatically created based on the Home Page:
 
 ## HOME PAGE
 
-
 | **Webpart**            | **Description**                                                                                                                                                   |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **🧭 Top Navigation**  | -**Intuitive Access**: Minimalist top navigation for easy access to essential intranet areas.                                                                     |
 | **👋 Welcome Banner**  | -**Personalized Welcome Banner**: Greets the user by name with the current date and time, creating a friendly and engaging intranet experience.                   |
 | **🔗 Quick Links**     | -**Essential Resources**: Provide easy access to frequently used tools and documents. <br/> - **Clear Icons**: Use formal icons and labels for better navigation. |
@@ -90,7 +91,7 @@ The following SharePoint Lists are automatically created based on the Home Page:
 
 ## 🧹 Uninstall Guide
 
-Follow the steps below to uninstall the **Intranet Design 1 SubPages by SharePoint Designs** app from your SharePoint site:
+Follow the steps below to uninstall the **Intranet Design 2 by SharePoint Designs** app from your SharePoint site:
 
 1. Go to your SharePoint site and click on **Site Contents** from the left side navigation or the settings menu.
 2. Find **Intranet Design 2 by SharePoint Designs** in the list of installed apps.

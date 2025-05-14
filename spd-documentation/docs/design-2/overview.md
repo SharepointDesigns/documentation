@@ -16,7 +16,7 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 
 ## ✅ Key Features
 
-- **One-Click SubPages Setup** – Instantly apply the full Design 2 layout with pre-configured sections, styles, and web parts.
+- **One-Click Site Setup** – Instantly apply the full Design 2 layout with pre-configured sections, styles, and web parts.
 - **Modern & Responsive Design** – Built to look great on desktop and mobile devices, with flexible layouts and customizable zones.
 - **Consistent Branding** – Apply a standardized look and feel across all sites to reinforce your brand identity.
 - **Productivity-Ready Components** – Includes quick links, Facilites, news feeds, Events Calendar, Holidays—ready to use out of the box.
@@ -38,5 +38,5 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 
 ## 📄 Documentation
 
-Everything you need to get started, configure, and deploy Design 2 Sub Pages is available in our documentation:
+Everything you need to get started, configure, and deploy Design 2 is available in our documentation:
 👉 [View Documentation](/documentation/docs/design-2/installation)
