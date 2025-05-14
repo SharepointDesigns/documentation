@@ -31,7 +31,7 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 
 - When the web part is added to a SharePoint page, a **free 15-day trial** starts automatically.
 - After the trial period ends, users will need to **purchase a license key** to continue using the web part.
-- The activation process is simple and guided — once the trial expires, users can click the **Activate** button on the web part, which opens a dialog with a **"Get Key"** option that redirects them to the payment page. [Refer here](https://sharepointdesigns.github.io/documentation/docs/design-1-subpages/installation#-activating-a-license-key)
+- The activation process is simple and guided — once the trial expires, users can click the **Activate** button on the web part, which opens a dialog with a **"Get Key"** option that redirects them to the payment page. [Refer here](https://sharepointdesigns.github.io/documentation/docs/design-1/design-1-subpages/installation#-activating-a-license-key)
 
 ---
 

@@ -26,32 +26,32 @@ Configuration settings for each web part.
 
 #### 📌 Header Settings
 
-| 🏷️ Name      | 🎯 Purpose                            | 💡 Select Option |
-| ------------------ | ----------------------------------------- | --------------------- |
-| WebPart Title      | Title displayed for the web part          | TOP NAVIGATION        |
-| Hide WebPart Title | Toggle to show or hide the WebPart title  | Show / Hide           |
-| Show See All Link  | Toggle to show or hide the "See All" link | Show / Hide           |
+| 🏷️ Name            | 🎯 Purpose                                | 💡 Select Option |
+| ------------------ | ----------------------------------------- | ---------------- |
+| WebPart Title      | Title displayed for the web part          | TOP NAVIGATION   |
+| Hide WebPart Title | Toggle to show or hide the WebPart title  | Show / Hide      |
+| Show See All Link  | Toggle to show or hide the "See All" link | Show / Hide      |
 
 #### 🎨 Appearance Settings
 
-| 🏷️ Name   | 🎯 Purpose                                   | 💡 Select Option |
-| ------------ | ------------------------------------------------- | --------------------- |
-| Layouts      | Defines the layout of the navigation items        | Horizontal            |
-| Alignment    | Aligns the navigation content                     | Left / Center / Right |
-| Show Border  | Toggle to show or hide border around the web part | Show / Hide           |
+| 🏷️ Name     | 🎯 Purpose                                        | 💡 Select Option      |
+| ----------- | ------------------------------------------------- | --------------------- |
+| Layouts     | Defines the layout of the navigation items        | Horizontal            |
+| Alignment   | Aligns the navigation content                     | Left / Center / Right |
+| Show Border | Toggle to show or hide border around the web part | Show / Hide           |
 
 #### ⚙️ General Settings
 
-| 🏷️ Name    | 🎯 Purpose                                    | 💡 Select Option |
-| ------------- | -------------------------------------------------- | --------------------- |
-| Select a list | Selects the SharePoint list for navigation content | TopNavigation         |
+| 🏷️ Name       | 🎯 Purpose                                         | 💡 Select Option |
+| ------------- | -------------------------------------------------- | ---------------- |
+| Select a list | Selects the SharePoint list for navigation content | TopNavigation    |
 
 #### 🔐 Admin Settings
 
-| 🏷️ Name    | 🎯 Purpose                          | 💡 Select Option |
-| --------------- | ----------------------------------------- | --------------------- |
-| Show Admin Menu | Toggle to show admin-only features        | Show / Hide           |
-| Admin Users     | Specifies users who can access admin menu | xyz                   |
+| 🏷️ Name         | 🎯 Purpose                                | 💡 Select Option |
+| --------------- | ----------------------------------------- | ---------------- |
+| Show Admin Menu | Toggle to show admin-only features        | Show / Hide      |
+| Admin Users     | Specifies users who can access admin menu | xyz              |
 
 #### ℹ️ About Section
 
