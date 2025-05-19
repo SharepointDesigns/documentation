@@ -4,6 +4,12 @@ sidebar_position: 3
 
 # Configuration
 
+### Note:
+
+The Home page should be configured using the "Design 1 Setup" web part to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
+
+Configuration settings for each web part.
+
 Configuration settings for each web part.
 
 ## 📰 1. Welcome Banner
@@ -130,6 +136,17 @@ This section allows configuration of high-level display properties for the Web P
 
 ![Goals](assets/Goals.png)
 
+### List Config
+
+Note: For the **Goals** webpart, create a list with the following columns.
+
+#### 📋 Required Columns
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type |
+| ------------------------------- | -------------- |
+| **Description**                 | Multiline      |
+| **Image**                       | Image          |
+
 ---
 
 #### ⚙️ General Settings
@@ -151,7 +168,9 @@ This section allows configuration of high-level display properties for the Web P
 
 ![Document Content](assets/DocumentContent.png)
 
----
+### Library Config
+
+Note: For the **Document Contents** webpart, create a seperate library if required or use any existing library.
 
 ### Document Content Web Part – Configuration Guide
 
@@ -236,6 +255,17 @@ The **Share Ideas** web part provides a platform for users to submit feedback, i
 
 ![Newsletter](assets/Newsletter.png)
 
+### Library Config
+
+Note: For the **Newsletter** webpart, create a library with the following columns.
+
+#### 📋 Required Columns
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type |
+| ------------------------------- | -------------- |
+| **Edition**                     | Datetime       |
+| **Cover Photo**                 | Image          |
+
 ---
 
 ### 📬 Newsletter Web Part – Configuration Guide
@@ -268,6 +298,12 @@ The **Newsletter** web part is designed to showcase company newsletters or annou
 The **Pixel Gallery** web part allows users to display images from a SharePoint document library in a slideshow format. It provides control over visual appearance and image source.
 
 ![Pixel Gallery](assets/PixelGallery.png)
+
+### Library Config
+
+Note: For the **Pixel gallery** webpart, create a library to store the images or use existing if already exist.
+
+#### 📋 Required Columns
 
 ---
 

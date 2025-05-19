@@ -1,10 +1,12 @@
----
-sidebar_position: 3
----
+## sidebar_position: 3
 
 # Configuration
 
 Configuration settings for each web part.
+
+### Note:
+
+All subpages should be configured using the "Design 2 SubPage Setup" web part to ensure that the required lists and libraries are created automatically with mock data. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
 
 ## 📇 1. Welcome Banner
 
@@ -15,10 +17,20 @@ Configuration settings for each web part.
 
 ![Welcome Banner](assets/welcomebannerwebpart.png)
 
+### List Config
+
+Note: If the layout selected for the Welcome Banner is **Employee Resource Banner**, it must be connected to a SharePoint list.
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type            |
+| ------------------------------- | ------------------------- |
+| **Name**                        | 👤 Person                 |
+| **Role**                        | 🔤 Single line of text    |
+| **Message Description**         | 📄 Multiple lines of text |
+| **Read MoreLink**               | 🔗 Hyperlink              |
+
 ### 🏷️ Welcome Banner Web Part – Property Pane Configuration
 
 ![Contact Cards Property Pane](assets/bannerPP.png)
-![Contact Cards Property Pane](assets/aboutPP.png)
 
 ### 🎨 Appearance Settings
 
@@ -40,14 +52,6 @@ Configuration settings for each web part.
 | Enter Manager Message Header   | Text for the header of the manager’s message          | Welcome Message  |
 | Enter Read More Text           | Text for the "Read More" link in the message section  | (Blank)          |
 | Change background              | Allows changing the background image of the banner    | Select image     |
-
-### ℹ️ About Section
-
-| 🏷️ Name                     | 🎯 Purpose                                                                           |
-| --------------------------- | ------------------------------------------------------------------------------------ |
-| **Developer Info**          | Indicates the web part is developed by**SharePoint Designs**.                        |
-| **Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
-| **Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
 ## 📰 2. Document Content
 
@@ -107,6 +111,15 @@ Provide a centralized knowledge base for commonly asked questions:
 
 ![Document Content](assets/FAQ.png)
 
+### List Config
+
+Note: For the **FAQ** section, if a list named **FAQs** already exists, you may use it. Otherwise, please create a new list with the columns specified below.
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type            |
+| ------------------------------- | ------------------------- |
+| **Description**                 | 📄 Multiple lines of text |
+| **Order**                       | 🔢 Number                 |
+
 ### 🏷️ FAQs Web Part – Property Pane Configuration
 
 ![Document Content](assets/FAQPP.png)
@@ -135,6 +148,14 @@ Provide a centralized knowledge base for commonly asked questions:
 - **Professional Display**: Present announcements/department news clearly and formally.
 - **Structured Layout**: Organized sections for each department.
   ![Featured News](assets\news.png)
+
+### Library Config
+
+Note: For the **Featured News** section, the following columns must be created in the Site Pages library.
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type |
+| ------------------------------- | -------------- |
+| **Category**                    | 📁 Choice      |
 
 ### 🏷️ Featured News Web Part – Property Pane Configuration
 
@@ -171,7 +192,7 @@ Provide a centralized knowledge base for commonly asked questions:
 
 ## 📝 5. Feedback / Share Your Ideas
 
-💡 **Engagement Tool**Enable users to easily share feedback, suggestions, or innovative ideas to enhance collaboration and continuous improvement.
+💡 **Engagement Tool** Enable users to easily share feedback, suggestions, or innovative ideas to enhance collaboration and continuous improvement.
 
 - **Interactive Interface**: A visually engaging section featuring an image and call-to-action button.
 - **Streamlined Communication**: Feedback is routed through the specified email or link.
@@ -208,6 +229,17 @@ Provide a centralized knowledge base for commonly asked questions:
 
   ![Featured News](assets\goals.png)
 
+### List Config
+
+Note: For the **Goals** section, if a list named **Goals** already exists, you may use it. Otherwise, please create a new list with the columns specified below.
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type            |
+| ------------------------------- | ------------------------- |
+| **Description**                 | 📄 Multiple lines of text |
+| **Image**                       | 🖼️ Image                  |
+| **Link**                        | 🔗 Hyperlink              |
+| **Id**                          | 🔢 Number                 |
+
 ### 🏷️ Top 3 Department Goals Web Part – Property Pane Configuration
 
 ![Featured News Property Pane](assets/goalsPP.png)
@@ -237,6 +269,15 @@ Provide a centralized knowledge base for commonly asked questions:
 
 ![Newsletter](assets/newsletter.png)
 
+### Library Config
+
+Note: For the Newsletter section, if a library named **Newsletter** exists, simply select it. Otherwise, create the required columns in the existing Newsletter library.
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type   |
+| ------------------------------- | ---------------- |
+| **Edition**                     | 📅 Date and Time |
+| **CoverPhoto**                  | 🖼️ Image         |
+
 ### 🏷️ Newsletter Web Part – Property Pane Configuration
 
 ![Newsletter](assets/newsletterPP.png)
@@ -252,6 +293,7 @@ Provide a centralized knowledge base for commonly asked questions:
 | 🏷️ Name                   | 🎯 Purpose                                              | 💡 Select Option  |
 | ------------------------- | ------------------------------------------------------- | ----------------- |
 | Select Sites              | Allows selection of sites for newsletter content        | No search results |
+| Select a list             | Select the required list for the newsletter             |                   |
 | Height                    | Controls the height of the newsletter display area      | 295               |
 | Enable Carousel           | Toggles the carousel functionality                      | On                |
 | Number of Items per Slide | Determines how many newsletter items are shown per view | 1                 |
@@ -265,6 +307,17 @@ Provide a centralized knowledge base for commonly asked questions:
 - **Flexible Layout**: Hide or show borders and titles to match page styling.
 
   ![Featured News](assets\links.png)
+
+### List Config
+
+Note: For the **Quick Links** section, create a list with the following columns.
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type                |
+| ------------------------------- | ----------------------------- |
+| **Icon**                        | 🖼️ Image                      |
+| **Link**                        | 📅 Date and Time              |
+| **OrderBy**                     | 🔢 Number                     |
+| **OpenIn**                      | 📁 Choice (Choices- Same,New) |
 
 ### 🏷️ Quick Links Web Part – Property Pane Configuration
 
@@ -298,6 +351,17 @@ Provide a centralized knowledge base for commonly asked questions:
 - **Customizable Display**: Control layout, number of items, and image size.
 - **Interactive Design**: Optional carousel for dynamic presentation.
   ![Featured News](assets\sme.png)
+
+### List Config
+
+Note: For the **Meet the SMEs** section, create a list with the following columns.
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type         |
+| ------------------------------- | ---------------------- |
+| **CustomName**                  | 🔤 Single line of text |
+| **Name**                        | 👤 Person              |
+| **Profile Photo**               | 🖼️ Image               |
+| **OrderBy**                     | 🔢 Number              |
 
 ### 🏷️ Meet the SMEs Web Part – Property Pane Configuration
 
@@ -363,3 +427,28 @@ Provide a centralized knowledge base for commonly asked questions:
 | Select Contact 2 | Selects the second contact from a person picker | Person Picker    |
 | Description 1    | Adds a description for Contact 1                | Text Field       |
 | Description 2    | Adds a description for Contact 2                | Text Field       |
+
+### General Webpart Configuration
+
+#### 🔐 Admin Settings
+
+Whenever a user is assigned as the web part admin, they will see a ⚙️ settings icon. Clicking this icon will navigate them to the list where the corresponding data is stored.
+
+![Contact Cards Property Pane](assets/adminsetting.png)
+
+| 🏷️ Name         | 🎯 Purpose                                | 💡 Select Option |
+| --------------- | ----------------------------------------- | ---------------- |
+| Show Admin Menu | Toggle to show admin-only features        | Show / Hide      |
+| Admin Users     | Specifies users who can access admin menu | xyz              |
+
+### ℹ️ About Section
+
+This section primarily contains a documentation link that redirects users to the complete Installation, Configuration, and Overview pages. Users can also activate the license from this section.
+
+![Contact Cards Property Pane](assets/aboutPP.png)
+
+| 🏷️ Name                     | 🎯 Purpose                                                                           |
+| --------------------------- | ------------------------------------------------------------------------------------ |
+| **Developer Info**          | Indicates the web part is developed by **SharePoint Designs**.                       |
+| **Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
+| **Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |

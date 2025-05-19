@@ -17,6 +17,17 @@ Configuration settings for each web part.
 
 ![Top Navigation](assets/TopNavigation.png)
 
+### List Config
+
+Note: For the **Top Navigation** section, create a list with the following columns
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type              |
+| ------------------------------- | --------------------------- |
+| **Icon**                        | 🖼️ Image                    |
+| **URL**                         | 🔗 Hyperlink                |
+| **Order**                       | 🔢 Number                   |
+| **TargetWindow**                | 📁 Choice (Choices- Yes,No) |
+
 ---
 
 ### 📄 Top Navigation Web Part - Property Pane Configuration
@@ -92,7 +103,7 @@ This section allows customization of the **Welcome Banner** for a department or 
 | **Sub text**             | A supporting statement that expands on the main description.                   | "To deliver innovative, aesthetically pleasing, flawless intranets." |
 | **Change background**    | Option to upload a custom background image for the banner.                     | Select an image using the "Select Image" control.                    |
 
-## 🔗 3. Quick links
+## 🔗 3. Common Tools
 
 ### 📋 Details
 
@@ -101,11 +112,22 @@ This section allows customization of the **Welcome Banner** for a department or 
 - **Minimalist Icons**: Use clean icons and labels for straightforward
   navigation.
 
-![Quick links](assets/Quicklinks.png)
+![Common Tools](assets/Quicklinks.png)
 
-### 🏷️ Quick Links Web Part – Property Pane Configuration
+### List Config
 
-- The Quick Links web part offers centralized access to frequently used external applications and team tools. It improves efficiency by simplifying access to all essential resources from one place.
+Note: For the **Common Tools** section, create a list with the following columns
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type              |
+| ------------------------------- | --------------------------- |
+| **Icon**                        | 🖼️ Image                    |
+| **Link**                        | 🔗 Hyperlink                |
+| **OrderBy**                     | 🔢 Number                   |
+| **OpenIn**                      | 📁 Choice (Choices- Yes,No) |
+
+### 🏷️ Common Tools Web Part – Property Pane Configuration
+
+- The Common Tool Links web part offers centralized access to frequently used external applications and team tools. It improves efficiency by simplifying access to all essential resources from one place.
 
 ![Welcome Banner](assets/QuicklinksPropertypane.png)
 
@@ -139,6 +161,14 @@ This section allows customization of the **Welcome Banner** for a department or 
   format.
 
 ![News](assets/News.png)
+
+### Library Config
+
+Note: For the **Featured News** section, the following columns must be created in the Site Pages library.
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type |
+| ------------------------------- | -------------- |
+| **Category**                    | 📁 Choice      |
 
 ### 🏷️ Featured News Web Part
 
@@ -189,6 +219,17 @@ The **Featured News** web part by SharePoint Designs is designed to keep everyon
   departments, or amenities.
 
 ![Facilities](assets/Facilities.png)
+
+### List Config
+
+Note: For the **Facilities** section, create a list with the following columns
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type            |
+| ------------------------------- | ------------------------- |
+| **Content**                     | 📄 Multiple lines of text |
+| **Thumbnail**                   | 🖼️ Image                  |
+| **OrderBy**                     | 🔢 Number                 |
+| **Address Location**            | 📄 Multiple lines of text |
 
 ### 🏷️ Facilities Web Part – Configuration Tables
 
@@ -258,6 +299,17 @@ The **Events Calendar** web part allows site administrators to display and manag
 - Planning Aid: Assist in scheduling around non-working days.
 
 ![Holidays](assets/Holidays.png)
+
+### List Config
+
+Note: For the **Holidays** section, create a list with the following columns
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type            |
+| ------------------------------- | ------------------------- |
+| **Description**                 | 📄 Multiple lines of text |
+| **HolidayLink**                 | 🔗 Hyperlink              |
+| **StartDate**                   | 📅 Date and Time          |
+| **Location**                    | 📁 Choice                 |
 
 ### 🏷️ Holidays Property Pane Configuration
 
