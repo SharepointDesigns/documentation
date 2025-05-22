@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Overview
 
-## Intranet Intranet Design 2 SubPages by Sharepoint Designs
+## Intranet Design 2 SubPages by Sharepoint Designs
 
 🧩 **Design 2 SubPages Setup by SharePoint Designs**
 Effortless SharePoint site creation starts here.

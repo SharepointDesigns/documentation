@@ -4,7 +4,19 @@ sidebar_position: 3
 
 # Configuration
 
-## 📰 1. Features News
+### Note:
+
+The Home page should be configured using the "Design 1 Setup" web part to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
+
+## 📰 1. Featured News
+
+### 🚀️PREREQUISITE
+
+- [ ] Ensure a **"Category"** Choice column exists on the site.
+
+> ⚠️ **Important:** If the web part is manually added to the page, the **"Category"** column is **required** and must be created beforehand.
+
+- [ ] Create a "Category" Choice column if the site page doesn't exist this column
 
 ### 📋 Details
 
@@ -12,86 +24,51 @@ sidebar_position: 3
 - **Professional Display**: Present announcements/department news clearly and formally.
 - **Structured Layout**: Organized sections for each department.
 
----
+![Features News](assets/FeaturedNews.png)
 
-### ⚙️ Configuration Options
+### 🏷️ Features News Web Part – Property Pane Configuration
 
-Easily tailor the Features News web part to fit your organization's needs with these flexible configuration options:
+![Features News Property Pane](assets/FNPropertyPane.png)
 
----
+#### 🎨 Appearance Settings
 
-#### <u>Basic Configurations</u>
-
-##### 🏷️ Webpart Title
-
-- Customize the title that appears at the top of the web part.
-
-##### 🔍 Search Sites
-
-- Choose which SharePoint sites to fetch news from.
-- Leave blank to pull content from the current site.
-
-##### 🏷️ Filter by Tag
-
-- Filter news based on specific tags (e.g., **Departments**, **Announcements**) to display only relevant posts.
-
-##### 🌐 Enable RSS Feed
-
-- Toggle ON/OFF to enable or disable RSS feeds.
-- Use **Manage Links** to add your preferred RSS sources.
-
-##### 👀 Show See All Button
-
-- Toggle to **show** or **hide** the “See All” button for users to explore more content.
-
-#### <u>Layouts</u>
-
-##### 🔗 View All URL
-
-- Add a custom link for the “View All” button.
-- Leave empty to use the default destination.
-- Default value: `{siteUrl}/_layouts/15/news.aspx`
-
-##### 🗂️ Show Category Filter
-
-- Enable or disable category filters for quick browsing.
-
-##### 🔎 Show Search Box
-
-- Let users search through news articles with a handy search input box.
-
-##### ↕️ Show Sort By
-
-- Add a **Sort** option to let users reorder content by relevance, date, etc.
-
-##### 🧩 Choose Layout
-
-- Pick from multiple layout styles:
-  - **Top Story**
-  - **Grid**
-  - **Filmstrip**
-  - **Tiles**
-
-#### <u>Target Audience </u>
-
-##### 👥 Target Audience
-
-- Show posts only to selected users using audience targeting.
-
-#### <u>Manage News Posts</u>
-
-##### 🛠️ Manage News Posts
-
-- Click to view and manage all published and draft news items in one place.
+| 🏷️ Name              | 🎯 Purpose                                  | 💡 Select Option                  |
+| -------------------- | ------------------------------------------- | --------------------------------- |
+| Choose Layout        | Select layout style for news display        | Top Story, Grid, Filmstrip, Tiles |
+| Show Category Filter | Enable or disable category filters for news | On / Off                          |
+| Show Search Box      | Allow users to search news articles         | On / Off                          |
+| Show Sort By         | Add sorting option to reorder news content  | On / Off                          |
 
 ---
 
-### 📸 Screenshots
+#### ⚙️ General Settings
 
-- **Screenshot**: News and Announcements web part
-  ![Featured News](assets\FeaturedNews.png)
-- **Screenshot**: Property pane
-  ![Featured News Property Pane](assets/FNPropertyPane.png)
+| 🏷️ Name             | 🎯 Purpose                                                   | 💡 Select Option                  |
+| ------------------- | ------------------------------------------------------------ | --------------------------------- |
+| Webpart Title       | Title displayed at the top of the news web part              | Features News                     |
+| Search Sites        | Select SharePoint sites to pull news from                    | (Leave blank for current)         |
+| Filter by Tag       | Filter news items by tags (e.g., Departments, Announcements) | Enter tags                        |
+| Enable RSS Feed     | Toggle RSS feed functionality on/off                         | On / Off                          |
+| Show See All Button | Toggle visibility of “See All” button                        | On / Off                          |
+| View All URL        | Custom URL for the “See All” button                          | `{siteUrl}/_layouts/15/news.aspx` |
+
+---
+
+#### 🎯 Target Audience
+
+| 🏷️ Name         | 🎯 Purpose                                             | 💡 Select Option      |
+| --------------- | ------------------------------------------------------ | --------------------- |
+| Target Audience | Show news posts only to selected users using targeting | Select audience group |
+
+---
+
+#### 🛠️ Manage News Posts
+
+| 🏷️ Name           | 🎯 Purpose                                         | 💡 Select Option          |
+| ----------------- | -------------------------------------------------- | ------------------------- |
+| Manage News Posts | View and manage all published and draft news posts | Open news management page |
+
+---
 
 ## 🚨 2. Breaking News
 
@@ -100,47 +77,46 @@ Easily tailor the Features News web part to fit your organization's needs with t
 Deliver urgent and time-sensitive information with high visibility:
 
 - **Urgent Alerts**: Ideal for critical updates such as service outages, emergency messages, or security notifications.
-- **Adjustable Notification**: Customize how the alert appears and how long it remains visible.
+- **Adjustable Notification**: Customize alert appearance and visibility duration.
+
+![Breaking News](assets/BreakingNews.png)
+
+### List Config
+
+Note: For the **Breaking News** webpart, create a list with the following columns.
+
+#### 📋 Required Columns
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type | 💡 Option                           |
+| ------------------------------- | -------------- | ----------------------------------- |
+| **Link**                        | URL            |                                     |
+| **Expiry Date**                 | Datetime       |                                     |
+| **Order By**                    | Number         |                                     |
+| **Target Window**               | Choice         | (Open in new tab, Open in same tab) |
+
+### 🏷️ Breaking News Web Part – Property Pane Configuration
+
+![Breaking News Property Pane](assets/BNPropertypane.png)
+
+#### 🎨 Appearance Settings
+
+| 🏷️ Name       | 🎯 Purpose                                    | 💡 Select Option   |
+| ------------- | --------------------------------------------- | ------------------ |
+| Webpart Title | Set a custom title for the web part display   | Breaking News      |
+| Sub Title     | Add a custom inline subtitle                  | (Text input)       |
+| Select a List | Choose the SharePoint list with alert content | Breaking News List |
+| Change Icon   | Pick an icon representing urgency/type        | (Icon picker)      |
+| Show Arrows   | Enable or disable navigation arrows           | On / Off           |
 
 ---
 
-### ⚙️ Configuration Options
+#### ⚙️ General Settings
 
-Quickly configure your **Breaking News** web part to match your needs:
-
-#### <u>Basic</u>
-
-##### 🏷️ Webpart Title
-
-- Set a custom title for the web part display.
-
-##### 🖊️ Sub Title
-
-- Add a custom **inline title** to provide more context.
-
-##### 📃 Select a List
-
-- Choose a SharePoint **Breaking News list** from the available options.
-- Add or update alert content directly within this list.
-
-#### <u>View settings</u>
-
-##### 🛑 Change Icon
-
-- Pick a custom icon that visually represents the urgency or type of alert.
-
-##### ↔️ Show Arrows
-
-- Enable or disable **navigation arrows** for smoother alert scrolling.
+| 🏷️ Name               | 🎯 Purpose                             | 💡 Select Option     |
+| --------------------- | -------------------------------------- | -------------------- |
+| Notification Duration | Set how long the alert remains visible | (Seconds or minutes) |
 
 ---
-
-### 📸 Screenshots
-
-- **Screenshot**: Breaking News web part
-  ![Breaking news](assets/BreakingNews.png)
-- **Screenshot**: Property pane
-  ![BNPropertpane](assets/BNPropertypane.png)
 
 ## 🔗 3. Quick Links
 
@@ -151,45 +127,42 @@ Provide fast and intuitive access to essential resources:
 - **Essential Resources**: Direct users to frequently used tools, forms, documents, and company policies.
 - **Icons & Labels**: Enhance navigation with clearly labeled links and intuitive icons.
 
----
+![Quick Links](assets/Quicklinks.png)
 
-### ⚙️ Configuration Options
+### List Config
 
-Customize your **Quick Links** web part with the following settings:
+Note: For the **Quick Links/Tool Links** webpart, create a list with the following columns.
 
-#### <u>Basic</u>
+#### 📋 Required Columns
 
-##### 🏷️ Webpart Title
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type | 💡 Option |
+| ------------------------------- | -------------- | --------- |
+| **URL**                         | URL            |           |
+| **Icon**                        | Image          |           |
+| **Target Window**               | Choice         | (Yes, No) |
+| **Order0**                      | Number         |           |
 
-- Set a custom title to label the web part clearly.
+### 🏷️ Quick Links Web Part – Property Pane Configuration
 
-##### 📃 Select a List
+![Quick Links Property Pane](assets/QLPropertpane.png)
 
-- Choose the relevant SharePoint list (e.g., **Tool Links** or **Quick Links**) to populate the links.
+#### 🎨 Appearance Settings
 
-#### <u>View settings</u>
-
-##### 🧱 Layouts
-
-- Select your preferred layout style:
-  - **Vertical**
-  - **Horizontal**
-
-#### <u>List settings</u>
-
-##### 🔍 View List
-
-- Quickly access the connected list for edits or updates.
+| 🏷️ Name       | 🎯 Purpose                               | 💡 Select Option         |
+| ------------- | ---------------------------------------- | ------------------------ |
+| Webpart Title | Set a custom title to label the web part | Quick Links              |
+| Select a List | Choose the SharePoint list for links     | Tool Links / Quick Links |
+| Layouts       | Choose layout style                      | Vertical / Horizontal    |
 
 ---
 
-### 📸 Screenshots
+#### ⚙️ General Settings
 
-- **Screenshot**: Quick Links web part
-  ![QuickLinks](assets/ToolLinks.png)
-  ![Quick Links](assets/Quicklinks.png)
-- **Screenshot**: Property pane
-  ![QlPropertypane](assets/QLPropertpane.png)
+| 🏷️ Name   | 🎯 Purpose                                  | 💡 Select Option |
+| --------- | ------------------------------------------- | ---------------- |
+| View List | Quickly access the connected list for edits | Open List        |
+
+---
 
 ## 👥 4. Employee Search
 
@@ -200,87 +173,37 @@ Easily browse and discover employee information across the organization:
 - **Employee Directory**: View detailed staff profiles including name, role, contact info, and more.
 - **Easy Search**: Use advanced filters to quickly locate team members by department, job title, or other attributes.
 
----
+![Employee Search](assets/EmployeeSearch.png)
 
-### ⚙️ Configuration Options
+### 🏷️ Employee Search Web Part – Property Pane Configuration
 
-Configure the **Employee Search** web part to fit your organization’s needs:
+![Employee Search Property Pane](assets/ESPropertPane.png)
 
-#### <u>Basic</u>
+#### 🎨 Appearance & Query Settings
 
-#### 🏷️ Webpart Title
-
-- Enter a **custom title** for the web part.
-
----
-
-#### <u>🔍 Query Settings</u>
-
-Fine-tune what user data is displayed using query parameters:
-
-- **`$filter`**: Filter users by specific property (e.g., `jobTitle eq 'HR'`).
-
-  #### Supported `$filter` Properties for Microsoft Graph `/users`
-
-  | Property            | Description / Example Usage                                           |
-  | ------------------- | --------------------------------------------------------------------- |
-  | `displayName`       | Filter by full display name.<br/>`displayName eq 'John Doe'`          |
-  | `givenName`         | First name.<br/>`givenName eq 'John'`                                 |
-  | `surname`           | Last name.<br/>`surname eq 'Smith'`                                   |
-  | `mail`              | User's email.<br/>`mail eq 'john@contoso.com'`                        |
-  | `userPrincipalName` | UPN (login name).<br/>`userPrincipalName eq 'john@contoso.com'`       |
-  | `jobTitle`          | Filter by job title.<br/>`jobTitle eq 'HR Manager'`                   |
-  | `department`        | Department name.<br/>`department eq 'Sales'`                          |
-  | `mobilePhone`       | Mobile phone number.<br/>`mobilePhone eq '+1234567890'`               |
-  | `officeLocation`    | Office location.<br/>`officeLocation eq 'New York'`                   |
-  | `preferredLanguage` | User's language.<br/>`preferredLanguage eq 'en-US'`                   |
-  | `city`              | City name.<br/>`city eq 'Seattle'`                                    |
-  | `state`             | State or province.<br/>`state eq 'WA'`                                |
-  | `country`           | Country name.<br/>`country eq 'United States'`                        |
-  | `createdDateTime`   | Date user was created.<br/>`createdDateTime ge  2024-01-01T00:00:00Z` |
-
-- **`$orderby`**: Sort users based on selected field (e.g., `displayName` or `jobTitle`).
-- **Number of Items per Page**: Define how many user profiles appear per page.
+| 🏷️ Name                | 🎯 Purpose                                                                   | 💡 Select Option |
+| ---------------------- | ---------------------------------------------------------------------------- | ---------------- |
+| Webpart Title          | Enter a custom title for the web part                                        | Employee Search  |
+| `$filter`              | Filter users by Microsoft Graph properties (e.g.,`jobTitle eq 'HR Manager'`) | Text input       |
+| `$orderby`             | Sort user results (e.g.,`displayName asc`)                                   | Dropdown         |
+| Number of Items/Page   | Set how many user profiles show per page                                     | Number input     |
+| `$search`              | Configure search behavior                                                    | Text input       |
+| Show Pagination        | Enable navigation controls to browse additional users                        | On / Off         |
+| Show Blank if None     | Display nothing if no results found                                          | On / Off         |
+| Show Results Count     | Show total matching user count                                               | On / Off         |
+| Show Live Persona Card | Display detailed user info on hover                                          | On / Off         |
+| Results Layout         | Choose the layout style for results (e.g.,**People**)                        | Dropdown         |
 
 ---
 
-#### <u>🔎 Search Parameter</u>
+#### 🧩 Template Options
 
-- **`$search`**: Choose the appropriate search behavior based on your requirements.
-
----
-
-#### <u>🎨 Styling Options</u>
-
-Customize the appearance and interactivity of the web part:
-
-- **Show Pagination**: Enable navigation to browse additional users.
-- **Show Blank if No Result**: Display nothing if no user is found.
-- **Show Results Count**: Show total number of matching users.
-- **Show Live Persona Card**: Display user card with details on hover.
-- **Results Layout**: Choose the **People** layout for displaying profiles.
+| 🏷️ Name               | 🎯 Purpose                         | 💡 Select Option       |
+| --------------------- | ---------------------------------- | ---------------------- |
+| Manage Persona Fields | Customize which user fields appear | Field selector         |
+| Picture Size          | Set profile picture size           | Small / Medium / Large |
 
 ---
-
-#### <u>🧩 Template Options</u>
-
-Adjust how user data is visually displayed:
-
-- **Manage Persona Fields**: Rearrange or modify which fields show in the web part.
-- **Picture Size**: Set profile picture size to match your layout preferences.
-
----
-
-### 📸 Screenshots
-
-**Screenshot**: Employee Search web part
-
-![EmployeeSearch](assets/EmployeeSearch.png)
-
-**Screenshot**: Property pane
-
-![ESPropertPane](assets/ESPropertPane.png)
-
 
 ## 📰 5. RSS Feed
 
@@ -292,64 +215,39 @@ Integrate external news sources directly into your intranet for broader visibili
 - **Unified Design**: Seamlessly styled to match internal news web parts.
 - **Content Preview**: Displays headline, summary, and publication date for quick insights.
 
----
+![RSS Feed](assets/RSSFeeds.png)
 
-### ⚙️ Configuration Options
+### 🏷️ RSS Feed Web Part – Property Pane Configuration
 
-#### <u>⚙️ Basic Configurations</u>
+![RSS Feed Property Pane](assets/RSSPropertypane.png)
 
-Configure your **RSS Feed** web part with the following settings:
+#### 🎨 Basic Configurations
 
-##### 🏷️ Webpart Title
-
-- Enter a **custom title** in the first textbox to label the web part.
-
-##### 🔗 RSS URL
-
-- Add the **RSS feed URL** in the second textbox.
-- _Note:_ If left blank, the feed will not load.
-
-##### 🔐 RSS API Key
-
-- Paste your **API key** (if required) into the third textbox.
+| 🏷️ Name       | 🎯 Purpose                            | 💡 Select Option |
+| ------------- | ------------------------------------- | ---------------- |
+| Webpart Title | Enter a custom title for the web part | Text input       |
+| RSS URL       | Add the URL for the RSS feed          | URL input        |
+| RSS API Key   | Paste API key if required             | Text input       |
 
 ---
 
-#### <u>🔧 Feed Controls</u>
+#### 🔧 Feed Controls
 
-##### 📄 Max Count Per Page
-
-- Use the **first slider** to set the number of feed items displayed per page.
-
----
-
-#### <u>🎛️ Additional Settings</u>
-
-##### 👁️ See All Button Toggle
-
-- Enable or disable the **"See All"** button.
-
-##### 🔗 View All URL
-
-- Provide a link that the **"See All"** button redirects to.
-- This link should show the full list of RSS feeds.
-
-##### 📏 Webpart Height
-
-- Adjust the **web part height** using the slider to match your layout needs.
+| 🏷️ Name            | 🎯 Purpose                               | 💡 Select Option      |
+| ------------------ | ---------------------------------------- | --------------------- |
+| Max Count Per Page | Number of feed items to display per page | Slider / Number input |
 
 ---
 
-### 📸 Screenshots
+#### 🎛️ Additional Settings
 
-**Screenshot**: RSS Feed web part
+| 🏷️ Name        | 🎯 Purpose                             | 💡 Select Option      |
+| -------------- | -------------------------------------- | --------------------- |
+| See All Button | Enable or disable the “See All” button | On / Off              |
+| View All URL   | Link the “See All” button redirects to | URL input             |
+| Webpart Height | Adjust the height of the web part      | Slider / Number input |
 
-![RSSFeeds](assets/RSSFeeds.png)
-
-**Screenshot**: Property pane
-
-![RSSPropertypane](assets/RSSPropertypane.png)
-
+---
 
 ## ❓ 6. FAQs
 
@@ -360,61 +258,43 @@ Provide a centralized knowledge base for commonly asked questions:
 - **Knowledge Base**: Easily accessible answers to frequent employee or customer inquiries.
 - **Organized Categories**: FAQs are grouped into categories for smoother navigation and quicker discovery.
 
----
-
-### ⚙️ Configuration Options
-
-Fine-tune your **FAQs** web part with these settings:
-
-#### <u>Basic</u>
-
-##### 🏷️ Webpart Title
-
-- Customize the title that appears above the FAQs section.
-
-##### 📃 Select a List
-
-- Choose the SharePoint **FAQs list** where all Q&A entries are stored and managed.
-
-##### 📏 Height
-
-- Adjust the **height** of the web part to fit your design needs.
-
-##### 🔄 Display All Items
-
-- Toggle ON to display **all FAQ entries** from the list.
-- Toggle OFF to show a limited number.
-
-##### 🔢 Items to Show
-
-- Specify how many FAQ items to display when **Display All Items** is turned off.
-
-##### 🔗 View All URL
-
-- Add a link to the full FAQ page if available.
-- Leave blank if no dedicated page exists.
-- Deafult value: `{siteUrl}/Lists/FAQs/AllItems.aspx`
-
-#### <u>Filter items</u>
-
-##### 🔤 Sort By
-
-- Choose how FAQs are ordered:
-  - **A to Z**
-  - **Z to A**
-
----
-
-### 📸 Screenshots
-
-**Screenshot**: FAQs
-
 ![FAQs](assets/FAQs.png)
 
-**Screenshot**: Property pane
+### List Config
 
-![FAQPropertpane](assets/FAQPropertyPane.png)
+Note: For the **FAQs** webpart, create a list with the following columns.
 
+#### 📋 Required Columns
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type |
+| ------------------------------- | -------------- |
+| **Description**                 | Multiline      |
+| **Order0**                      | Number         |
+
+### 🏷️ FAQs Web Part – Property Pane Configuration
+
+![FAQs Property Pane](assets/FAQPropertyPane.png)
+
+#### 🎨 Basic Settings
+
+| 🏷️ Name           | 🎯 Purpose                                               | 💡 Select Option                                        |
+| ----------------- | -------------------------------------------------------- | ------------------------------------------------------- |
+| Webpart Title     | Customize the title above the FAQs section               | Text input                                              |
+| Select a List     | Choose the SharePoint FAQs list with questions & answers | Dropdown                                                |
+| Height            | Adjust the height of the web part                        | Number input                                            |
+| Display All Items | Toggle to show all FAQs or limit the number displayed    | On / Off                                                |
+| Items to Show     | Number of FAQ items to display when not showing all      | Number input                                            |
+| View All URL      | Link to a full FAQ page if available                     | URL input (default`{siteUrl}/Lists/FAQs/AllItems.aspx`) |
+
+---
+
+#### 🔤 Filter Items
+
+| 🏷️ Name | 🎯 Purpose                         | 💡 Select Option |
+| ------- | ---------------------------------- | ---------------- |
+| Sort By | Order FAQs**A to Z** or **Z to A** | Dropdown         |
+
+---
 
 ## 📅 7. Events Calendar
 
@@ -425,69 +305,34 @@ Keep everyone updated with key organizational dates and activities:
 - **Event Calendar**: Displays company meetings, events, holidays, and other important dates.
 - **Detailed Info**: Includes date, time, location, and other essential details for each event.
 
----
+![Upcoming Events](assets/UpcomingEvents.png)
 
-### ⚙️ Configuration Options
+### 🏷️ Events Calendar Web Part – Property Pane Configuration
 
-Set up your **Events Calendar** web part with the following configurable settings:
+![Events Calendar Property Pane](assets/UEPropertpane.png)
 
-#### <u>Calendar list</u>
+#### ⚙️ Configuration Options
 
-##### 📂 Calendar List
+#### Calendar List
 
-- Quick access to the connected SharePoint **Events list**.
+| 🏷️ Name       | 🎯 Purpose                                              | 💡 Notes |
+| ------------- | ------------------------------------------------------- | -------- |
+| Calendar List | Quick access to the connected SharePoint**Events list** |          |
 
-#### <u>View configurations</u>
+#### View Configurations
 
-##### 🏷️ Webpart Title
+| 🏷️ Name          | 🎯 Purpose                                                                                                         | 💡 Notes                               |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------- |
+| Webpart Title    | Customize the title appearing above the calendar                                                                   | Text input                             |
+| Select a List    | Choose the**events list** from the dropdown to display event data                                                  | Dropdown                               |
+| Filter Events    | Filter events by:<br/> - **Upcoming Events** <br/> - **Previous (nth) Months** (past events shown and highlighted) | Dropdown with numeric input for months |
+| Show Calendar    | Toggle to show or hide the visual calendar interface                                                               | On / Off                               |
+| View All URL     | Link to full events listing page<br/> Default: `{siteUrl}/_layouts/15/Events.aspx?ListGuid={listID}`               | URL input                              |
+| Show Event Icons | Enable or disable category icons for each event                                                                    | On / Off                               |
 
-- Customize the title that appears above the calendar.
+#### Event Configurations
 
-##### 📃 Select a List
-
-- Choose the **events list** from the dropdown to fetch and display event data.
-
-##### 🧮 Filter Events
-
-- Select from dropdown filters to control what events are shown:
-  - **Upcoming Events** – Only shows future events.
-  - **Previous (nth) Months** – Also includes past events from the specified number of months.
-    - Past events are highlighted in the calendar, and clicking a date reveals event details.
-
-##### 📆 Show Calendar
-
-- Toggle ON/OFF to display or hide the visual calendar interface.
-
-##### 🔗 View All URL
-
-- Link to a page where all events are listed.
-- Leave default or update as needed.
-
-  **Default Value**:
-
-  `{siteUrl}/_layouts/15/Events.aspx?ListGuid={listID}`
-
-##### 🖼️ Show Event Icons
-
-- Enable or disable **category icons** for each event to visually distinguish event types.
-
-#### <u>Event Configurations</u>
-
-##### Add new event
-
-- Click to add a new event
-
-##### Edit events
-
-- This will redirect to events list where you can make changes to the event
-
----
-
-### 📸 Screenshots
-
-**Screenshot**: Upcoming Events
-![UpcomingEvents](assets/UpcomingEvents.png)
-
-**Screenshot**: Property pane
-
-![UEPropertpane](assets/UEPropertpane.png)
+| 🏷️ Name       | 🎯 Purpose                           | 💡 Notes      |
+| ------------- | ------------------------------------ | ------------- |
+| Add New Event | Opens form to add new event          | Button / Link |
+| Edit Events   | Redirects to events list for editing | Button / Link |
