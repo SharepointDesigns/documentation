@@ -303,8 +303,6 @@ The **Pixel Gallery** web part allows users to display images from a SharePoint 
 
 Note: For the **Pixel gallery** webpart, create a library to store the images or use existing if already exist.
 
-#### 📋 Required Columns
-
 ---
 
 ![Pixel Gallery](assets/PixelGalleryPropertypane.png)

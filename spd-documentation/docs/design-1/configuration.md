@@ -32,12 +32,14 @@ The Home page should be configured using the "Design 1 Setup" web part to ensure
 
 #### 🎨 Appearance Settings
 
-| 🏷️ Name              | 🎯 Purpose                                  | 💡 Select Option                  |
-| -------------------- | ------------------------------------------- | --------------------------------- |
-| Choose Layout        | Select layout style for news display        | Top Story, Grid, Filmstrip, Tiles |
-| Show Category Filter | Enable or disable category filters for news | On / Off                          |
-| Show Search Box      | Allow users to search news articles         | On / Off                          |
-| Show Sort By         | Add sorting option to reorder news content  | On / Off                          |
+| 🏷️ Name              | 🎯 Purpose                                                                                                               | 💡 Select Option                  |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------- |
+| Choose Layout        | Select layout style for news display                                                                                     | Top Story, Grid, Filmstrip, Tiles |
+| Show Category Filter | Note: This should be enabled only if the news is tagged to any category. Toggle to enable filtering content by category. | Off                               |
+| News Category        | Select the available choice column to apply filters.                                                                     | choose available choice column    |
+| Apply Filters        | Select the available options from the News Category selected.                                                            | (Not Selected)                    |
+| Show Search Box      | Allow users to search news articles                                                                                      | On / Off                          |
+| Show Sort By         | Add sorting option to reorder news content                                                                               | On / Off                          |
 
 ---
 
@@ -321,14 +323,14 @@ Keep everyone updated with key organizational dates and activities:
 
 #### View Configurations
 
-| 🏷️ Name          | 🎯 Purpose                                                                                                         | 💡 Notes                               |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------- |
-| Webpart Title    | Customize the title appearing above the calendar                                                                   | Text input                             |
-| Select a List    | Choose the**events list** from the dropdown to display event data                                                  | Dropdown                               |
-| Filter Events    | Filter events by:<br/> - **Upcoming Events** <br/> - **Previous (nth) Months** (past events shown and highlighted) | Dropdown with numeric input for months |
-| Show Calendar    | Toggle to show or hide the visual calendar interface                                                               | On / Off                               |
-| View All URL     | Link to full events listing page<br/> Default: `{siteUrl}/_layouts/15/Events.aspx?ListGuid={listID}`               | URL input                              |
-| Show Event Icons | Enable or disable category icons for each event                                                                    | On / Off                               |
+| 🏷️ Name          | 🎯 Purpose                                                                                                                                                                                                                                                                                                                                                                                                          | 💡 Notes                       |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| Webpart Title    | Customize the title appearing above the calendar                                                                                                                                                                                                                                                                                                                                                                    | Text input                     |
+| Select a List    | Choose the**events list** from the dropdown to display event data                                                                                                                                                                                                                                                                                                                                                   | Dropdown                       |
+| Filter Events    | Note: If the filter option is set to "Upcoming Events", both the calendar and the events section will display only upcoming events.If the filter option is set to "Previous 3 months + Upcoming Events", the calendar will show both past (from the last 3 months) and upcoming events, while the events section will continue to display only upcoming events.Dropdown to filter event types shown in the web part | Dropdown months filter options |
+| Show Calendar    | Toggle to show or hide the visual calendar interface                                                                                                                                                                                                                                                                                                                                                                | On / Off                       |
+| View All URL     | Link to full events listing page<br/> Default: `{siteUrl}/_layouts/15/Events.aspx?ListGuid={listID}`                                                                                                                                                                                                                                                                                                                | URL input                      |
+| Show Event Icons | Enable or disable category icons for each event                                                                                                                                                                                                                                                                                                                                                                     | On / Off                       |
 
 #### Event Configurations
 
