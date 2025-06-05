@@ -88,20 +88,20 @@ Note: For the **Top Navigation** section, create a list with the following colum
 
 The **Welcome Banner** web part delivers inspirational messaging through a configurable banner slider that emphasizes the organization's **Vision**, **Mission**, and **Values**.
 
-![Welcome Banner](assets/WelcomeBannerPropertypane.png)
+![](assets/WelcomeBannerPropPanel.png)
 
 #### ⚙️ General Settings
 
 This section allows customization of the **Welcome Banner** for a department or contact information display. The following configurable options are available:
 
-| 🏷️ Name                  | 🎯 Purpose                                                                     | 💡 Select Option                                                     |
-| ------------------------ | ------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
-| **Welcome message**      | Text displayed as a greeting to the user.                                      | "Hello"                                                              |
-| **Format Date and Time** | A date-time picker to display the current date and time in a formatted manner. | "Thursday 14th Jul, 2022, 4:27 PM"                                   |
-| **Title**                | Heading or main focus of the banner.                                           | "VISION"                                                             |
-| **Description**          | A short, impactful message summarizing the theme of the banner.                | "Maximizing SharePoint, Automation And AI, Making Work Fun."         |
-| **Sub text**             | A supporting statement that expands on the main description.                   | "To deliver innovative, aesthetically pleasing, flawless intranets." |
-| **Change background**    | Option to upload a custom background image for the banner.                     | Select an image using the "Select Image" control.                    |
+| 🏷️ Name                  | 🎯 Purpose                                                                                                                                                                                    | 💡 Select Option                                                     |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Welcome message**      | Text displayed as a greeting to the user.<br /><br />You can personalize the message using: `{firstName}`, `{lastName}`, or `{fullName}`. -- Eg: Welcome `{firstName}`, to SharePoint Designs | "Hello `{firstName}`"                                                |
+| **Format Date and Time** | A date-time picker to display the current date and time in a formatted manner.                                                                                                                | "Thursday 14th Jul, 2022, 4:27 PM"                                   |
+| **Title**                | Heading or main focus of the banner.                                                                                                                                                          | "VISION"                                                             |
+| **Description**          | A short, impactful message summarizing the theme of the banner.                                                                                                                               | "Maximizing SharePoint, Automation And AI, Making Work Fun."         |
+| **Sub text**             | A supporting statement that expands on the main description.                                                                                                                                  | "To deliver innovative, aesthetically pleasing, flawless intranets." |
+| **Change background**    | Option to upload a custom background image for the banner.                                                                                                                                    | Select an image using the "Select Image" control.                    |
 
 ## 🔗 3. Common Tools
 
@@ -162,20 +162,12 @@ Note: For the **Common Tools** section, create a list with the following columns
 
 ![News](assets/News.png)
 
-### Library Config
-
-Note: For the **Featured News** section, the following columns must be created in the Site Pages library.
-
-| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type |
-| ------------------------------- | -------------- |
-| **Category**                    | 📁 Choice      |
-
 ### 🏷️ Featured News Web Part
 
 The **Featured News** web part by SharePoint Designs is designed to keep everyone informed with concise, visually engaging company news. This component supports clean, minimalist layouts and integrates well with RSS feeds and filtering options for dynamic content display.
 
-![NewsPropertypane](assets/NewsPropertypane.png)
-![NewsPropertypane2](assets/NewsPropertypane2.png)
+![NewsPropertypane](assets/featurednews1.png)
+![NewsPropertypane2](assets/featurednews2.png)
 
 #### 📌 Header Settings
 
@@ -195,19 +187,21 @@ The **Featured News** web part by SharePoint Designs is designed to keep everyon
 
 #### ⚙️ General Settings
 
-| 🏷️ Name                  | 🎯 Purpose                                                         | 💡 Select Option                        |
-| ------------------------ | ------------------------------------------------------------------ | --------------------------------------- |
-| **Filter by Tag**        | Choose to filter content by specific tags or categories.           | All                                     |
-| **Enable RSS Feed**      | Toggle to display external RSS news feeds.                         | On                                      |
-| **RSS Links**            | Manage external RSS feed links.                                    | [Manage Links]                          |
-| **RSS API Key**          | Provide or generate an API key for secure RSS integration.         | 7kmmp5wzpx2dyt4f4p3trgqlpwnxtz91kxcc... |
-| **Show Category Filter** | Toggle to enable filtering content by category.                    | Off                                     |
-| **Show Search Box**      | Toggle to include a search box for news items.                     | Off                                     |
-| **Show Sort By**         | Enable sorting functionality (e.g., by date or title).             | On                                      |
-| **Show See All Button**  | Toggle to display a “See All” button linking to full news listing. | On                                      |
-| **View All URL**         | Set the page URL for viewing the full list of news items.          | `{siteUrl}/\_layouts/15/news.aspx`      |
-| **Target Audience**      | Define audience targeting for news content visibility.             | (Empty)                                 |
-| **Manage News Posts**    | Link to the interface for managing and editing news posts.         | [Manage News Posts]                     |
+| 🏷️ Name                  | 🎯 Purpose                                                                                                               | 💡 Select Option                        |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------- |
+| **Search Sites**         | Search and select the site(s) for the news source.                                                                       | current site                            |
+| **Enable RSS Feed**      | Toggle to display external RSS news feeds.                                                                               | On                                      |
+| **RSS Links**            | Manage external RSS feed links.                                                                                          | [Manage Links]                          |
+| **RSS API Key**          | Provide or generate an API key for secure RSS integration.                                                               | 7kmmp5wzpx2dyt4f4p3trgqlpwnxtz91kxcc... |
+| **Show Search Box**      | Toggle to include a search box for news items.                                                                           | Off                                     |
+| **Show Sort By**         | Enable sorting functionality (e.g., by date or title).                                                                   | On                                      |
+| **Show See All Button**  | Toggle to display a “See All” button linking to full news listing.                                                       | On                                      |
+| **Show Category Filter** | Note: This should be enabled only if the news is tagged to any category. Toggle to enable filtering content by category. | Off                                     |
+| **News Category**        | Select the available choice column to apply filters.                                                                     | choose available choice column          |
+| **Apply Filters**        | Select the available options from the News Category selected.                                                            | (Not Selected)                          |
+| **View All URL**         | Set the page URL for viewing the full list of news items.                                                                | `{siteUrl}/_layouts/15/news.aspx`       |
+| **Target Audience**      | Define audience targeting for news content visibility.                                                                   | (Empty)                                 |
+| **Manage News Posts**    | Link to the interface for managing and editing news posts.                                                               | [Manage News Posts]                     |
 
 ## 🏢 5. Facilities
 
@@ -271,6 +265,8 @@ Note: For the **Facilities** section, create a list with the following columns
 ### 🏷️ Events Calendar Web Part
 
 The **Events Calendar** web part allows site administrators to display and manage a calendar of upcoming events from a SharePoint list. This configurable component ensures that team members stay informed about scheduled activities, meetings, and deadlines.
+![EventsPropertypane](assets/events1.png)
+![EventsPropertypane](assets/events2.png)
 
 #### 🧷 Header Settings
 
@@ -283,12 +279,12 @@ The **Events Calendar** web part allows site administrators to display and manag
 
 #### ⚙️ General Settings
 
-| 🏷️ Name             | 🎯 Purpose                                              | 💡 Select Option |
-| ------------------- | ------------------------------------------------------- | ---------------- |
-| **Select a list**   | Dropdown to choose the list used for events             | Events           |
-| **Show Calendar**   | Toggle to show calendar-style display                   | Yes              |
-| **Filter Events**   | Dropdown to filter event types shown in the web part    | Upcoming Events  |
-| **Add/Edit Events** | Links to create or update events in the configured list | Add/Edit Events  |
+| 🏷️ Name                | 🎯 Purpose                                                                                                                                                                                                                                                                                                                                                      | 💡 Select Option |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| **Select events list** | Dropdown to choose the list used for events                                                                                                                                                                                                                                                                                                                     | Events           |
+| **Show Calendar**      | Toggle to show calendar-style display                                                                                                                                                                                                                                                                                                                           | Yes              |
+| **Filter Events**      | Dropdown to filter event types shown in the web part.**Note:** - If set to **"Upcoming Events"** , both the calendar and events section display only upcoming events.- If set to **"Previous 3 months + Upcoming Events"** , the calendar shows both past (last 3 months) and upcoming events, while the events section continues to show only upcoming events. | Upcoming Events  |
+| **Add/Edit Events**    | Links to create or update events in the configured list                                                                                                                                                                                                                                                                                                         | Add/Edit Events  |
 
 ## 🎉 7. Holidays
 

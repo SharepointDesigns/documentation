@@ -151,18 +151,9 @@ Note: For the **FAQ** section, if a list named **FAQs** already exists, you may 
 - **Structured Layout**: Organized sections for each department.
   ![Featured News](assets\news.png)
 
-### Library Config
-
-Note: For the **Featured News** section, the following columns must be created in the Site Pages library.
-
-| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type |
-| ------------------------------- | -------------- |
-| **Category**                    | 📁 Choice      |
-
 ### 🏷️ Featured News Web Part – Property Pane Configuration
 
-![Featured News Property Pane](assets/newsPP1.png)
-![Featured News Property Pane](assets/newsPP2.png)
+![Featured News Property Pane](assets/featurednews1.png)
 
 ### 📌 Header Settings
 
@@ -183,14 +174,23 @@ Note: For the **Featured News** section, the following columns must be created i
 | Show Sort By            | Add a Sort option to reorder content         | Enable / Disable                     |
 | Hide Border             | Toggle to display border around News section | Show / Hide                          |
 
-### ⚙️ General Settings
+#### ⚙️ General Settings
 
-| 🏷️ Name         | 🎯 Purpose                                                 | 💡 Select Option              |
-| --------------- | ---------------------------------------------------------- | ----------------------------- |
-| Search Sites    | Choose SharePoint sites to fetch news from                 | Site Picker or leave blank    |
-| Filter by Tag   | Filter news based on specific tags                         | Tag Input (e.g., Departments) |
-| Enable RSS Feed | Toggle ON/OFF to enable or disable RSS feeds               | On / Off                      |
-| Target Audience | Show posts only to selected users using audience targeting | Audience Selection            |
+| 🏷️ Name                  | 🎯 Purpose                                                                                                               | 💡 Select Option                        |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------- |
+| **Search Sites**         | Search and select the site(s) for the news source.                                                                       | current site                            |
+| **Enable RSS Feed**      | Toggle to display external RSS news feeds.                                                                               | On                                      |
+| **RSS Links**            | Manage external RSS feed links.                                                                                          | [Manage Links]                          |
+| **RSS API Key**          | Provide or generate an API key for secure RSS integration.                                                               | 7kmmp5wzpx2dyt4f4p3trgqlpwnxtz91kxcc... |
+| **Show Search Box**      | Toggle to include a search box for news items.                                                                           | Off                                     |
+| **Show Sort By**         | Enable sorting functionality (e.g., by date or title).                                                                   | On                                      |
+| **Show See All Button**  | Toggle to display a “See All” button linking to full news listing.                                                       | On                                      |
+| **Show Category Filter** | Note: This should be enabled only if the news is tagged to any category. Toggle to enable filtering content by category. | Off                                     |
+| **News Category**        | Select the available choice column to apply filters.                                                                     | choose available choice column          |
+| **Apply Filters**        | Select the available options from the News Category selected.                                                            | (Not Selected)                          |
+| **View All URL**         | Set the page URL for viewing the full list of news items.                                                                | `{siteUrl}/_layouts/15/news.aspx`       |
+| **Target Audience**      | Define audience targeting for news content visibility.                                                                   | (Empty)                                 |
+| **Manage News Posts**    | Link to the interface for managing and editing news posts.                                                               | [Manage News Posts]                     |
 
 ## 📝 5. Feedback / Share Your Ideas
 
