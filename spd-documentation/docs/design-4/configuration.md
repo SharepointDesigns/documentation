@@ -172,7 +172,13 @@ Note: For the **Quicklinks** section, create a list with the following columns
 
 - Each news item includes a date, title, preview image, and short description, along with navigation arrows and a "See All" option.
 
+![News](assets/NewsWebpart.png)
+
 ### 🏷️ News Web Part – Property Pane Configuration
+
+![NewsPropertyPane](assets/NewsPropertypane1.png)
+![NewsPropertyPane2](assets/NewsPropertypane2.png)
+![NewsPropertyPane3](assets/NewsPropertypane3.png)
 
 #### 🛠️ Header Settings
 
@@ -223,7 +229,12 @@ Note: For the **Quicklinks** section, create a list with the following columns
 
 - It provides a clean layout with a "Read More" button to access the full content, ensuring important leadership communication is prominently displayed.
 
+![MsgCEO](assets/MsgCEO.png)
+
 ### 🏷️ Message Center Web Part – Property Pane Configuration
+
+![MsgCEOPropertypane](assets/MsgCEOPropertypane.png)
+![MsgCEOPropertypane2](assets/MsgCEOPropertypane2.png)
 
 #### 📌 Header Settings
 
@@ -232,8 +243,6 @@ Note: For the **Quicklinks** section, create a list with the following columns
 | Web Part Title            | Title displayed at the top of the web part     | Message from the CEO              |
 | Webpart title Theme Color | Defines the color theme for the web part title | Dropdown (e.g., Theme 3: #243666) |
 | Preview                   | Shows a color preview of the selected theme    | Color Block Display               |
-
----
 
 #### ⚙️ General Settings
 
@@ -256,7 +265,18 @@ Note: For the **Quicklinks** section, create a list with the following columns
 
 - It supports both Compact and Carousel layouts, making recognition easily accessible and aesthetically appealing
 
+**Carousel View**
+
+![EmployeeSpotlights](assets/EmpSPotlights.png)
+
+**Compact View**
+
+![EmployeeSpotlights](assets/EmpSPotlights2.png)
+
 ### 🏷️ Employee Spotlights Web Part – Property Pane Configuration
+
+![EmployeeSpotlightsPropertypane](assets/EmpSpotPropertypane.png)
+![EmployeeSpotlightsPropertypane2](assets/EmpSpotPropertypane2.png)
 
 #### 🧷 Header Settings
 
@@ -293,6 +313,13 @@ Note: For the **Quicklinks** section, create a list with the following columns
 
 - Includes an Upload Image button and presents testimonials in an interactive carousel-style view for visual impact.
 
+![Testimonials](assets/Testimonials.png)
+
+### 🏷️ Testimonials Web Part – Property Pane Configuration
+
+![TestimonialsPropertypane](assets/TestimonialPropertypane.png)
+![TestimonialsPropertypane2](assets/TestimonialPropertypane2.png)
+
 #### 📌 Header Settings
 
 | 🏷️ Name                   | 🎯 Purpose                                     | 💡 Select Option                  |
@@ -313,8 +340,6 @@ Note: For the **Quicklinks** section, create a list with the following columns
 | -------------------------- | ----------------------------------------------- | ---------------- |
 | Allow multiple file upload | Enables uploading of multiple testimonial files | Enabled          |
 
----
-
 #### 🎠 Carousel Settings
 
 | 🏷️ Name                | 🎯 Purpose                                                | 💡 Select option |
@@ -333,7 +358,12 @@ Note: For the **Quicklinks** section, create a list with the following columns
 
 - Users can interact with the chart to view roles, names, and contact details in a clean, structured layout.
 
+![Organization Chart](assets/OrgChart.png)
+
 ### 🗂️ Organization Chart Web Part Settings
+
+![Organization ChartPropertypane](assets/OrgChartPropertypane.png)
+![Organization ChartPropertypane2](assets/OrgChartPropertypane2.png)
 
 #### 📌 Header Settings
 
@@ -373,7 +403,11 @@ Note: For the **Quicklinks** section, create a list with the following columns
 
 - Users can easily browse, plan, and stay informed with clickable event entries and color-coded categories
 
+![Calendar](assets/Calendar.png)
+
 ### 🏷️ Calendar Web Part – Property Pane Configuration
+
+![CalendarPropertyPane](assets/CalendarPropertyPane.png)
 
 #### 📌 Header Settings
 
