@@ -10,14 +10,6 @@ The Home page should be configured using the "Design 1 Setup" web part to ensure
 
 ## 📰 1. Featured News
 
-### 🚀️PREREQUISITE
-
-- [ ] Ensure a **"Category"** Choice column exists on the site.
-
-> ⚠️ **Important:** If the web part is manually added to the page, the **"Category"** column is **required** and must be created beforehand.
-
-- [ ] Create a "Category" Choice column if the site page doesn't exist this column
-
 ### 📋 Details
 
 - **Central Updates**: Keep everyone informed with company news.

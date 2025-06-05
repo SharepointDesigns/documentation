@@ -88,20 +88,20 @@ Note: For the **Top Navigation** section, create a list with the following colum
 
 The **Welcome Banner** web part delivers inspirational messaging through a configurable banner slider that emphasizes the organization's **Vision**, **Mission**, and **Values**.
 
-![Welcome Banner](assets/WelcomeBannerPropertypane.png)
+![](assets/WelcomeBannerPropPanel.png)
 
 #### ⚙️ General Settings
 
 This section allows customization of the **Welcome Banner** for a department or contact information display. The following configurable options are available:
 
-| 🏷️ Name                  | 🎯 Purpose                                                                     | 💡 Select Option                                                     |
-| ------------------------ | ------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
-| **Welcome message**      | Text displayed as a greeting to the user.                                      | "Hello"                                                              |
-| **Format Date and Time** | A date-time picker to display the current date and time in a formatted manner. | "Thursday 14th Jul, 2022, 4:27 PM"                                   |
-| **Title**                | Heading or main focus of the banner.                                           | "VISION"                                                             |
-| **Description**          | A short, impactful message summarizing the theme of the banner.                | "Maximizing SharePoint, Automation And AI, Making Work Fun."         |
-| **Sub text**             | A supporting statement that expands on the main description.                   | "To deliver innovative, aesthetically pleasing, flawless intranets." |
-| **Change background**    | Option to upload a custom background image for the banner.                     | Select an image using the "Select Image" control.                    |
+| 🏷️ Name                  | 🎯 Purpose                                                                                                                                                                                    | 💡 Select Option                                                     |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Welcome message**      | Text displayed as a greeting to the user.<br /><br />You can personalize the message using: `{firstName}`, `{lastName}`, or `{fullName}`. -- Eg: Welcome `{firstName}`, to SharePoint Designs | "Hello `{firstName}`"                                                |
+| **Format Date and Time** | A date-time picker to display the current date and time in a formatted manner.                                                                                                                | "Thursday 14th Jul, 2022, 4:27 PM"                                   |
+| **Title**                | Heading or main focus of the banner.                                                                                                                                                          | "VISION"                                                             |
+| **Description**          | A short, impactful message summarizing the theme of the banner.                                                                                                                               | "Maximizing SharePoint, Automation And AI, Making Work Fun."         |
+| **Sub text**             | A supporting statement that expands on the main description.                                                                                                                                  | "To deliver innovative, aesthetically pleasing, flawless intranets." |
+| **Change background**    | Option to upload a custom background image for the banner.                                                                                                                                    | Select an image using the "Select Image" control.                    |
 
 ## 🔗 3. Common Tools
 

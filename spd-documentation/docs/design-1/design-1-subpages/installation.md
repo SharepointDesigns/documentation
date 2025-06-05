@@ -11,7 +11,7 @@ sidebar_position: 2
 
   ![](assets/addAnApp.png)
 
-- Select **“Add an app”**, and choose **Intranet Design 1 SubPages by SharePoint Designs** & **Intranet Design 1 by SharePoint Designs**
+- Select **“Add an app”**, and choose **Intranet Design 1 Sub Pages by SharePoint Designs** & **Intranet Design 1 by SharePoint Designs**
 
   ![](assets/AddtoSite.png)
 
@@ -27,7 +27,7 @@ sidebar_position: 2
 > **Note:** _Upon adding the web part to the page, a **free 15-day trial** will start automatically._
 
 1. Navigate to a modern SharePoint page or create a new one.
-2. Edit the page and add the **"Design 1 SubPages Setup"** web part.
+2. Edit the page and add the **"Design 1 Sub Pages Setup"** web part.
    ![](assets/addwebparttoPage.png)
 3. **Republish** the page.
 4. **Select a page template** from the dropdown:
@@ -51,14 +51,14 @@ sidebar_position: 2
 
 ### License Activation Steps
 
-| **Step** | **Action**                 | **Details / Notes**                                                                                                                                                                                                                                                                                                  |
-| -------- | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1        | Go to the app page         | Navigate to the SharePoint page where the app is installed.                                                                                                                                                                                                                                                          |
-| 2        | Open activation panel      | - If the trial**has expired**, you'll see an **"Activate"** button on the app — click it.<br/>![](assets/activate.png)<br/>- If the trial **is still active** and you want to activate it, edit the page → open the **Web Part property panel** → click **"Activate License"**.<br/><br/>![](assets/activatewpp.png) |
-| 3        | Launch activation dialog   | A dialog box will appear prompting for a key.<br/><br/>![](assets/GetKey.png)                                                                                                                                                                                                                                        |
-| 4        | Click**Get Key**           | In the license dialog, click**Get Key** — this will take you to the payment page in a new tab.                                                                                                                                                                                                                       |
-| 5        | Purchase the license       | Complete the payment process. Once done, you’ll receive a license key via email. Be sure to check your spam/junk folder if you don't see it.                                                                                                                                                                         |
-| 6        | Enter and activate the key | Go back to the SharePoint page, paste the license key into the dialog box, and click**Activate** to complete activation.                                                                                                                                                                                             |
+| **Step** | **Action**                 | **Details / Notes**                                                                                                                                                                                                                                                                                                   |
+| -------- | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1        | Go to the app page         | Navigate to the SharePoint page where the app is installed.                                                                                                                                                                                                                                                           |
+| 2        | Open activation panel      | - If the trial **has expired**, you'll see an **"Activate"** button on the app — click it.<br/>![](assets/activate.png)<br/>- If the trial **is still active** and you want to activate it, edit the page → open the **Web Part property panel** → click **"Activate License"**.<br/><br/>![](assets/activatewpp.png) |
+| 3        | Launch activation dialog   | A dialog box will appear prompting for a key.<br/><br/>![](assets/GetKey.png)                                                                                                                                                                                                                                         |
+| 4        | Click **Get Key**          | In the license dialog, click **Get Key** — this will take you to the payment page in a new tab.                                                                                                                                                                                                                       |
+| 5        | Purchase the license       | Complete the payment process. Once done, you’ll receive a license key via email. Be sure to check your spam/junk folder if you don't see it.                                                                                                                                                                          |
+| 6        | Enter and activate the key | Go back to the SharePoint page, paste the license key into the dialog box, and click **Activate** to complete activation.                                                                                                                                                                                             |
 
 ✅ **Done! Your app is now fully activated.**
 
@@ -145,10 +145,10 @@ The following SharePoint Library are automatically created based on the selectio
 
 ## 🧹 Uninstall Guide
 
-Follow the steps below to uninstall the **Intranet Design 1 SubPages by SharePoint Designs** app from your SharePoint site:
+Follow the steps below to uninstall the **Intranet Design 1 Sub Pages by SharePoint Designs** app from your SharePoint site:
 
 1. Go to your SharePoint site and click on **Site Contents** from the left side navigation or the settings menu.
-2. Find **Intranet Design 1 SubPages by SharePoint Designs** in the list of installed apps.
+2. Find **Intranet Design 1 Sub Pages by SharePoint Designs** in the list of installed apps.
 3. Click the three dots (···) next to the app name and select **"Remove"**.
 4. If prompted to switch to the **Classic Experience**, follow the prompt to proceed.
 5. In the Classic Experience, hover over the app again, click the three dots (···), and then click **Remove** to finalize the uninstallation.
@@ -163,7 +163,7 @@ Follow the steps below to uninstall the **Intranet Design 1 SubPages by SharePoi
 
 ### 🗃️ Issue: Lists/Library Not Created
 
-**Solution**: Verify that the **"Apply template"** button was clicked after adding the **"Design 1 Subpages Setup"** web part. If the lists/Library are still not created, delete the page and reapply the design.
+**Solution**: Verify that the **"Apply template"** button was clicked after adding the **"Design 1 Sub Pages Setup"** web part. If the lists/Library are still not created, delete the page and reapply the design.
 
 ### 📝 Issue: Missing Demo Items
 

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Overview
 
-## Intranet Design 2 by Sharepoint Designs
+## Intranet Design 2 by SharePoint Designs
 
 🧩 **Design 2 Site Setup by SharePoint Designs**
 Effortless SharePoint site creation starts here.

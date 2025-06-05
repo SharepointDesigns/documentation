@@ -4,12 +4,12 @@ sidebar_position: 1
 
 # Overview
 
-## Intranet Design 2 SubPages by Sharepoint Designs
+## Intranet Design 2 Sub Pages by SharePoint Designs
 
-🧩 **Design 2 SubPages Setup by SharePoint Designs**
+🧩 **Design 2 Sub Pages Setup by SharePoint Designs**
 Effortless SharePoint site creation starts here.
 
-The **Design 2 SubPages Setup** web part by **SharePoint Designs** enables organizations to quickly deploy a well-structured and visually appealing SharePoint site, based on the popular **Design 2 SubPages** layout.
+The **Design 2 Sub Pages Setup** web part by **SharePoint Designs** enables organizations to quickly deploy a well-structured and visually appealing SharePoint site, based on the popular **Design 2 Sub Pages** layout.
 
 It includes three predefined page layouts:
 
@@ -31,7 +31,7 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 
 ## ✅ Key Features
 
-- **One-Click SubPages Setup** – A dropdown menu offers three layout options: **Department**, **Employee Resources**, and **Policies and Procedures**. Instantly apply the complete Design 2 SubPages layout with pre-configured sections, styles, and web parts.
+- **One-Click Sub Pages Setup** – A dropdown menu offers three layout options: **Department**, **Employee Resources**, and **Policies and Procedures**. Instantly apply the complete Design 2 Sub Pages layout with pre-configured sections, styles, and web parts.
 - **Modern & Responsive Design** – Built to look great on desktop and mobile devices, with flexible layouts and customizable zones.
 - **Consistent Branding** – Apply a standardized look and feel across all sites to reinforce your brand identity.
 - **Productivity-Ready Components** – Includes quick links, Employee Search, news feeds, upcoming events, FAQs, and RSS feeds—ready to use out of the box.
@@ -39,7 +39,7 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 
 ---
 
-## 🚀 What’s Included in Design 2 SubPages - Department Page?
+## 🚀 What’s Included in Design 2 Sub Pages - Department Page?
 
 - Welcome Banner
 - Quicklinks
@@ -51,7 +51,7 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 
 ---
 
-## 🚀 What’s Included in Design 2 SubPages - Employee Resources Page?
+## 🚀 What’s Included in Design 2 Sub Pages - Employee Resources Page?
 
 - Welcome Banner
 - Quicklinks
@@ -62,7 +62,7 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 
 ---
 
-## 🚀 What’s Included in Design 2 SubPages - Policies & Procedures Page?
+## 🚀 What’s Included in Design 2 Sub Pages - Policies & Procedures Page?
 
 - Welcome Banner
 - Quicklinks
