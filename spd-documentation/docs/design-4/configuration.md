@@ -130,8 +130,7 @@ Note: For the **Quicklinks** section, create a list with the following columns
 
 ### 🏷️ Quicklinks Web Part – Property Pane Configuration
 
-![QuicklinksPropertyPane](assets/QuicklinksPropertypane.png)
-![QuicklinksPropertyPane2](assets/QuicklinksPropertypane2.png)
+![Quicklinks](assets/QuicklinksPropertypane.png)
 
 #### 📌 Header Settings
 
@@ -177,8 +176,7 @@ Note: For the **Quicklinks** section, create a list with the following columns
 ### 🏷️ News Web Part – Property Pane Configuration
 
 ![NewsPropertyPane](assets/NewsPropertypane1.png)
-![NewsPropertyPane2](assets/NewsPropertypane2.png)
-![NewsPropertyPane3](assets/NewsPropertypane3.png)
+![NewsPropertyPane1](assets/NewsPropertypane2.png)
 
 #### 🛠️ Header Settings
 
@@ -233,8 +231,7 @@ Note: For the **Quicklinks** section, create a list with the following columns
 
 ### 🏷️ Message Center Web Part – Property Pane Configuration
 
-![MsgCEOPropertypane](assets/MsgCEOPropertypane.png)
-![MsgCEOPropertypane2](assets/MsgCEOPropertypane2.png)
+![MsgCEOPropertypane](assets/MsgPropertypane.png)
 
 #### 📌 Header Settings
 
@@ -265,6 +262,18 @@ Note: For the **Quicklinks** section, create a list with the following columns
 
 - It supports both Compact and Carousel layouts, making recognition easily accessible and aesthetically appealing
 
+### List Config
+
+Note: For the **Employee Spotlights** section, create a list with the following columns
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type         |
+| ------------------------------- | ---------------------- |
+| **Persons**                     | 👥 Person or Group     |
+| **Designation**                 | 📄 Text(default field) |
+| **ProfileImage**                | 🖼️ Image               |
+| **Date**                        | 📅 Date and Time       |
+| **Category**                    | ☑️ Choice field        |
+
 **Carousel View**
 
 ![EmployeeSpotlights](assets/EmpSPotlights.png)
@@ -275,8 +284,7 @@ Note: For the **Quicklinks** section, create a list with the following columns
 
 ### 🏷️ Employee Spotlights Web Part – Property Pane Configuration
 
-![EmployeeSpotlightsPropertypane](assets/EmpSpotPropertypane.png)
-![EmployeeSpotlightsPropertypane2](assets/EmpSpotPropertypane2.png)
+![EmployeeSpotlightsPropertypane](assets/EmpSpotlightsPropertypane.png)
 
 #### 🧷 Header Settings
 
@@ -318,7 +326,6 @@ Note: For the **Quicklinks** section, create a list with the following columns
 ### 🏷️ Testimonials Web Part – Property Pane Configuration
 
 ![TestimonialsPropertypane](assets/TestimonialPropertypane.png)
-![TestimonialsPropertypane2](assets/TestimonialPropertypane2.png)
 
 #### 📌 Header Settings
 
@@ -362,8 +369,7 @@ Note: For the **Quicklinks** section, create a list with the following columns
 
 ### 🗂️ Organization Chart Web Part Settings
 
-![Organization ChartPropertypane](assets/OrgChartPropertypane.png)
-![Organization ChartPropertypane2](assets/OrgChartPropertypane2.png)
+![Organization ChartPropertypane](assets/OrgchartPropertypane.png)
 
 #### 📌 Header Settings
 
@@ -407,7 +413,7 @@ Note: For the **Quicklinks** section, create a list with the following columns
 
 ### 🏷️ Calendar Web Part – Property Pane Configuration
 
-![CalendarPropertyPane](assets/CalendarPropertyPane.png)
+![CalendarPropertyPane](assets/EventsPropertyPane.png)
 
 #### 📌 Header Settings
 
