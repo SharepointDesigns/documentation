@@ -10,11 +10,11 @@ sidebar_position: 2
 - Navigate to your modern SharePoint site.
 - Click the **Settings (gear)** icon → Select **“Add an app”**  
   ![](assets/diy5_addAnApp.png)
-- Choose **DIY Intranet Design 5 by SharePoint Designs**  
-  ![](assets/AddtoSite.png)
+- Choose **Intranet Design 5 by SharePoint Designs**  
+  ![](assets/diy5_AddAnAppPage.png)
 - Click **Add**.
 - Confirm installation by checking under **Site Contents**  
-  ![](assets/AppScreen.png)
+  ![](assets/diy5_confirmScreen.png)
 
 ---
 
@@ -27,7 +27,7 @@ sidebar_position: 2
 1. On the SharePoint site, locate the new icon in the top command bar (on the right side of the header bar). This icon opens the design template panel.
    ![](assets/diy5_adminIcon.png)
 
-2. Click the icon to open the **Design 5 Admin Settings Panel**.  
+2. Click the icon to open the Design 5 Logo Settings Panel.  
    ![](assets/diy5_adminPanel.png)
 
 3. In the panel:
@@ -37,9 +37,10 @@ sidebar_position: 2
 
 4. Do not close or refresh the browser. A pop-up will appear to create the required lists and libraries:
    - `Quick Links` list
+   - `AnnouncementList` list
    - `Welcome Banner` library  
    - `Event Flyer` library
-   (_Mock items are added automatically for News, QuickLinks, and Events._)
+   (_Mock items are added automatically for Announcements, News, QuickLinks, and Events._)
 
 5. After the items are created, the site page will **refresh automatically**, and it will continue to creating page and adding webparts.
 
@@ -73,6 +74,7 @@ sidebar_position: 2
 The following resources are provisioned upon applying the **Home** template:
 
 - 📄 **Quick Links** (List)
+- 📄 **AnnouncementList** (List)
 - 🖼️ **Welcome Banner** (Library)
 - 🖼️ **Event Flyer** (Library)
 
