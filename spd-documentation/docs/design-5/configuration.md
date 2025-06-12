@@ -2,34 +2,21 @@
 sidebar_position: 3
 ---
 
+# Configuration
+
+Configuration settings for each web part.
+
 # 📰 Welcome Banner
 
-The **Welcome Banner** is the eye-catching hero section of the DIY5 homepage. It provides a personalized welcome experience, current time and date, and optional background visuals through either a carousel or video.
+The **Welcome Banner** is the visually prominent hero section of the DIY5 homepage. It provides a personalized welcome, real-time clock, and optionally features background visuals or announcement-driven content.
 
 ![Welcome Banner](assets/diy5_welcomeBanner.png)
 
 ---
-<!-- 
-### 🛠️ Getting Started
-
-To configure the Welcome Banner web part, you need to edit the page first.
-
-![Edit Page](assets/diy5_editPageButton.png)
-
-1. Navigate to your SharePoint page.
-2. Click the **Edit** button (see image above).
-3. Click on the Welcome Banner web part.
-4. Click the **Edit web part** icon (see image below) to open the property pane.
-
-    ![Edit Web Part Icon](assets/diy5_editWebpartIcon.png)
-
-5. Configure the settings as described below.
-
---- -->
 
 ### ⚙️ Property Pane Configuration
 
-The Welcome Banner has flexible configuration options grouped under the following categories:
+Configuration options are grouped under intuitive sections:
 
 ---
 
@@ -37,59 +24,34 @@ The Welcome Banner has flexible configuration options grouped under the followin
 
 ![General Settings](assets/diy5_welcomeBanner_gsOne.png)
 
-| Field                     | Type           | Default / Example                              | Description |
-|---------------------------|----------------|------------------------------------------------|-------------|
-| **Title**                 | Textbox        | Welcome to your Intranet                     | Main banner title. Can be customized to reflect branding. |
-| **Description**           | Multiline Text | Your go-to space for connection, communication, resources, and getting things done. | Supporting text under the title. |
-| **Welcome message**       | Textbox        | Hello                                        | Personal greeting with user's first name displayed above the date and time. |
-| **Format Date and Time**  | Dropdown       | 7:52 PM Wednesday, Dec 15, 2021 (format example) | Choose from multiple date-time display formats. |
-| **Carousel**              | Toggle         | Disabled by default                            | Enables the rotating image carousel. Reveals additional settings when enabled. |
+| Field                             | Type           | Default / Example                             | Description |
+|----------------------------------|----------------|-----------------------------------------------|-------------|
+| **Welcome Message**              | Textbox        | Hello                                          | Displays a greeting with the current user's first name, above the date/time. |
+| **Format Date and Time**         | Dropdown       | 7:52 PM Wednesday, Dec 15, 2021                | Select how date and time are formatted in the banner. |
+| **Select Background Image**      | Image Picker   | Upload / Choose                                | Upload or pick a static image used as the banner background. |
+| **Choose a List for Announcements** | Dropdown    | DIY5Announcements (auto-created)              | Selects the list containing announcement items. Created automatically during initial setup. |
+| **Auto Play**                    | Toggle         | Enabled                                        | Enables automatic cycling of carousel items. |
+| **Auto Play Speed (seconds)**    | Slider         | 3                                              | Time interval between slide transitions. |
+| **Show Dots**                    | Toggle         | Enabled                                        | Displays indicator dots below the carousel. |
+| **Show Arrows**                  | Toggle         | Disabled                                       | Displays navigation arrows on the sides of the carousel. |
 
 ---
-
-### 🎥 Video Background
-
-![Video Background](assets/diy5_welcomeBanner_gsThree.png)
-
-> *Visible only when Carousel is disabled.*
-
-| Field                       | Type         | Default / Example                         | Description |
-|-----------------------------|--------------|-------------------------------------------|-------------|
-| **Change Background Image** | Image Picker | Choose an image                           | Upload a fallback/static image shown initially. |
-| **Video Background**        | Toggle       | Disabled                                  | Enables a video to play in the background. |
-| **Video Delay**             | Slider       | 3 seconds                                 | Sets how many seconds after page load the video appears, replacing the static image background. |
-| **Change Background Video** | Video Picker | Choose a video                            | Upload or select a video file to be used as the background. |
-
----
-
-### 🖼 Carousel Settings
-
-![Carousel Settings](assets/diy5_welcomeBanner_gsTwo.png)
-
-> *Visible only when Carousel is enabled.*
-
-| Field                             | Type     | Description |
-|----------------------------------|----------|-------------|
-| **Choose a Library for Banner Images** | Dropdown | Select the WelcomeBanner library created during site setup. |
-| **Auto Play**                    | Toggle   | Automatically rotates through banner images. |
-| **Auto Play Speed (seconds)**    | Slider   | Controls the delay between slide transitions. |
-| **Show Dots**                    | Toggle   | Displays dot indicators below the carousel. |
-| **Show Arrows**                  | Toggle   | Enables navigation arrows for manual control. |
-
----
-
-
 
 ### 🎨 Appearance Settings
 
-![Appearance Settings](assets/diy5_welcomeBanner_appOne.png)
-![Appearance Settings](assets/diy5_welcomeBanner_appTwo.png)
+![Appearance Settings](assets/diy5_welcomeBanner_as.png)
 
-| Field                          | Type          | Default / Example | Description |
-|--------------------------------|---------------|-------------------|-------------|
-| **Welcome message font color** | Color Picker  | ffffff (White)    | Customize the color of the welcome message text. Supports Hex, RGB values, and Alpha transparency. |
-| **Show Header Design**         | Toggle        | Off               | Enables a decorative design element in the right section behind company vision/mission content. |
-| **Header Background Color**    | Color Picker  | ef6a00 (Orange)   | Configure the background color of the header design element. Only visible when "Show Header Design" is enabled. |
+| Field                                | Type         | Default | Description |
+|-------------------------------------|--------------|---------|-------------|
+| **Announcement Section Background Color** | Color Picker | ef6a00  | Customizes the background color for the announcement area. |
+
+---
+
+### 🧩 Layout
+
+| Field          | Type       | Default      | Description |
+|---------------|------------|--------------|-------------|
+| **Layout Mode** | Choice Field | Announcements | Select the layout mode for the banner. |
 
 ---
 
@@ -97,21 +59,21 @@ The Welcome Banner has flexible configuration options grouped under the followin
 
 ![About Section](assets/diy5_about.png)
 
-| 🏷️ Name                     | 🎯 Purpose                                                                           |
-| --------------------------- | ------------------------------------------------------------------------------------ |
-| **Developer Info**          | Indicates the web part is developed by **SharePoint Designs**.                        |
-| **Documentation Link**      | Provides access to documentation for further guidance.                |
-| **Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
+| 🏷️ Name                 | 🎯 Purpose                                                                          |
+|-------------------------|-------------------------------------------------------------------------------------|
+| **Developer Info**      | Indicates the web part is built by **SharePoint Designs**.                         |
+| **Documentation Link**  | Links to this documentation for easy reference.                                    |
+| **Activate License**    | Button to activate the licensed or premium version if applicable.                  |
 
 ---
 
 ### 📌 Usage Notes
 
-- The WelcomeBanner image library is created automatically when applying the DIY5 template.
-- **Carousel** and **Video Background** cannot be active at the same time.
-- When Video Background is enabled, the video will render after the background image, based on the configured delay.
-- Color pickers support multiple formats: Hex codes, RGB values, and Alpha transparency settings.
-- The Header Design feature adds visual appeal to the company vision/mission area when enabled.
+- **AnnouncementList** list is created automatically when applying the template and comes with mock data.
+- Carousel is auto-enabled with default settings unless manually changed.
+- Announcement section background color enhances visual clarity for message visibility.
+- The layout mode dictates how banner content is presented — Announcements is the default for internal comms.
+
 
 ---
 
@@ -139,12 +101,13 @@ The CEO Video web part offers flexible configuration grouped into the following 
 
 ![Header Settings](assets/diy5_ceoVideo_hs.png)
 
-| Field            | Type       | Default / Example | Description                                                              |
-|------------------|------------|-------------------|--------------------------------------------------------------------------|
-| **Header**       | Toggle     | Off               | Enable to show the header section for the web part.                      |
-| **Webpart Title**| Text Field | CEO Video         | Title for the web part. Visible only when Header is enabled.             |
-| **See All**      | Toggle     | Off               | Show a "See All" link in the header.                                     |
-| **See All Link** | Text Field | (Disabled)        | URL for the "See All" link. Enabled only when See All is toggled on.     |
+| Field                      | Type       | Default / Example | Description                                                              |
+|----------------------------|------------|-------------------|--------------------------------------------------------------------------|
+| **Header**                 | Toggle     | Off               | Enable to show the header section for the web part.                      |
+| **Webpart Title**          | Text Field | CEO Video         | Title for the web part. Visible only when Header is enabled.             |
+| **Hide space above header**| Toggle     | Enabled           | Removes extra spacing above the header section when enabled.             |
+| **See All**                | Toggle     | Off               | Show a "See All" link in the header.                                     |
+| **See All Link**           | Text Field | (Disabled)        | URL for the "See All" link. Enabled only when See All is toggled on.     |
 
 ---
 
@@ -210,9 +173,9 @@ The CEO Video web part offers flexible configuration grouped into the following 
 
 ---
 
-# 📰 Featured News
+# 📰 Company & Announcements
 
-The **Featured News** web part by SharePoint Designs delivers concise, visually engaging company news with powerful filtering and dynamic display options. Designed for clarity and flexibility, it allows organizations to keep everyone informed with targeted, up-to-date announcements and stories.
+The **Company & Announcements** web part by SharePoint Designs delivers concise, visually engaging company news with powerful filtering and dynamic display options. Designed for clarity and flexibility, it allows organizations to keep everyone informed with targeted, up-to-date announcements and stories.
 
 ![Featured News](assets/diy5_featuredNews.png)
 
@@ -237,7 +200,7 @@ The **Featured News** web part by SharePoint Designs delivers concise, visually 
 
 ## 🛠️ Property Pane Configuration
 
-The Featured News web part provides flexible configuration grouped into the following categories:
+The Company & Announcements web part provides flexible configuration grouped into the following categories:
 
 - **Header Settings**
 - **General Settings**
@@ -257,10 +220,11 @@ The Featured News web part provides flexible configuration grouped into the foll
 |--------------------|-----------|---------------------------------------------------|------------------------------------------------------------------|
 | **Enable Header**  | Toggle    | Enabled                                               | Show or hide the header section for the web part.                |
 | **Webpart Title**  | Text      | Company & Announcements                           | Title for the web part. Visible only when header is enabled.     |
+| **Hide space above header**| Toggle     | Enabled           | Removes extra spacing above the header section when enabled.             |
 | **See All**        | Toggle    | Enabled                                               | Show a "See All" link in the header.                             |
 | **Show Search Box**| Toggle    | Disabled                                               | Display a search box for news items.                             |
 | **Show Sort By**   | Toggle    | Disabled                                               | Enable sorting options (e.g., by date or title).                 |
-| **See All Link**   | Text      | {siteUrl}/_layouts/15/news.aspx                   | URL for the "See All" link. Enabled only when See All is on.     |
+| **See All Link**   | Text      | \{siteUrl\}/_layouts/15/news.aspx                   | URL for the "See All" link. Enabled only when See All is on.     |
 
 ---
 
@@ -342,10 +306,115 @@ The Featured News web part provides flexible configuration grouped into the foll
 
 ### 📌 Usage Notes
 
-- The Featured News web part supports dynamic filtering, sorting, and search for targeted news delivery.
+- The Company & Announcements web part supports dynamic filtering, sorting, and search for targeted news delivery.
 - Ensure the **Category** column (or your selected column) exists in the Site Pages library before configuring category-based filters.
 - RSS integration allows for external news sources to be displayed alongside internal news.
 - Layout and appearance settings help match the news section to your intranet branding.
+
+---
+
+# 📁 Documents
+
+The **Document Library** web part allows you to display and interact with files from a selected SharePoint document library directly on your intranet page. By default, the web part is configured to show the built-in **Documents** library, but you can select any available library on your site.
+
+![Document Library Web Part](assets/diy5_documents.png)
+
+---
+
+## 🛠️ Property Pane Configuration
+
+![Document Library General Settings](assets/diy5_documents_gsOne.png)
+
+Configure the Document Library web part using the following options:
+
+| Field                   | Type        | Default / Example                        | Description                                                                              |
+|-------------------------|-------------|------------------------------------------|------------------------------------------------------------------------------------------|
+| **Document Library**    | Dropdown    | Documents                               | Choose which SharePoint document library to display. By default, "Documents" is selected.|
+| **View**                | Dropdown    | (Select view)                           | Select a specific view from the chosen library.                                          |
+| **Folder**              | Text        | (Enter folder path)                     | Optionally enter a folder path to display only files from a specific folder.             |
+| **Size**                | Dropdown    | Medium (about 15 items)                 | Choose the display size: Autosize, Small, Medium, or Large.                              |
+| **Command Bar Hidden**  | Toggle      | Off                                     | Hide or show the command bar (actions like New, Upload, etc.).                           |
+| **See All**             | Toggle      | On                                      | Show a "See All" link to open the full document library.                                 |
+| **Dynamic Filtering**   | Toggle      | Off                                     | Enable to filter this library based on selections from another list or library web part.  |
+
+> **Dynamic Filtering:**  
+When enabled, you can connect this web part to another list or library on the page. This allows the Document Library to display only items that match the selected value in the connected web part. For example, you can filter documents by project, client, or any matching column between the two sources.  
+To configure:
+
+![Document Library General Settings Two](assets/diy5_documents_gsTwo.png)
+
+- Enable the **Dynamic Filtering** toggle in the property pane.
+- Select the column in this library to filter.
+- Choose the list or library to connect to, and the column containing the filter value.
+- Click **Apply** to activate the dynamic connection[1][2][6][7].
+
+> **Important:** After editing and configuring this web part, you must click **Apply** on the property pane to save and reflect your changes[2][6][7].
+
+---
+
+## 📌 Usage Notes
+
+- By default, the web part displays the **Documents** library, but you can select any available document library on your site.
+- You can filter to a specific folder by entering its path in the Folder field (use "/" for nested folders).
+- Select a custom view to display files as needed, and adjust the size and command bar visibility to match your page layout and user needs.
+- The "See All" link provides quick access to the full document library.
+- **Dynamic Filtering** allows you to connect this library to another list or library web part for contextual, real-time filtering based on user selection[1][2][6][7].
+- Always click **Apply** in the property pane after making changes to ensure your configuration is saved and visible.
+
+---
+
+# 🔗 Quick Links
+
+The **Quick Links** web part by SharePoint Designs provides a streamlined way to display curated links to important tools, resources, or pages on your intranet homepage. It supports flexible list configuration, easy editing, and multiple layout options to fit your site’s design.
+
+![Quick Links Web Part](assets/diy5_quickLinks.png)
+
+---
+
+## 🏷️ Header Settings
+
+| Field             | Type      | Default / Example | Description                                                      |
+|-------------------|-----------|-------------------|------------------------------------------------------------------|
+| **Webpart Title** | Text      | Quick Links       | Title for the web part.                                          |
+| **Hide space above header**| Toggle     | Enabled           | Removes extra spacing above the header section when enabled.|
+| **See All**       | Toggle    | Off               | Show a "See All" link in the header.                             |
+| **See All Link**  | Text      | (Empty)           | URL for the "See All" link. Enabled only when See All is on.     |
+
+---
+
+## ⚙️ General Settings
+
+| Field                   | Type        | Default / Example    | Description                                                                 |
+|-------------------------|-------------|----------------------|-----------------------------------------------------------------------------|
+| **Choose a QuickLinks List** | List Picker | Quick List (default) | Select the SharePoint list to display links from. By default, the Quick List created during page setup is mapped and pre-populated with mock items. |
+| **View List**           | Link        | (Redirects to list)  | Quick link to open the selected Quick Links list for editing, adding, or deleting links. |
+
+---
+
+## 📐 Layout
+
+| Field         | Type     | Default / Example | Description                                |
+|---------------|----------|-------------------|--------------------------------------------|
+| **Layout**    | Choice   | Vertical          | Choose how the links are displayed (e.g., Vertical, Horizontal). |
+
+---
+
+## ℹ️ About
+
+| Name                | Purpose                                                |
+|---------------------|-------------------------------------------------------|
+| **Developer Info**  | Indicates the web part is developed by SharePoint Designs. |
+| **Documentation**   | Provides access to further guidance and support.      |
+| **Activate License**| Button to activate the premium or licensed version.   |
+
+---
+
+## 📌 Usage Notes
+
+- The Quick Links web part is ideal for providing fast access to frequently used resources, tools, or sites.
+- By default, the Quick List is created and mapped with sample links during page setup, making it ready to use immediately.
+- Use the **View List** link to manage your links directly in SharePoint—add, edit, or delete as needed.
+- Layout settings allow you to display links vertically (default) or in other supported formats to match your site’s style.
 
 ---
 
@@ -365,8 +434,9 @@ The **Calendar** web part by SharePoint Designs provides a modern, interactive w
 |-------------------|-----------|-----------------------------------------------------------------|-----------------------------------------------------------------------------|
 | **Header**        | Toggle    | On                                                              | Show or hide the header section for the web part.                           |
 | **Webpart Title** | Text      | Calendar                                                        | Title for the web part. Visible only when header is enabled.                |
+| **Hide space above header**| Toggle     | Enabled           | Removes extra spacing above the header section when enabled.             |
 | **See All**       | Toggle    | On                                                              | Show a "See All" link in the header.                                        |
-| **See All Link**  | Text      | {siteUrl}/_layouts/15/Events.aspx?ListGuid={listID}             | URL for the "See All" link. Enabled only when See All is on.                |
+| **See All Link**  | Text      | \{siteUrl\}/_layouts/15/Events.aspx?ListGuid=\{listID\}             | URL for the "See All" link. Enabled only when See All is on.                |
 | **Events Heading**| Text      | Important Dates                                                 | Heading for the events section below the main title.                        |
 
 ---
@@ -425,7 +495,7 @@ The **Calendar** web part by SharePoint Designs provides a modern, interactive w
 
 The **Event Flyer** web part by SharePoint Designs is designed to visually promote key events and announcements on your intranet homepage. It displays a featured image with an optional link and caption, or you can enable a carousel to showcase multiple flyers from a dedicated library. By default, the web part displays a sample flyer from SharePoint Designs, which can be customized in the property pane.
 
-![Event Flyer Web Part](assets/EventFlyer.png)
+![Event Flyer Web Part](assets/diy5_eventFlyer.png)
 
 ---
 
@@ -445,6 +515,7 @@ The Event Flyer web part provides flexible configuration grouped into the follow
 |------------------------|-------------|------------------------|---------------------------------------------------------------------------------------------|
 | **Header**             | Toggle      | On                     | Show or hide the header section for the web part.                                           |
 | **Webpart Title**      | Text        | Event Flyer            | Title for the web part. Visible only when header is enabled.                                |
+| **Hide space above header**| Toggle     | Enabled           | Removes extra spacing above the header section when enabled.             |
 | **Carousel**           | Toggle      | Off                    | Enable to display multiple flyers as a carousel.                                            |
 | **Change Image**       | File Picker | None                   | Select or upload an image for the flyer. Visible only when Carousel is off.                 |
 | **Flyer Redirect Link**| Text        | (Disabled by default)  | URL to redirect when the flyer is clicked. Enabled only after an image is configured.       |
@@ -491,109 +562,5 @@ When **Carousel** is enabled, the following options are available (and the image
 - The Flyer Redirect Link and Flyer Caption are only enabled after an image is selected.
 - Enable the carousel to showcase multiple flyers from the Event Flyer Library, with advanced options for autoplay, speed, dots, and arrows.
 - Layout settings allow you to adjust the flyer image height for optimal presentation[1].
-
----
-
-# 📁 Document Library
-
-The **Document Library** web part allows you to display and interact with files from a selected SharePoint document library directly on your intranet page. By default, the web part is configured to show the built-in **Documents** library, but you can select any available library on your site.
-
-![Document Library Web Part](assets/diy5_documents.png)
-
----
-
-## 🛠️ Property Pane Configuration
-
-![Document Library General Settings](assets/diy5_documents_gsOne.png)
-
-Configure the Document Library web part using the following options:
-
-| Field                   | Type        | Default / Example                        | Description                                                                              |
-|-------------------------|-------------|------------------------------------------|------------------------------------------------------------------------------------------|
-| **Document Library**    | Dropdown    | Documents                               | Choose which SharePoint document library to display. By default, "Documents" is selected.|
-| **View**                | Dropdown    | (Select view)                           | Select a specific view from the chosen library.                                          |
-| **Folder**              | Text        | (Enter folder path)                     | Optionally enter a folder path to display only files from a specific folder.             |
-| **Size**                | Dropdown    | Medium (about 15 items)                 | Choose the display size: Autosize, Small, Medium, or Large.                              |
-| **Command Bar Hidden**  | Toggle      | Off                                     | Hide or show the command bar (actions like New, Upload, etc.).                           |
-| **See All**             | Toggle      | On                                      | Show a "See All" link to open the full document library.                                 |
-| **Dynamic Filtering**   | Toggle      | Off                                     | Enable to filter this library based on selections from another list or library web part.  |
-
-> **Dynamic Filtering:**  
-When enabled, you can connect this web part to another list or library on the page. This allows the Document Library to display only items that match the selected value in the connected web part. For example, you can filter documents by project, client, or any matching column between the two sources.  
-To configure:
-
-![Document Library General Settings Two](assets/diy5_documents_gsTwo.png)
-
-- Enable the **Dynamic Filtering** toggle in the property pane.
-- Select the column in this library to filter.
-- Choose the list or library to connect to, and the column containing the filter value.
-- Click **Apply** to activate the dynamic connection[1][2][6][7].
-
-> **Important:** After editing and configuring this web part, you must click **Apply** on the property pane to save and reflect your changes[2][6][7].
-
----
-
-## 📌 Usage Notes
-
-- By default, the web part displays the **Documents** library, but you can select any available document library on your site.
-- You can filter to a specific folder by entering its path in the Folder field (use "/" for nested folders).
-- Select a custom view to display files as needed, and adjust the size and command bar visibility to match your page layout and user needs.
-- The "See All" link provides quick access to the full document library.
-- **Dynamic Filtering** allows you to connect this library to another list or library web part for contextual, real-time filtering based on user selection[1][2][6][7].
-- Always click **Apply** in the property pane after making changes to ensure your configuration is saved and visible.
-
----
-
-# 🔗 Quick Links
-
-The **Quick Links** web part by SharePoint Designs provides a streamlined way to display curated links to important tools, resources, or pages on your intranet homepage. It supports flexible list configuration, easy editing, and multiple layout options to fit your site’s design.
-
-![Quick Links Web Part](assets/QuickLinks.png)
-
----
-
-## 🏷️ Header Settings
-
-| Field             | Type      | Default / Example | Description                                                      |
-|-------------------|-----------|-------------------|------------------------------------------------------------------|
-| **Webpart Title** | Text      | Quick Links       | Title for the web part.                                          |
-| **See All**       | Toggle    | Off               | Show a "See All" link in the header.                             |
-| **See All Link**  | Text      | (Empty)           | URL for the "See All" link. Enabled only when See All is on.     |
-
----
-
-## ⚙️ General Settings
-
-| Field                   | Type        | Default / Example    | Description                                                                 |
-|-------------------------|-------------|----------------------|-----------------------------------------------------------------------------|
-| **Choose a QuickLinks List** | List Picker | Quick List (default) | Select the SharePoint list to display links from. By default, the Quick List created during page setup is mapped and pre-populated with mock items. |
-| **View List**           | Link        | (Redirects to list)  | Quick link to open the selected Quick Links list for editing, adding, or deleting links. |
-
----
-
-## 📐 Layout
-
-| Field         | Type     | Default / Example | Description                                |
-|---------------|----------|-------------------|--------------------------------------------|
-| **Layout**    | Choice   | Vertical          | Choose how the links are displayed (e.g., Vertical, Horizontal). |
-
----
-
-## ℹ️ About
-
-| Name                | Purpose                                                |
-|---------------------|-------------------------------------------------------|
-| **Developer Info**  | Indicates the web part is developed by SharePoint Designs. |
-| **Documentation**   | Provides access to further guidance and support.      |
-| **Activate License**| Button to activate the premium or licensed version.   |
-
----
-
-## 📌 Usage Notes
-
-- The Quick Links web part is ideal for providing fast access to frequently used resources, tools, or sites.
-- By default, the Quick List is created and mapped with sample links during page setup, making it ready to use immediately.
-- Use the **View List** link to manage your links directly in SharePoint—add, edit, or delete as needed.
-- Layout settings allow you to display links vertically (default) or in other supported formats to match your site’s style.
 
 ---
