@@ -26,6 +26,21 @@ import DocCard from "@theme/DocCard";
     "href": "/docs/category/design-2",
   }} />
 </article>
-
+<article className="col col--6 margin-bottom--lg">
+<DocCard item={{
+    "type": "link",
+    "label": "Design 4",
+    "icon":"arrow",
+    "href": "/docs/category/design-4",
+  }} />
+</article>
+<article className="col col--6 margin-bottom--lg">
+<DocCard item={{
+    "type": "link",
+    "label": "Design 5",
+    "icon":"arrow",
+    "href": "/docs/category/design-5",
+  }} />
+</article>
   </section>
   </article>
