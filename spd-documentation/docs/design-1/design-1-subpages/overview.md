@@ -81,4 +81,4 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 ## 📄 Documentation
 
 Everything you need to get started, configure, and deploy Design 1 Sub Pages is available in our documentation:
-👉 [View Documentation](/documentation/docs/design-1/installation)
+👉 [View Documentation](/documentation/docs/design-1/design-1-subpages/installation)
