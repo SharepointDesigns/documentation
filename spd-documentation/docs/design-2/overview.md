@@ -20,7 +20,7 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 - **One-Click Site Setup** – Instantly apply the full Design 2 layout with pre-configured sections, styles, and web parts.
 - **Modern & Responsive Design** – Built to look great on desktop and mobile devices, with flexible layouts and customizable zones.
 - **Consistent Branding** – Apply a standardized look and feel across all sites to reinforce your brand identity.
-- **Productivity-Ready Components** – Includes quick links, Facilites, news feeds, Events Calendar, Holidays—ready to use out of the box.
+- **Productivity-Ready Components** – Includes quick links, Facilities, news feeds, Events Calendar, Holidays—ready to use out of the box.
 - **No-Code Required** – Ideal for both IT admins and business users. Set up modern SharePoint experiences without any technical overhead.
 
 ---
