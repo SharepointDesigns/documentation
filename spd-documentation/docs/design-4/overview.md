@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Overview
 
-## Intranet Design 4 by Sharepoint Designs
+## Intranet Design 4 by SharePoint Designs
 
 🧩 **Design 4 Site Setup by SharePoint Designs**
 Effortless SharePoint site creation starts here.
@@ -20,7 +20,7 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 - **One-Click Site Setup** – Instantly apply the full Design 4 layout with pre-configured sections, styles, and web parts.
 - **Modern & Responsive Design** – Built to look great on desktop and mobile devices, with flexible layouts and customizable zones.
 - **Consistent Branding** – Apply a standardized look and feel across all sites to reinforce your brand identity.
-- **Productivity-Ready Components** – Includes quick links, Facilites, news feeds, Events Calendar, Holidays—ready to use out of the box.
+- **Productivity-Ready Components** – Includes quick links, Facilities, news feeds, Events Calendar, Holidays—ready to use out of the box.
 - **No-Code Required** – Ideal for both IT admins and business users. Set up modern SharePoint experiences without any technical overhead.
 
 ---
@@ -42,4 +42,4 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 ## 📄 Documentation
 
 Everything you need to get started, configure, and deploy Design 4 is available in our documentation:
-👉 [View Documentation](/documentation/docs/design-2/installation)
+👉 [View Documentation](/documentation/docs/design-4/installation)
