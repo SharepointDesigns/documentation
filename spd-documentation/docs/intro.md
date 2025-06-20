@@ -26,6 +26,21 @@ import DocCard from "@theme/DocCard";
     "href": "/docs/category/design-2",
   }} />
 </article>
-
+<article className="col col--6 margin-bottom--lg">
+<DocCard item={{
+    "type": "link",
+    "label": "Employee Onboarding",
+    "icon":"arrow",
+    "href": "/docs/category/employee-onboarding",
+  }} />
+</article>
+<article className="col col--6 margin-bottom--lg">
+<DocCard item={{
+    "type": "link",
+    "label": "Free Template",
+    "icon":"arrow",
+    "href": "/docs/category/free-template",
+  }} />
+</article>
   </section>
   </article>
