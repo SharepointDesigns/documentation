@@ -272,7 +272,7 @@ Note: For the **Employee Spotlights** section, create a list with the following 
 | **Designation**                 | 📄 Text(default field) |
 | **ProfileImage**                | 🖼️ Image               |
 | **Date**                        | 📅 Date and Time       |
-| **Category**                    | ☑️ Choice field        |
+| **Category**                    | ☑️ Choice field Options: Birthday, Anniversary, New Joiner       |
 
 **Carousel View**
 
