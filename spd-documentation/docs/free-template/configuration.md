@@ -1,5 +1,6 @@
+---
 sidebar_position: 3
--------------------
+---
 
 # Configuration
 
@@ -7,7 +8,7 @@ sidebar_position: 3
 
 The Home page should be configured using the "Free Template" extention to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
 
-## 📰 1.  News Carousel
+## 📰 1. News Carousel
 
 ### 🚀️PREREQUISITE
 
@@ -29,9 +30,8 @@ Make sure to include banner image and title for the newspage.
 
 #### 📌 **Header Settings**
 
-
-| 🏷️ Name           | 🎯 Purpose                                   | 💡 Select Option |
-| --------------------- | ---------------------------------------------- | ------------------ |
+| 🏷️ Name             | 🎯 Purpose                                   | 💡 Select Option |
+| ------------------- | -------------------------------------------- | ---------------- |
 | WebPart Title       | Title displayed for the web part             | News             |
 | Hide WebPart Title  | Toggle to show or hide the WebPart title     | Show/Hide        |
 | Show See all button | Toggle to show or hide the See all button    | On/Off           |
@@ -41,9 +41,8 @@ Make sure to include banner image and title for the newspage.
 
 #### 🎨 Appearance Settings
 
-
-| 🏷️ Name                | 🎯 Purpose                         | 💡 Select Option |
-| :------------------------- | ------------------------------------ | ------------------ |
+| 🏷️ Name                  | 🎯 Purpose                         | 💡 Select Option |
+| :----------------------- | ---------------------------------- | ---------------- |
 | Carousel Height(px)      | Set the height of the carousel     | 350              |
 | Banner Image height (px) | Set the height of the banner image | 300              |
 
@@ -51,13 +50,12 @@ Make sure to include banner image and title for the newspage.
 
 #### ⚙️ General Settings
 
-
-|         🏷️ Name         | 🎯 Purpose                                                           | 💡 Select Option           |
-| :--------------------------: | ---------------------------------------------------------------------- | ---------------------------- |
+|          🏷️ Name           | 🎯 Purpose                                                           | 💡 Select Option           |
+| :------------------------: | -------------------------------------------------------------------- | -------------------------- |
 | No. of news items to fetch | Set how many news pages you want to de displayed in the carosuel.    | 5                          |
-|       Filer by Date       | Select how you want to filter the News pages.                        | This Month, This week, All |
-|         Auto Play         | Enable / Disable the autoplay<br /><br />of carousel                 | Enables/Disabled           |
-|     AutoPlay duration     | Set the time (in seconds) at when it must<br /><br />shuffle through | 2                          |
+|       Filer by Date        | Select how you want to filter the News pages.                        | This Month, This week, All |
+|         Auto Play          | Enable / Disable the autoplay<br /><br />of carousel                 | Enables/Disabled           |
+|     AutoPlay duration      | Set the time (in seconds) at when it must<br /><br />shuffle through | 2                          |
 
 ---
 
@@ -80,11 +78,12 @@ For the **New Associate** webpart, create a list with the following columns.
 
 #### 📋 Required Columns
 
-
 | 🏷️ Column Name (Case Sensitive) | 🔣 Column Type |
-| ----------------------------------- | ---------------- |
-| **Associate**                     | Person group   |
-| **DateOfJoin**                    | Datetime       |
+| ------------------------------- | -------------- |
+| **Associate**                   | Person group   |
+| **DateOfJoin**                  | Datetime       |
+
+> Note:Include an image if the email of the person does not exist in the directory in the attachment column (a default column in SharePoint)
 
 ### 🏷️ New Associate Web Part – Property Pane Configuration
 
@@ -92,9 +91,8 @@ For the **New Associate** webpart, create a list with the following columns.
 
 #### 📌 **Header Settings**
 
-
-| 🏷️ Name         | 🎯 Purpose                               | 💡 Select Option |
-| ------------------- | ------------------------------------------ | ------------------ |
+| 🏷️ Name           | 🎯 Purpose                               | 💡 Select Option |
+| ----------------- | ---------------------------------------- | ---------------- |
 | WebPart Title     | Title displayed for the web part         | New Associate    |
 | Header Visibility | Toggle to show or hide the WebPart title | Show/Hide        |
 
@@ -102,10 +100,9 @@ For the **New Associate** webpart, create a list with the following columns.
 
 #### 🎨 Appearance Settings
 
-
-| 🏷️ Name                  | 🎯 Purpose                                                                     |     💡 Select Option     |
-| ---------------------------- | -------------------------------------------------------------------------------- | :-------------------------: |
-| Filter by Date             | Filter the new joinees by Date                                                 |  This week / This Month  |
+| 🏷️ Name                    | 🎯 Purpose                                                                     |     💡 Select Option      |
+| -------------------------- | ------------------------------------------------------------------------------ | :-----------------------: |
+| Filter by Date             | Filter the new joinees by Date                                                 |  This week / This Month   |
 | Enable Autoplay            | Enable or Display Autoplay                                                     | Autoplay On/ Autoplay Off |
 | Autoplay Duration(seconds) | Set the time (in seconds) at when it must<br /><br />shuffle through the data. |             3             |
 
@@ -113,9 +110,8 @@ For the **New Associate** webpart, create a list with the following columns.
 
 #### ⚙️ General Settings
 
-
-| 🏷️ Name            | 🎯 Purpose                             | 💡 Select Option |
-| ---------------------- | ---------------------------------------- | ------------------ |
+| 🏷️ Name              | 🎯 Purpose                             | 💡 Select Option |
+| -------------------- | -------------------------------------- | ---------------- |
 | Select List          | Select the list to fetch data from     | NewAssociates    |
 | Add/Update list item | Directly add/ update items in the list |                  |
 
@@ -140,14 +136,13 @@ Note: For the **Holiday** webpart, create a list with the following columns.
 
 #### 📋 Required Columns
 
-
-| 🏷️ Column Name (Case Sensitive) |   🔣 Column Type   | 💡 Option       |
-| ----------------------------------- | :-------------------: | ----------------- |
-| Title                             |        Text        |                 |
-| Country                           |       Choice       | Countries Names |
-| StartDate                         |     DateandTime     |                 |
-| Description                       | Single line of text |                 |
-| HolidayLink                       |      Hyperlink      |                 |
+| 🏷️ Column Name (Case Sensitive) |   🔣 Column Type    | 💡 Option       |
+| ------------------------------- | :-----------------: | --------------- |
+| Title                           |        Text         |                 |
+| Country                         |       Choice        | Countries Names |
+| StartDate                       |     DateandTime     |                 |
+| Description                     | Single line of text |                 |
+| HolidayLink                     |      Hyperlink      |                 |
 
 ### 🏷️ Holiday Web Part – Property Pane Configuration
 
@@ -155,9 +150,8 @@ Note: For the **Holiday** webpart, create a list with the following columns.
 
 #### 📌 Header Settings
 
-
-|     🏷️ Name     | 🎯 Purpose                       | 💡 Select Option   |
-| :------------------: | ---------------------------------- | -------------------- |
+|      🏷️ Name       | 🎯 Purpose                       | 💡 Select Option   |
+| :----------------: | -------------------------------- | ------------------ |
 |   Web Part Title   | Title displayed for the web part | Holiday Highlights |
 | Hide WebPart Title | Control the visibility of Header | Show/Hide          |
 
@@ -165,22 +159,19 @@ Note: For the **Holiday** webpart, create a list with the following columns.
 
 #### 🎨 Appearance Settings
 
-
-| 🏷️ Name                       | 🎯 Purpose                                                     | 💡 Select Option |
-| --------------------------------- | ---------------------------------------------------------------- | ------------------ |
+| 🏷️ Name                         | 🎯 Purpose                                                     | 💡 Select Option |
+| ------------------------------- | -------------------------------------------------------------- | ---------------- |
 | Filter Holidays                 | Select how you want to filter data                             |                  |
 | Show bullets                    | Show or hide the bullets                                       | On/Off           |
 | Show Border                     | Show or hide the border                                        | On/Off           |
 | No. of holidays<br />to display | Select the number of holiday items<br />to show in the webpart | 4                |
-| Height                          | Choose height of the webpart in px                             |                  |
 
 ---
 
 #### ⚙️ General Settings
 
-
-| 🏷️ Name            | 🎯 Purpose                             | 💡 Select Option |
-| ---------------------- | ---------------------------------------- | ------------------ |
+| 🏷️ Name              | 🎯 Purpose                             | 💡 Select Option |
+| -------------------- | -------------------------------------- | ---------------- |
 | Select Holiday List  | Select the list to fetch data from     | Holidays         |
 | Add/Update list Item | Directly update/ add items to the list |                  |
 
@@ -190,30 +181,29 @@ Note: For the **Holiday** webpart, create a list with the following columns.
 
 Links to Documentation of the WebPart.
 
-## 👥 4. Welcome Bannner
+## 👥 4. Announcement Banner
 
 ### 📋 Details
 
 Easily browse and discover employee information across the organization:
 
 - **Dynamic Welcome Banner** : Display a personalized greeting and current date/time to users, with a customizable background image.
-- Rotating Announcements : Highlight key news or messages using an auto-rotating carousel that cycles through announcements.
+- **Rotating Announcements** : Highlight key news or messages using an auto-rotating carousel that cycles through announcements.
 
 ![Announcement](assets/AnnouncementBanner.png)
 
 ### List Config
 
-Note: For the **Holiday** webpart, create a list with the following columns.
+Note: For the **Announcement Banner** webpart, create a list with the following columns.
 
 #### 📋 Required Columns
 
-
 | 🏷️ Column Name (Case Sensitive) | 🔣 Column Type |
-| ----------------------------------- | ---------------- |
-| **Title**                         | Text           |
-| **Description**                   | Text           |
+| ------------------------------- | -------------- |
+| **Title**                       | Text           |
+| **Description**                 | Text           |
 
-### 🏷️ WelcomeBanner –   Property Pane Configurations
+### 🏷️ WelcomeBanner – Property Pane Configurations
 
 ![WelcomeBanner Property Pane](assets/WelcomeBannerHeaderPanel.png)
 
@@ -221,17 +211,15 @@ Note: For the **Holiday** webpart, create a list with the following columns.
 
 #### 📌 Header Settings
 
-
-| 🏷️ Name                        | 🎯 Purpose                                                                           | 💡 Select Option |
-| :--------------------------------- | -------------------------------------------------------------------------------------- | ------------------ |
+| 🏷️ Name                          | 🎯 Purpose                                                                           | 💡 Select Option |
+| :------------------------------- | ------------------------------------------------------------------------------------ | ---------------- |
 | Date&time Format                 | Choose the display format for date and time (e.g.,`en-GB-24`, `en-US-12`, `iso-24`). | Dropdown         |
 | Date & Name<br /> <br />Position | Set vertical position (bottom %) of the date and greeting section.                   | Range Slider     |
 
 #### ⚙️ General Settings
 
-
-| 🏷️ Name              | 🎯 Purpose                               | 💡 Select Option  |
-| ------------------------ | ------------------------------------------ | ------------------- |
+| 🏷️ Name                | 🎯 Purpose                               | 💡 Select Option  |
+| ---------------------- | ---------------------------------------- | ----------------- |
 | Select List            | Select the SharePoint list               | List Picker       |
 | Auto Rotate            | Enables Automatic Cycling                | On / Off          |
 | Carousel Duration      | Set the time interval of transition      | Range Slider      |
@@ -245,48 +233,46 @@ Note: For the **Holiday** webpart, create a list with the following columns.
 
 Integrate external news sources directly into your intranet for broader visibility:
 
-* Customizable Links: Add titles, URLs, icons.
-* Grouped Layout: Organize links by categories.
-* Message Feedback: Display helpful messages for configuration issues.
+- **Customizable Links**: Add titles, URLs, icons.
+- **Grouped Layout**: Organize links by categories.
+- **Message Feedback**: Display helpful messages for configuration issues.
 
-### 🏷️ Quick Link  Web Part – Property Pane Configuration
+### 🏷️ Quick Link Web Part – Property Pane Configuration
 
-* ![Qucik Link ](assets/QuickLinks.png)
+- ![Qucik Link ](assets/QuickLinks.png)
 
 ### List Config
 
-Note: For the **Holiday** webpart, create a list with the following columns.
+Note: For the **Quick Links** webpart, create a list with the following columns.
 
 #### 📋 Required Columns
 
-
 | 🏷️ Column Name (Case Sensitive) | 🔣 Column Type |
-| ----------------------------------- | ---------------- |
-| **Title**                         | Text           |
-| **IconName**                      | Text           |
-| LinkUrl                           | Hyperlink      |
-| OpenInNewTab                      | Yes / No       |
+| ------------------------------- | -------------- |
+| **Title**                       | Text           |
+| **IconName**                    | Text           |
+| **LinkUrl**                     | Hyperlink      |
+| **OpenInNewTab**                | Yes / No       |
 
-## 🏷️ Quick Links –   Property Pane Configurations
+## 🏷️ Quick Links – Property Pane Configurations
 
-* ![Qucik Link ](assets/QuickLinksApperance.png)
-* ![Qucik Link ](assets/QuickLinksGeneral.png)
+![Qucik Link ](assets/QuickLinksApperance.png)
+
+![Qucik Link ](assets/QuickLinksGeneral.png)
 
 #### 📌Appearance Settings
 
-
 | 🏷️ Name | 🎯 Purpose                            | 💡 Select Option |
-| ----------- | --------------------------------------- | ------------------ |
-| Layout    | Enter a custom title for the web part | Text input       |
-| icon      | Enabling icon to show or hide         | On / Off         |
+| ------- | ------------------------------------- | ---------------- |
+| Layout  | Enter a custom title for the web part | Text input       |
+| icon    | Enabling icon to show or hide         | On / Off         |
 
 ---
 
 #### ⚙️ General Settings
 
-
-| 🏷️ Name      | 🎯 Purpose                 | 💡 Select Option      |
-| ---------------- | ---------------------------- | ----------------------- |
+| 🏷️ Name        | 🎯 Purpose                 | 💡 Select Option      |
+| -------------- | -------------------------- | --------------------- |
 | Max Links      | Number of Links to display | Slider / Number input |
 | Webpart Height | Increasing the Height      | Slider / Number input |
 
@@ -313,27 +299,24 @@ Keep everyone updated with key organizational dates and activities:
 
 #### Calendar List
 
-
-| 🏷️ Name     | 🎯 Purpose                                              | 💡 Notes |
-| --------------- | --------------------------------------------------------- | ---------- |
+| 🏷️ Name       | 🎯 Purpose                                              | 💡 Notes |
+| ------------- | ------------------------------------------------------- | -------- |
 | Calendar List | Quick access to the connected SharePoint**Events list** |          |
 
 #### View Configurations
 
-
-| 🏷️ Name     | 🎯 Purpose                                                                                                                                                                                                                                                                                                                                                                                                          |            💡 Notes            |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------: |
+| 🏷️ Name       | 🎯 Purpose                                                                                                                                                                                                                                                                                                                                                                                                          |            💡 Notes            |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------: |
 | Webpart Title | Customize the title appearing above the calendar                                                                                                                                                                                                                                                                                                                                                                    |           Text input           |
 | Select a List | Choose the**events list** from the dropdown to display event data                                                                                                                                                                                                                                                                                                                                                   |            Dropdown            |
 | Filter Events | Note: If the filter option is set to "Upcoming Events", both the calendar and the events section will display only upcoming events.If the filter option is set to "Previous 3 months + Upcoming Events", the calendar will show both past (from the last 3 months) and upcoming events, while the events section will continue to display only upcoming events.Dropdown to filter event types shown in the web part | Dropdown months filter options |
 | Show Calendar | Toggle to show or hide the visual calendar interface                                                                                                                                                                                                                                                                                                                                                                |            On / Off            |
-| View All URL  | Link to full events listing page<br/> Default: `{siteUrl}/_layouts/15/Events.aspx?ListGuid={listID}`                                                                                                                                                                                                                                                                                                                |           URL input           |
-|               |                                                                                                                                                                                                                                                                                                                                                                                                                     |                               |
+| View All URL  | Link to full events listing page<br/> Default: `{siteUrl}/_layouts/15/Events.aspx?ListGuid={listID}`                                                                                                                                                                                                                                                                                                                |           URL input            |
+|               |                                                                                                                                                                                                                                                                                                                                                                                                                     |                                |
 
 #### Event Configurations
 
-
-| 🏷️ Name     | 🎯 Purpose                           | 💡 Notes      |
-| --------------- | -------------------------------------- | --------------- |
+| 🏷️ Name       | 🎯 Purpose                           | 💡 Notes      |
+| ------------- | ------------------------------------ | ------------- |
 | Add New Event | Opens form to add new event          | Button / Link |
 | Edit Events   | Redirects to events list for editing | Button / Link |
