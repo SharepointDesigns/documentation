@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 ---
+
 # Overview
 
 ## Intranet Free Template by Sharepoint Designs
@@ -38,4 +39,4 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 ## 📄 Documentation
 
 Everything you need to get started, configure, and deploy Free Template is available in our documentation:
-👉 [View Documentation](/documentation/docs/design-1/installation)
+👉 [View Documentation](/documentation/docs/free-template/installation)
