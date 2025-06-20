@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 ---
+
 # Overview
 
 ## Intranet Design For Employee Onboarding by Sharepoint Designs
@@ -41,4 +42,4 @@ Whether you're setting up an onboarding portal, an intranet landing page, or a t
 ## 📄 Documentation
 
 Everything you need to get started, configure, and deploy Employee Onboarding Home Pages is available in our documentation:
-👉 [View Documentation](/documentation/docs/EmployeeOnboarding/installation)
+👉 [View Documentation](/documentation/docs/Employee-Onboarding/installation)

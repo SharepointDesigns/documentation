@@ -109,9 +109,9 @@ The following resources are provisioned upon applying the Home template:
 | **💬 Welcome Message from CEO** | -**Leadership Introduction**: A message from the CEO that outlines strategic priorities and encourages unity across the organization.-**Vision-Driven Address**: Highlights company goals, cultural values, and the importance of teamwork from the CEO’s perspective.   |
 | **👥 Meet The Team**            | -**Team Overview Panel**: Presents key team members with roles and communication options to foster accessibility.-**Department Contacts**: Empowers collaboration by making it easy to identify and reach department representatives.                                    |
 | **🌐 Build Connections**        | -**Guided Social Interaction**: Helps new employees build meaningful connections through structured interactions and touchpoints.-**Scheduled Interaction Touchpoints**: Strategically placed activities that enhance familiarity with team members and company culture. |
-| **📽️ Training Videos**          | -**Interactive Video Library**: Offers visual learning modules to reinforce company procedures and best practices.<br /> -**Guided Orientation Videos**: Walkthroughs that introduce employees to platforms, culture, and operational essentials.         |
-| **🗂️ Important Documents**         | -**Centralized Document Hub**:Quick access to key company documents including policies, reports, and reference files.<br /> -**Document Quick View**: Displays edit history to ensure employees are referencing the most current version.          |
-| **❓FAQs**                      | -**Self-Help Portal**: Easily accessible answers to frequent employee or customer inquiries. -**Smart Navigation**: Expandable accordion format lets users drill down into topics with ease.      |
+| **📽️ Training Videos**          | -**Interactive Video Library**: Offers visual learning modules to reinforce company procedures and best practices.<br /> -**Guided Orientation Videos**: Walkthroughs that introduce employees to platforms, culture, and operational essentials.                        |
+| **🗂️ Important Documents**      | -**Centralized Document Hub**:Quick access to key company documents including policies, reports, and reference files.<br /> -**Document Quick View**: Displays edit history to ensure employees are referencing the most current version.                                |
+| **❓FAQs**                      | -**Self-Help Portal**: Easily accessible answers to frequent employee or customer inquiries. -**Smart Navigation**: Expandable accordion format lets users drill down into topics with ease.                                                                             |
 
 ## 🧹 Uninstall Guide
 
@@ -172,11 +172,11 @@ Follow the steps below to uninstall the **Employee Onboarding by SharePoint Desi
 
 ## 🧑‍💼 User Permissions
 
-| **Role**        | **Permissions**                                                                                         |
-|-----------------|---------------------------------------------------------------------------------------------------------|
-| **Owners**      | Full control — manage app, lists, license, settings.                                                    |
-| **Members**     | Contribute content such as links, documents, events.                                                    |
-| **Visitors**    | Read-only access. General audience viewing.                                                             |
+| **Role**     | **Permissions**                                      |
+| ------------ | ---------------------------------------------------- |
+| **Owners**   | Full control — manage app, lists, license, settings. |
+| **Members**  | Contribute content such as links, documents, events. |
+| **Visitors** | Read-only access. General audience viewing.          |
 
 > Stick to the **least privilege principle**. Review permissions regularly.
 
