@@ -29,7 +29,7 @@ Configuration options are grouped under intuitive sections:
 
 | Field                | Type         | Default / Example      | Description                                                                  |
 | -------------------- | ------------ | ---------------------- | ---------------------------------------------------------------------------- |
-| **Welcome Message**  | Textbox      | WELCOME                | Displays a greeting with the current user's first name, above the date/time. |
+| **Welcome Text**     | Textbox      | WELCOME                | Displays a greeting with the current user's first name, above the date/time. |
 | **Show Full Name**   | Toggle       | Off                    | If enabled show full name orelse show first name.                            |
 | **Date Format**      | Dropdown     | Thursday 19 June, 2025 | Select which date format required for Announcement.                          |
 | **Time Format**      | Dropdown     | 12:50 PM               | Select which time format reqyired for Announcement.                          |
@@ -158,8 +158,9 @@ This web part offers flexible configuration grouped into the following categorie
 
 #### 📌 Usage Notes
 
-- Customize the **Height** to get better UI and it can customized from 200px to 500px.
-- ToolTip has added for description content.
+- Customize the **Height** to get better UI and it can customized from 200px to 700px.
+- ToolTip has added for description content & Webpart Title too.
+- On Hover of the Person it will display the team card contains all details about profile.
 
 ---
 
@@ -214,6 +215,7 @@ For the **Meet The Team** webpart, create a list with the following columns.
 - If the **Role** column is filled, that value will be shown in the UI. If left blank, the role will be auto-fetched from the Team Person's user profile.
 - Similarly, if the **Icon** column is filled, that icon will be shown in the UI. If left blank, the profile picture will be automatically retrieved from the Team Person's user profile.
 - The **Name** and **Profile Picture** will be automatically retrieved based on the selected Team Person.
+- On Hover of the Person it will display the team card contains all details about profile.
 
 ---
 
@@ -234,14 +236,17 @@ For the **Build Connections** webpart, create a list with the following columns.
 
 #### 📋 Required Columns
 
-| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type | Column Value                    |
-| ------------------------------- | -------------- | ------------------------------- |
-| **Title**                       | Text           | Any Title for build connections |
-| **Icon**                        | Image          | Image for build connections     |
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type | Column Value                                                             |
+| ------------------------------- | -------------- | ------------------------------------------------------------------------ |
+| **Title**                       | Text           | Any Title for build connections                                          |
+| **Icon**                        | Image          | Image for build connections                                              |
+| **TargetWindow**                | Choice         | Open in New Window, Open in Same Window (Provide Specified Choice alone) |
+| **Link**                        | Hyperlink      | Any URL for Quick Build COnnections                                      |
 
 ### 🛠️ Build Connections Web Part – Property Pane Configuration
 
-![buildConnections](assets/BuildConnectionsPP.png)
+| ![buildConnections](assets/BuildConnectionsPP.png) | ![buildConnections](assets/buildConnectionsPP2.png) | ![buildConnections](assets/buildConnectionsPP3.png) |
+| -------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
 
 #### 🏷️ Header Settings
 
@@ -258,9 +263,11 @@ For the **Build Connections** webpart, create a list with the following columns.
 
 #### 🎨 Appearance Settings
 
-| Field                | Type   | Default / Example | Description                                          |
-| -------------------- | ------ | ----------------- | ---------------------------------------------------- |
-| **Items to display** | Slider | 5                 | Customize the items to display in build connections. |
+| Field                              | Type         | Default / Example | Description                                          |
+| ---------------------------------- | ------------ | ----------------- | ---------------------------------------------------- |
+| **Items to display**               | Slider       | 5                 | Customize the items to display in build connections. |
+| **Background Color of the Circle** | Color Picker | #CCFF39           | Customize the background color of the circle.        |
+| **Text Color of the Circle**       | Color Picker | #0000000          | Customize the Text Color of the circle.              |
 
 ---
 
@@ -270,7 +277,7 @@ For the **Build Connections** webpart, create a list with the following columns.
 - If the connected list contains more than 5 items, the carousel view is automatically enabled.
 - The **Items to display** slider allows customization between 5 to 10 items. The default is 5.
 - If 5 or fewer items are selected to display, the carousel will not be enabled and a static layout is shown.
-- If the **Icon** column contains an image, it will be displayed in the UI instead of the user’s profile picture.
+- If the **Icon** column contains an image, it will be displayed in the UI instead of the user's mock data.
 
 ---
 
