@@ -82,8 +82,8 @@ Note: For the **Announcements** section, create a list with the following column
 | ------------------------------- | --------------------------- |
 | **Description**                 | 📄 Multiple lines of text   |
 | **Link**                        | 🔗 Hyperlink                |
-| **Order**                       | 🔢 Number                   |
-| **TargetWindow**                | 📁 Choice (Choices- Yes,No) |
+| **Orderby**                       | 🔢 Number                   |
+| **TargetWindow**                | 📁 Choice (Choices- Open in new tab,Open in self tab) |
 | **ExpiryDate**                  | 📅 Date and Time            |
 
 ### 🏷️ Announcements Web Part – Property Pane Configuration
@@ -125,7 +125,7 @@ Note: For the **Quicklinks** section, create a list with the following columns
 | ------------------------------- | --------------------------- |
 | **Icon**                        | 🖼️ Image                    |
 | **URL**                         | 🔗 Hyperlink                |
-| **OrderBy**                     | 🔢 Number                   |
+| **Order**                     | 🔢 Number                   |
 | **TargetWindow**                | 📁 Choice (Choices- Yes,No) |
 
 ### 🏷️ Quicklinks Web Part – Property Pane Configuration
@@ -268,11 +268,11 @@ Note: For the **Employee Spotlights** section, create a list with the following 
 
 | 🏷️ Column Name (Case Sensitive) | 🔣 Column Type         |
 | ------------------------------- | ---------------------- |
-| **Persons**                     | 👥 Person or Group     |
+| **Person**                     | 👥 Person or Group     |
 | **Designation**                 | 📄 Text(default field) |
 | **ProfileImage**                | 🖼️ Image               |
 | **Date**                        | 📅 Date and Time       |
-| **Category**                    | ☑️ Choice field        |
+| **Category**                    | ☑️ Choice field Options: Birthday, Anniversary, New Joiner       |
 
 **Carousel View**
 
@@ -357,17 +357,17 @@ Note: For the **Employee Spotlights** section, create a list with the following 
 | Show Dots              | Displays indicator dots for slides                        | Yes              |
 | Enable Infinite Scroll | Enables continuous looping of carousel items              | Yes              |
 
-## 📰 8. Organization Chart
+## 📰 8. Company Directory
 
 ### 📋 Details
 
-- **Organization Chart** Web Part visually displays the company hierarchy, making it easy to understand team structures and reporting lines.
+- **Company Directory** Web Part visually displays the company hierarchy, making it easy to understand team structures and reporting lines.
 
 - Users can interact with the chart to view roles, names, and contact details in a clean, structured layout.
 
 ![Organization Chart](assets/OrgChart.png)
 
-### 🗂️ Organization Chart Web Part Settings
+### 🗂️ Company Directory Web Part Settings
 
 ![Organization ChartPropertypane](assets/OrgchartPropertypane.png)
 
