@@ -32,7 +32,7 @@ Configuration options are grouped under intuitive sections:
 | **Welcome Text**     | Textbox      | WELCOME                | Displays a greeting with the current user's first name, above the date/time. |
 | **Show Full Name**   | Toggle       | Off                    | If enabled show full name orelse show first name.                            |
 | **Date Format**      | Dropdown     | Thursday 19 June, 2025 | Select which date format required for Announcement.                          |
-| **Time Format**      | Dropdown     | 12:50 PM               | Select which time format reqyired for Announcement.                          |
+| **Time Format**      | Dropdown     | 12:50 PM               | Select which time format required for Announcement.                          |
 | **Text Color**       | Color Picker | #000000                | Customizes the text color for Announcement.                                  |
 | **Background Color** | Color Picker | #CCFF39                | Customizes the background color for Announcement.                            |
 
@@ -63,7 +63,7 @@ Configuration options are grouped under intuitive sections:
 
 ### 📋 Details
 
-- **Essential Resources**: Provide immedia4e access to frequently used tools and documents.
+- **Essential Resources**: Provide immediate access to frequently used tools and documents.
 - **Minimalist Icons**: Use clean icons and labels for straightforward navigation.
 
 ![Quick Links](assets/QuickLinks.png)
@@ -161,6 +161,7 @@ This web part offers flexible configuration grouped into the following categorie
 - Customize the **Height** to get better UI and it can customized from 200px to 700px.
 - ToolTip has added for description content & Webpart Title too.
 - On Hover of the Person it will display the team card contains all details about profile.
+- On clicking the **Read More** button on the UI, a dialog box will open at the center of the page displaying the complete content in detail.
 
 ---
 
@@ -216,6 +217,7 @@ For the **Meet The Team** webpart, create a list with the following columns.
 - Similarly, if the **Icon** column is filled, that icon will be shown in the UI. If left blank, the profile picture will be automatically retrieved from the Team Person's user profile.
 - The **Name** and **Profile Picture** will be automatically retrieved based on the selected Team Person.
 - On Hover of the Person it will display the team card contains all details about profile.
+- Initial mock data has been added for the current user.
 
 ---
 
@@ -265,8 +267,9 @@ For the **Build Connections** webpart, create a list with the following columns.
 
 | Field                              | Type         | Default / Example | Description                                          |
 | ---------------------------------- | ------------ | ----------------- | ---------------------------------------------------- |
+| **Layout Type**                    | Dropdown     | Carousel          | Controls how content is visually displayed.          |
 | **Items to display**               | Slider       | 5                 | Customize the items to display in build connections. |
-| **Background Color of the Circle** | Color Picker | #CCFF39           | Customize the background color of the circle.        |
+| **Background Color of the Circle** | Color Picker | #CCFF39         | Customize the background color of the circle.        |
 | **Text Color of the Circle**       | Color Picker | #0000000          | Customize the Text Color of the circle.              |
 
 ---
@@ -292,6 +295,16 @@ For the **Build Connections** webpart, create a list with the following columns.
 ![TrainingVideo](assets/TrainingVideo.png)
 
 ---
+
+### List Config
+
+For the **Training Video** webpart, create a library with the following columns.
+
+#### 📋 Required Columns
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type | Column Value                    |
+| ------------------------------- | -------------- | ------------------------------- |
+| **TargetWindow**                | Choice         | Open in New Window, Open in Same Window (Provide Specified Choice alone) |
 
 ### 🛠️ Training Videos Web Part – Property Pane Configuration
 
@@ -352,6 +365,17 @@ Configure the Training Videos web part using the following options:
 ![Documents](assets/Documents.png)
 
 ---
+
+
+### List Config
+
+For the **Important Documents** webpart, create a library with the following columns.
+
+#### 📋 Required Columns
+
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type | Column Value                    |
+| ------------------------------- | -------------- | ------------------------------- |
+| **TargetWindow**                | Choice         | Open in New Window, Open in Same Window (Provide Specified Choice alone) |
 
 ### 🛠️ Important Documents Web Part – Property Pane Configuration
 

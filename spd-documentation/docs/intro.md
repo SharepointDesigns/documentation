@@ -43,7 +43,7 @@ import DocCard from "@theme/DocCard";
   }} />
 </article>
 <article className="col col--6 margin-bottom--lg">
-  <DocCard item=={{
+  <DocCard item={{
     "type": "link",
     "label": "Free Template",
     "icon":"arrow",
