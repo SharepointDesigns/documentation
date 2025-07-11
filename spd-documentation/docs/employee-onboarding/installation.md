@@ -33,16 +33,14 @@ sidebar_position: 2
 
    ![](assets/adminPanel.png)
 
-2. Click the icon to open the Employee Onboarding extension side panel.
+2. Click the icon to open the Employee Onboarding Logo Settings Panel.
 
    ![](assets/adminSidebar.png)
 
 3. In the panel:
 
    - Select the **"Home Page"** template
-   - Check the checkbox of **Full Site Setup**
    - Click the **Create Page** button
-
 
      ![](assets/homepageSidebar.png)
 
@@ -54,19 +52,13 @@ sidebar_position: 2
 - `FaqOnboarding` list
 - `Training Video` library
 - `Important Documents` library
-  (_Mock items are added automatically for every list._)
+  (_Mock items are added automatically for QuickLinks, FaqOnboarding._)
 
 5. After the items are created, the site page will **refresh automatically**, and it will continue to creating page and adding webparts.
 6. Once setup is complete, a button will appear to open the newly created homepage. Click it to view the result.
 
    ![](assets/homeDialog.png)
 
-7. Click the extension icon again and repeat the procedure: select the **Home Page**, check the **Full Site Setup** checkbox, and click the **Create Page** button. This will open a dialog box with the following details:
-
-   ![](assets/existingUser.png)
-
-- Clicking **Yes** will delete the existing data from the lists and libraries in the site, and recreate them with mock data.
-- Clicking **No** will create a new page and add only the web parts, along with mock data, without affecting existing lists or libraries.
 ---
 
 ## 🔑 Activating a License Key
@@ -78,11 +70,11 @@ sidebar_position: 2
 | **Step** | **Action**                 | **Details / Notes**                                                                                                                                                                                                                                                                                           |
 | -------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1        | Go to the app page         | Navigate to the SharePoint page where the Employee Onboarding was installed.                                                                                                                                                                                                                                  |
-| 2        | Open activation panel      | - If the trial**has expired**, you'll see an **"Activate"** button on the app — click it.![](assets/homeLicense.png)  - If the trial **is still active** and you want to activate it, edit the page → open the **Web Part property panel** → click **"Activate License"**. ![](assets/homeLicenseActivate.png) |
-| 3        | Launch activation dialog   | A dialog box will appear prompting for a key.![](assets/licenseKey.png)                                                                                                                                                                                                                                    |
-| 4        | Click **Get Key**          | In the license dialog, click **Get Key** — this will take you to the payment page in a new tab.                                                                                                                                                                                                                |
+| 2        | Open activation panel      | - If the trial**has expired**, you'll see an **"Activate"** button on the app — click it.![](assets/homeLicense.png) - If the trial **is still active** and you want to activate it, edit the page → open the **Web Part property panel** → click **"Activate License"**. ![](assets/homeLicenseActivate.png) |
+| 3        | Launch activation dialog   | A dialog box will appear prompting for a key.![](assets/licenseKey.png)                                                                                                                                                                                                                                       |
+| 4        | Click **Get Key**          | In the license dialog, click**Get Key** — this will take you to the payment page in a new tab.                                                                                                                                                                                                                |
 | 5        | Purchase the license       | Complete the payment process. Once done, you’ll receive a license key via email. Be sure to check your spam/junk folder if you don't see it.                                                                                                                                                                  |
-| 6        | Enter and activate the key | Go back to the SharePoint page, paste the license key into the dialog box, and **Activate** with license key for complete activation.                                                                                                                                                                          |
+| 6        | Enter and activate the key | Go back to the SharePoint page, paste the license key into the dialog box, and**Activate** with license key for complete activation.                                                                                                                                                                          |
 
 ✅ **You're all set! Employee Onboarding is now fully activated**
 
@@ -102,10 +94,9 @@ The following resources are provisioned upon applying the Home template:
 > Mock data is also auto-added for:
 >
 > - Quick Links
-> - Team Carousel(Current User data)
 > - Faq Onboarding
 
-> **No manual configuration required after clicking the Create Page button.**
+> **No manual configuration required after clicking the Apply template button.**
 
 ---
 
@@ -115,11 +106,11 @@ The following resources are provisioned upon applying the Home template:
 
 | **Webpart**                     | **Description**                                                                                                                                                                                                                                                                  |
 | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **👋 Announcement**             | -**Personalized Announcement**: Greets new users with name and time, adding a personal touch to the digital workplace. |
-| **🔗 Quick Links**              | - **Quick Reference Panel**: Offers shortcuts to essential onboarding and operational resources.<br /> - **Operational Essentials**: Connects users with vital tools for HR, Finance, Company Policies and more.  |
+| **👋 Announcement**             | -**Personalized Announcement**: Greets new users with name and time, adding a personal touch to the digital workplace.                                                                                                                                                           |
+| **🔗 Quick Links**              | - **Quick Reference Panel**: Offers shortcuts to essential onboarding and operational resources.<br /> - **Operational Essentials**: Connects users with vital tools for HR, Finance, Company Policies and more.                                                                 |
 | **💬 Welcome Message from CEO** | - **Leadership Introduction**: A message from the CEO that outlines strategic priorities and encourages unity across the organization.<br /> - **Vision-Driven Address**: Highlights company goals, cultural values, and the importance of teamwork from the CEO’s perspective.  |
-| **👥 Meet The Team**            | - **Team Overview Panel**: Presents key team members with roles and communication options to foster accessibility.<br /> - **Department Contacts**: Empowers collaboration by making it easy to identify and reach department representatives.   |
-| **🌐 Build Connections**        | - **Guided Social Interaction**: Helps new employees build meaningful connections through structured interactions and touchpoints.<br /> - **Scheduled Interaction Touchpoints**: Strategically placed activities that enhance familiarity with team members and company culture. |
+| **👥 Meet The Team**            | -**Team Overview Panel**: Presents key team members with roles and communication options to foster accessibility.<br /> - **Department Contacts**: Empowers collaboration by making it easy to identify and reach department representatives.                                    |
+| **🌐 Build Connections**        | -**Guided Social Interaction**: Helps new employees build meaningful connections through structured interactions and touchpoints.<br /> - **Scheduled Interaction Touchpoints**: Strategically placed activities that enhance familiarity with team members and company culture. |
 | **📽️ Training Videos**          | - **Interactive Video Library**: Offers visual learning modules to reinforce company procedures and best practices.<br /> - **Guided Orientation Videos**: Walkthroughs that introduce employees to platforms, culture, and operational essentials.                              |
 | **🗂️ Important Documents**      | - **Centralized Document Hub**:Quick access to key company documents including policies, reports, and reference files.<br /> - **Document Quick View**: Displays edit history to ensure employees are referencing the most current version.                                      |
 | **❓FAQs**                      | - **Self-Help Portal**: Easily accessible answers to frequent employee or customer inquiries.<br /> - **Smart Navigation**: Expandable accordion format lets users drill down into topics with ease.                                                                             |
@@ -144,7 +135,7 @@ Follow the steps below to uninstall the **Employee Onboarding by SharePoint Desi
 
 ### 🗃️ Issue: Lists/Library Not Created
 
-**Solution**: Verify that the **"Create Page"** button was clicked after adding the **"Onboarding Employee Setup"**. If the lists/Library are still not created, delete the page and reapply the design.
+**Solution**: Verify that the **"Apply template"** button was clicked after adding the **"Onboarding Employee Setup"** web part. If the lists/Library are still not created, delete the page and reapply the design.
 
 ### 📝 Issue: Missing Demo Items
 

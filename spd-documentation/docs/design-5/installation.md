@@ -6,15 +6,24 @@ sidebar_position: 2
 
 ## ⚙️ Installation Instructions
 
-- Upload the `spd-intranetdesign5.sppkg` file to your **App Catalog**.
-- Navigate to your modern SharePoint site.
-- Click the **Settings (gear)** icon → Select **“Add an app”**  
+- Visit the [Intranet Design 5 – SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/WA200008750?tab=Overview) listing on Microsoft AppSource and click **Get it now**.  
+  ![](assets/diy5_getItNow.png)
+
+- You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.  
+  ![](assets/diy5_addToAppSite.png)  
+  ⚠️ *If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added.*
+
+- Navigate to your modern SharePoint site, click the **Settings (gear)** icon → select **“Add an app”**  
   ![](assets/diy5_addAnApp.png)
+
 - Choose **Intranet Design 5 by SharePoint Designs**  
   ![](assets/diy5_AddAnAppPage.png)
+
 - Click **Add**.
+
 - Confirm installation by checking under **Site Contents**  
   ![](assets/diy5_confirmScreen.png)
+
 
 ---
 
