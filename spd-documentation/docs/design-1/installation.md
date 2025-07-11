@@ -8,8 +8,8 @@ sidebar_position: 2
 
 | Step | Description                                                                                       |
 | ---- | ------------------------------------------------------------------------------------------------- |
-| 1    | Visit the [Intranet Design 1 – SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/WA200008452?tab=Overview) listing on Microsoft AppSource and then click **Get it now**.<br>![Get it Now](assets/design1_getItNow.png) |
-| 2    | You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.<br>![Add to Apps Site](assets/design1_addToAppSite.png)<br>⚠️ *If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added.* |
+| 1    | Visit the [Intranet Design 1 – SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/WA200008452?tab=Overview) listing on Microsoft AppSource and then click **Get it now**.<br />![Get it Now](assets/design1_getItNow.png) |
+| 2    | You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.<br />![Add to Apps Site](assets/design1_addToAppSite.png)<br />⚠️ *If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added.* |
 | 3    | After adding the app, go to **SharePoint Admin Center > Advanced > API Access** and approve the pending request for the **Employee Search** web part. |
 | 4    | Required Permissions: `User.Read.All`                                                             |
 | 5    | Go to any modern SharePoint site, click the **Settings** icon.                                    |
