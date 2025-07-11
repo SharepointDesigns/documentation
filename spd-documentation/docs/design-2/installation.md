@@ -6,18 +6,22 @@ sidebar_position: 2
 
 ## ⚙️ Installation Instructions
 
-- Upload the `spd-intranetdesign2.sppkg` file to your App Catalog
-- Navigate to any modern SharePoint site, Click the **Settings** icon
+- Visit the [Intranet Design 2 – SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/WA200008649?tab=Overview) listing on Microsoft AppSource and click **Get it now**.  
+  ![](assets/design2_getItNow.png)
 
+- You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.  
+  ![](assets/design2_addToAppSite.png)  
+  ⚠️ *If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added.*
+
+- Navigate to any modern SharePoint site, and click the **Settings** icon.  
   ![](assets/addAnApp.png)
 
-- Select **“Add an app”**, and choose **Intranet Design 2 Site by SharePoint Designs**
-
+- Select **“Add an app”**, and choose **Intranet Design 2 Site by SharePoint Designs**.  
   ![](assets/AddtoSite.png)
 
-- Click **Add**
-- After installation, go to **Site Contents** to confirm it's added to the site.
+- Click **Add**.
 
+- After installation, go to **Site Contents** to confirm it's added to the site.  
   ![](assets/AppScreen.png)
 
 ---
