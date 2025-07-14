@@ -4,10 +4,15 @@
  */
 
 .heroBanner {
+  background-color:antiquewhite;
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  .redirectButton{
+    background-color:#58bd00 !important;
+    color: white !important;
+  }
 }
 
 @media screen and (max-width: 996px) {
