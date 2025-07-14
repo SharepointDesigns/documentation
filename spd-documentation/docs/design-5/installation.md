@@ -6,23 +6,14 @@ sidebar_position: 2
 
 ## ⚙️ Installation Instructions
 
-- Visit the [Intranet Design 5 – SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/WA200008750?tab=Overview) listing on Microsoft AppSource and click **Get it now**.  
-  ![](assets/diy5_getItNow.png)
-
-- You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.  
-  ![](assets/diy5_addToAppSite.png)  
-  ⚠️ *If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added.*
-
-- Navigate to your modern SharePoint site, click the **Settings (gear)** icon → select **“Add an app”**  
-  ![](assets/diy5_addAnApp.png)
-
-- Choose **Intranet Design 5 by SharePoint Designs**  
-  ![](assets/diy5_AddAnAppPage.png)
-
-- Click **Add**.
-
-- Confirm installation by checking under **Site Contents**  
-  ![](assets/diy5_confirmScreen.png)
+| Step | Description                                                                                       |
+| ---- | ------------------------------------------------------------------------------------------------- |
+| 1    | Visit the [Intranet Design 5 – SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/WA200008750?tab=Overview) listing on Microsoft AppSource and click **Get it now**.<br />![Get it Now](assets/diy5_getItNow.png) |
+| 2    | You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.<br />![Add to Apps Site](assets/diy5_addToAppSite.png)<br />⚠️ *If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added.* |
+| 3    | Navigate to your modern SharePoint site, click the **Settings (gear)** icon → select **“Add an app”**.<br />![Add an App](assets/diy5_addAnApp.png) |
+| 4    | Choose **Intranet Design 5 by SharePoint Designs**.<br />![Choose App](assets/diy5_AddAnAppPage.png) |
+| 5    | Click **Add**. |
+| 6    | Confirm installation by checking under **Site Contents**.<br />![Confirm Screen](assets/diy5_confirmScreen.png) |
 
 
 ---

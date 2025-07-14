@@ -1,56 +1,50 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
-import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  description: ReactNode;
+  imageUrl: string;
+  // buttonLabel: string;
+  buttonLink: string;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    title: 'Design 1',
+    imageUrl: 'https://cdn.prod.website-files.com/624fdbbf2da9f429057410bc/685cd98b18ba7446f63df947_Design%20-%201.avif',
+    // buttonLabel: 'Get Started',
+    buttonLink: 'http://localhost:3000/documentation/docs/design-1/overview',
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    title: 'Design 2',
+    imageUrl: 'https://cdn.prod.website-files.com/624fdbbf2da9f429057410bc/686f5ab8c3819215008d1cf1_Design%20-%202.avif',
+    // buttonLabel: 'Customize',
+    buttonLink: 'http://localhost:3000/documentation/docs/design-2/overview',
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    title: 'Design 4',
+    imageUrl: 'https://cdn.prod.website-files.com/624fdbbf2da9f429057410bc/685cd989e9bc30b23e26e737_Design%20-%204.avif',
+    // buttonLabel: 'View Docs',
+    buttonLink: 'http://localhost:3000/documentation/docs/design-4/overview',
   },
+  {
+    title: 'Design 5',
+    imageUrl: 'https://cdn.prod.website-files.com/624fdbbf2da9f429057410bc/685cd98a82265059400a7626_Design%20-%205.avif',
+    // buttonLabel: 'View Docs',
+    buttonLink: 'http://localhost:3000/documentation/docs/design-5/overview',
+  }
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, imageUrl, buttonLink }: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+    <div className={clsx('col col--4', styles.featureBox)}>
+      <div className={ clsx("text--center", styles.contentContainer)} >
+        <img src={imageUrl} alt={title} className={styles.featureImage} />
+        {/* <h3>{title}</h3> */}
+        <a className={clsx("button button--primary", styles.redirectButton)} href={buttonLink}>
+          {title}
+        </a>
       </div>
     </div>
   );
@@ -59,10 +53,14 @@ function Feature({title, Svg, description}: FeatureItem) {
 export default function HomepageFeatures(): ReactNode {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+      <div
+       className="container"
+      >
+        <div 
+        className="row"
+        >
+          {FeatureList.map((item, idx) => (
+            <Feature key={idx} {...item} />
           ))}
         </div>
       </div>

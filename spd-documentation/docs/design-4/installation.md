@@ -6,24 +6,14 @@ sidebar_position: 2
 
 ## ⚙️ Installation Instructions
 
-- Visit the [Intranet Design 4 – SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/WA200008779?tab=Overview) listing on Microsoft AppSource and click **Get it now**.  
-  ![](assets/design4_getItNow.png)
-
-- You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.  
-  ![](assets/design4_addToAppSite.png)  
-  ⚠️ *If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added.*
-
-- Navigate to any modern SharePoint site, and click the **Settings** icon.  
-  ![](assets/addAnApp.png)
-
-- Select **“Add an app”**, and choose **Intranet Design 4 Site by SharePoint Designs**.  
-  ![](assets/AddtoSite.png)
-
-- Click **Add**.
-
-- After installation, go to **Site Contents** to confirm it's added to the site.  
-  ![](assets/AppScreen.png)
-
+| Step | Description                                                                                       |
+| ---- | ------------------------------------------------------------------------------------------------- |
+| 1    | Visit the [Intranet Design 4 – SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/WA200008779?tab=Overview) listing on Microsoft AppSource and click **Get it now**.<br />![Get it Now](assets/design4_getItNow.png) |
+| 2    | You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.<br />![Add to Apps Site](assets/design4_addToAppSite.png)<br />⚠️ *If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added.* |
+| 3    | Navigate to any modern SharePoint site, and click the **Settings** icon.<br />![Settings Icon](assets/addAnApp.png) |
+| 4    | Select **“Add an app”**, and choose **Intranet Design 4 Site by SharePoint Designs**.<br />![Add to Site](assets/AddtoSite.png) |
+| 5    | Click **Add**. |
+| 6    | After installation, go to **Site Contents** to confirm it's added to the site.<br />![App Confirm Screen](assets/AppScreen.png) |
 
 ---
 
