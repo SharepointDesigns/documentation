@@ -1,17 +1,19 @@
-## Changelog
+---
+sidebar_position: 5
+---
 
-### Version - 1.0.0.1
-
+# Change Log
+ 
+## Version 1.0.0.1
+---
 ### Updates
-
-- Updated `stripebuyid` and `productstripeid` in the package.
+- Updated the payment link in the package.
 
 ### New Features
 
-- **Company Directory Web Part**
+#### [Company Directory Web Part](/documentation/docs/design-4/configuration#-8-company-directory)
+- **Excluded Users**: Allows removing specific users from the organization chart.
+- **Reorder Org Chart Users**: Enables reordering child users under a specific parent by entering the parent’s email ID (Enter user UPN).
 
-  - **Excluded Users** – Use this field to remove specific users from the organization chart.
-  - **FilterUPN** – Use this field to reorder organization chart users. Enter the parent user’s email ID in this field, and a reorder option will appear for that parent user’s child users.
-
-- **Welcome Banner Web Part**
-  - Added an icon in the content section, configurable through the property pane.
+#### [Welcome Banner Web Part](/documentation/docs/design-4/configuration#%EF%B8%8F-general-settings)
+- Added a configurable icon in the content section, adjustable from the property pane.
