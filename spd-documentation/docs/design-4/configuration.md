@@ -32,6 +32,13 @@ he WelcomeBanner web part allows customization of a personalized greeting banner
 
 ![Welcome Banner](assets/WelcomeBannerPropertypane.png)
 
+| **Setting**            | **Preview** |
+|------------------------|-------------|
+| **Header Settings**    | ![Header](assets/WelcomeBannerHeader.png) |
+| **Appearance Settings**| ![Appearance](assets/WelcomeBannerAppearance.png) |
+| **General Settings**   | ![General](assets/WelcomeBannerGeneral.png) |
+| **Carousel Settings**  | ![Carousel](assets/WelcomeBannerCarousel.png) |
+
 #### 🔖 Header Settings
 
 This section allows customization of the **Welcome Banner** for a department or contact information display. The following configurable options are available:
@@ -53,6 +60,7 @@ This section allows customization of the **Welcome Banner** for a department or 
 | 🏷️ Name                | 🎯 Purpose                                                       | Select Option/Type      |
 | ---------------------- | ---------------------------------------------------------------- | ----------------------- |
 | Select the list        | Chooses the SharePoint list from which banner content is fetched | Dropdown (e.g., Banner) |
+| Hide Icon        | Toggle to show / hide arrow pointed icon in message circle | No |
 | No of items to display | Limits how many items to show on the banner                      | Slider (e.g., 3 items)  |
 
 #### 🎠 Carousel Settings
@@ -391,8 +399,9 @@ Note: For the **Employee Spotlights** section, create a list with the following 
 
 | 🏷️ Name                          | 🎯 Purpose                                           | 💡 Select option |
 | -------------------------------- | ---------------------------------------------------- | ---------------- |
-| Hide the filtered name from tree | Toggles visibility of filtered name in the org chart | Off              |
-| Filter by name                   | Filters the chart to show only matching names        | [Text input]     |
+| Excluded Users | Selected users will be removed from the directory  | People Picker              |
+| Enter UPN                   | The Reorder Org Chart Users property becomes available when a valid email address is entered        | [Text input]     |
+| Reorder Org Chart Users                  | Enables reordering child users under a specific parent by entering the parent’s email ID       |      |
 
 #### 📘 About
 
