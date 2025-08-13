@@ -1,5 +1,7 @@
 ## Changelog
 
+### Version - 1.0.0.3
+
 ### Fixes
 
 - Fixed the top navigation icon color issue.  

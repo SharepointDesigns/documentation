@@ -1,5 +1,7 @@
 ## Changelog
 
+### Version - 1.0.0.1
+
 ### Updates
 
 - Updated `stripebuyid` and `productstripeid` in the package.
