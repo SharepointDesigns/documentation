@@ -1,6 +1,4 @@
----
-sidebar_position: 3
----
+## sidebar_position: 3
 
 # Configuration
 
@@ -32,30 +30,31 @@ Note: For the **Top Navigation** section, create a list with the following colum
 
 ### 📄 Top Navigation Web Part - Property Pane Configuration
 
-![Top Navigation](assets/Topnavigationpropertypane.png)
+![alt text](assets/Topnavigationpropertypane1.png)
 ![Top Navigation](assets/Topnavigationpropertypane2.png)
 
 #### 📌 Header Settings
 
-| 🏷️ Name            | 🎯 Purpose                                | 💡 Select Option |
-| ------------------ | ----------------------------------------- | ---------------- |
-| WebPart Title      | Title displayed for the web part          | TOP NAVIGATION   |
-| Hide WebPart Title | Toggle to show or hide the WebPart title  | Show / Hide      |
-| Show See All Link  | Toggle to show or hide the "See All" link | Show / Hide      |
+| 🏷️ Name       | 🎯 Purpose                               | 💡 Select Option |
+| ------------- | ---------------------------------------- | ---------------- |
+| WebPart Title | Title displayed for the web part         | TOP NAVIGATION   |
+| Hide Title    | Toggle to show or hide the WebPart title | Show / Hide      |
 
 #### 🎨 Appearance Settings
 
-| 🏷️ Name     | 🎯 Purpose                                        | 💡 Select Option      |
-| ----------- | ------------------------------------------------- | --------------------- |
-| Layouts     | Defines the layout of the navigation items        | Horizontal            |
-| Alignment   | Aligns the navigation content                     | Left / Center / Right |
-| Show Border | Toggle to show or hide border around the web part | Show / Hide           |
+| 🏷️ Name                | 🎯 Purpose                                        | 💡 Select Option      |
+| ---------------------- | ------------------------------------------------- | --------------------- |
+| Layouts                | Defines the layout of the navigation items        | Horizontal            |
+| Alignment              | Aligns the navigation content                     | Left / Center / Right |
+| Show Gradient on hover | Toggle to show or hide gradient effect on hover   | Show / Hide           |
+| Show Border            | Toggle to show or hide border around the web part | Show / Hide           |
+| Border color           | Sets the color of the border around the web part  | Color Picker          |
 
 #### ⚙️ General Settings
 
-| 🏷️ Name       | 🎯 Purpose                                         | 💡 Select Option |
-| ------------- | -------------------------------------------------- | ---------------- |
-| Select a list | Selects the SharePoint list for navigation content | TopNavigation    |
+| 🏷️ Name                    | 🎯 Purpose                                         | 💡 Select Option |
+| -------------------------- | -------------------------------------------------- | ---------------- |
+| Select top navigation list | Selects the SharePoint list for navigation content | TopNavigation    |
 
 #### 🔐 Admin Settings
 
@@ -88,19 +87,23 @@ Note: For the **Top Navigation** section, create a list with the following colum
 
 The **Welcome Banner** web part delivers inspirational messaging through a configurable banner slider that emphasizes the organization's **Vision**, **Mission**, and **Values**.
 
-![](assets/WelcomeBannerPropPanel.png)
+![](assets/WelcomeBannerPropPanel.png) ![alt text](assets/WBPropPanel2.png)
 
 #### ⚙️ General Settings
 
 This section allows customization of the **Welcome Banner** for a department or contact information display. The following configurable options are available:
 
 | 🏷️ Name                  | 🎯 Purpose                                                                                                                                                                                    | 💡 Select Option                                                     |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| **Welcome message**      | Text displayed as a greeting to the user.<br /><br />You can personalize the message using: `{firstName}`, `{lastName}`, or `{fullName}`. -- Eg: Welcome `{firstName}`, to SharePoint Designs | "Hello `{firstName}`"                                                |
+| :----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Welcome message**      | Text displayed as a greeting to the user.<br /><br />You can personalize the message using: `{firstName}`, `{lastName}`, or `{fullName}`. -- Eg: Welcome `{firstName}`, to SharePoint Designs | "Hello`{firstName}`"                                                 |
 | **Format Date and Time** | A date-time picker to display the current date and time in a formatted manner.                                                                                                                | "Thursday 14th Jul, 2022, 4:27 PM"                                   |
 | **Title**                | Heading or main focus of the banner.                                                                                                                                                          | "VISION"                                                             |
 | **Description**          | A short, impactful message summarizing the theme of the banner.                                                                                                                               | "Maximizing SharePoint, Automation And AI, Making Work Fun."         |
 | **Sub text**             | A supporting statement that expands on the main description.                                                                                                                                  | "To deliver innovative, aesthetically pleasing, flawless intranets." |
+| **Text color**           | Change the text color of the paragraph                                                                                                                                                        | Color Picker                                                         |
+| **Badge font size**      | Change the font size of the badge text.                                                                                                                                                       | Slider                                                               |
+| **Heading font size**    | Change the font size of the heading text.                                                                                                                                                     | Slider                                                               |
+| **Paragraph font size**  | Change the font size of the paragraph text.                                                                                                                                                   | Slider                                                               |
 | **Change background**    | Option to upload a custom background image for the banner.                                                                                                                                    | Select an image using the "Select Image" control.                    |
 
 ## 🔗 3. Common Tools
@@ -130,13 +133,14 @@ Note: For the **Common Tools** section, create a list with the following columns
 - The Common Tool Links web part offers centralized access to frequently used external applications and team tools. It improves efficiency by simplifying access to all essential resources from one place.
 
 ![Welcome Banner](assets/QuicklinksPropertypane.png)
+![alt text](assets/QuicklinksPropertypane1.png)
 
 #### 📌 Header Settings
 
-| 🏷️ Name                | 🎯 Purpose                                 | 💡 Select Option |
-| ---------------------- | ------------------------------------------ | ---------------- |
-| **WebPart Title**      | Title displayed at the top of the web part | COMMON TOOLS     |
-| **Hide WebPart Title** | Toggle to show or hide the web part title  | Show / Hide      |
+| 🏷️ Name           | 🎯 Purpose                                 | 💡 Select Option |
+| ----------------- | ------------------------------------------ | ---------------- |
+| **WebPart Title** | Title displayed at the top of the web part | COMMON TOOLS     |
+| **Hide Title**    | Toggle to show or hide the web part title  | Show / Hide      |
 
 #### ⚙️ General Settings
 
@@ -148,9 +152,13 @@ Note: For the **Common Tools** section, create a list with the following columns
 
 #### 🎨 Appearance Settings
 
-| 🏷️ Name          | 🎯 Purpose                                        | 💡 Select Option |
-| ---------------- | ------------------------------------------------- | ---------------- |
-| **Show borders** | Toggle to show or hide border around the web part | On / Off         |
+| 🏷️ Name                    | 🎯 Purpose                                                                          | 💡 Select Option |
+| -------------------------- | ----------------------------------------------------------------------------------- | ---------------- |
+| **Show top border**        | Toggle to show or hide the sharp top border                                         | On / Off         |
+| **Show borders**           | Toggle to show or hide border around the web part                                   | On / Off         |
+| **Border color**           | Select the color of the top border (will show only when show top border is enabled) | Color Picker     |
+| **Show gradient on hover** | Highlight the link background on hover                                              | Color Picker     |
+| **Icon background color**  | Change the background color of the icon                                             | Color Picker     |
 
 ## 📰 4. News
 
@@ -171,19 +179,21 @@ The **Featured News** web part by SharePoint Designs is designed to keep everyon
 
 #### 📌 Header Settings
 
-| 🏷️ Name                | 🎯 Purpose                                        | 💡 Select Option         |
-| ---------------------- | ------------------------------------------------- | ------------------------ |
-| **Webpart Title**      | Set a custom title for the web part.              | NEWS                     |
-| **Hide WebPart Title** | Toggle to show or hide the web part title.        | Show                     |
-| **Image Resolution**   | Recommended image resolution for optimal display. | 1300x400px or 1300x450px |
+| 🏷️ Name              | 🎯 Purpose                                        | 💡 Select Option         |
+| -------------------- | ------------------------------------------------- | ------------------------ |
+| **Webpart Title**    | Set a custom title for the web part.              | NEWS                     |
+| **Hide Title**       | Toggle to show or hide the web part title.        | Show                     |
+| **Image Resolution** | Recommended image resolution for optimal display. | 1300x400px or 1300x450px |
 
 #### 🎨 Appearance Settings
 
-| 🏷️ Name                     | 🎯 Purpose                                    | 💡 Select Option |
-| --------------------------- | --------------------------------------------- | ---------------- |
-| **Choose Layout**           | Select the visual layout for displaying news. | Filmstrip        |
-| **Show Border**             | Toggle the border around each news item.      | On               |
-| **Items to Show per Slide** | Set how many news items appear in each slide. | 3                |
+| 🏷️ Name                     | 🎯 Purpose                                                                          | 💡 Select Option |
+| --------------------------- | ----------------------------------------------------------------------------------- | ---------------- |
+| **Choose Layout**           | Select the visual layout for displaying news.                                       | Filmstrip        |
+| **Show top border**         | Toggle to show or hide the sharp top border                                         | On / Off         |
+| **Show borders**            | Toggle to show or hide border around the web part                                   | On / Off         |
+| **Border color**            | Select the color of the top border (will show only when show top border is enabled) | Color Picker     |
+| **Items to Show per Slide** | Set how many news items appear in each slide.                                       | 3                |
 
 #### ⚙️ General Settings
 
@@ -231,10 +241,10 @@ Note: For the **Facilities** section, create a list with the following columns
 
 #### 📌 Header Settings
 
-| 🏷️ Name                | 🎯 Purpose                                 | 💡 Select Option |
-| ---------------------- | ------------------------------------------ | ---------------- |
-| **WebPart Title**      | Title displayed at the top of the web part | FACILITIES       |
-| **Hide WebPart Title** | Toggle to show or hide the title           | Show             |
+| 🏷️ Name           | 🎯 Purpose                                 | 💡 Select Option |
+| ----------------- | ------------------------------------------ | ---------------- |
+| **WebPart Title** | Title displayed at the top of the web part | FACILITIES       |
+| **Hide Title**    | Toggle to show or hide the title           | Show             |
 
 #### ⚙️ General Settings
 
@@ -245,12 +255,16 @@ Note: For the **Facilities** section, create a list with the following columns
 
 #### 🎨 Appearance Settings
 
-| 🏷️ Name                  | 🎯 Purpose                            | 💡 Select Option                           |
-| ------------------------ | ------------------------------------- | ------------------------------------------ |
-| **See All**              | URL for the “View All” button         | `{siteUrl}/Lists/Facilities/AllItems.aspx` |
-| **Show view all button** | Display button to view all list items | On                                         |
-| **Show border**          | Toggle to enable a visual border      | On                                         |
-| **Height**               | WebPart vertical height in pixels     | 388                                        |
+| 🏷️ Name                  | 🎯 Purpose                                                                          | 💡 Select Option                           |
+| ------------------------ | ----------------------------------------------------------------------------------- | ------------------------------------------ |
+| **See All**              | URL for the “View All” button                                                       | `{siteUrl}/Lists/Facilities/AllItems.aspx` |
+| **Show view all button** | Display button to view all list items                                               | On                                         |
+| **Show top border**      | Toggle to show or hide the sharp top border                                         | On / Off                                   |
+| **Show borders**         | Toggle to show or hide border around the web part                                   | On / Off                                   |
+| **Border color**         | Select the color of the top border (will show only when show top border is enabled) | Color Picker                               |
+| **Show all facilities**  | Toggle to show or hide all facilities in carousel                                   | On / Off                                   |
+| **Enable auto scroll**   | Toggle to enable automatic scrolling through each facility                          | On / Off                                   |
+| **Height**               | WebPart vertical height in pixels                                                   | 388                                        |
 
 ## 📅 6. Events Calendar
 
@@ -270,21 +284,24 @@ The **Events Calendar** web part allows site administrators to display and manag
 
 #### 🧷 Header Settings
 
-| 🏷️ Name                | 🎯 Purpose                                           | 💡 Select Option                                 |
-| ---------------------- | ---------------------------------------------------- | ------------------------------------------------ |
-| **WebPart Title**      | The title displayed at the top of the web part       | EVENTS CALENDAR                                  |
-| **Hide WebPart Title** | Option to show or hide the title                     | Show                                             |
-| **Show See All Link**  | Display a link that leads to the full events view    | Show                                             |
-| **View All URL**       | URL of the page where all calendar events are listed | `{siteUrl}/_layouts/15/Events.aspx?ListGuid=...` |
+| 🏷️ Name               | 🎯 Purpose                                           | 💡 Select Option                                 |
+| --------------------- | ---------------------------------------------------- | ------------------------------------------------ |
+| **WebPart Title**     | The title displayed at the top of the web part       | EVENTS CALENDAR                                  |
+| **Hide Title**        | Option to show or hide the title                     | Show                                             |
+| **Show See All Link** | Display a link that leads to the full events view    | Show                                             |
+| **View All URL**      | URL of the page where all calendar events are listed | `{siteUrl}/_layouts/15/Events.aspx?ListGuid=...` |
 
 #### ⚙️ General Settings
 
-| 🏷️ Name                | 🎯 Purpose                                                                                                                                                                                                                                                                                                                                                      | 💡 Select Option |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
-| **Select events list** | Dropdown to choose the list used for events                                                                                                                                                                                                                                                                                                                     | Events           |
-| **Show Calendar**      | Toggle to show calendar-style display                                                                                                                                                                                                                                                                                                                           | Yes              |
-| **Filter Events**      | Dropdown to filter event types shown in the web part.**Note:** - If set to **"Upcoming Events"** , both the calendar and events section display only upcoming events.- If set to **"Previous 3 months + Upcoming Events"** , the calendar shows both past (last 3 months) and upcoming events, while the events section continues to show only upcoming events. | Upcoming Events  |
-| **Add/Edit Events**    | Links to create or update events in the configured list                                                                                                                                                                                                                                                                                                         | Add/Edit Events  |
+| 🏷️ Name                      | 🎯 Purpose                                                                                                                                                                                                                                                                                                                                                      | 💡 Select Option |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| **Select the option events** | Select the option either to fetch the events from SharePoint list or shared mailbox                                                                                                                                                                                                                                                                             | Events           |
+| **Show top border**          | Toggle to show or hide the sharp top border                                                                                                                                                                                                                                                                                                                     | On / Off         |
+| **Show border**              | Toggle to show or hide border around the web part                                                                                                                                                                                                                                                                                                               | On / Off         |
+| **Border color**             | Select the color of the top border (will show only when show top border is enabled)                                                                                                                                                                                                                                                                             | Color Picker     |
+| **Show Calendar**            | Toggle to show calendar-style display                                                                                                                                                                                                                                                                                                                           | Yes              |
+| **Filter Events**            | Dropdown to filter event types shown in the web part.**Note:** - If set to **"Upcoming Events"** , both the calendar and events section display only upcoming events.- If set to **"Previous 3 months + Upcoming Events"** , the calendar shows both past (last 3 months) and upcoming events, while the events section continues to show only upcoming events. | Upcoming Events  |
+| **Add/Edit Events**          | Links to create or update events in the configured list                                                                                                                                                                                                                                                                                                         | Add/Edit Events  |
 
 ## 🎉 7. Holidays
 
@@ -315,10 +332,10 @@ The **Holidays Property Pane** allows users to configure the display settings of
 
 #### 📌 Header Settings
 
-| 🏷️ Name                | 🎯 Purpose                                    | 💡 Select Option   |
-| ---------------------- | --------------------------------------------- | ------------------ |
-| **Title**              | Specifies the display name of the web part.   | -                  |
-| **Hide WebPart Title** | Toggles the visibility of the web part title. | **Show**, **Hide** |
+| 🏷️ Name        | 🎯 Purpose                                    | 💡 Select Option   |
+| -------------- | --------------------------------------------- | ------------------ |
+| **Title**      | Specifies the display name of the web part.   | -                  |
+| **Hide Title** | Toggles the visibility of the web part title. | **Show**, **Hide** |
 
 #### ⚙️ General Settings
 
@@ -328,10 +345,12 @@ The **Holidays Property Pane** allows users to configure the display settings of
 
 #### 🎨 Appearance Settings
 
-| 🏷️ Name                        | 🎯 Purpose                                                           | 💡 Select Option                                           |
-| ------------------------------ | -------------------------------------------------------------------- | ---------------------------------------------------------- |
-| **Filter Holidays**            | Filters the type of holidays to display.                             | **All Holidays**, **Upcoming Holidays**, **Past Holidays** |
-| **Change Bullet/Icon Style**   | Displays holidays with customized bullet icons.                      | **On**, **Off**                                            |
-| **Show Border**                | Adds a border around the holiday list.                               | **On**, **Off**                                            |
-| **No. of Holidays to Display** | Sets the maximum number of holidays visible in the web part.         | **6**                                                      |
-| **Height**                     | Adjustable slider to control the height of the web part (in pixels). | **424**                                                    |
+| 🏷️ Name                        | 🎯 Purpose                                                                          | 💡 Select Option                                           |
+| ------------------------------ | ----------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **Filter Holidays**            | Filters the type of holidays to display.                                            | **All Holidays**, **Upcoming Holidays**, **Past Holidays** |
+| **Show bullets**               | Displays holidays with customized bullet icons.                                     | **On**, **Off**                                            |
+| **Show top border**            | Toggle to show or hide the sharp top border                                         | On / Off                                                   |
+| **Show borders**               | Toggle to show or hide border around the web part                                   | On / Off                                                   |
+| **Border color**               | Select the color of the top border (will show only when show top border is enabled) | Color Picker                                               |
+| **No. of Holidays to Display** | Sets the maximum number of holidays visible in the web part.                        | **6**                                                      |
+| **Height**                     | Adjustable slider to control the height of the web part (in pixels).                | **424**                                                    |
