@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Change Log
 
-## Version - 1.0.0.4
+## Version - 1.0.1.1
 
 ---
 
@@ -20,7 +20,7 @@ sidebar_position: 5
 - 🆕 **Text color** — Added new setting.
 - 🆕 **Badge font size** — Added new setting.
 - 🆕 **Heading font size** — Added new setting.
-- 🆕 **Paragraph font size** — Added new setting.
+- 🆕 **Paragraph font size** — Added new setting.0
 
 #### 🧰 Common Tools
 
