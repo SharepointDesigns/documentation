@@ -32,36 +32,32 @@ he WelcomeBanner web part allows customization of a personalized greeting banner
 
 ![Welcome Banner](assets/WelcomeBannerPropertypane.png)
 
-| **Setting**            | **Preview** |
-|------------------------|-------------|
-| **Header Settings**    | ![Header](assets/WelcomeBannerHeader.png) |
-| **Appearance Settings**| ![Appearance](assets/WelcomeBannerAppearance.png) |
-| **General Settings**   | ![General](assets/WelcomeBannerGeneral.png) |
-| **Carousel Settings**  | ![Carousel](assets/WelcomeBannerCarousel.png) |
-
 #### 🔖 Header Settings
 
 This section allows customization of the **Welcome Banner** for a department or contact information display. The following configurable options are available:
 
-| 🏷️ Name              | 🎯 Purpose                                           | 💡 Select Option/Type |
-| -------------------- | ---------------------------------------------------- | --------------------- |
-| Title                | Displays a personalized greeting (e.g., "Hello")     | Textbox               |
-| Format Date and Time | Shows the current date and time in a selected format | Date-Time Picker      |
+| 🏷️ Name              | 🎯 Purpose                                           | 💡 Select Option/Type      |
+| -------------------- | ---------------------------------------------------- | -------------------------- |
+| Title                | Displays a personalized greeting (e.g., "Hello")     | Textbox                    |
+| Format Date and Time | Shows the current date and time in a selected format | Date-Time Picker           |
+| Display Name         | Either select First/last/full name to display        | Dropdown (First/Last/Full) |
 
 #### 🎨 Appearance Settings
 
-| 🏷️ Name              | 🎯 Purpose                                       | 💡 Select Option/Type |
-| -------------------- | ------------------------------------------------ | --------------------- |
-| Background Image     | Allows uploading or selecting a background image | Image Selector        |
-| Height of the Banner | Sets the vertical size of the banner in pixels   | Slider (e.g., 390px)  |
+| 🏷️ Name                      | 🎯 Purpose                                            | 💡 Select Option/Type |
+| ---------------------------- | ----------------------------------------------------- | --------------------- |
+| Background Image             | Allows uploading or selecting a background image      | Image Selector        |
+| Height of the Banner         | Sets the vertical size of the banner in pixels        | Slider (e.g., 390px)  |
+| Height of the Content Banner | Sets the height of the content area within the banner | Slider (e.g., 135px)  |
 
 #### ⚙️ General Settings
 
 | 🏷️ Name                | 🎯 Purpose                                                       | Select Option/Type      |
 | ---------------------- | ---------------------------------------------------------------- | ----------------------- |
 | Select the list        | Chooses the SharePoint list from which banner content is fetched | Dropdown (e.g., Banner) |
-| Hide Icon        | Toggle to show / hide arrow pointed icon in message circle | No |
+| Hide Icon              | Toggle to show / hide arrow pointed icon in message circle       | No                      |
 | No of items to display | Limits how many items to show on the banner                      | Slider (e.g., 3 items)  |
+| Background color       | Sets the background color of the Content Area within the banner  | Color Picker            |
 
 #### 🎠 Carousel Settings
 
@@ -75,7 +71,6 @@ This section allows customization of the **Welcome Banner** for a department or 
 ### 📋 Details
 
 - The web part displays rotating announcements with a title, brief description, and a "Learn More" call-to-action button.
-
 - It includes navigation controls to scroll through multiple announcements, enhancing user engagement with important updates.
 
 ![Announcements](assets/Announcements.png)
@@ -86,13 +81,13 @@ This section allows customization of the **Welcome Banner** for a department or 
 
 Note: For the **Announcements** section, create a list with the following columns
 
-| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type              |
-| ------------------------------- | --------------------------- |
-| **Description**                 | 📄 Multiple lines of text   |
-| **Link**                        | 🔗 Hyperlink                |
-| **Orderby**                       | 🔢 Number                   |
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type                                        |
+| ------------------------------- | ----------------------------------------------------- |
+| **Description**                 | 📄 Multiple lines of text                             |
+| **Link**                        | 🔗 Hyperlink                                          |
+| **Orderby**                     | 🔢 Number                                             |
 | **TargetWindow**                | 📁 Choice (Choices- Open in new tab,Open in self tab) |
-| **ExpiryDate**                  | 📅 Date and Time            |
+| **ExpiryDate**                  | 📅 Date and Time                                      |
 
 ### 🏷️ Announcements Web Part – Property Pane Configuration
 
@@ -100,9 +95,10 @@ Note: For the **Announcements** section, create a list with the following column
 
 #### 📌 Header Settings
 
-| 🏷️ Name         | 🎯 Purpose                                   | 💡 Select Option/Type |
-| --------------- | -------------------------------------------- | --------------------- |
-| Header Settings | Section to configure the announcement header | Collapsible Group     |
+| 🏷️ Name            | 🎯 Purpose                                   | 💡 Select Option/Type  |
+| ------------------ | -------------------------------------------- | ---------------------- |
+| Show webpart title | Toggles the visibility of the web part title | Toggle Switch (On/Off) |
+| Webpart title      | Sets the title of the web part               | Text Input             |
 
 #### ⚙️ General Settings
 
@@ -115,12 +111,18 @@ Note: For the **Announcements** section, create a list with the following column
 | Show Arrows        | Toggles the visibility of left/right navigation arrows on/off           | Toggle Switch (On/Off)                             |
 | View List          | Opens the selected SharePoint list in a new tab                         | Hyperlink (“View List”)                            |
 
+#### 🎠 Carousel Settings
+
+| 🏷️ Name         | 🎯 Purpose                                                  | 💡 Select Option/Type  |
+| --------------- | ----------------------------------------------------------- | ---------------------- |
+| Enable AutoPlay | Toggles automatic slide rotation on or off                  | Toggle Switch (Yes/No) |
+| Autoplay Speed  | Sets the time between slides in milliseconds (e.g., 8000ms) | 8000                   |
+
 ## 📰 3. Quicklinks
 
 ### 📋 Details
 
 - The **Quick Links** web part provides users with easy access to frequently used resources or internal tools via visually organized clickable tiles.
-
 - Each link is represented with an icon and label, enabling quick identification, and the layout supports intuitive navigation with an optional “See All”.
 
 ![Quicklinks](assets/Quicklinks.png)
@@ -133,7 +135,7 @@ Note: For the **Quicklinks** section, create a list with the following columns
 | ------------------------------- | --------------------------- |
 | **Icon**                        | 🖼️ Image                    |
 | **URL**                         | 🔗 Hyperlink                |
-| **Order**                     | 🔢 Number                   |
+| **Order**                       | 🔢 Number                   |
 | **TargetWindow**                | 📁 Choice (Choices- Yes,No) |
 
 ### 🏷️ Quicklinks Web Part – Property Pane Configuration
@@ -150,20 +152,17 @@ Note: For the **Quicklinks** section, create a list with the following columns
 
 #### ⚙️ General Settings
 
-| 🏷️ Name            | 🎯 Purpose                                                        | 💡 Select Option/Type                |
-| ------------------ | ----------------------------------------------------------------- | ------------------------------------ |
-| Select a list      | Specifies the SharePoint list to pull quick links from            | Dropdown (e.g., "QuickLinks")        |
-| Button Hover Theme | Sets the hover theme (text & background color) for action buttons | Dropdown (e.g., Theme 1: BG #227c70) |
-| Preview            | Shows a preview of the selected button hover color                | Color Block Display                  |
-
-#### 🎨 Display Settings
-
-| 🏷️ Name             | 🎯 Purpose                                                                                          | 💡 Select Option/Type               |
-| ------------------- | --------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| Layouts             | Determines the layout for displaying quick links, Two available layouts: Auto view and Matrix view. | Dropdown (e.g., Auto)               |
-| Text Alignment      | Aligns the text within the web part                                                                 | Dropdown (e.g., Center)             |
-| Show See all button | Toggles visibility of the "See All" button                                                          | Toggle (On/Off)                     |
-| See All Link        | URL to navigate when clicking the "See All" button                                                  | Textbox (e.g., https://example.com) |
+| 🏷️ Name             | 🎯 Purpose                                                        | 💡 Select Option/Type                |
+| ------------------- | ----------------------------------------------------------------- | ------------------------------------ |
+| Select a list       | Specifies the SharePoint list to pull quick links from            | Dropdown (e.g., "QuickLinks")        |
+| Items to show       | Sets the maximum number of quick links to display                 | Slider (e.g., 8)                     |
+| Button Hover Theme  | Sets the hover theme (text & background color) for action buttons | Dropdown (e.g., Theme 1: BG #227c70) |
+| Preview             | Shows a preview of the selected button hover color                | Color Block Display                  |
+| Layouts             | Sets the layout for displaying quick links                        | Dropdown (e.g., Auto)                |
+| Text alignment      | Sets the alignment of the text within the quick links             | Dropdown (e.g., Center)              |
+| Show see all button | Sets the visibility of the "See All" button                       | Toggle (On/Off)                      |
+| Text alignment      | Sets the alignment of the text within the quick links             | Dropdown (e.g., Center)              |
+| See All Link        | URL to navigate when clicking the "See All" button                | Textbox (e.g., https://example.com)  |
 
 #### 📁 List Settings
 
@@ -176,7 +175,6 @@ Note: For the **Quicklinks** section, create a list with the following columns
 ### 📋 Details
 
 - The **Latest News** web part displays recent company updates with category filters like Finance, Company News, and HR Updates for targeted browsing.
-
 - Each news item includes a date, title, preview image, and short description, along with navigation arrows and a "See All" option.
 
 ![News](assets/NewsWebpart.png)
@@ -232,7 +230,6 @@ Note: For the **Quicklinks** section, create a list with the following columns
 ### 📋 Details
 
 - This web part showcases a personalized message from the CEO, including a profile image, name, title, and a highlighted message snippet.
-
 - It provides a clean layout with a "Read More" button to access the full content, ensuring important leadership communication is prominently displayed.
 
 ![MsgCEO](assets/MsgCEO.png)
@@ -243,44 +240,46 @@ Note: For the **Quicklinks** section, create a list with the following columns
 
 #### 📌 Header Settings
 
-| 🏷️ Name                   | 🎯 Purpose                                     | 💡 Select Option                  |
-| ------------------------- | ---------------------------------------------- | --------------------------------- |
-| Web Part Title            | Title displayed at the top of the web part     | Message from the CEO              |
-| Webpart title Theme Color | Defines the color theme for the web part title | Dropdown (e.g., Theme 3: #243666) |
-| Preview                   | Shows a color preview of the selected theme    | Color Block Display               |
+| 🏷️ Name                  | 🎯 Purpose                                   | 💡 Select Option     |
+| ------------------------ | -------------------------------------------- | -------------------- |
+| Web Part Title           | Title displayed at the top of the web part   | Message from the CEO |
+| Web Part Title Size      | Defines the size of the web part title       | Heading 2/3/4        |
+| Webpart Title Text Color | Defines the text color of the web part title | Color Picker         |
 
 #### ⚙️ General Settings
 
-| 🏷️ Name          | 🎯 Purpose                                              | 💡 Select Option                           |
-| ---------------- | ------------------------------------------------------- | ------------------------------------------ |
-| Background Image | Allows uploading or selecting a background image        | Select (No image selected)                 |
-| Name of Person   | Displays the name of the individual sending the message | Amy Lakin                                  |
-| Designation      | Shows the role or title of the individual               | CEO                                        |
-| Message Title    | Headline of the CEO message                             | Laboris nisi ut aliquip ex ea commodo...   |
-| Message Content  | Main body text of the CEO message                       | Lorem ipsum dolor sit amet, consectetur... |
-| Read More URL    | Optional URL for full message or more information       | _(Empty)_                                  |
-| Button Theme     | Style applied when hovering over the “Read More” button | Theme 5 (Text: #ffffff, BG: #243666)       |
-| Preview          | Shows a color preview of the selected theme             | Color Block Display                        |
+| 🏷️ Name                         | 🎯 Purpose                                         | 💡 Select Option  |
+| ------------------------------- | -------------------------------------------------- | ----------------- |
+| Manage CEO Message              | Click the button to add or edit the CEO message    | Button (Add/Edit) |
+| Heading color                   | Defines the heading color of the Message           | Color Picker      |
+| Title Color                     | Defines the title color of the Message             | Color Picker      |
+| Overlay header background color | Defines the background color of the overlay header | Color Picker      |
+
+#### 🗂️ Appearance Settings
+
+| 🏷️ Name                       | 🎯 Purpose                                              | 💡 Select Option |
+| ----------------------------- | ------------------------------------------------------- | ---------------- |
+| Height of the webpart         | Defines the height of the web part                      | Number (px)      |
+| No. of line to show (content) | Defines the number of lines to show in the content area | Slider           |
 
 ## 📰 6. Employee Spotlights
 
 ### 📋 Details
 
 - Employee Spotlights Web Part highlights upcoming Birthdays, Work Anniversaries, and New Joiners in a visually engaging format.
-
 - It supports both Compact and Carousel layouts, making recognition easily accessible and aesthetically appealing
 
 ### List Config
 
 Note: For the **Employee Spotlights** section, create a list with the following columns
 
-| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type         |
-| ------------------------------- | ---------------------- |
-| **Person**                     | 👥 Person or Group     |
-| **Designation**                 | 📄 Text(default field) |
-| **ProfileImage**                | 🖼️ Image               |
-| **Date**                        | 📅 Date and Time       |
-| **Category**                    | ☑️ Choice field Options: Birthday, Anniversary, New Joiner       |
+| 🏷️ Column Name (Case Sensitive) | 🔣 Column Type                                             |
+| ------------------------------- | ---------------------------------------------------------- |
+| **Person**                      | 👥 Person or Group                                         |
+| **Designation**                 | 📄 Text(default field)                                     |
+| **ProfileImage**                | 🖼️ Image                                                   |
+| **Date**                        | 📅 Date and Time                                           |
+| **Category**                    | ☑️ Choice field Options: Birthday, Anniversary, New Joiner |
 
 **Carousel View**
 
@@ -326,7 +325,6 @@ Note: For the **Employee Spotlights** section, create a list with the following 
 ### 📋 Details
 
 - **Testimonials** Web Part allows showcasing user feedback or client quotes with support for images and personalized content.
-
 - Includes an Upload Image button and presents testimonials in an interactive carousel-style view for visual impact.
 
 ![Testimonials](assets/Testimonials.png)
@@ -370,7 +368,6 @@ Note: For the **Employee Spotlights** section, create a list with the following 
 ### 📋 Details
 
 - **Company Directory** Web Part visually displays the company hierarchy, making it easy to understand team structures and reporting lines.
-
 - Users can interact with the chart to view roles, names, and contact details in a clean, structured layout.
 
 ![Organization Chart](assets/OrgChart.png)
@@ -397,11 +394,11 @@ Note: For the **Employee Spotlights** section, create a list with the following 
 
 #### ⚙️ General Settings
 
-| 🏷️ Name                          | 🎯 Purpose                                           | 💡 Select option |
-| -------------------------------- | ---------------------------------------------------- | ---------------- |
-| Excluded Users | Selected users will be removed from the directory  | People Picker              |
-| Enter UPN                   | The Reorder Org Chart Users property becomes available when a valid email address is entered        | [Text input]     |
-| Reorder Org Chart Users                  | Enables reordering child users under a specific parent by entering the parent’s email ID       |      |
+| 🏷️ Name                 | 🎯 Purpose                                                                                   | 💡 Select option |
+| ----------------------- | -------------------------------------------------------------------------------------------- | ---------------- |
+| Excluded Users          | Selected users will be removed from the directory                                            | People Picker    |
+| Enter UPN               | The Reorder Org Chart Users property becomes available when a valid email address is entered | [Text input]     |
+| Reorder Org Chart Users | Enables reordering child users under a specific parent by entering the parent’s email ID     |                  |
 
 #### 📘 About
 
@@ -415,7 +412,6 @@ Note: For the **Employee Spotlights** section, create a list with the following 
 ### 📋 Details
 
 - Event Calendar Web Part displays upcoming meetings, holidays, and key events in a structured monthly or weekly calendar view.
-
 - Users can easily browse, plan, and stay informed with clickable event entries and color-coded categories
 
 ![Calendar](assets/Calendar.png)
