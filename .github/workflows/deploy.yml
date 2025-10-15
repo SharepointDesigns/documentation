@@ -9,13 +9,13 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        description: 'Deploy to environment'
+        description: "Deploy to environment"
         required: true
-        default: 'staging'
+        default: "staging"
         type: choice
         options:
-        - staging
-        - production
+          - staging
+          - production
 
 permissions:
   contents: read
@@ -57,8 +57,8 @@ jobs:
         if: contains(github.ref, 'main') || contains(github.ref, 'Deploy-Automate') || (github.event_name == 'workflow_dispatch' && github.event.inputs.environment == 'production')
         working-directory: spd-documentation
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@users.noreply.github.com"
           npx gh-pages -d build -b gh-pages -t true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -67,8 +67,8 @@ jobs:
         if: contains(github.ref, 'test') || (github.event_name == 'workflow_dispatch' && github.event.inputs.environment == 'staging')
         working-directory: spd-documentation
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@users.noreply.github.com"
           npx gh-pages -d build -b gh-pages-staging -t true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
