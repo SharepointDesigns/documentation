@@ -31,13 +31,11 @@ jobs:
       - name: Deploy
         working-directory: spd-documentation
         run: |
-          git config user.name "${GIT_USER}"
-          git config user.email "${GIT_EMAIL}"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           # Set remote URL with token for authentication
           git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           npx docusaurus deploy
         env:
-          GIT_USER: ${{ github.actor }}
-          GIT_EMAIL: ${{ github.actor }}@users.noreply.github.com
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
