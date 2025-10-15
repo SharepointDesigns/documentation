@@ -14,24 +14,21 @@ sidebar_position: 2
 
 - Choose **Employee Onboarding by SharePoint Designs**
 
-  ![](assets/AddtoSite.png)
+  ![](assets/addtoSite.png)
 
 - Click **Add**
 - After installation, go to **Site Contents** to confirm it's added to the site.
 
   ![](assets/AppScreen.png)
 
-
-
-  <!-- | Step | Description |
-| ---- | ----------- |
-| 1    | Visit the [Employee Onboarding – SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/WA200008749) listing on Microsoft AppSource and click **Get it now**.<br />![Get it Now](assets/diy5_getItNow.png) |
-| 2    | You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.<br />![Add to Apps Site](assets/diy5_addToAppSite.png)<br />⚠️ *If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added.* |
-| 3    | Navigate to your modern SharePoint site, click the **Settings (gear)** icon → select **“Add an app”**.<br />![Add an App](assets/addAnApp.png) |
-| 4    | Choose **Employee Onboarding by SharePoint Designs**.<br />![Choose App](assets/AddtoSite.png) |
-| 5    | Click **Add**. |
-| 6    | Confirm installation by checking under **Site Contents**.<br />![Confirm Screen](assets/AppScreen.png) | -->
-
+    <!-- | Step | Description |
+  | ---- | ----------- |
+  | 1    | Visit the [Employee Onboarding – SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/WA200008749) listing on Microsoft AppSource and click **Get it now**.<br />![Get it Now](assets/diy5_getItNow.png) |
+  | 2    | You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.<br />![Add to Apps Site](assets/diy5_addToAppSite.png)<br />⚠️ *If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added.* |
+  | 3    | Navigate to your modern SharePoint site, click the **Settings (gear)** icon → select **“Add an app”**.<br />![Add an App](assets/addAnApp.png) |
+  | 4    | Choose **Employee Onboarding by SharePoint Designs**.<br />![Choose App](assets/AddtoSite.png) |
+  | 5    | Click **Add**. |
+  | 6    | Confirm installation by checking under **Site Contents**.<br />![Confirm Screen](assets/AppScreen.png) | -->
 
 ---
 

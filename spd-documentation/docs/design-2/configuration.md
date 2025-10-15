@@ -177,7 +177,7 @@ Note: For the **Common Tools** section, create a list with the following columns
 The **Featured News** web part by SharePoint Designs is designed to keep everyone informed with concise, visually engaging company news. This component supports clean, minimalist layouts and integrates well with RSS feeds and filtering options for dynamic content display.
 
 ![NewsPropertypane](assets/featurednews1.png)
-![NewsPropertypane2](assets/featurednews2.png)
+![NewsPropertypane2](assets/featuredNews2.png)
 
 #### 📌 Header Settings
 

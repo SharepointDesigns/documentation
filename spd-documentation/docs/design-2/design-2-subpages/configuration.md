@@ -200,7 +200,7 @@ Note: For the **FAQ** section, if a list named **FAQs** already exists, you may 
 - **Streamlined Communication**: Feedback is routed through the specified email or link.
 - **Customizable Design**: Adjust image, button, and layout to match site branding.
 
-  ![Featured News](assets\feedback.png)
+  ![Featured News](assets\Feedback.png)
 
 ### 🏷️ Feedback / Share Your Ideas Web Part – Property Pane Configuration
 
