@@ -18,16 +18,15 @@ jobs:
         with:
           node-version: 18
           cache: "npm"
-          working-directory: spd-documentations
 
       - name: Install dependencies
         run: npm install
-        working-directory: spd-documentations
+        working-directory: spd-documentation
 
       - name: Build
         run: npm run build
-        working-directory: spd-documentations
+        working-directory: spd-documentation
 
       - name: Deploy
         run: npm run deploy
-        working-directory: spd-documentations
+        working-directory: spd-documentation
