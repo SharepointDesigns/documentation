@@ -3,24 +3,7 @@ name: Deploy Documentation
 on:
   push:
     branches:
-      - Deploy-Automate
       - main
-      - test
-  workflow_dispatch:
-    inputs:
-      environment:
-        description: "Deploy to environment"
-        required: true
-        default: "staging"
-        type: choice
-        options:
-          - staging
-          - production
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 jobs:
   build-and-deploy:
@@ -28,47 +11,33 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 18
           cache: "npm"
           cache-dependency-path: spd-documentation/package-lock.json
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
         working-directory: spd-documentation
 
-      - name: Build website (Production)
-        if: contains(github.ref, 'main') || contains(github.ref, 'Deploy-Automate') || (github.event_name == 'workflow_dispatch' && github.event.inputs.environment == 'production')
+      - name: Build
         run: npm run build
         working-directory: spd-documentation
 
-      - name: Build website (Staging)
-        if: contains(github.ref, 'test') || (github.event_name == 'workflow_dispatch' && github.event.inputs.environment == 'staging')
-        run: npm run build -- --config docusaurus.config.staging.ts
-        working-directory: spd-documentation
-
-      - name: Deploy to Production (GitHub Pages)
-        if: contains(github.ref, 'main') || contains(github.ref, 'Deploy-Automate') || (github.event_name == 'workflow_dispatch' && github.event.inputs.environment == 'production')
+      - name: Deploy
         working-directory: spd-documentation
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@users.noreply.github.com"
-          npx gh-pages -d build -b gh-pages -t true
+          git config user.name "${GIT_USER}"
+          git config user.email "${GIT_EMAIL}"
+          # Set remote URL with token for authentication
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          npx docusaurus deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Deploy to Staging (Test Branch)
-        if: contains(github.ref, 'test') || (github.event_name == 'workflow_dispatch' && github.event.inputs.environment == 'staging')
-        working-directory: spd-documentation
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@users.noreply.github.com"
-          npx gh-pages -d build -b gh-pages-staging -t true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_USER: ${{ github.actor }}
+          GIT_EMAIL: ${{ github.actor }}@users.noreply.github.com
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
