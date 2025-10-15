@@ -28,16 +28,13 @@ jobs:
         run: npm run build
         working-directory: spd-documentation
 
-      - name: Configure Git for Deployment
+      - name: Deploy
         working-directory: spd-documentation
         run: |
           git config user.name "${GIT_USER}"
           git config user.email "${GIT_EMAIL}"
+          docusaurus deploy
         env:
           GIT_USER: ${{ github.actor }}
           GIT_EMAIL: ${{ github.actor }}@users.noreply.github.com
-      - name: Deploy
-        working-directory: spd-documentation
-        run: npm run deploy
-        env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
