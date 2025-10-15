@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Change Log
 
-## Version 1.0.0.2
+## Version 1.0.0.1
 
 ---
 
@@ -37,7 +37,7 @@ sidebar_position: 5
 
 ---
 
-## Version 1.0.0.1
+## Version 1.0.0.0
 
 ---
 
