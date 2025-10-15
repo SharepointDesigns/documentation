@@ -374,7 +374,7 @@ Note: For the **Employee Spotlights** section, create a list with the following 
 
 ### 🗂️ Company Directory Web Part Settings
 
-![Organization ChartPropertypane](assets/OrgchartPropertypane.png)
+![Organization ChartPropertypane](assets/OrgChartPropertypane.png)
 
 #### 📌 Header Settings
 
