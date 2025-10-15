@@ -283,7 +283,7 @@ The Company & Announcements web part provides flexible configuration grouped int
 
 ### 📝 News Post Settings
 
-![News Post Settings](assets/diy5_featuredNews_managePost.png)
+![News Post Settings](assets/diy5_featuredNews_ManagePost.png)
 
 | 🏷️ Name              | Type | Default / Example | Description                                                |
 | -------------------- | ---- | ----------------- | ---------------------------------------------------------- |
