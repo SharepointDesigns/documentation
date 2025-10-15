@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "${GIT_USER}"
           git config user.email "${GIT_EMAIL}"
-          docusaurus deploy
+          npx docusaurus deploy
         env:
           GIT_USER: ${{ github.actor }}
           GIT_EMAIL: ${{ github.actor }}@users.noreply.github.com
