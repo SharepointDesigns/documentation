@@ -28,11 +28,15 @@ jobs:
         run: npm run build
         working-directory: spd-documentation
 
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         working-directory: spd-documentation
-        run: npx docusaurus deploy
         env:
-          GIT_USER: github-actions[bot]
+          GIT_USER: github-actions[bot] # Git author for commits
           GIT_EMAIL: github-actions[bot]@users.noreply.github.com
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }} # Your Personal Access Token
           GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          # Ensure the remote URL uses the token for authentication
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          # Run Docusaurus deploy
+          npx docusaurus deploy
