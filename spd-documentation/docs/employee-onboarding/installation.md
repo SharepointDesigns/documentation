@@ -14,7 +14,7 @@ sidebar_position: 2
 
 - Choose **Employee Onboarding by SharePoint Designs**
 
-  ![](assets/addtoSite.png)
+  ![](assets/addToSite.png)
 
 - Click **Add**
 - After installation, go to **Site Contents** to confirm it's added to the site.
