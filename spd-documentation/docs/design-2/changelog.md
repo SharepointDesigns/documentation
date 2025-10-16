@@ -10,6 +10,13 @@ sidebar_position: 5
 
 ### Updates based on Property Panel Enhancements
 
+#### Design 2 Setup
+
+- Added a new **“Set as Homepage”** checkbox after site creation.
+- When enabled, clicking **“Open New Page”** will open the newly created page **and set it as the homepage** .
+- If the checkbox is unchecked, the new page opens normally without changing the homepage.
+- The homepage update only occurs when the **“Open New Page”** button is clicked
+
 #### 🧭 Top Navigation
 
 - ✖️ **See all** option removed.
