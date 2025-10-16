@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Overview 1
+# Overview
 
 ## Intranet Free Template by Sharepoint Designs
 
