@@ -6,14 +6,14 @@ sidebar_position: 2
 
 ## ⚙️ Installation Instructions
 
-| Step | Description                                                                                       |
-| ---- | ------------------------------------------------------------------------------------------------- |
-| 1    | Visit the [Intranet Design 4 – SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/WA200008779?tab=Overview) listing on Microsoft AppSource and click **Get it now**.<br />![Get it Now](assets/design4_getItNow.png) |
-| 2    | You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.<br />![Add to Apps Site](assets/design4_addToAppSite.png)<br />⚠️ *If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added.* |
-| 3    | Navigate to any modern SharePoint site, and click the **Settings** icon.<br />![Settings Icon](assets/addAnApp.png) |
-| 4    | Select **“Add an app”**, and choose **Intranet Design 4 Site by SharePoint Designs**.<br />![Add to Site](assets/AddtoSite.png) |
-| 5    | Click **Add**. |
-| 6    | After installation, go to **Site Contents** to confirm it's added to the site.<br />![App Confirm Screen](assets/AppScreen.png) |
+| Step | Description                                                                                                                                                                                                                                                                                                                                                                    |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1    | Visit the [Intranet Design 4 – SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/WA200008779?tab=Overview) listing on Microsoft AppSource and click **Get it now**.<br />![Get it Now](assets/design4_getItNow.png)                                                                                                                                     |
+| 2    | You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.<br />![Add to Apps Site](assets/design4_addToAppSite.png)<br />⚠️ _If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added._ |
+| 3    | Navigate to any modern SharePoint site, and click the **Settings** icon.<br />![Settings Icon](assets/addAnApp.png)                                                                                                                                                                                                                                                            |
+| 4    | Select **“Add an app”**, and choose **Intranet Design 4 Site by SharePoint Designs**.<br />![Add to Site](assets/AddtoSite.png)                                                                                                                                                                                                                                                |
+| 5    | Click **Add**.                                                                                                                                                                                                                                                                                                                                                                 |
+| 6    | After installation, go to **Site Contents** to confirm it's added to the site.<br />![App Confirm Screen](assets/AppScreen.png)                                                                                                                                                                                                                                                |
 
 ---
 
@@ -31,7 +31,10 @@ sidebar_position: 2
 
 5. Do not close the browser. A pop-up will appear to create required lists and libraries with mock data (_Applicable only for lists_).
 6. After creation, the page will refresh automatically and proceed with adding the necessary web parts and layout.
-7. Once setup is complete, a button will appear to open the newly created page — click it to view your configured site.
+7. Once setup is complete - "Set as Homepage" checkbox will appear
+
+   - If checked, clicking "Open New Page" will open the newly created page and set it as the homepage.
+   - If unchecked, the new page opens normally without changing the homepage.
 
    ![](assets/creationComplete.png)
 

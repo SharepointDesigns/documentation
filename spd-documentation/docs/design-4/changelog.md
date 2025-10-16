@@ -10,6 +10,13 @@ sidebar_position: 5
 
 ### New Features & Major Updates
 
+#### [Design 4 Setup](/documentation/docs/design-4/installation#-Installation-Instructions)
+
+- Added a new **“Set as Homepage”** checkbox after site creation.
+- When enabled, clicking **“Open New Page”** will open the newly created page **and set it as the homepage** .
+- If the checkbox is unchecked, the new page opens normally without changing the homepage.
+- The homepage update only occurs when the **“Open New Page”** button is clicked
+
 #### [Welcome Banner Web Part](/documentation/docs/design-4/configuration#-1-welcome-banner)
 
 - **Display Name Setting**: Added dropdown to select First/Last/Full name display format

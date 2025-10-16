@@ -6,15 +6,14 @@ sidebar_position: 2
 
 ## ⚙️ Installation Instructions
 
-| Step | Description                                                                                       |
-| ---- | ------------------------------------------------------------------------------------------------- |
-| 1    | Visit the [Intranet Design 2 – SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/WA200008649?tab=Overview) listing on Microsoft AppSource and click **Get it now**.<br />![Get it Now](assets/design2_getItNow.png) |
-| 2    | You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.<br />![Add to Apps Site](assets/design2_addToAppSite.png)<br />⚠️ *If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added.* |
-| 3    | Navigate to any modern SharePoint site, and click the **Settings** icon.<br />![Settings Icon](assets/addAnApp.png) |
-| 4    | Select **“Add an app”**, and choose **Intranet Design 2 Site by SharePoint Designs**.<br />![Add to Site](assets/AddtoSite.png) |
-| 5    | Click **Add**. |
-| 6    | After installation, go to **Site Contents** to confirm it's added to the site.<br />![App Confirm Screen](assets/AppScreen.png) |
-
+| Step | Description                                                                                                                                                                                                                                                                                                                                                                   |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | Visit the[Intranet Design 2 – SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/WA200008649?tab=Overview) listing on Microsoft AppSource and click **Get it now**.<br />![Get it Now](assets/design2_getItNow.png)                                                                                                                                     |
+| 2    | You will be redirected to the SharePoint Store. Click**Add to Apps Site** to add it to your tenant.<br />![Add to Apps Site](assets/design2_addToAppSite.png)<br />⚠️ _If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added._ |
+| 3    | Navigate to any modern SharePoint site, and click the**Settings** icon.<br />![Settings Icon](assets/addAnApp.png)                                                                                                                                                                                                                                                            |
+| 4    | Select**“Add an app”**, and choose**Intranet Design 2 Site by SharePoint Designs**.<br />![Add to Site](assets/AddtoSite.png)                                                                                                                                                                                                                                                 |
+| 5    | Click**Add**.                                                                                                                                                                                                                                                                                                                                                                 |
+| 6    | After installation, go to**Site Contents** to confirm it's added to the site.<br />![App Confirm Screen](assets/AppScreen.png)                                                                                                                                                                                                                                                |
 
 ---
 
@@ -32,7 +31,10 @@ sidebar_position: 2
 
 5. Do not close the browser. A pop-up will appear to create required lists and libraries with mock data (_Applicable only for lists_).
 6. After creation, the page will refresh automatically and proceed with adding the necessary web parts and layout.
-7. Once setup is complete, a button will appear to open the newly created page — click it to view your configured site.
+7. Once setup is complete - "Set as Homepage" checkbox will appear
+
+   - If checked, clicking "Open New Page" will open the newly created page and set it as the homepage.
+   - If unchecked, the new page opens normally without changing the homepage.
 
    ![](assets/creationComplete.png)
 
@@ -44,14 +46,14 @@ sidebar_position: 2
 
 ### License Activation Steps
 
-| **Step** | **Action**                 | **Details / Notes**                                                                                                                                                                                                                                                                                               |
-| -------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1        | Go to the app page         | Navigate to the SharePoint page where the app is installed.                                                                                                                                                                                                                                                       |
-| 2        | Open activation panel      | - If the trial **has expired**, you'll see an **"Activate"** button on the app — click it.<br/>![](assets/activate.png)<br/>- If the trial **is still active** and you want to activate it, edit the page → open the **Web Part property panel** → click **"Activate License"**.<br />![](assets/activatewpp.png) |
-| 3        | Launch activation dialog   | A dialog box will appear prompting for a key.<br/><br/>![](assets/GetKey.png)                                                                                                                                                                                                                                     |
-| 4        | Click **Get Key**          | In the license dialog, click **Get Key** — this will take you to the payment page in a new tab.                                                                                                                                                                                                                   |
-| 5        | Purchase the license       | Complete the payment process. Once done, you’ll receive a license key via email. Be sure to check your spam/junk folder if you don't see it.                                                                                                                                                                      |
-| 6        | Enter and activate the key | Go back to the SharePoint page, paste the license key into the dialog box, and click **Activate** to complete activation.                                                                                                                                                                                         |
+| **Step** | **Action**                 | **Details / Notes**                                                                                                                                                                                                                                                                                              |
+| -------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1        | Go to the app page         | Navigate to the SharePoint page where the app is installed.                                                                                                                                                                                                                                                      |
+| 2        | Open activation panel      | - If the trial**has expired**, you'll see an **"Activate"** button on the app — click it.<br/>![](assets/activate.png)<br/>- If the trial **is still active** and you want to activate it, edit the page → open the **Web Part property panel** → click **"Activate License"**.<br />![](assets/activatewpp.png) |
+| 3        | Launch activation dialog   | A dialog box will appear prompting for a key.<br/><br/>![](assets/GetKey.png)                                                                                                                                                                                                                                    |
+| 4        | Click**Get Key**           | In the license dialog, click**Get Key** — this will take you to the payment page in a new tab.                                                                                                                                                                                                                   |
+| 5        | Purchase the license       | Complete the payment process. Once done, you’ll receive a license key via email. Be sure to check your spam/junk folder if you don't see it.                                                                                                                                                                     |
+| 6        | Enter and activate the key | Go back to the SharePoint page, paste the license key into the dialog box, and click**Activate** to complete activation.                                                                                                                                                                                         |
 
 ✅ **Done! Your app is now fully activated.**
 
