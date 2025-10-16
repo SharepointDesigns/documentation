@@ -3,15 +3,13 @@ name: Deploy Documentation
 on:
   push:
     branches:
-      - Deploy-Automate
+      - Test-Deploy
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -31,8 +29,10 @@ jobs:
           cache: "npm"
           cache-dependency-path: spd-documentation/package-lock.json
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
+      - name: Setup Git identity
+        run: |
+          git config --global user.name "sharepointdesigns"
+          git config --global user.email "github-actions@sharepointdesigns.com"
 
       - name: Install dependencies
         run: npm install
