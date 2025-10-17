@@ -56,8 +56,8 @@ collections:
     label: "└─ Design 1 Subpages"
     label_singular: "Design 1 Subpage"
     folder: "docs/design-1/design-1-subpages"
-    media_folder: "/docs/design-1-subpages/assets"
-    public_folder: "/docs/design-1-subpages/assets"
+    media_folder: "/docs/design-1/design-1-subpages/assets"
+    public_folder: "/docs/design-1/design-1-subpages/assets"
     create: true
     slug: "{{slug}}"
     fields:
