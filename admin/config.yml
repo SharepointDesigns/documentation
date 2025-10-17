@@ -4,9 +4,8 @@ backend:
   branch: main
   base_url: https://spddocsapp01-fvcha3h3g4fsg9h5.southindia-01.azurewebsites.net
   auth_endpoint: oauth
-  squash_merges: true
   # Uncomment when running locally
-local_backend: true
+# local_backend: true
 
 media_folder: "/docs"
 public_folder: "/documentation/img/uploads"
