@@ -1,4 +1,5 @@
 ---
+title: Webparts
 sidebar_position: 4
 ---
 

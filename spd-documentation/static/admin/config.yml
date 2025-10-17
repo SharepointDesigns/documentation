@@ -1,0 +1,221 @@
+backend:
+  name: github
+  repo: SharepointDesigns/documentation
+  branch: main
+
+
+# Uncomment when running locally
+local_backend: true
+
+media_folder: "static/img/uploads"
+public_folder: "/documentation/img/uploads"
+
+# Site URL for previews
+site_url: https://sharepointdesigns.github.io/documentation/
+
+collections:
+  # Main Documentation Pages
+  - name: "docs"
+    label: "Main Documentation"
+    folder: "docs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Design 1 Documentation (Parent)
+  - name: "design-1"
+    label: "Design 1"
+    label_singular: "Design 1 Doc"
+    folder: "docs/design-1"
+    create: true
+    slug: "{{slug}}"
+    # Only show files directly in docs/design-1, not in subdirectories
+    extension: md
+    format: frontmatter
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Design 1 Subpages (Nested under Design 1)
+  - name: "design-1-subpages"
+    label: "└─ Design 1 Subpages"
+    label_singular: "Design 1 Subpage"
+    folder: "docs/design-1/design-1-subpages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Design 2 Documentation (Parent)
+  - name: "design-2"
+    label: "Design 2"
+    label_singular: "Design 2 Doc"
+    folder: "docs/design-2"
+    create: true
+    slug: "{{slug}}"
+    # Only show files directly in docs/design-2, not in subdirectories
+    extension: md
+    format: frontmatter
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Design 2 Subpages (Nested under Design 2)
+  - name: "design-2-subpages"
+    label: "└─ Subpages"
+    label_singular: "Design 2 Subpage"
+    folder: "docs/design-2/design-2-subpages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Design 4 Documentation
+  - name: "design-4"
+    label: "Design 4 Docs"
+    folder: "docs/design-4"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Design 5 Documentation
+  - name: "design-5"
+    label: "Design 5 Docs"
+    folder: "docs/design-5"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Employee Onboarding Documentation
+  - name: "employee-onboarding"
+    label: "Employee Onboarding Docs"
+    folder: "docs/employee-onboarding"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Free Template Documentation
+  - name: "free-template"
+    label: "Free Template Docs"
+    folder: "docs/free-template"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Blog Posts
+  - name: "blog"
+    label: "Blog"
+    folder: "blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "authors", widget: "list", allow_add: true }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Category Configuration Files
+  - name: "categories"
+    label: "Category Settings"
+    files:
+      - label: "Design 1 Category"
+        name: "design-1-category"
+        file: "docs/design-1/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - { label: "Link Type", name: "link.type", widget: "select", options: ["generated-index", "doc"], required: false }
+          - { label: "Link Description", name: "link.description", widget: "text", required: false }
+      
+      - label: "Design 1 Subpages Category"
+        name: "design-1-subpages-category"
+        file: "docs/design-1/design-1-subpages/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - { label: "Link Type", name: "link.type", widget: "select", options: ["generated-index", "doc"], required: false }
+          - { label: "Link Description", name: "link.description", widget: "text", required: false }
+
+      - label: "Design 2 Category"
+        name: "design-2-category"
+        file: "docs/design-2/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - { label: "Link Type", name: "link.type", widget: "select", options: ["generated-index", "doc"], required: false }
+          - { label: "Link Description", name: "link.description", widget: "text", required: false }
+
+      - label: "Design 2 Subpages Category"
+        name: "design-2-subpages-category"
+        file: "docs/design-2/design-2-subpages/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - { label: "Link Type", name: "link.type", widget: "select", options: ["generated-index", "doc"], required: false }
+          - { label: "Link Description", name: "link.description", widget: "text", required: false }
+
+      - label: "Design 4 Category"
+        name: "design-4-category"
+        file: "docs/design-4/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - { label: "Link Type", name: "link.type", widget: "select", options: ["generated-index", "doc"], required: false }
+          - { label: "Link Description", name: "link.description", widget: "text", required: false }
+
+      - label: "Design 5 Category"
+        name: "design-5-category"
+        file: "docs/design-5/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - { label: "Link Type", name: "link.type", widget: "select", options: ["generated-index", "doc"], required: false }
+          - { label: "Link Description", name: "link.description", widget: "text", required: false }
+
+      - label: "Employee Onboarding Category"
+        name: "employee-onboarding-category"
+        file: "docs/employee-onboarding/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - { label: "Link Type", name: "link.type", widget: "select", options: ["generated-index", "doc"], required: false }
+          - { label: "Link Description", name: "link.description", widget: "text", required: false }
+
+      - label: "Free Template Category"
+        name: "free-template-category"
+        file: "docs/free-template/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - { label: "Link Type", name: "link.type", widget: "select", options: ["generated-index", "doc"], required: false }
+          - { label: "Link Description", name: "link.description", widget: "text", required: false }
