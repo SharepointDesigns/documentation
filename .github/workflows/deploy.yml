@@ -46,7 +46,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: spd-documentation/build
-
+  
+  # deploy the document
   deploy:
     runs-on: ubuntu-latest
     needs: build
