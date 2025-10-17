@@ -1,8 +1,11 @@
 ---
 sidebar_position: 2
+title: Installation
+author: SharePoint Designs
+version: 1
+updated: October 2025
+description: Installation settings and customization guide for each web part.
 ---
-
-# Installation
 
 ## ⚙️ Installation Instructions
 

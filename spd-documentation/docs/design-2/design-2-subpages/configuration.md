@@ -1,8 +1,11 @@
 ---
+title: Configuration
 sidebar_position: 3
+author: SharePoint Designs
+version: 1
+updated: October 2025
+description: Configuration settings and customization guide for each web part.
 ---
-
-# Configuration
 
 Configuration settings for each web part.
 
@@ -32,7 +35,12 @@ Note: If the layout selected for the Welcome Banner is **Employee Resource Banne
 
 ### 🏷️ Welcome Banner Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Contact Cards Property Pane](assets/bannerPP.png)
+
+</details>
 
 ### 🎨 Appearance Settings
 
@@ -66,8 +74,14 @@ Note: If the layout selected for the Welcome Banner is **Employee Resource Banne
 
 ### 🏷️ Document Content Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Document Content](assets/DocContentPP1.png)
+
 ![Document Content](assets/DocContentPP2.png)
+
+</details>
 
 ### 📌 Header Settings
 
@@ -124,7 +138,12 @@ Note: For the **FAQ** section, if a list named **FAQs** already exists, you may 
 
 ### 🏷️ FAQs Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Document Content](assets/FAQPP.png)
+
+</details>
 
 ### 📌 Header Settings
 
@@ -153,7 +172,12 @@ Note: For the **FAQ** section, if a list named **FAQs** already exists, you may 
 
 ### 🏷️ Featured News Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Featured News Property Pane](assets/featurednews1.png)
+
+</details>
 
 ### 📌 Header Settings
 
@@ -180,7 +204,7 @@ Note: For the **FAQ** section, if a list named **FAQs** already exists, you may 
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------- |
 | **Search Sites**         | Search and select the site(s) for the news source.                                                                       | current site                            |
 | **Enable RSS Feed**      | Toggle to display external RSS news feeds.                                                                               | On                                      |
-| **RSS Links**            | Manage external RSS feed links.                                                                                          | [Manage Links]                          |
+| **RSS Links**            | Manage external RSS feed links.                                                                                          | \[Manage Links]                         |
 | **RSS API Key**          | Provide or generate an API key for secure RSS integration.                                                               | 7kmmp5wzpx2dyt4f4p3trgqlpwnxtz91kxcc... |
 | **Show Search Box**      | Toggle to include a search box for news items.                                                                           | Off                                     |
 | **Show Sort By**         | Enable sorting functionality (e.g., by date or title).                                                                   | On                                      |
@@ -190,7 +214,7 @@ Note: For the **FAQ** section, if a list named **FAQs** already exists, you may 
 | **Apply Filters**        | Select the available options from the News Category selected.                                                            | (Not Selected)                          |
 | **View All URL**         | Set the page URL for viewing the full list of news items.                                                                | `{siteUrl}/_layouts/15/news.aspx`       |
 | **Target Audience**      | Define audience targeting for news content visibility.                                                                   | (Empty)                                 |
-| **Manage News Posts**    | Link to the interface for managing and editing news posts.                                                               | [Manage News Posts]                     |
+| **Manage News Posts**    | Link to the interface for managing and editing news posts.                                                               | \[Manage News Posts]                    |
 
 ## 📝 5. Feedback / Share Your Ideas
 
@@ -204,7 +228,12 @@ Note: For the **FAQ** section, if a list named **FAQs** already exists, you may 
 
 ### 🏷️ Feedback / Share Your Ideas Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Featured News Property Pane](assets/feedbackPP1.png)
+
+</details>
 
 ### 📌 Header Settings
 
@@ -244,7 +273,12 @@ Note: For the **Goals** section, if a list named **Goals** already exists, you m
 
 ### 🏷️ Top 3 Department Goals Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Featured News Property Pane](assets/goalsPP.png)
+
+</details>
 
 ### 📌 Header Settings
 
@@ -282,7 +316,12 @@ Note: For the Newsletter section, if a library named **Newsletter** exists, simp
 
 ### 🏷️ Newsletter Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Newsletter](assets/newsletterPP.png)
+
+</details>
 
 ### 📌 Header Settings
 
@@ -323,7 +362,12 @@ Note: For the **Quick Links** section, create a list with the following columns.
 
 ### 🏷️ Quick Links Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Featured News Property Pane](assets/linksPP.png)
+
+</details>
 
 ### 📌 Header Settings
 
@@ -367,7 +411,12 @@ Note: For the **Meet the SMEs** section, create a list with the following column
 
 ### 🏷️ Meet the SMEs Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Featured News Property Pane](assets/smePP.png)
+
+</details>
 
 ### 📌 Header Settings
 
@@ -403,7 +452,12 @@ Note: For the **Meet the SMEs** section, create a list with the following column
 
 ### 🏷️ Contacts Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Contact Cards Property Pane](assets/ContactCardPP.png)
+
+</details>
 
 ### 📌 **Header Settings**
 
@@ -447,7 +501,12 @@ Whenever a user is assigned as the web part admin, they will see a ⚙️ settin
 
 This section primarily contains a documentation link that redirects users to the complete Installation, Configuration, and Overview pages. Users can also activate the license from this section.
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Contact Cards Property Pane](assets/aboutPP.png)
+
+</details>
 
 | 🏷️ Name                     | 🎯 Purpose                                                                           |
 | --------------------------- | ------------------------------------------------------------------------------------ |

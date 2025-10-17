@@ -1,8 +1,12 @@
 ---
 sidebar_position: 5
+title: Change Log
+author: SharePoint Designs
+version: 1
+updated: October 2025
+description: Change Log settings and customization guide for each web part.
 ---
 
-# Change Log
 
 ## Version 1.0.0.1
 

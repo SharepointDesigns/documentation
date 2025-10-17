@@ -3,11 +3,10 @@ backend:
   repo: SharepointDesigns/documentation
   branch: main
 
-
-# Uncomment when running locally
+  # Uncomment when running locally
 local_backend: true
 
-media_folder: "static/img/uploads"
+media_folder: "/docs"
 public_folder: "/documentation/img/uploads"
 
 # Site URL for previews
@@ -22,7 +21,12 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
 
   # Design 1 Documentation (Parent)
@@ -31,14 +35,19 @@ collections:
     label_singular: "Design 1 Doc"
     folder: "docs/design-1"
     create: true
-    slug: "{{slug}}"
-    # Only show files directly in docs/design-1, not in subdirectories
-    extension: md
     format: frontmatter
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+    extension: "md"
+    slug: "{{path}}/{{slug}}"
+    media_folder: "/docs/design-1/assets"
+    public_folder: "/docs/design-1/assets"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
 
@@ -47,11 +56,18 @@ collections:
     label: "└─ Design 1 Subpages"
     label_singular: "Design 1 Subpage"
     folder: "docs/design-1/design-1-subpages"
+    media_folder: "/docs/design-1-subpages/assets"
+    public_folder: "/docs/design-1-subpages/assets"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
 
   # Design 2 Documentation (Parent)
@@ -60,38 +76,57 @@ collections:
     label_singular: "Design 2 Doc"
     folder: "docs/design-2"
     create: true
-    slug: "{{slug}}"
-    # Only show files directly in docs/design-2, not in subdirectories
-    extension: md
     format: frontmatter
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+    extension: "md"
+    media_folder: "/docs/design-2/assets"
+    public_folder: "/docs/design-2/assets"
+    slug: "{{path}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
 
   # Design 2 Subpages (Nested under Design 2)
   - name: "design-2-subpages"
-    label: "└─ Subpages"
+    label: "└─ Design 2 Subpages"
     label_singular: "Design 2 Subpage"
     folder: "docs/design-2/design-2-subpages"
+    media_folder: "/docs/design-2/design-2-subpages/assets"
+    public_folder: "/docs/design-2/design-2-subpages/assets"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
 
   # Design 4 Documentation
   - name: "design-4"
     label: "Design 4 Docs"
     folder: "docs/design-4"
+    media_folder: "/docs/design-4/assets"
+    public_folder: "/docs/design-4/assets"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
 
@@ -100,10 +135,17 @@ collections:
     label: "Design 5 Docs"
     folder: "docs/design-5"
     create: true
+    media_folder: "/docs/design-5/assets"
+    public_folder: "/docs/design-5/assets"
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
 
@@ -112,10 +154,17 @@ collections:
     label: "Employee Onboarding Docs"
     folder: "docs/employee-onboarding"
     create: true
+    media_folder: "/docs/employee-onboarding/assets"
+    public_folder: "/docs/employee-onboarding/assets"
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
 
@@ -124,10 +173,17 @@ collections:
     label: "Free Template Docs"
     folder: "docs/free-template"
     create: true
+    media_folder: "/docs/free-template/assets"
+    public_folder: "/docs/free-template/assets"
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Sidebar Position", name: "sidebar_position", widget: "number", required: false }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
 
@@ -136,6 +192,7 @@ collections:
     label: "Blog"
     folder: "blog"
     create: true
+
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -154,17 +211,39 @@ collections:
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
-          - { label: "Link Type", name: "link.type", widget: "select", options: ["generated-index", "doc"], required: false }
-          - { label: "Link Description", name: "link.description", widget: "text", required: false }
-      
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
+
       - label: "Design 1 Subpages Category"
         name: "design-1-subpages-category"
         file: "docs/design-1/design-1-subpages/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
-          - { label: "Link Type", name: "link.type", widget: "select", options: ["generated-index", "doc"], required: false }
-          - { label: "Link Description", name: "link.description", widget: "text", required: false }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
 
       - label: "Design 2 Category"
         name: "design-2-category"
@@ -172,8 +251,19 @@ collections:
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
-          - { label: "Link Type", name: "link.type", widget: "select", options: ["generated-index", "doc"], required: false }
-          - { label: "Link Description", name: "link.description", widget: "text", required: false }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
 
       - label: "Design 2 Subpages Category"
         name: "design-2-subpages-category"
@@ -181,8 +271,19 @@ collections:
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
-          - { label: "Link Type", name: "link.type", widget: "select", options: ["generated-index", "doc"], required: false }
-          - { label: "Link Description", name: "link.description", widget: "text", required: false }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
 
       - label: "Design 4 Category"
         name: "design-4-category"
@@ -190,8 +291,19 @@ collections:
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
-          - { label: "Link Type", name: "link.type", widget: "select", options: ["generated-index", "doc"], required: false }
-          - { label: "Link Description", name: "link.description", widget: "text", required: false }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
 
       - label: "Design 5 Category"
         name: "design-5-category"
@@ -199,8 +311,19 @@ collections:
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
-          - { label: "Link Type", name: "link.type", widget: "select", options: ["generated-index", "doc"], required: false }
-          - { label: "Link Description", name: "link.description", widget: "text", required: false }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
 
       - label: "Employee Onboarding Category"
         name: "employee-onboarding-category"
@@ -208,8 +331,19 @@ collections:
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
-          - { label: "Link Type", name: "link.type", widget: "select", options: ["generated-index", "doc"], required: false }
-          - { label: "Link Description", name: "link.description", widget: "text", required: false }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
 
       - label: "Free Template Category"
         name: "free-template-category"
@@ -217,5 +351,16 @@ collections:
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
-          - { label: "Link Type", name: "link.type", widget: "select", options: ["generated-index", "doc"], required: false }
-          - { label: "Link Description", name: "link.description", widget: "text", required: false }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }

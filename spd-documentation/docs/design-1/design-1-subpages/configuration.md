@@ -1,8 +1,11 @@
 ---
+title: Configuration
 sidebar_position: 3
+author: SharePoint Designs
+version: 1
+updated: October 2025
+description: configuration settings and customization guide for each web part.
 ---
-
-# Configuration
 
 ### Note:
 
@@ -25,7 +28,12 @@ Configuration settings for each web part.
 
 This section allows customization of the **Welcome Banner** for a department or contact information display. The following configurable options are available:
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Welcome Banner](assets/BannerPropertypane.png)
+
+</details>
 
 | 🏷️ Name                         | 🎯 Purpose                                                                                                                                                                                           | 💡 Select Option                 |
 | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
@@ -62,7 +70,12 @@ This web part offers support contact information, including a phone number and e
 
 Customize your Assist web part effortlessly to suit your requirements:
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Assist](assets/assistpropertypane.png)
+
+</details>
 
 #### 📌 Header Settings Section
 
@@ -96,8 +109,12 @@ The Web Part configuration is divided into two main sections:
 
 - Contact
 - Contact Information
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![Contact Cards Property Pane](assets/ContactCardsPropertypane.png)
+
+</details>
 
 #### 📇 General Settings
 
@@ -149,7 +166,12 @@ Note: For the **Goals** webpart, create a list with the following columns.
 
 #### ⚙️ General Settings
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Goals](assets/GoalsPropertypane.png)
+
+</details>
 
 | 🏷️ Name                   | 🎯 Purpose                                                                   | 💡 Select Option         |
 | ------------------------- | ---------------------------------------------------------------------------- | ------------------------ |
@@ -174,8 +196,14 @@ Note: For the **Document Contents** webpart, create a seperate library if requir
 
 This configuration panel is divided into three main sections: **Header Settings**, **General Settings**, and **Appearance Settings**.
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Document Content](assets/DocPropertypane1.png)
+
 ![Document Content](assets/DocPropertypane2.png)
+
+</details>
 
 #### 🔖 Header Settings
 
@@ -225,7 +253,12 @@ This configuration panel is divided into three main sections: **Header Settings*
 
 The **Share Ideas** web part provides a platform for users to submit feedback, ideas, or suggestions, typically by redirecting to a form or email via a clickable button. The web part is visually supported by an image and customizable interface.
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Share Ideas](assets/ShareideasPropertypane.png)
+
+</details>
 
 ---
 
@@ -270,7 +303,12 @@ Note: For the **Newsletter** webpart, create a library with the following column
 
 The **Newsletter** web part is designed to showcase company newsletters or announcements in a visually engaging slider format. It provides customization for height, slide content, and data source.
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Newsletter](assets/NewsletterPropertypane.png)
+
+</details>
 
 ---
 
@@ -303,21 +341,25 @@ Note: For the **Pixel gallery** webpart, create a library to store the images or
 
 ---
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Pixel Gallery](assets/PixelGalleryPropertypane.png)
+
+</details>
 
 #### ⚙️ General Settings
 
 | 🏷️ Name                         | 🎯 Purpose                                                                   | 💡 Select Option        |
 | ------------------------------- | ---------------------------------------------------------------------------- | ----------------------- |
 | 🏷️**Web Part Title**            | Defines the display title of the gallery section.                            | Gallery                 |
-| 🎨**Web Part Title Color Code** | Hex code to customize the title’s font color                                 | #000000 (Black)         |
+| 🎨**Web Part Title Color Code** | Hex code to customize the title’s font color                                 | \#000000 (Black)        |
 | 📚**Library Name**              | Specifies the SharePoint document library that stores the gallery images.    | Gallery                 |
 | 📁**Folder Name**               | Optional field to limit the gallery to a specific folder within the library. | _(Empty in screenshot)_ |
 | 📐**Webpart Height**            | Controls the vertical size of the gallery display.                           | 228                     |
 | 🎞️**Items to Show per Slide**   | Number of images displayed simultaneously in one gallery slide.              | _(Not provided)_        |
 
 ## 📰 9. Featured News
-
 
 ### 📋 Details
 
@@ -329,7 +371,12 @@ Note: For the **Pixel gallery** webpart, create a library to store the images or
 
 ### 🏷️ Features News Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Features News Property Pane](../assets/FNPropertyPane.png)
+
+</details>
 
 #### 🎨 Appearance Settings
 
@@ -399,7 +446,12 @@ Note: For the **Breaking News** webpart, create a list with the following column
 
 ### 🏷️ Breaking News Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Breaking News Property Pane](../assets/BNPropertypane.png)
+
+</details>
 
 #### 🎨 Appearance Settings
 
@@ -447,7 +499,12 @@ Note: For the **Quick Links/Tool Links** webpart, create a list with the followi
 
 ### 🏷️ Quick Links Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Quick Links Property Pane](../assets/QLPropertpane.png)
+
+</details>
 
 #### 🎨 Appearance Settings
 
@@ -491,7 +548,12 @@ Note: For the **FAQs** webpart, create a list with the following columns.
 
 ### 🏷️ FAQs Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![FAQs Property Pane](../assets/FAQPropertyPane.png)
+
+</details>
 
 #### 🎨 Basic Settings
 

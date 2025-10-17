@@ -1,9 +1,7 @@
 ---
+title: Introduction
 sidebar_position: 1
 ---
-
-# Introduction
-
 Products developed by **SharePoint Designs**.
 
 import DocCard from "@theme/DocCard";
