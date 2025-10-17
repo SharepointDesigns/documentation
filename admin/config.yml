@@ -2,9 +2,9 @@ backend:
   name: github
   repo: SharepointDesigns/documentation
   branch: main
-  base_url: https://decapcmsoauth-bnh6e8gqhdbjdxay.southindia-01.azurewebsites.net
-  # your domain or GitHub Pages URL
+  base_url: https://spddocsapp01-fvcha3h3g4fsg9h5.southindia-01.azurewebsites.net
   auth_endpoint: oauth
+
   # Uncomment when running locally
 local_backend: true
 
