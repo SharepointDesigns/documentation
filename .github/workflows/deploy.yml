@@ -3,7 +3,7 @@ name: Deploy Documentation
 on:
   push:
     branches:
-      - Test-Deploy
+      - Deploy-Automate
 
 permissions:
   contents: write
@@ -46,7 +46,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: spd-documentation/build
-  
+
   # deploy the document
   deploy:
     runs-on: ubuntu-latest
