@@ -2,16 +2,19 @@ backend:
   name: github
   repo: SharepointDesigns/documentation
   branch: main
-  base_url: https://spddocsapp01-fvcha3h3g4fsg9h5.southindia-01.azurewebsites.net
-  auth_endpoint: oauth
+  base_url: https://spdproductdocs-e3epgcb4dvcwasdy.centralindia-01.azurewebsites.net
+  #base_url: http://localhost:7071
+  auth_type: redirect
+  auth_endpoint: /api/auth
   # Uncomment when running locally
 # local_backend: true
 
 media_folder: "/docs"
 public_folder: "/documentation/img/uploads"
+show_preview_links: true
 
 # Site URL for previews
-site_url: https://sharepointdesigns.github.io/documentation/
+site_url: https://sharepointdesigns.github.io/documentation
 
 collections:
   # Main Documentation Pages
