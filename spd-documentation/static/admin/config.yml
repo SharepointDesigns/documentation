@@ -4,8 +4,9 @@ backend:
   branch: main
   base_url: https://spdproductdocs-e3epgcb4dvcwasdy.centralindia-01.azurewebsites.net
   #base_url: http://localhost:7071
-  auth_type: redirect
+  auth_type: implicit
   auth_endpoint: /api/auth
+  token_endpoint: /api/callback
   # Uncomment when running locally
 # local_backend: true
 
