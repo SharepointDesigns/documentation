@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: SharepointDesigns/documentation
-  branch: main
+  branch: Deploy-Automate
   base_url: https://spdproductdocs-e3epgcb4dvcwasdy.centralindia-01.azurewebsites.net
   auth_type: implicit
   auth_endpoint: /api/auth
