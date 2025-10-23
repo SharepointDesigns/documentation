@@ -2,12 +2,12 @@ backend:
   name: github
   repo: SharepointDesigns/documentation
   branch: Deploy-Automate
-  # base_url: https://spdproductdocs-e3epgcb4dvcwasdy.centralindia-01.azurewebsites.net
-  # auth_type: implicit
-  # auth_endpoint: /api/auth
-  # token_endpoint: /api/callback
+  base_url: https://spdproductdocs-e3epgcb4dvcwasdy.centralindia-01.azurewebsites.net
+  auth_type: implicit
+  auth_endpoint: /api/auth
+  token_endpoint: /api/callback
   # Uncomment when running locally
-local_backend: true
+# local_backend: true
 
 media_folder: "/static/img/uploads"
 public_folder: "/static/img/uploads"
