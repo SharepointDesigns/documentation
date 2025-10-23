@@ -39,3 +39,10 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+## To add a new documentation folder structure
+
+1. Create a new folder in the `docs` directory with the appropriate name (e.g., `design-3`).
+2. Add a `_category_.json` file inside the new folder with the necessary metadata.
+3. Add the new folder to the `intro.md`.
+4. Add collection configuration in `config.yml`.

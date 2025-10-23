@@ -115,6 +115,28 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  # Design 3 Documentation (Parent)
+  - name: "design-3"
+    label: "Design 3"
+    label_singular: "Design 3 Doc"
+    folder: "spd-documentation/docs/design-3"
+    create: true
+    format: frontmatter
+    extension: "md"
+    media_folder: "/spd-documentation/docs/design-3/assets"
+    public_folder: "assets"
+    slug: "{{path}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
   # Design 4 Documentation
   - name: "design-4"
     label: "Design 4 Docs"
