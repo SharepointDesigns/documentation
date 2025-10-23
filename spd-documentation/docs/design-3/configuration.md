@@ -77,3 +77,78 @@ The Home page should be configured using the "Design 3 Setup" web part to ensure
 | ------------------------ | ----------------------------------------------------------------------- | ------- |
 | Enable Dragging          | Toggle to enable or disable dragging functionality for the web part.    | On/Off  |
 | Reset Component Position | Reset the position of the web part to its default location on the page. | Button  |
+
+## 2. Breaking News
+
+![Breaking News](assets/screenshot-2025-10-23-174319.png)
+
+### ⚙️Configuration
+
+##### General Settings
+
+<details>
+<summary>📸 View General Settings Screenshots</summary>
+
+![General settings](assets/screenshot-2025-10-23-174712.png)
+
+</details>
+
+| Name               | Purpose                                      | Example         |
+| ------------------ | -------------------------------------------- | --------------- |
+| Title              | Set the title for the Breaking News webpart. | "Breaking News" |
+| Breaking news icon | Choose an icon to represent breaking news.   | Icon Picker     |
+
+##### Data source
+
+<details>
+<summary>📸 View Data source Screenshots</summary>
+
+![General settings](assets/screenshot-2025-10-23-175414.png)
+
+</details>
+
+| Name                | Purpose                                      | Example         |
+| ------------------- | -------------------------------------------- | --------------- |
+| Breaking news items | Add, remove, or reorder breaking news items. | Collection data |
+
+##### Carousel Settings
+
+<details>
+<summary>📸 View carousel settings Screenshots</summary>
+
+![General settings](assets/screenshot-2025-10-23-175423.png)
+
+</details>
+
+| Name                   | Purpose                                                       | Example        |
+| ---------------------- | ------------------------------------------------------------- | -------------- |
+| Autoplay               | Toggle to enable or disable autoplay for the carousel.        | On/Off         |
+| Auto play speed        | Set the speed of the carousel transition.                     | Slider Control |
+| Enable infinite loop   | Toggle to enable or disable infinite looping of the carousel. | On/Off         |
+| Show navigation arrows | Toggle to show or hide navigation arrows on the carousel.     | On/Off         |
+
+##### Appearance Settings
+
+<details>
+<summary>📸 View appearance settings Screenshots</summary>
+
+![General settings](assets/screenshot-2025-10-23-175430.png)
+
+</details>
+
+| Name         | Purpose                                                | Example      |
+| ------------ | ------------------------------------------------------ | ------------ |
+| Accent Color | Choose an accent color for the Breaking News web part. | Color Picker |
+
+#### Layout
+
+<details>
+<summary>📸 View layout Settings Screenshots</summary>
+
+![General settings](assets/screenshot-2025-10-23-175438.png)
+
+</details>
+
+| Name                                         | Purpose                                                            | Example |
+| -------------------------------------------- | ------------------------------------------------------------------ | ------- |
+| Hide this webpart is there's nothing to show | Toggle to hide the web part when there are no breaking news items. | On/Off  |
