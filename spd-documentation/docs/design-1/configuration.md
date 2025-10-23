@@ -14,7 +14,7 @@ The Home page should be configured using the "Design 1 Setup" web part to ensure
 * **Professional Display**: Present announcements/department news clearly and formally.
 * **Structured Layout**: Organized sections for each department.
 
-![Features News](assets/thumbnail.png)
+![Features News](assets/FeaturedNews.png)
 
 ### 🏷️ Features News Web Part – Property Pane Configuration
 
