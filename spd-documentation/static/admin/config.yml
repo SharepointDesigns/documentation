@@ -41,7 +41,7 @@ collections:
     create: true
     format: frontmatter
     extension: "md"
-    slug: "{{path}}/{{slug}}"
+    slug: "{{slug}}"
     media_folder: "/spd-documentation/docs/design-1/assets"
     public_folder: "assets"
     fields:
@@ -84,7 +84,7 @@ collections:
     extension: "md"
     media_folder: "/spd-documentation/docs/design-2/assets"
     public_folder: "assets"
-    slug: "{{path}}"
+    slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
@@ -125,7 +125,7 @@ collections:
     extension: "md"
     media_folder: "/spd-documentation/docs/design-3/assets"
     public_folder: "assets"
-    slug: "{{path}}"
+    slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {

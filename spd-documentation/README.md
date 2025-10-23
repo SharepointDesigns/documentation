@@ -46,3 +46,4 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 2. Add a `_category_.json` file inside the new folder with the necessary metadata.
 3. Add the new folder to the `intro.md`.
 4. Add collection configuration in `config.yml`.
+5. Add details of the new design in the `src/components/HomepageFeatures` file.
