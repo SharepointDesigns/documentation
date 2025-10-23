@@ -15,7 +15,7 @@ Configuration settings for each web part.
 * **Department Showcase Web Part**: Visually highlights a specific department with a professional background image and clear labeling of the department name.
 * **Key Personnel Display**: Features profile cards for key team members (e.g., Manager and Quality Manager) with names, roles, and placeholders for profile pictures.
 
-![Welcome Banner](/spd-documentation/docs/design-1/design-1-subpages/assets/thumbnail.png)
+![Welcome Banner](assets/WelcomeBanner.png)
 
 - - -
 
