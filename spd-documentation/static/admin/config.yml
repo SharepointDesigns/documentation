@@ -42,7 +42,7 @@ collections:
     format: frontmatter
     extension: "md"
     slug: "{{path}}/{{slug}}"
-    media_folder: "/docs/design-1/assets"
+    media_folder: "/spd-documentation/docs/design-1/assets"
     public_folder: "assets"
     fields:
       - { label: "Title", name: "title", widget: "string" }
