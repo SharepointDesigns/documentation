@@ -27,7 +27,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22
           cache: "npm"
           cache-dependency-path: spd-documentation/package-lock.json
 
@@ -46,7 +46,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: spd-documentation/build
-  
+
   # deploy the document
   deploy:
     runs-on: ubuntu-latest
