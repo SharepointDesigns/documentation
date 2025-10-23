@@ -20,7 +20,7 @@ collections:
   # Main Documentation Pages
   - name: "docs"
     label: "Main Documentation"
-    folder: "docs"
+    folder: "spd-documentation/docs"
     create: true
     slug: "{{slug}}"
     fields:
@@ -37,7 +37,7 @@ collections:
   - name: "design-1"
     label: "Design 1"
     label_singular: "Design 1 Doc"
-    folder: "docs/design-1"
+    folder: "spd-documentation/docs/design-1"
     create: true
     format: frontmatter
     extension: "md"
@@ -59,7 +59,7 @@ collections:
   - name: "design-1-subpages"
     label: "└─ Design 1 Subpages"
     label_singular: "Design 1 Subpage"
-    folder: "docs/design-1/design-1-subpages"
+    folder: "spd-documentation/docs/design-1/design-1-subpages"
     media_folder: "/docs/design-1/design-1-subpages/assets"
     public_folder: "assets"
     create: true
@@ -78,7 +78,7 @@ collections:
   - name: "design-2"
     label: "Design 2"
     label_singular: "Design 2 Doc"
-    folder: "docs/design-2"
+    folder: "spd-documentation/docs/design-2"
     create: true
     format: frontmatter
     extension: "md"
@@ -100,7 +100,7 @@ collections:
   - name: "design-2-subpages"
     label: "└─ Design 2 Subpages"
     label_singular: "Design 2 Subpage"
-    folder: "docs/design-2/design-2-subpages"
+    folder: "spd-documentation/docs/design-2/design-2-subpages"
     media_folder: "/docs/design-2/design-2-subpages/assets"
     public_folder: "assets"
     create: true
@@ -118,7 +118,7 @@ collections:
   # Design 4 Documentation
   - name: "design-4"
     label: "Design 4 Docs"
-    folder: "docs/design-4"
+    folder: "spd-documentation/docs/design-4"
     media_folder: "/docs/design-4/assets"
     public_folder: "assets"
     create: true
@@ -137,7 +137,7 @@ collections:
   # Design 5 Documentation
   - name: "design-5"
     label: "Design 5 Docs"
-    folder: "docs/design-5"
+    folder: "spd-documentation/docs/design-5"
     create: true
     media_folder: "/docs/design-5/assets"
     public_folder: "assets"
@@ -156,7 +156,7 @@ collections:
   # Employee Onboarding Documentation
   - name: "employee-onboarding"
     label: "Employee Onboarding Docs"
-    folder: "docs/employee-onboarding"
+    folder: "spd-documentation/docs/employee-onboarding"
     create: true
     media_folder: "/docs/employee-onboarding/assets"
     public_folder: "assets"
@@ -175,7 +175,7 @@ collections:
   # Free Template Documentation
   - name: "free-template"
     label: "Free Template Docs"
-    folder: "docs/free-template"
+    folder: "spd-documentation/docs/free-template"
     create: true
     media_folder: "/docs/free-template/assets"
     public_folder: "assets"
