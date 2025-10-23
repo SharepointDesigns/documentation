@@ -2,15 +2,15 @@ backend:
   name: github
   repo: SharepointDesigns/documentation
   branch: Deploy-Automate
-  base_url: https://spdproductdocs-e3epgcb4dvcwasdy.centralindia-01.azurewebsites.net
-  auth_type: implicit
-  auth_endpoint: /api/auth
-  token_endpoint: /api/callback
+  # base_url: https://spdproductdocs-e3epgcb4dvcwasdy.centralindia-01.azurewebsites.net
+  # auth_type: implicit
+  # auth_endpoint: /api/auth
+  # token_endpoint: /api/callback
   # Uncomment when running locally
-# local_backend: true
+local_backend: true
 
-media_folder: "static/img/uploads"
-public_folder: "/spd-documentation/img/uploads"
+media_folder: "/static/img/uploads"
+public_folder: "/static/img/uploads"
 show_preview_links: true
 
 # Site URL for previews
@@ -20,7 +20,7 @@ collections:
   # Main Documentation Pages
   - name: "docs"
     label: "Main Documentation"
-    folder: "spd-documentation/docs"
+    folder: "docs"
     create: true
     slug: "{{slug}}"
     fields:
@@ -37,14 +37,13 @@ collections:
   - name: "design-1"
     label: "Design 1"
     label_singular: "Design 1 Doc"
-    folder: "spd-documentation/docs/design-1"
+    folder: "docs/design-1"
     create: true
     format: frontmatter
     extension: "md"
-    slug: "{{slug}}"
-    media_folder: "spd-documentation/docs/design-1/assets"
-    public_folder: "/spd-documentation/docs/design-1/assets"
-    filter: { field: "path", pattern: "^(?!.*design-1-subpages).*" }
+    slug: "{{path}}/{{slug}}"
+    media_folder: "/docs/design-1/assets"
+    public_folder: "assets"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
@@ -60,9 +59,9 @@ collections:
   - name: "design-1-subpages"
     label: "└─ Design 1 Subpages"
     label_singular: "Design 1 Subpage"
-    folder: "spd-documentation/docs/design-1/design-1-subpages"
-    media_folder: "spd-documentation/docs/design-1/design-1-subpages/assets"
-    public_folder: "/spd-documentation/docs/design-1/design-1-subpages/assets"
+    folder: "docs/design-1/design-1-subpages"
+    media_folder: "/docs/design-1/design-1-subpages/assets"
+    public_folder: "assets"
     create: true
     slug: "{{slug}}"
     fields:
@@ -79,12 +78,13 @@ collections:
   - name: "design-2"
     label: "Design 2"
     label_singular: "Design 2 Doc"
-    folder: "spd-documentation/docs/design-2"
+    folder: "docs/design-2"
     create: true
     format: frontmatter
     extension: "md"
-    slug: "{{slug}}"
-    filter: { field: "path", pattern: "^(?!.*design-2-subpages).*" }
+    media_folder: "/docs/design-2/assets"
+    public_folder: "assets"
+    slug: "{{path}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
@@ -100,7 +100,9 @@ collections:
   - name: "design-2-subpages"
     label: "└─ Design 2 Subpages"
     label_singular: "Design 2 Subpage"
-    folder: "spd-documentation/docs/design-2/design-2-subpages"
+    folder: "docs/design-2/design-2-subpages"
+    media_folder: "/docs/design-2/design-2-subpages/assets"
+    public_folder: "assets"
     create: true
     slug: "{{slug}}"
     fields:
@@ -116,7 +118,9 @@ collections:
   # Design 4 Documentation
   - name: "design-4"
     label: "Design 4 Docs"
-    folder: "spd-documentation/docs/design-4"
+    folder: "docs/design-4"
+    media_folder: "/docs/design-4/assets"
+    public_folder: "assets"
     create: true
     slug: "{{slug}}"
     fields:
@@ -133,8 +137,10 @@ collections:
   # Design 5 Documentation
   - name: "design-5"
     label: "Design 5 Docs"
-    folder: "spd-documentation/docs/design-5"
+    folder: "docs/design-5"
     create: true
+    media_folder: "/docs/design-5/assets"
+    public_folder: "assets"
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -150,8 +156,10 @@ collections:
   # Employee Onboarding Documentation
   - name: "employee-onboarding"
     label: "Employee Onboarding Docs"
-    folder: "spd-documentation/docs/employee-onboarding"
+    folder: "docs/employee-onboarding"
     create: true
+    media_folder: "/docs/employee-onboarding/assets"
+    public_folder: "assets"
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -167,8 +175,10 @@ collections:
   # Free Template Documentation
   - name: "free-template"
     label: "Free Template Docs"
-    folder: "spd-documentation/docs/free-template"
+    folder: "docs/free-template"
     create: true
+    media_folder: "/docs/free-template/assets"
+    public_folder: "assets"
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -201,7 +211,7 @@ collections:
     files:
       - label: "Design 1 Category"
         name: "design-1-category"
-        file: "spd-documentation/docs/design-1/_category_.json"
+        file: "docs/design-1/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
@@ -221,7 +231,7 @@ collections:
 
       - label: "Design 1 Subpages Category"
         name: "design-1-subpages-category"
-        file: "spd-documentation/docs/design-1/design-1-subpages/_category_.json"
+        file: "docs/design-1/design-1-subpages/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
@@ -241,7 +251,7 @@ collections:
 
       - label: "Design 2 Category"
         name: "design-2-category"
-        file: "spd-documentation/docs/design-2/_category_.json"
+        file: "docs/design-2/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
@@ -261,7 +271,7 @@ collections:
 
       - label: "Design 2 Subpages Category"
         name: "design-2-subpages-category"
-        file: "spd-documentation/docs/design-2/design-2-subpages/_category_.json"
+        file: "docs/design-2/design-2-subpages/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
@@ -281,7 +291,7 @@ collections:
 
       - label: "Design 4 Category"
         name: "design-4-category"
-        file: "spd-documentation/docs/design-4/_category_.json"
+        file: "docs/design-4/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
@@ -301,7 +311,7 @@ collections:
 
       - label: "Design 5 Category"
         name: "design-5-category"
-        file: "spd-documentationdocs/design-5/_category_.json"
+        file: "docs/design-5/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
@@ -321,7 +331,7 @@ collections:
 
       - label: "Employee Onboarding Category"
         name: "employee-onboarding-category"
-        file: "spd-documentation/docs/employee-onboarding/_category_.json"
+        file: "docs/employee-onboarding/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
@@ -341,7 +351,7 @@ collections:
 
       - label: "Free Template Category"
         name: "free-template-category"
-        file: "spd-documentation/docs/free-template/_category_.json"
+        file: "docs/free-template/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }

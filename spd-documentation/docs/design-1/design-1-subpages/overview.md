@@ -1,8 +1,11 @@
 ---
+title: Overview
 sidebar_position: 1
+author: SharePoint Designs
+version: 1
+updated: October 2025
+description: Overview settings and customization guide for each web part.
 ---
-
-# Overview
 
 ## Intranet Design 1 Sub Pages by SharePoint Designs
 

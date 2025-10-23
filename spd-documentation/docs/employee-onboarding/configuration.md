@@ -1,8 +1,11 @@
 ---
+title: Configuration
 sidebar_position: 3
+author: SharePoint Designs
+version: 1
+updated: October 2025
+description: configuration settings and customization guide for each web part.
 ---
-
-# Configuration
 
 Configuration settings for each web part.
 
@@ -24,8 +27,13 @@ Configuration options are grouped under intuitive sections:
 
 #### 🎨 Appearance Settings
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 | ![Announcement](assets/AnnouncementPP1.png) | ![Announcement](assets/AnnouncementPP2.png) | ![Announcement](assets/AnnouncementPP3.png) |
 | ------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
+
+</details>
 
 | Field                | Type         | Default / Example      | Description                                                                  |
 | -------------------- | ------------ | ---------------------- | ---------------------------------------------------------------------------- |
@@ -40,7 +48,12 @@ Configuration options are grouped under intuitive sections:
 
 #### ℹ️ About Section
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![About Section](assets/about.png)
+
+</details>
 
 | 🏷️ Name                | 🎯 Purpose                                                        |
 | ---------------------- | ----------------------------------------------------------------- |
@@ -86,8 +99,12 @@ For the **Quick Links** webpart, create a list with the following columns.
 ### 🛠️ Quick Link Web Part – Property Pane Configuration
 
 - The Quick Links web part offers centralized access to frequently used external applications and team tools. It improves efficiency by simplifying access to all essential resources from one place.
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![Quick Links](assets/QuickLinksPP.png)
+
+</details>
 
 #### 🏷️ Header Settings
 
@@ -132,8 +149,12 @@ This web part offers flexible configuration grouped into the following categorie
 - **General Settings**
 - **Appearance Settings**
 - **About**
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![Welcome](assets/CEOMessagePP.png)
+
+</details>
 
 #### 🏷️ Header Settings
 
@@ -192,7 +213,12 @@ For the **Meet The Team** webpart, create a list with the following columns.
 
 ### 🛠️ Meet The Team Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![TeamCarousel](assets/MeetTheTeamPP.png)
+
+</details>
 
 #### 🏷️ Header Settings
 
@@ -245,8 +271,13 @@ For the **Build Connections** webpart, create a list with the following columns.
 
 ### 🛠️ Build Connections Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 | ![buildConnections](assets/BuildConnectionsPP.png) | ![buildConnections](assets/buildConnectionsPP2.png) | ![buildConnections](assets/buildConnectionsPP3.png) |
 | -------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+
+</details>
 
 #### 🏷️ Header Settings
 
@@ -297,8 +328,13 @@ For the **Build Connections** webpart, create a list with the following columns.
 
 Configure the Training Videos web part using the following options:
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 | ![TrainingVideo](assets/TrainingVideoPP1.png) | ![TrainingVideo](assets/TrainingVideoPP2.png) | ![TrainingVideo](assets/TrainingVideoPP3.png) |
 | --------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
+
+</details>
 
 #### 🏷️ Header Settings
 
@@ -357,8 +393,13 @@ Configure the Training Videos web part using the following options:
 
 Configure the Important Documents web part using the following options:
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 | ![Documents](assets/DocumentsPP1.png) | ![Documents](assets/DocumentsPP2.png) | ![Documents](assets/DocumentsPP3.png) |
 | ------------------------------------- | ------------------------------------- | ------------------------------------- |
+
+</details>
 
 #### 🏷️ Header Settings
 
@@ -433,8 +474,13 @@ For the **FAQ** webpart, create a list with the following columns.
 
 Configure the FAQ web part using the following options:
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 | ![FAQ](assets/FAQPP1.png) | ![FAQ](assets/FAQPP2.png) |
 | ------------------------- | ------------------------- |
+
+</details>
 
 #### 🏷️ Header Settings
 

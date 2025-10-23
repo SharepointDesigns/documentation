@@ -1,12 +1,15 @@
 ---
+title: Configuration
 sidebar_position: 3
+author: SharePoint Designs
+version: 1
+updated: October 2025
+description: configuration settings and customization guide for each web part.
 ---
-
-# Configuration
 
 Configuration settings for each web part.
 
-# 📰 Welcome Banner
+## 📰 Welcome Banner
 
 The **Welcome Banner** is the visually prominent hero section of the DIY5 homepage. It provides a personalized welcome, real-time clock, and optionally features background visuals or announcement-driven content.
 
@@ -22,7 +25,12 @@ Configuration options are grouped under intuitive sections:
 
 ### 🛠 General Settings
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![General Settings](assets/diy5_welcomeBanner_gsOne.png)
+
+</details>
 
 | Field                               | Type         | Default / Example                | Description                                                                                 |
 | ----------------------------------- | ------------ | -------------------------------- | ------------------------------------------------------------------------------------------- |
@@ -39,7 +47,12 @@ Configuration options are grouped under intuitive sections:
 
 ### 🎨 Appearance Settings
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Appearance Settings](assets/diy5_welcomeBanner_as.png)
+
+</details>
 
 | Field                                     | Type         | Default | Description                                                |
 | ----------------------------------------- | ------------ | ------- | ---------------------------------------------------------- |
@@ -57,7 +70,12 @@ Configuration options are grouped under intuitive sections:
 
 ### ℹ️ About Section
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![About Section](assets/diy5_about.png)
+
+</details>
 
 | 🏷️ Name                | 🎯 Purpose                                                        |
 | ---------------------- | ----------------------------------------------------------------- |
@@ -76,7 +94,7 @@ Configuration options are grouped under intuitive sections:
 
 ---
 
-# 🎥 CEO Video
+## 🎥 CEO Video
 
 The **CEO Video** web part provides a dedicated section to feature your CEO's latest message or announcement in a prominent video format. By default, it displays the title "CEO Video," a YouTube video, a subtitle, and a description—making it easy to spotlight leadership updates on your intranet homepage.
 
@@ -84,7 +102,7 @@ The **CEO Video** web part provides a dedicated section to feature your CEO's la
 
 ---
 
-## 🛠️ Property Pane Configuration
+### 🛠️ Property Pane Configuration
 
 The CEO Video web part offers flexible configuration grouped into the following categories:
 
@@ -98,7 +116,12 @@ The CEO Video web part offers flexible configuration grouped into the following 
 
 ### 🏷️ Header
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Header Settings](assets/diy5_ceoVideo_hs.png)
+
+</details>
 
 | Field                       | Type       | Default / Example | Description                                                          |
 | --------------------------- | ---------- | ----------------- | -------------------------------------------------------------------- |
@@ -112,8 +135,13 @@ The CEO Video web part offers flexible configuration grouped into the following 
 
 ### ⚙️ General Settings
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 | ![General Settings](assets/diy5_ceoVideo_gsOne.png) | ![General Settings Two](assets/diy5_ceoVideo_gsTwo.png) |
 | :-------------------------------------------------: | :-----------------------------------------------------: |
+
+</details>
 
 | Field                 | Type        | Default / Example                                                                    | Description                                                                                   |
 | --------------------- | ----------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
@@ -132,7 +160,12 @@ The CEO Video web part offers flexible configuration grouped into the following 
 
 ### 📐 Layout
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Layout Settings](assets/diy5_ceoVideo_layout.png)
+
+</details>
 
 | Field      | Type   | Default | Description                         |
 | ---------- | ------ | ------- | ----------------------------------- |
@@ -142,8 +175,13 @@ The CEO Video web part offers flexible configuration grouped into the following 
 
 ### 🎨 Appearance Settings
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 | ![Appearance Settings](assets/diy5_ceoVideo_appOne.png) | ![Appearance Settings Two](assets/diy5_ceoVideo_appTwo.png) |
 | :-----------------------------------------------------: | :---------------------------------------------------------: |
+
+</details>
 
 | Field                        | Type         | Default | Description                                        |
 | ---------------------------- | ------------ | ------- | -------------------------------------------------- |
@@ -154,7 +192,12 @@ The CEO Video web part offers flexible configuration grouped into the following 
 
 ### ℹ️ About
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![About Section](assets/diy5_about.png)
+
+</details>
 
 | Name                 | Purpose                                                    |
 | -------------------- | ---------------------------------------------------------- |
@@ -173,7 +216,7 @@ The CEO Video web part offers flexible configuration grouped into the following 
 
 ---
 
-# 📰 Company & Announcements
+## 📰 Company & Announcements
 
 The **Company & Announcements** web part by SharePoint Designs delivers concise, visually engaging company news with powerful filtering and dynamic display options. Designed for clarity and flexibility, it allows organizations to keep everyone informed with targeted, up-to-date announcements and stories.
 
@@ -181,14 +224,14 @@ The **Company & Announcements** web part by SharePoint Designs delivers concise,
 
 ---
 
-## 📋 Details
+### 📋 Details
 
 - **Focused Updates**: Keep everyone informed with concise company news.
 - **Clear Presentation**: News displayed in an easy-to-read, minimalist format.
 
 ---
 
-## 🗂️ Library Configuration
+### 🗂️ Library Configuration
 
 > **Note:** For category-based filtering, ensure a Choice column (e.g., "Category") is created in the Site Pages library before configuring the News Category field.
 
@@ -198,7 +241,7 @@ The **Company & Announcements** web part by SharePoint Designs delivers concise,
 
 ---
 
-## 🛠️ Property Pane Configuration
+### 🛠️ Property Pane Configuration
 
 The Company & Announcements web part provides flexible configuration grouped into the following categories:
 
@@ -214,7 +257,12 @@ The Company & Announcements web part provides flexible configuration grouped int
 
 ### 🏷️ Header Settings
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Header Settings](assets/diy5_featuredNews_hs.png)
+
+</details>
 
 | 🏷️ Name                     | Type   | Default / Example                  | Description                                                  |
 | --------------------------- | ------ | ---------------------------------- | ------------------------------------------------------------ |
@@ -230,8 +278,13 @@ The Company & Announcements web part provides flexible configuration grouped int
 
 ### ⚙️ General Settings
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 | ![General Settings](assets/diy5_featuredNews_gsOne.png) | ![General Settings Two](assets/diy5_featuredNews_gsTwo.png) |
 | :-----------------------------------------------------: | :---------------------------------------------------------: |
+
+</details>
 
 | 🏷️ Name                  | Type         | Default / Example                   | Description                                                                                     |
 | ------------------------ | ------------ | ----------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -250,7 +303,12 @@ The Company & Announcements web part provides flexible configuration grouped int
 
 ### 📐 Layout
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Layout Settings](assets/diy5_featuredNews_layout.png)
+
+</details>
 
 | 🏷️ Name                     | Type     | Default / Example | Description                                   |
 | --------------------------- | -------- | ----------------- | --------------------------------------------- |
@@ -261,8 +319,13 @@ The Company & Announcements web part provides flexible configuration grouped int
 
 ### 🎨 Appearance Settings
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 | ![Appearance Settings](assets/diy5_featuredNews_appOne.png) | ![Appearance Settings Two](assets/diy5_featuredNews_appTwo.png) |
 | :---------------------------------------------------------: | :-------------------------------------------------------------: |
+
+</details>
 
 | 🏷️ Name                      | Type         | Default / Example | Description                               |
 | ---------------------------- | ------------ | ----------------- | ----------------------------------------- |
@@ -273,7 +336,12 @@ The Company & Announcements web part provides flexible configuration grouped int
 
 ### 🎯 Target Audience
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Target Audience](assets/diy5_featuredNews_TarAud.png)
+
+</details>
 
 | 🏷️ Name             | Type | Default / Example | Description                                            |
 | ------------------- | ---- | ----------------- | ------------------------------------------------------ |
@@ -283,7 +351,12 @@ The Company & Announcements web part provides flexible configuration grouped int
 
 ### 📝 News Post Settings
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![News Post Settings](assets/diy5_featuredNews_ManagePost.png)
+
+</details>
 
 | 🏷️ Name              | Type | Default / Example | Description                                                |
 | -------------------- | ---- | ----------------- | ---------------------------------------------------------- |
@@ -293,7 +366,12 @@ The Company & Announcements web part provides flexible configuration grouped int
 
 ### ℹ️ About
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![About](assets/diy5_about.png)
+
+</details>
 
 | Name                 | Purpose                                                    |
 | -------------------- | ---------------------------------------------------------- |
@@ -312,7 +390,7 @@ The Company & Announcements web part provides flexible configuration grouped int
 
 ---
 
-# 📁 Documents
+## 📁 Documents
 
 The **Document Library** web part allows you to display and interact with files from a selected SharePoint document library directly on your intranet page. By default, the web part is configured to show the built-in **Documents** library, but you can select any available library on your site.
 
@@ -320,9 +398,14 @@ The **Document Library** web part allows you to display and interact with files 
 
 ---
 
-## 🛠️ Property Pane Configuration
+### 🛠️ Property Pane Configuration
+
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![Document Library General Settings](assets/diy5_documents_gsOne.png)
+
+</details>
 
 Configure the Document Library web part using the following options:
 
@@ -340,7 +423,12 @@ Configure the Document Library web part using the following options:
 > When enabled, you can connect this web part to another list or library on the page. This allows the Document Library to display only items that match the selected value in the connected web part. For example, you can filter documents by project, client, or any matching column between the two sources.  
 > To configure:
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Document Library General Settings Two](assets/diy5_documents_gsTwo.png)
+
+</details>
 
 - Enable the **Dynamic Filtering** toggle in the property pane.
 - Select the column in this library to filter.
@@ -351,7 +439,7 @@ Configure the Document Library web part using the following options:
 
 ---
 
-## 📌 Usage Notes
+### 📌 Usage Notes
 
 - By default, the web part displays the **Documents** library, but you can select any available document library on your site.
 - You can filter to a specific folder by entering its path in the Folder field (use "/" for nested folders).
@@ -362,7 +450,7 @@ Configure the Document Library web part using the following options:
 
 ---
 
-# 🔗 Quick Links
+## 🔗 Quick Links
 
 The **Quick Links** web part by SharePoint Designs provides a streamlined way to display curated links to important tools, resources, or pages on your intranet homepage. It supports flexible list configuration, easy editing, and multiple layout options to fit your site’s design.
 
@@ -370,7 +458,7 @@ The **Quick Links** web part by SharePoint Designs provides a streamlined way to
 
 ---
 
-## 🏷️ Header Settings
+### 🏷️ Header Settings
 
 | Field                       | Type   | Default / Example | Description                                                  |
 | --------------------------- | ------ | ----------------- | ------------------------------------------------------------ |
@@ -381,7 +469,7 @@ The **Quick Links** web part by SharePoint Designs provides a streamlined way to
 
 ---
 
-## ⚙️ General Settings
+### ⚙️ General Settings
 
 | Field                        | Type        | Default / Example    | Description                                                                                                                                         |
 | ---------------------------- | ----------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -390,7 +478,7 @@ The **Quick Links** web part by SharePoint Designs provides a streamlined way to
 
 ---
 
-## 📐 Layout
+### 📐 Layout
 
 | Field      | Type   | Default / Example | Description                                                      |
 | ---------- | ------ | ----------------- | ---------------------------------------------------------------- |
@@ -398,7 +486,7 @@ The **Quick Links** web part by SharePoint Designs provides a streamlined way to
 
 ---
 
-## ℹ️ About
+### ℹ️ About
 
 | Name                 | Purpose                                                    |
 | -------------------- | ---------------------------------------------------------- |
@@ -408,7 +496,7 @@ The **Quick Links** web part by SharePoint Designs provides a streamlined way to
 
 ---
 
-## 📌 Usage Notes
+### 📌 Usage Notes
 
 - The Quick Links web part is ideal for providing fast access to frequently used resources, tools, or sites.
 - By default, the Quick List is created and mapped with sample links during page setup, making it ready to use immediately.
@@ -417,7 +505,7 @@ The **Quick Links** web part by SharePoint Designs provides a streamlined way to
 
 ---
 
-# 📅 Calendar
+## 📅 Calendar
 
 The **Calendar** web part by SharePoint Designs provides a modern, interactive way to display and manage important dates and events directly on your intranet homepage. With configurable views, quick links to add or edit events, and flexible display options, it ensures your team stays informed and organized.
 
@@ -425,9 +513,14 @@ The **Calendar** web part by SharePoint Designs provides a modern, interactive w
 
 ---
 
-## 🏷️ Header Settings
+### 🏷️ Header Settings
+
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![Header Settings](assets/diy5_calendar_hs.png)
+
+</details>
 
 | Field                       | Type   | Default / Example                                        | Description                                                  |
 | --------------------------- | ------ | -------------------------------------------------------- | ------------------------------------------------------------ |
@@ -440,9 +533,14 @@ The **Calendar** web part by SharePoint Designs provides a modern, interactive w
 
 ---
 
-## ⚙️ General Settings
+### ⚙️ General Settings
+
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![General Settings](assets/diy5_calendar_gs.png)
+
+</details>
 
 | Field                    | Type        | Default / Example   | Description                                             |
 | ------------------------ | ----------- | ------------------- | ------------------------------------------------------- |
@@ -452,7 +550,7 @@ The **Calendar** web part by SharePoint Designs provides a modern, interactive w
 
 ---
 
-## 📐 Layout
+### 📐 Layout
 
 | Field             | Type   | Default / Example | Description                                                                                    |
 | ----------------- | ------ | ----------------- | ---------------------------------------------------------------------------------------------- |
@@ -460,7 +558,7 @@ The **Calendar** web part by SharePoint Designs provides a modern, interactive w
 
 ---
 
-## 🛠️ Events Configuration
+### 🛠️ Events Configuration
 
 | Field             | Type | Description                                      |
 | ----------------- | ---- | ------------------------------------------------ |
@@ -469,9 +567,14 @@ The **Calendar** web part by SharePoint Designs provides a modern, interactive w
 
 ---
 
-## ℹ️ About
+### ℹ️ About
+
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![About](assets/diy5_about.png)
+
+</details>
 
 | Name                 | Purpose                                                    |
 | -------------------- | ---------------------------------------------------------- |
@@ -481,7 +584,7 @@ The **Calendar** web part by SharePoint Designs provides a modern, interactive w
 
 ---
 
-## 📌 Usage Notes
+### 📌 Usage Notes
 
 - The Calendar web part supports integration with SharePoint Events lists for seamless event management.
 - If the calendar grid is hidden, a mini calendar will display in the header (ensure the header is enabled).
@@ -490,7 +593,7 @@ The **Calendar** web part by SharePoint Designs provides a modern, interactive w
 
 ---
 
-# 🖼️ Event Flyer
+## 🖼️ Event Flyer
 
 The **Event Flyer** web part by SharePoint Designs is designed to visually promote key events and announcements on your intranet homepage. It displays a featured image with an optional link and caption, or you can enable a carousel to showcase multiple flyers from a dedicated library. By default, the web part displays a sample flyer from SharePoint Designs, which can be customized in the property pane.
 
@@ -498,7 +601,7 @@ The **Event Flyer** web part by SharePoint Designs is designed to visually promo
 
 ---
 
-## 🛠️ Property Pane Configuration
+### 🛠️ Property Pane Configuration
 
 The Event Flyer web part provides flexible configuration grouped into the following categories:
 
@@ -544,7 +647,7 @@ When **Carousel** is enabled, the following options are available (and the image
 
 ---
 
-## ℹ️ About
+### ℹ️ About
 
 | Name                 | Purpose                                                    |
 | -------------------- | ---------------------------------------------------------- |
@@ -554,7 +657,7 @@ When **Carousel** is enabled, the following options are available (and the image
 
 ---
 
-## 📌 Usage Notes
+### 📌 Usage Notes
 
 - The Event Flyer web part is ideal for visually highlighting events, campaigns, or important announcements.
 - By default, it displays a sample flyer from SharePoint Designs; you can customize this in the property pane.

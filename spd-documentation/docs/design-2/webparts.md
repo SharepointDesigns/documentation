@@ -1,11 +1,16 @@
 ---
 sidebar_position: 4
+title: Webparts
+author: SharePoint Designs
+version: 1.0
+updated: October 2025
+description: Webparts settings and customization guide for each web part.
 ---
+
 # Webparts
 
-
 | Sl No. | Webpart Name    | Type    | Description                                                                                                                                                |
-| -------- | ----------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------ | --------------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1      | Design 2 Setup  | Webpart | A web part for creating a SharePoint list with mock data, generating a page, and applying a design template. Intended for use at the site collection root. |
 | 2      | Top Navigation  | Webpart | Essential Resources: Provide immediate access to frequently used tools and documents.                                                                      |
 | 3      | welcome Banner  | Webpart | **Inspirational Messaging:** A sleek banner featuring a slider that highlights your organization's Vision, Mission and Values.                             |

@@ -1,8 +1,7 @@
 ---
+title: Configuration
 sidebar_position: 3
 ---
-
-# Configuration
 
 ### Note:
 
@@ -20,7 +19,12 @@ The Home page should be configured using the "Design 1 Setup" web part to ensure
 
 ### 🏷️ Features News Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Features News Property Pane](assets/FNPropertyPane.png)
+
+</details>
 
 #### 🎨 Appearance Settings
 
@@ -90,7 +94,12 @@ Note: For the **Breaking News** webpart, create a list with the following column
 
 ### 🏷️ Breaking News Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Breaking News Property Pane](assets/BNPropertypane.png)
+
+</details>
 
 #### 🎨 Appearance Settings
 
@@ -138,8 +147,12 @@ Note: For the **Quick Links/Tool Links** webpart, create a list with the followi
 
 ### 🏷️ Quick Links Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Quick Links Property Pane](assets/QLPropertpane.png)
 
+</details>
 #### 🎨 Appearance Settings
 
 | 🏷️ Name       | 🎯 Purpose                               | 💡 Select Option         |
@@ -171,7 +184,12 @@ Easily browse and discover employee information across the organization:
 
 ### 🏷️ Employee Search Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Employee Search Property Pane](assets/ESPropertPane.png)
+
+</details>
 
 #### 🎨 Appearance & Query Settings
 
@@ -213,7 +231,12 @@ Integrate external news sources directly into your intranet for broader visibili
 
 ### 🏷️ RSS Feed Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![RSS Feed Property Pane](assets/RSSPropertypane.png)
+
+</details>
 
 #### 🎨 Basic Configurations
 
@@ -267,7 +290,12 @@ Note: For the **FAQs** webpart, create a list with the following columns.
 
 ### 🏷️ FAQs Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![FAQs Property Pane](assets/FAQPropertyPane.png)
+
+</details>
 
 #### 🎨 Basic Settings
 
@@ -303,7 +331,12 @@ Keep everyone updated with key organizational dates and activities:
 
 ### 🏷️ Events Calendar Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Events Calendar Property Pane](assets/UEPropertpane.png)
+
+</details>
 
 #### ⚙️ Configuration Options
 

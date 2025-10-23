@@ -1,17 +1,14 @@
 ---
-sidebar_position: 3
 title: Configuration
+sidebar_position: 3
 author: SharePoint Designs
-version: 1.0
+version: 1
 updated: October 2025
 description: Modern configuration documentation for all intranet web parts.
 ---
-
-# Configuration
-
 This guide provides step-by-step configuration details for each web part, including list setups, property pane settings, and appearance options.
 
----
+- - -
 
 ## 📚 Table of Contents
 
@@ -25,7 +22,7 @@ This guide provides step-by-step configuration details for each web part, includ
 8. [Company Directory](#-8-company-directory)
 9. [Calendar](#-9-calendar)
 
----
+- - -
 
 ## 🏞️ 1. Welcome Banner
 
@@ -38,11 +35,11 @@ A personalized banner that greets users with their name, current date & time, an
 > **Note:** Create a SharePoint list named `Banner` with the following columns:
 
 | 🏷️ Column Name (Case Sensitive) | 🔣 Column Type         | Description     |
-| ------------------------------- | ---------------------- | --------------- |
-| **Title**                       | Text (default field)   | Banner headline |
-| **Description**                 | Multiple lines of text | Message content |
+| -------------------------------- | ---------------------- | --------------- |
+| **Title**                        | Text (default field)   | Banner headline |
+| **Description**                  | Multiple lines of text | Message content |
 
----
+- - -
 
 ### ⚙️ Property Pane Configuration
 
@@ -54,7 +51,7 @@ A personalized banner that greets users with their name, current date & time, an
 </details>
 #### 🔖 Header Settings
 
-| 🏷️ Name              | 🎯 Purpose                                          | 💡 Select Option/Type      |
+| 🏷️ Name             | 🎯 Purpose                                          | 💡 Select Option/Type      |
 | -------------------- | --------------------------------------------------- | -------------------------- |
 | Title                | Displays a personalized greeting (e.g., "Hello")    | Textbox                    |
 | Format Date and Time | Shows the current date & time                       | Date-Time Picker           |
@@ -62,7 +59,7 @@ A personalized banner that greets users with their name, current date & time, an
 
 #### 🎨 Appearance Settings
 
-| 🏷️ Name                  | 🎯 Purpose                         | 💡 Select Option/Type |
+| 🏷️ Name                 | 🎯 Purpose                         | 💡 Select Option/Type |
 | ------------------------ | ---------------------------------- | --------------------- |
 | Background Image         | Upload or select banner background | Image Selector        |
 | Height of Banner         | Sets vertical banner height (px)   | Slider (e.g., 390 px) |
@@ -70,7 +67,7 @@ A personalized banner that greets users with their name, current date & time, an
 
 #### ⚙️ General Settings
 
-| 🏷️ Name                | 🎯 Purpose                             | 💡 Select Option/Type   |
+| 🏷️ Name               | 🎯 Purpose                             | 💡 Select Option/Type   |
 | ---------------------- | -------------------------------------- | ----------------------- |
 | Select the list        | Source SharePoint list                 | Dropdown (e.g., Banner) |
 | Hide Icon              | Show/hide arrow icon in message circle | Toggle (No)             |
@@ -79,12 +76,12 @@ A personalized banner that greets users with their name, current date & time, an
 
 #### 🎠 Carousel Settings
 
-| 🏷️ Name         | 🎯 Purpose                      | 💡 Select Option/Type |
+| 🏷️ Name        | 🎯 Purpose                      | 💡 Select Option/Type |
 | --------------- | ------------------------------- | --------------------- |
 | Enable AutoPlay | Enable automatic slide rotation | Toggle (Yes/No)       |
 | Autoplay Speed  | Delay between slides (ms)       | 8000                  |
 
----
+- - -
 
 ## 📢 2. Announcements
 
@@ -97,14 +94,14 @@ Rotating announcement cards that display headlines, short descriptions, and a **
 > **Create a list named `Announcements` with these columns:**
 
 | 🏷️ Column Name (Case Sensitive) | 🔣 Column Type                      | Description                              |
-| ------------------------------- | ----------------------------------- | ---------------------------------------- |
-| **Description**                 | Multiple lines of text              | Announcement text                        |
-| **Link**                        | Hyperlink                           | “Learn More” destination                 |
-| **Orderby**                     | Number                              | Display order                            |
-| **TargetWindow**                | Choice (Open in new tab / self tab) | Controls link behavior                   |
-| **ExpiryDate**                  | Date and Time                       | Hide expired announcements automatically |
+| -------------------------------- | ----------------------------------- | ---------------------------------------- |
+| **Description**                  | Multiple lines of text              | Announcement text                        |
+| **Link**                         | Hyperlink                           | “Learn More” destination                 |
+| **Orderby**                      | Number                              | Display order                            |
+| **TargetWindow**                 | Choice (Open in new tab / self tab) | Controls link behavior                   |
+| **ExpiryDate**                   | Date and Time                       | Hide expired announcements automatically |
 
----
+- - -
 
 ### ⚙️ Property Pane Configuration
 
@@ -116,14 +113,14 @@ Rotating announcement cards that display headlines, short descriptions, and a **
 </details>
 #### 📌 Header Settings
 
-| 🏷️ Name             | 🎯 Purpose                 | 💡 Select Option/Type |
+| 🏷️ Name            | 🎯 Purpose                 | 💡 Select Option/Type |
 | ------------------- | -------------------------- | --------------------- |
 | Show Web Part Title | Toggle visibility of title | Switch (On/Off)       |
 | Web Part Title      | Sets the section title     | Text Input            |
 
 #### ⚙️ General Settings
 
-| 🏷️ Name            | 🎯 Purpose                               | 💡 Select Option/Type                     |
+| 🏷️ Name           | 🎯 Purpose                               | 💡 Select Option/Type                     |
 | ------------------ | ---------------------------------------- | ----------------------------------------- |
 | Select a List      | Source list for announcements            | Dropdown (e.g., Announcements)            |
 | Background Image   | Upload custom background                 | Image Selector                            |
@@ -134,12 +131,12 @@ Rotating announcement cards that display headlines, short descriptions, and a **
 
 #### 🎠 Carousel Settings
 
-| 🏷️ Name         | 🎯 Purpose                | 💡 Select Option/Type |
+| 🏷️ Name        | 🎯 Purpose                | 💡 Select Option/Type |
 | --------------- | ------------------------- | --------------------- |
 | Enable AutoPlay | Automatic slide rotation  | Toggle (Yes/No)       |
 | Autoplay Speed  | Delay between slides (ms) | 8000                  |
 
----
+- - -
 
 ## 🔗 3. Quicklinks
 
@@ -152,13 +149,13 @@ Offer one-click access to frequently used tools, policies, or external resources
 > **Create a list named `QuickLinks` with the following columns:**
 
 | 🏷️ Column Name (Case Sensitive) | 🔣 Column Type  | Description               |
-| ------------------------------- | --------------- | ------------------------- |
-| **Icon**                        | Image           | Tile icon                 |
-| **URL**                         | Hyperlink       | Target link               |
-| **Order**                       | Number          | Item ordering             |
-| **TargetWindow**                | Choice (Yes/No) | Opens in new tab if “Yes” |
+| -------------------------------- | --------------- | ------------------------- |
+| **Icon**                         | Image           | Tile icon                 |
+| **URL**                          | Hyperlink       | Target link               |
+| **Order**                        | Number          | Item ordering             |
+| **TargetWindow**                 | Choice (Yes/No) | Opens in new tab if “Yes” |
 
----
+- - -
 
 ### ⚙️ Property Pane Configuration
 
@@ -170,7 +167,7 @@ Offer one-click access to frequently used tools, policies, or external resources
 </details>
 #### 📌 Header Settings
 
-| 🏷️ Name                    | 🎯 Purpose                  | 💡 Select Option/Type       |
+| 🏷️ Name                   | 🎯 Purpose                  | 💡 Select Option/Type       |
 | -------------------------- | --------------------------- | --------------------------- |
 | Web Part Title             | Title displayed on web part | “Quick Links”               |
 | Web Part Title Theme Color | Sets theme color for title  | Dropdown (Theme 3: #243666) |
@@ -178,7 +175,7 @@ Offer one-click access to frequently used tools, policies, or external resources
 
 #### ⚙️ General Settings
 
-| 🏷️ Name             | 🎯 Purpose                     | 💡 Select Option/Type          |
+| 🏷️ Name            | 🎯 Purpose                     | 💡 Select Option/Type          |
 | ------------------- | ------------------------------ | ------------------------------ |
 | Select a List       | Source SharePoint list         | Dropdown (QuickLinks)          |
 | Items to Show       | Limit visible items            | Slider (8)                     |
@@ -190,11 +187,11 @@ Offer one-click access to frequently used tools, policies, or external resources
 
 #### 📁 List Settings
 
-| 🏷️ Name   | 🎯 Purpose                         | 💡 Select Option/Type |
+| 🏷️ Name  | 🎯 Purpose                         | 💡 Select Option/Type |
 | --------- | ---------------------------------- | --------------------- |
 | View List | Open the connected SharePoint list | Hyperlink (View List) |
 
----
+- - -
 
 ## 📰 4. News
 
@@ -212,7 +209,7 @@ Deliver the latest updates and announcements through a dynamic, filterable news 
 </details>
 #### 🛠️ Header Settings
 
-| 🏷️ Name                   | 🎯 Purpose                        | 💡 Select Option/Type       |
+| 🏷️ Name                  | 🎯 Purpose                        | 💡 Select Option/Type       |
 | ------------------------- | --------------------------------- | --------------------------- |
 | Webpart Title             | Display title of the news section | Textbox (e.g., NEWS)        |
 | Hide WebPart Title        | Toggle title visibility           | Switch (Show/Hide)          |
@@ -221,14 +218,14 @@ Deliver the latest updates and announcements through a dynamic, filterable news 
 
 #### 🎨 Appearance Settings
 
-| 🏷️ Name       | 🎯 Purpose                             | 💡 Select Option/Type |
+| 🏷️ Name      | 🎯 Purpose                             | 💡 Select Option/Type |
 | ------------- | -------------------------------------- | --------------------- |
 | Choose Layout | Select display style (e.g., Filmstrip) | Dropdown              |
 | Show Border   | Toggle border visibility               | Switch (On/Off)       |
 
 #### ⚙️ General Settings
 
-| 🏷️ Name              | 🎯 Purpose                        | 💡 Select Option/Type             |
+| 🏷️ Name             | 🎯 Purpose                        | 💡 Select Option/Type             |
 | -------------------- | --------------------------------- | --------------------------------- |
 | Search Sites         | Define source site collections    | Search Box                        |
 | Filter by Tag        | Display filtered news by tag      | Dropdown (“All”)                  |
@@ -246,7 +243,7 @@ Deliver the latest updates and announcements through a dynamic, filterable news 
 
 #### 🛠️ Admin Settings
 
-| 🏷️ Name           | 🎯 Purpose               | 💡 Select Option |
+| 🏷️ Name          | 🎯 Purpose               | 💡 Select Option |
 | ----------------- | ------------------------ | ---------------- |
 | Show Admin Menu   | Enable admin controls    | Toggle (Show)    |
 | Additional Config | Define extended settings | Textbox          |
@@ -255,7 +252,7 @@ Deliver the latest updates and announcements through a dynamic, filterable news 
 Use descriptive tags and consistent images (1300×450 px) for better layout alignment and category filtering.
 :::
 
----
+- - -
 
 ## 💬 5. Message Center
 
@@ -277,7 +274,7 @@ Perfect for high-impact internal communications — easily configurable via Webp
 </details>
 #### 📌 Header Settings
 
-| 🏷️ Name                  | 🎯 Purpose                                   | 💡 Select Option/Type    |
+| 🏷️ Name                 | 🎯 Purpose                                   | 💡 Select Option/Type    |
 | ------------------------ | -------------------------------------------- | ------------------------ |
 | Web Part Title           | Section title (e.g., “Message from the CEO”) | Textbox                  |
 | Web Part Title Size      | Choose title heading level                   | Dropdown (Heading 2/3/4) |
@@ -285,7 +282,7 @@ Perfect for high-impact internal communications — easily configurable via Webp
 
 #### ⚙️ General Settings
 
-| 🏷️ Name                         | 🎯 Purpose                   | 💡 Select Option/Type |
+| 🏷️ Name                        | 🎯 Purpose                   | 💡 Select Option/Type |
 | ------------------------------- | ---------------------------- | --------------------- |
 | Manage CEO Message              | Add/Edit CEO message content | Button (Add/Edit)     |
 | Heading Color                   | Heading text color           | Color Picker          |
@@ -294,12 +291,12 @@ Perfect for high-impact internal communications — easily configurable via Webp
 
 #### 🗂️ Appearance Settings
 
-| 🏷️ Name                        | 🎯 Purpose                                 | 💡 Select Option/Type |
+| 🏷️ Name                       | 🎯 Purpose                                 | 💡 Select Option/Type |
 | ------------------------------ | ------------------------------------------ | --------------------- |
 | Height of Web Part             | Set the visual height of the web part (px) | Number Input          |
 | No. of Lines to Show (Content) | Limit visible lines for preview            | Slider                |
 
----
+- - -
 
 ## 🌟 6. Employee Spotlights
 
@@ -312,14 +309,14 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 > **Create a list named `EmployeeSpotlights` with the following columns:**
 
 | 🏷️ Column Name (Case Sensitive) | 🔣 Column Type  | Description                         |
-| ------------------------------- | --------------- | ----------------------------------- |
-| **Person**                      | Person or Group | Employee name reference             |
-| **Designation**                 | Text            | Job title or role                   |
-| **ProfileImage**                | Image           | Employee photo                      |
-| **Date**                        | Date and Time   | Event date                          |
-| **Category**                    | Choice          | Birthday / Anniversary / New Joiner |
+| -------------------------------- | --------------- | ----------------------------------- |
+| **Person**                       | Person or Group | Employee name reference             |
+| **Designation**                  | Text            | Job title or role                   |
+| **ProfileImage**                 | Image           | Employee photo                      |
+| **Date**                         | Date and Time   | Event date                          |
+| **Category**                     | Choice          | Birthday / Anniversary / New Joiner |
 
----
+- - -
 
 ### ⚙️ Property Pane Configuration
 
@@ -332,7 +329,7 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 
 #### 🧷 Header Settings
 
-| 🏷️ Name                   | 🎯 Purpose                  | 💡 Select Option           |
+| 🏷️ Name                  | 🎯 Purpose                  | 💡 Select Option           |
 | ------------------------- | --------------------------- | -------------------------- |
 | Title                     | Section title               | “Birthday & Anniversaries” |
 | Webpart Title Theme Color | Theme color for title       | Theme 3 (Text: #243666)    |
@@ -341,7 +338,7 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 
 #### 🌐 Data Source Settings
 
-| 🏷️ Name            | 🎯 Purpose                      | 💡 Select Option       |
+| 🏷️ Name           | 🎯 Purpose                      | 💡 Select Option       |
 | ------------------ | ------------------------------- | ---------------------- |
 | Select a List      | Choose SharePoint data list     | EmployeeSpotlights     |
 | Filter by Category | Filter items by event type      | Birthday / Anniversary |
@@ -351,13 +348,13 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 
 #### 🎨 Style Settings
 
-| 🏷️ Name          | 🎯 Purpose                              | 💡 Select Option                |
+| 🏷️ Name         | 🎯 Purpose                              | 💡 Select Option                |
 | ---------------- | --------------------------------------- | ------------------------------- |
 | Choose Layout    | Select between Carousel or Compact view | Carousel View                   |
 | Button Theme     | Button hover color and text color       | Theme 4 (Text #243666, BG #fff) |
 | Greeting Message | Customize greeting button text          | “Send Greeting”                 |
 
----
+- - -
 
 ## 💭 7. Testimonials
 
@@ -375,7 +372,7 @@ Highlight client or employee feedback in a visually appealing carousel view with
 </details>
 #### 📌 Header Settings
 
-| 🏷️ Name                   | 🎯 Purpose                        | 💡 Select Option/Type      |
+| 🏷️ Name                  | 🎯 Purpose                        | 💡 Select Option/Type      |
 | ------------------------- | --------------------------------- | -------------------------- |
 | Web Part Title            | Title displayed above the section | Textbox (“Testimonials”)   |
 | Webpart Title Theme Color | Color theme for section heading   | Dropdown (Theme 3 #243666) |
@@ -383,19 +380,19 @@ Highlight client or employee feedback in a visually appealing carousel view with
 
 #### 🌐 Data Source Settings
 
-| 🏷️ Name          | 🎯 Purpose                           | 💡 Select Option |
+| 🏷️ Name         | 🎯 Purpose                           | 💡 Select Option |
 | ---------------- | ------------------------------------ | ---------------- |
 | Select a Library | Library containing testimonial items | Testimonials     |
 
 #### 🗂️ File Upload Settings
 
-| 🏷️ Name                    | 🎯 Purpose                                | 💡 Select Option |
+| 🏷️ Name                   | 🎯 Purpose                                | 💡 Select Option |
 | -------------------------- | ----------------------------------------- | ---------------- |
 | Allow Multiple File Upload | Enable batch upload of testimonial images | Enabled          |
 
 #### 🎠 Carousel Settings
 
-| 🏷️ Name                | 🎯 Purpose                               | 💡 Select Option |
+| 🏷️ Name               | 🎯 Purpose                               | 💡 Select Option |
 | ---------------------- | ---------------------------------------- | ---------------- |
 | Enable AutoPlay        | Automatically cycle through testimonials | Yes              |
 | AutoPlay Speed (ms)    | Slide-change speed                       | 8000             |
@@ -407,7 +404,7 @@ Highlight client or employee feedback in a visually appealing carousel view with
 Use a consistent photo size (e.g., 200×200 px) and keep testimonial text under 120 characters for balance.
 :::
 
----
+- - -
 
 ## 🏢 8. Company Directory
 
@@ -429,7 +426,7 @@ Ideal for visualizing reporting structures — users can hover to view names, ti
 </details>
 #### 📌 Header Settings
 
-| 🏷️ Name                   | 🎯 Purpose                      | 💡 Select Option/Type      |
+| 🏷️ Name                  | 🎯 Purpose                      | 💡 Select Option/Type      |
 | ------------------------- | ------------------------------- | -------------------------- |
 | Web Part Title            | Title displayed above the chart | “Company Directory”        |
 | Webpart Title Theme Color | Choose theme color              | Dropdown (Theme 3 #243666) |
@@ -437,7 +434,7 @@ Ideal for visualizing reporting structures — users can hover to view names, ti
 
 #### 🧭 Main Settings
 
-| 🏷️ Name                   | 🎯 Purpose                       | 💡 Select Option  |
+| 🏷️ Name                  | 🎯 Purpose                       | 💡 Select Option  |
 | ------------------------- | -------------------------------- | ----------------- |
 | Company Hierarchy         | Select data source for org chart | Company Hierarchy |
 | Max Depth                 | Control number of levels shown   | 5                 |
@@ -445,7 +442,7 @@ Ideal for visualizing reporting structures — users can hover to view names, ti
 
 #### ⚙️ General Settings
 
-| 🏷️ Name                 | 🎯 Purpose                                | 💡 Select Option |
+| 🏷️ Name                | 🎯 Purpose                                | 💡 Select Option |
 | ----------------------- | ----------------------------------------- | ---------------- |
 | Excluded Users          | Remove specific users from chart          | People Picker    |
 | Enter UPN               | Activate reorder option by valid email ID | Text Input       |
@@ -453,12 +450,12 @@ Ideal for visualizing reporting structures — users can hover to view names, ti
 
 #### 📘 About
 
-| 🏷️ Name       | 🎯 Purpose               | 💡 Select Option   |
+| 🏷️ Name      | 🎯 Purpose               | 💡 Select Option   |
 | ------------- | ------------------------ | ------------------ |
 | Developed By  | Credit attribution       | SharePoint Designs |
 | Documentation | Opens help documentation | Documentation Link |
 
----
+- - -
 
 ## 📅 9. Calendar
 
@@ -480,7 +477,7 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 </details>
 #### 📌 Header Settings
 
-| 🏷️ Name                   | 🎯 Purpose                       | 💡 Select Option                                 |
+| 🏷️ Name                  | 🎯 Purpose                       | 💡 Select Option                                 |
 | ------------------------- | -------------------------------- | ------------------------------------------------ |
 | Web Part Title            | Title displayed at the top       | “Event Calendar”                                 |
 | Webpart Title Theme Color | Color theme for title            | Dropdown (Theme 3 #243666)                       |
@@ -490,13 +487,13 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 
 #### ⚙️ General Settings
 
-| 🏷️ Name         | 🎯 Purpose                           | 💡 Select Option |
+| 🏷️ Name        | 🎯 Purpose                           | 💡 Select Option |
 | --------------- | ------------------------------------ | ---------------- |
 | Select a List   | Choose event list source             | Events           |
 | Show Calendar   | Toggle calendar view display         | Yes              |
 | Filter Events   | Filter types (Upcoming / Past / All) | Upcoming Events  |
 | Add/Edit Events | Link to manage list items            | Add/Edit Events  |
 
----
+- - -
 
 > 📘 **Developed by:** [SharePoint Designs](https://sharepointdesigns.com)
