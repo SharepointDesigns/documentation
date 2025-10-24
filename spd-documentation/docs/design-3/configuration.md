@@ -355,7 +355,7 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 
 ### Configuration
 
-#### 🧷 Header Settings
+#### Header Settings
 
 <details>
 <summary>📸 View Property Pane Screenshot</summary>
@@ -370,7 +370,7 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 | Show See All Button | Toggle to display “See All” | On                         |
 | See All Link        | Destination URL             | `https://example.com`      |
 
-#### 🌐 Data Source Settings
+#### Data Source Settings
 
 <details>
 <summary>📸 View Property Pane Screenshot</summary>
@@ -400,7 +400,7 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 | Choose Layout                                | Select between Card or Carousel view      | Compact/Carousel |
 | Hide this webpart is there's nothing to show | Toggle to hide web part if no items exist | On/Off           |
 
-#### 🎨 Appearance Settings
+#### Appearance Settings
 
 <details>
 <summary>📸 View Property Pane Screenshot</summary>
@@ -415,7 +415,7 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 
 - - -
 
-## Company Directory
+## 6. Company Directory
 
 Display your organizational hierarchy with interactive nodes showing employees, departments, and reporting lines.
 
@@ -467,3 +467,89 @@ Ideal for visualizing reporting structures — users can hover to view names, ti
 | ------------- | ------------------------ | ------------------ |
 | Developed By  | Credit attribution       | SharePoint Designs |
 | Documentation | Opens help documentation | Documentation Link |
+
+## 7. Calendar
+
+Show upcoming meetings, holidays, and key events in a clear monthly or weekly calendar format.
+
+![Calendar Preview](assets/screenshot-2025-10-24-112410.png)
+
+:::info
+The **Calendar** web part pulls events directly from a SharePoint list, helping teams stay informed about important dates.
+:::
+
+### ⚙️ Configuration
+
+#### Header Settings
+
+<details>
+<summary>📸 View Header Settings Screenshot</summary>
+
+![Header Settings](assets/screenshot-2025-10-24-112417.png)
+
+</details>
+
+| Name                    | Purpose                                  | Select Option/Type |
+| ----------------------- | ---------------------------------------- | ------------------ |
+| Show Header             | Toggle visibility of web part header     | On/Off             |
+| Webpart Title           | Title displayed above the calendar       | "Calendar"         |
+| Hide space above header | Remove extra space when header is hidden | On/Off             |
+| See all                 | Toggle visibility of "See All" button    | On/Off             |
+| See all Link            | Destination URL for "See All" button     | Text Input         |
+| Events Heading          | Title for events section                 | "Upcoming Events"  |
+
+#### General Settings
+
+<details>
+<summary>📸 View General Settings Screenshot</summary>
+
+![General Settings](assets/screenshot-2025-10-24-112423.png)
+
+</details>
+
+| Name          | Purpose                     | Select Option                        |
+| ------------- | --------------------------- | ------------------------------------ |
+| Select a List | Choose SharePoint data list | Events List                          |
+| Filter events | Filter events by duration   | Dropdown (Last 30 days/Next 30 days) |
+
+#### Layout Settings
+
+<details>
+<summary>📸 View Layout Settings Screenshot</summary>
+
+![Layout Settings](assets/screenshot-2025-10-24-112430.png)
+
+</details>
+
+| Name          | Purpose                            | Select Option |
+| ------------- | ---------------------------------- | ------------- |
+| Show calendar | Toggle visibility of calendar view | On/Off        |
+
+#### Events configuration
+
+<details>
+<summary>📸 View Events configuration Screenshot</summary>
+
+![Events configuration](assets/screenshot-2025-10-24-112439.png)
+
+</details>
+
+| Name            | Purpose                 | Select Option |
+| --------------- | ----------------------- | ------------- |
+| Add/Edit Events | Navigates to event list | Button        |
+
+#### Appearance Settings
+
+<details>
+<summary>📸 View Appearance Settings Screenshot</summary>
+
+![Appearance Settings](assets/screenshot-2025-10-24-112452.png)
+
+</details>
+
+| Name                | Purpose                        | Select Option                            |
+| ------------------- | ------------------------------ | ---------------------------------------- |
+| Webpart title color | Choose theme color for title   | Dropdown (Theme 3 #243666)               |
+| Button colors       | Choose theme color for buttons | Dropdown (Theme 4 Text #243666, BG #fff) |
+
+- - -
