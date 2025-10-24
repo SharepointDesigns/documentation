@@ -45,9 +45,6 @@ sidebar_position: 2
 
 The following SharePoint Lists are automatically created based on the Home Page:
 
-* *Banner*
-* *Announcements*
-* *Quicklinks*
 * *Employee Spotlights*
 
 > These lists are pre-filled with demo/mock items for easy testing.
