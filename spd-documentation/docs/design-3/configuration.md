@@ -152,3 +152,76 @@ The Home page should be configured using the "Design 3 Setup" web part to ensure
 | Name                                         | Purpose                                                            | Example |
 | -------------------------------------------- | ------------------------------------------------------------------ | ------- |
 | Hide this webpart is there's nothing to show | Toggle to hide the web part when there are no breaking news items. | On/Off  |
+
+## 3. Quick Links
+
+![Quick links](assets/screenshot-2025-10-24-091358.png)
+
+Provide fast and intuitive access to essential resources:
+
+* **Essential Resources**
+
+  : Direct users to frequently used tools, forms, documents, and company policies.
+* **Icons & Labels**
+  : Enhance navigation with clearly labeled links and intuitive icons.
+
+### ⚙️Configuration
+
+#### Header settings
+
+<details>
+<summary>📸 View Header Settings Screenshots</summary>
+
+![Header settings](assets/screenshot-2025-10-24-091648.png)
+
+</details>
+
+| Name       | Purpose                                           | Example       |
+| ---------- | ------------------------------------------------- | ------------- |
+| Title      | Set the title for the Quick Links webpart.        | "Quick Links" |
+| Hide Title | Toggle to show or hide the title of the web part. | On/Off        |
+
+#### General settings
+
+<details>
+<summary>📸 View General Settings Screenshots</summary>
+
+![General Settings](assets/screenshot-2025-10-24-091656.png)
+
+</details>
+
+| Name                 | Purpose                                                              | Example         |
+| -------------------- | -------------------------------------------------------------------- | --------------- |
+| Manage Quick Links   | Add, remove, or reorder quick links items.                           | Collection data |
+| Enable Drag & Drop   | Toggle to enable or disable drag and drop functionality for sorting. | On/Off          |
+| Enable item deletion | Toggle to enable or disable the ability to delete quick link items.  | On/Off          |
+
+#### Layouts settings
+
+<details>
+<summary>📸 View layout Settings Screenshots</summary>
+
+![Layout settings](assets/screenshot-2025-10-24-091707.png)
+
+</details>
+
+| Name        | Purpose                                             | Example           |
+| ----------- | --------------------------------------------------- | ----------------- |
+| Layouts     | Choose the layout style for displaying quick links. | Auto/Matrix       |
+| Alignment   | Choose the alignment for displaying quick links.    | Left/Center/Right |
+| Show border | Toggle to show or hide borders around quick links.  | On/Off            |
+
+#### Appearance settings
+
+<details>
+<summary>📸 View appearance Settings Screenshots</summary>
+
+![Appearance](assets/screenshot-2025-10-24-091716.png)
+
+</details>
+
+| Name                                         | Purpose                                                          | Example  |
+| -------------------------------------------- | ---------------------------------------------------------------- | -------- |
+| Hide this webpart is there's nothing to show | Toggle to hide the web part when there are no quick links items. | On/Off   |
+| Title theme color                            | Choose a theme color for the Quick Links title.                  | Dropdown |
+| Button hover theme color                     | Choose a theme color for the Quick Links button hover effect.    | Dropdown |
