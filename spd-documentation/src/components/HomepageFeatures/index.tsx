@@ -27,7 +27,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: "Design 3",
     imageUrl:
-      "https://sharepointdesigns.github.io/documentation/assets/images/diy-3-latest-1851d86f018e4f01188ad1131eb4db55.png",
+      "https://raw.githubusercontent.com/SharepointDesigns/documentation/refs/heads/Deploy-Automate/spd-documentation/static/img/uploads/diy-3-latest.png",
     // buttonLabel: 'Customize',
     buttonLink: "/documentation/docs/design-3/overview",
   },
