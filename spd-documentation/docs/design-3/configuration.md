@@ -4,6 +4,7 @@ sidebar_position: 3
 ---
 The Home page should be configured using the "Design 3 Setup" web part to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
 
+
 ## 1. Welcome Banner
 
 ![Welcome Banner](assets/screenshot-2025-10-23-155025.png)
@@ -553,3 +554,12 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 | Button colors       | Choose theme color for buttons | Dropdown (Theme 4 Text #243666, BG #fff) |
 
 - - -
+
+## 8. Top Navigation
+
+![Top Naigation](assets/screenshot-2025-10-24-120427.png)
+
+### ⚙️Configuration
+
+* Edit the web part to access navigation settings.
+* Click Manage Navigation Items to add or edit entries.
