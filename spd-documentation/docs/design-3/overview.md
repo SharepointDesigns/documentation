@@ -32,6 +32,7 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 * New Joiners
 * Company directory
 * Calendar
+* Top Navigation
 
 - - -
 
