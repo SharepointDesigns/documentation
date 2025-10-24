@@ -414,3 +414,56 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 | Button Hover color | Button hover color and text color | Theme 4 (Text #243666, BG #fff) |
 
 - - -
+
+## Company Directory
+
+Display your organizational hierarchy with interactive nodes showing employees, departments, and reporting lines.
+
+![Company directory](assets/screenshot-2025-10-24-110121.png)
+
+:::info
+Ideal for visualizing reporting structures — users can hover to view names, titles, and contact details.
+:::
+
+### ⚙️ Configuration
+
+#### Header Settings
+
+<details>
+<summary>📸 View Header settings Screenshot</summary>
+
+![Header Settings](assets/screenshot-2025-10-24-110752.png)
+
+</details>
+
+| Name                      | Purpose                         | Select Option/Type               |
+| ------------------------- | ------------------------------- | -------------------------------- |
+| Web Part Title            | Title displayed above the chart | “Company Directory”              |
+| Webpart Title Theme Color | Choose theme color              | Dropdown (Theme 3 #243666)       |
+| Directory view            | Choose directory view           | Dropdown (My Team/Company/other) |
+| Max depth                 | Levels to display               | Text Input                       |
+| Webpart height            | Set web part height             | Slider Control                   |
+| Show detail on mouse over | Toggle employee detail tooltip  | On/Off                           |
+
+#### General Settings
+
+<details>
+<summary>📸 View General settings Screenshot</summary>
+
+![General Settings](assets/screenshot-2025-10-24-110800.png)
+
+</details>
+
+| Name                                        | Purpose                                   | Select Option |
+| ------------------------------------------- | ----------------------------------------- | ------------- |
+| Excluded Users                              | Remove specific users from chart          | People Picker |
+| Enter UPN                                   | Activate reorder option by valid email ID | Text Input    |
+| Reorder Org Chart Users                     | Reorder children under a parent node      | Text Input    |
+| Hide this wepart if there's nothing to show | Toggle to hide web part if no data exists | On/Off        |
+
+#### About
+
+| Name          | Purpose                  | Select Option      |
+| ------------- | ------------------------ | ------------------ |
+| Developed By  | Credit attribution       | SharePoint Designs |
+| Documentation | Opens help documentation | Documentation Link |
