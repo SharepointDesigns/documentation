@@ -1,6 +1,8 @@
 ---
-title: Data Protection and Privacy Policy for Webparts designed by SharePoint Designs
+title: Data Protection & Privacy Policy
 ---
+# Data Protection and Privacy Policy for Webparts designed by SharePoint Designs
+
 ## Overview
 
 This document provides an overview of how personal data is handled, stored, and processed by the custom SharePoint Online webparts developed for Intranet portals by SharePoint Designs. It is intended to support internal Software Assurance and Data Protection Impact Assessment (DPIA) processes, and to demonstrate compliance with GDPR and our internal data governance standards.
