@@ -9,8 +9,8 @@ backend:
   # Uncomment when running locally
 # local_backend: true
 
-media_folder: "/static/img/uploads"
-public_folder: "/static/img/uploads"
+media_folder: "/spd-documentation/static/img/uploads"
+public_folder: "uploads"
 show_preview_links: true
 
 # Site URL for previews
