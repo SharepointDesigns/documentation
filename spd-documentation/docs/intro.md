@@ -28,6 +28,14 @@ import DocCard from "@theme/DocCard";
 <article className="col col--6 margin-bottom--lg">
 <DocCard item={{
     "type": "link",
+    "label": "Design 3",
+    "icon":"arrow",
+    "href": "/docs/category/design-3",
+  }} />
+</article>
+<article className="col col--6 margin-bottom--lg">
+<DocCard item={{
+    "type": "link",
     "label": "Design 4",
     "icon":"arrow",
     "href": "/docs/category/design-4",
