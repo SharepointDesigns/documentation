@@ -71,6 +71,8 @@ For further information regarding data protection, DPIA documentation, or to exe
 
 ![](img/uploads/diy-3-latest.png)
 
+![](img/uploads/thumbnail.png)
+
 - - -
 
 *Last updated: `24-Oct-2025`*
