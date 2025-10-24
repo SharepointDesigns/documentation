@@ -332,3 +332,85 @@ Use descriptive tags and consistent images (1300×450 px) for better layout alig
 :::
 
 - - -
+
+## 5. New Joiners & Anniversaries
+
+Celebrate your people! Showcase birthdays, anniversaries, and new joiners with vibrant cards or carousel views.
+
+![New Joiners](assets/screenshot-2025-10-24-103553.png)
+
+### List Configuration
+
+> **Create a list named `EmployeeSpotlights` with the following columns:**
+
+| Column Name (Case Sensitive) | Column Type     | Description                         |
+| ---------------------------- | --------------- | ----------------------------------- |
+| **Person**                   | Person or Group | Employee name reference             |
+| **Designation**              | Text            | Job title or role                   |
+| **ProfileImage**             | Image           | Employee photo                      |
+| **Date**                     | Date and Time   | Event date                          |
+| **Category**                 | Choice          | Birthday / Anniversary / New Joiner |
+
+- - -
+
+### Configuration
+
+#### 🧷 Header Settings
+
+<details>
+<summary>📸 View Property Pane Screenshot</summary>
+
+![Header](assets/screenshot-2025-10-24-103419.png)
+
+</details>
+
+| 🏷️ Name            | 🎯 Purpose                  | 💡 Select Option           |
+| ------------------- | --------------------------- | -------------------------- |
+| Title               | Section title               | “Birthday & Anniversaries” |
+| Show See All Button | Toggle to display “See All” | On                         |
+| See All Link        | Destination URL             | `https://example.com`      |
+
+#### 🌐 Data Source Settings
+
+<details>
+<summary>📸 View Property Pane Screenshot</summary>
+
+![Data source](assets/screenshot-2025-10-24-103425.png)
+
+</details>
+
+| 🏷️ Name           | 🎯 Purpose                   | 💡 Select Option       |
+| ------------------ | ---------------------------- | ---------------------- |
+| Select a List      | Choose SharePoint data list  | EmployeeSpotlights     |
+| Filter by Category | Filter items by event type   | Birthday / Anniversary |
+| Filter the Period  | Define date range for events | Last Month             |
+| Add/Edit Items     | Open list for modification   | Add/Edit Items         |
+
+#### Layout Settings
+
+<details>
+<summary>📸 View Property Pane Screenshot</summary>
+
+![Layout](assets/screenshot-2025-10-24-103431.png)
+
+</details>
+
+| Name                                         | Purpose                                   | Select Option    |
+| -------------------------------------------- | ----------------------------------------- | ---------------- |
+| Choose Layout                                | Select between Card or Carousel view      | Compact/Carousel |
+| Hide this webpart is there's nothing to show | Toggle to hide web part if no items exist | On/Off           |
+
+#### 🎨 Appearance Settings
+
+<details>
+<summary>📸 View Property Pane Screenshot</summary>
+
+![Appearance Settings](assets/screenshot-2025-10-24-103437.png)
+
+</details>
+
+| 🏷️ Name           | 🎯 Purpose                        | 💡 Select Option                |
+| ------------------ | --------------------------------- | ------------------------------- |
+| Button Hover color | Button hover color and text color | Theme 4 (Text #243666, BG #fff) |
+
+- - -
