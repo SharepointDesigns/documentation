@@ -225,3 +225,110 @@ Provide fast and intuitive access to essential resources:
 | Hide this webpart is there's nothing to show | Toggle to hide the web part when there are no quick links items. | On/Off   |
 | Title theme color                            | Choose a theme color for the Quick Links title.                  | Dropdown |
 | Button hover theme color                     | Choose a theme color for the Quick Links button hover effect.    | Dropdown |
+
+## 📰 4. News
+
+Deliver the latest updates and announcements through a dynamic, filterable news section featuring categories, sorting, and RSS integration.
+
+![News](assets/screenshot-2025-10-24-100138.png)
+
+### ⚙️ Configuration
+
+#### Header Settings
+
+<details>
+<summary>📸 View Header settings Screenshots</summary>
+
+![Header settings](assets/screenshot-2025-10-24-100250.png)
+
+</details>
+
+| Name                | Purpose                           | Select Option/Type                          |
+| ------------------- | --------------------------------- | ------------------------------------------- |
+| Webpart Title       | Display title of the news section | Textbox (e.g., NEWS)                        |
+| Show see all button | Toggle visibility of "See All"    | Switch (Show/Hide)                          |
+| View All URL        | Set URL for "See All" button      | Textbox (`{siteUrl}/_layouts/15/news.aspx`) |
+| Show search box     | Toggle visibility of search box   | Switch (Show/Hide)                          |
+| Show sort by        | Toggle visibility of sort options | Switch (Show/Hide)                          |
+
+#### General Settings
+
+<details>
+<summary>📸 View General settings Screenshots</summary>
+
+![General settings](assets/screenshot-2025-10-24-100258.png)
+
+</details>
+
+| Name                 | Purpose                          | Select Option/Type |
+| -------------------- | -------------------------------- | ------------------ |
+| Search Sites         | Define source site collections   | Search Box         |
+| Fetching Items Limit | Set maximum number of news items | Slider             |
+| Enable RSS Feed      | Fetch external RSS feeds         | Toggle (On)        |
+| RSS Links            | Manage RSS links                 | Manage RSS Links   |
+| RSS API Key          | Enter API Key for secure access  | Textbox            |
+| Get API Key          | Generate or retrieve API Key     | Button             |
+
+#### Layout Settings
+
+<details>
+<summary>📸 View Layout Settings Screenshots</summary>
+
+![Layout](assets/screenshot-2025-10-24-100306.png)
+
+</details>
+
+| Name                                         | Purpose                                                   | Select Option/Type |
+| -------------------------------------------- | --------------------------------------------------------- | ------------------ |
+| Show category filter                         | Toggle visibility of category filter                      | Switch (On/Off)    |
+| News Category                                | Select news category to display                           | Dropdown           |
+| Choose Layout                                | Select display style (e.g., Filmstrip)                    | Dropdown           |
+| Height                                       | Set height of news items                                  | Slider             |
+| Items to show                                | Set number of news items to display                       | Slider             |
+| Hide this webpart is there's nothing to show | Toggle to hide the web part when there are no news items. | On/Off             |
+
+<details>
+
+#### 🛠️ Appearance Settings
+
+<summary>📸 View Appearance Settings Screenshots</summary>
+
+![Appearance](assets/screenshot-2025-10-24-100314.png)
+
+</details>
+
+| Name         | Purpose                              | Select Option/Type |
+| ------------ | ------------------------------------ | ------------------ |
+| Accent color | Select accent color for the web part | Color Picker       |
+
+#### Target audience
+
+<details>
+<summary>📸 View Target audience Screenshots</summary>
+
+![Target audience](assets/screenshot-2025-10-24-100321.png)
+
+</details>
+
+| Name            | Purpose                                    | Select Option/Type |
+| --------------- | ------------------------------------------ | ------------------ |
+| Target audience | Define audience targeting for the web part | People Picker      |
+
+#### News post Settings
+
+<details>
+<summary>📸 View News post Settings Screenshots</summary>
+
+![News](assets/screenshot-2025-10-24-100327.png)
+
+</details>
+
+| Name             | Purpose              | Select Option |
+| ---------------- | -------------------- | ------------- |
+| Manage new posts | News post management | Link          |
+
+:::tip
+Use descriptive tags and consistent images (1300×450 px) for better layout alignment and category filtering.
+:::
+
+- - -
