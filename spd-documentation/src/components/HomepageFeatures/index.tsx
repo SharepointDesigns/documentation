@@ -25,6 +25,13 @@ const FeatureList: FeatureItem[] = [
     buttonLink: "/documentation/docs/design-2/overview",
   },
   {
+    title: "Design 3",
+    imageUrl:
+      "https://sharepointdesigns.github.io/documentation/assets/images/diy-3-latest-1851d86f018e4f01188ad1131eb4db55.png",
+    // buttonLabel: 'Customize',
+    buttonLink: "/documentation/docs/design-3/overview",
+  },
+  {
     title: "Design 4",
     imageUrl:
       "https://cdn.prod.website-files.com/624fdbbf2da9f429057410bc/685cd989e9bc30b23e26e737_Design%20-%204.avif",
