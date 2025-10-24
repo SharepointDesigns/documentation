@@ -24,7 +24,7 @@ collections:
     create: true
     slug: "{{slug}}"
     media_folder: "/spd-documentation/static/img/uploads"
-    public_folder: "img/uploads"
+    public_folder: "/img/uploads"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
