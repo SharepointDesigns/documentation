@@ -12,4 +12,4 @@ sidebar_position: 4
 | 6      | New joiners       | Webpart   | The **New Joiners** web part welcomes and introduces new employees to the organization, fostering a sense of belonging from day one.                       |
 | 7      | Company Directory | Webpart   | Simplifies team navigation by providing a clear, interactive view of the organizational hierarchy and reporting relationships.                             |
 | 8      | Events Calendar   | Webpart   | **Unified Scheduling:** Display company events, meetings, and important dates. **Simple View:** a clear calendat layout without unnecessary embellishmen.  |
-| 9      | Top Navigation    | Extension | An extension that is used as a top navigation for easy navigations                                                                                         |
+| 9      | Top Navigation    | Extension | An extension designed to provide a convenient top navigation bar for effortless browsing.                                                                  |
