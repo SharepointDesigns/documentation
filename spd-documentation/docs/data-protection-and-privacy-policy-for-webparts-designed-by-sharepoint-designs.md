@@ -69,7 +69,7 @@ Below is a typical data flow for the custom webparts:
 
 For further information regarding data protection, DPIA documentation, or to exercise data subject rights, please contact our Data Protection Officer or IT Security Team.
 
-![](img/uploads/diy-3-latest.png)
+![](/img/uploads/thumbnail.png)
 
 - - -
 
