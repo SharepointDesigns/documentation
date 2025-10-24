@@ -2,7 +2,6 @@
 title: Introduction
 sidebar_position: 1
 ---
-
 Products developed by **SharePoint Designs**.
 
 import DocCard from "@theme/DocCard";
@@ -67,3 +66,5 @@ import DocCard from "@theme/DocCard";
  </article>
  </section>
  </article>
+
+![](uploads/diy-3-latest.png)
