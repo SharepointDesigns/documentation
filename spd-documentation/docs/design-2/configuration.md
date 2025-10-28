@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
 title: Configuration
+sidebar_position: 4
 author: SharePoint Designs
-version: 1.0
+version: 1
 updated: October 2025
 description: Configuration settings and customization guide for each web part.
 ---
