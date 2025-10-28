@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
 title: Webparts
+sidebar_position: 2
 author: SharePoint Designs
-version: 1.0
+version: 1
 updated: October 2025
 description: Webparts settings and customization guide for each web part.
 ---
