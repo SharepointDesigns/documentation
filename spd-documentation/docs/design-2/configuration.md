@@ -108,7 +108,7 @@ A personalized banner greeting the user by name and time, while promoting your o
 
 | Name                      | Purpose                                                                                 | Example                            |
 | ------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------- |
-| Welcome Message           | Display a personalized greeting. Use \`{firstName}\`, \`{lastName}\`, or \`{fullName}\` | Hello \`{firstName}\`              |
+| Welcome Message           | Display a personalized greeting. Use `{firstName}`, `{lastName}`, or `{fullName}` | `Hello {firstName}`              |
 | Format Date and Time      | Display the current date and time                                                       | “Thursday 14th Jul, 2022, 4:27 PM” |
 | Manage Announcement Items | Add the collection of announcements that will appear in carousel view                   | Property collection data field     |
 | Text Color                | Adjust paragraph text color                                                             | Color Picker                       |
