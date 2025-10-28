@@ -232,7 +232,7 @@ Highlight your organization’s facilities, offices, or departments using a clea
 | WebPart Title      | Display title              | FACILITIES                                     |
 | Hide Title         | Toggle visibility          | Show                                           |
 | Select a list      | Choose SharePoint list     | Facilities                                     |
-| See All            | URL for full list          | \\`{siteUrl}/Lists/Facilities/AllItems.aspx\\` |
+| See All            | URL for full list          | `{siteUrl}/Lists/Facilities/AllItems.aspx` |
 | Show Top Border    | Toggle top border          | On / Off                                       |
 | Show Borders       | Add border around web part | On / Off                                       |
 | Enable Auto Scroll | Auto-scroll carousel       | On / Off                                       |
@@ -262,7 +262,7 @@ Display and manage upcoming company events, meetings, and important dates.
 | ------------------------ | ---------------------------- | ----------------------------------- |
 | WebPart Title            | Title of the section         | EVENTS CALENDAR                     |
 | Show See All Link        | Link to full event list      | Show                                |
-| View All URL             | URL to all events            | \\\\\\\`{siteUrl}/_layouts/15/Events.aspx\\\\\\\` |
+| View All URL             | URL to all events            | `{siteUrl}/_layouts/15/Events.aspx` |
 | Select the option events | Choose event source          | SharePoint / Mailbox                |
 | Filter Events            | Show upcoming or past events | Upcoming Events                     |
 | Add/Edit Events          | Manage list items            | Add/Edit Events                     |
