@@ -1,6 +1,6 @@
 ---
 title: Webparts
-sidebar_position: 4
+sidebar_position: 2
 author: SharePoint Designs
 version: 1
 updated: October 2025

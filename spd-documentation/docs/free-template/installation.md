@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: Installation
 author: SharePoint Designs
 version: 1

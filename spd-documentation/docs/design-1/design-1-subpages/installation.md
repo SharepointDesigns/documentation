@@ -1,52 +1,56 @@
 ---
 title: Installation
-sidebar_position: 2
+sidebar_position: 3
 author: SharePoint Designs
 version: 1
 updated: October 2025
 description: Installation settings and customization guide for each web part.
 ---
+
 ## ⚙️ Installation Instructions
 
-* Upload the `spd-intranetdesign1-subpages.sppkg` file to your App Catalog
-* Navigate to any modern SharePoint site, Click the **Settings** icon
+- Upload the `spd-intranetdesign1-subpages.sppkg` file to your App Catalog
+- Navigate to any modern SharePoint site, Click the **Settings** icon
 
   ![](assets/addAnApp.png)
-* Select **“Add an app”**, and choose **Intranet Design 1 Sub Pages by SharePoint Designs** & **Intranet Design 1 by SharePoint Designs**
+
+- Select **“Add an app”**, and choose **Intranet Design 1 Sub Pages by SharePoint Designs** & **Intranet Design 1 by SharePoint Designs**
 
   ![](assets/AddtoSite.png)
-* Click **Add**
-* After installation, go to **Site Contents** to confirm it's added to the site.
+
+- Click **Add**
+- After installation, go to **Site Contents** to confirm it's added to the site.
 
   ![](assets/20250509_123501_image.png)
 
-- - -
+---
 
 ## 🧪 Testing Instructions
 
-> **Note:** *Upon adding the web part to the page, a **free 15-day trial** will start automatically.*
+> **Note:** _Upon adding the web part to the page, a **free 15-day trial** will start automatically._
 
 1. Navigate to a modern SharePoint page or create a new one.
 2. Edit the page and add the **"Design 1 Sub Pages Setup"** web part.
    ![](assets/addwebparttoPage.png)
 3. **Republish** the page.
 4. **Select a page template** from the dropdown:
-   (*Home / Departments / Employee Resources / Policies & Procedures*)
+   (_Home / Departments / Employee Resources / Policies & Procedures_)
    ![](assets/20250509_170145_image.png)
 5. Click the **“Apply Design”** button.
 
-   > *Visible only after selecting a template.* > ![](assets/applyDesign.png)
-6. Do not close the browser. A pop-up will appear to create required lists and libraries with mock data (*Applicable only for lists*).
+   > _Visible only after selecting a template._ > ![](assets/applyDesign.png)
+
+6. Do not close the browser. A pop-up will appear to create required lists and libraries with mock data (_Applicable only for lists_).
 7. After creation, the page will refresh automatically and proceed with adding the necessary web parts and layout.
 8. Once setup is complete, a button will appear to open the newly created page — click it to view your configured site.
 
    ![](assets/creationComplete.png)
 
-- - -
+---
 
 ## 🔑 Activating a License Key
 
-> *Once your free trial ends, you'll need a license key to continue using the app.*
+> _Once your free trial ends, you'll need a license key to continue using the app._
 
 ### License Activation Steps
 
@@ -61,34 +65,34 @@ description: Installation settings and customization guide for each web part.
 
 ✅ **Done! Your app is now fully activated.**
 
-- - -
+---
 
 ### ✅ Expected Behaviour
 
-A page will be create based on the selection(***Home/Departments/Employee Resources/Policies & Procedures***)
+A page will be create based on the selection(**_Home/Departments/Employee Resources/Policies & Procedures_**)
 
 The following SharePoint Lists are automatically created based on the selection:
 
-* *DepartmentLinks (Departments)*
-* *Goals (Departments)*
-* *ResourceLinks (Employee Resources)*
-* *PolicyLinks (Policies & Procedures)*
-* *RecentPolicyUpdates (Policies & Procedures)*
-* *PoliciesFAQs (Policies & Procedures)*
+- _DepartmentLinks (Departments)_
+- _Goals (Departments)_
+- _ResourceLinks (Employee Resources)_
+- _PolicyLinks (Policies & Procedures)_
+- _RecentPolicyUpdates (Policies & Procedures)_
+- _PoliciesFAQs (Policies & Procedures)_
 
 The following SharePoint Library are automatically created based on the selection:
 
-* *DepartmentPolicies (Departments)*
-* *Gallery (Departments)*
-* *Newsletter (Employee Resources)*
-* *Trainings (Employee Resources)*
-* *ImportantDocuments (Employee Resources)*
-* *SOPs (Policies & Procedures)*
+- _DepartmentPolicies (Departments)_
+- _Gallery (Departments)_
+- _Newsletter (Employee Resources)_
+- _Trainings (Employee Resources)_
+- _ImportantDocuments (Employee Resources)_
+- _SOPs (Policies & Procedures)_
 
 > These lists are pre-filled with demo/mock items for easy testing.
 > **No manual configuration required after clicking the Apply template button.**
 
-- - -
+---
 
 ## 🔍 Validate Each Web Part on the Provisioned Page
 
@@ -101,7 +105,7 @@ The following SharePoint Library are automatically created based on the selectio
 | **🔗 Quick Links**     | \-**Essential Resources**: Provide easy access to frequently used tools and documents. <br/> - **Clear Icons**: Use formal icons and labels for better navigation. |
 | **👥 Employee Search** | \-**Employee Directory**: Comprehensive staff profiles and contact info. <br/> - **Easy Search**: Find colleagues with advanced filters.                           |
 | **📰 RSS Feed**        | \-**External News**: Integrate relevant industry updates. <br/> - **Consistent Design**: RSS feeds match the formal aesthetic.                                     |
-| **❓ FAQs**             | \-**Knowledge Base**: Answer common questions in one place. <br/> - **Organized Categories**: Easy navigation through topics.                                      |
+| **❓ FAQs**            | \-**Knowledge Base**: Answer common questions in one place. <br/> - **Organized Categories**: Easy navigation through topics.                                      |
 | **📅 Events Calendar** | \-**Event Calendar**: Display meetings and company events. <br/> - **Detailed Info**: Include dates, times, and locations.                                         |
 
 ## DEPARTMENTS PAGE
@@ -115,7 +119,7 @@ The following SharePoint Library are automatically created based on the selectio
 | **Department News**     | \- Date-stamped announcements or articles with brief summaries<br/> - Provides timely updates on departmental or industry developments                                          |
 | **Pixel Gallery**       | \- Image carousel displaying team events, office culture, or milestone celebrations.<br/> - Adds a visual, engaging touch reflecting workplace activities                       |
 
-- - -
+---
 
 ## EMPLOYEE RESOURCES
 
@@ -129,13 +133,13 @@ The following SharePoint Library are automatically created based on the selectio
 | **Trainings**                 | \- Highlighted course cards with brief descriptions (security, phishing awareness)<br/> - Promotes professional development and compliance training opportunities |
 | **Newsletter**                | \- Section featuring monthly/quarterly updates, insights, and corporate news<br/> - Keeps employees informed of broader organizational happenings.                |
 
-- - -
+---
 
 ## POLICIES & PROCEDURES
 
 | **Webpart**                              | **Description**                                                                                                                                                            |
 | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Banner & Title**                       | \- Focused hero image with he*agonal icons outlining major policy categories) <br/> - Quickly orients users to key procedural topics (legal, HR, IT, etc.).                |
+| **Banner & Title**                       | \- Focused hero image with he\*agonal icons outlining major policy categories) <br/> - Quickly orients users to key procedural topics (legal, HR, IT, etc.).               |
 | **Recently Policy Updates**              | \- Announcement bar with new or revised policies (e.g., remote work policy))<br/> - Draws attention to current changes for timely awareness                                |
 | **Policy Categories**                    | \- Tiles for HR, sustainability, DEI, IT, and remote work policies)<br/> - Clusters documents by theme for straightforward navigation and reference                        |
 | **FAQs**                                 | \- Expandable list addressing common queries on data collection, refunds, and transparency)<br/> - Guides employees through key concerns in a concise Q&A format.          |
@@ -152,7 +156,7 @@ Follow the steps below to uninstall the **Intranet Design 1 Sub Pages by SharePo
 4. If prompted to switch to the **Classic Experience**, follow the prompt to proceed.
 5. In the Classic Experience, hover over the app again, click the three dots (···), and then click **Remove** to finalize the uninstallation.
 
-- - -
+---
 
 ## 🛠️ Troubleshooting Common Issues
 
@@ -168,58 +172,58 @@ Follow the steps below to uninstall the **Intranet Design 1 Sub Pages by SharePo
 
 **Solution**: Check if the lists items are present in the Site Contents. If the lists are empty, manually add demo items or reapply the design.
 
-- - -
+---
 
 ## 🌟 Best Practices
 
 ### 🔁 Regular Updates
 
-* **Keep Content Fresh**: Regularly update the content on your SharePoint site to keep it relevant and engaging.
-* **Monitor Performance**: Regularly check the performance of your SharePoint site and make necessary adjustments to improve speed and user experience.
+- **Keep Content Fresh**: Regularly update the content on your SharePoint site to keep it relevant and engaging.
+- **Monitor Performance**: Regularly check the performance of your SharePoint site and make necessary adjustments to improve speed and user experience.
 
 ### 🎓 User Training
 
-* **Provide Training**: Offer training sessions for users to help them understand how to use the SharePoint site effectively.
-* **Create Documentation**: Develop comprehensive documentation to guide users on how to navigate and use the site.
+- **Provide Training**: Offer training sessions for users to help them understand how to use the SharePoint site effectively.
+- **Create Documentation**: Develop comprehensive documentation to guide users on how to navigate and use the site.
 
 ### 🔐 Security Measures
 
-* **Implement Security Protocols**: Ensure that proper security measures are in place to protect sensitive information.
-* **Regular Audits**: Conduct regular security audits to identify and address potential vulnerabilities.
+- **Implement Security Protocols**: Ensure that proper security measures are in place to protect sensitive information.
+- **Regular Audits**: Conduct regular security audits to identify and address potential vulnerabilities.
 
 ### 🗣️ User Feedback
 
-* **Collect Feedback**: Regularly collect feedback from users to understand their needs and improve the site accordingly.
-* **Act on Feedback**: Implement changes based on user feedback to enhance the overall user experience.
+- **Collect Feedback**: Regularly collect feedback from users to understand their needs and improve the site accordingly.
+- **Act on Feedback**: Implement changes based on user feedback to enhance the overall user experience.
 
 ### 🤝 Collaboration
 
-* **Encourage Collaboration**: Promote collaboration among team members by providing tools and features that facilitate communication and teamwork.
-* **Use SharePoint Features**: Utilize SharePoint features such as document libraries, lists, and workflows to streamline collaboration and improve productivity.
+- **Encourage Collaboration**: Promote collaboration among team members by providing tools and features that facilitate communication and teamwork.
+- **Use SharePoint Features**: Utilize SharePoint features such as document libraries, lists, and workflows to streamline collaboration and improve productivity.
 
-- - -
+---
 
 ## 🧑‍💼 User Permissions
 
 ### 🗂️ Assigning Permissions
 
-* **Site Owners**: Have full control over the site and can manage permissions for other users.
-* **Site Members**: Can contribute content and interact with the site but have limited administrative capabilities.
-* **Site Visitors**: Have read-only access to the site and cannot make any changes.
+- **Site Owners**: Have full control over the site and can manage permissions for other users.
+- **Site Members**: Can contribute content and interact with the site but have limited administrative capabilities.
+- **Site Visitors**: Have read-only access to the site and cannot make any changes.
 
 ### 🛡️ Managing Permissions
 
-* **Permission Levels**: Define different levels of access for users based on their roles and responsibilities.
-* **Custom Permissions**: Create custom permission levels to meet specific needs and requirements.
-* **Inheritance**: Manage permissions inheritance to ensure consistency across different site collections and subsites.
+- **Permission Levels**: Define different levels of access for users based on their roles and responsibilities.
+- **Custom Permissions**: Create custom permission levels to meet specific needs and requirements.
+- **Inheritance**: Manage permissions inheritance to ensure consistency across different site collections and subsites.
 
 ### 🧾 Best Practices for Permissions
 
-* **Least Privilege Principle**: Assign the minimum level of permissions necessary for users to perform their tasks.
-* **Regular Reviews**: Conduct regular reviews of user permissions to ensure they are up-to-date and aligned with current roles.
-* **Documentation**: Maintain documentation of user permissions and any changes made to ensure transparency and accountability.
+- **Least Privilege Principle**: Assign the minimum level of permissions necessary for users to perform their tasks.
+- **Regular Reviews**: Conduct regular reviews of user permissions to ensure they are up-to-date and aligned with current roles.
+- **Documentation**: Maintain documentation of user permissions and any changes made to ensure transparency and accountability.
 
-- - -
+---
 
 ## 🆘 Support
 

@@ -1,15 +1,15 @@
 ---
 title: Configuration
-sidebar_position: 3
+sidebar_position: 4
 ---
-The Home page should be configured using the "Design 3 Setup" web part to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
 
+The Home page should be configured using the "Design 3 Setup" web part to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
 
 ## 1. Welcome Banner
 
 ![Welcome Banner](assets/screenshot-2025-10-23-155025.png)
 
-- - -
+---
 
 ### ⚙️ Configuration
 
@@ -160,10 +160,11 @@ The Home page should be configured using the "Design 3 Setup" web part to ensure
 
 Provide fast and intuitive access to essential resources:
 
-* **Essential Resources**
+- **Essential Resources**
 
   : Direct users to frequently used tools, forms, documents, and company policies.
-* **Icons & Labels**
+
+- **Icons & Labels**
   : Enhance navigation with clearly labeled links and intuitive icons.
 
 ### ⚙️Configuration
@@ -332,7 +333,7 @@ Deliver the latest updates and announcements through a dynamic, filterable news 
 Use descriptive tags and consistent images (1300×450 px) for better layout alignment and category filtering.
 :::
 
-- - -
+---
 
 ## 5. New Joiners & Anniversaries
 
@@ -352,7 +353,7 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 | **Date**                     | Date and Time   | Event date                          |
 | **Category**                 | Choice          | Birthday / Anniversary / New Joiner |
 
-- - -
+---
 
 ### Configuration
 
@@ -365,7 +366,7 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 
 </details>
 
-| 🏷️ Name            | 🎯 Purpose                  | 💡 Select Option           |
+| 🏷️ Name             | 🎯 Purpose                  | 💡 Select Option           |
 | ------------------- | --------------------------- | -------------------------- |
 | Title               | Section title               | “Birthday & Anniversaries” |
 | Show See All Button | Toggle to display “See All” | On                         |
@@ -380,7 +381,7 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 
 </details>
 
-| 🏷️ Name           | 🎯 Purpose                   | 💡 Select Option       |
+| 🏷️ Name            | 🎯 Purpose                   | 💡 Select Option       |
 | ------------------ | ---------------------------- | ---------------------- |
 | Select a List      | Choose SharePoint data list  | EmployeeSpotlights     |
 | Filter by Category | Filter items by event type   | Birthday / Anniversary |
@@ -410,11 +411,11 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 
 </details>
 
-| 🏷️ Name           | 🎯 Purpose                        | 💡 Select Option                |
+| 🏷️ Name            | 🎯 Purpose                        | 💡 Select Option                |
 | ------------------ | --------------------------------- | ------------------------------- |
 | Button Hover color | Button hover color and text color | Theme 4 (Text #243666, BG #fff) |
 
-- - -
+---
 
 ## 6. Company Directory
 
@@ -553,7 +554,7 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 | Webpart title color | Choose theme color for title   | Dropdown (Theme 3 #243666)               |
 | Button colors       | Choose theme color for buttons | Dropdown (Theme 4 Text #243666, BG #fff) |
 
-- - -
+---
 
 ## 8. Top Navigation
 
@@ -561,5 +562,5 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 
 ### ⚙️Configuration
 
-* Edit the web part to access navigation settings.
-* Click Manage Navigation Items to add or edit entries.
+- Edit the web part to access navigation settings.
+- Click Manage Navigation Items to add or edit entries.

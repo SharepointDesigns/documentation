@@ -1,23 +1,24 @@
 ---
 title: Installation
-sidebar_position: 2
+sidebar_position: 3
 ---
+
 ## ⚙️ Installation Instructions
 
 | Step | Description                                                                                                                                                                                                                                                                                                                                                                    |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1    | Visit the [Intranet Design 4 – SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/WA200008779?tab=Overview) listing on Microsoft AppSource and click **Get it now**.<br />![Get it Now](assets/design4_getItNow.png)                                                                                                                                     |
-| 2    | You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.<br />![Add to Apps Site](assets/design4_addToAppSite.png)<br />⚠️ *If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added.* |
+| 2    | You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.<br />![Add to Apps Site](assets/design4_addToAppSite.png)<br />⚠️ _If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added._ |
 | 3    | Navigate to any modern SharePoint site, and click the **Settings** icon.<br />![Settings Icon](assets/addAnApp.png)                                                                                                                                                                                                                                                            |
 | 4    | Select **“Add an app”**, and choose **Intranet Design 4 Site by SharePoint Designs**.<br />![Add to Site](assets/AddtoSite.png)                                                                                                                                                                                                                                                |
 | 5    | Click **Add**.                                                                                                                                                                                                                                                                                                                                                                 |
 | 6    | After installation, go to **Site Contents** to confirm it's added to the site.<br />![App Confirm Screen](assets/AppScreen.png)                                                                                                                                                                                                                                                |
 
-- - -
+---
 
 ## 🧪 Testing Instructions
 
-> **Note:** *Upon adding the web part to the page, a **free 15-day trial** will start automatically.*
+> **Note:** _Upon adding the web part to the page, a **free 15-day trial** will start automatically._
 
 1. Navigate to a modern SharePoint page or create a new one.
 2. Edit the page and add the **"Design 4 Site Setup"** web part.
@@ -26,20 +27,21 @@ sidebar_position: 2
 4. Click the **“Apply Design”** button.
 
    > ![](assets/applyDesign.png)
-5. Do not close the browser. A pop-up will appear to create required lists and libraries with mock data (*Applicable only for lists*).
+
+5. Do not close the browser. A pop-up will appear to create required lists and libraries with mock data (_Applicable only for lists_).
 6. After creation, the page will refresh automatically and proceed with adding the necessary web parts and layout.
 7. Once setup is complete - "Set as Homepage" checkbox will appear
 
-   * If checked, clicking "Open New Page" will open the newly created page and set it as the homepage.
-   * If unchecked, the new page opens normally without changing the homepage.
+   - If checked, clicking "Open New Page" will open the newly created page and set it as the homepage.
+   - If unchecked, the new page opens normally without changing the homepage.
 
    ![](assets/creationComplete.png)
 
-- - -
+---
 
 ## 🔑 Activating a License Key
 
-> *Once your free trial ends, you'll need a license key to continue using the app.*
+> _Once your free trial ends, you'll need a license key to continue using the app._
 
 ### License Activation Steps
 
@@ -54,21 +56,21 @@ sidebar_position: 2
 
 ✅ **Done! Your app is now fully activated.**
 
-- - -
+---
 
 ### ✅ Expected Behaviour
 
 The following SharePoint Lists are automatically created based on the Home Page:
 
-* *Banner*
-* *Announcements*
-* *Quicklinks*
-* *Employee Spotlights*
+- _Banner_
+- _Announcements_
+- _Quicklinks_
+- _Employee Spotlights_
 
 > These lists are pre-filled with demo/mock items for easy testing.
 > **No manual configuration required after clicking the Apply template button.**
 
-- - -
+---
 
 ## 🔍 Validate Each Web Part on the Provisioned Page
 
@@ -94,7 +96,7 @@ Follow the steps below to uninstall the **Intranet Design 4 by SharePoint Design
 4. If prompted to switch to the **Classic Experience**, follow the prompt to proceed.
 5. In the Classic Experience, hover over the app again, click the three dots (···), and then click **Remove** to finalize the uninstallation.
 
-- - -
+---
 
 ## 🛠️ Troubleshooting Common Issues
 
@@ -110,58 +112,58 @@ Follow the steps below to uninstall the **Intranet Design 4 by SharePoint Design
 
 **Solution**: Check if the lists items are present in the Site Contents. If the lists are empty, manually add demo items or reapply the design.
 
-- - -
+---
 
 ## 🌟 Best Practices
 
 ### 🔁 Regular Updates
 
-* **Keep Content Fresh**: Regularly update the content on your SharePoint site to keep it relevant and engaging.
-* **Monitor Performance**: Regularly check the performance of your SharePoint site and make necessary adjustments to improve speed and user experience.
+- **Keep Content Fresh**: Regularly update the content on your SharePoint site to keep it relevant and engaging.
+- **Monitor Performance**: Regularly check the performance of your SharePoint site and make necessary adjustments to improve speed and user experience.
 
 ### 🎓 User Training
 
-* **Provide Training**: Offer training sessions for users to help them understand how to use the SharePoint site effectively.
-* **Create Documentation**: Develop comprehensive documentation to guide users on how to navigate and use the site.
+- **Provide Training**: Offer training sessions for users to help them understand how to use the SharePoint site effectively.
+- **Create Documentation**: Develop comprehensive documentation to guide users on how to navigate and use the site.
 
 ### 🔐 Security Measures
 
-* **Implement Security Protocols**: Ensure that proper security measures are in place to protect sensitive information.
-* **Regular Audits**: Conduct regular security audits to identify and address potential vulnerabilities.
+- **Implement Security Protocols**: Ensure that proper security measures are in place to protect sensitive information.
+- **Regular Audits**: Conduct regular security audits to identify and address potential vulnerabilities.
 
 ### 🗣️ User Feedback
 
-* **Collect Feedback**: Regularly collect feedback from users to understand their needs and improve the site accordingly.
-* **Act on Feedback**: Implement changes based on user feedback to enhance the overall user experience.
+- **Collect Feedback**: Regularly collect feedback from users to understand their needs and improve the site accordingly.
+- **Act on Feedback**: Implement changes based on user feedback to enhance the overall user experience.
 
 ### 🤝 Collaboration
 
-* **Encourage Collaboration**: Promote collaboration among team members by providing tools and features that facilitate communication and teamwork.
-* **Use SharePoint Features**: Utilize SharePoint features such as document libraries, lists, and workflows to streamline collaboration and improve productivity.
+- **Encourage Collaboration**: Promote collaboration among team members by providing tools and features that facilitate communication and teamwork.
+- **Use SharePoint Features**: Utilize SharePoint features such as document libraries, lists, and workflows to streamline collaboration and improve productivity.
 
-- - -
+---
 
 ## 🧑‍💼 User Permissions
 
 ### 🗂️ Assigning Permissions
 
-* **Site Owners**: Have full control over the site and can manage permissions for other users.
-* **Site Members**: Can contribute content and interact with the site but have limited administrative capabilities.
-* **Site Visitors**: Have read-only access to the site and cannot make any changes.
+- **Site Owners**: Have full control over the site and can manage permissions for other users.
+- **Site Members**: Can contribute content and interact with the site but have limited administrative capabilities.
+- **Site Visitors**: Have read-only access to the site and cannot make any changes.
 
 ### 🛡️ Managing Permissions
 
-* **Permission Levels**: Define different levels of access for users based on their roles and responsibilities.
-* **Custom Permissions**: Create custom permission levels to meet specific needs and requirements.
-* **Inheritance**: Manage permissions inheritance to ensure consistency across different site collections and subsites.
+- **Permission Levels**: Define different levels of access for users based on their roles and responsibilities.
+- **Custom Permissions**: Create custom permission levels to meet specific needs and requirements.
+- **Inheritance**: Manage permissions inheritance to ensure consistency across different site collections and subsites.
 
 ### 🧾 Best Practices for Permissions
 
-* **Least Privilege Principle**: Assign the minimum level of permissions necessary for users to perform their tasks.
-* **Regular Reviews**: Conduct regular reviews of user permissions to ensure they are up-to-date and aligned with current roles.
-* **Documentation**: Maintain documentation of user permissions and any changes made to ensure transparency and accountability.
+- **Least Privilege Principle**: Assign the minimum level of permissions necessary for users to perform their tasks.
+- **Regular Reviews**: Conduct regular reviews of user permissions to ensure they are up-to-date and aligned with current roles.
+- **Documentation**: Maintain documentation of user permissions and any changes made to ensure transparency and accountability.
 
-- - -
+---
 
 ## 🆘 Support
 

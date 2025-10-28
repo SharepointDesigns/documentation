@@ -1,7 +1,8 @@
 ---
 title: Webparts
-sidebar_position: 4
+sidebar_position: 2
 ---
+
 | Sl No. | Webpart Name      | Type      | Description                                                                                                                                                |
 | ------ | ----------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1      | Design 3 Setup    | Webpart   | A web part for creating a SharePoint list with mock data, generating a page, and applying a design template. Intended for use at the site collection root. |

@@ -1,17 +1,18 @@
 ---
 title: Installation
-sidebar_position: 2
+sidebar_position: 3
 author: SharePoint Designs
 version: 1
 updated: October 2025
 description: Installation settings and customization guide for each web part.
 ---
+
 ## ⚙️ Installation Instructions
 
 | Step | Description                                                                                                                                                                                                                                                                                                                                                                    |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1    | Visit the [Intranet Design 1 – SharePoint Designs](https://appsource.microsoft.com/en-us/product/office/WA200008452?tab=Overview) listing on Microsoft AppSource and then click **Get it now**.<br />![Get it Now](assets/Design1_getItNow.png)                                                                                                                                |
-| 2    | You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.<br />![Add to Apps Site](assets/design1_addToAppSite.png)<br />⚠️ *If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added.* |
+| 2    | You will be redirected to the SharePoint Store. Click **Add to Apps Site** to add it to your tenant.<br />![Add to Apps Site](assets/design1_addToAppSite.png)<br />⚠️ _If you don't have permission, a popup will appear saying "App requires permission approval." A request will be raised, and your tenant administrator needs to approve it before the app can be added._ |
 | 3    | After adding the app, go to **SharePoint Admin Center > Advanced > API Access** and approve the pending request for the **Employee Search** web part.                                                                                                                                                                                                                          |
 | 4    | Required Permissions: `User.Read.All`                                                                                                                                                                                                                                                                                                                                          |
 | 5    | Go to any modern SharePoint site, click the **Settings** icon.                                                                                                                                                                                                                                                                                                                 |
@@ -19,7 +20,7 @@ description: Installation settings and customization guide for each web part.
 | 7    | Click **Add**.                                                                                                                                                                                                                                                                                                                                                                 |
 | 8    | Navigate to **Site Contents** to confirm the app is installed.                                                                                                                                                                                                                                                                                                                 |
 
-- - -
+---
 
 ## 🧪 Testing Instructions
 
@@ -30,7 +31,7 @@ description: Installation settings and customization guide for each web part.
 3. Republish the page.
 4. Click the **“Apply template”** button.
 
-- - -
+---
 
 ### ✅ Expected Behaviour
 
@@ -48,7 +49,7 @@ A new homepage will be created as per this design:\
 
 > ✅ No manual configuration needed after applying the template.
 
-- - -
+---
 
 ## 🔍 Validate Each Web Part on the Provisioned Page
 
@@ -59,10 +60,10 @@ A new homepage will be created as per this design:\
 | **🔗 Quick Links**     | Easy access to essential tools with icons   |
 | **👥 Employee Search** | Searchable employee directory with filters  |
 | **📰 RSS Feed**        | External industry news matching design      |
-| **❓ FAQs**             | Organized, searchable knowledge base        |
+| **❓ FAQs**            | Organized, searchable knowledge base        |
 | **📅 Events Calendar** | Company meetings/events with full details   |
 
-- - -
+---
 
 ## 🧹 Uninstall Guide
 
@@ -74,7 +75,7 @@ A new homepage will be created as per this design:\
 | 4    | If prompted, switch to **Classic Experience**.                           |
 | 5    | Hover over the app, click `···`, then click **Remove** again to confirm. |
 
-- - -
+---
 
 ## 🛠️ Troubleshooting Common Issues
 
@@ -82,39 +83,39 @@ A new homepage will be created as per this design:\
 | --------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ⚠️ Web Part Not Displaying  | Web part missing on page    | Ensure it is added to a modern page and republished                                                                                              |
 | 🔐 API Request Not Approved | Employee Search not working | Approve in **API Management**, ensure all required permissions (`User.Read.All`, `Directory.AccessAsUser.All`, `Directory.Read.All`) are granted |
-| 🗃️ Lists Not Created       | Lists missing               | Ensure the **"Apply template"** button was clicked. If not, reapply the design                                                                   |
+| 🗃️ Lists Not Created        | Lists missing               | Ensure the **"Apply template"** button was clicked. If not, reapply the design                                                                   |
 | 📝 Missing Demo Items       | Lists are empty             | Check if lists exist. If so, reapply the design or add demo items manually                                                                       |
 
-- - -
+---
 
 ## 🌟 Best Practices
 
 ### 🔁 Regular Updates
 
-* Update site content regularly.
-* Monitor and optimize site performance.
+- Update site content regularly.
+- Monitor and optimize site performance.
 
 ### 🎓 User Training
 
-* Conduct training sessions.
-* Provide easy-to-follow documentation.
+- Conduct training sessions.
+- Provide easy-to-follow documentation.
 
 ### 🔐 Security Measures
 
-* Apply strong security protocols.
-* Perform regular audits.
+- Apply strong security protocols.
+- Perform regular audits.
 
 ### 🗣️ User Feedback
 
-* Collect feedback frequently.
-* Implement improvements accordingly.
+- Collect feedback frequently.
+- Implement improvements accordingly.
 
 ### 🤝 Collaboration
 
-* Enable team collaboration with SharePoint features.
-* Use document libraries, lists, and workflows.
+- Enable team collaboration with SharePoint features.
+- Use document libraries, lists, and workflows.
 
-- - -
+---
 
 ## 🧑‍💼 User Permissions
 
@@ -128,17 +129,17 @@ A new homepage will be created as per this design:\
 
 ### 🛡️ Managing Permissions
 
-* Use permission levels based on responsibilities.
-* Create **custom permission levels** if needed.
-* Manage **inheritance** across sites/subsites.
+- Use permission levels based on responsibilities.
+- Create **custom permission levels** if needed.
+- Manage **inheritance** across sites/subsites.
 
 ### 🧾 Permission Best Practices
 
-* Apply **Least Privilege Principle**.
-* Review permissions regularly.
-* Keep a **permissions change log**.
+- Apply **Least Privilege Principle**.
+- Review permissions regularly.
+- Keep a **permissions change log**.
 
-- - -
+---
 
 ## 🆘 Support
 
