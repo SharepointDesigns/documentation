@@ -1,6 +1,6 @@
 ---
 title: Installation
-sidebar_position: 2
+sidebar_position: 3
 author: SharePoint Designs
 version: 1
 updated: October 2025
