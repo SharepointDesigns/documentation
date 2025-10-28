@@ -26,8 +26,6 @@ This document explains how to configure each web part in your intranet solution,
 
 ## 🧭 1. Top Navigation
 
-### Overview
-
 A minimalist top navigation bar providing easy access to essential intranet sections. Menus are fully customizable to match your organization’s needs.
 
 ![Top Navigation Preview](assets/TopNavigation.png)
@@ -91,8 +89,6 @@ Create a SharePoint list with the following columns:
 
 ## 🎉 2. Welcome Banner
 
-### Overview
-
 A personalized banner greeting the user by name and time, while promoting your organization’s **Vision**, **Mission**, and **Values**.
 
 ![Welcome Banner Preview](assets/screenshot-2025-10-28-at-16.42.31.png)
@@ -110,20 +106,18 @@ A personalized banner greeting the user by name and time, while promoting your o
 
 </details>
 
-| Name                      | Purpose                                                                                 | Example                            |
-| ------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------- |
-| Welcome Message           | Display a personalized greeting. Use \`{firstName}\`, \`{lastName}\`, or \`{fullName}\` | “Hello \`{firstName}\`”            |
-| Format Date and Time      | Display the current date and time                                                       | “Thursday 14th Jul, 2022, 4:27 PM” |
-| Manage Announcement Items | Add the collection of announcements that will appear in carousel view                   | Property collection data field     |
-| Text Color                | Adjust paragraph text color                                                             | Color Picker                       |
-| Font Sizes                | Set badge, heading, and paragraph font sizes                                            | Slider Controls                    |
-| Change Background         | Upload a custom banner background                                                       | Image Picker                       |
+| Name                      | Purpose                                                                                       | Example                            |
+| ------------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------- |
+| Welcome Message           | Display a personalized greeting. Use \`{{firstName}}\`, \`{{lastName}}\`, or \`{{fullName}}\` | “Hello \`{{firstName}}\`”          |
+| Format Date and Time      | Display the current date and time                                                             | “Thursday 14th Jul, 2022, 4:27 PM” |
+| Manage Announcement Items | Add the collection of announcements that will appear in carousel view                         | Property collection data field     |
+| Text Color                | Adjust paragraph text color                                                                   | Color Picker                       |
+| Font Sizes                | Set badge, heading, and paragraph font sizes                                                  | Slider Controls                    |
+| Change Background         | Upload a custom banner background                                                             | Image Picker                       |
 
 - - -
 
 ## 🔗 3. Common Tools
-
-### Overview
 
 Provides quick access to essential tools, apps, and documents for daily use with clean icons and labels.
 
@@ -152,22 +146,21 @@ Provides quick access to essential tools, apps, and documents for daily use with
 ![Common Tools Pane 2](assets/QuicklinksPropertypane1.png)
 
 </details>
-| Category   | Name                   | Purpose                 | Option       |
-| ---------- | ---------------------- | ----------------------- | ------------ |
-| Header     | WebPart Title          | Title displayed at top  | COMMON TOOLS |
-| Header     | Hide Title             | Toggle visibility       | Show / Hide  |
-| General    | Select a list          | Choose SharePoint list  | CommonTools  |
-| General    | Limit                  | Number of links to show | 1–50         |
-| Appearance | Show Top Border        | Toggle sharp top border | On / Off     |
-| Appearance | Border Color           | Select border color     | Color Picker |
-| Appearance | Show Gradient on Hover | Highlight link on hover | Color Picker |
-| Appearance | Icon Background Color  | Change icon background  | Color Picker |
+
+| \| Category | Name                   | Purpose                 | Option       |
+| ----------- | ---------------------- | ----------------------- | ------------ |
+| Header      | WebPart Title          | Title displayed at top  | COMMON TOOLS |
+| Header      | Hide Title             | Toggle visibility       | Show / Hide  |
+| General     | Select a list          | Choose SharePoint list  | CommonTools  |
+| General     | Limit                  | Number of links to show | 1–50         |
+| Appearance  | Show Top Border        | Toggle sharp top border | On / Off     |
+| Appearance  | Border Color           | Select border color     | Color Picker |
+| Appearance  | Show Gradient on Hover | Highlight link on hover | Color Picker |
+| Appearance  | Icon Background Color  | Change icon background  | Color Picker |
 
 - - -
 
 ## 📰 4. News
-
-### Overview
 
 Showcase concise company updates in a clean, minimal layout. Integrates with SharePoint news or RSS feeds.
 
@@ -208,8 +201,6 @@ Showcase concise company updates in a clean, minimal layout. Integrates with Sha
 
 ## 🏢 5. Facilities
 
-### Overview
-
 Highlight your organization’s facilities, offices, or departments using a clean, visual layout.
 
 ![Facilities Preview](assets/Facilities.png)
@@ -235,22 +226,21 @@ Highlight your organization’s facilities, offices, or departments using a clea
 ![Facilities Pane](assets/FacilitiesPropertypane.png)
 
 </details>
-| Name               | Purpose                    | Option                                     |
-| ------------------ | -------------------------- | ------------------------------------------ |
-| WebPart Title      | Display title              | FACILITIES                                 |
-| Hide Title         | Toggle visibility          | Show                                       |
-| Select a list      | Choose SharePoint list     | Facilities                                 |
-| See All            | URL for full list          | \\\\\`{siteUrl}/Lists/Facilities/AllItems.aspx\\\\\` |
-| Show Top Border    | Toggle top border          | On / Off                                   |
-| Show Borders       | Add border around web part | On / Off                                   |
-| Enable Auto Scroll | Auto-scroll carousel       | On / Off                                   |
-| Height             | Set height (px)            | 388                                        |
+
+| \| Name            | Purpose                    | Option                                         |
+| ------------------ | -------------------------- | ---------------------------------------------- |
+| WebPart Title      | Display title              | FACILITIES                                     |
+| Hide Title         | Toggle visibility          | Show                                           |
+| Select a list      | Choose SharePoint list     | Facilities                                     |
+| See All            | URL for full list          | \\`{siteUrl}/Lists/Facilities/AllItems.aspx\\` |
+| Show Top Border    | Toggle top border          | On / Off                                       |
+| Show Borders       | Add border around web part | On / Off                                       |
+| Enable Auto Scroll | Auto-scroll carousel       | On / Off                                       |
+| Height             | Set height (px)            | 388                                            |
 
 - - -
 
 ## 📅 6. Events Calendar
-
-### Overview
 
 Display and manage upcoming company events, meetings, and important dates.
 
@@ -272,7 +262,7 @@ Display and manage upcoming company events, meetings, and important dates.
 | ------------------------ | ---------------------------- | ----------------------------------- |
 | WebPart Title            | Title of the section         | EVENTS CALENDAR                     |
 | Show See All Link        | Link to full event list      | Show                                |
-| View All URL             | URL to all events            | \\\\\`{siteUrl}/_layouts/15/Events.aspx\\\\\` |
+| View All URL             | URL to all events            | \\\\\\\`{siteUrl}/_layouts/15/Events.aspx\\\\\\\` |
 | Select the option events | Choose event source          | SharePoint / Mailbox                |
 | Filter Events            | Show upcoming or past events | Upcoming Events                     |
 | Add/Edit Events          | Manage list items            | Add/Edit Events                     |
@@ -280,8 +270,6 @@ Display and manage upcoming company events, meetings, and important dates.
 - - -
 
 ## 🎈 7. Holidays
-
-### Overview
 
 Highlight upcoming public holidays or company days off to help employees plan ahead.
 
