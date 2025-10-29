@@ -9,9 +9,12 @@ backend:
   # Uncomment when running locally
 # local_backend: true
 
+publish_mode: editorial_workflow
 media_folder: "/spd-documentation/static/img/uploads"
 public_folder: "uploads"
 show_preview_links: true
+editor:
+  preview: true
 
 # Site URL for previews
 site_url: https://sharepointdesigns.github.io/documentation
