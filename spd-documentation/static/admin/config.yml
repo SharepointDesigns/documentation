@@ -17,6 +17,7 @@ show_preview_links: true
 site_url: https://sharepointdesigns.github.io/documentation
 logo:
   src: https://sharepointdesigns.github.io/documentation/img/spdlogo.svg
+  alt: Sharepoint Designs
   show_in_header: true
 
 collections:
