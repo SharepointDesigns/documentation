@@ -15,6 +15,9 @@ show_preview_links: true
 
 # Site URL for previews
 site_url: https://sharepointdesigns.github.io/documentation
+logo:
+  src: /img/spdlogo.svg
+  show_in_header: true
 
 collections:
   # Main Documentation Pages
