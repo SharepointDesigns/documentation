@@ -16,8 +16,8 @@ description: Webparts settings and customization guide for each web part.
 | 5      | QuickLinks     | Webpart | Displays a set of frequently used links, allowing viewers to quickly access important resources and tools from one convenient location.                                          |
 | 6      | Calendar       | Webpart | Displays upcoming events and important dates, helping viewers stay informed about meetings, holidays, and key activities on the site.                                            |
 
-# Extention
+# Extension
 
-| Sl No. | Extention<br />Name          | Type      | Description                                                                                                                                                  |
+| Sl No. | Extension<br />Name          | Type      | Description                                                                                                                                                  |
 | ------ | ---------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1      | Intranet Free Template Setup | Extention | An extention for creating a SharePoint list with mock data, generating a page, and applying a design template. Intended for use at the site collection root. |
+| 1      | Intranet Free Template Setup | Extension | An extension for creating a SharePoint list with mock data, generating a page, and applying a design template. Intended for use at the site collection root. |
