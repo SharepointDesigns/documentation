@@ -29,6 +29,10 @@ collections:
     slug: "{{slug}}"
     media_folder: "/spd-documentation/static/img/uploads"
     public_folder: "/img/uploads"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
@@ -46,11 +50,14 @@ collections:
     folder: "spd-documentation/docs/design-1"
     create: true
     format: frontmatter
-    identifier_field: "sidebar_position"
     extension: "md"
     slug: "{{slug}}"
     media_folder: "/spd-documentation/docs/design-1/assets"
     public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
@@ -71,6 +78,10 @@ collections:
     public_folder: "assets"
     create: true
     slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
@@ -92,6 +103,10 @@ collections:
     media_folder: "/spd-documentation/docs/design-2/assets"
     public_folder: "assets"
     slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
@@ -112,6 +127,10 @@ collections:
     public_folder: "assets"
     create: true
     slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
@@ -133,6 +152,10 @@ collections:
     media_folder: "/spd-documentation/docs/design-3/assets"
     public_folder: "assets"
     slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
@@ -152,6 +175,10 @@ collections:
     public_folder: "assets"
     create: true
     slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
@@ -171,6 +198,10 @@ collections:
     media_folder: "/spd-documentation/docs/design-5/assets"
     public_folder: "assets"
     slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
@@ -190,6 +221,10 @@ collections:
     media_folder: "/spd-documentation/docs/employee-onboarding/assets"
     public_folder: "assets"
     slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
@@ -209,6 +244,10 @@ collections:
     media_folder: "/spd-documentation/docs/free-template/assets"
     public_folder: "assets"
     slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {
@@ -221,18 +260,18 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", required: false }
 
   # Blog Posts
-  - name: "blog"
-    label: "Blog"
-    folder: "blog"
-    create: true
+  # - name: "blog"
+  #   label: "Blog"
+  #   folder: "blog"
+  #   create: true
 
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Author", name: "authors", widget: "list", allow_add: true }
-      - { label: "Tags", name: "tags", widget: "list", required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  #   fields:
+  #     - { label: "Title", name: "title", widget: "string" }
+  #     - { label: "Publish Date", name: "date", widget: "datetime" }
+  #     - { label: "Author", name: "authors", widget: "list", allow_add: true }
+  #     - { label: "Tags", name: "tags", widget: "list", required: false }
+  #     - { label: "Body", name: "body", widget: "markdown" }
 
   # Category Configuration Files
   - name: "categories"
@@ -240,7 +279,7 @@ collections:
     files:
       - label: "Design 1 Category"
         name: "design-1-category"
-        file: "docs/design-1/_category_.json"
+        file: "spd-documentation/docs/design-1/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
@@ -260,7 +299,7 @@ collections:
 
       - label: "Design 1 Subpages Category"
         name: "design-1-subpages-category"
-        file: "docs/design-1/design-1-subpages/_category_.json"
+        file: "spd-documentation/docs/design-1/design-1-subpages/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
@@ -280,7 +319,7 @@ collections:
 
       - label: "Design 2 Category"
         name: "design-2-category"
-        file: "docs/design-2/_category_.json"
+        file: "spd-documentation/docs/design-2/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
@@ -300,7 +339,7 @@ collections:
 
       - label: "Design 2 Subpages Category"
         name: "design-2-subpages-category"
-        file: "docs/design-2/design-2-subpages/_category_.json"
+        file: "spd-documentation/docs/design-2/design-2-subpages/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
@@ -320,7 +359,7 @@ collections:
 
       - label: "Design 4 Category"
         name: "design-4-category"
-        file: "docs/design-4/_category_.json"
+        file: "spd-documentation/docs/design-4/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
@@ -340,7 +379,7 @@ collections:
 
       - label: "Design 5 Category"
         name: "design-5-category"
-        file: "docs/design-5/_category_.json"
+        file: "spd-documentation/docs/design-5/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
@@ -360,7 +399,7 @@ collections:
 
       - label: "Employee Onboarding Category"
         name: "employee-onboarding-category"
-        file: "docs/employee-onboarding/_category_.json"
+        file: "spd-documentation/docs/employee-onboarding/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
@@ -380,7 +419,7 @@ collections:
 
       - label: "Free Template Category"
         name: "free-template-category"
-        file: "docs/free-template/_category_.json"
+        file: "spd-documentation/docs/free-template/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
