@@ -16,7 +16,7 @@ show_preview_links: true
 # Site URL for previews
 site_url: https://sharepointdesigns.github.io/documentation
 logo:
-  src: /img/spdlogo.svg
+  src: img/spdlogo.svg
   show_in_header: true
 
 collections:
@@ -45,6 +45,7 @@ collections:
     folder: "spd-documentation/docs/design-1"
     create: true
     format: frontmatter
+    identifier_field: "sidebar_position"
     extension: "md"
     slug: "{{slug}}"
     media_folder: "/spd-documentation/docs/design-1/assets"
