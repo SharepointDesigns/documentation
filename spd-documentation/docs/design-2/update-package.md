@@ -1,7 +1,7 @@
 ---
 title: Update Package
 ---
-# How to Update *Intranet Design 2 by SharePoint Designs* package from Microsoft AppSource
+# How to Update *Intranet Design 2 by SharePoint Designs* package
 
 ## Overview
 
