@@ -14,8 +14,8 @@ Updating ensures you get the latest improvements, bug fixes, and features withou
 ## Steps to Update
 
 1. Go to your **App Catalog**:\
-   👉 [`https://<tenant-name>.sharepoint.com/sites/appcatalog/_layouts/15/appStore.aspx/appDetail/WA200008649?entry=AppSource`](https://`<tenant-name>`.sharepoint.com/sites/appcatalog/_layouts/15/appStore.aspx/appDetail/WA200008649?entry=AppSource)\
-   *(Replace `<tenant-name>` with your SharePoint tenant name.)*
+   👉 [`https://{tenant-name}.sharepoint.com/sites/appcatalog/_layouts/15/appStore.aspx/appDetail/WA200008649?entry=AppSource`](https://`{tenant-name}`.sharepoint.com/sites/appcatalog/_layouts/15/appStore.aspx/appDetail/WA200008649?entry=AppSource)\
+   *(Replace `{tenant-name}` with your SharePoint tenant name.)*
 2. On the app page, click **Update**.  
 3. If prompted, review and approve any new permissions.  
 4. The app will automatically update to the latest version — no redeployment is needed.  
