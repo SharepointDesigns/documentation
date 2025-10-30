@@ -22,6 +22,10 @@ description: Installation settings and customization guide for each web part.
 
 ---
 
+## Update Instructions
+
+For detailed steps on updating the package, refer to our [Update Package Guide](../update-package/update-package.md).
+
 ## 🧪 Testing Instructions
 
 ### ➕ Add the Design 1 Site Setup Web Part
