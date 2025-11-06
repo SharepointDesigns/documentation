@@ -46,6 +46,31 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  #Get Started Documentation
+  - name: "get-started"
+    label: "Get Started"
+    label_singular: "Get Started Doc"
+    folder: "spd-documentation/docs/get-started"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/get-started/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
   # Design 1 Documentation (Parent)
   - name: "design-1"
     label: "Design 1"
@@ -439,3 +464,187 @@ collections:
               widget: "text",
               required: false,
             }
+
+  # banner
+  - name: "banner"
+    label: "└─ Welcome Banner"
+    label_singular: "Welcome Banner"
+    folder: "spd-documentation/docs/webparts/banner"
+    media_folder: "/spd-documentation/docs/webparts/banner/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # calendar
+  - name: "calendar"
+    label: "└─ Calendar"
+    label_singular: "Calendar"
+    folder: "spd-documentation/docs/webparts/calendar"
+    media_folder: "/spd-documentation/docs/webparts/calendar/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # documentlibrary
+  - name: "documentlibrary"
+    label: "└─ Document Library"
+    label_singular: "Document Library"
+    folder: "spd-documentation/docs/webparts/documentlibrary"
+    media_folder: "/spd-documentation/docs/webparts/documentlibrary/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+    # news
+  - name: "news"
+    label: "└─ News"
+    label_singular: "News"
+    folder: "spd-documentation/docs/webparts/news"
+    media_folder: "/spd-documentation/docs/webparts/news/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # orgchart
+  - name: "orgchart"
+    label: "└─ Organization Chart"
+    label_singular: "Organization Chart"
+    folder: "spd-documentation/docs/webparts/orgchart"
+    media_folder: "/spd-documentation/docs/webparts/orgchart/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # quicklinks
+  - name: "quicklinks"
+    label: "└─ Quick Links"
+    label_singular: "Quick Link"
+    folder: "spd-documentation/docs/webparts/quicklinks"
+    media_folder: "/spd-documentation/docs/webparts/quicklinks/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # spotlight
+  - name: "spotlight"
+    label: "└─ Spotlight"
+    label_singular: "Spotlight"
+    folder: "spd-documentation/docs/webparts/spotlight"
+    media_folder: "/spd-documentation/docs/webparts/spotlight/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # weather
+  - name: "weather"
+    label: "└─ Weather"
+    label_singular: "Weather"
+    folder: "spd-documentation/docs/webparts/weather"
+    media_folder: "/spd-documentation/docs/webparts/weather/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }

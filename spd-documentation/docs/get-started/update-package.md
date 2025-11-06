@@ -1,5 +1,5 @@
 ---
-title: Update Package
+title: How to Update
 ---
 
 # How to Update _SharePoint Packages_ by SharePoint Designs
