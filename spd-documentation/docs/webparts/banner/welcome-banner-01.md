@@ -67,7 +67,6 @@ A modern SharePoint web part that displays a personalized greeting and real-time
 | Name                | Purpose                                           | Example        |
 | ------------------- | ------------------------------------------------- | -------------- |
 | Banner Height       | Adjust the height of the welcome banner.          | Slider Control |
-| Text color          | Choose a text color for the Message container.    | Color Picker   |
 | Greeting            | Choose a theme color for the greeting text.       | Dropdown       |
 | Background gradient | Choose a theme color for the Background gradient. | Dropdown       |
 | Timezone            | Choose a theme color for the Timezone.            | Dropdown       |
