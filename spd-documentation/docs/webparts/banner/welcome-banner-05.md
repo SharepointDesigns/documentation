@@ -1,12 +1,12 @@
 ---
-title: Welcome Banner 05
-sidebar_position: 5
+title: Welcome Banner 07
+sidebar_position: 7
 ---
 ## Overview
 
 A modern SharePoint web part that displays a personalized greeting and real-time date and time information for the selected city, featuring elegant visuals and user context awareness
 
-![](assets/banner5.png)
+![](assets/banner7.png)
 
 ## Configuration
 
@@ -40,21 +40,6 @@ A modern SharePoint web part that displays a personalized greeting and real-time
 | Name    | Purpose                                    | Example  |
 | ------- | ------------------------------------------ | -------- |
 | Layouts | Choose the layout for the welcome message. | Dropdown |
-
-#### Announcements
-
-<details>
-<summary>📸 View Announcements Screenshots</summary>
-
-![ Announcements](assets/banner5announcemnt.png)
-
-</details>
-
-| Name         | Purpose                                   | Example           |
-| ------------ | ----------------------------------------- | ----------------- |
-| Title        | Displays the heading of the announcement. | "Company Updates" |
-| Description  | Add a description for the announcement.   | Multiline text    |
-| Redirect URL | Add a redirect URL for the announcement.  | Text field        |
 
 #### Timezones
 
