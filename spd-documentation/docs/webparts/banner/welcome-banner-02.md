@@ -46,7 +46,7 @@ A visually engaging SharePoint web part that presents personalized greetings and
 <details>
 <summary>📸 View Announcements Screenshots</summary>
 
-![ Announcements](assets/announcements2.png)
+![ Announcements](assets/announcement2.png)
 
 ![collection](assets/collection22.png)
 
