@@ -15,7 +15,7 @@ The calendar displays all upcoming corporate events with dates and timings. Empl
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
 
-![Header Settings](assets/header-settings.png)
+![Header Settings](assets/calendar01propertypane.png)
 
 </details>
 
@@ -35,7 +35,7 @@ The calendar displays all upcoming corporate events with dates and timings. Empl
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-![General Settings](assets/general-settings.png)
+![General Settings](assets/cal01propertypane1.png)
 
 </details>
 
@@ -53,7 +53,7 @@ The calendar displays all upcoming corporate events with dates and timings. Empl
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
 
-![Appearance Settings](assets/appearance-settings.png)
+![Appearance Settings](assets/cal01propertypane2.png)
 
 </details>
 
