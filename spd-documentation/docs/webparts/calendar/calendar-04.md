@@ -21,7 +21,7 @@ A full monthly calendar view of team activities and meetings. Events are color-c
 
 | Name                        | Purpose                                                     | Example / Options          |
 | --------------------------- | ----------------------------------------------------------- | -------------------------- |
-| WebPart Title               | Specify a title for the Calendar Web Part.                  | “Calendar 1.1”             |
+| WebPart Title               | Specify a title for the Calendar Web Part.                  | “Calendar 4”               |
 | Choose title heading level  | Select the heading level (H1–H6) for the WebPart title.     | Heading 3                  |
 | Hide WebPart Title          | Toggle to show or hide the WebPart title.                   | Show / Hide                |
 | WebPart Title (Theme-based) | Set a theme-based title color or style for the WebPart.     | Color Picker               |
