@@ -21,7 +21,7 @@ Displays a monthly training calendar highlighting key training dates. The right 
 
 | Name                        | Purpose                                                     | Example / Options          |
 | --------------------------- | ----------------------------------------------------------- | -------------------------- |
-| WebPart Title               | Specify a title for the Calendar Web Part.                  | “Calendar 1.1”             |
+| WebPart Title               | Specify a title for the Calendar Web Part.                  | “Calendar 2”               |
 | Choose title heading level  | Select the heading level (H1–H6) for the WebPart title.     | Heading 3                  |
 | Hide WebPart Title          | Toggle to show or hide the WebPart title.                   | Show / Hide                |
 | WebPart Title (Theme-based) | Set a theme-based title color or style for the WebPart.     | Color Picker               |
@@ -41,7 +41,7 @@ Displays a monthly training calendar highlighting key training dates. The right 
 
 | Name                     | Purpose                                                         | Example / Options                     |
 | ------------------------ | --------------------------------------------------------------- | ------------------------------------- |
-| Ttaining Form URL        | Provide the URL for the training-related form.                  | `https://forms.cloud.microsoft/r/`    |
+| Training Form URL        | Provide the URL for the training-related form.                  | `https://forms.cloud.microsoft/r/`    |
 | Select the option Events | Select the event source for the Calendar.                       | Events from SharePoint List           |
 | Select events list       | Choose the SharePoint list from which events will be displayed. | Dropdown of event lists               |
 | Filter Events            | Control which past and upcoming events appear.                  | “Previous 6 months + upcoming events” |
