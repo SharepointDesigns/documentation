@@ -11,7 +11,7 @@ The interface ensures quick access to essential staff materials through an intui
 
 ## Configuration
 
-### Header Settings
+### Header settings
 
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
@@ -29,7 +29,7 @@ The interface ensures quick access to essential staff materials through an intui
 
 - - -
 
-### General Settings
+### General settings
 
 <details>
 <summary>📸 View General Settings Screenshots</summary>
@@ -47,7 +47,7 @@ The interface ensures quick access to essential staff materials through an intui
 
 - - -
 
-### Appearance Settings
+### Appearance settings
 
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
