@@ -10,65 +10,60 @@ This News web part showcases recent articles and events with eye-catching images
 
 ## Configuration
 
-#### General
+### Header Settings
 
 <details>
-<summary>📸 View General settings Screenshots</summary>
+<summary>📸 View Header Settings Screenshots</summary>
 
-![General Settings](assets/general-settings.png)
+![Header Settings](assets/screenshot-2025-11-09-234316.png)
 
 </details>
 
-| Name                       | Purpose                                                                 | Example                            |
-| -------------------------- | ----------------------------------------------------------------------- | ---------------------------------- |
-| Greeting text              | Display a personalized greeting.                                        | “Hello” or "Welcome"               |
-| User name format           | Display the user's name.                                                | John / John Smith                  |
-| Draggable feature          | Toggle to enable or disable dragging functionality for the web part.    | On/Off                             |
-| Reset to original position | Reset the position of the web part to its default position on the page. | Button                             |
-| Date and time format       | Display the current date and time                                       | “Thursday 14th Jul, 2022, 4:27 PM” |
-| Change Background          | Upload a custom banner background                                       | Image Picker                       |
+| Name                       | Purpose                                                     | Example / Options          |
+| -------------------------- | ----------------------------------------------------------- | -------------------------- |
+| Webpart title              | Specify a title for the News Web Part.                      | “NEWS”                     |
+| Choose title heading level | Select the heading level (H1–H6) for the Web Part title.    | Heading 3                  |
+| Hide webpart title         | Toggle to show or hide the Web Part title.                  | Show / Hide                |
+| Show see all button        | Display or hide the “See All” link for News navigation. | Show / Hide                |
+| See all link              | Provide a URL for the “See All” button to redirect users.  | `{siteUrl}/_layouts/15/news.aspx` |
 
-#### Layout
+- - -
+
+### General Settings
 
 <details>
-<summary>📸 View layout Configuration Screenshots</summary>
+<summary>📸 View General Settings Screenshots</summary>
 
-![layout settings](assets/layout.png)
+![General Settings](assets/cal01propertypane1.png)
 
 </details>
 
-| Name    | Purpose                                    | Example  |
-| ------- | ------------------------------------------ | -------- |
-| Layouts | Choose the layout for the welcome message. | Dropdown |
+| Name                     | Purpose                                                         | Example / Options                     |
+| ------------------------ | --------------------------------------------------------------- | ------------------------------------- |
+| Layout                   | Choose how events are displayed.                                | Horizontal View / Vertical View       |
+| Select the option Events | Select the event source for the Calendar.                       | Events from SharePoint List           |
+| Select events list       | Choose the SharePoint list from which events will be displayed. | Dropdown of event lists               |
+| Filter Events            | Control which past and upcoming events appear.                  | “Previous 6 months + upcoming events” |
 
-#### Timezones
+- - -
 
-<details>
-<summary>📸 View Timezones Screenshots</summary>
-
-![ Timezones](assets/timezones.png)
-
-</details>
-
-| Name                          | Purpose                                                               | Example               |
-| ----------------------------- | --------------------------------------------------------------------- | --------------------- |
-| Timezones                     | Select the timezones that should be displayed in the welcome message. | Multiselect dropdown  |
-| Label for (selected timezone) | Add a label for the selected timezone.                                | Text Input (optional) |
-
-#### Appearance Settings
+### Appearance Settings
 
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
 
-![Appearance Settings](assets/appearance.png)
+![Appearance Settings](assets/cal01propertypane2.png)
 
 </details>
 
-| Name                | Purpose                                           | Example        |
-| ------------------- | ------------------------------------------------- | -------------- |
-| Banner Height       | Adjust the height of the welcome banner.          | Slider Control |
-| Greeting            | Choose a theme color for the greeting text.       | Dropdown       |
-| Background gradient | Choose a theme color for the Background gradient. | Dropdown       |
-| Timezone            | Choose a theme color for the Timezone.            | Dropdown       |
-
-
+| Name                     | Purpose                                                        | Example / Options           |
+| ------------------------ | -------------------------------------------------------------- | --------------------------- |
+| Show Icon/Banner Options | Toggle to show or hide the icon/banner in the calendar header. | Yes / No                    |
+| Show Icon                | Display the calendar icon in the header.                       | Checkbox                    |
+| Show Banner              | Display a banner background behind the title.                  | Checkbox                    |
+| Show Calendar            | Toggle the visibility of the main calendar component.          | Yes / No                    |
+| Show Border              | Display a border around the calendar component.                | Yes / No                    |
+| Show Top Border          | Add a top border above the web part.                           | Yes / No                    |
+| Border Radius            | Adjust the roundness of calendar month corners.                | Slider (e.g., 25)           |
+| Background Color         | Set a background color for the calendar section.               | Color Picker                |
+| Text Color               | Choose a color for event titles and text.                      | Color Picker (Hex: #992525) |
