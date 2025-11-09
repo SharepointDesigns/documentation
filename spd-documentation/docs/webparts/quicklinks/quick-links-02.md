@@ -52,14 +52,22 @@ It provides a clean and compact view ideal for quick navigation and content disc
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
 
-![Appearance Settings](assets/q01propertypane03.png)
+![Appearance Settings](assets/q05propertypane03.png)
 
 </details>
 
-| Name                       | Purpose                                                  | Example / Options   |
-| -------------------------- | -------------------------------------------------------- | ------------------- |
-| Text Color                 | Set the text color for items or labels in the web part.  | Color Picker(White) |
-| Background Color           | Choose a background color for the section or item area.  | Color Picker (Blue) |
-| Show Banner                | Display a banner background behind the title.            | Checkbox            |
-| Show Border?               | Toggle the border visibility for the displayed items.    | Yes / No            |
-| Enable Drag & Drop Sorting | Allow users to reorder items within the web part easily. | Enabled / Disabled  |
+| Name                          | Purpose                                                                 | Example / Options                       |
+| ----------------------------- | ----------------------------------------------------------------------- | --------------------------------------- |
+| Border Radius (%)             | Adjusts the roundness of corners for items.                            | Slider (1%)                             |
+| Alignment                     | Sets the alignment of content.                                         | Left / Center / Right                   |
+| Show Gradient                 | Enables gradient background for items.                                 | On / Off                                |
+| Show Gradient Effect on Item  | Applies gradient only to selected items.                               | Checkbox                                |
+| Show Gradient Effect on Hover | Displays gradient when hovering over items.                            | Checkbox                                |
+| Show Shade Color              | Adds a shading overlay for depth.                                      | On / Off                                |
+| Hide Animation                | Disables animations for a static appearance.                           | Toggle                                  |
+| Select Gradient Colors        | Choose color pairs for gradient effects.                               | Multiple preset swatches                |
+| Text Color                    | Sets the color of text elements.                                       | Color Picker (Brown)                    |
+| Show Only Icon or Image       | Displays only icons or images without text.                            | On / Off                                |
+| Icon Size                     | Adjusts icon size within the web part.                                 | Extra large                             |
+| Show Border                   | Toggles border visibility around elements.                             | On / Off                                |
+| Show Box Shadow               | Adds or removes a shadow behind boxes or items.                        | On / Off                                |
