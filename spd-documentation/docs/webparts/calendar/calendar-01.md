@@ -65,6 +65,6 @@ The calendar displays all upcoming corporate events with dates and timings. Empl
 | Show Calendar            | Toggle the visibility of the main calendar component.          | Yes / No                    |
 | Show Border              | Display a border around the calendar component.                | Yes / No                    |
 | Show Top Border          | Add a top border above the web part.                           | Yes / No                    |
-| Border Radius            | Adjust the roundness of calendar corners.                      | Slider (e.g., 25)           |
+| Border Radius            | Adjust the roundness of calendar month corners.                | Slider (e.g., 25)           |
 | Background Color         | Set a background color for the calendar section.               | Color Picker                |
 | Text Color               | Choose a color for event titles and text.                      | Color Picker (Hex: #992525) |
