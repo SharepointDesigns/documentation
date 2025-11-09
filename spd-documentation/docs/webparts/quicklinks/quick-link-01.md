@@ -4,8 +4,8 @@ sidebar_position: 1
 ---
 ## Overview
 
-This layout presents categorized employee resources such as staff handbooks, welfare benefits, and system guides. It uses a modern tile design with smooth navigation to detailed document sections.
-The interface ensures quick access to essential staff materials through an intuitive button-based layout.
+An enhanced quick links layout where certain links include dropdowns for sub-links. It combines clean icons, rounded button styling, and contextual navigation options.
+This format supports hierarchical navigation, making it suitable for displaying grouped or related quick links.
 
 ![Overview](assets/quick-links-01.png)
 
