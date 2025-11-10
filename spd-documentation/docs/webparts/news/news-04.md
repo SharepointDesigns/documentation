@@ -15,7 +15,7 @@ This News web part showcases recent articles and events with eye-catching images
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
 
-![Header Settings](assets/screenshot-2025-11-09-234316.png)
+![Header Settings](assets/header.png)
 
 </details>
 
