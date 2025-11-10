@@ -32,9 +32,7 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-
 ![](assets/screenshot-2025-11-10-165214.png)
-
 
 </details>
 
@@ -52,14 +50,14 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
 
-| ![](assets/screenshot-2025-11-10-170733.png) | ![](assets/screenshot-2025-11-10-170802.png) |
-
 </details>
 
 ### Admin Settings
 
 <details>
 <summary>📸 View Admin Settings Screenshots</summary>
+
+
 ![Admin Settings](assets/screenshot-2025-11-10-135757.png)
 
 </details>
@@ -72,7 +70,11 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 
 <details>
 <summary>📸 View About Screenshots</summary>
-!\\[About](assets/screenshot-2025-11-10-142145.png)
+
+
+![About](assets/screenshot-2025-11-10-142145.png)
+
+
 </details>
 
 | Name                   | Purpose                                                           |
