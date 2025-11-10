@@ -8,8 +8,6 @@ This modern SharePoint web part provides weather updates for your organization's
 Simply configure a SharePoint list with the locations you want to track, and the web part handles the rest.
 It offers clear and accurate weather insights to help teams stay informed.
 
-
-
 ![](assets/screenshot-2025-11-10-132539.png)
 
 ## Configuration
@@ -43,6 +41,24 @@ It offers clear and accurate weather insights to help teams stay informed.
 | Show Border                      | Toggle to show or hide the border            | Enable/Disable      |
 | Show Shadow                      | Toggle to show or hide the shadow for border | Enable/Disable      |
 | Border Radius For Border (in px) | Adjusts the roundness of corners for items.  | Slider(8px to 25px) |
+
+### Admin Settings
+
+![](assets/screenshot-2025-11-10-135757.png)
+
+| Name            | Purpose                               | Example/Options |
+| --------------- | ------------------------------------- | --------------- |
+| Show Admin Menu | Toggle to show or hide the Admin Menu | Show/Hide       |
+
+### About
+
+![](assets/screenshot-2025-11-10-142145.png)
+
+| Name                   | Purpose                                                           |
+| ---------------------- | ----------------------------------------------------------------- |
+| **Developer Info**     | Indicates the web part is built by **SharePoint Designs**.        |
+| **Documentation Link** | Links to this documentation for easy reference.                   |
+| **Activate License**   | Button to activate the licensed or premium version if applicable. |
 
 ### Usage Notes
 
