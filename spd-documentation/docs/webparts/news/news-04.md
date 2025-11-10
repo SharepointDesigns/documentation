@@ -42,7 +42,7 @@ This News web part showcases recent articles and events with eye-catching images
 | ------------------- | -------------------------------------------------------------------- | ----------------------------------------- |
 | Search sites        | Search the SharePoint sites source for the News.                     | SharePoint Sites available in the tenant. |
 | Website(s) selected | Select the SharePoint sites source for the News.                     | Search results based upon the key search  |
-| Enable RSS Feed     |                                                                      | Toggle                                    |
+| Enable RSS Feed     |                                                                      |                                           |
 | Target audience     | Enter the person or group as a target audience for the News Web Part | People Picker                             |
 | Manage news posts   | Create new News posts or update the existing news posts              | Link                                      |
 
@@ -53,7 +53,7 @@ This News web part showcases recent articles and events with eye-catching images
 <details>
 <summary>📸 View layout Configuration Screenshots</summary>
 
-![layout settings](assets/screenshot-2025-11-10-082111.png)
+![layout settings](assets/layout.png)
 
 </details>
 
@@ -68,7 +68,7 @@ This News web part showcases recent articles and events with eye-catching images
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
 
-![Appearance Settings](assets/screenshot-2025-11-10-082210.png)
+![Appearance Settings](assets/appearance.png)
 
 </details>
 
