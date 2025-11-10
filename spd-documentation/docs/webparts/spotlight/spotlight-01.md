@@ -31,6 +31,10 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 | Show Category Filter Buttons | Toggle to show category filter                     | On/Off              |
 | Filter by Category           | To display a particular category alone.            | Dropdown            |
 
+### Apperanace Settings
+
+![](assets/screenshot-2025-11-10-170733.png)
+
 ### Admin Settings
 
 ![](assets/screenshot-2025-11-10-135757.png)
