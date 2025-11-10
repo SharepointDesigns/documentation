@@ -27,4 +27,9 @@ It offers clear and accurate weather insights to help teams stay informed.
 
 ### Appearance Settings
 
-
+| Name                         | Purpose                                                                     | Example/Options      |
+| ---------------------------- | -------------------------------------------------------------------- | --------------------------- |
+| Enable Gifs                | Toggle to show or hide the Gif's                               | Enable/Disable          |
+| Show Border              | Toggle to show or hide the border                           |  Enable/Disable         |
+| Show Shadow            | Toggle to show or hide the shadow for border        |  Enable/Disable         |
+| Border Radius For Border (in px) | Adjusts the roundness of corners for items.	| Slider( 8px to 25px) | 
