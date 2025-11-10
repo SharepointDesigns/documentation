@@ -42,13 +42,13 @@ Document Library allows users to browse and interact with SharePoint documents d
 
 </details>
 
-| Name                       | Purpose                                          | Example / Options                         |
-| -------------------------- | ------------------------------------------------ | ----------------------------------------- |
-| Source                     | Source of the Document library                   | Dropdown                                  |
-| Select Libraries           | Select the Document Library                      | Checkbox                                  |
-| Search sites               | Search the SharePoint sites source for the News. | SharePoint Sites available in the tenant. |
-| Website(s) selected        | Select the SharePoint sites source for the News. | Search results based upon the key search  |
-| Number of items to display | Enter the number of item to display              | Number between 01 and 4999                |
+| Name                       | Purpose                                                      | Example / Options                         |
+| -------------------------- | ------------------------------------------------------------ | ----------------------------------------- |
+| Source                     | Source of the Document library                               | Dropdown                                  |
+| Select Libraries           | Select the Document Library                                  | Checkbox                                  |
+| Search sites               | Search the SharePoint sites available  in the tenant         | SharePoint Sites available in the tenant. |
+| Website(s) selected        | Select the SharePoint sites source for the Document Library. | Search results based upon the key search  |
+| Number of items to display | Enter the number of items to display                         | Number between 01 and 4999                |
 
 - - -
 
