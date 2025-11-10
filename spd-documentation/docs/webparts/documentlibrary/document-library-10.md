@@ -57,13 +57,13 @@ Document Library allows users to browse and interact with SharePoint documents d
 <details>
 <summary>📸 View layout Configuration Screenshots</summary>
 
-![layout settings](assets/layout.png)
+![layout settings](assets/screenshot-2025-11-10-164249.png)
 
 </details>
 
-| Name          | Purpose                                | Example  |
-| ------------- | -------------------------------------- | -------- |
-| Choose layout | Choose the layout for the News Webpart | Dropdown |
+| Name          | Purpose                                            | Example  |
+| ------------- | -------------------------------------------------- | -------- |
+| Choose layout | Choose the layout for the Document Library Webpart | Dropdown |
 
 - - -
 
@@ -72,11 +72,17 @@ Document Library allows users to browse and interact with SharePoint documents d
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
 
-![Appearance Settings](assets/appearance.png)
+![Appearance Settings](assets/screenshot-2025-11-10-163313.png)
 
 </details>
 
-| Name        | Purpose                                          | Example / Options |     |
-| ----------- | ------------------------------------------------ | ----------------- | --- |
-| Show border | Toggle to show or hide the border of the banner. | On/Off            |     |
-| Show shadow | Toggle to show or hide the shadow of the banner. | On/Off            |     |
+| Name                           | Purpose                                                            | Example / Options |     |
+| ------------------------------ | ------------------------------------------------------------------ | ----------------- | --- |
+| Show border                    | Toggle to show or hide the border of the document content.         | On/Off            |     |
+| Show shadow                    | Toggle to show or hide the shadow of the document content.         | On/Off            |     |
+| Change background color        | Toggle to change background color the document container.          | On/Off            |     |
+| Show library title             | Toggle to show or hide the Library Tittle of the document content. | On/Off            |     |
+| Show title filter              | Toggle to show or hide the Title filter of the document content    | On/Off            |     |
+| Show document count            | Toggle to show or hide the Total Document count in each Libraries. | On/Off            |     |
+| Background color               | Select the container background color from the color picker.       | Color Picker      |     |
+| Height of the web part (in px) | Set the custom desire height of the Document Content Web part.     | Slider            |     |
