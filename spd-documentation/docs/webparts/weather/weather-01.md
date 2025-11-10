@@ -16,5 +16,15 @@ It offers clear and accurate weather insights to help teams stay informed.
 | -------------------------- | --------------------------------------------------------- | --------------------------------- |
 | Header Visibility       | Toggle to show or hide the Web Part title   | Show Header/Hide Header                          |
 | Enter the webpart title | Specify a title for the Weather Web Part.  |  “Weather 01”                          |
-| Choose title heading level         | Select the heading level (H1–H6) for the WebPart title.                | Heading 3                    |
+| Choose title heading level         | Select the heading level (H1–H4) for the WebPart title.                | Heading 3                    |
+
+### General Settings
+
+| Name                      | Purpose                                                                       | Example/Options  |
+| -------------------------- | --------------------------------------------------------------------- | ------------------------ |
+| Select Weather List | Choose which SharePoint list to display data from.	 | Weather               |
+| Degree Unit             | Choose the Degree Unit to show weather                   | Dropdown (°F/°C) |
+
+### Appearance Settings
+
 
