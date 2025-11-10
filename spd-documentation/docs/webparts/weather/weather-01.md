@@ -46,15 +46,19 @@ It offers clear and accurate weather insights to help teams stay informed.
 
 ![](assets/screenshot-2025-11-10-135757.png)
 
-| Name                             | Purpose                                      | Example/Options     |
-| -------------------------------- | -------------------------------------------- | ------------------- |
-| Show Admin Menu         | Toggle to show or hide the Admin Menu  | Show/Hide      |
-
+| Name            | Purpose                               | Example/Options |
+| --------------- | ------------------------------------- | --------------- |
+| Show Admin Menu | Toggle to show or hide the Admin Menu | Show/Hide       |
 
 ### About
 
+![](assets/screenshot-2025-11-10-142145.png)
 
-
+| Name               | Purpose                                                    |
+| ------------------ | ---------------------------------------------------------- |
+| **Developer Info** | Indicates the web part is built by **SharePoint Designs**. |
+| **Documentation Link** | Links to this documentation for easy reference. |
+| **Activate License** | Button to activate the licensed or premium version if applicable. |
 
 ### Usage Notes
 
