@@ -12,7 +12,12 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 
 ### Header Settings
 
-![](assets/screenshot-2025-11-10-164757.png)
+<details>
+<summary>📸 View Header Settings Screenshots</summary>
+
+![Header Settings](assets/screenshot-2025-11-10-164757.png)
+
+</details>
 
 | Name                       | Purpose                                                 | Example / Options       |
 | -------------------------- | ------------------------------------------------------- | ----------------------- |
@@ -20,9 +25,18 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 | WebPart Title              | Specify a title for the Spotlight Web Part.             | “Spotlight”             |
 | Choose title heading level | Select the heading level (H1–H4) for the WebPart title. | Heading 3               |
 
+- - -
+
 ### General Settings
 
+<details>
+<summary>📸 View General Settings Screenshots</summary>
+
+
 ![](assets/screenshot-2025-11-10-165214.png)
+
+
+</details>
 
 | Name                         | Purpose                                            | Example / Options   |
 | ---------------------------- | -------------------------------------------------- | ------------------- |
@@ -31,13 +45,24 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 | Show Category Filter Buttons | Toggle to show category filter                     | On/Off              |
 | Filter by Category           | To display a particular category alone.            | Dropdown            |
 
+- - -
+
 ### Apperanace Settings
 
-| ![](assets/screenshot-2025-11-10-170733.png) |  ![](assets/screenshot-2025-11-10-170802.png) |
+<details>
+<summary>📸 View Appearance Settings Screenshots</summary>
+
+| ![](assets/screenshot-2025-11-10-170733.png) | ![](assets/screenshot-2025-11-10-170802.png) |
+
+</details>
 
 ### Admin Settings
 
-![](assets/screenshot-2025-11-10-135757.png)
+<details>
+<summary>📸 View Admin Settings Screenshots</summary>
+![Admin Settings](assets/screenshot-2025-11-10-135757.png)
+
+</details>
 
 | Name            | Purpose                               | Example/Options |
 | --------------- | ------------------------------------- | --------------- |
@@ -45,7 +70,10 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 
 ### About
 
-![](assets/screenshot-2025-11-10-142145.png)
+<details>
+<summary>📸 View About Screenshots</summary>
+!\\[About](assets/screenshot-2025-11-10-142145.png)
+</details>
 
 | Name                   | Purpose                                                           |
 | ---------------------- | ----------------------------------------------------------------- |
