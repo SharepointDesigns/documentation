@@ -34,7 +34,7 @@ This News web part showcases recent articles and events with eye-catching images
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-![General Settings](assets/screenshot-2025-11-10-080422.png)
+![General Settings](assets/general-setting.png)
 
 </details>
 
