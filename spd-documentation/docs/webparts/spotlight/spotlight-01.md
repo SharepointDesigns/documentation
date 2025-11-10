@@ -33,7 +33,7 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 
 ### Apperanace Settings
 
-![](assets/screenshot-2025-11-10-170733.png)
+| ![](assets/screenshot-2025-11-10-170733.png) |  ![](assets/screenshot-2025-11-10-170802.png) |
 
 ### Admin Settings
 
