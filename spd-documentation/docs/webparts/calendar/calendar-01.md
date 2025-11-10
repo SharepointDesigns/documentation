@@ -10,7 +10,7 @@ The calendar displays all upcoming corporate events with dates and timings. Empl
 
 ## Configuration
 
-### Header Settings
+### Header settings
 
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
@@ -30,7 +30,7 @@ The calendar displays all upcoming corporate events with dates and timings. Empl
 
 - - -
 
-### General Settings
+### General settings
 
 <details>
 <summary>📸 View General Settings Screenshots</summary>
@@ -39,16 +39,16 @@ The calendar displays all upcoming corporate events with dates and timings. Empl
 
 </details>
 
-| Name                     | Purpose                                                         | Example / Options                     |
-| ------------------------ | --------------------------------------------------------------- | ------------------------------------- |
-| Layout                   | Choose how events are displayed.                                | Horizontal View / Vertical View       |
-| Select the option Events | Select the event source for the Calendar.                       | Events from SharePoint List           |
-| Select events list       | Choose the SharePoint list from which events will be displayed. | Dropdown of event lists               |
-| Filter Events            | Control which past and upcoming events appear.                  | “Previous 6 months + upcoming events” |
+| Name                     | Purpose                                                                                                                                                          | Example / Options                     |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| Layout                   | Choose how events are displayed.                                                                                                                                 | Horizontal View / Vertical View       |
+| Select the option Events | Select the event source for the Calendar. \[Events from SharePoint List, Events from Shared Mailbox, Events from Current User Outlook, Event from Group Mailbox] | Events from SharePoint List           |
+| Select events list       | Choose the SharePoint list from which events will be displayed.                                                                                                  | Dropdown of event lists               |
+| Filter Events            | Control which past and upcoming events appear.                                                                                                                   | “Previous 6 months + upcoming events” |
 
 - - -
 
-### Appearance Settings
+### Appearance settings
 
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
