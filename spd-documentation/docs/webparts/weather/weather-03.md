@@ -8,9 +8,15 @@ This modern SharePoint web part provides weather updates for your organization's
 Simply configure a SharePoint list with the locations you want to track, and the web part handles the rest.
 It offers clear and accurate weather insights to help teams stay informed.
 
+
+
+![](assets/screenshot-2025-11-10-132539.png)
+
 ## Configuration
 
 ### Header Settings
+
+![](assets/screenshot-2025-11-10-125759.png)
 
 | Name                       | Purpose                                                 | Example / Options       |
 | -------------------------- | ------------------------------------------------------- | ----------------------- |
@@ -20,12 +26,16 @@ It offers clear and accurate weather insights to help teams stay informed.
 
 ### General Settings
 
+![](assets/screenshot-2025-11-10-124619.png)
+
 | Name                | Purpose                                            | Example/Options  |
 | ------------------- | -------------------------------------------------- | ---------------- |
 | Select Weather List | Choose which SharePoint list to display data from. | Weather          |
 | Degree Unit         | Choose the Degree Unit to show weather             | Dropdown (°F/°C) |
 
 ### Appearance Settings
+
+![](assets/screenshot-2025-11-10-124640.png)
 
 | Name                             | Purpose                                      | Example/Options     |
 | -------------------------------- | -------------------------------------------- | ------------------- |
