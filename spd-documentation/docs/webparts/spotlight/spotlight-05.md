@@ -29,3 +29,21 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 | Filter the Period        | Select a filter period for displaying data     |  Dropdown            |
 | Show Category Filter Buttons | Toggle to show category filter  | On/Off              |
 | Filter by Category    | To display a particular category alone.   | Dropdown    |
+
+### Admin Settings
+
+![](assets/screenshot-2025-11-10-135757.png)
+
+| Name            | Purpose                               | Example/Options |
+| --------------- | ------------------------------------- | --------------- |
+| Show Admin Menu | Toggle to show or hide the Admin Menu | Show/Hide       |
+
+### About
+
+![](assets/screenshot-2025-11-10-142145.png)
+
+| Name                   | Purpose                                                           |
+| ---------------------- | ----------------------------------------------------------------- |
+| **Developer Info**     | Indicates the web part is built by **SharePoint Designs**.        |
+| **Documentation Link** | Links to this documentation for easy reference.                   |
+| **Activate License**   | Button to activate the licensed or premium version if applicable. |
