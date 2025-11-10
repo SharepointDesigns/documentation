@@ -10,3 +10,23 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 ## Configuration
 
 ### Header Settings
+
+![](assets/screenshot-2025-11-10-164757.png)
+
+| Name                       | Purpose                                                 | Example / Options       |
+| -------------------------- | ------------------------------------------------------- | ----------------------- |
+| Header Visibility          | Toggle to show or hide the Web Part title               | Show Header/Hide Header |
+| WebPart Title              | Specify a title for the Spotlight Web Part.             | “Spotlight”             |
+| Choose title heading level | Select the heading level (H1–H4) for the WebPart title. | Heading 3               |
+
+### General Settings
+
+![](assets/screenshot-2025-11-10-165214.png)
+
+| Name                       | Purpose                                                 | Example / Options       |
+| -------------------------- | ------------------------------------------------------- | ----------------------- |
+| Select List               | Choose which SharePoint list to display data from. | Employee Spotlights |
+| Filter the Period        | Select a filter period for displaying data     |  Dropdown            |
+| Show Category Filter Buttons | Toggle to show category filter  | On/Off              |
+| Filter by Category    | To display a particular category alone.   | Dropdown    |
+
