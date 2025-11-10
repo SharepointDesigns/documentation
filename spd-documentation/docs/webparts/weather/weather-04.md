@@ -65,7 +65,7 @@ It offers clear and accurate weather insights to help teams stay informed.
 <details>
 <summary>📸 View Admin Settings Screenshots</summary>
 
-![](assets/screenshot-2025-11-10-135757.png)
+![Admin](assets/screenshot-2025-11-10-135757.png)
 
 </details>
 
@@ -79,7 +79,7 @@ It offers clear and accurate weather insights to help teams stay informed.
 <details>
 <summary>📸 View About Screenshots</summary>
 
-![](assets/screenshot-2025-11-10-142145.png)
+![About](assets/screenshot-2025-11-10-142145.png)
 
 </details>
 
