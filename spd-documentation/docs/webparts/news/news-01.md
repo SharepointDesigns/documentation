@@ -42,7 +42,7 @@ This News web part showcases recent articles and events with eye-catching images
 | ------------------- | -------------------------------------------------------------------- | ----------------------------------------- |
 | Search sites        | Search the SharePoint sites source for the News.                     | SharePoint Sites available in the tenant. |
 | Website(s) selected | Select the SharePoint sites source for the News.                     | Search results based upon the key search  |
-| Enable RSS Feed     |                                                                      | Toggle                                    |
+| Enable RSS Feed     |                                                                      | On/Off                                    |
 | Target audience     | Enter the person or group as a target audience for the News Web Part | People Picker                             |
 | Manage news posts   | Create new News posts or update the existing news posts              | Link                                      |
 
