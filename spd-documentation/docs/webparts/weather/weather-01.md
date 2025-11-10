@@ -46,11 +46,8 @@ It offers clear and accurate weather insights to help teams stay informed.
 
 ### Appearance Settings
 
-
-<details><summary>📸 View Appearance Settings Screenshots</summary>
-
-
-
+<details>
+<summary>📸 View Appearance Settings Screenshots</summary>
 ![Appearance](assets/screenshot-2025-11-10-124640.png)
 </details>
 
