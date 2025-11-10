@@ -19,13 +19,13 @@ This News web part showcases recent articles and events with eye-catching images
 
 </details>
 
-| Name                       | Purpose                                                     | Example / Options          |
-| -------------------------- | ----------------------------------------------------------- | -------------------------- |
-| Webpart title              | Specify a title for the News Web Part.                      | “NEWS”                     |
-| Choose title heading level | Select the heading level (H1–H6) for the Web Part title.    | Heading 3                  |
-| Hide webpart title         | Toggle to show or hide the Web Part title.                  | Show / Hide                |
-| Show see all button        | Display or hide the “See All” link for News navigation. | Show / Hide                |
-| See all link              | Provide a URL for the “See All” button to redirect users.  | `{siteUrl}/_layouts/15/news.aspx` |
+| Name                       | Purpose                                                   | Example / Options                 |
+| -------------------------- | --------------------------------------------------------- | --------------------------------- |
+| Webpart title              | Specify a title for the News Web Part.                    | “NEWS”                            |
+| Choose title heading level | Select the heading level (H1–H6) for the Web Part title.  | Heading 3                         |
+| Hide webpart title         | Toggle to show or hide the Web Part title.                | Show / Hide                       |
+| Show see all button        | Display or hide the “See All” link for News navigation.   | Show / Hide                       |
+| See all link               | Provide a URL for the “See All” button to redirect users. | `{siteUrl}/_layouts/15/news.aspx` |
 
 - - -
 
@@ -34,16 +34,32 @@ This News web part showcases recent articles and events with eye-catching images
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-![General Settings](assets/cal01propertypane1.png)
+![General Settings](assets/screenshot-2025-11-10-080422.png)
 
 </details>
 
-| Name                     | Purpose                                                         | Example / Options                     |
-| ------------------------ | --------------------------------------------------------------- | ------------------------------------- |
-| Layout                   | Choose how events are displayed.                                | Horizontal View / Vertical View       |
-| Select the option Events | Select the event source for the Calendar.                       | Events from SharePoint List           |
-| Select events list       | Choose the SharePoint list from which events will be displayed. | Dropdown of event lists               |
-| Filter Events            | Control which past and upcoming events appear.                  | “Previous 6 months + upcoming events” |
+| Name                | Purpose                                                              | Example / Options                         |
+| ------------------- | -------------------------------------------------------------------- | ----------------------------------------- |
+| Search sites        | Search the SharePoint sites source for the News.                     | SharePoint Sites available in the tenant. |
+| Website(s) selected | Select the SharePoint sites source for the News.                     | Search results based upon the key search  |
+| Enable RSS Feed     |                                                                      | Toggle                                    |
+| Target audience     | Enter the person or group as a target audience for the News Web Part | People Picker                             |
+| Manage news posts   | Create new News posts or update the existing news posts              | Link                                      |
+
+- - -
+
+#### Layout Settings
+
+<details>
+<summary>📸 View layout Configuration Screenshots</summary>
+
+![layout settings](assets/screenshot-2025-11-10-082111.png)
+
+</details>
+
+| Name          | Purpose                                | Example  |
+| ------------- | -------------------------------------- | -------- |
+| Choose layout | Choose the layout for the News Webpart | Dropdown |
 
 - - -
 
@@ -52,18 +68,11 @@ This News web part showcases recent articles and events with eye-catching images
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
 
-![Appearance Settings](assets/cal01propertypane2.png)
+![Appearance Settings](assets/screenshot-2025-11-10-082210.png)
 
 </details>
 
 | Name                     | Purpose                                                        | Example / Options           |
 | ------------------------ | -------------------------------------------------------------- | --------------------------- |
-| Show Icon/Banner Options | Toggle to show or hide the icon/banner in the calendar header. | Yes / No                    |
-| Show Icon                | Display the calendar icon in the header.                       | Checkbox                    |
-| Show Banner              | Display a banner background behind the title.                  | Checkbox                    |
-| Show Calendar            | Toggle the visibility of the main calendar component.          | Yes / No                    |
-| Show Border              | Display a border around the calendar component.                | Yes / No                    |
-| Show Top Border          | Add a top border above the web part.                           | Yes / No                    |
-| Border Radius            | Adjust the roundness of calendar month corners.                | Slider (e.g., 25)           |
-| Background Color         | Set a background color for the calendar section.               | Color Picker                |
-| Text Color               | Choose a color for event titles and text.                      | Color Picker (Hex: #992525) |
+| Show border           | Toggle to show or hide the border of the banner. | On/Off       |
+| Show shadow           | Toggle to show or hide the shadow of the banner. | On/Off       |                  |
