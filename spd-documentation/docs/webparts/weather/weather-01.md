@@ -10,9 +10,11 @@ It offers clear and accurate weather insights to help teams stay informed.
 
 ## Configuration
 
+![](assets/screenshot-2025-11-10-124430.png)
+
 ### Header Settings
 
-![](assets/screenshot-2025-11-10-124430.png)
+![](assets/screenshot-2025-11-10-124556.png)
 
 | Name                       | Purpose                                                 | Example / Options       |
 | -------------------------- | ------------------------------------------------------- | ----------------------- |
@@ -22,12 +24,16 @@ It offers clear and accurate weather insights to help teams stay informed.
 
 ### General Settings
 
+![](assets/screenshot-2025-11-10-124619.png)
+
 | Name                | Purpose                                            | Example/Options  |
 | ------------------- | -------------------------------------------------- | ---------------- |
 | Select Weather List | Choose which SharePoint list to display data from. | Weather          |
 | Degree Unit         | Choose the Degree Unit to show weather             | Dropdown (°F/°C) |
 
 ### Appearance Settings
+
+![](assets/screenshot-2025-11-10-124640.png)
 
 | Name                             | Purpose                                      | Example/Options     |
 | -------------------------------- | -------------------------------------------- | ------------------- |
