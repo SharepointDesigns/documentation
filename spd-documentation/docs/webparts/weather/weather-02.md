@@ -14,14 +14,19 @@ It offers clear and accurate weather insights to help teams stay informed.
 
 ### Header Settings
 
-![](assets/screenshot-2025-11-10-125759.png)
+<details>
+<summary>📸 View Header Settings Screenshots</summary>
+
+![Header](assets/screenshot-2025-11-10-125759.png)
+
+</details>
 
 | Name                       | Purpose                                                 | Example / Options       |
 | -------------------------- | ------------------------------------------------------- | ----------------------- |
 | Header Visibility          | Toggle to show or hide the Web Part title               | Show Header/Hide Header |
 | Enter the webpart title    | Specify a title for the Weather Web Part.               | “Weather”               |
 | Choose title heading level | Select the heading level (H1–H4) for the WebPart title. | Heading 3               |
-
+---
 ### General Settings
 
 ![](assets/screenshot-2025-11-10-124619.png)
