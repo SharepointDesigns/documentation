@@ -54,11 +54,11 @@ It offers clear and accurate weather insights to help teams stay informed.
 
 ![](assets/screenshot-2025-11-10-142145.png)
 
-| Name               | Purpose                                                    |
-| ------------------ | ---------------------------------------------------------- |
-| **Developer Info** | Indicates the web part is built by **SharePoint Designs**. |
-| **Documentation Link** | Links to this documentation for easy reference. |
-| **Activate License** | Button to activate the licensed or premium version if applicable. |
+| Name                   | Purpose                                                           |
+| ---------------------- | ----------------------------------------------------------------- |
+| **Developer Info**     | Indicates the web part is built by **SharePoint Designs**.        |
+| **Documentation Link** | Links to this documentation for easy reference.                   |
+| **Activate License**   | Button to activate the licensed or premium version if applicable. |
 
 ### Usage Notes
 
