@@ -14,8 +14,7 @@ It offers clear and accurate weather insights to help teams stay informed.
 
 | Name                       | Purpose                                                   | Example / Options                 |
 | -------------------------- | --------------------------------------------------------- | --------------------------------- |
-| Webpart title              | Specify a title for the News Web Part.                    | “NEWS”                            |
-| Choose title heading level | Select the heading level (H1–H6) for the Web Part title.  | Heading 3                         |
-| Hide webpart title         | Toggle to show or hide the Web Part title.                | Show / Hide                       |
-| Show see all button        | Display or hide the “See All” link for News navigation.   | Show / Hide                       |
-| See all link               | Provide a URL for the “See All” button to redirect users. | `{siteUrl}/_layouts/15/news.aspx` |
+| Header Visibility       | Toggle to show or hide the Web Part title   | Show Header/Hide Header                          |
+| Enter the webpart title | Specify a title for the Weather Web Part.  |  “Weather 01”                          |
+| Choose title heading level         | Select the heading level (H1–H6) for the WebPart title.                | Heading 3                    |
+
