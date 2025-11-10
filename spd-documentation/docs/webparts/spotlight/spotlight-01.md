@@ -32,7 +32,7 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-![](assets/screenshot-2025-11-10-165214.png)
+![General Settings](assets/screenshot-2025-11-10-165214.png)
 
 </details>
 
@@ -56,6 +56,8 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 
 </details>
 
+---
+
 ### Admin Settings
 
 <details>
@@ -68,6 +70,8 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 | Name            | Purpose                               | Example/Options |
 | --------------- | ------------------------------------- | --------------- |
 | Show Admin Menu | Toggle to show or hide the Admin Menu | Show/Hide       |
+
+---
 
 ### About
 
