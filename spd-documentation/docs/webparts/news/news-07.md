@@ -6,7 +6,7 @@ sidebar_position: 5
 
 This News web part showcases recent articles and events with eye-catching images and clear categorization by topics like Finance, Industry, HR, and Technology. Users can quickly browse and filter news items, keeping everyone informed and connected on the SharePoint site.
 
-![](assets/screenshot-2025-11-10-085018.png)
+![](assets/screenshot-2025-11-10-085443.png)
 
 ## Configuration
 
