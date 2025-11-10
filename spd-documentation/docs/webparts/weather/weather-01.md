@@ -8,9 +8,11 @@ This modern SharePoint web part provides weather updates for your organization's
 Simply configure a SharePoint list with the locations you want to track, and the web part handles the rest.
 It offers clear and accurate weather insights to help teams stay informed.
 
-## Configuration
+
 
 ![](assets/screenshot-2025-11-10-124430.png)
+
+## Configuration
 
 ### Header Settings
 
