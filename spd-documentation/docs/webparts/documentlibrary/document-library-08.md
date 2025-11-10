@@ -54,7 +54,7 @@ Document Library allows users to browse and interact with SharePoint documents d
 <details>
 <summary>📸 View layout Configuration Screenshots</summary>
 
-![layout settings](assets/screenshot-2025-11-10-164249.png)
+![layout settings](assets/screenshot-2025-11-11-004010.png)
 
 </details>
 
@@ -73,9 +73,9 @@ Document Library allows users to browse and interact with SharePoint documents d
 
 </details>
 
-| Name                           | Purpose                                                            | Example / Options |     |
-| ------------------------------ | ------------------------------------------------------------------ | ----------------- | --- |
-| Show border                    | Toggle to show or hide the border of the document content.         | On/Off            |     |
-| Show shadow                    | Toggle to show or hide the shadow of the document content.         | On/Off            |     |
-| Change background color        | Toggle to change background color the document container.          | On/Off            |     |
-| Enable navigation             | Toggle to show or hide the slider navigation icon document content. | On/Off            |     |
+| Name                    | Purpose                                                             | Example / Options |     |
+| ----------------------- | ------------------------------------------------------------------- | ----------------- | --- |
+| Show border             | Toggle to show or hide the border of the document content.          | On/Off            |     |
+| Show shadow             | Toggle to show or hide the shadow of the document content.          | On/Off            |     |
+| Change background color | Toggle to change background color the document container.           | On/Off            |     |
+| Enable navigation       | Toggle to show or hide the slider navigation icon document content. | On/Off            |     |
