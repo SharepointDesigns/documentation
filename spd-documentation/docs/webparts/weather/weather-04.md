@@ -8,17 +8,25 @@ This modern SharePoint web part provides weather updates for your organization's
 Simply configure a SharePoint list with the locations you want to track, and the web part handles the rest.
 It offers clear and accurate weather insights to help teams stay informed.
 
+
+
+![](assets/screenshot-2025-11-10-133536.png)
+
 ## Configuration
 
 ### Header Settings
 
+![](assets/screenshot-2025-11-10-125759.png)
+
 | Name                       | Purpose                                                 | Example / Options       |
 | -------------------------- | ------------------------------------------------------- | ----------------------- |
 | Header Visibility          | Toggle to show or hide the Web Part title               | Show Header/Hide Header |
-| Enter the webpart title    | Specify a title for the Weather Web Part.               | “Weather 01”            |
+| Enter the webpart title    | Specify a title for the Weather Web Part.               | “Weather”               |
 | Choose title heading level | Select the heading level (H1–H4) for the WebPart title. | Heading 3               |
 
 ### General Settings
+
+![](assets/screenshot-2025-11-10-124619.png)
 
 | Name                | Purpose                                            | Example/Options  |
 | ------------------- | -------------------------------------------------- | ---------------- |
@@ -26,6 +34,8 @@ It offers clear and accurate weather insights to help teams stay informed.
 | Degree Unit         | Choose the Degree Unit to show weather             | Dropdown (°F/°C) |
 
 ### Appearance Settings
+
+![](assets/screenshot-2025-11-10-124640.png)
 
 | Name                             | Purpose                                      | Example/Options     |
 | -------------------------------- | -------------------------------------------- | ------------------- |
