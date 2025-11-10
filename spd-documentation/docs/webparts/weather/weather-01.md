@@ -12,6 +12,8 @@ It offers clear and accurate weather insights to help teams stay informed.
 
 ### Header Settings
 
+![](assets/screenshot-2025-11-10-124430.png)
+
 | Name                       | Purpose                                                 | Example / Options       |
 | -------------------------- | ------------------------------------------------------- | ----------------------- |
 | Header Visibility          | Toggle to show or hide the Web Part title               | Show Header/Hide Header |
