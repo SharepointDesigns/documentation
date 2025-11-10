@@ -25,8 +25,6 @@ The design showcases folder cards in two themes—Bright and Light—for documen
 | Choose title heading level  | Select the heading level (H1–H6) for the WebPart title.     | Heading 3                  |
 | Hide WebPart Title          | Toggle to show or hide the WebPart title.                   | Show / Hide                |
 | WebPart Title (Theme-based) | Set a theme-based title color or style for the WebPart.     | Color Picker               |
-| Show “See All” Link         | Display or hide the “See All” link for calendar navigation. | Show / Hide                |
-| View All URL                | Provide a URL for the “View All” button to redirect users.  | `/sites/events/all-events` |
 
 - - -
 
