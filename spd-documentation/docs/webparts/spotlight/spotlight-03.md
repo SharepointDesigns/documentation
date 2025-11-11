@@ -50,9 +50,9 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
 
-![](assets/screenshot-2025-11-11-113744.png)
+![Appearance_1](assets/screenshot-2025-11-11-113744.png)
 
-![](assets/screenshot-2025-11-11-113851.png)
+![Appearance_2](assets/screenshot-2025-11-11-113851.png)
 
 </details>
 
