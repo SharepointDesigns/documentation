@@ -15,7 +15,7 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
 
-![Header Settings](assets/screenshot-2025-11-10-164757.png)
+![Header](assets/screenshot-2025-11-10-164757.png)
 
 </details>
 
@@ -32,7 +32,7 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-![General Settings](assets/screenshot-2025-11-10-165214.png)
+![General](assets/screenshot-2025-11-10-165214.png)
 
 </details>
 
@@ -43,16 +43,16 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 | Show Category Filter Buttons | Toggle to show category filter                     | On/Off              |
 | Filter by Category           | To display a particular category alone.            | Dropdown            |
 
-- - -
+---
 
 ### Apperanace Settings
 
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
 
-![Appearance Settings - 1](assets/screenshot-2025-11-10-170733.png)
+![Appearance-1](assets/screenshot-2025-11-10-170733.png)
 
-![Appearance Settings - 2](assets/screenshot-2025-11-10-170802.png)
+![Appearance-2](assets/screenshot-2025-11-10-170802.png)
 
 </details>
 
@@ -77,7 +77,7 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 <details>
 <summary>📸 View Admin Settings Screenshots</summary>
 
-![Admin Settings](assets/screenshot-2025-11-10-135757.png)
+![Admin](assets/screenshot-2025-11-10-135757.png)
 
 </details>
 
@@ -101,3 +101,5 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 | **Developer Info**     | Indicates the web part is built by **SharePoint Designs**.        |
 | **Documentation Link** | Links to this documentation for easy reference.                   |
 | **Activate License**   | Button to activate the licensed or premium version if applicable. |
+
+---
