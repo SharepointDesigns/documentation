@@ -64,11 +64,9 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 | Background Image 1                                | Upload a custom background image                     | Image Picker        |
 | Enable Top Flag Image                             | Toggle to show or hide the Top Flag Image            | Enabled/Disabled    |
 | Top Flag Image                                    | Upload a custom top flag image                       | Image Picker        |
-| Color Mode                                        | Select the color mode for background gradient        | Dropdown            |
-| Gradient Color                                    | Select the gradient color for background             | Color Picker        |
-| Gradient Variant                                  | Select the gradient variant for background           | Dropdown            |
-| Elements Color (Title, Category, Profile, Button) | Select the gradient color for elements               | Color Picker        |
-| Elements Variant                                  | Select the gradient variant for elements             | Dropdown            |
+| Color Mode                          | Select the color mode to pick for elements  | Dropdown            |
+| Title and Greeting Message   | Select the color for title and greeting message     | Color Picker  |
+| Webpart Title, Category       | Select the color for webpart title and category       | Color Picker   |
 
 ---
 ### Carousel Settings
@@ -76,7 +74,7 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 <details>
 <summary>📸 View Carousel Settings Screenshots</summary>
 
-![](assets/screenshot-2025-11-11-115525.png)
+![Carousel](assets/screenshot-2025-11-11-115525.png)
 
 </details>
 
