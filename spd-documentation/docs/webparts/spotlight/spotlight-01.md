@@ -61,7 +61,7 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 | Cards to Show | Adjust the Slider to show number of cards to be displayed | Slider       |
 | Category Filter Alignment | Select the desired alignment for the filter category | Choice  |
 | Show Border | Toggle to show or hide the border | On/Off            |    
-| Show Shadow | Toggle to show or hide the shadow for border | On/Off            | 
+| Show Shadow on Border | Toggle to show or hide the shadow for border | On/Off            | 
 | Border Radius For Border (in px) | Adjusts the roundness of corners for items. | Slider(8px to 25px) |
 | Accent Color | Choose the background color applied to the category tag on the card | Color Picker |
 | Card Color 1 | Choose the bacckground color applied on the first card  | Color Picker |
