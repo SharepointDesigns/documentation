@@ -17,8 +17,6 @@ Document Library allows users to browse and interact with SharePoint documents d
 
 ![Header Settings](assets/screenshot-2025-11-10-154203.png)
 
-![]()
-
 </details>
 
 | Name                       | Purpose                                                             | Example / Options   |
