@@ -6,6 +6,27 @@ version: 1
 updated: October 2025
 description: Change Log settings and customization guide for each web part.
 ---
+## version 1.0.0.3
+
+### Banner Web Part (Bug Fixes)
+
+- Responsiveness issues fixed for mobile view.
+
+### Announcements Web Part
+
+- Removed drop shadow effect
+
+### Message from the CEO Web Part (Enhancements)
+
+- Fit the image height into the web part container.
+
+### News Web Part (Enhancements)
+
+- Improved the next and prev when category is not displayed.
+
+### Employee Spotlight Web Part (Enhancements)
+
+- Fixed the issue where the user profile image was not displaying correctly in Carousel view.
 ## Version 1.0.0.2
 
 #### [Welcome Banner Web Part (Bug Fixes)](/documentation/docs/design-4/configuration#-1-welcome-banner)
