@@ -1,5 +1,5 @@
 ---
-title: Quick Link 01
+title: Quick Links 01
 sidebar_position: 1
 ---
 ## Overview
