@@ -19,12 +19,14 @@ This web part will display a chart showing the organizational structure of the c
 
 </details>
 
-| Name                       | Purpose                                                                       | Example              |
-| -------------------------- | ----------------------------------------------------------------------------- | -------------------- |
-| Webpart title              | Display title of the webpart.                                                 | “Organization Chart” |
-| Choose title heading level | Choose the heading level for the webpart title.                               | H1 / H2 / H3         |
-| Hide search                | Toggle to enable or disable hiding the search functionality for the web part. | On/Off               |
-| Hide header section        | Toggle to enable or disable hiding the header section for the web part.       | On/Off               |
+| Name                           | Purpose                                                                                                  | Example               |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------- | --------------------- |
+| Webpart title                  | Display title of the webpart.                                                                            | “Organization Chart”  |
+| Choose title heading level     | Choose the heading level for the webpart title.                                                          | H1 / H2 / H3 / Custom |
+| Custom font size for title | Specify a custom font size for the webpart title (only visible when “Custom” heading level is selected). | 24px          |
+| Hide search                    | Toggle to enable or disable hiding the search functionality for the web part.                            | On/Off                |
+| Hide header section            | Toggle to enable or disable hiding the header section for the web part.                                  | On/Off                |
+
 
 #### Layout
 
