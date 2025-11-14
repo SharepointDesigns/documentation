@@ -19,13 +19,14 @@ This News web part showcases recent articles and events with eye-catching images
 
 </details>
 
-| Name                       | Purpose                                                   | Example / Options                 |
-| -------------------------- | --------------------------------------------------------- | --------------------------------- |
-| Webpart title              | Specify a title for the News Web Part.                    | “NEWS”                            |
-| Choose title heading level | Select the heading level (H1–H6) for the Web Part title.  | Heading 3                         |
-| Hide webpart title         | Toggle to show or hide the Web Part title.                | Show / Hide                       |
-| Show see all button        | Display or hide the “See All” link for News navigation.   | Show / Hide                       |
-| See all link               | Provide a URL for the “See All” button to redirect users. | `{siteUrl}/_layouts/15/news.aspx` |
+| Name                       | Purpose                                                                                                  | Example / Options                 |
+| -------------------------- | -------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| Webpart title              | Specify a title for the News Web Part.                                                                   | “NEWS”                            |
+| Choose title heading level | Choose the heading level for the webpart title.                                                          | H1 / H2 / H3 / Custom             |
+| Custom font size for title | Specify a custom font size for the webpart title (only visible when “Custom” heading level is selected). | 24px                              |
+| Hide webpart title         | Toggle to show or hide the Web Part title.                                                               | Show / Hide                       |
+| Show see all button        | Display or hide the “See All” link for News navigation.                                                  | Show / Hide                       |
+| See all link               | Provide a URL for the “See All” button to redirect users.                                                | `{siteUrl}/_layouts/15/news.aspx` |
 
 - - -
 
@@ -41,8 +42,8 @@ This News web part showcases recent articles and events with eye-catching images
 | Name                | Purpose                                                              | Example / Options                         |
 | ------------------- | -------------------------------------------------------------------- | ----------------------------------------- |
 | Search sites        | Search the SharePoint sites source for the News.                     | SharePoint Sites available in the tenant. |
-| Website(s) selected | Select the SharePoint sites source for the News.                     | Search results based upon the key search |
-| Enable RSS Feed     | Fetch News from RSS feed                                                             |                               On / Off            |
+| Website(s) selected | Select the SharePoint sites source for the News.                     | Search results based upon the key search  |
+| Enable RSS Feed     | Fetch News from RSS feed                                             | On / Off                                  |
 | Target audience     | Enter the person or group as a target audience for the News Web Part | People Picker                             |
 | Manage news posts   | Create new News posts or update the existing news posts              | Link                                      |
 
@@ -53,13 +54,15 @@ This News web part showcases recent articles and events with eye-catching images
 <details>
 <summary>📸 View layout Configuration Screenshots</summary>
 
-![layout settings](assets/layout.png)
+![layout settings](assets/screenshot-2025-11-14-173234.png)
 
 </details>
 
-| Name          | Purpose                                | Example  |
+| Name          | Purpose                                | Example |
 | ------------- | -------------------------------------- | -------- |
 | Choose layout | Choose the layout for the News Webpart | Dropdown |
+| Group by category | Enable Category for the News Webpart | On/Off |
+
 
 - - -
 
