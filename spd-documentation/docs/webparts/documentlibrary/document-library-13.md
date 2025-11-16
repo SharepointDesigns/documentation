@@ -1,6 +1,6 @@
 ---
 title: Document Library 13
-sidebar_position: 5
+sidebar_position: 13
 ---
 ## Overview
 
@@ -16,8 +16,6 @@ Document Library allows users to browse and interact with SharePoint documents d
 <summary>📸 View Header Settings Screenshots</summary>
 
 ![Header Settings](assets/screenshot-2025-11-11-005811.png)
-
-![]()
 
 </details>
 
