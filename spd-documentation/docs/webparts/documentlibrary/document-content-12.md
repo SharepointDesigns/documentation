@@ -1,5 +1,5 @@
 ---
-title: Document Content 12
+title: Document Library 12
 sidebar_position: 12
 ---
 ## Overview
@@ -27,6 +27,7 @@ The design showcases folder cards in two themes—Bright and Light—for documen
 | WebPart Title (Theme-based) | Set a theme-based title color or style for the WebPart.     | Color Picker               |
 
 - - -
+
 
 ### General settings
 
