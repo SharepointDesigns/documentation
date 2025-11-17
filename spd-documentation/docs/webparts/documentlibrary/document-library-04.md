@@ -1,5 +1,6 @@
 ---
 title: Document Library 04
+sidebar_position: 4
 ---
 ## Overview
 
@@ -16,15 +17,14 @@ Document Library allows users to browse and interact with SharePoint documents d
 
 ![Header Settings](assets/screenshot-2025-11-11-120347.png)
 
-![]()
-
 </details>
 
 | Name                       | Purpose                                                             | Example / Options   |
 | -------------------------- | ------------------------------------------------------------------- | ------------------- |
 | Show header                | Toggle to show or hide the Web Part title.                          | Show / Hide         |
 | Title                      | Specify a title for the Document Library Web Part.                  | “DOCUMENT CONTENTS” |
-| Choose title heading level | Select the heading level (H1–H6) for the Web Part title.            | Heading 3           |
+| Choose title heading level | Choose the heading level for the webpart title.                                                          | H1 / H2 / H3 / Custom             |
+| Custom font size for title | Specify a custom font size for the webpart title (only visible when “Custom” heading level is selected). | 24px     
 | Title theme color          | Set a theme-based title color or style for the Web Part.            | Dropdown            |
 | Show see all button        | Display or hide the “See All” link for Document Library navigation. | Show / Hide         |
 
