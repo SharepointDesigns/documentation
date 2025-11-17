@@ -1,5 +1,6 @@
 ---
 title: Document Library 05
+sidebar_position: 5
 ---
 ## Overview
 
@@ -14,20 +15,19 @@ Document Library allows users to browse and interact with SharePoint documents d
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
 
-![Header Settings](assets/screenshot-2025-11-11-102546.png)
-
-![]()
+![Header Settings](assets/screenshot-2025-11-17-115033.png)
 
 </details>
 
-| Name                           | Purpose                                                             | Example / Options   |
-| ------------------------------ | ------------------------------------------------------------------- | ------------------- |
-| Show header                    | Toggle to show or hide the Web Part title.                          | Show / Hide         |
-| Title                          | Specify a title for the Document Library Web Part.                  | “DOCUMENT CONTENTS” |
-| Choose title heading level     | Select the heading level (H1–H6) for the Web Part title.            | Heading 3           |
-| Title theme color              | Set a theme-based title color or style for the Web Part.            | Dropdown            |
-| Change header background color | Set a background color of title  for the Web Part.                  | Color Picker        |
-| Show see all button            | Display or hide the “See All” link for Document Library navigation. | Show / Hide         |
+| Name                           | Purpose                                                                                                  | Example / Options     |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------- | --------------------- |
+| Show header                    | Toggle to show or hide the Web Part title.                                                               | Show / Hide           |
+| Title                          | Specify a title for the Document Library Web Part.                                                       | “DOCUMENT CONTENTS”   |
+| Choose title heading level     | Choose the heading level for the webpart title.                                                          | H1 / H2 / H3 / Custom |
+| Custom font size for title     | Specify a custom font size for the webpart title (only visible when “Custom” heading level is selected). | 24px                  |
+| Title theme color              | Set a theme-based title color or style for the Web Part.                                                 | Dropdown              |
+| Change header background color | Set a background color of title for the Web Part.                                                        | Color Picker          |
+| Show see all button            | Display or hide the “See All” link for Document Library navigation.                                      | Show / Hide           |
 
 - - -
 
@@ -36,7 +36,7 @@ Document Library allows users to browse and interact with SharePoint documents d
 <details>
 <summary>📸 View Content Settings Screenshots</summary>
 
-![](assets/screenshot-2025-11-11-102945.png)
+![](assets/screenshot-2025-11-17-120056.png)
 
 </details>
 
@@ -56,7 +56,7 @@ Document Library allows users to browse and interact with SharePoint documents d
 <details>
 <summary>📸 View layout Configuration Screenshots</summary>
 
-![layout settings](assets/screenshot-2025-11-11-103916.png)
+![layout settings](assets/screenshot-2025-11-17-120607.png)
 
 </details>
 
@@ -71,7 +71,7 @@ Document Library allows users to browse and interact with SharePoint documents d
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
 
-![Appearance Settings](assets/screenshot-2025-11-11-103434.png)
+![Appearance Settings](assets/screenshot-2025-11-17-120436.png)
 
 </details>
 
@@ -81,4 +81,4 @@ Document Library allows users to browse and interact with SharePoint documents d
 | Show shadow             | Toggle to show or hide the shadow of the document content.          | On/Off            |     |
 | Show file icon          | Toggle to show or hide the File icon of the document content.       | On/Off            |     |
 | Change background color | Toggle to change background color the document container.           | On/Off            |     |
-| Enable navigation       | Toggle to show or hide the slider navigation icon document content. | On/Off            |     |
+| Height of the web part (in px)       | Set the custom desire height of the Document Content Web part. | Slider           |     |
