@@ -33,7 +33,7 @@ Document Library allows users to browse and interact with SharePoint documents d
 ### Content Settings
 
 <details>
-<summary>📸 View General Settings Screenshots</summary>
+<summary>📸 View Content Settings Screenshots</summary>
 
 ![General Settings](assets/screenshot-2025-11-10-160033.png)
 
