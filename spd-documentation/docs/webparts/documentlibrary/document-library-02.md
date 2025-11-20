@@ -42,9 +42,11 @@ The Mandatory Trainings Web Part presents essential employee training programs t
 
 | Name                      | Purpose                                                 | Example / Options               |
 | ------------------------- | ------------------------------------------------------- | ------------------------------- |
-| Source                    | Select the document source location for the content.    | A document library on this site |
-| Select a Library          | Choose a specific document library from the site.       | Document12Contents              |
-| Goto Library              | Quick navigation link to the selected library.          | Opens library in SharePoint     |
+| Source                    | Source of the Document library.    | A document library on this site |
+| Select a Library          | Choose a specific document library from the site.       | DocumentContents              |
+| Search sites              | Search the SharePoint sites available in the tenant          | SharePoint Sites available in the tenant.     |
+| Website(s) selected             | Select the SharePoint sites source for the Document Library. | Search results based upon the key search                        |
+| Number of items to display | Enter the number of items to display.     | Number between 01 and 4999    |
 | Category Name             | Select the metadata column used for category filtering. | Category                        |
 | Filter the Category Value | Choose one or more category values to filter items.     | Choice 1, Choice 2, Choice 3    |
 
@@ -55,7 +57,7 @@ The Mandatory Trainings Web Part presents essential employee training programs t
 <details>
 <summary>📸 View Appearance Settings Screenshot</summary>
 
-![Appearance Settings](assets/appearance-settings.png)
+![Appearance Settings](assets/doc02propertypane02.png)
 
 </details>
 
