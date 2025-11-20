@@ -42,9 +42,11 @@ The Policies Web Part provides a streamlined, card-based carousel that highlight
 
 | Name                      | Purpose                                                 | Example / Options               |
 | ------------------------- | ------------------------------------------------------- | ------------------------------- |
-| Source                    | Select the document source location for the content.    | A document library on this site |
-| Select a Library          | Choose a specific document library from the site.       | Document12Contents              |
-| Goto Library              | Quick navigation link to the selected library.          | Opens library in SharePoint     |
+| Source                    | Source of the Document library.    | A document library on this site |
+| Select a Library          | Choose a specific document library from the site.       | DocumentContents              |
+| Search sites              | Search the SharePoint sites available in the tenant          | SharePoint Sites available in the tenant.     |
+| Website(s) selected             | Select the SharePoint sites source for the Document Library. | Search results based upon the key search                        |
+| Number of items to display | Enter the number of items to display.     | Number between 01 and 4999    |
 | Category Name             | Select the metadata column used for category filtering. | Category                        |
 | Filter the Category Value | Choose one or more category values to filter items.     | Choice 1, Choice 2, Choice 3    |
 
@@ -66,13 +68,11 @@ The Policies Web Part provides a streamlined, card-based carousel that highlight
 | Hide Category Filter       | Toggles visibility of the category filter bar.                      | Yes / No                          |
 | Show Title                 | Displays or hides the item title on each card.                      | On / Off                          |
 | Show Thumbnail             | Shows or hides the thumbnail image inside each card.                | On / Off                          |
-| Show Folder Name           | Enables display of folder names when applicable.                    | Yes / No                          |
 | Enable Navigation          | Shows carousel navigation arrows for scrolling through items.       | On / Off                          |
 | Enable Pagination          | Displays the pagination dots below the slider.                      | On / Off                          |
 | Show Category              | Enables category labels on each item card.                          | Yes / No                          |
 | Category Filter Alignment  | Sets alignment of category filter buttons.                          | Left / Center / Right             |
 | Slides per view            | Number of items shown at once in the carousel.                      | 1–4+                              |
-| Number of items to display | Limits the total number of items loaded in the web part.            | e.g., 20                          |
 | Enable Borders             | Adds or removes borders around cards.                               | On / Off                          |
 | Enable Shadow              | Adds shadow styling to cards for visual depth.                      | On / Off                          |
 | Background Color           | Sets background color for item cards or web part area (Hex / RGBA). | \#ffffff / RGB(255,255,255)       |
