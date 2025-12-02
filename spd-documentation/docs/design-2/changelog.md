@@ -27,6 +27,8 @@ sidebar_position: 5
 
 * Fixed where the styling applies to same webparts in a page
 * Implements target audience (Can be enabled from the list settings) 🆕
+### Top Navigation
+  * Implements target audience (Can be enabled from the list settings) 🆕
 
 ## Version - 1.0.0.2
 
