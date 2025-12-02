@@ -50,40 +50,42 @@ Create a SharePoint list with the following columns:
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Top Navigation Settings](assets/Topnavigationpropertypane1.png)
+![Top Navigation Settings](assets/topnavigationpropertypane1.png)
 
 ![Top Navigation Settings 2](assets/Topnavigationpropertypane2.png)
 
 </details>
+
 #### Header Settings
 
-| Name          | Purpose                          | Option         |
-| ------------- | -------------------------------- | -------------- |
-| WebPart Title | Title displayed for the web part | TOP NAVIGATION |
-| Hide Title    | Toggle web part title visibility | Show / Hide    |
+| Name          | Purpose                                                           | Option         |
+| ------------- | ----------------------------------------------------------------- | -------------- |
+| WebPart Title | Customize the title displayed above the navigation bar            | TOP NAVIGATION |
+| Hide Title    | Conceal the title to create a cleaner, more minimalist appearance | Show / Hide    |
 
 #### Appearance Settings
 
-| Name                   | Purpose                        | Option                |
-| ---------------------- | ------------------------------ | --------------------- |
-| Layout                 | Defines navigation layout      | Horizontal            |
-| Alignment              | Align content                  | Left / Center / Right |
-| Show Gradient on Hover | Adds hover gradient effect     | Show / Hide           |
-| Show Border            | Toggles border around web part | Show / Hide           |
-| Border Color           | Border color picker            | Color Picker          |
+| Name                   | Purpose                                                             | Option                |
+| ---------------------- | ------------------------------------------------------------------- | --------------------- |
+| Layout                 | Select the arrangement of navigation items (currently horizontal)   | Horizontal            |
+| Alignment              | Control the horizontal positioning of navigation items              | Left / Center / Right |
+| Show Gradient on Hover | Add a subtle gradient effect when users hover over navigation items | Show / Hide           |
+| Show Border            | Display a border frame around the entire navigation component       | Show / Hide           |
+| Border Color           | Choose the color of the navigation border for brand consistency     | Color Picker          |
+| Target Audience        | Restrict navigation visibility to specific user groups or audiences | Optional              |
 
 #### General Settings
 
-| Name                       | Purpose                               | Option        |
-| -------------------------- | ------------------------------------- | ------------- |
-| Select top navigation list | Choose SharePoint list for navigation | TopNavigation |
+| Name                       | Purpose                                                          | Option        |
+| -------------------------- | ---------------------------------------------------------------- | ------------- |
+| Select top navigation list | Choose the SharePoint list containing your navigation menu items | TopNavigation |
 
 #### Admin Settings
 
-| Name            | Purpose                     | Option       |
-| --------------- | --------------------------- | ------------ |
-| Show Admin Menu | Toggles admin-only features | Show / Hide  |
-| Admin Users     | Users with admin access     | (User names) |
+| Name            | Purpose                                                         | Option       |
+| --------------- | --------------------------------------------------------------- | ------------ |
+| Show Admin Menu | Display an additional menu section exclusive to administrators  | Show / Hide  |
+| Admin Users     | Specify which users have access to the admin-only menu features | (User names) |
 
 - - -
 
@@ -102,18 +104,36 @@ A personalized banner greeting the user by name and time, while promoting your o
 
 ![Welcome Banner Prop 1](assets/welcomebannerprop.png)
 
-![Welcome Banner Prop 2](assets/WBPropPanel2.png)
+![Welcome Banner Prop 2](assets/bannerprop2.png)
 
 </details>
 
-| Name                      | Purpose                                                                                 | Example                            |
-| ------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------- |
-| Welcome Message           | Display a personalized greeting. Use `{firstName}`, `{lastName}`, or `{fullName}` | `Hello {firstName}`              |
-| Format Date and Time      | Display the current date and time                                                       | “Thursday 14th Jul, 2022, 4:27 PM” |
-| Manage Announcement Items | Add the collection of announcements that will appear in carousel view                   | Property collection data field     |
-| Text Color                | Adjust paragraph text color                                                             | Color Picker                       |
-| Font Sizes                | Set badge, heading, and paragraph font sizes                                            | Slider Controls                    |
-| Change Background         | Upload a custom banner background                                                       | Image Picker                       |
+### General Settings
+
+| Name                      | Purpose                                                                                                                                  | Example                                 |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| Welcome Message           | Defines the greeting text displayed to users. Supports tokens such as `{firstName}`, `{lastName}`, and `{fullName}` for personalization. | `Welcome, {firstName}`                  |
+| Format Date and Time      | Configures how the current date and time are presented within the component.                                                             | `Monday, 14 Aug 2023, 3:45 PM`          |
+| Change Background         | Allows uploading a custom banner image to be used as the background.                                                                     | Upload via Image Picker                 |
+| Background image scaling  | Controls how the background image is resized or fitted within the banner area.                                                           | Options: Cover, Auto, Contain           |
+| Manage Announcement Items | Provides a collection field to add and manage the announcements displayed in the carousel.                                               | Add items through a property collection |
+| Text Color                | Sets the default color for paragraph-level text within the component.                                                                    | Select a color using the Color Picker   |
+| Font Sizes                | Configures the font sizes for badges, headings, and paragraph elements.                                                                  | Adjust using slider controls            |
+
+### Appearance Settings
+
+| Name                                    | Purpose                                                                              | Example                       |
+| --------------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------- |
+| Text color (Greeting + date/time)       | Sets the color of the greeting message and the displayed date/time text.             | Choose a preferred text color |
+| Background color (Greeting + date/time) | Defines the background color applied behind the greeting and date/time section.      | Select a background color     |
+| Title color                             | Specifies the text color for announcement titles.                                    | Pick a title color            |
+| Title background color                  | Sets the background color for the announcement title area.                           | Choose a background color     |
+| Announcement text color                 | Configures the color used for general announcement text.                             | Select from the color palette |
+| Announcement background color           | Determines the background color for the announcement card container.                 | Use the Color Picker          |
+| Enable Gradient                         | Toggles a gradient overlay on the banner image and announcement card when activated. | Enable via toggle switch      |
+| Title font size                         | Adjusts the font size for announcement titles.                                       | Modify using slider control   |
+| Heading font size                       | Adjusts the font size for announcement headings.                                     | Modify using slider control   |
+| Description font size                   | Sets the font size for the announcement description text.                            | Adjust using slider control   |
 
 - - -
 
@@ -141,18 +161,19 @@ Provides quick access to essential tools, apps, and documents for daily use with
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Common Tools Pane 1](assets/QuicklinksPropertypane.png)
+![Common Tools Pane 1](assets/quicklinkspropertpane.png)
 
 ![Common Tools Pane 2](assets/QuicklinksPropertypane1.png)
 
 </details>
 
-| \| Category | Name                   | Purpose                 | Option       |
+| Category | Name                   | Purpose                 | Option       |
 | ----------- | ---------------------- | ----------------------- | ------------ |
 | Header      | WebPart Title          | Title displayed at top  | COMMON TOOLS |
 | Header      | Hide Title             | Toggle visibility       | Show / Hide  |
 | General     | Select a list          | Choose SharePoint list  | CommonTools  |
 | General     | Limit                  | Number of links to show | 1–50         |
+| General     | Target audience                  | Restrict navigation visibility to specific user groups or audiences | Group name         |
 | Appearance  | Show Top Border        | Toggle sharp top border | On / Off     |
 | Appearance  | Border Color           | Select border color     | Color Picker |
 | Appearance  | Show Gradient on Hover | Highlight link on hover | Color Picker |
@@ -178,6 +199,7 @@ Showcase concise company updates in a clean, minimal layout. Integrates with Sha
 ![News Pane 2](assets/featuredNews2.png)
 
 </details>
+
 #### Header Settings
 
 | Name             | Purpose                   | Option     |
@@ -227,16 +249,16 @@ Highlight your organization’s facilities, offices, or departments using a clea
 
 </details>
 
-| \| Name            | Purpose                    | Option                                         |
-| ------------------ | -------------------------- | ---------------------------------------------- |
-| WebPart Title      | Display title              | FACILITIES                                     |
-| Hide Title         | Toggle visibility          | Show                                           |
-| Select a list      | Choose SharePoint list     | Facilities                                     |
+| \| Name            | Purpose                    | Option                                     |
+| ------------------ | -------------------------- | ------------------------------------------ |
+| WebPart Title      | Display title              | FACILITIES                                 |
+| Hide Title         | Toggle visibility          | Show                                       |
+| Select a list      | Choose SharePoint list     | Facilities                                 |
 | See All            | URL for full list          | `{siteUrl}/Lists/Facilities/AllItems.aspx` |
-| Show Top Border    | Toggle top border          | On / Off                                       |
-| Show Borders       | Add border around web part | On / Off                                       |
-| Enable Auto Scroll | Auto-scroll carousel       | On / Off                                       |
-| Height             | Set height (px)            | 388                                            |
+| Show Top Border    | Toggle top border          | On / Off                                   |
+| Show Borders       | Add border around web part | On / Off                                   |
+| Enable Auto Scroll | Auto-scroll carousel       | On / Off                                   |
+| Height             | Set height (px)            | 388                                        |
 
 - - -
 
@@ -258,12 +280,13 @@ Display and manage upcoming company events, meetings, and important dates.
 ![Events Pane 2](assets/events2.png)
 
 </details>
+
 | Name                     | Purpose                      | Example                             |
 | ------------------------ | ---------------------------- | ----------------------------------- |
 | WebPart Title            | Title of the section         | EVENTS CALENDAR                     |
 | Show See All Link        | Link to full event list      | Show                                |
 | View All URL             | URL to all events            | `{siteUrl}/_layouts/15/Events.aspx` |
-| Select the option events | Choose event source          | SharePoint / Mailbox                |
+| Select the option events | Choose event source          | SharePoint / Mailbox / Current User             |
 | Filter Events            | Show upcoming or past events | Upcoming Events                     |
 | Add/Edit Events          | Manage list items            | Add/Edit Events                     |
 
@@ -296,9 +319,10 @@ Highlight upcoming public holidays or company days off to help employees plan ah
 ![Holidays Pane](assets/HolidaysPropertypane.png)
 
 </details>
+
 | Name                       | Purpose                       | Option                |
 | -------------------------- | ----------------------------- | --------------------- |
-| Title                      | Title for web part            | -                     |
+| Title                      | Title for web part            |                  |
 | Hide Title                 | Toggle visibility             | Show / Hide           |
 | Select a list              | Choose source list            | Holidays              |
 | Filter Holidays            | Filter type                   | All / Upcoming / Past |
