@@ -9,8 +9,24 @@ sidebar_position: 5
 ## Version - 1.0.0.3
 
 - - -
+
 ### Welcome Banner Enhancement
+
 * Changed banner right section from a single announcement to a carousel supporting multiple rotating announcements.
+* Ability to set the time interval to rotate the announcements 🆕
+* Option to disable/enable gradient in banner and announcements card 🆕
+* Added photo scaling for banner background image 🆕
+* Added option to set welcome text color and background color 🆕
+
+### Calendar
+
+* Allows to fetch current user's calendar 🆕
+* Fixed issue where the event link was not proper for user/shared calendar
+
+### Common Tools
+
+* Fixed where the styling applies to same webparts in a page
+* Implements target audience (Can be enabled from the list settings) 🆕
 
 ## Version - 1.0.0.2
 
