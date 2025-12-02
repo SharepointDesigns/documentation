@@ -27,8 +27,11 @@ sidebar_position: 5
 
 * Fixed where the styling applies to same webparts in a page
 * Implements target audience (Can be enabled from the list settings) 🆕
+
 ### Top Navigation
-  * Implements target audience (Can be enabled from the list settings) 🆕
+
+* Implements target audience (Can be enabled from the list settings) 🆕
+* Fixed and issue where, in vertical layout the hover was not working 
 
 ## Version - 1.0.0.2
 
