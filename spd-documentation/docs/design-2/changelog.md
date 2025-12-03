@@ -103,3 +103,12 @@ sidebar_position: 5
 * Resolved an issue with the [Top Navigation](/documentation/docs/design-2/configuration#-1-top-navigation) icon colors.
 
   * Icons with varying original colors will now display using the site’s primary theme color, and change to white when hovered.
+
+## Version history
+
+| Version | Published Date |
+| ------- | -------------- | 
+| 1.0.0.0 | TBD     | 
+| 1.0.0.1 | TBD            |  
+| 1.0.0.2 | TBD            |  
+| 1.0.0.3 | Dec 2025            |  
