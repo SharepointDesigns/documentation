@@ -347,8 +347,10 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 | ------------------------- | --------------------------- | -------------------------- |
 | Title                     | Section title               | “Birthday & Anniversaries” |
 | Webpart Title Theme Color | Theme color for title       | Theme 3 (Text: #243666)    |
+| Preview                   | Show color preview                | Color Block Display         |
 | Show See All Button       | Toggle to display “See All” | On                         |
 | See All Link              | Destination URL             | `https://example.com`      |
+
 
 #### 🌐 Data Source Settings
 
@@ -356,7 +358,6 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 | ------------------ | ------------------------------- | ---------------------- |
 | Select a List      | Choose SharePoint data list     | EmployeeSpotlights     |
 | Filter by Category | Filter items by event type      | Birthday / Anniversary |
-| Limit              | Limit number of spotlight cards | Slider (15)            |
 | Filter the Period  | Define date range for events    | Last Month             |
 | Add/Edit Items     | Open list for modification      | Add/Edit Items         |
 
@@ -366,7 +367,14 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 | ---------------- | --------------------------------------- | ------------------------------- |
 | Choose Layout    | Select between Carousel or Compact view | Carousel View                   |
 | Button Theme     | Button hover color and text color       | Theme 4 (Text #243666, BG #fff) |
+| Preview                   | Show Button Hover Color Preview                | Color Block Display         |
+| Hide Designation  | Toggle to show/hide the designation        |  Toggle (On/Off)    |
+| Hide Greetings   |  Toggle to show/hide the Greetings text      | Toggle (On/Off)     |
+| Change the wishing message | Customize the wishing message  | Text Field      | 
 | Greeting Message | Customize greeting button text          | “Send Greeting”                 |
+| Enable Autoplay   | Toggle to show/hide the autoplay in carousel view  |  Toggle (On/Off)  |
+| Autoplay Speed  | Set the customized speed of autoplay speed in carousel view | Slider  |
+| Enable Infinite Scroll |  Toggle to show/hide the infinite items in carousel view  | Toggle (On/Off)  |
 
 ---
 
@@ -384,6 +392,7 @@ Highlight client or employee feedback in a visually appealing carousel view with
 ![Testimonials Property Pane](assets/TestimonialPropertypane.png)
 
 </details>
+
 #### 📌 Header Settings
 
 | 🏷️ Name                   | 🎯 Purpose                        | 💡 Select Option/Type      |
