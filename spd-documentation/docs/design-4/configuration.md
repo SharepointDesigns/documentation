@@ -508,6 +508,7 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 | Web Part Title            | Title displayed at the top       | “Event Calendar”                                 |
 | Webpart Title Theme Color | Color theme for title            | Dropdown (Theme 3 #243666)                       |
 | Preview                   | Displays color preview           | Color Block Display                              |
+| Hide Webpart Title | Toggle to show/hide the webpart title  | Toggle (on/off)  |
 | Show See All Link         | Display link to full events view | Show                                             |
 | View All URL              | Destination for full events page | `{siteUrl}/_layouts/15/Events.aspx?ListGuid=...` |
 
