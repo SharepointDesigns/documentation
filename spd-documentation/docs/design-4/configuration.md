@@ -447,6 +447,7 @@ Ideal for visualizing reporting structures — users can hover to view names, ti
 ![Organization Chart Property Pane](assets/OrgChartPropertypane.png)
 
 </details>
+
 #### 📌 Header Settings
 
 | 🏷️ Name                   | 🎯 Purpose                      | 💡 Select Option/Type      |
@@ -467,6 +468,7 @@ Ideal for visualizing reporting structures — users can hover to view names, ti
 
 | 🏷️ Name                 | 🎯 Purpose                                | 💡 Select Option |
 | ----------------------- | ----------------------------------------- | ---------------- |
+| Height of the webpart | Customize the height of the webpart  | Slider |
 | Excluded Users          | Remove specific users from chart          | People Picker    |
 | Enter UPN               | Activate reorder option by valid email ID | Text Input       |
 | Reorder Org Chart Users | Reorder children under a parent node      | Text Input       |
