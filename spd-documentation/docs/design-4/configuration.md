@@ -219,6 +219,7 @@ Deliver the latest updates and announcements through a dynamic, filterable news 
 ![News Property Pane 1](assets/NewsPropertypane1.png)![News Property Pane 2](assets/NewsPropertypane2.png)
 
 </details>
+
 #### 🛠️ Header Settings
 
 | 🏷️ Name                   | 🎯 Purpose                        | 💡 Select Option/Type       |
