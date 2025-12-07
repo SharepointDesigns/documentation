@@ -500,6 +500,7 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 ![Calendar Property Pane](assets/EventsPropertyPane.png)
 
 </details>
+
 #### 📌 Header Settings
 
 | 🏷️ Name                   | 🎯 Purpose                       | 💡 Select Option                                 |
