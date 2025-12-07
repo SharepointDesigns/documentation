@@ -50,6 +50,7 @@ A personalized banner that greets users with their name, current date & time, an
 ![Welcome Banner Property Pane](assets/WelcomeBannerPropertypane.png)
 
 </details>
+
 #### 🔖 Header Settings
 
 | 🏷️ Name              | 🎯 Purpose                                          | 💡 Select Option/Type      |
@@ -57,14 +58,17 @@ A personalized banner that greets users with their name, current date & time, an
 | Title                | Displays a personalized greeting (e.g., "Hello")    | Textbox                    |
 | Format Date and Time | Shows the current date & time                       | Date-Time Picker           |
 | Display Name         | Choose whether to display First, Last, or Full Name | Dropdown (First/Last/Full) |
+| Greeting Text Color | Adjust the color of the Greeting Text              |  Swatch Color Picker |
 
 #### 🎨 Appearance Settings
 
 | 🏷️ Name                  | 🎯 Purpose                         | 💡 Select Option/Type |
 | ------------------------ | ---------------------------------- | --------------------- |
 | Background Image         | Upload or select banner background | Image Selector        |
+| Hide the Greetings Message in Welcome Banner | Toggle to show/hide the greetings | Toggle (No) |
 | Height of Banner         | Sets vertical banner height (px)   | Slider (e.g., 390 px) |
 | Height of Content Banner | Sets content area height (px)      | Slider (e.g., 135 px) |
+| Width of the Content Banner | Set Hortizontal banner width (%) | Slider (e.g., 56%) |
 
 #### ⚙️ General Settings
 
@@ -112,23 +116,26 @@ Rotating announcement cards that display headlines, short descriptions, and a **
 ![Announcements Property Pane](assets/AnnouncementsPropertypane.png)
 
 </details>
+
 #### 📌 Header Settings
 
 | 🏷️ Name             | 🎯 Purpose                 | 💡 Select Option/Type |
 | ------------------- | -------------------------- | --------------------- |
 | Show Web Part Title | Toggle visibility of title | Switch (On/Off)       |
 | Web Part Title      | Sets the section title     | Text Input            |
+| WebPart Title Theme Color | Sets theme color for title | Dropdown |
+| Preview                    | Displays theme preview      | Color Block Display         |
 
 #### ⚙️ General Settings
 
 | 🏷️ Name            | 🎯 Purpose                               | 💡 Select Option/Type                     |
 | ------------------ | ---------------------------------------- | ----------------------------------------- |
 | Select a List      | Source list for announcements            | Dropdown (e.g., Announcements)            |
+| View List          | Open the SharePoint list in new tab      | Hyperlink (View List)                     |
 | Background Image   | Upload custom background                 | Image Selector                            |
 | Button Hover Theme | Defines hover colors (text + background) | Dropdown (Theme 5: Text #fff, BG #243666) |
 | Preview            | Live preview of hover theme              | Visual Display                            |
 | Show Arrows        | Show/hide navigation arrows              | Switch (On/Off)                           |
-| View List          | Open the SharePoint list in new tab      | Hyperlink (View List)                     |
 
 #### 🎠 Carousel Settings
 
@@ -166,6 +173,7 @@ Offer one-click access to frequently used tools, policies, or external resources
 ![Quicklinks Property Pane](assets/QuicklinksPropertypane.png)
 
 </details>
+
 #### 📌 Header Settings
 
 | 🏷️ Name                    | 🎯 Purpose                  | 💡 Select Option/Type       |
@@ -181,7 +189,10 @@ Offer one-click access to frequently used tools, policies, or external resources
 | Select a List       | Source SharePoint list         | Dropdown (QuickLinks)          |
 | Items to Show       | Limit visible items            | Slider (8)                     |
 | Button Hover Theme  | Hover style for buttons        | Dropdown (Theme 1: BG #227c70) |
-| Layouts             | Layout type for tiles          | Dropdown (Auto)                |
+| Layouts             | Layout type for tiles          | Dropdown (Grid View)                |
+| Grid Type         | Sets the grid type              | Dropdown (Autofill/ Repeat)    |
+| Number of Items to show in Grid |  Limits grid repeat items | Slider (1)     |
+| Height of the Webpart   | Sets the height of the webpart        | Slider         |
 | Text Alignment      | Alignment for labels           | Dropdown (Center)              |
 | Show See All Button | Toggle visibility of “See All” | Switch (On/Off)                |
 | See All Link        | URL for “See All” action       | Text box (https://example.com) |
@@ -273,12 +284,13 @@ Perfect for high-impact internal communications — easily configurable via Webp
 ![Message Property Pane](assets/MsgPropertypane.png)
 
 </details>
+
 #### 📌 Header Settings
 
 | 🏷️ Name                  | 🎯 Purpose                                   | 💡 Select Option/Type    |
 | ------------------------ | -------------------------------------------- | ------------------------ |
 | Web Part Title           | Section title (e.g., “Message from the CEO”) | Textbox                  |
-| Web Part Title Size      | Choose title heading level                   | Dropdown (Heading 2/3/4) |
+| Web Part Title Size      | Choose title heading level                   | Slider (20)  |
 | Webpart Title Text Color | Define title text color                      | Color Picker             |
 
 #### ⚙️ General Settings
