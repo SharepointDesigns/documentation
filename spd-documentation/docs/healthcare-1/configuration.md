@@ -36,7 +36,6 @@ This section allows customization of the Welcome Banner and Quick Links display.
 
 | 🏷️ Name                          | 🎯 Purpose                                                       | 💡 Select Option          |
 | --------------------------------- | ---------------------------------------------------------------- | ------------------------- |
-|                                   |                                                                  |                           |
 | 👋**Welcome Text**                | Customizes the greeting text displayed before the user name.     | `Welcome,`                |
 | 👤**User Name Format**            | Defines how the logged-in user’s name appears (e.g., First name) | `First Name`              |
 | 🕒**Date and Time Format**        | Controls the display format of the current date.                 | `Wednesday, Feb 19, 2026` |
