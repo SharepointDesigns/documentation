@@ -369,13 +369,6 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 
 #### ⚙️ Appearance Settings
 
-<details>
-<summary>📸 View Property Pane Screenshots</summary>
-
-![Goals]()
-
-</details>
-
 | 🏷️ Name                  | 🎯 Purpose                                                      | 💡 Select Option |
 | ------------------------- | --------------------------------------------------------------- | ---------------- |
 | 🧮**Choose Content Type** | Dropdown to choose the desired visual layout for Video Display. | `DropDown`       |
