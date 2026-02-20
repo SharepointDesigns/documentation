@@ -151,6 +151,7 @@ This section allows customization of the Document Library Web Part, including he
 - - -
 
 ### ⚙️ Configuration Options
+<details>
 
 The Web Part configuration is divided into two main sections:
 
