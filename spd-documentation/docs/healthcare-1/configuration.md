@@ -151,6 +151,7 @@ This section allows customization of the Document Library Web Part, including he
 - - -
 
 ### ⚙️ Configuration Options
+
 <details>
 
 The Web Part configuration is divided into two main sections:
@@ -336,12 +337,12 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 | 🏷️ Name                     | 🎯 Purpose                                                    | 💡 Select Option |
 | ---------------------------- | ------------------------------------------------------------- | ---------------- |
 | **Select the Option Events** | Allows to choose the list                                     | Dropdown         |
-|  **Selects events list**     | Allows to choose event type                                   | Dropdown         |
-|  **Add events**              | Add events from here                                          | Event creator    |
-|  **Edit list**               | Allows to edut the existing events                            | Event creator    |
-|  **Show calendar**           | Allows to choose display or hide the calendar                 | Boolean          |
-|  **Filter Events**           | can filter events as per our choice                           | Dropdown         |
-|  **Button Action**           | we can able to add this in to Outlook or download as ICS file | Dropdown         |
+| **Selects events list**      | Allows to choose event type                                   | Dropdown         |
+| **Add events**               | Add events from here                                          | Event creator    |
+| **Edit list**                | Allows to edut the existing events                            | Event creator    |
+| **Show calendar**            | Allows to choose display or hide the calendar                 | Boolean          |
+| **Filter Events**            | can filter events as per our choice                           | Dropdown         |
+| **Button Action**            | we can able to add this in to Outlook or download as ICS file | Dropdown         |
 
 ## 📰 8. Townhall Meeting video
 
@@ -372,13 +373,13 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Goals](assets/GoalsPropertypane.png)
+![Goals]()
 
 </details>
 
-| 🏷️ Name                   | 🎯 Purpose                                                      | 💡 Select Option |
-| -------------------------- | --------------------------------------------------------------- | ---------------- |
-| 🧮**Choose Content Type**  | Dropdown to choose the desired visual layout for Video Display. | `DropDown`       |
+| 🏷️ Name                  | 🎯 Purpose                                                      | 💡 Select Option |
+| ------------------------- | --------------------------------------------------------------- | ---------------- |
+| 🧮**Choose Content Type** | Dropdown to choose the desired visual layout for Video Display. | `DropDown`       |
 
 #### ⚙️ Apperance Settings
 
@@ -389,13 +390,13 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 
 </details>
 
-| 🏷️ Name                               | 🎯 Purpose                                                      | 💡 Select Option |
-| -------------------------------------- | --------------------------------------------------------------- | ---------------- |
-| 🧮**Enter description**                | Able to enter the description of our choice                     | `Text box`       |
-| 🧮**Show Date**                        | Able to Show or hide the date                                   | `Boolean`        |
-| 🧮**Enter Date**                       | Specifies the date of the townhall meeting.                     | `24 sept`        |
-| 🔗**Enter Recording Link for Button**  | Provides the URL for the townhall recording or related content. | `URL Field`      |
-| 🎥**Choose the Source**                | Defines the media source type for the townhall content.         | `Video`          |
+| 🏷️ Name                              | 🎯 Purpose                                                      | 💡 Select Option |
+| ------------------------------------- | --------------------------------------------------------------- | ---------------- |
+| 🧮**Enter description**               | Able to enter the description of our choice                     | `Text box`       |
+| 🧮**Show Date**                       | Able to Show or hide the date                                   | `Boolean`        |
+| 🧮**Enter Date**                      | Specifies the date of the townhall meeting.                     | `24 sept`        |
+| 🔗**Enter Recording Link for Button** | Provides the URL for the townhall recording or related content. | `URL Field`      |
+| 🎥**Choose the Source**               | Defines the media source type for the townhall content.         | `Video`          |
 
 ## 📰 5. Document Content
 
@@ -496,7 +497,6 @@ The **Share Ideas** web part provides a platform for users to submit feedback, i
 | 🖼️**Select**        | Allows the user to upload or select an image to display.                  | *Image not specified*         |
 | 🔘**Button Text**    | Defines the text shown on the interactive button.                         | `Click here`                  |
 | 🔗**Action Link**    | Sets the destination link or action triggered when the button is clicked. | `sales@sharepointdesigns.com` |
-
 
 ## ❓ 12. FAQs
 
