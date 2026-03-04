@@ -6,6 +6,29 @@ updated: October 2025
 description: Change Log settings and customization guide for each web part.
 sidebar_position: 5
 ---
+## Version - 1.0.0.4
+
+- - - 
+
+### Welcome Banner Enhancement
+
+* 🆕 Enabled to upload to local image in welcome banner
+* Removed default background color for greeting message
+* Changed the dots color in carousel
+
+### Calendar
+
+* 🆕Add to Outlook Functionality improved like direct addition to current user's outlook calendar
+* Improved Responsiveness of the calendar
+
+### Common Tools
+
+* Improved Background color in default
+
+### Top Navigation
+
+* Improved Background color in default
+
 ## Version - 1.0.0.3
 
 - - -
