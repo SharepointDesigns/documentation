@@ -4,48 +4,51 @@ sidebar_position: 4
 ---
 ## ⚙️ Installation Instructions
 
-1. Upload the package **`spd-intranetdesign3.sppkg`** to the **App Catalog**.
+1. Upload the package **`spd-healthcare-01.sppkg`** to the **App Catalog**.
 2. Navigate to an existing **modern SharePoint page** or create a new one.
 3. Click **+ New** → **App**, then add the newly installed app to the site.
 4. Navigate back to the **home page**.
-5. Edit the page and add the **Design 3 Site Setup** web part.  
-   - If the subscription is **not yet activated**, a **Buy Now** button will be displayed.  
-   - Click **Buy Now** to proceed with license purchase and activation.  
-   - Reference link: [Purchase & Activate License](#-activating-30-days-free-trial)
+5. Edit the page and add the **Healthcare Intranet Design 1 Site Setup** web part.  
+
+   * If the subscription is **not yet activated**, a **Buy Now** button will be displayed.  
+   * Click **Buy Now** to proceed with license purchase and activation.  
+   * Reference link: [Purchase & Activate License](#-activating-30-days-free-trial)
 6. **Republish** the page.
 7. Click the **Apply Design** button.
-8. **Do not close the browser.**  
-   A pop-up will appear to create the required lists and libraries with **mock data**  
+8. **Do not close the browser.**\
+   A pop-up will appear to create the required lists and libraries with **mock data**\
    (*mock data applies to lists only*).
 9. After creation:
-   - The page will refresh automatically.
-   - The system will proceed with adding the required web parts and page layout.
-10. Once setup is complete, a **“Set as Homepage”** checkbox will appear:
-    - **Checked** → Clicking **Open New Page** sets the new page as the homepage.
-    - **Unchecked** → The new page opens without changing the homepage.
 
----
+   * The page will refresh automatically.
+   * The system will proceed with adding the required web parts and page layout.
+10. Once setup is complete, a **“Set as Homepage”** checkbox will appear:
+
+    * **Checked** → Clicking **Open New Page** sets the new page as the homepage.
+    * **Unchecked** → The new page opens without changing the homepage.
+
+- - -
 
 ## 🔑 Activating 30 Days Free Trial
 
 ### License Activation Steps
 
-| Step | Action | Details / Notes |
-|-----|--------|----------------|
-| 1 | Go to the app page | Navigate to the SharePoint page where the app is installed |
-| 2 | Open activation panel | If the subscription is pending, a **Buy Now** button will be visible |
-| 3 | Launch activation dialog | Click **Buy Now** to open the purchase dialog |
-| 4 | Purchase the license | Complete the payment process |
-| 5 | Configure SaaS account | After purchase, click **Configure your SaaS account** |
-| 6 | Subscribe to app | On the landing page, click **Subscribe** |
+| Step | Action                   | Details / Notes                                                      |
+| ---- | ------------------------ | -------------------------------------------------------------------- |
+| 1    | Go to the app page       | Navigate to the SharePoint page where the app is installed           |
+| 2    | Open activation panel    | If the subscription is pending, a **Buy Now** button will be visible |
+| 3    | Launch activation dialog | Click **Buy Now** to open the purchase dialog                        |
+| 4    | Purchase the license     | Complete the payment process                                         |
+| 5    | Configure SaaS account   | After purchase, click **Configure your SaaS account**                |
+| 6    | Subscribe to app         | On the landing page, click **Subscribe**                             |
 
----
+- - -
 
 ## 🛒 Purchase License & Trial Information
 
-- Purchasing the license automatically **activates a 30-day free trial**.
-- No charges apply during the trial period.
-- Once activation is completed successfully, the app is fully available for use.
+* Purchasing the license automatically **activates a 30-day free trial**.
+* No charges apply during the trial period.
+* Once activation is completed successfully, the app is fully available for use.
 
 - - -
 
@@ -62,10 +65,10 @@ The following SharePoint Lists are automatically created based on the Home Page:
 
 ## 🧹 Uninstall Guide
 
-Follow the steps below to uninstall the **Intranet Design 3 by SharePoint Designs** app from your SharePoint site:
+Follow the steps below to uninstall the **Healthcare Intranet Design 1 by SharePoint Designs** app from your SharePoint site:
 
 1. Go to your SharePoint site and click on **Site Contents** from the left side navigation or the settings menu.
-2. Find **Intranet Design 3 by SharePoint Designs** in the list of installed apps.
+2. Find **Healthcare Intranet Design 1** **by SharePoint Designs** in the list of installed apps.
 3. Click the three dots (···) next to the app name and select **"Remove"**.
 4. If prompted to switch to the **Classic Experience**, follow the prompt to proceed.
 5. In the Classic Experience, hover over the app again, click the three dots (···), and then click **Remove** to finalize the uninstallation.
@@ -80,7 +83,7 @@ Follow the steps below to uninstall the **Intranet Design 3 by SharePoint Design
 
 ### 🗃️ Issue: Lists/Library Not Created
 
-**Solution**: Verify that the **"Apply template"** button was clicked after adding the **"Design 3 Setup"** web part. If the lists/Library are still not created, delete the page and reapply the design.
+**Solution**: Verify that the **"Apply template"** button was clicked after adding the **"Healthcare 01 Setup"** web part. If the lists/Library are still not created, delete the page and reapply the design.
 
 ### 📝 Issue: Missing Demo Items
 
