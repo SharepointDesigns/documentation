@@ -38,6 +38,7 @@ sidebar_position: 5
 
 * Alignment Issue fix in command bar
 
+
 ## Version - 1.0.0.3
 
 - - -
