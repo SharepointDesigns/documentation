@@ -130,38 +130,24 @@ This section allows customization of the Document Library Web Part, including he
 
 ![](assets/screenshot-2026-03-04-172800.png)
 
-| 🏷️ Name                          | 🎯 Purpose                                                               | 💡 Select Option                |
-| --------------------------------- | ------------------------------------------------------------------------ | ------------------------------- |
-| 📚**Source**                      | Defines the document source location.                                    | A document library on this site |
-| 📂**Select a Library**            | Selects the document library to fetch documents from.                    | Healthcare Documents            |
-| 📁**Folder Name**                 | Filters documents from a specific folder (supports nested path using /). | Folder Path                     |
-| 🏷️**Category Name**              | Specifies the column used for category-based filtering.                  | Category                        |
-| 🔎**Filter the Category Value**   | Filters documents by a selected category value.                          | Dropdown                        |
-| 🔢**Number of Items to Display**  | 
-Defines how many documents are displayed in the web part.
-
-             | 
-25
-
-                           |
+| 🏷️ Name                         | 🎯 Purpose                                                               | 💡 Select Option                |
+| -------------------------------- | ------------------------------------------------------------------------ | ------------------------------- |
+| 📚**Source**                     | Defines the document source location.                                    | A document library on this site |
+| 📂**Select a Library**           | Selects the document library to fetch documents from.                    | Healthcare Documents            |
+| 📁**Folder Name**                | Filters documents from a specific folder (supports nested path using /). | Folder Path                     |
+| 🏷️**Category Name**             | Specifies the column used for category-based filtering.                  | Category                        |
+| 🔎**Filter the Category Value**  | Filters documents by a selected category value.                          | Dropdown                        |
+| 🔢**Number of Items to Display** | Defines how many documents are displayed in the web part.                | 25                              |
 
 #### ⚙️ Appearance settings Section
 
 ![](assets/screenshot-2026-03-04-172848.png)
 
-| 🏷️ Name                          | 🎯 Purpose                                                        | 💡 Select Option |
-| --------------------------------- | ----------------------------------------------------------------- | ---------------- |
-| 🧱**Enable Borders**              | Adds or removes borders around document cards.                    | off              |
-| 🎨**Change Background Color**     | Enables custom background color for the web part container.       | on               |
-| 🎨**Height of the Web Part (px)** | Adjusts the vertical height of the web part container.            | 283              |
-| 🏷️**Layout Type**                | Selects the visual layout style of the document display.          | Layout 09        |
-| 🚫**Hide Web Part if Empty**      | Automatically hides the web part when no documents are available. | checkbox         |
-| 🔢**Number of Items to Display**  | 
-Defines how many documents are displayed in the web part.
-       | 
-25
-
-            |
+| 🏷️ Name                          | 🎯 Purpose                                                  | 💡 Select Option |
+| --------------------------------- | ----------------------------------------------------------- | ---------------- |
+| 🧱**Enable Borders**              | Adds or removes borders around document cards.              | off              |
+| 🎨**Change Background Color**     | Enables custom background color for the web part container. | on               |
+| 🎨**Height of the Web Part (px)** | Adjusts the vertical height of the web part container.      | 283              |
 
 #### ℹ️ About Section
 
@@ -224,20 +210,21 @@ The Web Part configuration is divided into two main sections:
 
 ![](assets/screenshot-2026-03-04-173255.png)
 
-| 🏷️ Name | 🎯 Purpose | 💡 Select Option |
-| -------- | ---------- | ---------------- |
-
-\|🏷️**Layout Type** |Defines the visual layout style of the Knowledge Hub display. | Layout Option
-| 🚫**Hide Web Part if Empty** |Automatically hides the web part when no documents are available.| checkbox
+| 🏷️ Name                      | 🎯 Purpose                                                    | 💡 Select Option |
+| ----------------------------- | ------------------------------------------------------------- | ---------------- |
+| 📚**Layout Type***            | Defines the visual layout style of the Knowledge Hub display. | Layout Option    |
+| 📂**Enable Borders**          | Allows to enable border.                                      | off              |
+| 📁**Show See All**            | Allows to show or hide see All .                              | off              |
+| 🏷️**Show date**              | Allows to show or hide date .                                 | on               |
+| 🔎**Height of the container** | Adjust the height occurding to our requirement.               | Slider           |
 
 #### 🎨 Theme settings
 
 ![](assets/screenshot-2026-03-04-173336.png)
 
-| 🏷️ Name | 🎯 Purpose | 💡 Select Option |
-| -------- | ---------- | ---------------- |
-
-\|🎨**Color of the Icon** |Allows customization of the document icon color for branding consistency. | Color Picker
+| 🏷️ Name                | 🎯 Purpose                                                                | 💡 Select Option |
+| ----------------------- | ------------------------------------------------------------------------- | ---------------- |
+| 🎨**Color of the Icon** | Allows customization of the document icon color for branding consistency. | Color Picker     |
 
 #### ℹ️ About Section
 
@@ -278,6 +265,8 @@ Showcase concise company updates in a clean, minimal layout. Integrates with Sha
 
 #### General Settings
 
+![](assets/screenshot-2026-03-04-195014.png)
+
 | 🏷️ Name            | 🎯 Purpose             | 💡 Select Option |
 | ------------------- | ---------------------- | ---------------- |
 | **Search Sites**    | Select source sites    | Current site     |
@@ -286,19 +275,32 @@ Showcase concise company updates in a clean, minimal layout. Integrates with Sha
 
 #### Layout Settings
 
+![](assets/screenshot-2026-03-04-195338.png)
+
 | 🏷️ Name          | 🎯 Purpose    | 💡 Select Option |
 | ----------------- | ------------- | ---------------- |
 | **Choose Layout** | Select Layout | Filmstrip        |
+
+#### Appearance Settings
+
+| 🏷️ Name                       | 🎯 Purpose                                                                                                                                                                                                                | 💡 Select Option       |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| 🎨**Header Background Color**  | Allows the user to customize the background color of the banner header area. Includes a color picker, gradient selector, and manual input fields (Hex, RGB, Alpha) for precise color control and transparency adjustment. | \#FFFFFF (Alpha: 100%) |
+| 🧱**Section Background Color** | Enables customization of the background color for the main content section below the header. Supports full color selection and opacity control to match branding requirements.                                            | Custom color selection |
+
+#### ℹ️ About Section
+
+| 🏷️ Name                      | 🎯 Purpose                                                                           |
+| ----------------------------- | ------------------------------------------------------------------------------------ |
+| 👨‍💻**Developer Info**       | Indicates the web part is developed by**SharePoint Designs**.                        |
+| 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
+| 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
 ## 5. Organisation Chart
 
 This web part will display a chart showing the organizational structure of the company based on the selected SharePoint site or list. It uses the Microsoft Graph API to query the user profiles and build the hierarchy.
 
 ![Company directory](assets/screenshot-2026-02-20-153816.png)
-
-:::info
-Ideal for visualizing reporting structures — users can hover to view names, titles, and contact details.
-:::
 
 ### ⚙️ Configuration
 
@@ -320,30 +322,36 @@ Ideal for visualizing reporting structures — users can hover to view names, ti
 | 🔠**Choose Title Heading Level** | Defines the HTML heading level for the title (H1–H6).       | Heading 3        |
 | 🔗**Show See All**               | Displays or hides the “See All” link in the header.         | On               |
 | 🌐**Show See All Link**          | Specifies the URL that opens when users click “See All”.    | URL Field        |
-| 🌐**Show Search Box**            | Display or hide the search boxes”.                          | false            |
+| 🌐**Show Search Box**            | Display or hide the search boxes.                           | false            |
+| 🌐**Hide Category Filter**       | Display or hide the cataegory filter options boxes.         | true             |
 
 #### 📌 Appearance Settings Section
 
-| 🏷️ Name             | 🎯 Purpose                                      | 💡 Select Option |
-| -------------------- | ----------------------------------------------- | ---------------- |
-| 📌**Show Boxshadow** | Enables or disables the display the box shadow. | on               |
-| 📝**Height**         | Sets the height of the webpart .                | 320              |
-| 🔠**Node Color**     | Allows to choose node color.                    | Color picker     |
-| 🔠**Accent Color**   | Allows to choose Accent color.                  | Color picker     |
+![](assets/screenshot-2026-03-04-200404.png)
+
+| 🏷️ Name              | 🎯 Purpose                                      | 💡 Select Option |
+| --------------------- | ----------------------------------------------- | ---------------- |
+| 📌**Show Box shadow** | Enables or disables the display the box shadow. | on               |
+| 📝**Height**          | Sets the height of the webpart .                | 320              |
+| 🔠**Node Color**      | Allows to choose node color.                    | Color picker     |
+| 🔠**Accent Color**    | Allows to choose Accent color.                  | Color picker     |
 
 #### 📌 Filter Settings Section
+
+![](assets/screenshot-2026-03-04-200550.png)
 
 | 🏷️ Name                     | 🎯 Purpose                                                              | 💡 Select Option |
 | ---------------------------- | ----------------------------------------------------------------------- | ---------------- |
 | 📌**Enable Category Filter** | Allows you to choose whether the category filter have to show or hide . | on               |
 | 📝**Filter Field**           | We can able to filter it by fields  .                                   | Job Title        |
 
-#### About
+#### ℹ️ About Section
 
-| Name          | Purpose                  | Select Option      |
-| ------------- | ------------------------ | ------------------ |
-| Developed By  | Credit attribution       | SharePoint Designs |
-| Documentation | Opens help documentation | Documentation Link |
+| 🏷️ Name                      | 🎯 Purpose                                                                           |
+| ----------------------------- | ------------------------------------------------------------------------------------ |
+| 👨‍💻**Developer Info**       | Indicates the web part is developed by **SharePoint Designs**.                       |
+| 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
+| 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
 ## 7. Calendar
 
@@ -359,6 +367,8 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 
 #### 📌 Header Settings Section
 
+![](assets/screenshot-2026-03-04-200835.png)
+
 | 🏷️ Name                         | 🎯 Purpose                                                  | 💡 Select Option |
 | -------------------------------- | ----------------------------------------------------------- | ---------------- |
 | 📌 **Hide Title**                | Enables or disables the display of the Knowledge Hub title. | yes              |
@@ -367,12 +377,13 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 | 🔗**Show See All**               | Displays or hides the “See All” link in the header.         | On               |
 | 🌐**Show See All Link**          | Specifies the URL that opens when users click “See All”.    | URL Field        |
 
-#### General Settings
+⚙️
+ Content Settings
 
 <details>
 <summary>📸 View General Settings Screenshot</summary>
 
-![General Settings](assets/screenshot-2026-02-20-154001.png)
+![General Settings](assets/screenshot-2026-03-04-201050.png)
 
 </details>
 
@@ -386,6 +397,14 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 | **Filter Events**            | can filter events as per our choice                           | Dropdown         |
 | **Button Action**            | we can able to add this in to Outlook or download as ICS file | Dropdown         |
 
+#### ℹ️ About Section
+
+| 🏷️ Name                      | 🎯 Purpose                                                                           |
+| ----------------------------- | ------------------------------------------------------------------------------------ |
+| 👨‍💻**Developer Info**       | Indicates the web part is developed by**SharePoint Designs**.                        |
+| 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
+| 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
+
 ## 📰 8. Townhall Meeting video
 
 ### 📋 Details
@@ -396,39 +415,53 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 * Interactive Button Configuration: Supports customizable button icon and recording link integration.
 * Flexible Media Source: Allows selecting the content source type (e.g., Video).
 
-![Goals](assets/screenshot-2026-02-20-154118.png)
+![Goals](assets/screenshot-2026-03-04-201342.png)
 
 ### ⚙️ Configuration
 
 #### 📌 Header Settings Section
 
+![](assets/screenshot-2026-03-04-201454.png)
+
 | 🏷️ Name                         | 🎯 Purpose                                                  | 💡 Select Option |
 | -------------------------------- | ----------------------------------------------------------- | ---------------- |
-| 📌 **Hide Title**                | Enables or disables the display of the Knowledge Hub title. | yes              |
+| 📌 **Show Header**               | Enables or disables the display of the Knowledge Hub title. | yes              |
 | 📝**Webpart Title**              | Sets the display title of the web part.                     | Knowledge hub    |
 | 🔠**Choose Title Heading Level** | Defines the HTML heading level for the title (H1–H6).       | Heading 3        |
 | 🔗**Show See All**               | Displays or hides the “See All” link in the header.         | On               |
 | 🌐**Show See All Link**          | Specifies the URL that opens when users click “See All”.    | URL Field        |
 
-#### ⚙️ Appearance Settings
+#### ⚙️ Background Settings
 
-| 🏷️ Name                  | 🎯 Purpose                                                      | 💡 Select Option |
-| ------------------------- | --------------------------------------------------------------- | ---------------- |
-| 🧮**Choose Content Type** | Dropdown to choose the desired visual layout for Video Display. | `DropDown`       |
+![](assets/screenshot-2026-03-04-201711.png)
 
-#### ⚙️ Apperance Settings
+| 🏷️ Name                                | 🎯 Purpose                                                                                                                                              | 💡 Select Option |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| 🧮**Select Background Type**            | Defines the type of background used for the banner. Allows switching between image-based or other supported background styles.                          | `Image`          |
+| 📁**Select Background Image**           | Enables the user to upload or choose an image that will be displayed as the banner background.                                                          | `Select Image`   |
+| 🌫️**Hide Background Overlay**          | Controls the visibility of the overlay layer placed above the background image. When disabled, the overlay remains visible to improve text readability. | `Show`           |
+| 📏**Set Background Height (in pixels)** | Adjusts the vertical height of the background area using a slider control, allowing precise layout customization.                                       | `496 px`         |
+
+#### ⚙️ Recording Configuration
 
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Goals](assets/screenshot-2026-02-20-154139.png)
+![Goals](assets/screenshot-2026-03-04-202313.png)
 
 </details>
 
-| 🏷️ Name                              | 🎯 Purpose                                                      | 💡 Select Option |
-| ------------------------------------- | --------------------------------------------------------------- | ---------------- |
-| 🧮**Enter description**               | Able to enter the description of our choice                     | `Text box`       |
-| 🧮**Show Date**                       | Able to Show or hide the date                                   | `Boolean`        |
-| 🧮**Enter Date**                      | Specifies the date of the townhall meeting.                     | `24 sept`        |
-| 🔗**Enter Recording Link for Button** | Provides the URL for the townhall recording or related content. | `URL Field`      |
-| 🎥**Choose the Source**               | Defines the media source type for the townhall content.         | `Video`          |
+| 🏷️ Name                   | 🎯 Purpose                                                                                                                                             | 💡 Select Option        |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------- |
+| 🎬**Recording Title**      | Specifies the title of the recorded session or video. This title will be displayed as the main heading for the recording section.                      | `Enter recording title` |
+| 📅**Enter Date**           | Defines the date associated with the recording (e.g., event date or upload date). This helps users identify when the session took place.               | `24 sept`               |
+| 🔗**Recording Link (URL)** | Provides the direct URL to the recording (e.g., YouTube, Stream, or internal video link). Users will be redirected to this link to view the recording. | `URL Field`             |
+| 🎥**Choose the Source**    | Defines the media source type for the townhall content.                                                                                                | `https://youtu.be/...`  |
+#### ℹ️ About Section
+
+| 🏷️ Name                      | 🎯 Purpose                                                                           |
+| ----------------------------- | ------------------------------------------------------------------------------------ |
+| 👨‍💻**Developer Info**       | Indicates the web part is developed by**SharePoint Designs**.                        |
+| 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
+| 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
+
