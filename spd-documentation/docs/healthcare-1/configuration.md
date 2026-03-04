@@ -32,7 +32,8 @@ This section allows customization of the Welcome Banner and Quick Links display.
 ![Welcome Banner](assets/screenshot-2026-02-20-152911.png)
 
 </details>
-👤  User Card Settings
+
+#### 👤 User Card Settings
 
 | 🏷️ Name                          | 🎯 Purpose                                                       | 💡 Select Option          |
 | --------------------------------- | ---------------------------------------------------------------- | ------------------------- |
@@ -43,7 +44,28 @@ This section allows customization of the Welcome Banner and Quick Links display.
 | 🔄**Reset Component Positions**   | Restores banner layout to its default state.                     | `Button`                  |
 | 🖼️**Select Background Image**    | Uploads or changes the banner background image.                  | `Healthcare_1.png`        |
 
-🔗  Quick Links Settings
+#### ℹ️ Announcement Settings
+
+![](assets/screenshot-2026-03-04-153634.png)
+
+| 🏷️ Name                       | 🎯 Purpose                                                                                                                                                       | 💡 Select Option                    |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| 📢**Announcement Title**       | Defines the heading displayed for the announcement section within the banner. This acts as the section label for the content below.                              | `Announcements`                     |
+| 📝**Announcement Description** | Allows entry of the main announcement content. This text is displayed as a preview message in the banner area. Supports multi-line content for detailed updates. | `Enter announcement text`           |
+| 🔗**Show Read More Link**      | When enabled, displays a clickable “Read More” link below the announcement preview to redirect users to additional details.                                      | `Yes`                               |
+| 🌐**Read More URL**            | Specifies the destination URL that opens when users click the “Read More” link.                                                                                  | `https://www.sharepointdesigns.com` |
+
+#### ℹ️ Appearance Settings
+
+![](assets/screenshot-2026-03-04-154720.png)
+
+| 🏷️ Name                           | 🎯 Purpose                                                                                                                                                             | 💡 Select Option |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| 📐**Height of the Banner (in px)** | Allows the user to adjust the overall height of the welcome banner using a slider control. This helps control how much vertical space the banner occupies on the page. | `500 px`         |
+
+#### 🔗 Quick Links Settings
+
+![](assets/screenshot-2026-03-04-155946.png)
 
 | 🏷️ Name                       | 🎯 Purpose                                                                                | 💡 Select Option          |
 | ------------------------------ | ----------------------------------------------------------------------------------------- | ------------------------- |
@@ -90,7 +112,7 @@ This section allows customization of the Document Library Web Part, including he
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Assist](assets/screenshot-2026-02-20-153155.png)
+![Assist](assets/screenshot-2026-03-04-160117.png)
 
 </details>
 
@@ -106,25 +128,40 @@ This section allows customization of the Document Library Web Part, including he
 
 #### ⚙️ Content settings Section
 
-| 🏷️ Name                                                                                   | 🎯 Purpose                                                               | 💡 Select Option                |
-| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------- |
-| 📚**Source**                                                                               | Defines the document source location.                                    | A document library on this site |
-| 📂**Select a Library**                                                                     | Selects the document library to fetch documents from.                    | Healthcare Documents            |
-| 📁**Folder Name**                                                                          | Filters documents from a specific folder (supports nested path using /). | Folder Path                     |
-| 🏷️**Category Name**                                                                       | Specifies the column used for category-based filtering.                  | Category                        |
-| 🔎**Filter the Category Value**                                                            | Filters documents by a selected category value.                          | Dropdown                        |
-| 🔢**Number of Items to Display** Defines how many documents are displayed in the web part. | 25                                                                       |                                 |
+![](assets/screenshot-2026-03-04-172800.png)
+
+| 🏷️ Name                          | 🎯 Purpose                                                               | 💡 Select Option                |
+| --------------------------------- | ------------------------------------------------------------------------ | ------------------------------- |
+| 📚**Source**                      | Defines the document source location.                                    | A document library on this site |
+| 📂**Select a Library**            | Selects the document library to fetch documents from.                    | Healthcare Documents            |
+| 📁**Folder Name**                 | Filters documents from a specific folder (supports nested path using /). | Folder Path                     |
+| 🏷️**Category Name**              | Specifies the column used for category-based filtering.                  | Category                        |
+| 🔎**Filter the Category Value**   | Filters documents by a selected category value.                          | Dropdown                        |
+| 🔢**Number of Items to Display**  | 
+Defines how many documents are displayed in the web part.
+
+             | 
+25
+
+                           |
 
 #### ⚙️ Appearance settings Section
 
-| 🏷️ Name                                                                                   | 🎯 Purpose                                                        | 💡 Select Option |
-| ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- | ---------------- |
-| 🧱**Enable Borders**                                                                       | Adds or removes borders around document cards.                    | off              |
-| 🎨**Change Background Color**                                                              | Enables custom background color for the web part container.       | on               |
-| 🎨**Height of the Web Part (px)**                                                          | Adjusts the vertical height of the web part container.            | 283              |
-| 🏷️**Layout Type**                                                                         | Selects the visual layout style of the document display.          | Layout 09        |
-| 🚫**Hide Web Part if Empty**                                                               | Automatically hides the web part when no documents are available. | checkbox         |
-| 🔢**Number of Items to Display** Defines how many documents are displayed in the web part. | 25                                                                |                  |
+![](assets/screenshot-2026-03-04-172848.png)
+
+| 🏷️ Name                          | 🎯 Purpose                                                        | 💡 Select Option |
+| --------------------------------- | ----------------------------------------------------------------- | ---------------- |
+| 🧱**Enable Borders**              | Adds or removes borders around document cards.                    | off              |
+| 🎨**Change Background Color**     | Enables custom background color for the web part container.       | on               |
+| 🎨**Height of the Web Part (px)** | Adjusts the vertical height of the web part container.            | 283              |
+| 🏷️**Layout Type**                | Selects the visual layout style of the document display.          | Layout 09        |
+| 🚫**Hide Web Part if Empty**      | Automatically hides the web part when no documents are available. | checkbox         |
+| 🔢**Number of Items to Display**  | 
+Defines how many documents are displayed in the web part.
+       | 
+25
+
+            |
 
 #### ℹ️ About Section
 
@@ -155,7 +192,7 @@ This section allows customization of the Document Library Web Part, including he
 
 The Web Part configuration is divided into two main sections:
 
-![](assets/screenshot-2026-02-20-153427.png)
+![](assets/screenshot-2026-03-04-173119.png)
 
 </details>
 
@@ -173,6 +210,8 @@ The Web Part configuration is divided into two main sections:
 
 #### ⚙️General Settings Section
 
+![](assets/screenshot-2026-03-04-173209.png)
+
 | 🏷️ Name                        | 🎯 Purpose                                                               | 💡 Select Option                |
 | ------------------------------- | ------------------------------------------------------------------------ | ------------------------------- |
 | 📚**Source**                    | Defines the document source location.                                    | A document library on this site |
@@ -183,6 +222,8 @@ The Web Part configuration is divided into two main sections:
 
 #### ⚙️ Appearance settings Section
 
+![](assets/screenshot-2026-03-04-173255.png)
+
 | 🏷️ Name | 🎯 Purpose | 💡 Select Option |
 | -------- | ---------- | ---------------- |
 
@@ -190,6 +231,8 @@ The Web Part configuration is divided into two main sections:
 | 🚫**Hide Web Part if Empty** |Automatically hides the web part when no documents are available.| checkbox
 
 #### 🎨 Theme settings
+
+![](assets/screenshot-2026-03-04-173336.png)
 
 | 🏷️ Name | 🎯 Purpose | 💡 Select Option |
 | -------- | ---------- | ---------------- |
