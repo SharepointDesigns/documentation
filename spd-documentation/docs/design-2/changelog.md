@@ -9,6 +9,10 @@ sidebar_position: 5
 ## Version - 1.0.0.4
 
 - - - 
+### Design 2 Setup
+
+* Updated Holiday Lists with proper mock data
+* In Holiday removed description column
 
 ### Welcome Banner Enhancement
 
