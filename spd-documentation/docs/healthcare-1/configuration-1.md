@@ -61,11 +61,19 @@ This section allows customization of the **Welcome Banner** for a department or 
 | 🔗**Show Read More Link**      | When enabled, displays a clickable “Read More” link below the announcement preview to redirect users to additional details.                                      | `Yes`                               |
 | 🌐**Read More URL**            | Specifies the destination URL that opens when users click the “Read More” link.                                                                                  | `https://www.sharepointdesigns.com` |
 
+#### ℹ️ Appearance Section
+
+![](assets/screenshot-2026-03-04-154720.png)
+
+| 🏷️ Name                           | 🎯 Purpose                                                                                                                                                             | 💡 Select Option |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| 📐**Height of the Banner (in px)** | Allows the user to adjust the overall height of the welcome banner using a slider control. This helps control how much vertical space the banner occupies on the page. | `500 px`         |
+
 #### ℹ️ About Section
 
 | 🏷️ Name                      | 🎯 Purpose                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
-| 👨‍💻**Developer Info**       | Indicates the web part is developed by**SharePoint Designs**.                        |
+| 👨‍💻**Developer Info**       | Indicates the web part is developed by **SharePoint Designs**.                       |
 | 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
 | 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
