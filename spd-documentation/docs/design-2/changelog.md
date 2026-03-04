@@ -34,6 +34,10 @@ sidebar_position: 5
 
 * Improved Background color in default
 
+### News
+
+* Alignment Issue fix in command bar
+
 ## Version - 1.0.0.3
 
 - - -
