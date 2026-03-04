@@ -7,7 +7,7 @@ sidebar_position: 4
 🧩 **Healthcare 01 Site Setup by SharePoint Designs**
 Effortless SharePoint site creation starts here.
 
-The **Healthcare 01Setup** web part by **SharePoint Designs** empowers organizations to quickly deploy a beautifully designed, fully structured SharePoint site—based on our popular Design 4 layout.
+The **Healthcare 01Setup** web part by **SharePoint Designs** empowers organizations to quickly deploy a beautifully designed, fully structured SharePoint site—based on our popular Healthcare layout.
 
 Whether you're building a new departmental hub, intranet landing page, or team collaboration space, this web part eliminates the manual work of site setup. Apply a clean, professional, and fully branded experience in just one click.
 
@@ -15,7 +15,7 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 
 ## ✅ Key Features
 
-* **One-Click Site Setup** – Instantly apply the full Design 4 layout with pre-configured sections, styles, and web parts.
+* **One-Click Site Setup** – Instantly apply the full Healthcare 01 layout with pre-configured sections, styles, and web parts.
 * **Modern & Responsive Design** – Built to look great on desktop and mobile devices, with flexible layouts and customizable zones.
 * **Consistent Branding** – Apply a standardized look and feel across all sites to reinforce your brand identity.
 * **Productivity-Ready Components** – Includes quick links, Facilities, news feeds, Events Calendar, Holidays—ready to use out of the box.
@@ -31,11 +31,11 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 * News
 * Organization chart
 * Calendar
-* TownHall meeting video
+* TownHall meeting videos
 
 - - -
 
 ## 📄 Documentation
 
-Everything you need to get started, configure, and deploy Design 4 is available in our documentation:
+Everything you need to get started, configure, and deploy Healthcare 01 is available in our documentation:
 👉 [View Documentation](/documentation/docs/healthcare-1/installation)
