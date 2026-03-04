@@ -4,28 +4,50 @@ sidebar_position: 4
 ---
 ## ⚙️ Installation Instructions
 
-1. Upload the package **`spd-healthcare-01.sppkg`** to the **App Catalog**.
-2. Navigate to an existing **modern SharePoint page** or create a new one.
-3. Click **+ New** → **App**, then add the newly installed app to the site.
-4. Navigate back to the **home page**.
-5. Edit the page and add the **Healthcare Intranet Design 1 Site Setup** web part.  
+* Upload the `spd-healthcare-01.sppkg` file to your App Catalog
+* Navigate to your modern SharePoint site.
+* Click the **Settings (gear)** icon → Select **“Add an app”**
 
-   * If the subscription is **not yet activated**, a **Buy Now** button will be displayed.  
-   * Click **Buy Now** to proceed with license purchase and activation.  
-   * Reference link: [Purchase & Activate License](#-activating-30-days-free-trial)
-6. **Republish** the page.
-7. Click the **Apply Design** button.
-8. **Do not close the browser.**\
-   A pop-up will appear to create the required lists and libraries with **mock data**\
-   (*mock data applies to lists only*).
-9. After creation:
+  ![](assets/addanapp.png)
+* Choose **Healthcare 01 by SharePoint Designs**
+* Click **Add**
+* After installation, go to **Site Contents** to confirm it's added to the site.
 
-   * The page will refresh automatically.
-   * The system will proceed with adding the required web parts and page layout.
-10. Once setup is complete, a **“Set as Homepage”** checkbox will appear:
+  ![](assets/screenshot-2026-03-04-171536.png)
 
-    * **Checked** → Clicking **Open New Page** sets the new page as the homepage.
-    * **Unchecked** → The new page opens without changing the homepage.
+- - -
+
+## 🧪 Testing Instructions
+
+> **Note:** *Upon adding the web part to the page, a **free 30-day trial** will start automatically.*
+
+## Steps to Test and Apply Template
+
+1. On the SharePoint site, locate the new icon in the top command bar (on the right side of the header bar). This icon opens the design template panel.
+
+   ![](assets/screenshot-2026-03-04-171536.png)
+2. Click the icon to open the Employee Onboarding Logo Settings Panel.
+
+   ![](assets/adminSidebar.png)
+3. In the panel:
+
+   * Select the **"Home Page"** template
+   * Click the **Create Page** button
+
+     ![](assets/screenshot-2026-03-04-172006.png)
+4. Do not close or refresh the browser. A pop-up will appear to create the required lists and libraries:
+
+* `Quick Links` list
+* `Document Content` library
+* `Knowledge Hub` library
+* `Events` list
+* `Training Video` library
+  (_Mock items are added automatically for QuickLinks, Document Content, Knowledge hub, News)
+
+5. After the items are created, the site page will **refresh automatically**, and it will continue to creating page and adding webparts.
+6. Once setup is complete, a button will appear to open the newly created homepage. Click it to view the result.
+
+   ![](assets/screenshot-2026-03-04-171409.png)
 
 - - -
 
@@ -54,11 +76,21 @@ sidebar_position: 4
 
 ### ✅ Expected Behaviour
 
-The following SharePoint Lists are automatically created based on the Home Page:
+The following resources are provisioned upon applying the Home template:
 
-* *Employee Spotlights*
+* 📄 **Quick Links** (List)
+* 🖼️ **Document Contents** (Library)
+* 🖼️ **Knowledge hub** (Library)
+* 📄 **Events** (List)
+* 🖼️ **Training Videos** 
 
-> These lists are pre-filled with demo/mock items for easy testing.
+> Mock data is also auto-added for:
+>
+> * Document Contents
+> * Quicklinks
+> * Knowledge hub
+> * Events
+>
 > **No manual configuration required after clicking the Apply template button.**
 
 - - -
@@ -68,7 +100,7 @@ The following SharePoint Lists are automatically created based on the Home Page:
 Follow the steps below to uninstall the **Healthcare Intranet Design 1 by SharePoint Designs** app from your SharePoint site:
 
 1. Go to your SharePoint site and click on **Site Contents** from the left side navigation or the settings menu.
-2. Find **Healthcare Intranet Design 1** **by SharePoint Designs** in the list of installed apps.
+2. Find **Healthcare Intranet Design 1 by SharePoint Designs** in the list of installed apps.
 3. Click the three dots (···) next to the app name and select **"Remove"**.
 4. If prompted to switch to the **Classic Experience**, follow the prompt to proceed.
 5. In the Classic Experience, hover over the app again, click the three dots (···), and then click **Remove** to finalize the uninstallation.
@@ -122,23 +154,13 @@ Follow the steps below to uninstall the **Healthcare Intranet Design 1 by ShareP
 
 ## 🧑‍💼 User Permissions
 
-### 🗂️ Assigning Permissions
+| **Role**     | **Permissions**                                      |
+| ------------ | ---------------------------------------------------- |
+| **Owners**   | Full control — manage app, lists, license, settings. |
+| **Members**  | Contribute content such as links, documents, events. |
+| **Visitors** | Read-only access. General audience viewing.          |
 
-* **Site Owners**: Have full control over the site and can manage permissions for other users.
-* **Site Members**: Can contribute content and interact with the site but have limited administrative capabilities.
-* **Site Visitors**: Have read-only access to the site and cannot make any changes.
-
-### 🛡️ Managing Permissions
-
-* **Permission Levels**: Define different levels of access for users based on their roles and responsibilities.
-* **Custom Permissions**: Create custom permission levels to meet specific needs and requirements.
-* **Inheritance**: Manage permissions inheritance to ensure consistency across different site collections and subsites.
-
-### 🧾 Best Practices for Permissions
-
-* **Least Privilege Principle**: Assign the minimum level of permissions necessary for users to perform their tasks.
-* **Regular Reviews**: Conduct regular reviews of user permissions to ensure they are up-to-date and aligned with current roles.
-* **Documentation**: Maintain documentation of user permissions and any changes made to ensure transparency and accountability.
+> Stick to the **least privilege principle**. Review permissions regularly.
 
 - - -
 
