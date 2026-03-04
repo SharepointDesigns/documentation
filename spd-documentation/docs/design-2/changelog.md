@@ -19,6 +19,7 @@ sidebar_position: 5
 ### Calendar
 
 * 🆕Add to Outlook Functionality improved like direct addition to current user's outlook calendar
+* Fixed issues in recurrence events
 * Improved Responsiveness of the calendar
 
 ### Common Tools
