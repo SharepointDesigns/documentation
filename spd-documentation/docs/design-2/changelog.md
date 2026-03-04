@@ -11,32 +11,32 @@ sidebar_position: 5
 - - - 
 ### Design 2 Setup
 
-* Updated Holiday Lists with proper mock data
-* In Holiday removed description column
+* Updated the Holiday list with proper mock data.
+* Removed the Description column from the Holiday list.
 
 ### Welcome Banner Enhancement
 
-* 🆕 Enabled to upload to local image in welcome banner
-* Removed default background color for greeting message
-* Changed the dots color in carousel
+* 🆕 Enabled local image upload for the Welcome Banner.
+* Removed the default background color from the greeting message.
+* Updated the carousel dot colors.
 
 ### Calendar
 
-* 🆕Add to Outlook Functionality improved like direct addition to current user's outlook calendar
-* Fixed issues in recurrence events
-* Improved Responsiveness of the calendar
+* 🆕Improved “Add to Outlook” functionality, allowing direct addition to the current user's Outlook calendar.
+* Fixed issues related to recurring events.
+* Improved the calendar’s responsiveness.
 
 ### Common Tools
 
-* Improved Background color in default
+* Improved the default background color.
 
 ### Top Navigation
 
-* Improved Background color in default
+* Improved the default background color.
 
 ### News
 
-* Alignment Issue fix in command bar
+* Fixed the alignment issue in the command bar.
 
 
 ## Version - 1.0.0.3
