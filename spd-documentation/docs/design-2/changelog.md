@@ -6,6 +6,39 @@ updated: October 2025
 description: Change Log settings and customization guide for each web part.
 sidebar_position: 5
 ---
+## Version - 1.0.0.4
+
+- - - 
+### Design 2 Setup
+
+* Updated the Holiday list with proper mock data.
+* Removed the Description column from the Holiday list.
+
+### Welcome Banner Enhancement
+
+* 🆕 Enabled local image upload for the Welcome Banner.
+* Removed the default background color from the greeting message.
+* Updated the carousel dot colors.
+
+### Calendar
+
+* 🆕Improved “Add to Outlook” functionality, allowing direct addition to the current user's Outlook calendar.
+* Fixed issues related to recurring events.
+* Improved the calendar’s responsiveness.
+
+### Common Tools
+
+* Improved the default background color.
+
+### Top Navigation
+
+* Improved the default background color.
+
+### News
+
+* Fixed the alignment issue in the command bar.
+
+
 ## Version - 1.0.0.3
 
 - - -
@@ -112,3 +145,4 @@ sidebar_position: 5
 | 1.0.0.1 | TBD            |  
 | 1.0.0.2 | TBD            |  
 | 1.0.0.3 | Dec 2025            |  
+| 1.0.0.4 | Mar 2026    |
