@@ -8,10 +8,7 @@ The Home page should be configured using the "Healthcare 1 Setup" web part to en
 
 Configuration settings for each web part.
 
-
-## 🧪1. Testing Instructions
-
-> **Note:** *Upon adding the web part to the page, a **free 30-day trial** will start automatically.*
+## 🧪1. Site config (Application customizer)
 
 ## Steps to Test and Apply Template
 
@@ -492,6 +489,7 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 | 📅**Enter Date**           | Defines the date associated with the recording (e.g., event date or upload date). This helps users identify when the session took place.               | `24 sept`               |
 | 🔗**Recording Link (URL)** | Provides the direct URL to the recording (e.g., YouTube, Stream, or internal video link). Users will be redirected to this link to view the recording. | `URL Field`             |
 | 🎥**Choose the Source**    | Defines the media source type for the townhall content.                                                                                                | `https://youtu.be/...`  |
+
 #### ℹ️ About Section
 
 | 🏷️ Name                      | 🎯 Purpose                                                                           |
@@ -499,4 +497,3 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 | 👨‍💻**Developer Info**       | Indicates the web part is developed by**SharePoint Designs**.                        |
 | 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
 | 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
-
