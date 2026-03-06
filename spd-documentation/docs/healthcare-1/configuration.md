@@ -8,7 +8,7 @@ The Home page should be configured using the "Healthcare 1 Setup" web part to en
 
 Configuration settings for each web part.
 
-## 🧪1. Site config (Application customizer)
+## 🧪1. Site config (Application customizer) 
 
 ## Steps to Test and Apply Template
 
