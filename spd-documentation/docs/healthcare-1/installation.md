@@ -17,7 +17,7 @@ sidebar_position: 4
 
 - - -
 
-## 🧪 Testing Instructions
+1. Site config (Application customizer)
 
 ## Steps to Test and Apply Template
 
