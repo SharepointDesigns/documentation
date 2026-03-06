@@ -8,7 +8,7 @@ sidebar_position: 4
 * Navigate to your modern SharePoint site.
 * Click the **Settings (gear)** icon → Select **“Add an app”**
 
-  ![](assets/addanapp.png)
+  ![](assets/screenshot-2026-03-06-113113.png)
 * Choose **Healthcare 01 by SharePoint Designs**
 * Click **Add**
 * After installation, go to **Site Contents** to confirm it's added to the site.
@@ -18,8 +18,6 @@ sidebar_position: 4
 - - -
 
 ## 🧪 Testing Instructions
-
-> **Note:** *Upon adding the web part to the page, a **free 30-day trial** will start automatically.*
 
 ## Steps to Test and Apply Template
 
