@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
 title: Webparts
+sidebar_position: 2
 author: SharePoint Designs
 version: 1
 updated: October 2025
@@ -22,4 +22,4 @@ description: Webparts settings and customization guide for each web part.
 
 | Sl No. | Extension<br />Name       | Type      | Description                                                                                                                                                  |
 | ------ | ------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1      | Employee Onboarding Setup | Extension | An extention for creating a SharePoint list with mock data, generating a page, and applying a design template. Intended for use at the site collection root. |
+| 1      | Healthcare Setup1 | Extension | An extention for creating a SharePoint list with mock data, generating a page, and applying a design template. 
