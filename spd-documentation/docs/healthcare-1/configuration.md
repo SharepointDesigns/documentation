@@ -8,7 +8,42 @@ The Home page should be configured using the "Healthcare 1 Setup" web part to en
 
 Configuration settings for each web part.
 
-## 📰 1. Welcome Banner
+
+## 🧪1. Testing Instructions
+
+> **Note:** *Upon adding the web part to the page, a **free 30-day trial** will start automatically.*
+
+## Steps to Test and Apply Template
+
+1. On the SharePoint site, locate the new icon in the top suite bar (on the right side of the header bar). This icon opens the design template panel.
+
+   ![](assets/screenshot-2026-03-04-171536.png)
+2. Click the icon to open the Page creation Panel.
+
+   ![](assets/screenshot-2026-03-05-114236.png)
+3. In the panel:
+
+   * Select the **"Home Page"** template
+   * Click the **Create Page** button
+
+     ![](assets/screenshot-2026-03-04-172006.png)
+4. Do not close or refresh the browser. A pop-up will appear to create the required lists and libraries:
+
+* `Quick Links` list
+* `Document Content` library
+* `Knowledge Hub` library
+* `Events` list
+* `Training Video` library
+  (_Mock items are added automatically for QuickLinks, Document Content, Knowledge hub, News)
+
+5. After the items are created, the site page will **refresh automatically**, and it will continue to creating page and adding webparts.
+6. Once setup is complete, a button will appear to open the newly created homepage. Click it to view the result.
+
+   ![](assets/screenshot-2026-03-04-171409.png)
+
+- - -
+
+## 📰 2. Welcome Banner
 
 ### 📋 Details
 
@@ -90,7 +125,7 @@ This section allows customization of the Welcome Banner and Quick Links display.
 | 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
 | 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
-## 📰 2. Document Content
+## 📰 3. Document Content
 
 ### 📋 Details
 
@@ -157,7 +192,7 @@ This section allows customization of the Document Library Web Part, including he
 | 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
 | 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
-## 📰 3. Knowledge Hub
+## 📰 4. Knowledge Hub
 
 ### 📋 Details
 
@@ -234,7 +269,7 @@ The Web Part configuration is divided into two main sections:
 | 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
 | 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
-## 📰 4. News
+## 📰 5. News
 
 Showcase concise company updates in a clean, minimal layout. Integrates with SharePoint news or RSS feeds.
 
@@ -296,7 +331,7 @@ Showcase concise company updates in a clean, minimal layout. Integrates with Sha
 | 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
 | 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
-## 5. Organisation Chart
+## 6. Organisation Chart
 
 This web part will display a chart showing the organizational structure of the company based on the selected SharePoint site or list. It uses the Microsoft Graph API to query the user profiles and build the hierarchy.
 
