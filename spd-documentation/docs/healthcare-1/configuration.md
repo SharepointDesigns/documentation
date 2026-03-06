@@ -78,8 +78,6 @@ This section allows customization of the Welcome Banner and Quick Links display.
 
 #### ℹ️ Announcement Settings
 
-![]()
-
 | 🏷️ Name                       | 🎯 Purpose                                                                                                                                                       | 💡 Select Option                    |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
 | 📢**Announcement Title**       | Defines the heading displayed for the announcement section within the banner. This acts as the section label for the content below.                              | `Announcements`                     |
