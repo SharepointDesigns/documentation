@@ -88,7 +88,6 @@ The following resources are provisioned upon applying the Home template:
 > * Quicklinks
 > * Knowledge hub
 > * Events
->
 > **No manual configuration required after clicking the Apply template button.**
 
 - - -
