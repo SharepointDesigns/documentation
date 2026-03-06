@@ -14,5 +14,11 @@ sidebar_position: 2
 7     | Events Calendar     | Webpart | **Unified Scheduling:** Display company events, meetings, and important dates. **Simple View:** a clear calendat layout without unnecessary embellishmen.  |
 8    | Townhall Meeting     | Webpart |**Engaging Video Showcase:** Highlight townhall recordings with description, date, and action button. **Interactive Playback:** Configurable media source, button icon, and recording link for seamless viewing experience.   |
 
+# Extension
+
+| Sl No. | Extension<br />Name       | Type      | Description                                                                                                                                                  |
+| ------ | ------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1      | Healthcare 01 | Extension | An extension for creating a SharePoint list with mock data, generating a page, and applying a design template. Intended for use at the site collection root. |
+
 
  
