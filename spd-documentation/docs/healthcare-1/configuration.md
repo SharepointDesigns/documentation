@@ -78,7 +78,7 @@ This section allows customization of the Welcome Banner and Quick Links display.
 
 #### ℹ️ Announcement Settings
 
-![](assets/screenshot-2026-03-06-120238.png)
+![]()
 
 | 🏷️ Name                       | 🎯 Purpose                                                                                                                                                       | 💡 Select Option                    |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
