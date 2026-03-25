@@ -37,12 +37,11 @@ sidebar_position: 4
      ![](assets/createpagebtn.png)
 4. Do not close or refresh the browser. A pop-up will appear to create the required lists and libraries:
 
-* `Quick Links` list
+* `Employee Spotlight` list
 * `Document Content` library
-* `Knowledge Hub` library
-* `Events` list
-* `Training Video` library
-  (_Mock items are added automatically for QuickLinks, Document Content, Knowledge hub, News)
+* `Testimonials` library
+* `Gallery` library
+  (_Mock items are added automatically for Employee Spotlight, Document Content, Testimonials, Gallery, News)
 
 5. After the items are created, the site page will **refresh automatically**, and it will continue to creating page and adding webparts.
 6. Once setup is complete, a button will appear to open the newly created homepage. Click it to view the result.
