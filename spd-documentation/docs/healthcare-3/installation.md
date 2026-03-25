@@ -2,7 +2,7 @@
 title: "Installation "
 sidebar_position: 4
 ---
-## ⚙️ Installation Instructions
+## ⚙️ Installation Instructions 
 
 * Upload the `spd-healthcare-03.sppkg` file to your App Catalog
 * Navigate to your modern SharePoint site.
