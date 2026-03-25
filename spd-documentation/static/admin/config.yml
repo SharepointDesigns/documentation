@@ -649,8 +649,7 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown" }
 
-
-# Healthcare 1 Documentation
+  # Healthcare 1 Documentation
   - name: "healthcare-1"
     label: "Healthcare 1"
     label_singular: "Healthcare 1 Doc"
@@ -675,7 +674,7 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
-      
+
   # Healthcare 2 Documentation
   - name: "healthcare-2"
     label: "Healthcare 2"
@@ -701,4 +700,29 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
-      
+
+      # Healthcare 3 Documentation
+  - name: "healthcare-3"
+    label: "Healthcare 3"
+    label_singular: "Healthcare 3 Doc"
+    folder: "spd-documentation/docs/healthcare-3"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/healthcare-3/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
