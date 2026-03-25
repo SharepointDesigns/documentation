@@ -23,7 +23,6 @@ sidebar_position: 4
 
 1. On the SharePoint site, locate the new icon in the top suite bar (on the right side of the header bar). This icon opens the design template panel.
 
-   ![]()
 2. Click the icon to open the Page creation Panel.
 
    ![](assets/screenshot-2026-03-25-163554.png)
