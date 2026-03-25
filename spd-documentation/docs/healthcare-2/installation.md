@@ -1,18 +1,20 @@
 ---
 title: "Installation "
 ---
+
+
 ## ⚙️ Installation Instructions
 
 * Upload the `spd-healthcare-02.sppkg` file to your App Catalog
 * Navigate to your modern SharePoint site.
 * Click the **Settings (gear)** icon → Select **“Add an app”**
 
-  ![](assets/screenshot-2026-03-06-113113.png)
+  ![](assets/addanapp.png)
 * Choose **Healthcare 02 by SharePoint Designs**
 * Click **Add**
 * After installation, go to **Site Contents** to confirm it's added to the site.
 
-  ![](assets/screenshot-2026-03-04-171536.png)
+  ![](assets/addapp.png)
 
 - - -
 
@@ -22,16 +24,16 @@ title: "Installation "
 
 1. On the SharePoint site, locate the new icon in the top suite bar (on the right side of the header bar). This icon opens the design template panel.
 
-   ![](assets/screenshot-2026-03-04-171536.png)
+   ![](assets/addapp.png)
 2. Click the icon to open the Page creation Panel.
 
-   ![](assets/screenshot-2026-03-05-114236.png)
+   ![](assets/pagecreationpannel.png)
 3. In the panel:
 
    * Select the **"Home Page"** template
    * Click the **Create Page** button
 
-     ![](assets/screenshot-2026-03-04-172006.png)
+     ![](assets/createpagebtn.png)
 4. Do not close or refresh the browser. A pop-up will appear to create the required lists and libraries:
 
 * `Quick Links` list
@@ -44,7 +46,7 @@ title: "Installation "
 5. After the items are created, the site page will **refresh automatically**, and it will continue to creating page and adding webparts.
 6. Once setup is complete, a button will appear to open the newly created homepage. Click it to view the result.
 
-   ![](assets/screenshot-2026-03-04-171409.png)
+   ![](assets/sucess.png)
 
 - - -
 
@@ -80,7 +82,6 @@ The following resources are provisioned upon applying the Home template:
 * 🖼️ **Testimonials** (Library)
 * 🖼️ **Gallery** (Library)
 
-
 > Mock data is also auto added for:
 >
 > * Employee Spotlight
@@ -88,7 +89,7 @@ The following resources are provisioned upon applying the Home template:
 > * Testimonials
 > * Gallery
 >
-> **No manual configuration required after clicking the Apply template button. **
+> **No manual configuration required after clicking the Apply template button.** 
 
 - - -
 
