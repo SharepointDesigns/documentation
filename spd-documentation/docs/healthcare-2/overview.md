@@ -1,5 +1,6 @@
 ---
 title: Overview
+sidebar_position: 1
 ---
 ## HealthCare 02 by SharePoint Designs
 
