@@ -64,5 +64,22 @@ import DocCard from "@theme/DocCard";
     "href": "/docs/category/employee-onboarding",
    }} />
  </article>
+ <article className="col col--6 margin-bottom--lg">
+  <DocCard item={{
+    "type": "link",
+    "label": "Healthcare 1",
+    "icon":"arrow",
+    "href": "/docs/category/healthcare-1",
+   }} />
+ </article>
+ <article className="col col--6 margin-bottom--lg">
+  <DocCard item={{
+    "type": "link",
+    "label": "Healthcare 2",
+    "icon":"arrow",
+    "href": "/docs/category/healthcare-2",
+   }} />
+ </article>
  </section>
  </article>
+

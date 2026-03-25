@@ -675,3 +675,30 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
+      
+  # Healthcare 2 Documentation
+  - name: "healthcare-2"
+    label: "Healthcare 2"
+    label_singular: "Healthcare 2 Doc"
+    folder: "spd-documentation/docs/healthcare-2"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/healthcare-2/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      

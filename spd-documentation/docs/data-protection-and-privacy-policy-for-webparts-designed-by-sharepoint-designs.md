@@ -1,6 +1,6 @@
 ---
 title: Data Protection & Privacy Policy
-sidebar_position: 10
+sidebar_position: 100
 ---
 
 # Data Protection and Privacy Policy for Webparts Developed by SharePoint Designs
