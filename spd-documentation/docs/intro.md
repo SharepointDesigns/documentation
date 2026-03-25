@@ -71,7 +71,7 @@ import DocCard from "@theme/DocCard";
     "icon":"arrow",
     "href": "/docs/category/healthcare-1",
    }} />
- </article>
+ 
  </article>
  </section>
  </article>
