@@ -38,480 +38,219 @@ Configuration settings for each web part.
 
 - - -
 
-## 📰 2. Welcome Banner
-
-### 📋 Details
-
-* **Announcement & Vision Highlight Section:**
-
-  Showcases key organizational messages such as vision statements or important announcements with concise preview text for quick awareness.
-* **Branding and Identity Support:**
-
-  Includes configurable organization branding elements such as logo and title (e.g., hospital or company name) to maintain consistent corporate identity.
-* **Custom Background Image Support:**
-
-  Allows the use of a professional background image to enhance visual appeal and align with organizational branding.
-* **Quick Links Navigation Tiles:**
-
-  Provides an integrated quick links section with icon‑based tiles for fast access to frequently used applications, documents, or resources.
-* **Responsive and Modern Layout:**
-
-  Designed with a clean, modern, and responsive layout that adapts seamlessly across different screen sizes and devices.
-* **User‑Friendly Visual Design:**
-
-  Uses a card‑based interface and clear visual hierarchy to ensure better readability and an intuitive user experience.
-
-
-
-
-
-
-
-
-
-
-![Welcome Banner](assets/welcomebanner.png)
-
-- - -
-
-#### ☰ Appearance Settings
-
-This section allows customization of the Welcome Banner and Quick Links display. The following configurable options are available:
-
-<details>
-<summary>📸 View Property Pane Screenshots</summary>
-
-![Welcome Banner](assets/wbpropertypane.png)
-
-</details>
-
-#### 👤 User Card Settings
-
-| 🏷️ Name                          | 🎯 Purpose                                                       | 💡 Select Option          |
-| --------------------------------- | ---------------------------------------------------------------- | ------------------------- |
-| 👋**Greeting Text**               | Customizes the greeting text displayed before the user name.     | `Welcome,`                |
-| 👤**User Name Format**            | Defines how the logged-in user’s name appears (e.g., First name) | `First Name`              |
-| 🕒**Date and Time Format**        | Controls the display format of the current date.                 | `Wednesday, Feb 19, 2026` |
-| 🧩**Enable Draggable Components** | Allows repositioning of banner elements within the layout.       | `Enabled`                 |
-| 🔄**Reset Component Positions**   | Restores banner layout to its default state.                     | `Button`                  |
-| 🖼️**Select Background Image**    | Uploads or changes the banner background image.                  | `Healthcare_.png`         |
-
-#### ℹ️ Announcement Settings
-
-![](assets/wlannouncement.png)
-
-| 🏷️ Name                       | 🎯 Purpose                                                                                                                                                       | 💡 Select Option                    |
-| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| 📢**Announcement Heading**     | Defines the heading displayed for the announcement section within the banner. This acts as the section label for the content below.                              | `Our Vision`                        |
-| 📝**Announcement Description** | Allows entry of the main announcement content. This text is displayed as a preview message in the banner area. Supports multi-line content for detailed updates. | `Enter announcement text`           |
-| 🔗**Show Read More Link**      | When enabled, displays a clickable “Read More” link below the announcement preview to redirect users to additional details.                                      | `Yes`                               |
-| 🌐**Read More URL**            | Specifies the destination URL that opens when users click the “Read More” link.                                                                                  | `https://www.sharepointdesigns.com` |
-
-#### ℹ️ Appearance Settings
-
-![](assets/screenshot-2026-03-06-123337.png)
-
-| 🏷️ Name                           | 🎯 Purpose                                                                                                                                                             | 💡 Select Option |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
-| 📐**Height of the Banner (in px)** | Allows the user to adjust the overall height of the welcome banner using a slider control. This helps control how much vertical space the banner occupies on the page. | `500 px`         |
-
-#### 🔗 Quick Links Settings
-
-![](assets/screenshot-2026-03-04-155946.png)
-
-| 🏷️ Name                       | 🎯 Purpose                                                                                | 💡 Select Option          |
-| ------------------------------ | ----------------------------------------------------------------------------------------- | ------------------------- |
-| 🗂️**Select Data Source**      | Defines where the Quick Links data is collected from.                                     | `Data Collect From Panel` |
-| 📏**Border Radius (%)**        | Adjusts the rounded corners of Quick Link tiles.                                          | `7`                       |
-| 📐**Alignment**                | Aligns Quick Links horizontally within the section.                                       | `center`                  |
-| 🌈**Border Radius (%)**        | Adjusts the rounded corners of Quick Link tiles.                                          | `Toggle`                  |
-| 📏**Hide Gradient**            | Removes the gradient overlay from Quick Links.                                            | `7`                       |
-| ✨**Hide Animation**            | Disables hover animation effects on Quick Links.                                          | `Toggle`                  |
-| 📏**Icon Size**                | Controls the size of the Quick Link icons.                                                | `Dropdown`                |
-| 🎨**Text Color**               | Allows customization of the Quick Link text color to match branding or theme preferences. | `Color Picker`            |
-| 🖼️**Show Only Icon or Image** | When enabled, displays only the icon/image without link text.                             | `Off`                     |
-| 🧱**Show Border**              | Adds or removes a border around Quick Link tiles.                                         | `Off`                     |
-| 🔢**No of Items Display**      | Defines the total number of Quick Link items displayed in the section.                    | `6`                       |
-| 🌫️**Show Box Shadow**         | Enables or disables shadow effect around Quick Link tiles                                 | `off`                     |
-
-#### ℹ️ About Section
-
-| 🏷️ Name                      | 🎯 Purpose                                                                           |
-| ----------------------------- | ------------------------------------------------------------------------------------ |
-| 👨‍💻**Developer Info**       | Indicates the web part is developed by**SharePoint Designs**.                        |
-| 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
-| 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
-
-## 📰 3. Document Content
-
-### 📋 Details
-
-This web part offers support Document Content information, 
-
-* Dynamic Document Display Web Part: Displays documents from a selected SharePoint document library in a structured card layout.
-* Search Functionality: Allows users to quickly search and filter documents within the web part.
-  *Category-Based Filtering: Supports filtering documents by category for better content organization.*
-  Header Customization: Includes configurable title, heading level, and optional “See All” link.
-
-![Assist](assets/screenshot-2026-03-26-110242.png)
-
-- - -
-
-### ⚙️ Configuration Options
-
-This section allows customization of the Document Library Web Part, including header configuration, content filtering, layout settings, and visibility options. The following configurable options are available:
-
-<details>
-<summary>📸 View Property Pane Screenshots</summary>
-
-![Assist](assets/screenshot-2026-03-04-160117.png)
-
-</details>
-
-#### 📌 Header Settings Section
-
-| 🏷️ Name                         | 🎯 Purpose                                               | 💡 Select Option |
-| -------------------------------- | -------------------------------------------------------- | ---------------- |
-| 📌**Show Header**                | Enables or disables the header section of the web part.  | Show             |
-| 📝**Title**                      | Sets the display title of the document library section.  | Documents        |
-| 🔠**Choose Title Heading Level** | Defines the HTML heading level for the title (H1–H6).    | Heading 3        |
-| 🔗**Show See All**               | Displays or hides the “See All” link in the header.      | On               |
-| 🌐**Show See All Link**          | Specifies the URL that opens when users click “See All”. | URL Field        |
-
-#### ⚙️ Content settings Section
-
-![](assets/screenshot-2026-03-04-172800.png)
-
-| 🏷️ Name                         | 🎯 Purpose                                                               | 💡 Select Option                |
-| -------------------------------- | ------------------------------------------------------------------------ | ------------------------------- |
-| 📚**Source**                     | Defines the document source location.                                    | A document library on this site |
-| 📂**Select a Library**           | Selects the document library to fetch documents from.                    | Healthcare Documents            |
-| 📁**Folder Name**                | Filters documents from a specific folder (supports nested path using /). | Folder Path                     |
-| 🏷️**Category Name**             | Specifies the column used for category-based filtering.                  | Category                        |
-| 🔎**Filter the Category Value**  | Filters documents by a selected category value.                          | Dropdown                        |
-| 🔢**Number of Items to Display** | Defines how many documents are displayed in the web part.                | 25                              |
-
-#### ⚙️ Appearance settings Section
-
-![](assets/screenshot-2026-03-04-172848.png)
-
-| 🏷️ Name                          | 🎯 Purpose                                                  | 💡 Select Option |
-| --------------------------------- | ----------------------------------------------------------- | ---------------- |
-| 🧱**Enable Borders**              | Adds or removes borders around document cards.              | off              |
-| 🎨**Change Background Color**     | Enables custom background color for the web part container. | on               |
-| 🎨**Height of the Web Part (px)** | Adjusts the vertical height of the web part container.      | 283              |
-
-#### ℹ️ About Section
-
-| 🏷️ Name                      | 🎯 Purpose                                                                           |
-| ----------------------------- | ------------------------------------------------------------------------------------ |
-| 👨‍💻**Developer Info**       | Indicates the web part is developed by **SharePoint Designs**.                       |
-| 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
-| 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
-
-## 📰 4. Knowledge Hub
-
-### 📋 Details
-
-* Centralized Knowledge Display Web Part: Displays documents from a selected document library in a clean and structured layout.
-* Scrollable Content Area: Supports vertical scrolling when multiple documents are available.
-* Customizable Header Section: Allows control over title visibility and heading levels.
-* Responsive & Visibility Control: Optimized for desktop, mobile, and email views.
-
-![Knowledge Hub](assets/screenshot-2026-03-26-110029.png)
-
-- - -
-
-### ⚙️ Configuration Options
-
-<details>
-
-The Web Part configuration is divided into two main sections:
-
-![](assets/screenshot-2026-03-04-173119.png)
-
-</details>
-
-- - -
-
-#### 📌 Header Settings Section
-
-| 🏷️ Name                         | 🎯 Purpose                                                  | 💡 Select Option |
-| -------------------------------- | ----------------------------------------------------------- | ---------------- |
-| 📌**Show Webpart Title**         | Enables or disables the display of the Knowledge Hub title. | yes              |
-| 📝**Webpart Title**              | Sets the display title of the web part.                     | Knowledge hub    |
-| 🔠**Choose Title Heading Level** | Defines the HTML heading level for the title (H1–H6).       | Heading 3        |
-| 🔗**Show See All**               | Displays or hides the “See All” link in the header.         | On               |
-| 🌐**Show See All Link**          | Specifies the URL that opens when users click “See All”.    | URL Field        |
-
-#### ⚙️General Settings Section
-
-![](assets/screenshot-2026-03-04-173209.png)
-
-| 🏷️ Name                        | 🎯 Purpose                                                               | 💡 Select Option                |
-| ------------------------------- | ------------------------------------------------------------------------ | ------------------------------- |
-| 📚**Source**                    | Defines the document source location.                                    | A document library on this site |
-| 📂**Select a Library**          | Selects the document library to fetch documents from.                    | Healthcare Documents            |
-| 📁**Folder Name**               | Filters documents from a specific folder (supports nested path using /). | Folder Path                     |
-| 🏷️**Category Name**            | Specifies the column used for category-based filtering.                  | Category                        |
-| 🔎**Filter the Category Value** | Filters documents by a selected category value.                          | Dropdown                        |
-
-#### ⚙️ Appearance settings Section
-
-![](assets/screenshot-2026-03-04-173255.png)
-
-| 🏷️ Name                      | 🎯 Purpose                                                    | 💡 Select Option |
-| ----------------------------- | ------------------------------------------------------------- | ---------------- |
-| 📚**Layout Type***            | Defines the visual layout style of the Knowledge Hub display. | Layout Option    |
-| 📂**Enable Borders**          | Allows to enable border.                                      | off              |
-| 📁**Show See All**            | Allows to show or hide see All .                              | off              |
-| 🏷️**Show date**              | Allows to show or hide date .                                 | on               |
-| 🔎**Height of the container** | Adjust the height occurding to our requirement.               | Slider           |
-
-#### 🎨 Theme settings
-
-![](assets/screenshot-2026-03-04-173336.png)
-
-| 🏷️ Name                | 🎯 Purpose                                                                | 💡 Select Option |
-| ----------------------- | ------------------------------------------------------------------------- | ---------------- |
-| 🎨**Color of the Icon** | Allows customization of the document icon color for branding consistency. | Color Picker     |
-
-#### ℹ️ About Section
-
-| 🏷️ Name                      | 🎯 Purpose                                                                           |
-| ----------------------------- | ------------------------------------------------------------------------------------ |
-| 👨‍💻**Developer Info**       | Indicates the web part is developed by**SharePoint Designs**.                        |
-| 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
-| 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
-
-## 📰 5. News
-
-Showcase concise company updates in a clean, minimal layout. Integrates with SharePoint news or RSS feeds.
-
-![News Preview](assets/screenshot-2026-02-20-153649.png)
-
-- - -
-
-### ⚙️ Configuration
-
-<details>
-<summary>📸 View Property Pane Screenshots</summary>
-
-![News Pane 1](assets/screenshot-2026-02-20-153634.png)
-
-</details>
-
-#### 📌 Header Settings Section
-
-| 🏷️ Name                         | 🎯 Purpose                                                  | 💡 Select Option |
-| -------------------------------- | ----------------------------------------------------------- | ---------------- |
-| 📌**Show Webpart Title**         | Enables or disables the display of the Knowledge Hub title. | yes              |
-| 📝**Webpart Title**              | Sets the display title of the web part.                     | Knowledge hub    |
-| 🔠**Choose Title Heading Level** | Defines the HTML heading level for the title (H1–H6).       | Heading 3        |
-| 🔗**Show See All**               | Displays or hides the “See All” link in the header.         | On               |
-| 🌐**Show See All Link**          | Specifies the URL that opens when users click “See All”.    | URL Field        |
-| 🌐**Show Search Box**            | Display or hide the search boxes”.                          | false            |
-| 🌐**Show sort by**               | Display or hide the sort by options ”.                      | false            |
-
-#### General Settings
-
-![](assets/screenshot-2026-03-04-195014.png)
-
-| 🏷️ Name            | 🎯 Purpose             | 💡 Select Option |
-| ------------------- | ---------------------- | ---------------- |
-| **Search Sites**    | Select source sites    | Current site     |
-| **Enable RSS Feed** | Enable RSS integration | On               |
-| **RSS Links**       | Manage external feeds  | \[Manage Links]  |
-
-#### Layout Settings
-
-![](assets/screenshot-2026-03-04-195338.png)
-
-| 🏷️ Name          | 🎯 Purpose    | 💡 Select Option |
-| ----------------- | ------------- | ---------------- |
-| **Choose Layout** | Select Layout | Filmstrip        |
-
-#### Appearance Settings
-
-| 🏷️ Name                       | 🎯 Purpose                                                                                                                                                                                                                | 💡 Select Option       |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| 🎨**Header Background Color**  | Allows the user to customize the background color of the banner header area. Includes a color picker, gradient selector, and manual input fields (Hex, RGB, Alpha) for precise color control and transparency adjustment. | \#FFFFFF (Alpha: 100%) |
-| 🧱**Section Background Color** | Enables customization of the background color for the main content section below the header. Supports full color selection and opacity control to match branding requirements.                                            | Custom color selection |
-
-#### ℹ️ About Section
-
-| 🏷️ Name                      | 🎯 Purpose                                                                           |
-| ----------------------------- | ------------------------------------------------------------------------------------ |
-| 👨‍💻**Developer Info**       | Indicates the web part is developed by**SharePoint Designs**.                        |
-| 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
-| 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
-
-## 6. Organisation Chart
-
-This web part will display a chart showing the organizational structure of the company based on the selected SharePoint site or list. It uses the Microsoft Graph API to query the user profiles and build the hierarchy.
-
-![Company directory](assets/screenshot-2026-02-20-153816.png)
-
-### ⚙️ Configuration
-
-#### Header Settings
-
-<details>
-<summary>📸 View Header settings Screenshot</summary>
-
-![Header Settings](assets/screenshot-2026-02-20-153841.png)
-
-</details>
-
-#### 📌 Header Settings Section
-
-| 🏷️ Name                         | 🎯 Purpose                                                  | 💡 Select Option |
-| -------------------------------- | ----------------------------------------------------------- | ---------------- |
-| 📌**Show Webpart Title**         | Enables or disables the display of the Knowledge Hub title. | yes              |
-| 📝**Webpart Title**              | Sets the display title of the web part.                     | Knowledge hub    |
-| 🔠**Choose Title Heading Level** | Defines the HTML heading level for the title (H1–H6).       | Heading 3        |
-| 🔗**Show See All**               | Displays or hides the “See All” link in the header.         | On               |
-| 🌐**Show See All Link**          | Specifies the URL that opens when users click “See All”.    | URL Field        |
-| 🌐**Show Search Box**            | Display or hide the search boxes.                           | false            |
-| 🌐**Hide Category Filter**       | Display or hide the cataegory filter options boxes.         | true             |
-
-#### 📌 Appearance Settings Section
-
-![](assets/screenshot-2026-03-04-200404.png)
-
-| 🏷️ Name              | 🎯 Purpose                                      | 💡 Select Option |
-| --------------------- | ----------------------------------------------- | ---------------- |
-| 📌**Show Box shadow** | Enables or disables the display the box shadow. | on               |
-| 📝**Height**          | Sets the height of the webpart .                | 320              |
-| 🔠**Node Color**      | Allows to choose node color.                    | Color picker     |
-| 🔠**Accent Color**    | Allows to choose Accent color.                  | Color picker     |
-
-#### 📌 Filter Settings Section
-
-![](assets/screenshot-2026-03-04-200550.png)
-
-| 🏷️ Name                     | 🎯 Purpose                                                              | 💡 Select Option |
-| ---------------------------- | ----------------------------------------------------------------------- | ---------------- |
-| 📌**Enable Category Filter** | Allows you to choose whether the category filter have to show or hide . | on               |
-| 📝**Filter Field**           | We can able to filter it by fields  .                                   | Job Title        |
-
-#### ℹ️ About Section
-
-| 🏷️ Name                      | 🎯 Purpose                                                                           |
-| ----------------------------- | ------------------------------------------------------------------------------------ |
-| 👨‍💻**Developer Info**       | Indicates the web part is developed by **SharePoint Designs**.                       |
-| 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
-| 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
-
-## 7. Calendar
-
-Show upcoming meetings, holidays, and key events in a clear monthly or weekly calendar format.
-
-![Calendar Preview](assets/screenshot-2026-02-20-154014.png)
-
-:::info
-The **Calendar** web part pulls events directly from a SharePoint list, helping teams stay informed about important dates.
-:::
-
-### ⚙️ Configuration
-
-#### 📌 Header Settings Section
-
-![](assets/screenshot-2026-03-04-200835.png)
-
-| 🏷️ Name                         | 🎯 Purpose                                                  | 💡 Select Option |
-| -------------------------------- | ----------------------------------------------------------- | ---------------- |
-| 📌 **Hide Title**                | Enables or disables the display of the Knowledge Hub title. | yes              |
-| 📝**Webpart Title**              | Sets the display title of the web part.                     | Knowledge hub    |
-| 🔠**Choose Title Heading Level** | Defines the HTML heading level for the title (H1–H6).       | Heading 3        |
-| 🔗**Show See All**               | Displays or hides the “See All” link in the header.         | On               |
-| 🌐**Show See All Link**          | Specifies the URL that opens when users click “See All”.    | URL Field        |
-
-⚙️
- Content Settings
-
-<details>
-<summary>📸 View General Settings Screenshot</summary>
-
-![General Settings](assets/screenshot-2026-03-04-201050.png)
-
-</details>
-
-| 🏷️ Name                     | 🎯 Purpose                                                    | 💡 Select Option |
-| ---------------------------- | ------------------------------------------------------------- | ---------------- |
-| **Select the Option Events** | Allows to choose the list                                     | Dropdown         |
-| **Selects events list**      | Allows to choose event type                                   | Dropdown         |
-| **Add events**               | Add events from here                                          | Event creator    |
-| **Edit list**                | Allows to edut the existing events                            | Event creator    |
-| **Show calendar**            | Allows to choose display or hide the calendar                 | Boolean          |
-| **Filter Events**            | can filter events as per our choice                           | Dropdown         |
-| **Button Action**            | we can able to add this in to Outlook or download as ICS file | Dropdown         |
-
-#### ℹ️ About Section
-
-| 🏷️ Name                      | 🎯 Purpose                                                                           |
-| ----------------------------- | ------------------------------------------------------------------------------------ |
-| 👨‍💻**Developer Info**       | Indicates the web part is developed by**SharePoint Designs**.                        |
-| 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
-| 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
-
-## 📰 8. Townhall Meeting video
-
-### 📋 Details
-
-* Townhall Showcase Web Part: Displays important townhall meetings, recordings, or announcements in a structured and engaging format.
-* Content Type Selection: Allows selection of predefined content types such as Town Hall Recordings.
-* Custom Description Support: Enables adding a custom description for context or messaging.
-* Interactive Button Configuration: Supports customizable button icon and recording link integration.
-* Flexible Media Source: Allows selecting the content source type (e.g., Video).
-
-![Goals](assets/screenshot-2026-03-04-201342.png)
-
-### ⚙️ Configuration
-
-#### 📌 Header Settings Section
-
-![](assets/screenshot-2026-03-04-201454.png)
-
-| 🏷️ Name                         | 🎯 Purpose                                                  | 💡 Select Option |
-| -------------------------------- | ----------------------------------------------------------- | ---------------- |
-| 📌 **Show Header**               | Enables or disables the display of the Knowledge Hub title. | yes              |
-| 📝**Webpart Title**              | Sets the display title of the web part.                     | Knowledge hub    |
-| 🔠**Choose Title Heading Level** | Defines the HTML heading level for the title (H1–H6).       | Heading 3        |
-| 🔗**Show See All**               | Displays or hides the “See All” link in the header.         | On               |
-| 🌐**Show See All Link**          | Specifies the URL that opens when users click “See All”.    | URL Field        |
-
-#### ⚙️ Background Settings
-
-![](assets/screenshot-2026-03-04-201711.png)
-
-| 🏷️ Name                                | 🎯 Purpose                                                                                                                                              | 💡 Select Option |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
-| 🧮**Select Background Type**            | Defines the type of background used for the banner. Allows switching between image-based or other supported background styles.                          | `Image`          |
-| 📁**Select Background Image**           | Enables the user to upload or choose an image that will be displayed as the banner background.                                                          | `Select Image`   |
-| 🌫️**Hide Background Overlay**          | Controls the visibility of the overlay layer placed above the background image. When disabled, the overlay remains visible to improve text readability. | `Show`           |
-| 📏**Set Background Height (in pixels)** | Adjusts the vertical height of the background area using a slider control, allowing precise layout customization.                                       | `496 px`         |
-
-#### ⚙️ Recording Configuration
-
-<details>
-<summary>📸 View Property Pane Screenshots</summary>
-
-![Goals](assets/screenshot-2026-03-04-202313.png)
-
-</details>
-
-| 🏷️ Name                   | 🎯 Purpose                                                                                                                                             | 💡 Select Option        |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------- |
-| 🎬**Recording Title**      | Specifies the title of the recorded session or video. This title will be displayed as the main heading for the recording section.                      | `Enter recording title` |
-| 📅**Enter Date**           | Defines the date associated with the recording (e.g., event date or upload date). This helps users identify when the session took place.               | `24 sept`               |
-| 🔗**Recording Link (URL)** | Provides the direct URL to the recording (e.g., YouTube, Stream, or internal video link). Users will be redirected to this link to view the recording. | `URL Field`             |
-| 🎥**Choose the Source**    | Defines the media source type for the townhall content.                                                                                                | `https://youtu.be/...`  |
-
-#### ℹ️ About Section
-
-| 🏷️ Name                      | 🎯 Purpose                                                                           |
-| ----------------------------- | ------------------------------------------------------------------------------------ |
-| 👨‍💻**Developer Info**       | Indicates the web part is developed by**SharePoint Designs**.                        |
-| 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
-| 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
+# Healthcare 2 – Web Parts Configuration
+
+Below are the configuration details for each web part included in the Healthcare 2 solution.
+> **Note:** Images are referenced from your Figma file. Replace Figma links with exported static images in production documentation.
+
+---
+
+## 🟦 2. Employee Spotlight
+
+Showcase employees’ birthdays, anniversaries, and new joiners in a modern carousel style with flexible filtering, color modes, and background options.
+
+![Employee Spotlight](figma-link-for-employee-spotlight)
+
+### Configuration Options
+
+| Name                                | Purpose                                                         | Example/Options                         |
+|------------------------------------- |-----------------------------------------------------------------|------------------------------------------|
+| **Show Header**                     | Show/hide the section header                                    | Yes / No                                 |
+| **Web Part Title**                  | Set the web part title                                          | Employee Spotlight                       |
+| **Heading Level**                   | Choose title heading (h1–h6/custom px)                          | `h3`, `custom: 24px`                     |
+| **Custom Font Size**                | Font size if heading is "custom"                                | 12–72 px                                 |
+| **Select List**                     | Select SharePoint list as data source                           | List Picker                              |
+| **Filter the Period**               | Filter spotlights by date period                                | Today, This Week, This Month, etc.       |
+| **Show Category Filter**            | Show/hide filter by event type                                  | Yes / No                                 |
+| **Filter by Category**              | Filter employees by event type                                  | All, Birthday, Anniversary, New Joiner   |
+| **Category Filter Alignment**       | Align category filter buttons                                   | Left, Center, Right                      |
+| **Show Border**                     | Add border around cards                                         | Enable / Disable                         |
+| **Show Shadow on Border**           | Shadow effect on card border                                    | Enable / Disable                         |
+| **Border Radius**                   | Set card border radius (px)                                     | 8–25 px                                  |
+| **Enable Background Image 1**       | Show a background image                                         | Enable / Disable                         |
+| **Background Image 1**              | Choose/upload first background image                            | Image Picker                             |
+| **Enable Top Flag Image**           | Show a second, “flag” style image above                         | Enable / Disable                         |
+| **Top Flag Image**                  | Choose/upload flag image                                        | Image Picker                             |
+| **Color Mode**                      | Pick coloring system                                            | Theme, Manual, Branding                  |
+| **Custom Colors**                   | Set title, elements, category colors (based on color mode)      | Color Picker/Theme Dropdown              |
+| **Carousel Auto-Play**              | Items auto-advance                                              | Enable / Disable                         |
+| **Auto Play Speed**                 | How many seconds between advances                               | 1–60 seconds                             |
+| **Show Navigation Arrows**          | Show/hide carousel arrow controls                               | Yes / No                                 |
+| **Show Admin Menu**                 | Restrict advanced settings to chosen admins                     | Yes / No                                 |
+| **Admins**                          | Choose web part admins                                          | People Picker                            |
+
+---
+
+## 🟦 3. Announcement
+
+Display and rotate important company announcements in a banner with icon, expiry date, and carousel features.
+
+![Announcement Bar](figma-link-for-announcement)
+
+### Configuration Options
+
+| Name                          | Purpose                                    | Example/Options                                     |
+|-------------------------------|--------------------------------------------|-----------------------------------------------------|
+| **Header Title**              | Announcement bar title                     | [Text field]                                        |
+| **Announcement Icon**         | Choose a key icon for the bar              | Icon Picker                                         |
+| **Announcement Items**        | Add, remove, edit (Title, link, expiry date, open in tab)| Collection List                         |
+| **Enable Auto Play**          | Announcements cycle automatically          | Yes / No                                            |
+| **Auto Play Speed**           | Seconds between rotation                   | 1–20                                                |
+| **Enable Infinite Loop**      | Loop from last to first                    | Yes / No                                            |
+| **Show Arrows**               | Show/hide carousel navigation              | Yes / No                                            |
+| **Accent Color Theme**        | Change color scheme                        | Theme color dropdown + preview                      |
+| **Hide If Empty**             | Hide web part if no valid announcements    | Yes / No                                            |
+
+---
+
+## 🟦 4. Document Content
+
+A dynamic display of documents from a selected library, with pagination, navigation, badges, and admin options.
+
+![Document Content](figma-link-for-document-content)
+
+### Configuration Options
+
+| Name                          | Purpose                                    | Example/Options                     |
+|-------------------------------|--------------------------------------------|-------------------------------------|
+| **Show Webpart Title**        | Show/hide the header                       | Yes / No                            |
+| **Title**                     | Display title                              | Document Content                    |
+| **Heading Level**             | Title heading (h2–h4/custom px)            | h3 / custom px                      |
+| **Custom Font Size**          | If heading is "custom"                     | 12–72 px                            |
+| **Select a Library**          | Document library to surface                | Library Picker                      |
+| **Goto Library**              | Button to open library in new tab          | (auto, if library selected)         |
+| **Enable Notification Badge** | Highlight new or updated files             | On / Off                            |
+| **Highlight by**              | Mark changes by upload or update           | Uploaded/Modified                   |
+| **Show changes from**         | Recently changed window                    | 7, 30, 365 days                     |
+| **Choose layout**             | Choose layout type                         | Document Content                    |
+| **Show folder title**         | Show folder title in grid                  | Yes / No                            |
+| **Number of folders/row**     | Adjust grid density                        | 1–12                                |
+| **Show Navigation**           | Next/prev between pages of files           | On / Off                            |
+| **Enable borders**            | Border render on items/cards                | Yes / No                            |
+| **Enable shadow**             | Drop shadow effect                         | Yes / No                            |
+| **Open files in new tab**     | Link open behavior                         | New tab / Same tab                  |
+| **Show Admin**                | Restrict admin options                     | Yes / No                            |
+| **Admins**                    | Choose people with admin rights            | People Picker                       |
+
+---
+
+## 🟦 5. Gallery
+
+Display an image gallery from a document library, with categories, pagination, uploading, visual styling, and navigation.
+
+![Gallery](figma-link-for-gallery)
+
+### Configuration Options
+
+| Name                          | Purpose                                    | Example/Options                     |
+|-------------------------------|--------------------------------------------|-------------------------------------|
+| **Webpart Title**             | Set title                                  | Gallery                             |
+| **Heading Level**             | Heading type                               | h1–h6, custom px                    |
+| **Custom Font Size**          | px if heading is custom                    | 12–72 px                            |
+| **Title Theme Color**         | Pick color for web part title              | Theme color (previewed)             |
+| **Select Library**            | Pick image library                         | Library Picker                      |
+| **Goto Library**              | Button (auto) if library selected          | Opens SharePoint library            |
+| **Show Categories**           | Show/hide category filtering               | On / Off                            |
+| **Show Pagination**           | Prev/next controls                         | Yes / No                            |
+| **Items Per Row**             | Gallery density                            | 2–10                                |
+| **Show Image Titles**         | Show/hide text below images                | Yes / No                            |
+| **Show Navigation Arrows**    | Slideshow carousel controls                | Yes / No                            |
+| **Show Upload Button**        | Add-to-gallery (if perms allow)            | Yes / No                            |
+| **Show Border**               | Add border to images                       | Yes / No                            |
+| **Show Shadow**               | Shadow style                               | Yes / No                            |
+
+---
+
+## 🟦 6. Organization Chart
+
+Shows employee hierarchy from your tenant/user profiles, with card layouts, filtering, sizing, and style controls.
+
+![Organization Chart](figma-link-for-org-chart)
+
+### Configuration Options
+
+| Name                          | Purpose                                    | Example/Options                 |
+|-------------------------------|--------------------------------------------|---------------------------------|
+| **Webpart Title**             | Title for org section                      | Organization Chart              |
+| **Heading Level**             | h1–h6 or custom px                         | h3 / 24px                       |
+| **Custom Font Size**          | Custom px, if heading = “custom”           | 12–72 px                        |
+| **Hide Header**               | Show/hide top section                      | Yes / No                        |
+| **Hide Search**               | Show/hide search box                       | Yes / No                        |
+| **Show Border**               | Card border                                | Yes / No                        |
+| **Show Shadow**               | Card shadow effect                         | Yes / No                        |
+| **Height**                    | Height of the whole chart px               | 200–1000 px                     |
+| **Card Layout**               | Layout options (rectangle, flexible)       | Layout 1 (more coming)          |
+| **Card height/width**         | Adjust card size                           | Rectangle/Flexible px           |
+| **Category Filter**           | Show filter                                 | Yes / No                        |
+| **Filter Field**              | Field to filter by                         | department/jobTitle/custom      |
+
+---
+
+## 🟦 7. News
+
+News rollup and display from SharePoint sites with category filtering, audience selection, and layout control.
+
+![News](figma-link-for-news)
+
+### Configuration Options
+
+| Name                   | Purpose                                        | Example/Options                |
+|------------------------|------------------------------------------------|--------------------------------|
+| **Webpart Title**      | Set news section title                         | News                           |
+| **Heading Level**      | h1–h6, custom px                               | h3 / custom px                 |
+| **Custom Font Size**   | If heading is custom                           | 12–72 px                       |
+| **Hide Header**        | Show/hide header                               | Yes / No                       |
+| **Show See All Button**| “See all” navigation link                      | Yes / No                       |
+| **See All Link**       | URL for “See all”                              | URL                            |
+| **Search Sites**       | Which SharePoint sites to roll up from         | Site Picker                    |
+| **Target Audience**    | Restrict viewership                            | People Picker                  |
+| **News Category**      | Filter by managed category                     | Dropdown                       |
+| **Apply Filters**      | Set additional filters                         | Multi-select                   |
+| **Items to Show**      | How many items                                 | Numeric                        |
+| **Show Border/Shadow** | Visual styling                                 | On / Off                       |
+| **Open in New Tab**    | Link click opens in new tab                    | On / Off                       |
+
+---
+
+## 🟦 8. Take a Breath
+
+A “relax and reset” section with a breathing exercise animation and description text, drawn from a list.
+
+![Take a Breath](figma-link-for-take-a-breath)
+
+### Configuration Options
+
+| Name                                 | Purpose                                | Example/Options           |
+|-------------------------------------- |----------------------------------------|---------------------------|
+| **Webpart Title**                    | Title above breathing animation        | Take a Breath             |
+| **Heading Level**                    | Type of heading                        | h2 / 24px                 |
+| **Custom Font Size**                 | If custom heading                      | 12–72 px                  |
+| **Select Library**                   | Source for description                 | Library Picker            |
+| **Goto Library**                     | Open list in new tab (auto, if set)    | Yes / No                  |
+| **Descriptions**                     | Add/edit calming exercise descriptions | Collection/Inline Edit    |
+| **Carousel Settings**                | Control auto-play, speed, infinite, etc| Toggles/sliders           |
+| **Show Border/Shadow**               | Surround the exercise                  | On / Off                  |
+| **Theme Color**                      | Title and main accent color            | Theme Picker              |
+
+---
+
+## 🟦 9. Welcome Banner
+
+Greets users, displays personalized and site messages, supports movable cards, custom backgrounds, and quick links.
+
+![Welcome Banner](figma-link-for-welcome-banner)
+
+### Configuration Options
+
+| Name                              | Purpose                                               | Example/Options  |
+|----------------------------------- |-------------------------------------------------------|------------------|
+| **Welcome Message**               | Main greeting                                         | [Text]           |
+| **Show User Card**                | Toggle user’s name/location card                      | Yes / No         |
+| **Show Announcements**            | Enable announcement tiles                             | Yes / No         |
+| **Background Image**              | Upload/change background                              | Picker           |
+| **Enable Dragging**               | Move cards to customize layout                        | On / Off         |
+| **Reset Layout**                  | Snap cards to default arrangement                     | Button           |
+| **Show Quick Links**              | Quick access tile navigation                          | On / Off         |
+| **Quick Link Options**            | Layout, icon size, alignment etc.                     | Toggles/Dropdown |
+| **Appearance Settings**           | Control card colors, radius, shadow                   | Theme/Sliders    |
+| **About/Admin Area**              | Docs, licensing, contact info                         | Links            |
