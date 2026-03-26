@@ -40,217 +40,383 @@ Configuration settings for each web part.
 
 # Healthcare 2 – Web Parts Configuration
 
-Below are the configuration details for each web part included in the Healthcare 2 solution.
-> **Note:** Images are referenced from your Figma file. Replace Figma links with exported static images in production documentation.
+
 
 ---
 
 ## 🟦 2. Employee Spotlight
 
-Showcase employees’ birthdays, anniversaries, and new joiners in a modern carousel style with flexible filtering, color modes, and background options.
+Highlight employee birthdays, anniversaries, and new joiners in a dynamic, branded carousel. Fine-tune its appearance, layout, and data connections with the grouped settings below.
 
 ![Employee Spotlight](figma-link-for-employee-spotlight)
 
-### Configuration Options
+### 🛠️ General Settings
 
-| Name                                | Purpose                                                         | Example/Options                         |
-|------------------------------------- |-----------------------------------------------------------------|------------------------------------------|
-| **Show Header**                     | Show/hide the section header                                    | Yes / No                                 |
-| **Web Part Title**                  | Set the web part title                                          | Employee Spotlight                       |
-| **Heading Level**                   | Choose title heading (h1–h6/custom px)                          | `h3`, `custom: 24px`                     |
-| **Custom Font Size**                | Font size if heading is "custom"                                | 12–72 px                                 |
-| **Select List**                     | Select SharePoint list as data source                           | List Picker                              |
-| **Filter the Period**               | Filter spotlights by date period                                | Today, This Week, This Month, etc.       |
-| **Show Category Filter**            | Show/hide filter by event type                                  | Yes / No                                 |
-| **Filter by Category**              | Filter employees by event type                                  | All, Birthday, Anniversary, New Joiner   |
-| **Category Filter Alignment**       | Align category filter buttons                                   | Left, Center, Right                      |
-| **Show Border**                     | Add border around cards                                         | Enable / Disable                         |
-| **Show Shadow on Border**           | Shadow effect on card border                                    | Enable / Disable                         |
-| **Border Radius**                   | Set card border radius (px)                                     | 8–25 px                                  |
-| **Enable Background Image 1**       | Show a background image                                         | Enable / Disable                         |
-| **Background Image 1**              | Choose/upload first background image                            | Image Picker                             |
-| **Enable Top Flag Image**           | Show a second, “flag” style image above                         | Enable / Disable                         |
-| **Top Flag Image**                  | Choose/upload flag image                                        | Image Picker                             |
-| **Color Mode**                      | Pick coloring system                                            | Theme, Manual, Branding                  |
-| **Custom Colors**                   | Set title, elements, category colors (based on color mode)      | Color Picker/Theme Dropdown              |
-| **Carousel Auto-Play**              | Items auto-advance                                              | Enable / Disable                         |
-| **Auto Play Speed**                 | How many seconds between advances                               | 1–60 seconds                             |
-| **Show Navigation Arrows**          | Show/hide carousel arrow controls                               | Yes / No                                 |
-| **Show Admin Menu**                 | Restrict advanced settings to chosen admins                     | Yes / No                                 |
-| **Admins**                          | Choose web part admins                                          | People Picker                            |
+| Name                  | Description                                   | Example/Options                 |
+|-----------------------|-----------------------------------------------|---------------------------------|
+| Web Part Title        | Section heading text                          | Employee Spotlight              |
+| Show Header           | Toggle header visibility                      | Yes / No                        |
+| Heading Level         | Title HTML heading (h1–h6 or custom px)       | h3, custom                      |
+| Custom Font Size      | Font size (if heading is custom)              | 18                              |
+| Select List           | Choose target SharePoint list                 | List picker                     |
+| Show Admin Menu       | Restrict advanced controls to selected admins | Yes / No                        |
+| Admins                | Person(s) who can admin web part              | People Picker                   |
+
+### 🗄️ Data & Filtering
+
+| Name                  | Description                                   | Example/Options                 |
+|-----------------------|-----------------------------------------------|---------------------------------|
+| Filter Period         | Restrict by date/time                         | Today, This Month, Last Week    |
+| Show Category Filter  | Enable buttons for Birthday, Anniversary etc. | Yes / No                        |
+| Filter by Category    | Select visible event types                    | All, Birthday, Anniversary      |
+| Category Filter Alignment | Align filter buttons                      | Left / Center / Right           |
+
+### 🎨 Appearance Settings
+
+| Name                  | Description                                   | Example/Options                 |
+|-----------------------|-----------------------------------------------|---------------------------------|
+| Color Mode            | Theme/Manual/Branding customisation           | Dropdown                        |
+| Custom Colors         | Title, element & category colors              | Theme picker/color chooser       |
+| Show Border           | Enable/disable card border                    | Yes / No                        |
+| Show Shadow           | Card shadow                                   | Yes / No                        |
+| Border Radius         | Roundness of cards                            | 8–25 px                         |
+| Enable Background Image 1 | Show background behind carousel           | Yes / No, Image Picker          |
+| Background Image 1    | Upload or select background                   | Image Picker                    |
+| Enable Top Flag Image | Show decorative “flag” image above carousel   | Yes / No, Image Picker          |
+| Top Flag Image        | Select flag image                             | Image Picker                    |
+
+### 🚦 Carousel/Functionality
+
+| Name                  | Description                                   | Example/Options                 |
+|-----------------------|-----------------------------------------------|---------------------------------|
+| Carousel Auto-Play    | Automatic rotation                            | Enable / Disable                |
+| Auto Play Speed       | Seconds per transition                        | 1–60                            |
+| Show Navigation Arrows| Show/hide left–right controls                 | Yes / No                        |
+
+### ℹ️ About
+
+| Name                  | Description                                   | Example/Options                 |
+|-----------------------|-----------------------------------------------|---------------------------------|
+| Developer Info        | Credits & support                             | SharePoint Designs              |
+| Documentation Link    | Access official guides                        | [Link]                          |
+| Activate License      | Enable premium features                       | Button                          |
 
 ---
 
 ## 🟦 3. Announcement
 
-Display and rotate important company announcements in a banner with icon, expiry date, and carousel features.
+Display rotating banners for important updates—using icons, links, colors, and expiry.
 
 ![Announcement Bar](figma-link-for-announcement)
 
-### Configuration Options
+### 🛠️ General Settings
 
-| Name                          | Purpose                                    | Example/Options                                     |
-|-------------------------------|--------------------------------------------|-----------------------------------------------------|
-| **Header Title**              | Announcement bar title                     | [Text field]                                        |
-| **Announcement Icon**         | Choose a key icon for the bar              | Icon Picker                                         |
-| **Announcement Items**        | Add, remove, edit (Title, link, expiry date, open in tab)| Collection List                         |
-| **Enable Auto Play**          | Announcements cycle automatically          | Yes / No                                            |
-| **Auto Play Speed**           | Seconds between rotation                   | 1–20                                                |
-| **Enable Infinite Loop**      | Loop from last to first                    | Yes / No                                            |
-| **Show Arrows**               | Show/hide carousel navigation              | Yes / No                                            |
-| **Accent Color Theme**        | Change color scheme                        | Theme color dropdown + preview                      |
-| **Hide If Empty**             | Hide web part if no valid announcements    | Yes / No                                            |
+| Name                | Description                         | Example/Options      |
+|---------------------|-------------------------------------|----------------------|
+| Header Title        | Main bar heading                    | [Text field]         |
+| Announcement Icon   | Featured icon                       | Icon Picker          |
+
+### 🗄️ Announcement Items
+
+| Name                | Description                         | Example/Options      |
+|---------------------|-------------------------------------|----------------------|
+| Add/Edit Items      | Create collection of announcements  | Collection List      |
+| Title/Link/Expiry   | Each item has link + end date       | Fill-in fields       |
+
+### 🎨 Appearance Settings
+
+| Name                | Description                         | Example/Options      |
+|---------------------|-------------------------------------|----------------------|
+| Accent Color Theme  | Banner color set                    | Theme dropdown       |
+| Hide If Empty       | Remove part if no items             | Yes / No             |
+
+### 🚦 Carousel/Functionality
+
+| Name                | Description                         | Example/Options      |
+|---------------------|-------------------------------------|----------------------|
+| Enable Auto Play    | Auto-rotate cards                   | Yes / No             |
+| Auto Play Speed     | Seconds per rotation                | 1–20                 |
+| Enable Infinite Loop| Repeat carousel in loop             | Yes / No             |
+| Show Arrows         | Show next/previous arrows           | Yes / No             |
+
+### ℹ️ About
+
+| Name                  | Description                   | Example/Options    |
+|-----------------------|-------------------------------|--------------------|
+| Developer Info        | Credits & support             | SharePoint Designs |
+| Documentation Link    | Access official guides        | [Link]             |
+| Activate License      | Enable premium features       | Button             |
 
 ---
 
 ## 🟦 4. Document Content
 
-A dynamic display of documents from a selected library, with pagination, navigation, badges, and admin options.
+Display documents from a SharePoint library, enabling sorting, notification badges, and external launch.
 
 ![Document Content](figma-link-for-document-content)
 
-### Configuration Options
+### 🛠️ General Settings
 
-| Name                          | Purpose                                    | Example/Options                     |
-|-------------------------------|--------------------------------------------|-------------------------------------|
-| **Show Webpart Title**        | Show/hide the header                       | Yes / No                            |
-| **Title**                     | Display title                              | Document Content                    |
-| **Heading Level**             | Title heading (h2–h4/custom px)            | h3 / custom px                      |
-| **Custom Font Size**          | If heading is "custom"                     | 12–72 px                            |
-| **Select a Library**          | Document library to surface                | Library Picker                      |
-| **Goto Library**              | Button to open library in new tab          | (auto, if library selected)         |
-| **Enable Notification Badge** | Highlight new or updated files             | On / Off                            |
-| **Highlight by**              | Mark changes by upload or update           | Uploaded/Modified                   |
-| **Show changes from**         | Recently changed window                    | 7, 30, 365 days                     |
-| **Choose layout**             | Choose layout type                         | Document Content                    |
-| **Show folder title**         | Show folder title in grid                  | Yes / No                            |
-| **Number of folders/row**     | Adjust grid density                        | 1–12                                |
-| **Show Navigation**           | Next/prev between pages of files           | On / Off                            |
-| **Enable borders**            | Border render on items/cards                | Yes / No                            |
-| **Enable shadow**             | Drop shadow effect                         | Yes / No                            |
-| **Open files in new tab**     | Link open behavior                         | New tab / Same tab                  |
-| **Show Admin**                | Restrict admin options                     | Yes / No                            |
-| **Admins**                    | Choose people with admin rights            | People Picker                       |
+| Name                | Description                              | Example/Options         |
+|---------------------|------------------------------------------|-------------------------|
+| Webpart Title       | Section name                             | Document Content        |
+| Show Webpart Title  | Show/hide title                          | Yes / No                |
+| Heading Level       | h2/h3/h4/custom px                       | h3                      |
+| Custom Font Size    | Title size (if custom)                   | 12–72 px                |
+| Select Library      | Target SP library                        | Library Picker          |
+| Goto Library        | Open list in new tab                      | Yes / No                |
+
+### 🗄️ Content/Display
+
+| Name                    | Description                        | Example/Options            |
+|-------------------------|------------------------------------|----------------------------|
+| Enable Notification Badge| Highlight new/changed docs         | On / Off                   |
+| Highlight by            | Show by created/modified           | Uploaded/Modified          |
+| Show changes from       | Recent doc window                   | 7, 30, 365 days            |
+| Choose layout           | Select grid/card style              | Document Content           |
+| Show folder title       | Folder name display                 | Yes / No                   |
+| Folders per row         | Density of grid                     | 1–12                       |
+| Show Navigation         | Pagination between pages            | On / Off                   |
+
+### 🎨 Appearance
+
+| Name                | Description                          | Options                    |
+|---------------------|--------------------------------------|----------------------------|
+| Enable borders      | Card edge display                    | Yes / No                   |
+| Enable shadow       | Card shadow effect                   | Yes / No                   |
+| Open files in new tab | Link opens away from page           | New tab / Same tab         |
+
+### 🛠️ Admin/Permissions
+
+| Name                | Description                          | Options                    |
+|---------------------|--------------------------------------|----------------------------|
+| Show Admin          | Extra features for admins             | Yes / No                   |
+| Admins              | Choose admin persons                  | People Picker              |
+
+### ℹ️ About
+
+| Name                  | Description                   | Example/Options    |
+|-----------------------|-------------------------------|--------------------|
+| Developer Info        | Credits & support             | SharePoint Designs |
+| Documentation Link    | Access official guides        | [Link]             |
+| Activate License      | Enable premium features       | Button             |
 
 ---
 
 ## 🟦 5. Gallery
 
-Display an image gallery from a document library, with categories, pagination, uploading, visual styling, and navigation.
+Showcase image libraries with upload/button/appearance controls and full layout flexibility.
 
 ![Gallery](figma-link-for-gallery)
 
-### Configuration Options
+### 🛠️ General Settings
 
-| Name                          | Purpose                                    | Example/Options                     |
-|-------------------------------|--------------------------------------------|-------------------------------------|
-| **Webpart Title**             | Set title                                  | Gallery                             |
-| **Heading Level**             | Heading type                               | h1–h6, custom px                    |
-| **Custom Font Size**          | px if heading is custom                    | 12–72 px                            |
-| **Title Theme Color**         | Pick color for web part title              | Theme color (previewed)             |
-| **Select Library**            | Pick image library                         | Library Picker                      |
-| **Goto Library**              | Button (auto) if library selected          | Opens SharePoint library            |
-| **Show Categories**           | Show/hide category filtering               | On / Off                            |
-| **Show Pagination**           | Prev/next controls                         | Yes / No                            |
-| **Items Per Row**             | Gallery density                            | 2–10                                |
-| **Show Image Titles**         | Show/hide text below images                | Yes / No                            |
-| **Show Navigation Arrows**    | Slideshow carousel controls                | Yes / No                            |
-| **Show Upload Button**        | Add-to-gallery (if perms allow)            | Yes / No                            |
-| **Show Border**               | Add border to images                       | Yes / No                            |
-| **Show Shadow**               | Shadow style                               | Yes / No                            |
+| Name                  | Description                                  | Options              |
+|-----------------------|----------------------------------------------|----------------------|
+| Webpart Title         | Section title                                | Gallery              |
+| Heading Level         | h1–h6/custom px                              | h3                   |
+| Custom Font Size      | Only if custom selected                      | 12–72 px             |
+| Title Theme Color     | Branded title accent                         | Color dropdown       |
+| Select Library        | Library data source                          | Library Picker       |
+| Goto Library          | Quick open list/library                      | Yes / No             |
 
----
+### 🗄️ Gallery Settings
+
+| Name                    | Description                     | Options                 |
+|-------------------------|---------------------------------|-------------------------|
+| Show Categories         | Display category filter          | On / Off                |
+| Show Pagination         | Pagination controls              | Yes / No                |
+| Items Per Row           | Gallery density                  | 2–10                    |
+| Show Image Titles       | Show captions                    | Yes / No                |
+| Show Navigation Arrows  | Carousel controls                | Yes / No                |
+| Show Upload Button      | Add images if allowed            | Yes / No                |
+
+### 🎨 Appearance
+
+| Name                | Description                          | Options          |
+|---------------------|--------------------------------------|------------------|
+| Show Border         | Bordered image cards                  | On / Off         |
+| Show Shadow         | Card shadow                           | On / Off         |
+
+### ℹ️ About
+
+| Name                  | Description                   | Example/Options    |
+|-----------------------|-------------------------------|--------------------|
+| Developer Info        | Credits & support             | SharePoint Designs |
+| Documentation Link    | Access official guides        | [Link]             |
+| Activate License      | Enable premium features       | Button             |
 
 ## 🟦 6. Organization Chart
 
-Shows employee hierarchy from your tenant/user profiles, with card layouts, filtering, sizing, and style controls.
+Visualize your company's hierarchical structure with advanced filtering and layout controls.
 
 ![Organization Chart](figma-link-for-org-chart)
 
-### Configuration Options
+### 🛠️ General Settings
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Webpart Title       | Section header text                           | Organization Chart      |
+| Show Header         | Toggle visibility of header                   | Yes / No                |
+| Heading Level       | Title HTML heading (h1–h6 / custom px)        | h3, custom              |
+| Custom Font Size    | Font size if heading is custom                | 24                      |
 
-| Name                          | Purpose                                    | Example/Options                 |
-|-------------------------------|--------------------------------------------|---------------------------------|
-| **Webpart Title**             | Title for org section                      | Organization Chart              |
-| **Heading Level**             | h1–h6 or custom px                         | h3 / 24px                       |
-| **Custom Font Size**          | Custom px, if heading = “custom”           | 12–72 px                        |
-| **Hide Header**               | Show/hide top section                      | Yes / No                        |
-| **Hide Search**               | Show/hide search box                       | Yes / No                        |
-| **Show Border**               | Card border                                | Yes / No                        |
-| **Show Shadow**               | Card shadow effect                         | Yes / No                        |
-| **Height**                    | Height of the whole chart px               | 200–1000 px                     |
-| **Card Layout**               | Layout options (rectangle, flexible)       | Layout 1 (more coming)          |
-| **Card height/width**         | Adjust card size                           | Rectangle/Flexible px           |
-| **Category Filter**           | Show filter                                 | Yes / No                        |
-| **Filter Field**              | Field to filter by                         | department/jobTitle/custom      |
+### 🗄️ Data & Filtering
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Filter Field        | Choose field for filtering (e.g. department, role) | Dropdown               |
+| Enable Category Filter| Show filter controls for org structure       | Yes / No                |
+
+### 🎨 Appearance Settings
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Show Border         | Enable card border                            | Yes / No                |
+| Show Shadow         | Add card shadow                               | Yes / No                |
+| Height              | Chart vertical size (px)                      | 320 px                  |
+| Node Color          | Set node color                                | Color Picker            |
+| Accent Color        | Accent node/line color                        | Color Picker            |
+
+### 🚦 Layout & Functionality
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Card Layout         | Select between possible layouts               | Layout 1                |
+| Card Height/Width   | Card sizing                                   | px fields (flexible)    |
+
+### ℹ️ About
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Developer Info      | Credits & support                             | SharePoint Designs      |
+| Documentation Link  | Official user/admin docs                      | [Link]                  |
+| Activate License    | Enable premium features                       | Button                  |
 
 ---
 
 ## 🟦 7. News
 
-News rollup and display from SharePoint sites with category filtering, audience selection, and layout control.
+Aggregate updates from sites, filtered by audience and category, with tailored layout and appearance.
 
 ![News](figma-link-for-news)
 
-### Configuration Options
+### 🛠️ General Settings
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Webpart Title       | Title for news rollup                         | News                    |
+| Show Header         | Show/hide top header                          | Yes / No                |
+| Heading Level       | h1–h6/custom px                               | h3, custom              |
+| Custom Font Size    | Custom height for header                      | px                      |
+| Show See All Button | Quick link to news archive                    | Yes / No                |
+| See All Link        | URL to full news                              | URL                     |
 
-| Name                   | Purpose                                        | Example/Options                |
-|------------------------|------------------------------------------------|--------------------------------|
-| **Webpart Title**      | Set news section title                         | News                           |
-| **Heading Level**      | h1–h6, custom px                               | h3 / custom px                 |
-| **Custom Font Size**   | If heading is custom                           | 12–72 px                       |
-| **Hide Header**        | Show/hide header                               | Yes / No                       |
-| **Show See All Button**| “See all” navigation link                      | Yes / No                       |
-| **See All Link**       | URL for “See all”                              | URL                            |
-| **Search Sites**       | Which SharePoint sites to roll up from         | Site Picker                    |
-| **Target Audience**    | Restrict viewership                            | People Picker                  |
-| **News Category**      | Filter by managed category                     | Dropdown                       |
-| **Apply Filters**      | Set additional filters                         | Multi-select                   |
-| **Items to Show**      | How many items                                 | Numeric                        |
-| **Show Border/Shadow** | Visual styling                                 | On / Off                       |
-| **Open in New Tab**    | Link click opens in new tab                    | On / Off                       |
+### 🗄️ Content, Data & Filtering
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Search Sites        | Which SharePoint sites to aggregate           | Site Picker             |
+| Target Audience     | User/groups to restrict readers               | People Picker           |
+| News Category       | Managed term for filtering                    | Dropdown                |
+| Apply Filters       | Further filtering                             | Multi-select            |
+| Items to Show       | How many updates are visible                  | Numeric                 |
+
+### 🎨 Appearance & Layout
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Show Border         | Border styling                                | Yes / No                |
+| Show Shadow         | Add a drop shadow                             | Yes / No                |
+| Layout              | Layout/arrangement of news                    | News2/Other             |
+| Open in New Tab     | Links open externally                         | Yes / No                |
+
+### ℹ️ About
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Developer Info      | Credits & support                             | SharePoint Designs      |
+| Documentation Link  | Official user/admin docs                      | [Link]                  |
+| Activate License    | Enable premium features                       | Button                  |
 
 ---
 
 ## 🟦 8. Take a Breath
 
-A “relax and reset” section with a breathing exercise animation and description text, drawn from a list.
+Breathing exercise block with animation and admin-editable commentary—remind users to pause and reset.
 
 ![Take a Breath](figma-link-for-take-a-breath)
 
-### Configuration Options
+### 🛠️ General Settings
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Webpart Title       | Title above the animation                     | Take a Breath           |
+| Show Header         | Toggle header                                 | Yes / No                |
+| Heading Level       | h2/h3/custom px                               | h2, custom              |
+| Custom Font Size    | Font size if custom selected                  | 24                      |
+| Select Library      | List or library for the commentary            | Library Picker          |
+| Goto Library        | Quick access to edit source                   | Yes / No                |
 
-| Name                                 | Purpose                                | Example/Options           |
-|-------------------------------------- |----------------------------------------|---------------------------|
-| **Webpart Title**                    | Title above breathing animation        | Take a Breath             |
-| **Heading Level**                    | Type of heading                        | h2 / 24px                 |
-| **Custom Font Size**                 | If custom heading                      | 12–72 px                  |
-| **Select Library**                   | Source for description                 | Library Picker            |
-| **Goto Library**                     | Open list in new tab (auto, if set)    | Yes / No                  |
-| **Descriptions**                     | Add/edit calming exercise descriptions | Collection/Inline Edit    |
-| **Carousel Settings**                | Control auto-play, speed, infinite, etc| Toggles/sliders           |
-| **Show Border/Shadow**               | Surround the exercise                  | On / Off                  |
-| **Theme Color**                      | Title and main accent color            | Theme Picker              |
+### 📋 Content & Carousel
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Descriptions        | Add/manage calming instructions               | Inline Collection       |
+| Carousel Settings   | Control slides/auto-play/infinity             | Sliders/Toggles         |
+
+### 🎨 Appearance
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Show Border         | Card border                                   | Yes / No                |
+| Show Shadow         | Drop shadow                                   | Yes / No                |
+| Theme Color         | Branding accent for this block                | Color Picker            |
+
+### ℹ️ About
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Developer Info      | Credits & support                             | SharePoint Designs      |
+| Documentation Link  | Official user/admin docs                      | [Link]                  |
+| Activate License    | Enable premium features                       | Button                  |
 
 ---
 
 ## 🟦 9. Welcome Banner
 
-Greets users, displays personalized and site messages, supports movable cards, custom backgrounds, and quick links.
+A customizable home section with flexible greeting, announcements, and quick links for every user. Move, resize, and theme components easily.
 
 ![Welcome Banner](figma-link-for-welcome-banner)
 
-### Configuration Options
+### 🛠️ General Settings
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Welcome Message     | Main greeting, can use tokens                  | "Good Morning"         |
+| Show Header         | Show/hide webpart title                       | Yes / No                |
+| Heading Level       | h2, h3, custom px                             | h2                      |
+| Custom Font Size    | Font size if custom heading                   | 30                      |
+| Show User Card      | Show/hide user info panel                     | Yes / No                |
+| Show Announcements  | Enable announcement tile                      | Yes / No                |
+| Show Quick Links    | Enable quick links tile                       | Yes / No                |
 
-| Name                              | Purpose                                               | Example/Options  |
-|----------------------------------- |-------------------------------------------------------|------------------|
-| **Welcome Message**               | Main greeting                                         | [Text]           |
-| **Show User Card**                | Toggle user’s name/location card                      | Yes / No         |
-| **Show Announcements**            | Enable announcement tiles                             | Yes / No         |
-| **Background Image**              | Upload/change background                              | Picker           |
-| **Enable Dragging**               | Move cards to customize layout                        | On / Off         |
-| **Reset Layout**                  | Snap cards to default arrangement                     | Button           |
-| **Show Quick Links**              | Quick access tile navigation                          | On / Off         |
-| **Quick Link Options**            | Layout, icon size, alignment etc.                     | Toggles/Dropdown |
-| **Appearance Settings**           | Control card colors, radius, shadow                   | Theme/Sliders    |
-| **About/Admin Area**              | Docs, licensing, contact info                         | Links            |
+### 🖼️ Background & Positioning
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Background Image    | Upload/choose banner background               | Image Picker            |
+| Enable Dragging     | Allow moving of banner components             | On / Off                |
+| Reset Layout        | Snap all elements back to default             | Button                  |
+
+### 🔗 Quick Links Configuration
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Data Source         | Where quick links are managed                 | Panel / List            |
+| Border Radius (%)   | How rounded link tiles are                    | 7                       |
+| Alignment           | Arrange horizontal alignment                  | Center / Left / Right   |
+| Icon Size           | Select tile icon size                         | Dropdown                |
+| Text Color          | Quick link text color                         | Color Picker            |
+| Items to Display    | Max links shown                               | 6                       |
+
+### 🎨 Appearance
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Theme Colors        | Select global banner theme                    | Color Picker            |
+| Show Box Shadow     | Enable shadow for quick links                 | On / Off                |
+| Hide Animation      | Remove click/hover motion                     | On / Off                |
+
+### ℹ️ About
+| Name                | Description                                   | Example/Options         |
+|---------------------|-----------------------------------------------|-------------------------|
+| Developer Info      | Credits & support                             | SharePoint Designs      |
+| Documentation Link  | Official user/admin docs                      | [Link]                  |
+| Activate License    | Enable premium features                       | Button                  |
+
+---
+
