@@ -4,7 +4,7 @@ sidebar_position: 4
 ---
 
 
-| Sl No. | Webpart Name        | Type    | Description                                                                                                                                                |
+| Sl No. | Webpart Name        | Type    | Description                                                                                                                                                 |
 | ------ | ------------------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1      | Welcome Banner     | Webpart | Greets the user by name with the current date and time, creating a friendly and engaging intranet experience               |
 | 2 | KPI Appointments | Webpart | Displays key appointment metrics such as daily bookings, next-day appointments, and monthly totals, providing quick insights into scheduling performance |
