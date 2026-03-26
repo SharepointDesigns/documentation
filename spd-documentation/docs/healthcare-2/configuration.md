@@ -3,7 +3,7 @@ title: Configuration
 ---
 ### Note:
 
-The Home page should be configured using the "Healthcare 1 Setup" web part to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
+The Home page should be configured using the "Healthcare 2 Setup" web part to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
 
 Configuration settings for each web part.
 
@@ -42,13 +42,35 @@ Configuration settings for each web part.
 
 ### 📋 Details
 
-* **Personalized Greeting Web Part**: Displays a dynamic welcome message with the logged-in user’s name along with the current date and time..
-* **Announcements Display**: Highlights important updates with preview text and a “Read More” option for detailed information.
-* **Custom Background Support**: Allows a professional background image to enhance the visual appearance of the banner.
-* **Draggable Components**:Enables repositioning of banner elements for flexible layout customization.
-* **Integrated Quick Links Section**: Provides quick access to frequently used resources with icon-based navigation tiles..
+* **Announcement & Vision Highlight Section:**
 
-![Welcome Banner](assets/screenshot-2026-02-20-152730.png)
+  Showcases key organizational messages such as vision statements or important announcements with concise preview text for quick awareness.
+* **Branding and Identity Support:**
+
+  Includes configurable organization branding elements such as logo and title (e.g., hospital or company name) to maintain consistent corporate identity.
+* **Custom Background Image Support:**
+
+  Allows the use of a professional background image to enhance visual appeal and align with organizational branding.
+* **Quick Links Navigation Tiles:**
+
+  Provides an integrated quick links section with icon‑based tiles for fast access to frequently used applications, documents, or resources.
+* **Responsive and Modern Layout:**
+
+  Designed with a clean, modern, and responsive layout that adapts seamlessly across different screen sizes and devices.
+* **User‑Friendly Visual Design:**
+
+  Uses a card‑based interface and clear visual hierarchy to ensure better readability and an intuitive user experience.
+
+
+
+
+
+
+
+
+
+
+![Welcome Banner](assets/welcomebanner.png)
 
 - - -
 
@@ -59,7 +81,7 @@ This section allows customization of the Welcome Banner and Quick Links display.
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Welcome Banner](assets/screenshot-2026-02-20-152911.png)
+![Welcome Banner](assets/wbpropertypane.png)
 
 </details>
 
@@ -67,20 +89,20 @@ This section allows customization of the Welcome Banner and Quick Links display.
 
 | 🏷️ Name                          | 🎯 Purpose                                                       | 💡 Select Option          |
 | --------------------------------- | ---------------------------------------------------------------- | ------------------------- |
-| 👋**Welcome Text**                | Customizes the greeting text displayed before the user name.     | `Welcome,`                |
+| 👋**Greeting Text**               | Customizes the greeting text displayed before the user name.     | `Welcome,`                |
 | 👤**User Name Format**            | Defines how the logged-in user’s name appears (e.g., First name) | `First Name`              |
 | 🕒**Date and Time Format**        | Controls the display format of the current date.                 | `Wednesday, Feb 19, 2026` |
 | 🧩**Enable Draggable Components** | Allows repositioning of banner elements within the layout.       | `Enabled`                 |
 | 🔄**Reset Component Positions**   | Restores banner layout to its default state.                     | `Button`                  |
-| 🖼️**Select Background Image**    | Uploads or changes the banner background image.                  | `Healthcare_1.png`        |
+| 🖼️**Select Background Image**    | Uploads or changes the banner background image.                  | `Healthcare_.png`         |
 
 #### ℹ️ Announcement Settings
 
-![](assets/screenshot-2026-03-06-132754.png)
+![](assets/wlannouncement.png)
 
 | 🏷️ Name                       | 🎯 Purpose                                                                                                                                                       | 💡 Select Option                    |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| 📢**Announcement Title**       | Defines the heading displayed for the announcement section within the banner. This acts as the section label for the content below.                              | `Announcements`                     |
+| 📢**Announcement Heading**     | Defines the heading displayed for the announcement section within the banner. This acts as the section label for the content below.                              | `Our Vision`                        |
 | 📝**Announcement Description** | Allows entry of the main announcement content. This text is displayed as a preview message in the banner area. Supports multi-line content for detailed updates. | `Enter announcement text`           |
 | 🔗**Show Read More Link**      | When enabled, displays a clickable “Read More” link below the announcement preview to redirect users to additional details.                                      | `Yes`                               |
 | 🌐**Read More URL**            | Specifies the destination URL that opens when users click the “Read More” link.                                                                                  | `https://www.sharepointdesigns.com` |
