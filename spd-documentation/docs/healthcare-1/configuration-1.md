@@ -2,7 +2,7 @@
 title: Configuration
 sidebar_position: 4
 ---
-### Note: 
+### Note:
 
 The Home page should be configured using the "Healthcare 1 Setup" web part to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
 
@@ -133,7 +133,7 @@ This web part offers support Document Content information,
   *Category-Based Filtering: Supports filtering documents by category for better content organization.*
   Header Customization: Includes configurable title, heading level, and optional “See All” link.
 
-![Assist](assets/screenshot-2026-02-20-153125.png)
+![Assist](assets/screenshot-2026-03-26-110242.png)
 
 - - -
 
@@ -195,12 +195,10 @@ This section allows customization of the Document Library Web Part, including he
 
 * Centralized Knowledge Display Web Part: Displays documents from a selected document library in a clean and structured layout.
 * Scrollable Content Area: Supports vertical scrolling when multiple documents are available.
-* Category-Based Filtering: Enables filtering documents using category columns and values.
 * Customizable Header Section: Allows control over title visibility and heading levels.
-* Theme Customization Support: Provides icon color customization for branding consistency.
 * Responsive & Visibility Control: Optimized for desktop, mobile, and email views.
 
-![Knowledge Hub](assets/screenshot-2026-02-20-153403.png)
+![Knowledge Hub](assets/screenshot-2026-03-26-110029.png)
 
 - - -
 
