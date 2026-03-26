@@ -38,7 +38,7 @@ Configuration settings for each web part.
 
 - - -
 
-# Healthcare 2 – Web Parts Configuration
+# Healthcare 2 – Web Parts Configuration 
 
 
 
