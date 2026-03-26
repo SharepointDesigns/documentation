@@ -84,7 +84,7 @@ The following resources are provisioned upon applying the Home template:
 >
 > * Employee Spotlight
 > * Document Content
-> * Testimonials
+> * Take a Breath
 > * Gallery
 >
 > **No manual configuration required after clicking the Apply template button.** 
