@@ -40,7 +40,7 @@ Configuration settings for each web part.
 
 - - -
 
-## 📰 2. Welcome Banner
+## 👋 2. Welcome Banner
 
 ### 📋 Details
 
@@ -78,7 +78,12 @@ This section allows customization of the Welcome Banner and Quick Links display.
 
 #### ℹ️ Announcement Settings
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![](assets/screenshot-2026-03-06-132754.png)
+
+</details>
 
 | 🏷️ Name                       | 🎯 Purpose                                                                                                                                                       | 💡 Select Option                    |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
@@ -88,8 +93,12 @@ This section allows customization of the Welcome Banner and Quick Links display.
 | 🌐**Read More URL**            | Specifies the destination URL that opens when users click the “Read More” link.                                                                                  | `https://www.sharepointdesigns.com` |
 
 #### ℹ️ Appearance Settings
+<details>
+
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![](assets/screenshot-2026-03-06-123337.png)
+</details>
 
 | 🏷️ Name                           | 🎯 Purpose                                                                                                                                                             | 💡 Select Option |
 | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
@@ -97,7 +106,13 @@ This section allows customization of the Welcome Banner and Quick Links display.
 
 #### 🔗 Quick Links Settings
 
+<details>
+
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![](assets/screenshot-2026-03-04-155946.png)
+
+</details>
 
 | 🏷️ Name                       | 🎯 Purpose                                                                                | 💡 Select Option          |
 | ------------------------------ | ----------------------------------------------------------------------------------------- | ------------------------- |
@@ -116,13 +131,19 @@ This section allows customization of the Welcome Banner and Quick Links display.
 
 #### ℹ️ About Section
 
+<details>
+
+<summary>📸 View Property Pane Screenshots</summary>
+
+![About](assets/screenshot-2026-03-27-132812.png)
+
 | 🏷️ Name                      | 🎯 Purpose                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
 | 👨‍💻**Developer Info**       | Indicates the web part is developed by**SharePoint Designs**.                        |
 | 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
 | 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
-## 📰 3. Document Content
+## 🗺️ 3. Document Content
 
 ### 📋 Details
 
@@ -159,8 +180,11 @@ This section allows customization of the Document Library Web Part, including he
 | 🌐**Show See All Link**          | Specifies the URL that opens when users click “See All”. | URL Field        |
 
 #### ⚙️ Content settings Section
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![](assets/screenshot-2026-03-04-172800.png)
+</details>
 
 | 🏷️ Name                         | 🎯 Purpose                                                               | 💡 Select Option                |
 | -------------------------------- | ------------------------------------------------------------------------ | ------------------------------- |
@@ -172,8 +196,12 @@ This section allows customization of the Document Library Web Part, including he
 | 🔢**Number of Items to Display** | Defines how many documents are displayed in the web part.                | 25                              |
 
 #### ⚙️ Appearance settings Section
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![](assets/screenshot-2026-03-04-172848.png)
+
+</details>
 
 | 🏷️ Name                          | 🎯 Purpose                                                  | 💡 Select Option |
 | --------------------------------- | ----------------------------------------------------------- | ---------------- |
@@ -183,38 +211,43 @@ This section allows customization of the Document Library Web Part, including he
 
 #### ℹ️ About Section
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
+![About](assets/screenshot-2026-03-27-132812.png)
+
+</details>
+
 | 🏷️ Name                      | 🎯 Purpose                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
 | 👨‍💻**Developer Info**       | Indicates the web part is developed by **SharePoint Designs**.                       |
 | 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
 | 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
-## 📰 4. Knowledge Hub
+## 📚 4. Knowledge Hub
 
 ### 📋 Details
 
-* Centralized Knowledge Display Web Part: Displays documents from a selected document library in a clean and structured layout.
-* Scrollable Content Area: Supports vertical scrolling when multiple documents are available.
-* Customizable Header Section: Allows control over title visibility and heading levels.
-* Responsive & Visibility Control: Optimized for desktop, mobile, and email views.
+* **Centralized Knowledge Display Web Part**: Displays documents from a selected document library in a clean and structured layout.
+* ** Scrollable Content Area**: Supports vertical scrolling when multiple documents are available.
+* **Customizable Header Section**: Allows control over title visibility and heading levels.
+* **Responsive & Visibility Control**: Optimized for desktop, mobile, and email views.
 
 ![Knowledge Hub](assets/screenshot-2026-03-26-110029.png)
 
 - - -
 
 ### ⚙️ Configuration Options
+#### 📌 Header Settings Section
 
 <details>
+<summary>📸 View Property Pane Screenshots</summary>
 
-The Web Part configuration is divided into two main sections:
-
-![](assets/screenshot-2026-03-04-173119.png)
+![header](assets/screenshot-2026-03-04-173119.png)
 
 </details>
 
-- - -
 
-#### 📌 Header Settings Section
 
 | 🏷️ Name                         | 🎯 Purpose                                                  | 💡 Select Option |
 | -------------------------------- | ----------------------------------------------------------- | ---------------- |
@@ -225,8 +258,11 @@ The Web Part configuration is divided into two main sections:
 | 🌐**Show See All Link**          | Specifies the URL that opens when users click “See All”.    | URL Field        |
 
 #### ⚙️General Settings Section
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![](assets/screenshot-2026-03-04-173209.png)
+</details>
 
 | 🏷️ Name                        | 🎯 Purpose                                                               | 💡 Select Option                |
 | ------------------------------- | ------------------------------------------------------------------------ | ------------------------------- |
@@ -237,8 +273,12 @@ The Web Part configuration is divided into two main sections:
 | 🔎**Filter the Category Value** | Filters documents by a selected category value.                          | Dropdown                        |
 
 #### ⚙️ Appearance settings Section
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![](assets/screenshot-2026-03-04-173255.png)
+
+</details>
 
 | 🏷️ Name                      | 🎯 Purpose                                                    | 💡 Select Option |
 | ----------------------------- | ------------------------------------------------------------- | ---------------- |
@@ -249,14 +289,23 @@ The Web Part configuration is divided into two main sections:
 | 🔎**Height of the container** | Adjust the height occurding to our requirement.               | Slider           |
 
 #### 🎨 Theme settings
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![](assets/screenshot-2026-03-04-173336.png)
+
+</details>
 
 | 🏷️ Name                | 🎯 Purpose                                                                | 💡 Select Option |
 | ----------------------- | ------------------------------------------------------------------------- | ---------------- |
 | 🎨**Color of the Icon** | Allows customization of the document icon color for branding consistency. | Color Picker     |
 
 #### ℹ️ About Section
+
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
+![About](assets/screenshot-2026-03-27-132812.png)
 
 | 🏷️ Name                      | 🎯 Purpose                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
@@ -295,7 +344,10 @@ Showcase concise company updates in a clean, minimal layout. Integrates with Sha
 
 #### General Settings
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 ![](assets/screenshot-2026-03-04-195014.png)
+</details>
 
 | 🏷️ Name            | 🎯 Purpose             | 💡 Select Option |
 | ------------------- | ---------------------- | ---------------- |
@@ -305,13 +357,26 @@ Showcase concise company updates in a clean, minimal layout. Integrates with Sha
 
 #### Layout Settings
 
+
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![](assets/screenshot-2026-03-04-195338.png)
+
+</details>
 
 | 🏷️ Name          | 🎯 Purpose    | 💡 Select Option |
 | ----------------- | ------------- | ---------------- |
 | **Choose Layout** | Select Layout | Filmstrip        |
 
 #### Appearance Settings
+
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
+![About](assets/screenshot-2026-03-27-165745.png)
+
+</details>
 
 | 🏷️ Name                       | 🎯 Purpose                                                                                                                                                                                                                | 💡 Select Option       |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -320,13 +385,20 @@ Showcase concise company updates in a clean, minimal layout. Integrates with Sha
 
 #### ℹ️ About Section
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
+![About](assets/screenshot-2026-03-27-132812.png)
+
+</details>
+
 | 🏷️ Name                      | 🎯 Purpose                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
 | 👨‍💻**Developer Info**       | Indicates the web part is developed by**SharePoint Designs**.                        |
 | 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
 | 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
-## 6. Organisation Chart
+## 🏢 6. Organisation Chart
 
 This web part will display a chart showing the organizational structure of the company based on the selected SharePoint site or list. It uses the Microsoft Graph API to query the user profiles and build the hierarchy.
 
@@ -357,7 +429,12 @@ This web part will display a chart showing the organizational structure of the c
 
 #### 📌 Appearance Settings Section
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![](assets/screenshot-2026-03-04-200404.png)
+
+</details>
 
 | 🏷️ Name              | 🎯 Purpose                                      | 💡 Select Option |
 | --------------------- | ----------------------------------------------- | ---------------- |
@@ -368,7 +445,12 @@ This web part will display a chart showing the organizational structure of the c
 
 #### 📌 Filter Settings Section
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![](assets/screenshot-2026-03-04-200550.png)
+
+</details>
 
 | 🏷️ Name                     | 🎯 Purpose                                                              | 💡 Select Option |
 | ---------------------------- | ----------------------------------------------------------------------- | ---------------- |
@@ -377,27 +459,33 @@ This web part will display a chart showing the organizational structure of the c
 
 #### ℹ️ About Section
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
+![About](assets/screenshot-2026-03-27-132812.png)
+
 | 🏷️ Name                      | 🎯 Purpose                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
 | 👨‍💻**Developer Info**       | Indicates the web part is developed by **SharePoint Designs**.                       |
 | 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
 | 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
-## 7. Calendar
+## 📅 7. Calendar
 
 Show upcoming meetings, holidays, and key events in a clear monthly or weekly calendar format.
 
 ![Calendar Preview](assets/screenshot-2026-02-20-154014.png)
 
-:::info
-The **Calendar** web part pulls events directly from a SharePoint list, helping teams stay informed about important dates.
-:::
-
 ### ⚙️ Configuration
 
 #### 📌 Header Settings Section
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![](assets/screenshot-2026-03-04-200835.png)
+
+</details>
 
 | 🏷️ Name                         | 🎯 Purpose                                                  | 💡 Select Option |
 | -------------------------------- | ----------------------------------------------------------- | ---------------- |
@@ -429,13 +517,18 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 
 #### ℹ️ About Section
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
+![About](assets/screenshot-2026-03-27-132812.png)
+
 | 🏷️ Name                      | 🎯 Purpose                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
 | 👨‍💻**Developer Info**       | Indicates the web part is developed by**SharePoint Designs**.                        |
 | 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
 | 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
-## 📰 8. Townhall Meeting video
+## 🎥 8. Townhall Meeting video
 
 ### 📋 Details
 
@@ -451,7 +544,12 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 
 #### 📌 Header Settings Section
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![](assets/screenshot-2026-03-04-201454.png)
+
+</details>
 
 | 🏷️ Name                         | 🎯 Purpose                                                  | 💡 Select Option |
 | -------------------------------- | ----------------------------------------------------------- | ---------------- |
@@ -463,7 +561,12 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 
 #### ⚙️ Background Settings
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![](assets/screenshot-2026-03-04-201711.png)
+
+</details>
 
 | 🏷️ Name                                | 🎯 Purpose                                                                                                                                              | 💡 Select Option |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
@@ -489,6 +592,13 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 | 🎥**Choose the Source**    | Defines the media source type for the townhall content.                                                                                                | `https://youtu.be/...`  |
 
 #### ℹ️ About Section
+
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
+![About](assets/screenshot-2026-03-27-132812.png)
+
+</details>
 
 | 🏷️ Name                      | 🎯 Purpose                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
