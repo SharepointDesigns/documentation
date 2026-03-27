@@ -652,7 +652,7 @@ collections:
   #Training
   - name: "training"
     label: "└─ Training"
-    label_singular: "Weather"
+    label_singular: "Training"
     folder: "spd-documentation/docs/webparts/training"
     media_folder: "/spd-documentation/docs/webparts/training/assets"
     public_folder: "assets"
