@@ -1,7 +1,7 @@
 ---
 title: Configuration
 ---
-### Note:
+### Note: 
  
 The Home page should be configured using the "Healthcare 3 Setup" web part to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
 
