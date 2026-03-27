@@ -14,16 +14,30 @@ Configuration settings for each web part.
 
 1. On the SharePoint site, locate the new icon in the top suite bar (on the right side of the header bar). This icon opens the design template panel.
 
+<details>
+  <summary>Click to expand</summary>
+
    ![](assets/screenshot-2026-03-04-171536.png)
+
+</details>
 2. Click the icon to open the Page creation Panel.
 
+<details>
+  <summary>Click to expand</summary>
    ![](assets/screenshot-2026-03-05-114236.png)
+
+</details>
 3. In the panel:
 
    * Select the **"Home Page"** template
    * Click the **Create Page** button
+<details>
+  <summary>Click to expand</summary>
 
      ![](assets/screenshot-2026-03-04-172006.png)
+
+</details>
+
 4. Do not close or refresh the browser. A pop-up will appear to create the required lists and libraries:
 
 * `Quick Links` list
@@ -35,9 +49,12 @@ Configuration settings for each web part.
 
 5. After the items are created, the site page will **refresh automatically**, and it will continue to creating page and adding webparts.
 6. Once setup is complete, a button will appear to open the newly created homepage. Click it to view the result.
+<details>
+  <summary>Click to expand</summary>
 
    ![](assets/screenshot-2026-03-04-171409.png)
 
+</details>
 - - -
 
 ## 👋 2. Welcome Banner
@@ -151,10 +168,10 @@ This section allows customization of the Welcome Banner and Quick Links display.
 
 This web part offers support Document Content information, 
 
-* Dynamic Document Display Web Part: Displays documents from a selected SharePoint document library in a structured card layout.
-* Search Functionality: Allows users to quickly search and filter documents within the web part.
-  *Category-Based Filtering: Supports filtering documents by category for better content organization.*
-  Header Customization: Includes configurable title, heading level, and optional “See All” link.
+* **Dynamic Document Display Web Part**: Displays documents from a selected SharePoint document library in a structured card layout.
+* **Search Functionality**: Allows users to quickly search and filter documents within the web part.
+* **Category-Based Filtering**: Supports filtering documents by category for better content organization.
+* **Header Customization**: Includes configurable title, heading level, and optional “See All” link.
 
 ![Assist](assets/screenshot-2026-03-26-110242.png)
 
@@ -231,7 +248,7 @@ This section allows customization of the Document Library Web Part, including he
 ### 📋 Details
 
 * **Centralized Knowledge Display Web Part**: Displays documents from a selected document library in a clean and structured layout.
-* ** Scrollable Content Area**: Supports vertical scrolling when multiple documents are available.
+* **Scrollable Content Area**: Supports vertical scrolling when multiple documents are available.
 * **Customizable Header Section**: Allows control over title visibility and heading levels.
 * **Responsive & Visibility Control**: Optimized for desktop, mobile, and email views.
 
