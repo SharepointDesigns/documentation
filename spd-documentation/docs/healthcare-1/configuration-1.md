@@ -137,6 +137,8 @@ This section allows customization of the Welcome Banner and Quick Links display.
 
 ![About](assets/screenshot-2026-03-27-132812.png)
 
+</details>
+
 | 🏷️ Name                      | 🎯 Purpose                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
 | 👨‍💻**Developer Info**       | Indicates the web part is developed by**SharePoint Designs**.                        |
@@ -464,6 +466,8 @@ This web part will display a chart showing the organizational structure of the c
 
 ![About](assets/screenshot-2026-03-27-132812.png)
 
+</details>
+
 | 🏷️ Name                      | 🎯 Purpose                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
 | 👨‍💻**Developer Info**       | Indicates the web part is developed by **SharePoint Designs**.                       |
@@ -521,6 +525,8 @@ Show upcoming meetings, holidays, and key events in a clear monthly or weekly ca
 <summary>📸 View Property Pane Screenshots</summary>
 
 ![About](assets/screenshot-2026-03-27-132812.png)
+
+</details>
 
 | 🏷️ Name                      | 🎯 Purpose                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
