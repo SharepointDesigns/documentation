@@ -13,8 +13,8 @@ sidebar_position: 3
 * Click **Add**
 * After installation, go to **Site Contents** to confirm it's added to the site.
 
-  ![](assets/screenshot-2026-03-27-151610.png =150x) 
-
+  
+<img src="assets/screenshot-2026-03-27-151610.png" width="150">
 - - -
 
 ## 🧪 Testing Instructions
