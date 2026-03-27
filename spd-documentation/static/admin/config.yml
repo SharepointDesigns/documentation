@@ -649,6 +649,29 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  #Training
+  - name: "training"
+    label: "└─ Training"
+    label_singular: "Weather"
+    folder: "spd-documentation/docs/webparts/training"
+    media_folder: "/spd-documentation/docs/webparts/training/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
   # Healthcare 1 Documentation
   - name: "healthcare-1"
     label: "Healthcare 1"
