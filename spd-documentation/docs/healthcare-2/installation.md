@@ -8,12 +8,12 @@ sidebar_position: 4
 * Navigate to your modern SharePoint site.
 * Click the **Settings (gear)** icon → Select **“Add an app”**
 
-  ![](assets/addanapp.png)
+  ![](assets/addanapp.png =250x)
 * Choose **Healthcare 02 by SharePoint Designs**
 * Click **Add**
 * After installation, go to **Site Contents** to confirm it's added to the site.
 
-  ![](assets/screenshot-2026-03-27-151610.png)
+  ![](assets/screenshot-2026-03-27-151610.png =150x) 
 
 - - -
 
@@ -23,16 +23,16 @@ sidebar_position: 4
 
 1. On the SharePoint site, locate the new icon in the top suite bar (on the right side of the header bar). This icon opens the design template panel.
 
-   ![](assets/screenshot-2026-03-27-151610.png)
+   ![](assets/screenshot-2026-03-27-151610.png =150x)
 2. Click the icon to open the Page creation Panel.
 
-   ![](assets/pagecreationpannel.png)
+   ![](assets/pagecreationpannel.png =200x)
 3. In the panel:
 
    * Select the **"Home Page"** template
    * Click the **Create Page** button
 
-     ![](assets/createpagebtn.png)
+     ![](assets/createpagebtn.png =350x)
 4. Do not close or refresh the browser. A pop-up will appear to create the required lists and libraries:
 
 * `Employee Spotlight` list
@@ -44,7 +44,7 @@ sidebar_position: 4
 5. After the items are created, the site page will **refresh automatically**, and it will continue to creating page and adding webparts.
 6. Once setup is complete, a button will appear to open the newly created homepage. Click it to view the result.
 
-   ![](assets/sucess.png)
+   ![](assets/sucess.png =3000x)
 
 - - -
 
