@@ -309,6 +309,8 @@ This section allows customization of the Document Library Web Part, including he
 
 ![About](assets/screenshot-2026-03-27-132812.png)
 
+</details>
+
 | 🏷️ Name                      | 🎯 Purpose                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
 | 👨‍💻**Developer Info**       | Indicates the web part is developed by**SharePoint Designs**.                        |
