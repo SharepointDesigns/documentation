@@ -147,7 +147,7 @@ Display rotating banners for important updates—using icons, links, colors, and
 
 Display documents from a SharePoint library, enabling sorting, notification badges, and external launch.
 
-![Document Content](assets/screenshot-2026-03-26-131413.png)
+![Document Content](assets/screenshot-2026-03-27-024428.png)
 
 ### 🛠️ General Settings
 
@@ -196,6 +196,7 @@ Display documents from a SharePoint library, enabling sorting, notification badg
 | Activate License   | Enable premium features | Button             |
 
 - - -
+
 ## 🟦 5. Employee Spotlight
 
 Highlight employee birthdays, anniversaries, and new joiners in a dynamic, branded carousel. Fine-tune its appearance, layout, and data connections with the grouped settings below.
@@ -296,6 +297,7 @@ Breathing exercise block with animation and admin-editable commentary—remind u
 | Activate License   | Enable premium features  | Button             |
 
 - - -
+
 ## 🟦 7. Organization Chart
 
 Visualize your company's hierarchical structure with advanced filtering and layout controls.
@@ -391,7 +393,6 @@ Aggregate updates from sites, filtered by audience and category, with tailored l
 
 - - -
 
-
 ## 🟦 9. Gallery
 
 Showcase image libraries with upload/button/appearance controls and full layout flexibility.
@@ -434,11 +435,3 @@ Showcase image libraries with upload/button/appearance controls and full layout 
 | Developer Info     | Credits & support       | SharePoint Designs |
 | Documentation Link | Access official guides  | \[Link]            |
 | Activate License   | Enable premium features | Button             |
-
-
-
-
-
-
-
-
