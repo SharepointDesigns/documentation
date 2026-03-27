@@ -13,7 +13,7 @@ sidebar_position: 4
 * Click **Add**
 * After installation, go to **Site Contents** to confirm it's added to the site.
 
-  ![](assets/addapp.png)
+  ![](assets/screenshot-2026-03-27-151610.png)
 
 - - -
 
@@ -23,7 +23,7 @@ sidebar_position: 4
 
 1. On the SharePoint site, locate the new icon in the top suite bar (on the right side of the header bar). This icon opens the design template panel.
 
-   ![](assets/addapp.png)
+   ![](assets/screenshot-2026-03-27-151610.png)
 2. Click the icon to open the Page creation Panel.
 
    ![](assets/pagecreationpannel.png)
