@@ -75,17 +75,38 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 
 </details>
 
-| Name                                       | Purpose                                              | Example / Options |
-| ---------------------------------------- | ------------------------------------------------ | ------------------------- |
-| Map Height (in px)                   | Slider to adjust the height of the webpart | Slider (320px)   |
+| Name               | Purpose                                    | Example / Options |
+| ------------------ | ------------------------------------------ | ----------------- |
+| Map Height (in px) | Slider to adjust the height of the webpart | Slider (320px)    |
 
- - - -
+- - -
 
 ### Tile Layer Settings
 
 <details>
 <summary>📸 View Tile Layer Settings Screenshots</summary>
 
-![Tile Layer Settings]()
+![Tile Layer Settings](assets/screenshot-2026-03-30-155351.png)
 
 </details>
+
+| Name               | Purpose                                    | Example / Options |
+| ------------------ | ------------------------------------------ | ----------------- |
+| Tile Layer URL |             Defines the map’s visual style by specifying the source of map tiles |               {Link} |
+| Tile Layer Attribution|          Displays the required credit or source information for the map data provider. |   {Text} |
+
+- - -
+
+### About
+
+<details>
+<summary>📸 View About Screenshots</summary>
+
+![About]()
+
+</details>
+
+| Name                   | Purpose                                                           |
+| ---------------------- | ----------------------------------------------------------------- |
+| Developer Info     | Indicates the web part is built by **SharePoint Designs**        |
+| Version   | Display the version number of the webpart |
