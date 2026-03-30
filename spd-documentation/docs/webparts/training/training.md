@@ -110,3 +110,8 @@ With this upgrade, the web part evolves into **a well-structured and interactive
 ![About](assets/screenshot-2026-03-30-112502.png)
 
 </details>
+
+| Name                   | Purpose                                                           |
+| ---------------------- | ----------------------------------------------------------------- |
+| **Developer Info**     | Indicates the web part is built by **SharePoint Designs**.        |
+| **Version**   | Display the version number of the webpart |
