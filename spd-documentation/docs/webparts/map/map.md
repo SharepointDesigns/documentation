@@ -6,7 +6,7 @@ sidebar_position: 1
 
 The **Map Web Part** is a custom-built solution that helps you display multiple locations in an interactive and engaging way within SharePoint. It uses latitude and longitude to accurately plot locations on a dynamic map. Each location can include details like an image, full address, contact information, and a tour URL for a virtual experience. Overall, it transforms simple location data into a powerful visual tool, making it easier for users to explore and connect with locations directly from the intranet.
 
-![Map](assets/screenshot-2026-03-30-0859.png)
+![Map](spd-documentation/static/img/uploads/screenshot-2026-03-30-0859.png)
 
 ![Map with Sidebar](assets/image-2-.png)
 
