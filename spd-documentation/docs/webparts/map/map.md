@@ -90,10 +90,10 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 
 </details>
 
-| Name               | Purpose                                    | Example / Options |
-| ------------------ | ------------------------------------------ | ----------------- |
-| Tile Layer URL |             Defines the map’s visual style by specifying the source of map tiles |               {Link} |
-| Tile Layer Attribution|          Displays the required credit or source information for the map data provider. |   {Text} |
+| Name                   | Purpose                                                                       | Example / Options |
+| ---------------------- | ----------------------------------------------------------------------------- | ----------------- |
+| Tile Layer URL         | Defines the map’s visual style by specifying the source of map tiles          | {Link}            |
+| Tile Layer Attribution | Displays the required credit or source information for the map data provider. | {Text}            |
 
 - - -
 
@@ -102,11 +102,11 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View About Screenshots</summary>
 
-![About]()
+![About](assets/screenshot-2026-03-30-112502.png)
 
 </details>
 
-| Name                   | Purpose                                                           |
-| ---------------------- | ----------------------------------------------------------------- |
-| Developer Info     | Indicates the web part is built by **SharePoint Designs**        |
-| Version   | Display the version number of the webpart |
+| Name           | Purpose                                                   |
+| -------------- | --------------------------------------------------------- |
+| Developer Info | Indicates the web part is built by **SharePoint Designs** |
+| Version        | Display the version number of the webpart                 |
