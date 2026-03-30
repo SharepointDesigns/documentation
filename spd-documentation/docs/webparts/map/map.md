@@ -38,9 +38,9 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 
 </details>
 
-| Name                     | Purpose                                                          | Example / Options   |
-| ------------------------ | ---------------------------------------------------------------- | ------------------- |
-| Select a List  | Choose which SharePoint list to display data from     |  “Location” |
+| Name          | Purpose                                           | Example / Options |
+| ------------- | ------------------------------------------------- | ----------------- |
+| Select a List | Choose which SharePoint list to display data from | “Location”        |
 
 - - -
 
@@ -49,12 +49,43 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View Map Plugin Settings Screenshots</summary>
 
-![Map Plugin Settings]()
+![Map Plugin Settings](assets/screenshot-2026-03-30-153143.png)
 
 </details>
 
-| Name                     | Purpose                                                          | Example / Options   |
-| ------------------------ | ---------------------------------------------------------------- | ------------------- |
-| Default Latitude Position | sets the initial centre of the map when it loads | {Blank} |
-|Default Longitude Position | sets the initial centre of the map when it loads | {Blank} |
+| Name                                                | Purpose                                                              | Example / Options |
+| --------------------------------------------------- | -------------------------------------------------------------------- | ----------------- |
+| Default Latitude Position                           | sets the initial centre of the map when it loads                     | {Blank}           |
+| Default Longitude Position                          | sets the initial centre of the map when it loads                     | {Blank}           |
+| Initial Zoom Level                                  | Sets the default zoom when the map loads, showing a wide global view | Slider            |
+| Hide zoom control                                   | Toggle used to enable or disable the zoom control                    | On/Off            |
+| Minimum Zoom (zoom out) Level                       | Users can zoom out to a global view                                  | Slider            |
+| Maximum zoom level (zoom in, depends on Tile layer) | Users can zoom in to a very detailed street-level view               | Slider            |
+| Hide zoom on mouse wheel/touch                      | Toggle used to zoom on using scroll                                  | On/Off            |
+| Hide Dragging                                       | Toggle used to move  the map freely                                  | On/Off            |
 
+- - -
+
+### Appearance Settings
+
+<details>
+<summary>📸 View Appearance Settings Screenshots</summary>
+
+![Appearance Settings](assets/screenshot-2026-03-30-154920.png)
+
+</details>
+
+| Name                                       | Purpose                                              | Example / Options |
+| ---------------------------------------- | ------------------------------------------------ | ------------------------- |
+| Map Height (in px)                   | Slider to adjust the height of the webpart | Slider (320px)   |
+
+ - - -
+
+### Tile Layer Settings
+
+<details>
+<summary>📸 View Tile Layer Settings Screenshots</summary>
+
+![Tile Layer Settings]()
+
+</details>
