@@ -84,7 +84,7 @@ With this upgrade, the web part evolves into **a well-structured and interactive
 
 | Name         | Purpose                                                    | Example / Options   |
 | ------------ | ---------------------------------------------------------- | ------------------- |
-| Button Theme | Display the site thee branding theme color for folder tabs | Dropdown            |
+| Button Theme | Display the site theme branding theme color for folder tabs | Dropdown            |
 | Preview      | Displays theme preview for folder tabs                     | Color Display Block |
 
 - - -
