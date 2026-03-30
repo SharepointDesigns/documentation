@@ -6,9 +6,9 @@ sidebar_position: 1
 
 The **Map Web Part** is a custom-built solution that helps you display multiple locations in an interactive and engaging way within SharePoint. It uses latitude and longitude to accurately plot locations on a dynamic map. Each location can include details like an image, full address, contact information, and a tour URL for a virtual experience. Overall, it transforms simple location data into a powerful visual tool, making it easier for users to explore and connect with locations directly from the intranet.
 
-![Map](assets/maplayout.png)
+![Map](assets/map.png)
 
-![Map with Sidebar](assets/image-2-.png)
+![Map with Sidebar](assets/map-with-sidebar.png)
 
 ## Configuration
 
@@ -17,7 +17,7 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
 
-![Header Settings](assets/screenshot-2026-03-30-151231.png)
+![Header Settings](assets/header.png)
 
 </details>
 
@@ -34,7 +34,7 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-![General Settings](assets/screenshot-2026-03-30-152418.png)
+![General Settings](assets/general.png)
 
 </details>
 
@@ -49,7 +49,7 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View Map Plugin Settings Screenshots</summary>
 
-![Map Plugin Settings](assets/screenshot-2026-03-30-153143.png)
+![Map Plugin Settings](assets/map-plugin.png)
 
 </details>
 
@@ -71,7 +71,7 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
 
-![Appearance Settings](assets/screenshot-2026-03-30-154920.png)
+![Appearance Settings](assets/apperance.png)
 
 </details>
 
@@ -86,7 +86,7 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View Tile Layer Settings Screenshots</summary>
 
-![Tile Layer Settings](assets/screenshot-2026-03-30-155351.png)
+![Tile Layer Settings](assets/tile-layer.png)
 
 </details>
 
@@ -102,7 +102,7 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View About Screenshots</summary>
 
-![About](assets/screenshot-2026-03-30-112502.png)
+![About](assets/about.png)
 
 </details>
 
