@@ -106,7 +106,7 @@ With this upgrade, the web part evolves into **a well-structured and interactive
 ### About
 
 <details>
-<summary>📸 View Audience Settings Screenshots</summary>
+<summary>📸 View About Screenshots</summary>
 
 ![About](assets/screenshot-2026-03-30-112502.png)
 
