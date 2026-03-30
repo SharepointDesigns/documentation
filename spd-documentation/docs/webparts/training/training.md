@@ -44,7 +44,7 @@ With this upgrade, the web part evolves into **a well-structured and interactive
 | Source                    | Source of the Document library.                         | A document library on this site |
 | Select a Library          | Choose a specific document library from the site.       | Training                        |
 | Folder Name               | Optional text input for specifying a sub-folder         | (Blank)                         |
-| Select a folders          | Checkbox to to show all folders                         | Checkbox Selection              |
+| Select a folders          | Checkbox to show all folders                         | Checkbox Selection              |
 | Category Name             | Select the metadata column used for category filtering. | Category                        |
 | Filter the Category Value | Choose one or more category values to filter items.     | Choice 1, Choice 2, Choice 3    |
 
