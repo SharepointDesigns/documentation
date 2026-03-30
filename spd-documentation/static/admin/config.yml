@@ -677,7 +677,7 @@ collections:
     label: "└─ Map"
     label_singular: "Map"
     folder: "spd-documentation/docs/webparts/map"
-    media_folder: "/spd-documentation/docs/webparts/training/map"
+    media_folder: "/spd-documentation/docs/webparts/map/assets"
     public_folder: "assets"
     create: true
     slug: "{{slug}}"
