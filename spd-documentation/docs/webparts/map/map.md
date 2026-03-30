@@ -17,7 +17,7 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
 
-![Header Settings](assets/Header.png)
+![Header Settings](assets/header.png)
 
 </details>
 
@@ -34,7 +34,7 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-![General Settings](assets/General.png)
+![General Settings](assets/general.png)
 
 </details>
 
@@ -49,14 +49,14 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View Map Plugin Settings Screenshots</summary>
 
-![Map Plugin Settings](assets/Map Plugin.png)
+![Map Plugin Settings](assets/map-plugin.png)
 
 </details>
 
 | Name                                                | Purpose                                                              | Example / Options |
 | --------------------------------------------------- | -------------------------------------------------------------------- | ----------------- |
-| Default Latitude Position                           | sets the initial centre of the map when it loads                     | {Blank}           |
-| Default Longitude Position                          | sets the initial centre of the map when it loads                     | {Blank}           |
+| Default Latitude Position                           | sets the initial centre of the map when it loads                     | Blank         |
+| Default Longitude Position                          | sets the initial centre of the map when it loads                     | Blank           |
 | Initial Zoom Level                                  | Sets the default zoom when the map loads, showing a wide global view | Slider            |
 | Hide zoom control                                   | Toggle used to enable or disable the zoom control                    | On/Off            |
 | Minimum Zoom (zoom out) Level                       | Users can zoom out to a global view                                  | Slider            |
@@ -71,7 +71,7 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
 
-![Appearance Settings](assets/Apperance.png)
+![Appearance Settings](assets/apperance.png)
 
 </details>
 
@@ -86,14 +86,14 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View Tile Layer Settings Screenshots</summary>
 
-![Tile Layer Settings](assets/Tile layer.png)
+![Tile Layer Settings](assets/tile-layer.png)
 
 </details>
 
 | Name                   | Purpose                                                                       | Example / Options |
 | ---------------------- | ----------------------------------------------------------------------------- | ----------------- |
-| Tile Layer URL         | Defines the map’s visual style by specifying the source of map tiles          | {Link}            |
-| Tile Layer Attribution | Displays the required credit or source information for the map data provider. | {Text}            |
+| Tile Layer URL         | Defines the map’s visual style by specifying the source of map tiles          | Link            |
+| Tile Layer Attribution | Displays the required credit or source information for the map data provider. | Text            |
 
 - - -
 
