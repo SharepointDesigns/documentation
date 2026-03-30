@@ -39,11 +39,34 @@ With this upgrade, the web part evolves into **a well-structured and interactive
 
 </details>
 
-| Name                       | Purpose                                                      | Example / Options                         |
-| -------------------------- | ------------------------------------------------------------ | ----------------------------------------- |
-| Source                     | Source of the Document library.                              | A document library on this site           |
-| Select a Library           | Choose a specific document library from the site.            | Training                         |
-| Folder Name   | Optional text input for specifying a sub-folder    |  (Blank)  |
-| Select a folders  | Checkbox to to show all folders       |    Checkbox Selection  |
-| Category Name              | Select the metadata column used for category filtering.      | Category                                  |
-| Filter the Category Value  | Choose one or more category values to filter items.          | Choice 1, Choice 2, Choice 3              |
+| Name                      | Purpose                                                 | Example / Options               |
+| ------------------------- | ------------------------------------------------------- | ------------------------------- |
+| Source                    | Source of the Document library.                         | A document library on this site |
+| Select a Library          | Choose a specific document library from the site.       | Training                        |
+| Folder Name               | Optional text input for specifying a sub-folder         | (Blank)                         |
+| Select a folders          | Checkbox to to show all folders                         | Checkbox Selection              |
+| Category Name             | Select the metadata column used for category filtering. | Category                        |
+| Filter the Category Value | Choose one or more category values to filter items.     | Choice 1, Choice 2, Choice 3    |
+
+- - -
+
+### Appearance Settings
+
+<details>
+<summary>📸 View Appearance Settings Screenshots</summary>
+
+![Appearance settings](assets/screenshot-2026-03-30-110056.png)
+
+</details>
+
+| Name                    | Purpose                                  |  Example / Options   |
+| -------------------------- | ------------------------------------------- | ---------------- |
+| Layout Type                | Controls how content is visually displayed  | Film Strip       |
+| Show Folder Tabs      | Toggle to display the folder name preview  | On   |
+| Show Thumbnail             | Toggle to display file previews             | On               |
+| Show Folder Name           | Toggle to display folder names              | Off           |
+| Show Author                | Toggle to show the file creator             | On               |
+| Show See All ?           |  Toggle to show/hide the see all         | Off          |
+| Slides per View            | Number of items shown per slide             | 4               |
+| Enable Navigation          | Toggle to enable left/right carousel arrows | Off             |
+| Enable Pagination          | Toggle to enable pagination controls        | Off              |
