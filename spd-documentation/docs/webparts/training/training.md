@@ -59,14 +59,54 @@ With this upgrade, the web part evolves into **a well-structured and interactive
 
 </details>
 
-| Name                    | Purpose                                  |  Example / Options   |
-| -------------------------- | ------------------------------------------- | ---------------- |
-| Layout Type                | Controls how content is visually displayed  | Film Strip       |
-| Show Folder Tabs      | Toggle to display the folder name preview  | On   |
-| Show Thumbnail             | Toggle to display file previews             | On               |
-| Show Folder Name           | Toggle to display folder names              | Off           |
-| Show Author                | Toggle to show the file creator             | On               |
-| Show See All ?           |  Toggle to show/hide the see all         | Off          |
-| Slides per View            | Number of items shown per slide             | 4               |
-| Enable Navigation          | Toggle to enable left/right carousel arrows | Off             |
-| Enable Pagination          | Toggle to enable pagination controls        | Off              |
+| Name              | Purpose                                     | Example / Options |
+| ----------------- | ------------------------------------------- | ----------------- |
+| Layout Type       | Controls how content is visually displayed  | Film Strip        |
+| Show Folder Tabs  | Toggle to display the folder name preview   | On                |
+| Show Thumbnail    | Toggle to display file previews             | On                |
+| Show Folder Name  | Toggle to display folder names              | Off               |
+| Show Author       | Toggle to show the file creator             | On                |
+| Show See All ?    | Toggle to show/hide the see all             | Off               |
+| Slides per View   | Number of items shown per slide             | 4                 |
+| Enable Navigation | Toggle to enable left/right carousel arrows | Off               |
+| Enable Pagination | Toggle to enable pagination controls        | Off               |
+
+- - -
+
+### Theme Settings
+
+<details>
+<summary>📸 View Theme Settings Screenshots</summary>
+
+![Theme Settings](assets/screenshot-2026-03-30-112028.png)
+
+</details>
+
+| Name         | Purpose                                                    | Example / Options   |
+| ------------ | ---------------------------------------------------------- | ------------------- |
+| Button Theme | Display the site thee branding theme color for folder tabs | Dropdown            |
+| Preview      | Displays theme preview for folder tabs                     | Color Display Block |
+
+- - -
+
+### Target Audience
+
+<details>
+<summary>📸 View Audience Settings Screenshots</summary>
+
+![Audience Settings](assets/screenshot-2026-03-30-112348.png)
+
+</details>
+
+| Name            | Purpose                               | Example / Options |
+| --------------- | ------------------------------------- | ----------------- |
+| Target Audience | Choose the people to show the webpart | People Picker     |
+
+### About
+
+<details>
+<summary>📸 View Audience Settings Screenshots</summary>
+
+![About](assets/screenshot-2026-03-30-112502.png)
+
+</details>
