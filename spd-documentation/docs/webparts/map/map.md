@@ -21,3 +21,23 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 
 </details>
 
+| Name                     | Purpose                                                          | Example / Options   |
+| ------------------------ | ---------------------------------------------------------------- | ------------------- |
+| Webpart Title            | Allows entering a custom title for the Webpart                   | Map                 |
+| WebPart Title Text Color | Defines the title color using dropdown with site theming options | \#242424            |
+| Preview                  | Displays theme preview                                           | Color Block Display |
+
+- - -
+
+### General Settings
+
+<details>
+<summary>📸 View General Settings Screenshots</summary>
+
+![General Settings](assets/screenshot-2026-03-30-152418.png)
+
+</details>
+
+| Name                     | Purpose                                                          | Example / Options   |
+| ------------------------ | ---------------------------------------------------------------- | ------------------- |
+| Select a List  | Choose which SharePoint list to display data from     |  “Location” |
