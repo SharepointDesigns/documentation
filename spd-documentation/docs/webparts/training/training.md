@@ -23,8 +23,8 @@ With this upgrade, the web part evolves into **a well-structured and interactive
 
 | Name                     | Purpose                                                           | Example / Options          |
 | ------------------------ | ----------------------------------------------------------------- | -------------------------- |
-| Show WebPart Title?      | Toggle to show or hide the WebPart title in the layout.           | Yes / No                   |
-| Title                    | Allows entering a custom title for the WebPart.                   | “Training with Categories” |
+| Show WebPart Title?      | Toggle to show or hide the WebPart title in the layout           | Yes / No                   |
+| Title                    | Allows entering a custom title for the WebPart                   | “Training with Categories” |
 | WebPart Title Text Color | Defines the title color using dropdown with site themeing options | \#242424                   |
 | Preview                  | Displays theme preview                                            | Color Block Display        |
 
@@ -41,12 +41,12 @@ With this upgrade, the web part evolves into **a well-structured and interactive
 
 | Name                      | Purpose                                                 | Example / Options               |
 | ------------------------- | ------------------------------------------------------- | ------------------------------- |
-| Source                    | Source of the Document library.                         | A document library on this site |
-| Select a Library          | Choose a specific document library from the site.       | Training                        |
+| Source                    | Source of the Document library                         | A document library on this site |
+| Select a Library          | Choose a specific document library from the site       | Training                        |
 | Folder Name               | Optional text input for specifying a sub-folder         | (Blank)                         |
-| Select a folders          | Checkbox to to show all folders                         | Checkbox Selection              |
-| Category Name             | Select the metadata column used for category filtering. | Category                        |
-| Filter the Category Value | Choose one or more category values to filter items.     | Choice 1, Choice 2, Choice 3    |
+| Select a folders          | Checkbox to show all folders                         | Checkbox Selection              |
+| Category Name             | Select the metadata column used for category filtering | Category                        |
+| Filter the Category Value | Choose one or more category values to filter items     | Choice 1, Choice 2, Choice 3    |
 
 - - -
 
@@ -84,7 +84,7 @@ With this upgrade, the web part evolves into **a well-structured and interactive
 
 | Name         | Purpose                                                    | Example / Options   |
 | ------------ | ---------------------------------------------------------- | ------------------- |
-| Button Theme | Display the site thee branding theme color for folder tabs | Dropdown            |
+| Button Theme | Display the site branding theme color for folder tabs | Dropdown            |
 | Preview      | Displays theme preview for folder tabs                     | Color Display Block |
 
 - - -
@@ -114,5 +114,5 @@ With this upgrade, the web part evolves into **a well-structured and interactive
 
 | Name                   | Purpose                                                           |
 | ---------------------- | ----------------------------------------------------------------- |
-| **Developer Info**     | Indicates the web part is built by **SharePoint Designs**.        |
-| **Version**   | Display the version number of the webpart |
+| Developer Info     | Indicates the web part is built by **SharePoint Designs**        |
+| Version   | Display the version number of the webpart |
