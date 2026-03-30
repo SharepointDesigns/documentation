@@ -41,3 +41,18 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 | Name                     | Purpose                                                          | Example / Options   |
 | ------------------------ | ---------------------------------------------------------------- | ------------------- |
 | Select a List  | Choose which SharePoint list to display data from     |  “Location” |
+
+### Map Plugin Settings
+
+<details>
+<summary>📸 View Map Plugin Settings Screenshots</summary>
+
+![Map Plugin Settings]()
+
+</details>
+
+| Name                     | Purpose                                                          | Example / Options   |
+| ------------------------ | ---------------------------------------------------------------- | ------------------- |
+| Default Latitude Position | sets the initial centre of the map when it loads | {Blank} |
+|Default Longitude Position | sets the initial centre of the map when it loads | {Blank} |
+
