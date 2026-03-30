@@ -49,7 +49,7 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View Map Plugin Settings Screenshots</summary>
 
-![Map Plugin Settings](assets/map-plugin.png)
+![Map Plugin Settings](assets/Map Plugin.png)
 
 </details>
 
@@ -86,7 +86,7 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View Tile Layer Settings Screenshots</summary>
 
-![Tile Layer Settings](assets/tile-layer.png)
+![Tile Layer Settings](assets/Tile layer.png)
 
 </details>
 
