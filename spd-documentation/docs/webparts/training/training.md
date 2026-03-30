@@ -114,5 +114,5 @@ With this upgrade, the web part evolves into **a well-structured and interactive
 
 | Name                   | Purpose                                                           |
 | ---------------------- | ----------------------------------------------------------------- |
-| **Developer Info**     | Indicates the web part is built by **SharePoint Designs**        |
-| **Version**   | Display the version number of the webpart |
+| Developer Info     | Indicates the web part is built by **SharePoint Designs**        |
+| Version   | Display the version number of the webpart |
