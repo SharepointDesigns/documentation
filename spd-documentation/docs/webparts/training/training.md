@@ -25,7 +25,7 @@ With this upgrade, the web part evolves into **a well-structured and interactive
 | ------------------------ | ----------------------------------------------------------------- | -------------------------- |
 | Show WebPart Title?      | Toggle to show or hide the WebPart title in the layout           | Yes / No                   |
 | Title                    | Allows entering a custom title for the WebPart                   | “Training with Categories” |
-| WebPart Title Text Color | Defines the title color using dropdown with site themeing options | \#242424                   |
+| WebPart Title Text Color | Defines the title color using dropdown with site theming options | \#242424                   |
 | Preview                  | Displays theme preview                                            | Color Block Display        |
 
 - - -
