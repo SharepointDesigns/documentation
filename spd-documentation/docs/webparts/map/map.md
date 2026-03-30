@@ -42,6 +42,8 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 | ------------------------ | ---------------------------------------------------------------- | ------------------- |
 | Select a List  | Choose which SharePoint list to display data from     |  “Location” |
 
+- - -
+
 ### Map Plugin Settings
 
 <details>
