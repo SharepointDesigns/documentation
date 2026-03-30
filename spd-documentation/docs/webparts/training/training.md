@@ -102,6 +102,7 @@ With this upgrade, the web part evolves into **a well-structured and interactive
 | --------------- | ------------------------------------- | ----------------- |
 | Target Audience | Choose the people to show the webpart | People Picker     |
 
+- - -
 ### About
 
 <details>
