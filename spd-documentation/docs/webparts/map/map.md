@@ -17,7 +17,7 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
 
-![Header Settings](assets/header.png)
+![Header Settings](assets/header-1.png)
 
 </details>
 
@@ -34,7 +34,7 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-![General Settings](assets/general.png)
+![General Settings](assets/general-1.png)
 
 </details>
 
@@ -71,7 +71,7 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
 
-![Appearance Settings](assets/apperance.png)
+![Appearance Settings](assets/apperance-1.png)
 
 </details>
 
