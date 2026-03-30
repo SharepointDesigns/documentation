@@ -672,7 +672,7 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown" }
 
-    #Training
+    #Map
   - name: "map"
     label: "└─ Map"
     label_singular: "Map"
