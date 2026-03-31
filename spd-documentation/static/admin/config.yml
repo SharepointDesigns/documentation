@@ -673,9 +673,9 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
     #Map
-  - name: "map"
-    label: "└─ Map"
-    label_singular: "Map"
+  - name: "Location"
+    label: "└─ Location"
+    label_singular: "Location"
     folder: "spd-documentation/docs/webparts/map"
     media_folder: "/spd-documentation/docs/webparts/map/assets"
     public_folder: "assets"
