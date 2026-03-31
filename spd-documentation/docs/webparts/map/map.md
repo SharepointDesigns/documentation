@@ -1,12 +1,12 @@
 ---
-title: Map
+title: Location
 sidebar_position: 1
 ---
 ## Overview
 
-The **Map Web Part** is a custom-built solution that helps you display multiple locations in an interactive and engaging way within SharePoint. It uses latitude and longitude to accurately plot locations on a dynamic map. Each location can include details like an image, full address, contact information, and a tour URL for a virtual experience. Overall, it transforms simple location data into a powerful visual tool, making it easier for users to explore and connect with locations directly from the intranet.
+The **Location Web Part** is a custom-built solution that helps you display multiple locations in an interactive and engaging way within SharePoint. It uses latitude and longitude to accurately plot locations on a dynamic map. Each location can include details like an image, full address, contact information, and a tour URL for a virtual experience. Overall, it transforms simple location data into a powerful visual tool, making it easier for users to explore and connect with locations directly from the intranet.
 
-![Map](assets/image-2-.png)
+![Map](assets/image.jpg)
 
 ![Map with Sidebar](assets/map-with-sidebar.png)
 
@@ -23,7 +23,7 @@ The **Map Web Part** is a custom-built solution that helps you display multiple 
 
 | Name                     | Purpose                                                          | Example / Options   |
 | ------------------------ | ---------------------------------------------------------------- | ------------------- |
-| Webpart Title            | Allows entering a custom title for the Webpart                   | Map                 |
+| Webpart Title            | Allows entering a custom title for the Webpart                   | Location                 |
 | WebPart Title Text Color | Defines the title color using dropdown with site theming options | \#242424            |
 | Preview                  | Displays theme preview                                           | Color Block Display |
 
