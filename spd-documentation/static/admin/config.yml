@@ -676,8 +676,8 @@ collections:
   - name: "Location"
     label: "└─ Location"
     label_singular: "Location"
-    folder: "spd-documentation/docs/webparts/map"
-    media_folder: "/spd-documentation/docs/webparts/map/assets"
+    folder: "spd-documentation/docs/webparts/location"
+    media_folder: "/spd-documentation/docs/webparts/location/assets"
     public_folder: "assets"
     create: true
     slug: "{{slug}}"
