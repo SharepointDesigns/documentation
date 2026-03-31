@@ -8,7 +8,7 @@ The **Location Web Part** is a custom-built solution that helps you display mult
 
 ![Map](assets/image.jpg)
 
-![Map with Sidebar](assets/map-with-sidebar.png)
+![Map with Sidebar](assets/map-with-side.png)
 
 ## Configuration
 
