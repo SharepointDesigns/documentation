@@ -185,8 +185,6 @@ This section allows configuration of automatic scrolling behavior.
 
 </details>
 
-#### 🔄 Behavior Configuration
-
 | 🏷️ Name                  | 🎯 Purpose                                                  | 💡 Select Option |
 | ------------------------- | ----------------------------------------------------------- | ---------------- |
 | 🔁 **Enable Auto Scroll** | Toggles automatic scrolling of content within the web part. | `Off`            |
@@ -205,7 +203,7 @@ This section allows configuration of automatic scrolling behavior.
 | 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
 | 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
-## 🔗 4. QuickLinks Settings
+## 🔗 4. QuickLinks
 
 ### 📋 Details
 
@@ -272,7 +270,6 @@ This section allows customization of visual styles such as border radius, colors
 
 </details>
 
-#### 🖌️ Style Configuration
 
 | 🏷️ Name                     | 🎯 Purpose                                                      | 💡 Select Option |
 | ---------------------------- | --------------------------------------------------------------- | ---------------- |
@@ -294,7 +291,6 @@ This section allows control over admin-specific options and visibility.
 
 </details>
 
-#### 🔐 Admin Configuration
 
 | 🏷️ Name                | 🎯 Purpose                                                     | 💡 Select Option |
 | ----------------------- | -------------------------------------------------------------- | ---------------- |
@@ -321,8 +317,6 @@ Showcase concise company updates in a clean, minimal layout. Integrates with Sha
 ![News Preview](assets/screenshot-2026-03-27-153835.png)
 
 - - -
-
-### ⚙️ Configuration
 
 #### 📰 Header Settings
 
@@ -358,7 +352,6 @@ This section allows selection of the layout style for displaying news content.
 
 </details>
 
-#### 📰 Layout Configuration
 
 | 🏷️ Name             | 🎯 Purpose                                           | 💡 Select Option |
 | -------------------- | ---------------------------------------------------- | ---------------- |
@@ -395,8 +388,6 @@ This section allows customization of visual styling such as borders and shadows.
 
 </details>
 
-#### 🖌️ Style Configuration
-
 | 🏷️ Name           | 🎯 Purpose                                        | 💡 Select Option |
 | ------------------ | ------------------------------------------------- | ---------------- |
 | 🔲 **Show Border** | Toggles visibility of border around the web part. | `Off`            |
@@ -431,8 +422,6 @@ This web part highlights employee recognition, celebrations, and appreciation mo
 
 ![Kudos](assets/screenshot-2026-03-27-155345.png)
 
-### ⚙️ Configuration
-
 #### 📌 Header Settings
 
 This section allows customization of the Kudos web part header, including visibility, title, navigation, and background.
@@ -466,7 +455,6 @@ This section allows configuration of data source, time-based filtering, and cate
 
 </details>
 
-#### 📂 Data Configuration
 
 | 🏷️ Name                            | 🎯 Purpose                                                              | 💡 Select Option |
 | ----------------------------------- | ----------------------------------------------------------------------- | ---------------- |
@@ -487,7 +475,6 @@ This section allows customization of visual styles such as borders, shadows, and
 
 </details>
 
-#### 🖌️ Style Configuration
 
 | 🏷️ Name                         | 🎯 Purpose                                             | 💡 Select Option |
 | -------------------------------- | ------------------------------------------------------ | ---------------- |
@@ -510,7 +497,6 @@ This section allows configuration of carousel behavior such as auto play and spe
 
 </details>
 
-#### 🔄 Carousel Configuration
 
 | 🏷️ Name                         | 🎯 Purpose                                        | 💡 Select Option |
 | -------------------------------- | ------------------------------------------------- | ---------------- |
@@ -528,7 +514,6 @@ This section allows control over admin-specific options and visibility.
 
 </details>
 
-#### 🔐 Admin Configuration
 
 | 🏷️ Name                | 🎯 Purpose                                                 | 💡 Select Option |
 | ----------------------- | ---------------------------------------------------------- | ---------------- |
@@ -576,7 +561,6 @@ This section allows customization of the web part header including title, visibi
 
 </details>
 
-#### 🧾 Header Configuration
 
 | 🏷️ Name                  | 🎯 Purpose                                                    | 💡 Select Option        |
 | ------------------------- | ------------------------------------------------------------- | ----------------------- |
@@ -599,7 +583,6 @@ This section allows customization of the main content displayed in the web part.
 
 </details>
 
-#### 📝 Content Configuration
 
 | 🏷️ Name                | 🎯 Purpose                                           | 💡 Select Option                                          |
 | ----------------------- | ---------------------------------------------------- | --------------------------------------------------------- |
@@ -619,7 +602,6 @@ This section allows selection of the data source for mindfulness resources.
 
 </details>
 
-#### 📋 Resource Configuration
 
 | 🏷️ Name                    | 🎯 Purpose                                                   | 💡 Select Option |
 | --------------------------- | ------------------------------------------------------------ | ---------------- |
@@ -636,8 +618,6 @@ This section provides information about the web part version and documentation.
 ![](assets/screenshot-2026-03-27-132812.png)
 
 </details>
-
-#### 📌 About Information
 
 | 🏷️ Name               | 🎯 Purpose                                    | 💡 Value             |
 | ---------------------- | --------------------------------------------- | -------------------- |
@@ -673,7 +653,6 @@ This section allows customization of the web part header including title, visibi
 
 </details>
 
-#### 🧾 Header Configuration
 
 | 🏷️ Name                    | 🎯 Purpose                                                    | 💡 Select Option     |
 | --------------------------- | ------------------------------------------------------------- | -------------------- |
@@ -698,7 +677,6 @@ This section allows configuration of data source and library selection.
 
 </details>
 
-#### 📂 Layout Configuration
 
 | 🏷️ Name                          | 🎯 Purpose                                             | 💡 Select Option                  |
 | --------------------------------- | ------------------------------------------------------ | --------------------------------- |
@@ -721,7 +699,6 @@ This section allows customization of layout, visibility, and display options.
 
 </details>
 
-#### 🖌️ Style Configuration
 
 | 🏷️ Name                         | 🎯 Purpose                                            | 💡 Select Option    |
 | -------------------------------- | ----------------------------------------------------- | ------------------- |
@@ -749,7 +726,6 @@ This section provides information about the web part version and documentation.
 
 </details>
 
-#### 📌 About Information
 
 | 🏷️ Name               | 🎯 Purpose                                    | 💡 Value             |
 | ---------------------- | --------------------------------------------- | -------------------- |
@@ -785,7 +761,6 @@ This section allows customization of the web part header including title, visibi
 
 </details>
 
-#### 🧾 Header Configuration
 
 | 🏷️ Name                 | 🎯 Purpose                                                    | 💡 Select Option                        |
 | ------------------------ | ------------------------------------------------------------- | --------------------------------------- |
@@ -808,8 +783,6 @@ This section allows configuration of event source, display options, and filterin
 ![Content Settings](assets/screenshot-2026-03-27-161544.png)
 
 </details>
-
-#### 📂 Content Configuration
 
 | 🏷️ Name                        | 🎯 Purpose                                                | 💡 Select Option              |
 | ------------------------------- | --------------------------------------------------------- | ----------------------------- |
@@ -834,8 +807,6 @@ This section allows control over admin-specific options.
 
 </details>
 
-#### 🔐 Admin Configuration
-
 | 🏷️ Name                | 🎯 Purpose                                                | 💡 Select Option |
 | ----------------------- | --------------------------------------------------------- | ---------------- |
 | 👁️ **Show Admin Menu** | Toggles visibility of the admin menu for managing events. | `Hide`           |
@@ -851,8 +822,6 @@ This section provides information about the web part version and documentation.
 ![](assets/screenshot-2026-03-27-132812.png)
 
 </details>
-
-#### 📌 About Information
 
 | 🏷️ Name               | 🎯 Purpose                                    | 💡 Value             |
 | ---------------------- | --------------------------------------------- | -------------------- |
@@ -886,7 +855,6 @@ This section allows customization of the web part header including title, visibi
 
 </details>
 
-#### 🧾 Header Configuration
 
 | 🏷️ Name                  | 🎯 Purpose                                                    | 💡 Select Option   |
 | ------------------------- | ------------------------------------------------------------- | ------------------ |
@@ -908,8 +876,6 @@ This section allows configuration of the data source for locations.
 
 </details>
 
-#### 📂 Content Configuration
-
 | 🏷️ Name                      | 🎯 Purpose                                                  | 💡 Select Option |
 | ----------------------------- | ----------------------------------------------------------- | ---------------- |
 | 📋 **Select Facilities List** | Chooses the SharePoint list used to fetch location details. | `Facilities`     |
@@ -928,7 +894,6 @@ This section allows configuration of navigation and display options.
 
 </details>
 
-#### 📐 Layout Configuration
 
 | 🏷️ Name                    | 🎯 Purpose                                           | 💡 Select Option                           |
 | --------------------------- | ---------------------------------------------------- | ------------------------------------------ |
@@ -949,7 +914,6 @@ This section allows control over admin-specific options.
 
 </details>
 
-#### 🔐 Admin Configuration
 
 | 🏷️ Name                | 🎯 Purpose                                                   | 💡 Select Option |
 | ----------------------- | ------------------------------------------------------------ | ---------------- |
@@ -968,7 +932,6 @@ This section provides information about the web part version and documentation.
 
 </details>
 
-#### 📌 About Information
 
 | 🏷️ Name               | 🎯 Purpose                                    | 💡 Value             |
 | ---------------------- | --------------------------------------------- | -------------------- |
