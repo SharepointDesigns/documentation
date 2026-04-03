@@ -121,7 +121,7 @@ This section allows customization of announcement title, message, and visibility
 | 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
 | 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
-## 📊 3. KPI Appointments Settings
+## 📊 3. KPI Appointments
 
 ### 📋 Details
 
