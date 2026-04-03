@@ -104,7 +104,7 @@ This section allows customization of announcement title, message, and visibility
 
 | 🏷️ Name      | 🎯 Purpose                                     | 💡 Select Option |
 | ------------- | ---------------------------------------------- | ---------------- |
-| 📏 **Height** | Adjusts the height of the component/container. | `500`            |
+| 📏 **Height** | Adjusts the height of the component. | `500`            |
 
 #### ℹ️ About Section
 
