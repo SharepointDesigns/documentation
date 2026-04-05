@@ -966,7 +966,7 @@ This section provides information about the web part version and documentation.
 
 </details>
 
-#### 📌 About Information
+#### 📌 About Information 
 
 | 🏷️ Name               | 🎯 Purpose                                    | 💡 Value             |
 | ---------------------- | --------------------------------------------- | -------------------- |
