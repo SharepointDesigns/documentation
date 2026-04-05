@@ -1,9 +1,9 @@
 ---
 title: Configuration
 ---
-### Note: 
- 
-The Home page should be configured using the "Healthcare 3 Setup" web part to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
+### Note:
+
+The Home page should be configured using the "Healthcare 3 Setup" extension to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
 
 Configuration settings for each web part.
 
@@ -25,14 +25,14 @@ Configuration settings for each web part.
      ![](assets/screenshot-2026-03-25-163720.png)
 4. Do not close or refresh the browser. A pop-up will appear to create the required lists and libraries:
 
-* `KPI Appointments` list
-* `Quick Links` list
-* `Anniversaries/Kudos` list
+* `Appointments` list
+* `QuickLinks` list
+* `Anniversaries` list
 * `Mindfulness` list
 * `Events` list
-* `Training Video` library
-* `Location` list
-  (_Mock items are added automatically for QuickLinks, KPI Appoinments, Anniversaries, Mindfulness, News, Training Videos, Location)
+* `TrainingVideos` library
+* `Facilities` list
+  (_Mock items are added automatically for QuickLinks, Appoinments, Anniversaries, Mindfulness, News, TrainingVideos, Facilities)
 
 5. After the items are created, the site page will **refresh automatically**, and it will continue to creating page and adding webparts.
 6. Once setup is complete, a button will appear to open the newly created homepage. Click it to view the result.
@@ -61,7 +61,7 @@ This section allows customization of the welcome text, user display format, and 
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![General Settings](assets/screenshot-2026-03-27-151409.png)
+![General Settings](assets/screenshot-2026-04-05-191718.png)
 
 </details>
 
@@ -81,7 +81,7 @@ This section allows customization of announcement title, message, and visibility
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Announcement Settings](assets/screenshot-2026-03-27-151601.png)
+![Announcement Settings](assets/screenshot-2026-04-05-191811.png)
 
 </details>
 
@@ -98,20 +98,20 @@ This section allows customization of announcement title, message, and visibility
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![](assets/screenshot-2026-03-27-151702.png)
+![Appearance settings](assets/screenshot-2026-04-05-192007.png)
 
 </details>
 
 | 🏷️ Name      | 🎯 Purpose                                     | 💡 Select Option |
 | ------------- | ---------------------------------------------- | ---------------- |
-| 📏 **Height** | Adjusts the height of the component. | `500`            |
+| 📏 **Height** | Adjusts the height of the component/container. | `500`            |
 
 #### ℹ️ About Section
 
 <details>
 <summary>📸 View Property Pane Screenshots</summary> 
 
-![](assets/screenshot-2026-03-27-132812.png)
+![About settings](assets/screenshot-2026-03-27-132812.png)
 
 </details>
 
@@ -121,7 +121,7 @@ This section allows customization of announcement title, message, and visibility
 | 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
 | 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
-## 📊 3. KPI Appointments
+## 📊 3. KPI Appointments Settings
 
 ### 📋 Details
 
@@ -185,6 +185,8 @@ This section allows configuration of automatic scrolling behavior.
 
 </details>
 
+#### 🔄 Behavior Configuration
+
 | 🏷️ Name                  | 🎯 Purpose                                                  | 💡 Select Option |
 | ------------------------- | ----------------------------------------------------------- | ---------------- |
 | 🔁 **Enable Auto Scroll** | Toggles automatic scrolling of content within the web part. | `Off`            |
@@ -193,7 +195,7 @@ This section allows configuration of automatic scrolling behavior.
 
 <details><summary>📸 View Property Pane Screenshots</summary>
 
-![](assets/screenshot-2026-03-27-132812.png)
+![About settings](assets/screenshot-2026-03-27-132812.png)
 
 </details>
 
@@ -203,7 +205,7 @@ This section allows configuration of automatic scrolling behavior.
 | 📚**Documentation Link**      | Provides access to user and admin documentation for further guidance.                |
 | 🔑**Activate License Button** | A button to activate the premium or licensed version of the web part, if applicable. |
 
-## 🔗 4. QuickLinks
+## 🔗 4. QuickLinks Settings
 
 ### 📋 Details
 
@@ -266,10 +268,11 @@ This section allows customization of visual styles such as border radius, colors
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Appearance Settings](assets/screenshot-2026-03-27-154736.png)
+![Appearance Settings](assets/screenshot-2026-04-05-192446.png)
 
 </details>
 
+#### 🖌️ Style Configuration
 
 | 🏷️ Name                     | 🎯 Purpose                                                      | 💡 Select Option |
 | ---------------------------- | --------------------------------------------------------------- | ---------------- |
@@ -291,6 +294,7 @@ This section allows control over admin-specific options and visibility.
 
 </details>
 
+#### 🔐 Admin Configuration
 
 | 🏷️ Name                | 🎯 Purpose                                                     | 💡 Select Option |
 | ----------------------- | -------------------------------------------------------------- | ---------------- |
@@ -300,7 +304,7 @@ This section allows control over admin-specific options and visibility.
 
 <details><summary>📸 View Property Pane Screenshots</summary>
 
-![](assets/screenshot-2026-03-27-132812.png)
+![About settings](assets/screenshot-2026-03-27-132812.png)
 
 </details>
 
@@ -318,6 +322,8 @@ Showcase concise company updates in a clean, minimal layout. Integrates with Sha
 
 - - -
 
+### ⚙️ Configuration
+
 #### 📰 Header Settings
 
 This section allows customization of the Latest News web part header, including title, visibility, background, and navigation options.
@@ -325,7 +331,7 @@ This section allows customization of the Latest News web part header, including 
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Header Settings](assets/screenshot-2026-03-27-154845.png)
+![Header Settings](assets/screenshot-2026-04-05-193021.png)
 
 </details>
 
@@ -348,10 +354,11 @@ This section allows selection of the layout style for displaying news content.
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Layout Settings](assets/screenshot-2026-03-27-155108.png)
+![Layout Settings](assets/screenshot-2026-04-05-193337.png)
 
 </details>
 
+#### 📰 Layout Configuration
 
 | 🏷️ Name             | 🎯 Purpose                                           | 💡 Select Option |
 | -------------------- | ---------------------------------------------------- | ---------------- |
@@ -364,7 +371,7 @@ This section allows configuration of news sources, audience targeting, and categ
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![General Settings](assets/screenshot-2026-03-27-155158.png)
+![General Settings](assets/screenshot-2026-04-05-193620.png)
 
 </details>
 
@@ -384,9 +391,11 @@ This section allows customization of visual styling such as borders and shadows.
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Appearance Settings](assets/screenshot-2026-03-27-155255.png)
+![Appearance Settings](assets/screenshot-2026-04-05-193739.png)
 
 </details>
+
+#### 🖌️ Style Configuration
 
 | 🏷️ Name           | 🎯 Purpose                                        | 💡 Select Option |
 | ------------------ | ------------------------------------------------- | ---------------- |
@@ -397,7 +406,7 @@ This section allows customization of visual styling such as borders and shadows.
 
 <details><summary>📸 View Property Pane Screenshots</summary>
 
-![](assets/screenshot-2026-03-27-132812.png)
+![About settings](assets/screenshot-2026-03-27-132812.png)
 
 </details>
 
@@ -421,6 +430,8 @@ This web part highlights employee recognition, celebrations, and appreciation mo
 * **User-Friendly Layout** : Ensures a clean and engaging experience for end users.
 
 ![Kudos](assets/screenshot-2026-03-27-155345.png)
+
+### ⚙️ Configuration
 
 #### 📌 Header Settings
 
@@ -455,6 +466,7 @@ This section allows configuration of data source, time-based filtering, and cate
 
 </details>
 
+#### 📂 Data Configuration
 
 | 🏷️ Name                            | 🎯 Purpose                                                              | 💡 Select Option |
 | ----------------------------------- | ----------------------------------------------------------------------- | ---------------- |
@@ -475,6 +487,7 @@ This section allows customization of visual styles such as borders, shadows, and
 
 </details>
 
+#### 🖌️ Style Configuration
 
 | 🏷️ Name                         | 🎯 Purpose                                             | 💡 Select Option |
 | -------------------------------- | ------------------------------------------------------ | ---------------- |
@@ -497,6 +510,7 @@ This section allows configuration of carousel behavior such as auto play and spe
 
 </details>
 
+#### 🔄 Carousel Configuration
 
 | 🏷️ Name                         | 🎯 Purpose                                        | 💡 Select Option |
 | -------------------------------- | ------------------------------------------------- | ---------------- |
@@ -514,6 +528,7 @@ This section allows control over admin-specific options and visibility.
 
 </details>
 
+#### 🔐 Admin Configuration
 
 | 🏷️ Name                | 🎯 Purpose                                                 | 💡 Select Option |
 | ----------------------- | ---------------------------------------------------------- | ---------------- |
@@ -523,7 +538,7 @@ This section allows control over admin-specific options and visibility.
 
 <details><summary>📸 View Property Pane Screenshots</summary>
 
-![](assets/screenshot-2026-03-27-132812.png)
+![About settings](assets/screenshot-2026-03-27-132812.png)
 
 </details>
 
@@ -561,6 +576,7 @@ This section allows customization of the web part header including title, visibi
 
 </details>
 
+#### 🧾 Header Configuration
 
 | 🏷️ Name                  | 🎯 Purpose                                                    | 💡 Select Option        |
 | ------------------------- | ------------------------------------------------------------- | ----------------------- |
@@ -583,6 +599,7 @@ This section allows customization of the main content displayed in the web part.
 
 </details>
 
+#### 📝 Content Configuration
 
 | 🏷️ Name                | 🎯 Purpose                                           | 💡 Select Option                                          |
 | ----------------------- | ---------------------------------------------------- | --------------------------------------------------------- |
@@ -602,6 +619,7 @@ This section allows selection of the data source for mindfulness resources.
 
 </details>
 
+#### 📋 Resource Configuration
 
 | 🏷️ Name                    | 🎯 Purpose                                                   | 💡 Select Option |
 | --------------------------- | ------------------------------------------------------------ | ---------------- |
@@ -615,9 +633,11 @@ This section provides information about the web part version and documentation.
 
 <details><summary>📸 View Property Pane Screenshots</summary>
 
-![](assets/screenshot-2026-03-27-132812.png)
+![About settings](assets/screenshot-2026-03-27-132812.png)
 
 </details>
+
+#### 📌 About Information
 
 | 🏷️ Name               | 🎯 Purpose                                    | 💡 Value             |
 | ---------------------- | --------------------------------------------- | -------------------- |
@@ -653,6 +673,7 @@ This section allows customization of the web part header including title, visibi
 
 </details>
 
+#### 🧾 Header Configuration
 
 | 🏷️ Name                    | 🎯 Purpose                                                    | 💡 Select Option     |
 | --------------------------- | ------------------------------------------------------------- | -------------------- |
@@ -677,6 +698,7 @@ This section allows configuration of data source and library selection.
 
 </details>
 
+#### 📂 Layout Configuration
 
 | 🏷️ Name                          | 🎯 Purpose                                             | 💡 Select Option                  |
 | --------------------------------- | ------------------------------------------------------ | --------------------------------- |
@@ -693,12 +715,11 @@ This section allows customization of layout, visibility, and display options.
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![](assets/screenshot-2026-03-27-160919.png)
-
-![Appearance Settings](assets/screenshot-2026-03-27-161049.png)
+![](assets/screenshot-2026-04-05-194227.png)
 
 </details>
 
+#### 🖌️ Style Configuration
 
 | 🏷️ Name                         | 🎯 Purpose                                            | 💡 Select Option    |
 | -------------------------------- | ----------------------------------------------------- | ------------------- |
@@ -726,6 +747,7 @@ This section provides information about the web part version and documentation.
 
 </details>
 
+#### 📌 About Information
 
 | 🏷️ Name               | 🎯 Purpose                                    | 💡 Value             |
 | ---------------------- | --------------------------------------------- | -------------------- |
@@ -757,10 +779,11 @@ This section allows customization of the web part header including title, visibi
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Header Settings](assets/screenshot-2026-03-27-161501.png)
+![Header Settings](assets/screenshot-2026-04-05-195010.png)
 
 </details>
 
+#### 🧾 Header Configuration
 
 | 🏷️ Name                 | 🎯 Purpose                                                    | 💡 Select Option                        |
 | ------------------------ | ------------------------------------------------------------- | --------------------------------------- |
@@ -784,6 +807,8 @@ This section allows configuration of event source, display options, and filterin
 
 </details>
 
+#### 📂 Content Configuration
+
 | 🏷️ Name                        | 🎯 Purpose                                                | 💡 Select Option              |
 | ------------------------------- | --------------------------------------------------------- | ----------------------------- |
 | 📡 **Select the Option Events** | Defines the source type for events.                       | `Events from SharePoint List` |
@@ -803,9 +828,11 @@ This section allows control over admin-specific options.
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Admin Settings](assets/screenshot-2026-03-27-132800.png)
+![Admin Settings](assets/screenshot-2026-04-05-195153.png)
 
 </details>
+
+#### 🔐 Admin Configuration
 
 | 🏷️ Name                | 🎯 Purpose                                                | 💡 Select Option |
 | ----------------------- | --------------------------------------------------------- | ---------------- |
@@ -819,9 +846,11 @@ This section provides information about the web part version and documentation.
 
 <details><summary>📸 View Property Pane Screenshots</summary>
 
-![](assets/screenshot-2026-03-27-132812.png)
+![About Settings ](assets/screenshot-2026-03-27-132812.png)
 
 </details>
+
+#### 📌 About Information
 
 | 🏷️ Name               | 🎯 Purpose                                    | 💡 Value             |
 | ---------------------- | --------------------------------------------- | -------------------- |
@@ -851,10 +880,11 @@ This section allows customization of the web part header including title, visibi
 
 <details><summary>📸 View Property Pane Screenshots</summary>
 
-![](assets/screenshot-2026-03-27-161852.png)
+![](assets/screenshot-2026-04-05-195744.png)
 
 </details>
 
+#### 🧾 Header Configuration
 
 | 🏷️ Name                  | 🎯 Purpose                                                    | 💡 Select Option   |
 | ------------------------- | ------------------------------------------------------------- | ------------------ |
@@ -876,6 +906,8 @@ This section allows configuration of the data source for locations.
 
 </details>
 
+#### 📂 Content Configuration
+
 | 🏷️ Name                      | 🎯 Purpose                                                  | 💡 Select Option |
 | ----------------------------- | ----------------------------------------------------------- | ---------------- |
 | 📋 **Select Facilities List** | Chooses the SharePoint list used to fetch location details. | `Facilities`     |
@@ -890,10 +922,11 @@ This section allows configuration of navigation and display options.
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Layout Settings](assets/screenshot-2026-03-27-162004.png)
+![Layout Settings](assets/screenshot-2026-04-05-195843.png)
 
 </details>
 
+#### 📐 Layout Configuration
 
 | 🏷️ Name                    | 🎯 Purpose                                           | 💡 Select Option                           |
 | --------------------------- | ---------------------------------------------------- | ------------------------------------------ |
@@ -910,10 +943,11 @@ This section allows control over admin-specific options.
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Admin Settings](assets/screenshot-2026-03-27-132800.png)
+![Admin Settings](assets/screenshot-2026-04-05-195923.png)
 
 </details>
 
+#### 🔐 Admin Configuration
 
 | 🏷️ Name                | 🎯 Purpose                                                   | 💡 Select Option |
 | ----------------------- | ------------------------------------------------------------ | ---------------- |
@@ -928,10 +962,11 @@ This section provides information about the web part version and documentation.
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![About](assets/screenshot-2026-03-27-132812.png)
+![About settings ](assets/screenshot-2026-03-27-132812.png)
 
 </details>
 
+#### 📌 About Information
 
 | 🏷️ Name               | 🎯 Purpose                                    | 💡 Value             |
 | ---------------------- | --------------------------------------------- | -------------------- |
