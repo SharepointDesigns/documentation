@@ -6,7 +6,30 @@ version: 1
 updated: October 2025
 description: Change Log settings and customization guide for each web part.
 ---
-## version 1.0.0.3
+## Version - 1.0.0.5
+
+- - -
+### Design 4 Site Setup 
+* 🆕 Update in branding screen with favicon icon update and theme color palette generation from sitelogo
+
+#### Welcome Banner
+* 🆕 Added support for Collection Data as a data source, configurable through the Property Pane.
+
+#### Announcement
+* 🆕 Added support for Collection Data as a data source, configurable through the Property Pane.
+
+
+#### Quick Links
+* 🆕 Added support for Collection Data as a data source, configurable through the Property Pane.
+
+
+## Version - 1.0.0.4
+
+- - -
+### Design 4 Site Setup 
+* 🆕 Upgraded with new Wizard Configuration has Welcome Screen, Organizational Details Screen, Branding Screen(which has Regional Settings update, Brand Center Update, site logo) and Review with apply template
+
+## Version 1.0.0.3
 
 ### Banner Web Part (Bug Fixes)
 
