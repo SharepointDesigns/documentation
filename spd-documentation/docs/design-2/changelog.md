@@ -6,6 +6,29 @@ updated: October 2025
 description: Change Log settings and customization guide for each web part.
 sidebar_position: 5
 ---
+## Version - 1.0.0.6
+
+- - -
+### Design 2 Setup Launcher 
+* 🆕 Update in branding screen with favicon icon update and theme color palette generation from sitelogo
+
+#### 🧭 Top Navigation
+* 🆕 Added support for Collection Data as a data source, configurable through the Property Pane.
+
+#### 🧰 Common Tools
+* 🆕 Added support for Collection Data as a data source, configurable through the Property Pane.
+
+
+#### 🎉 Holidays
+* 🆕 Added support for Collection Data as a data source, configurable through the Property Pane.
+
+
+## Version - 1.0.0.5
+
+- - -
+### Design 2 Setup Launcher 
+* 🆕 Upgraded with new Wizard Configuration has Welcome Screen, Organizational Details Screen, Branding Screen(which has Regional Settings update, Brand Center Update, site logo) and Review with Template update
+
 ## Version - 1.0.0.4
 
 - - - 
@@ -146,3 +169,5 @@ sidebar_position: 5
 | 1.0.0.2 | TBD            |  
 | 1.0.0.3 | Dec 2025            |  
 | 1.0.0.4 | Mar 2026    |
+| 1.0.0.5 | Apr 3 2026  |
+| 1.0.0.6 | Apr 9 2026  |
