@@ -193,7 +193,8 @@ This section allows configuration of automatic scrolling behavior.
 
 #### ℹ️ About Section
 
-<details><summary>📸 View Property Pane Screenshots</summary>
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![About settings](assets/screenshot-2026-03-27-132812.png)
 
@@ -302,7 +303,8 @@ This section allows control over admin-specific options and visibility.
 
 #### ℹ️ About Section
 
-<details><summary>📸 View Property Pane Screenshots</summary>
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![About settings](assets/screenshot-2026-03-27-132812.png)
 
@@ -404,7 +406,8 @@ This section allows customization of visual styling such as borders and shadows.
 
 #### ℹ️ About Section
 
-<details><summary>📸 View Property Pane Screenshots</summary>
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![About settings](assets/screenshot-2026-03-27-132812.png)
 
@@ -536,7 +539,8 @@ This section allows control over admin-specific options and visibility.
 
 #### ℹ️ About Section
 
-<details><summary>📸 View Property Pane Screenshots</summary>
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![About settings](assets/screenshot-2026-03-27-132812.png)
 
@@ -631,7 +635,8 @@ This section allows selection of the data source for mindfulness resources.
 
 This section provides information about the web part version and documentation.
 
-<details><summary>📸 View Property Pane Screenshots</summary>
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![About settings](assets/screenshot-2026-03-27-132812.png)
 
@@ -741,7 +746,8 @@ This section allows customization of layout, visibility, and display options.
 
 This section provides information about the web part version and documentation.
 
-<details><summary>📸 View Property Pane Screenshots</summary>
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![](assets/screenshot-2026-03-27-132812.png)
 
@@ -844,7 +850,8 @@ This section allows control over admin-specific options.
 
 This section provides information about the web part version and documentation.
 
-<details><summary>📸 View Property Pane Screenshots</summary>
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![About Settings ](assets/screenshot-2026-03-27-132812.png)
 
@@ -878,7 +885,8 @@ This web part displays organizational locations or facilities in a visually rich
 
 This section allows customization of the web part header including title, visibility, and background.
 
-<details><summary>📸 View Property Pane Screenshots</summary>
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
 
 ![](assets/screenshot-2026-04-05-195744.png)
 
