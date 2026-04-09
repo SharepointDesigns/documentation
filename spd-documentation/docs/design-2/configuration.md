@@ -29,8 +29,13 @@ This document explains how to configure each web part in your intranet solution,
 ![](assets/screenshot-2026-04-09-at-09.38.31.png "Set up suitebar")
 
 1. Since this is a first-time setup (or setup was not previously completed), a **full-page Setup Wizard** will automatically appear — no need to manually add any web part.
+<details>
+<summary>📸 View Set up Screenshots</summary>
 
    ![Set up wizard](assets/setupwizard.png "Set up wizard")
+
+</details>
+
 2. Walk through the wizard steps:
 
    * **Organizational Details** — Enter your organization information.
@@ -39,7 +44,12 @@ This document explains how to configure each web part in your intranet solution,
 3. Do not close the browser during deployment. The wizard will create the required lists, libraries, and layout with sample data.
 4. Once deployment is complete, you will be given the option to **set the newly created page as your homepage**. Click **View Page** to open the new page with the full Design 2 layout applied.
 
+<details>
+<summary>📸 View Completed setup Screenshots</summary>
+
    ![Completed](assets/setupcomplete.png "competed set up")
+
+</details>
 
 > **After Setup**
 >
@@ -103,9 +113,20 @@ Create a SharePoint list with the following columns:
 
 #### General Settings
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
+![General Settings](assets/topnavgensett.png "General Setting")
+
+</details>
+
+
 | Name                       | Purpose                                                          | Option        |
 | -------------------------- | ---------------------------------------------------------------- | ------------- |
-| Select top navigation list | Choose the SharePoint list containing your navigation menu items | TopNavigation |
+| Select source | Select either to pick the items from a sharepoint list or property panel | List, Property Pane |
+| Select top navigation list | Choose the SharePoint list containing your navigation menu items | List |
+| Add/Update list item | Clicking on it should open a panel to manage the list items | SharePoint List |
+| Manage Top Navigation | Collection of data store in the property panel | Property Pane |
 
 #### Admin Settings
 
@@ -198,7 +219,10 @@ Provides quick access to essential tools, apps, and documents for daily use with
 | ---------- | ---------------------- | ------------------------------------------------------------------- | ------------ |
 | Header     | WebPart Title          | Title displayed at top                                              | COMMON TOOLS |
 | Header     | Hide Title             | Toggle visibility                                                   | Show / Hide  |
-| General    | Select a list          | Choose SharePoint list                                              | CommonTools  |
+| Select source | Select either to pick the items from a sharepoint list or property panel | List, Property Pane |
+| Select a list | Choose the SharePoint list containing your tools menu items | List |
+| Add/Update list item | Clicking on it should open a panel to manage the list items | SharePoint List |
+| Manage Common Tools | Collection of data store in the property panel | Property Pane |
 | General    | Limit                  | Number of links to show                                             | 1–50         |
 | General    | Target audience        | Restrict navigation visibility to specific user groups or audiences | Group name   |
 | Appearance | Show Top Border        | Toggle sharp top border                                             | On / Off     |
@@ -281,6 +305,7 @@ Highlight your organization’s facilities, offices, or departments using a clea
 | WebPart Title      | Display title              | FACILITIES                                 |
 | Hide Title         | Toggle visibility          | Show                                       |
 | Select a list      | Choose SharePoint list     | Facilities                                 |
+| Add/Update list item | Clicking on it should open a panel to manage the list items | SharePoint List |
 | See All            | URL for full list          | `{siteUrl}/Lists/Facilities/AllItems.aspx` |
 | Show Top Border    | Toggle top border          | On / Off                                   |
 | Show Borders       | Add border around web part | On / Off                                   |
@@ -351,7 +376,10 @@ Highlight upcoming public holidays or company days off to help employees plan ah
 | -------------------------- | ----------------------------- | --------------------- |
 | Title                      | Title for web part            |                       |
 | Hide Title                 | Toggle visibility             | Show / Hide           |
-| Select a list              | Choose source list            | Holidays              |
+| Select source | Select either to pick the items from a sharepoint list or property panel | List, Property Pane |
+| Select a list | Choose the SharePoint list containing your Holidays menu items | List |
+| Add/Update list item | Clicking on it should open a panel to manage the list items | SharePoint List |
+| Manage Top Navigation | Collection of data store in the property panel | Property Pane |
 | Filter Holidays            | Filter type                   | All / Upcoming / Past |
 | Show Bullets               | Display icons beside holidays | On / Off              |
 | Show Borders               | Show/hide border              | On / Off              |
