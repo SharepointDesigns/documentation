@@ -103,9 +103,19 @@ Create a SharePoint list with the following columns:
 
 #### General Settings
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
+![General Settings](assets/topnavgensett.png "General Setting")
+
+</details>
+
+
 | Name                       | Purpose                                                          | Option        |
 | -------------------------- | ---------------------------------------------------------------- | ------------- |
-| Select top navigation list | Choose the SharePoint list containing your navigation menu items | TopNavigation |
+| Select source | Select either to pick the items from a sharepoint list or property panel | List, Property Pane |
+| Select top navigation list | Choose the SharePoint list containing your navigation menu items | List |
+| Manage Top Navigation | Collection of data store in the property panel | Property Pane |
 
 #### Admin Settings
 
@@ -198,7 +208,9 @@ Provides quick access to essential tools, apps, and documents for daily use with
 | ---------- | ---------------------- | ------------------------------------------------------------------- | ------------ |
 | Header     | WebPart Title          | Title displayed at top                                              | COMMON TOOLS |
 | Header     | Hide Title             | Toggle visibility                                                   | Show / Hide  |
-| General    | Select a list          | Choose SharePoint list                                              | CommonTools  |
+| Select source | Select either to pick the items from a sharepoint list or property panel | List, Property Pane |
+| Select a list | Choose the SharePoint list containing your tools menu items | List |
+| Manage Common Tools | Collection of data store in the property panel | Property Pane |
 | General    | Limit                  | Number of links to show                                             | 1–50         |
 | General    | Target audience        | Restrict navigation visibility to specific user groups or audiences | Group name   |
 | Appearance | Show Top Border        | Toggle sharp top border                                             | On / Off     |
@@ -351,7 +363,9 @@ Highlight upcoming public holidays or company days off to help employees plan ah
 | -------------------------- | ----------------------------- | --------------------- |
 | Title                      | Title for web part            |                       |
 | Hide Title                 | Toggle visibility             | Show / Hide           |
-| Select a list              | Choose source list            | Holidays              |
+| Select source | Select either to pick the items from a sharepoint list or property panel | List, Property Pane |
+| Select a list | Choose the SharePoint list containing your Holidays menu items | List |
+| Manage Top Navigation | Collection of data store in the property panel | Property Pane |
 | Filter Holidays            | Filter type                   | All / Upcoming / Past |
 | Show Bullets               | Display icons beside holidays | On / Off              |
 | Show Borders               | Show/hide border              | On / Off              |
