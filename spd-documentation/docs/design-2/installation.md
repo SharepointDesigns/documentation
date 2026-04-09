@@ -21,23 +21,29 @@ description: Installation settings and customization guide for each web part.
 
 ## 🧪 Testing Instructions
 
-> **Note:** *Upon adding the web part to the page, a **free 15-day trial** will start automatically.*
+> **Note:** *Upon adding the application to the site, a **free 15-day trial** will start automatically.*
 
-1. Navigate to a modern SharePoint page or create a new one.
-2. Edit the page and add the **"Design 2 Site Setup"** web part.
-   ![](assets/addwebparttoPage.png)
-3. **Republish** the page.
-4. Click the **“Apply Design”** button.
+1. Add the **"Intranet Design 2 by SharePoint Designs"** app to your SharePoint site.
+2. Refresh the page at least once so that the new changes are properly loaded.
+3. Since this is a first-time setup (or setup was not previously completed), a **full-page Setup Wizard** will automatically appear — no need to manually add any web part.
 
-   > ![](assets/applyDesign.png)
-5. Do not close the browser. A pop-up will appear to create required lists and libraries with mock data (*Applicable only for lists*).
-6. After creation, the page will refresh automatically and proceed with adding the necessary web parts and layout.
-7. Once setup is complete - "Set as Homepage" checkbox will appear
+   ![Set up wizard](assets/setupwizard.png "Set up wizard")
+4. Walk through the wizard steps:
 
-   * If checked, clicking "Open New Page" will open the newly created page and set it as the homepage.
-   * If unchecked, the new page opens normally without changing the homepage.
+   * **Organizational Details** — Enter your organization information.
+   * **Branding** — Upload your site logo. The wizard uses AI to automatically generate a brand color palette from the logo. You can review, adjust, or change the suggested colors before clicking **Save and Apply Theme**. You can also upload a custom favicon and configure regional settings.
+   * **Deploy & Template** — Deploy the intranet layout. Once deployed, the page is saved as a template so it can be reused later to recreate the site layout.
+5. Do not close the browser during deployment. The wizard will create the required lists, libraries, and layout with sample data.
+6. Once deployment is complete, you will be given the option to **set the newly created page as your homepage**. Click **View Page** to open the new page with the full Design 2 layout applied.
 
-   ![](assets/creationComplete.png)
+
+   ![Completed](assets/setupcomplete.png "competed set up")
+
+> **After Setup**
+>
+> * The full-page wizard will no longer appear on page load.
+> * You can relaunch the Setup Wizard at any time from the **suite bar** at the top of the site to update settings.
+> * Admins can return to the Deploy & Template step at any time to apply a saved template and recreate the site layout.
 
 - - -
 
