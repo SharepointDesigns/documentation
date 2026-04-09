@@ -33,6 +33,7 @@ This document explains how to configure each web part in your intranet solution,
 <summary>📸 View Set up Screenshots</summary>
 
    ![Set up wizard](assets/setupwizard.png "Set up wizard")
+
 </details>
 
 2. Walk through the wizard steps:
@@ -45,7 +46,9 @@ This document explains how to configure each web part in your intranet solution,
 
 <details>
 <summary>📸 View Completed setup Screenshots</summary>
+
    ![Completed](assets/setupcomplete.png "competed set up")
+
 </details>
 
 > **After Setup**
