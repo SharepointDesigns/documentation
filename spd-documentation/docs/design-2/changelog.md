@@ -6,32 +6,42 @@ updated: October 2025
 description: Change Log settings and customization guide for each web part.
 sidebar_position: 5
 ---
-## Version - 1.0.0.6
+## Version 1.0.0.6
+
+* **Site Branding from Your Logo**
+
+  * Upload your site logo through the Setup Wizard and the intranet automatically extracts your brand colors, generating a theme palette that's applied across the entire site — no manual color configuration needed.
+* ### Custom Favicon
+
+  * Give your intranet a fully branded presence in every browser tab. You can now upload your own favicon directly from the Setup Wizard's branding screen.
+* ### Two Ways to Manage Your Data
+
+  * Web part content no longer has to come from a SharePoint list. **Top Navigation**, **Common Tools**, and **Holidays** now support **Collection Data** as a data source — meaning you can enter and manage content directly in the web part settings panel, without creating or maintaining a separate list.
 
 - - -
-### Design 2 Setup Launcher 
-* 🆕 Update in branding screen with favicon icon update and theme color palette generation from sitelogo
 
-#### 🧭 Top Navigation
-* 🆕 Added support for Collection Data as a data source, configurable through the Property Pane.
+## Version 1.0.0.5
 
-#### 🧰 Common Tools
-* 🆕 Added support for Collection Data as a data source, configurable through the Property Pane.
+* ### Setup Wizard — Now Available Sitewide
 
+  * The Setup Wizard has moved out of a single page web part and into the **site header**, so you can launch it from any page, at any time — no more hunting for the right page to configure your intranet.
+* ### Redesigned Wizard Experience
 
-#### 🎉 Holidays
-* 🆕 Added support for Collection Data as a data source, configurable through the Property Pane.
+  * The wizard has been rebuilt with a cleaner layout, improved header, close button, and footer. It now walks you through a structured flow:
+* ### Jump Between Steps
 
+  * Click on any previously completed step to go back and make changes — no need to step through the wizard sequentially.
+* ### Progress Saved Automatically
 
-## Version - 1.0.0.5
+  * The wizard keeps track of where you are across steps, so your setup progress isn't lost if you close and reopen it.
+* ### Manage List Content Without Leaving the Page
 
-- - -
-### Design 2 Setup Launcher 
-* 🆕 Upgraded with new Wizard Configuration has Welcome Screen, Organizational Details Screen, Branding Screen(which has Regional Settings update, Brand Center Update, site logo) and Review with Template update
+  * **Quick Links**, **Common Tools**, **Holidays**, and **Top Navigation** now let you add or edit items in a pop-up panel directly on the page — no navigation required.
 
 ## Version - 1.0.0.4
 
-- - - 
+- - -
+
 ### Design 2 Setup
 
 * Updated the Holiday list with proper mock data.
@@ -60,7 +70,6 @@ sidebar_position: 5
 ### News
 
 * Fixed the alignment issue in the command bar.
-
 
 ## Version - 1.0.0.3
 
@@ -163,11 +172,11 @@ sidebar_position: 5
 ## Version history
 
 | Version | Published Date |
-| ------- | -------------- | 
-| 1.0.0.0 | TBD     | 
-| 1.0.0.1 | TBD            |  
-| 1.0.0.2 | TBD            |  
-| 1.0.0.3 | Dec 2025            |  
-| 1.0.0.4 | Mar 2026    |
-| 1.0.0.5 | Apr 3 2026  |
-| 1.0.0.6 | Apr 9 2026  |
+| ------- | -------------- |
+| 1.0.0.0 | TBD            |
+| 1.0.0.1 | TBD            |
+| 1.0.0.2 | TBD            |
+| 1.0.0.3 | Dec 2025       |
+| 1.0.0.4 | Mar 2026       |
+| 1.0.0.5 | Apr 3 2026     |
+| 1.0.0.6 | Apr 9 2026     |
