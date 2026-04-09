@@ -55,6 +55,7 @@ Follow the steps below to configure your SharePoint site using the setup wizard:
 <summary>📸 View Apply Template Screenshots</summary>
 
 ![](assets/screenshot-2026-04-09-173440.png)
+
 </details>
 
 - - -
@@ -77,6 +78,7 @@ Follow the steps below to configure your SharePoint site using the setup wizard:
 <summary>📸 View Apply Template Screenshots</summary>
 
 ![](assets/screenshot-2026-04-09-173458.png)
+
 </details>
 
 - - -
@@ -98,7 +100,7 @@ Follow the steps below to configure your SharePoint site using the setup wizard:
 <details>
 
 <summary>📸 View Apply Template Screenshots</summary>
-![](assets/screenshot-2026-04-09-173518.png)
+!\[](assets/screenshot-2026-04-09-173518.png)
 </details>
 
 - - -
@@ -119,13 +121,13 @@ Follow the steps below to configure your SharePoint site using the setup wizard:
 <summary>📸 View Apply Template Screenshots</summary>
 
 ![](assets/screenshot-2026-04-09-173619.png)
+
 </details>
 
 > 💡 **Note:**
 >
 > * If any step fails during setup, it will be highlighted in the configuration summary.
 > * Do not refresh the page while the setup is in progress.
-
 
 - - -
 
@@ -913,6 +915,23 @@ This section allows configuration of event source, display options, and filterin
 | 📅 **Show Calendar**            | Toggles visibility of the calendar view.                  | `Yes`                         |
 | 🔍 **Filter Events**            | Filters events based on criteria (e.g., upcoming events). | `Upcoming Events`             |
 
+#### 🎨 Appearance Settings
+
+This section allows customization of visual styles such as button colors and overall appearance.
+
+<details>
+<summary>📸 View Property Pane Screenshot</summary>
+
+![](assets/screenshot-2026-04-09-214354.png)
+
+</details>
+
+#### 🖌️ Style Configuration
+
+| 🏷️ Name                       | 🎯 Purpose                                                       | 💡 Select Option |
+| ------------------------------ | ---------------------------------------------------------------- | ---------------- |
+| 🎨 **Button Background Color** | Sets the background color of action buttons (e.g., Next, Apply). | `Custom Color`   |
+
 - - -
 
 #### 🛠️ Admin Settings
@@ -1062,7 +1081,7 @@ This section provides information about the web part version and documentation.
 
 </details>
 
-#### 📌 About Information 
+#### 📌 About Information
 
 | 🏷️ Name               | 🎯 Purpose                                    | 💡 Value             |
 | ---------------------- | --------------------------------------------- | -------------------- |
