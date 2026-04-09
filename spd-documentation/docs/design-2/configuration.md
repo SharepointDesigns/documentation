@@ -29,8 +29,12 @@ This document explains how to configure each web part in your intranet solution,
 ![](assets/screenshot-2026-04-09-at-09.38.31.png "Set up suitebar")
 
 1. Since this is a first-time setup (or setup was not previously completed), a **full-page Setup Wizard** will automatically appear — no need to manually add any web part.
+<details>
+<summary>📸 View Set up Screenshots</summary>
 
    ![Set up wizard](assets/setupwizard.png "Set up wizard")
+</details>
+
 2. Walk through the wizard steps:
 
    * **Organizational Details** — Enter your organization information.
@@ -39,7 +43,10 @@ This document explains how to configure each web part in your intranet solution,
 3. Do not close the browser during deployment. The wizard will create the required lists, libraries, and layout with sample data.
 4. Once deployment is complete, you will be given the option to **set the newly created page as your homepage**. Click **View Page** to open the new page with the full Design 2 layout applied.
 
+<details>
+<summary>📸 View Completed setup Screenshots</summary>
    ![Completed](assets/setupcomplete.png "competed set up")
+</details>
 
 > **After Setup**
 >
