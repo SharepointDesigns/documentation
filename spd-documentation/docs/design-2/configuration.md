@@ -29,10 +29,8 @@ This document explains how to configure each web part in your intranet solution,
 ![](assets/screenshot-2026-04-09-at-09.38.31.png "Set up suitebar")
 
 1. Since this is a first-time setup (or setup was not previously completed), a **full-page Setup Wizard** will automatically appear — no need to manually add any web part.
-<details>
-<summary>📸 View Set up Screenshots</summary>
 
-   ![Set up wizard](assets/setupwizard.png "Set up wizard")
+    ![Set up wizard](assets/setupwizard.png "Set up wizard")
 
 </details>
 
@@ -45,9 +43,9 @@ This document explains how to configure each web part in your intranet solution,
 4. Once deployment is complete, you will be given the option to **set the newly created page as your homepage**. Click **View Page** to open the new page with the full Design 2 layout applied.
 
 <details>
-<summary>📸 View Completed setup Screenshots</summary>
+<summary>📸 View Property Panel Screenshots</summary>
 
-   ![Completed](assets/setupcomplete.png "competed set up")
+![](assets/screenshot-2026-04-09-at-10.32.49.png)
 
 </details>
 
@@ -84,16 +82,14 @@ Create a SharePoint list with the following columns:
 
 ### ⚙️ Property Pane Settings
 
+#### Header Settings
+
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Top Navigation Settings](assets/topnavigationpropertypane1.png)
-
-![Top Navigation Settings 2](assets/Topnavigationpropertypane2.png)
+![Top Nav Header Settings](assets/topnavheader.png "Top Nav Header Settings")
 
 </details>
-
-#### Header Settings
 
 | Name          | Purpose                                                           | Option         |
 | ------------- | ----------------------------------------------------------------- | -------------- |
@@ -101,6 +97,13 @@ Create a SharePoint list with the following columns:
 | Hide Title    | Conceal the title to create a cleaner, more minimalist appearance | Show / Hide    |
 
 #### Appearance Settings
+
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
+![Top Nav Header Settings](assets/screenshot-2026-04-09-at-10.32.49.png "Top Nav Header Settings")
+
+</details>
 
 | Name                   | Purpose                                                             | Option                |
 | ---------------------- | ------------------------------------------------------------------- | --------------------- |
@@ -120,13 +123,12 @@ Create a SharePoint list with the following columns:
 
 </details>
 
-
-| Name                       | Purpose                                                          | Option        |
-| -------------------------- | ---------------------------------------------------------------- | ------------- |
-| Select source | Select either to pick the items from a sharepoint list or property panel | List, Property Pane |
-| Select top navigation list | Choose the SharePoint list containing your navigation menu items | List |
-| Add/Update list item | Clicking on it should open a panel to manage the list items | SharePoint List |
-| Manage Top Navigation | Collection of data store in the property panel | Property Pane |
+| Name                       | Purpose                                                                  | Option              |
+| -------------------------- | ------------------------------------------------------------------------ | ------------------- |
+| Select source              | Select either to pick the items from a sharepoint list or property panel | List, Property Pane |
+| Select top navigation list | Choose the SharePoint list containing your navigation menu items         | List                |
+| Add/Update list item       | Clicking on it should open a panel to manage the list items              | SharePoint List     |
+| Manage Top Navigation      | Collection of data store in the property panel                           | Property Pane       |
 
 #### Admin Settings
 
@@ -215,20 +217,20 @@ Provides quick access to essential tools, apps, and documents for daily use with
 
 </details>
 
-| Category   | Name                   | Purpose                                                             | Option       |
-| ---------- | ---------------------- | ------------------------------------------------------------------- | ------------ |
-| Header     | WebPart Title          | Title displayed at top                                              | COMMON TOOLS |
-| Header     | Hide Title             | Toggle visibility                                                   | Show / Hide  |
-| Select source | Select either to pick the items from a sharepoint list or property panel | List, Property Pane |
-| Select a list | Choose the SharePoint list containing your tools menu items | List |
-| Add/Update list item | Clicking on it should open a panel to manage the list items | SharePoint List |
-| Manage Common Tools | Collection of data store in the property panel | Property Pane |
-| General    | Limit                  | Number of links to show                                             | 1–50         |
-| General    | Target audience        | Restrict navigation visibility to specific user groups or audiences | Group name   |
-| Appearance | Show Top Border        | Toggle sharp top border                                             | On / Off     |
-| Appearance | Border Color           | Select border color                                                 | Color Picker |
-| Appearance | Show Gradient on Hover | Highlight link on hover                                             | Color Picker |
-| Appearance | Icon Background Color  | Change icon background                                              | Color Picker |
+| Category             | Name                                                                     | Purpose                                                             | Option       |
+| -------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------- | ------------ |
+| Header               | WebPart Title                                                            | Title displayed at top                                              | COMMON TOOLS |
+| Header               | Hide Title                                                               | Toggle visibility                                                   | Show / Hide  |
+| Select source        | Select either to pick the items from a sharepoint list or property panel | List, Property Pane                                                 |              |
+| Select a list        | Choose the SharePoint list containing your tools menu items              | List                                                                |              |
+| Add/Update list item | Clicking on it should open a panel to manage the list items              | SharePoint List                                                     |              |
+| Manage Common Tools  | Collection of data store in the property panel                           | Property Pane                                                       |              |
+| General              | Limit                                                                    | Number of links to show                                             | 1–50         |
+| General              | Target audience                                                          | Restrict navigation visibility to specific user groups or audiences | Group name   |
+| Appearance           | Show Top Border                                                          | Toggle sharp top border                                             | On / Off     |
+| Appearance           | Border Color                                                             | Select border color                                                 | Color Picker |
+| Appearance           | Show Gradient on Hover                                                   | Highlight link on hover                                             | Color Picker |
+| Appearance           | Icon Background Color                                                    | Change icon background                                              | Color Picker |
 
 - - -
 
@@ -300,17 +302,17 @@ Highlight your organization’s facilities, offices, or departments using a clea
 
 </details>
 
-| \| Name            | Purpose                    | Option                                     |
-| ------------------ | -------------------------- | ------------------------------------------ |
-| WebPart Title      | Display title              | FACILITIES                                 |
-| Hide Title         | Toggle visibility          | Show                                       |
-| Select a list      | Choose SharePoint list     | Facilities                                 |
-| Add/Update list item | Clicking on it should open a panel to manage the list items | SharePoint List |
-| See All            | URL for full list          | `{siteUrl}/Lists/Facilities/AllItems.aspx` |
-| Show Top Border    | Toggle top border          | On / Off                                   |
-| Show Borders       | Add border around web part | On / Off                                   |
-| Enable Auto Scroll | Auto-scroll carousel       | On / Off                                   |
-| Height             | Set height (px)            | 388                                        |
+| \| Name              | Purpose                                                     | Option                                     |
+| -------------------- | ----------------------------------------------------------- | ------------------------------------------ |
+| WebPart Title        | Display title                                               | FACILITIES                                 |
+| Hide Title           | Toggle visibility                                           | Show                                       |
+| Select a list        | Choose SharePoint list                                      | Facilities                                 |
+| Add/Update list item | Clicking on it should open a panel to manage the list items | SharePoint List                            |
+| See All              | URL for full list                                           | `{siteUrl}/Lists/Facilities/AllItems.aspx` |
+| Show Top Border      | Toggle top border                                           | On / Off                                   |
+| Show Borders         | Add border around web part                                  | On / Off                                   |
+| Enable Auto Scroll   | Auto-scroll carousel                                        | On / Off                                   |
+| Height               | Set height (px)                                             | 388                                        |
 
 - - -
 
@@ -372,20 +374,20 @@ Highlight upcoming public holidays or company days off to help employees plan ah
 
 </details>
 
-| Name                       | Purpose                       | Option                |
-| -------------------------- | ----------------------------- | --------------------- |
-| Title                      | Title for web part            |                       |
-| Hide Title                 | Toggle visibility             | Show / Hide           |
-| Select source | Select either to pick the items from a sharepoint list or property panel | List, Property Pane |
-| Select a list | Choose the SharePoint list containing your Holidays menu items | List |
-| Add/Update list item | Clicking on it should open a panel to manage the list items | SharePoint List |
-| Manage Top Navigation | Collection of data store in the property panel | Property Pane |
-| Filter Holidays            | Filter type                   | All / Upcoming / Past |
-| Show Bullets               | Display icons beside holidays | On / Off              |
-| Show Borders               | Show/hide border              | On / Off              |
-| Border Color               | Pick border color             | Color Picker          |
-| No. of Holidays to Display | Limit results                 | 6                     |
-| Height                     | Adjust component height       | 424                   |
+| Name                       | Purpose                                                                  | Option                |
+| -------------------------- | ------------------------------------------------------------------------ | --------------------- |
+| Title                      | Title for web part                                                       |                       |
+| Hide Title                 | Toggle visibility                                                        | Show / Hide           |
+| Select source              | Select either to pick the items from a sharepoint list or property panel | List, Property Pane   |
+| Select a list              | Choose the SharePoint list containing your Holidays menu items           | List                  |
+| Add/Update list item       | Clicking on it should open a panel to manage the list items              | SharePoint List       |
+| Manage Top Navigation      | Collection of data store in the property panel                           | Property Pane         |
+| Filter Holidays            | Filter type                                                              | All / Upcoming / Past |
+| Show Bullets               | Display icons beside holidays                                            | On / Off              |
+| Show Borders               | Show/hide border                                                         | On / Off              |
+| Border Color               | Pick border color                                                        | Color Picker          |
+| No. of Holidays to Display | Limit results                                                            | 6                     |
+| Height                     | Adjust component height                                                  | 424                   |
 
 - - -
 
