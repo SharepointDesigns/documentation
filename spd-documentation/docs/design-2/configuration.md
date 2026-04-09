@@ -24,7 +24,34 @@ This document explains how to configure each web part in your intranet solution,
 
 - - -
 
-## 🧭 1. Top Navigation
+## 1. Set Up Wizard
+
+![](assets/screenshot-2026-04-09-at-09.38.31.png "Set up suitebar")
+
+1. Since this is a first-time setup (or setup was not previously completed), a **full-page Setup Wizard** will automatically appear — no need to manually add any web part.
+
+   ![Set up wizard](assets/setupwizard.png "Set up wizard")
+2. Walk through the wizard steps:
+
+   * **Organizational Details** — Enter your organization information.
+   * **Branding** — Upload your site logo. The wizard uses AI to automatically generate a brand color palette from the logo. You can review, adjust, or change the suggested colors before clicking **Save and Apply Theme**. You can also upload a custom favicon and configure regional settings.
+   * **Deploy & Template** — Deploy the intranet layout. Once deployed, the page is saved as a template so it can be reused later to recreate the site layout.
+3. Do not close the browser during deployment. The wizard will create the required lists, libraries, and layout with sample data.
+4. Once deployment is complete, you will be given the option to **set the newly created page as your homepage**. Click **View Page** to open the new page with the full Design 2 layout applied.
+
+   ![Completed](assets/setupcomplete.png "competed set up")
+
+> **After Setup**
+>
+> * The full-page wizard will no longer appear on page load.
+> * You can relaunch the Setup Wizard at any time from the **suite bar** at the top of the site to update settings.
+> * Admins can return to the Deploy & Template step at any time to apply a saved template and recreate the site layout.
+
+- - -
+
+- - -
+
+## 🧭 2. Top Navigation
 
 A minimalist top navigation bar providing easy access to essential intranet sections. Menus are fully customizable to match your organization’s needs.
 
@@ -89,7 +116,7 @@ Create a SharePoint list with the following columns:
 
 - - -
 
-## 🎉 2. Welcome Banner
+## 🎉 3. Welcome Banner
 
 A personalized banner greeting the user by name and time, while promoting your organization’s **Vision**, **Mission**, and **Values**.
 
@@ -137,7 +164,7 @@ A personalized banner greeting the user by name and time, while promoting your o
 
 - - -
 
-## 🔗 3. Common Tools
+## 🔗 4. Common Tools
 
 Provides quick access to essential tools, apps, and documents for daily use with clean icons and labels.
 
@@ -167,21 +194,21 @@ Provides quick access to essential tools, apps, and documents for daily use with
 
 </details>
 
-| Category | Name                   | Purpose                 | Option       |
-| ----------- | ---------------------- | ----------------------- | ------------ |
-| Header      | WebPart Title          | Title displayed at top  | COMMON TOOLS |
-| Header      | Hide Title             | Toggle visibility       | Show / Hide  |
-| General     | Select a list          | Choose SharePoint list  | CommonTools  |
-| General     | Limit                  | Number of links to show | 1–50         |
-| General     | Target audience                  | Restrict navigation visibility to specific user groups or audiences | Group name         |
-| Appearance  | Show Top Border        | Toggle sharp top border | On / Off     |
-| Appearance  | Border Color           | Select border color     | Color Picker |
-| Appearance  | Show Gradient on Hover | Highlight link on hover | Color Picker |
-| Appearance  | Icon Background Color  | Change icon background  | Color Picker |
+| Category   | Name                   | Purpose                                                             | Option       |
+| ---------- | ---------------------- | ------------------------------------------------------------------- | ------------ |
+| Header     | WebPart Title          | Title displayed at top                                              | COMMON TOOLS |
+| Header     | Hide Title             | Toggle visibility                                                   | Show / Hide  |
+| General    | Select a list          | Choose SharePoint list                                              | CommonTools  |
+| General    | Limit                  | Number of links to show                                             | 1–50         |
+| General    | Target audience        | Restrict navigation visibility to specific user groups or audiences | Group name   |
+| Appearance | Show Top Border        | Toggle sharp top border                                             | On / Off     |
+| Appearance | Border Color           | Select border color                                                 | Color Picker |
+| Appearance | Show Gradient on Hover | Highlight link on hover                                             | Color Picker |
+| Appearance | Icon Background Color  | Change icon background                                              | Color Picker |
 
 - - -
 
-## 📰 4. News
+## 📰 5. News
 
 Showcase concise company updates in a clean, minimal layout. Integrates with SharePoint news or RSS feeds.
 
@@ -221,7 +248,7 @@ Showcase concise company updates in a clean, minimal layout. Integrates with Sha
 
 - - -
 
-## 🏢 5. Facilities
+## 🏢 6. Facilities
 
 Highlight your organization’s facilities, offices, or departments using a clean, visual layout.
 
@@ -262,7 +289,7 @@ Highlight your organization’s facilities, offices, or departments using a clea
 
 - - -
 
-## 📅 6. Events Calendar
+## 📅 7. Events Calendar
 
 Display and manage upcoming company events, meetings, and important dates.
 
@@ -286,13 +313,13 @@ Display and manage upcoming company events, meetings, and important dates.
 | WebPart Title            | Title of the section         | EVENTS CALENDAR                     |
 | Show See All Link        | Link to full event list      | Show                                |
 | View All URL             | URL to all events            | `{siteUrl}/_layouts/15/Events.aspx` |
-| Select the option events | Choose event source          | SharePoint / Mailbox / Current User             |
+| Select the option events | Choose event source          | SharePoint / Mailbox / Current User |
 | Filter Events            | Show upcoming or past events | Upcoming Events                     |
 | Add/Edit Events          | Manage list items            | Add/Edit Events                     |
 
 - - -
 
-## 🎈 7. Holidays
+## 🎈 8. Holidays
 
 Highlight upcoming public holidays or company days off to help employees plan ahead.
 
@@ -322,7 +349,7 @@ Highlight upcoming public holidays or company days off to help employees plan ah
 
 | Name                       | Purpose                       | Option                |
 | -------------------------- | ----------------------------- | --------------------- |
-| Title                      | Title for web part            |                  |
+| Title                      | Title for web part            |                       |
 | Hide Title                 | Toggle visibility             | Show / Hide           |
 | Select a list              | Choose source list            | Holidays              |
 | Filter Holidays            | Filter type                   | All / Upcoming / Past |
