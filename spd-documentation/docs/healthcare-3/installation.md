@@ -19,33 +19,124 @@ sidebar_position: 4
 
 ## 🧪 Testing Instructions
 
-## Steps to Test and Apply Template
+## 🧪 Steps to Set Up and Apply Template
 
-1. On the SharePoint site, locate the new icon in the top suite bar (on the right side of the header bar). This icon opens the design template panel.
+Follow the steps below to configure your SharePoint site using the setup wizard:
 
-2. Click the icon to open the Page creation Panel.
+- - -
 
-   ![](assets/screenshot-2026-03-25-163554.png)
-3. In the panel:
+### 🔹 Step 1: Welcome Screen
 
-   * Select the **"Home Page"** template
-   * Click the **Create Page** button
+1. Open the **Site Setup panel** from the top suite bar.
+2. You will land on the **Welcome screen**.
+3. This screen provides an overview of what will be configured:
 
-     ![](assets/screenshot-2026-03-25-163720.png)
-4. Do not close or refresh the browser. A pop-up will appear to create the required lists and libraries:
+   * Organization details
+   * Branding and theme
+   * Automatic deployment of web parts
+4. Click **Get Started** to proceed.
 
-* `Appointments` list
-* `Quick Links` list
-* `Anniversaries` list
-* `Mindfullness` list
-* `Training Videos` library
-* `Facilities` list
-  (_Mock items are added automatically for QuickLinks, Appointments, Anniversaries, Mindfullness, Training Videos, Facilities)
+<details>
 
-5. After the items are created, the site page will **refresh automatically**, and it will continue to creating page and adding webparts.
-6. Once setup is complete, a button will appear to open the newly created homepage. Click it to view the result.
+<summary>📸 View Apply template Screenshots</summary>
 
-   ![](assets/screenshot-2026-03-25-164038.png)
+![](assets/screenshot-2026-04-09-173227.png)
+
+</details>
+
+- - -
+
+### 🔹 Step 2: Organization Details
+
+1. Enter the required **Contact Information**:
+
+   * First Name
+   * Last Name
+2. Fill in **Company Information**:
+
+   * Company Name
+   * Industry
+   * Number of Employees
+3. Provide additional details:
+
+   * Vision
+   * Mission
+4. Click **Next** to continue.
+
+<details>
+<summary>📸 View Apply Template Screenshots</summary>
+
+![](assets/screenshot-2026-04-09-173440.png)
+</details>
+
+- - -
+
+### 🔹 Step 3: Branding
+
+1. Upload your organization branding:
+
+   * Company Logo
+   * Favicon
+2. Configure regional settings if required:
+
+   * Click **Open Regional Settings**
+3. Apply site theme:
+
+   * Click **Open Brand Center** to choose or create a theme
+4. Once done, click **Review & Apply**
+
+<details>
+<summary>📸 View Apply Template Screenshots</summary>
+
+![](assets/screenshot-2026-04-09-173458.png)
+</details>
+
+- - -
+
+### 🔹 Step 4: Review Configuration
+
+1. Review all the configured details:
+
+   * Organization Details
+   * Branding Settings
+2. Check the **What will be created** section:
+
+   * SharePoint Lists
+   * Document Libraries
+   * Home Page
+   * Branding Assets
+3. Click **Apply Template** to start the setup process.
+
+<details>
+
+<summary>📸 View Apply Template Screenshots</summary>
+![](assets/screenshot-2026-04-09-173518.png)
+</details>
+
+- - -
+
+### 🔹 Step 5: Setup Completion
+
+1. The system will begin configuring your site and display a **Configuration Summary**.
+2. You can track:
+
+   * List creation progress
+   * Library setup
+   * Web part deployment
+3. Once completed, a success message will appear:\
+   **“Site Setup Complete!”**
+4. Click **View New Home Page** to open your newly created site.
+
+<details>
+<summary>📸 View Apply Template Screenshots</summary>
+
+![](assets/screenshot-2026-04-09-173619.png)
+</details>
+
+> 💡 **Note:**
+>
+> * If any step fails during setup, it will be highlighted in the configuration summary.
+> * Do not refresh the page while the setup is in progress.
 
 - - -
 
