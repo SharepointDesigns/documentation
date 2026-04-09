@@ -30,7 +30,7 @@ This document explains how to configure each web part in your intranet solution,
 
 1. Since this is a first-time setup (or setup was not previously completed), a **full-page Setup Wizard** will automatically appear — no need to manually add any web part.
 
-     ![Set up wizard](assets/setupwizard.png "Set up wizard")
+    ![Set up wizard](assets/setupwizard.png "Set up wizard")
 
 </details>
 
@@ -101,7 +101,7 @@ Create a SharePoint list with the following columns:
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
-![Top Nav Header Settings](assets/topnavheader.png "Top Nav Header Settings")
+![Top Nav Header Settings](assets/screenshot-2026-04-09-at-10.32.49.png "Top Nav Header Settings")
 
 </details>
 
