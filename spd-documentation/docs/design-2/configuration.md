@@ -14,13 +14,13 @@ This document explains how to configure each web part in your intranet solution,
 
 ## 📑 Table of Contents
 
-1. [🧭 Top Navigation](#-1-top-navigation)
-2. [🎉 Welcome Banner](#-2-welcome-banner)
-3. [🔗 Common Tools](#-3-common-tools)
-4. [📰 News](#-4-news)
-5. [🏢 Facilities](#-5-facilities)
-6. [📅 Events Calendar](#-6-events-calendar)
-7. [🎈 Holidays](#-7-holidays)
+1. [🧭 Top Navigation](#-2-top-navigation)
+2. [🎉 Welcome Banner](#-3-welcome-banner)
+3. [🔗 Common Tools](#-4-common-tools)
+4. [📰 News](#-5-news)
+5. [🏢 Facilities](#-6-facilities)
+6. [📅 Events Calendar](#-7-events-calendar)
+7. [🎈 Holidays](#-8-holidays)
 
 - - -
 
