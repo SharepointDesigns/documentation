@@ -32,7 +32,6 @@ This document explains how to configure each web part in your intranet solution,
 
     ![Set up wizard](assets/setupwizard.png "Set up wizard")
 
-</details>
 
 2. Walk through the wizard steps:
 
