@@ -12,7 +12,7 @@ description: Change Log settings and customization guide for each web part.
 ### Design 4 Site Setup 
 * Enhanced the Configuration logs screen and added a checkbox for new Home Page setup.
 
-
+- - - 
 
 ## Version - 1.0.0.5
 
