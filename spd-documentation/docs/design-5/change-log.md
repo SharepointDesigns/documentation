@@ -4,7 +4,7 @@ sidebar_position: 5
 ---
 ## Design 5 — Version 1.0.0.2 Release Notes
 
-**Release Date:** April 22, 2026  
+**Release Date:** April 24, 2026  
 **Summary:** 13 new features · 14 bug fixes · 7 components improved
 
 ---
