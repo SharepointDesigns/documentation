@@ -2,84 +2,151 @@
 title: Change Log
 sidebar_position: 5
 ---
-## Version 1.0.0.2
+## Design 5 — Version 1.0.0.2 Release Notes
+
+**Release Date:** April 22, 2026  
+**Summary:** 13 new features · 14 bug fixes · 7 components improved
 
 ---
 
-### 👋 Welcome Banner
+## 👋 Welcome Banner
+**5 new features · 4 fixes**
 
-* 🔧 Fixed secondary theme color that was previously hardcoded in the Welcome Banner webpart.
-* 🆕 **Upload custom images** — Added upload button functionality in Banner and Image webpart for custom image uploads.
-* 🔧 Fixed title and description functionality appearing in normal layout configurations before layout selection — now displays only after selecting the normal layout option.
-* 🔧 Fixed "Select Background Image for Banner" option not appearing in normal layout.
-* 🔧 Resolved mobile responsiveness issue where only half content was displayed.
-* 🆕 **Adjustable announcement height** — Added slider control to adjust announcement section height for better content fitting.
-* 🆕 **Collection Data support** — Banner now supports Collection Data as a data source, allowing direct content management without maintaining a separate list.
-* 🆕 **Navigation arrows** — Added carousel navigation arrows for improved user experience.
-* 🔧 Removed default Vision and Mission fields from Welcome screen for streamlined setup.
-* 🆕 Made Industry and Employee fields optional in Welcome Screen.
-* 🆕 **Color customization** — Added ability to change welcome message, date, and time colors from property pane color picker.
+### What's New
+* **[New Feature]** You can now upload images directly from the settings panel without needing to browse SharePoint libraries — making it faster to customize your banner.
 
-### 📅 Calendar
+* **[New Feature]** Adjust how tall your announcement section appears using a simple slider — perfect for fitting longer messages without cutting them off.
 
-* 🔧 Fixed secondary theme color that was previously hardcoded in the Calendar webpart.
-* 🆕 **Improved "Add to Outlook" functionality** — Now opens Outlook directly instead of downloading an ICS file.
+* **[New Feature]** Add content directly in the settings panel instead of creating separate SharePoint lists — saves time and simplifies content management. `Supports Collection Data mode`
 
-### 📰 Company & Announcements
+* **[New Feature]** Left and right arrows now appear on the banner carousel so visitors can manually browse through announcements at their own pace.
 
-* 🔧 Fixed secondary theme color that was previously hardcoded in the News webpart.
-* 🔧 Fixed Learn More button to properly use custom site branding secondary theme color.
-* 🆕 **Enhanced Learn More button** — Added hover effects to draw user attention.
-* 🔧 Resolved content clustering issue in Featured News mobile responsiveness.
+* **[New Feature]** Choose custom colors for your welcome message, date, and time displays using color pickers in the settings panel.
 
-### 🔗 Quick Links
+### Fixes & Improvements
+* **[Fixed]** The banner now correctly uses your site's secondary brand color instead of always showing the same hardcoded color.
 
-* 🔧 Fixed hide space control that was not functioning properly.
-* 🔧 Fixed space above header when toggle is enabled or disabled.
-* 🆕 **Scroll control** — Added scroll bar and control in property pane to manage the number of quick links displayed.
-* 🔧 Fixed hover icon color styling.
+* **[Fixed]** Title and description fields now only show up after you select "Normal Layout" mode — preventing confusion during setup.
 
-### 🎨 Site Branding & Setup Wizard
+* **[Fixed]** The "Select Background Image" option now appears correctly when using Normal Layout mode.
 
-* 🆕 **Secondary color option** — Added custom site branding secondary color option.
-* 🆕 **Independent branding controls** — Review and Apply button in Branding Screen now works independently without requiring Apply theme to be clicked first.
-* 🔄 **New Setup extension** — Setup wizard upgradation in progress with multiple screens and page creation mockup.
-
-### 📄 Documents
-
-* 🔧 Updated mock document data.
-
-
-### 🐛 General Fixes
-
-
-* 🔧 Resolved mouse hover effect hiding the Moc Icon class.
-* 🔧 Fixed extra space between webparts.
+* **[Fixed]** Mobile users now see the complete banner content instead of just half of it — much better experience on phones and tablets.
 
 ---
 
-## Version 1.0.0.1
+## 📅 Calendar
+**1 new feature · 1 fix**
+
+### What's New
+* **[New Feature]** Clicking "Add to Outlook" now opens Outlook directly in your browser instead of downloading a file — one less step for users.
+
+### Fixes & Improvements
+* **[Fixed]** Calendar colors now match your site's custom theme colors instead of using default colors.
 
 ---
 
-### 📌 Initial Release
+## 📰 Company News & Announcements
+**1 new feature · 3 fixes**
 
-* 🎉 Initial release of Design 5 template.
-* ✅ Welcome Banner webpart with personalized greetings.
-* ✅ CEO Video webpart for leadership messages.
-* ✅ Company & Announcements (Featured News) webpart.
-* ✅ Calendar webpart for events and meetings.
-* ✅ Events Flyer webpart for visual event highlights.
-* ✅ Documents webpart for easy resource access.
-* ✅ Quick Links webpart for essential tools and pages.
-* ✅ Setup Wizard for quick site deployment.
+### What's New
+* **[New Feature]** The "Learn More" button now has a visual hover effect to grab attention and encourage clicks.
+
+### Fixes & Improvements
+* **[Fixed]** News section now uses your custom site theme colors instead of default colors.
+
+* **[Fixed]** The "Learn More" button now displays in your site's secondary brand color as intended.
+
+* **[Fixed]** News cards no longer overlap or look cramped on mobile devices — they now arrange properly on small screens.
 
 ---
 
-## Version History
+## 🔗 Quick Links
+**1 new feature · 3 fixes**
 
-| Version | Published Date | Key Changes                                    |
-| ------- | -------------- | ---------------------------------------------- |
-| 1.0.0.1 | TBD            | Initial release                                |
-| 1.0.0.2 | Apr 24, 2026    | Major improvements across all webparts         |
+### What's New
+* **[New Feature]** Control how many quick links display and add a scroll bar when you have more links than fit on screen — keeps the layout clean.
+
+### Fixes & Improvements
+* **[Fixed]** The "Hide space above header" toggle now works properly — spacing disappears when you turn it on.
+
+* **[Fixed]** No more extra gap appearing above the header when toggling settings on and off.
+
+* **[Fixed]** Link icons now show the correct color when you hover over them.
+
+---
+
+## 🎨 Site Branding & Setup Wizard
+**2 new features · 1 in development**
+
+### What's New
+* **[New Feature]** Configure both primary AND secondary brand colors from the branding screen — complete control over your site's color scheme.
+
+* **[New Feature]** The "Review & Apply" button now works on its own — you don't need to click "Apply Theme" separately anymore. `Streamlined workflow`
+
+### Coming Soon
+* **[In Development]** Complete Setup Wizard redesign with multiple setup screens and visual page previews — making it easier to see what you're creating before you publish.
+
+---
+
+## 📄 Documents
+**1 update**
+
+* **[Updated]** Sample documents refreshed with more realistic demo data for testing and presentations.
+
+---
+
+## 🎭 Welcome Screen (Setup)
+**2 improvements · 1 cleanup**
+
+### What's New
+* **[Improved]** Industry and Employee fields are now optional — skip them if they don't apply to your organization.
+
+### Cleanup
+* **[Removed]** Vision and Mission fields removed from the welcome setup screen — fewer fields to fill out during initial setup.
+
+---
+
+## 🐛 General Fixes
+
+* **[Fixed]** Icons no longer disappear when you hover over them — visual bug corrected.
+
+* **[Fixed]** Removed unwanted gaps between web parts — pages now look cleaner and more professional.
+
+---
+
+## 📦 Technical Details
+
+**Package:** SPFx v1.0.0.2  
+**Compatibility:** SharePoint Online  
+**Components Updated:** 7  
+**Breaking Changes:** None  
+
+---
+
+## 🎯 Impact Summary
+
+**For Content Editors:**
+- Faster content updates with Collection Data support
+- Easier image uploads without library navigation
+- More control over colors and spacing
+
+**For Site Owners:**
+- Complete branding control with primary + secondary colors
+- Simplified setup wizard workflow
+- Better mobile experience for all visitors
+
+**For End Users:**
+- Cleaner mobile layouts across all components
+- Smoother "Add to Outlook" experience
+- Visual improvements with hover effects and proper colors
+
+---
+
+
+
+## 💬 Need Help?
+
+- **Documentation:** [Design 5 Documentation](https://sharepointdesigns.github.io/documentation/docs/design-5/)
+- **Support:** support@sharepointdesigns.com
+- **Website:** www.sharepointdesigns.com
 
