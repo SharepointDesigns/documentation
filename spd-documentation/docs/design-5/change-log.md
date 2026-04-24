@@ -76,15 +76,16 @@ sidebar_position: 5
 ---
 
 ## 🎨 Site Branding & Setup Wizard
-**2 new features · 1 in development**
+**3 new features**
 
 ### What's New
+* **[New Feature]** Complete Setup Wizard redesign with multiple setup screens and visual page previews — making it easier to see what you're creating before you publish.
 * **[New Feature]** Configure both primary AND secondary brand colors from the branding screen — complete control over your site's color scheme.
 
 * **[New Feature]** The "Review & Apply" button now works on its own — you don't need to click "Apply Theme" separately anymore. `Streamlined workflow`
 
-### Coming Soon
-* **[In Development]** Complete Setup Wizard redesign with multiple setup screens and visual page previews — making it easier to see what you're creating before you publish.
+
+
 
 ---
 
