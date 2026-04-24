@@ -87,7 +87,7 @@ Note: For the **Breaking News** webpart, create a list with the following column
 
 | 🏷️ Column Name (Case Sensitive) | 🔣 Column Type | 💡 Option                           |
 | ------------------------------- | -------------- | ----------------------------------- |
-| **Link**                        | URL            |                                     |
+| **Link**                        | Hyperlink          |                                     |
 | **Expiry Date**                 | Datetime       |                                     |
 | **Order By**                    | Number         |                                     |
 | **Target Window**               | Choice         | (Open in new tab, Open in same tab) |
