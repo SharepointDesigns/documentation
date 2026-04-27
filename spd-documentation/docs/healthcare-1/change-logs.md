@@ -1,5 +1,6 @@
 ---
 title: "Change Logs "
+sidebar_position: 4
 ---
 ## Version - 1.0.0.1
 
