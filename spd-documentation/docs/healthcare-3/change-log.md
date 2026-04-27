@@ -14,7 +14,7 @@ title: "Change Log "
 
 
 #### Footer (Enhancements)
-* Improved footer alignment and updated color styling for a better visual experience.
+* 🔄 Updated footer alignment from left-aligned to center-aligned for improved layout balance
 
 
 #### Training Videos (Bug Fixes)
