@@ -8,6 +8,43 @@ Document Library allows users to browse and interact with SharePoint documents d
 
 ![](assets/screenshot-2025-11-11-005639.png)
 
+## Installation
+
+
+### Step 1: Upload the .sppkg File to App Catalog
+
+1. Navigate to your **SharePoint Admin Center**.
+2. In the left navigation, select **More features**.
+3. Under **Apps**, select **Open**.
+4. Click on **App Catalog**. If you don't have an App Catalog, you'll need to create one first.
+5. Select **Apps for SharePoint** from the left navigation.
+6. Click **Upload** or drag and drop your `spd-document-library-13.sppkg` file into the App Catalog.
+7. A dialog will appear asking you to trust and deploy the app. Check the box **Make this solution available to all sites in the organization** if you want it available tenant-wide.
+8. Click **Deploy**.
+
+
+### Step 2: Add the App to Your Site
+
+1. Navigate to the SharePoint site where you want to use the Document Library Web Part.
+2. Click the **Settings** gear icon (⚙️) in the top right corner.
+3. Select **Add an app** (or **Site contents** > **New** > **App**).
+4. Search for your Document Library app by name **Document Library 13 by SharePoint Designs**.
+5. Click on the app to add it to your site.
+6. Wait for the app to be installed (this may take a few moments).
+
+
+### Step 3: Add the Web Part to a Page
+
+1. Navigate to the page where you want to add the Document Library Web Part.
+2. If you're on a modern page, click **Edit** in the top right.
+3. Click the **+** icon where you want to add the web part.
+4. Search for **Document Library** in the web part picker.
+5. Select the **Document Library Web Part** to add it to your page.
+6. The web part will be added and you can now proceed with configuration.
+
+
+---
+
 ## Configuration
 
 ### Header Settings
