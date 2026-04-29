@@ -36,7 +36,7 @@ sidebar_position: 5
 
 ### RSS Feed
 
-- 🔄 Updated “See All” functionality to navigate to a Site Page where all FAQs are available
+- 🔄 Updated “See All” functionality to navigate to a Site Page where all RSS News are available
 
 ### FAQ
 
