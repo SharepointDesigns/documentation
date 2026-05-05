@@ -42,4 +42,4 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 ## 📄 Documentation
 
 Everything you need to get started, configure, and deploy Free Template is available in our documentation:
-👉 [View Documentation](/documentation/docs/free-template/installation)
+👉 [View Documentation](/docs/free-template/installation)

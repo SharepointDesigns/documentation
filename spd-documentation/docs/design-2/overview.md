@@ -6,6 +6,7 @@ version: 1
 updated: October 2025
 description: Installation settings and customization guide for each web part.
 ---
+
 ## Intranet Design 2 by SharePoint Designs
 
 🧩 **Design 2 Site Setup by SharePoint Designs**
@@ -45,4 +46,4 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 ## 📄 Documentation
 
 Everything you need to get started, configure, and deploy Design 2 is available in our documentation:
-👉 [View Documentation](/documentation/docs/design-2/installation)
+👉 [View Documentation](/docs/design-2/installation)

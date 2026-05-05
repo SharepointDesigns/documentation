@@ -42,7 +42,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/SharepointDesigns/documentation/edit/main/spd-documentation/",
+            "https://github.com/SharepointDesigns/edit/main/spd-documentation/",
         },
         blog: {
           showReadingTime: true,
@@ -53,7 +53,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/SharepointDesigns/documentation/edit/main/spd-documentation/",
+            "https://github.com/SharepointDesigns/edit/main/spd-documentation/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
