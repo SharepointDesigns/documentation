@@ -6,6 +6,7 @@ version: 1
 updated: October 2025
 description: Installation settings and customization guide for each web part.
 ---
+
 ## Intranet Design 2 by SharePoint Designs
 
 🧩 **Design 2 Site Setup by SharePoint Designs**
