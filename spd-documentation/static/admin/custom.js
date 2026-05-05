@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-  const siteUrl = "https://sharepointdesigns.github.io";
+  const siteUrl = "http://documentation.sharepointdesigns.com/";
 
   // Wait for user login (GitHub avatar visible)
   const checkLogin = setInterval(() => {
