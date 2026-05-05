@@ -40,4 +40,4 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 ## 📄 Documentation
 
 Everything you need to get started, configure, and deploy Healthcare 02 is available in our documentation:
-👉 [View Documentation](https://sharepointdesigns.github.io/documentation/docs/healthcare-2/installation)
+👉 [View Documentation](https://sharepointdesigns.github.io/docs/healthcare-2/installation)

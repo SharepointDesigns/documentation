@@ -67,26 +67,26 @@ description: Change Log settings and customization guide for each web part.
 
 ## Version 1.0.0.2
 
-#### [Welcome Banner Web Part (Bug Fixes)](/documentation/docs/design-4/configuration#-1-welcome-banner)
+#### [Welcome Banner Web Part (Bug Fixes)](/docs/design-4/configuration#-1-welcome-banner)
 
 - Fixed the issue in vision message box background colour where editor is not being able to type on own color code
 
-### [Employee Spotlight Web Part (Bug Fixes)](/documentation/docs/design-4/configuration#-6-employee-spotlights)
+### [Employee Spotlight Web Part (Bug Fixes)](/docs/design-4/configuration#-6-employee-spotlights)
 
 - Fixed the issue with filtering and displaying only the top 3 employee profiles based on selected categories.
 - Fixed the issue where the title color was not being applied correctly in Compact view.
 - Fixed the issue where the image added in a list was not displaying correctly in Carousel view.
 - Removed console log statements that were left in the code.
 
-### [Message from the CEO Web Part (Bug Fixes)](/documentation/docs/design-4/configuration#-5-message-center)
+### [Message from the CEO Web Part (Bug Fixes)](/docs/design-4/configuration#-5-message-center)
 
 - Fixed Message from the CEO Colors not applying correctly.
 
-### [News Web Part (Bug Fixes)](/documentation/docs/design-4/configuration#-4-news)
+### [News Web Part (Bug Fixes)](/docs/design-4/configuration#-4-news)
 
 - Fixed alignment issue (category and news)
 
-### [Company Directory Web Part (Bug Fixes)](/documentation/docs/design-4/configuration#-8-company-directory)
+### [Company Directory Web Part (Bug Fixes)](/docs/design-4/configuration#-8-company-directory)
 
 - Fixed the issue where the org chart other team people selection was not working as expected.
 
@@ -96,30 +96,30 @@ description: Change Log settings and customization guide for each web part.
 
 ### New Features & Major Updates
 
-#### [Design 4 Setup](/documentation/docs/design-4/installation#-Installation-Instructions)
+#### [Design 4 Setup](/docs/design-4/installation#-Installation-Instructions)
 
 - Added a new **“Set as Homepage”** checkbox after site creation.
 - When enabled, clicking **“Open New Page”** will open the newly created page **and set it as the homepage** .
 - If the checkbox is unchecked, the new page opens normally without changing the homepage.
 - The homepage update only occurs when the **“Open New Page”** button is clicked
 
-#### [Welcome Banner Web Part](/documentation/docs/design-4/configuration#-1-welcome-banner)
+#### [Welcome Banner Web Part](/docs/design-4/configuration#-1-welcome-banner)
 
 - **Display Name Setting**: Added dropdown to select First/Last/Full name display format
 - **Height of Content Banner**: Added slider control for content area height
 - **Background Color**: Added color picker for Content Area background customization
 
-#### [Announcements Web Part](/documentation/docs/design-4/configuration#-2-announcements)
+#### [Announcements Web Part](/docs/design-4/configuration#-2-announcements)
 
 - **Show Webpart Title**: Toggle switch to control title visibility
 - **Webpart Title**: Text input field for custom title configuration
 - **Carousel Settings**: New section with AutoPlay and Speed controls
 
-#### [Quicklinks Web Part](/documentation/docs/design-4/configuration#-3-quicklinks)
+#### [Quicklinks Web Part](/docs/design-4/configuration#-3-quicklinks)
 
 - **Items to Show**: Added slider setting for controlling display count
 
-#### [Message Center Web Part](/documentation/docs/design-4/configuration#-5-message-center)
+#### [Message Center Web Part](/docs/design-4/configuration#-5-message-center)
 
 - **Centralized Content Management**: Replaced individual content fields with "Manage CEO Message" button
 - **New Appearance Settings**: Added dedicated section for height and content line controls
@@ -140,11 +140,11 @@ description: Change Log settings and customization guide for each web part.
 
 ### New Features
 
-#### [Company Directory Web Part](/documentation/docs/design-4/configuration#-8-company-directory)
+#### [Company Directory Web Part](/docs/design-4/configuration#-8-company-directory)
 
 - **Excluded Users**: Allows removing specific users from the organization chart.
 - **Reorder Org Chart Users**: Enables reordering child users under a specific parent by entering the parent’s email ID (Enter user UPN).
 
-#### [Welcome Banner Web Part](/documentation/docs/design-4/configuration#%EF%B8%8F-general-settings)
+#### [Welcome Banner Web Part](/docs/design-4/configuration#%EF%B8%8F-general-settings)
 
 - Added a configurable icon in the content section, adjustable from the property pane.

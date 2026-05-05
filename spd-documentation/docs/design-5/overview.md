@@ -44,4 +44,4 @@ Ideal for corporate communications, team portals, or departmental hubs, this sol
 ## 📄 Documentation
 
 Start, configure, and publish your Design 5 intranet homepage with ease:  
-👉 [View Documentation](/documentation/docs/design-5/installation)
+👉 [View Documentation](/docs/design-5/installation)

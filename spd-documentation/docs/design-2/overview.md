@@ -46,4 +46,4 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 ## 📄 Documentation
 
 Everything you need to get started, configure, and deploy Design 2 is available in our documentation:
-👉 [View Documentation](/documentation/docs/design-2/installation)
+👉 [View Documentation](/docs/design-2/installation)

@@ -164,6 +164,6 @@ sidebar_position: 5
 
 ## 💬 Need Help?
 
-- **Documentation:** [Design 5 Documentation](https://sharepointdesigns.github.io/documentation/docs/design-5/)
+- **Documentation:** [Design 5 Documentation](https://sharepointdesigns.github.io/docs/design-5/)
 - **Support:** support@sharepointdesigns.com
 - **Website:** www.sharepointdesigns.com
