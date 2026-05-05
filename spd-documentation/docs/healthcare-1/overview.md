@@ -39,4 +39,4 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 ## 📄 Documentation
 
 Everything you need to get started, configure, and deploy Healthcare 01 is available in our documentation:
-👉 [View Documentation](/documentation/docs/healthcare-1/installation)
+👉 [View Documentation](/docs/healthcare-1/installation)
