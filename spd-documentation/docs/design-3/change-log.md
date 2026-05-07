@@ -6,7 +6,7 @@ title: Change Log
 ### Fixes
 
 * Resolved the extension deployment issue that was preventing the app from installing successfully.
-* Corrected configuration settings to ensure smooth app installation and proper extension setup across the solution.
+* Updated configuration settings to ensure smooth app installation and proper extension setup across the solution.
 
 ### **Enhancements**
 
