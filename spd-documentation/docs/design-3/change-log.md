@@ -5,7 +5,9 @@ title: Change Log
 
 ### Upgrade Package
 
-Fixed the extension deployment issue triggered by the **Add an App** error, which was caused by incorrect entries in "package-solution.json", "Elements.xml", and "ClientSideInstance.xml". Updated the configurations to ensure proper extension registration and smooth app installation
+* Fixed the extension deployment issue triggered by the Add an App error, which was caused by incorrect entries in the package solution and feature configuration files. Updated the configurations to ensure proper extension registration and smooth app installation.
+
+
 
 ### **Enhancements**
 
@@ -14,9 +16,9 @@ Fixed the extension deployment issue triggered by the **Add an App** error, whic
 
 ## **Version -** 1.0.0.2
 
-🆕 Upgraded with new Wizard Configuration has Welcome Screen, Organizational Details Screen, Branding Screen (which has Regional Settings update, Brand Center Update, site logo) and Review with apply template
-SPFx Upgrade (v1.22.2)
+* 🆕 Upgraded with new Wizard Configuration has Welcome Screen, Organizational Details Screen, Branding Screen (which has Regional Settings update, Brand Center Update, site logo) and Review with apply template
+  SPFx Upgrade (v1.22.2)
 
 ## **Version -** 1.0.0.1
 
-🆕 Upgraded SharePoint Framework to v1.22 for improved performance and latest feature support🚀 Updated project dependencies and packages to align with SPFx 1.22🧹 Cleaned up deprecated/unused configurations as part of upgrade.
+* 🆕 Upgraded SharePoint Framework to v1.22 for improved performance and latest feature support🚀 Updated project dependencies and packages to align with SPFx 1.22🧹 Cleaned up deprecated/unused configurations as part of upgrade.
