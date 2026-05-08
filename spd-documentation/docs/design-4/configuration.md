@@ -14,14 +14,14 @@ This guide provides step-by-step configuration details for each web part, includ
 
 1. [Set Up Wizard](https://documentation.sharepointdesigns.com/docs/design-4/configuration/#1-set-up-wizard)
 2. [Welcome Banner](https://documentation.sharepointdesigns.com/docs/design-4/configuration/#%EF%B8%8F-2-welcome-banner)
-3. [Announcements](#-2-announcements)
-4. [Quicklinks](#-3-quicklinks)
-5. [News](#-4-news)
-6. [Message Center](#-5-message-center)
-7. [Employee Spotlights](#-6-employee-spotlights)
-8. [Testimonials](#-7-testimonials)
-9. [Company Directory](#-8-company-directory)
-10. [Calendar](#-9-calendar)
+3. [Announcements](https://documentation.sharepointdesigns.com/docs/design-4/configuration/#-3-announcements)
+4. [Quicklinks](https://documentation.sharepointdesigns.com/docs/design-4/configuration/#-4-quicklinks)
+5. [News](https://documentation.sharepointdesigns.com/docs/design-4/configuration/#-5-news)
+6. [Message Center](https://documentation.sharepointdesigns.com/docs/design-4/configuration/#-6-message-center)
+7. [Employee Spotlights](https://documentation.sharepointdesigns.com/docs/design-4/configuration/#-7-employee-spotlights)
+8. [Testimonials](https://documentation.sharepointdesigns.com/docs/design-4/configuration/#-8-testimonials)
+9. [Company Directory](https://documentation.sharepointdesigns.com/docs/design-4/configuration/#-9-company-directory)
+10. [Calendar](https://documentation.sharepointdesigns.com/docs/design-4/configuration/#-10-calendar)
 
 - - -
 
