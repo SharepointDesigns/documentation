@@ -2,14 +2,45 @@
 title: Configuration
 sidebar_position: 4
 ---
+### Note:
 
 The Home page should be configured using the "Design 3 Setup" web part to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
 
-## 1. Welcome Banner
+## 1. Set Up Wizard
+
+![](assets/setup-img.txt "Set up suitebar")
+
+1. Since this is a first-time setup (or setup was not previously completed), a **full-page Setup Wizard** will automatically appear — no need to manually add any web part.
+
+   ![Set up wizard](assets/screenshot-2026-05-08-110024.png "Set up wizard")
+2. Walk through the wizard steps:
+
+   * **Organizational Details** — Enter your organization information.
+   * **Branding** — Upload your site logo. The wizard uses AI to automatically generate a brand color palette from the logo. You can review, adjust, or change the suggested colors before clicking **Save and Apply Theme**. You can also upload a custom favicon and configure regional settings.
+   * **Deploy & Template** — Deploy the intranet layout. Once deployed, the page is saved as a template so it can be reused later to recreate the site layout.
+3. Do not close the browser during deployment. The wizard will create the required lists, libraries, and layout with sample data.
+4. Once deployment is complete, you will be given the option to **set the newly created page as your homepage**. Click **View Page** to open the new page with the full Design 2 layout applied.
+
+<details>
+<summary>📸 View Property Panel Screenshots</summary>
+
+![](assets/screenshot-2026-05-08-110420.png)
+
+</details>
+
+> **After Setup**
+>
+> * The full-page wizard will no longer appear on page load.
+> * You can relaunch the Setup Wizard at any time from the **suite bar** at the top of the site to update settings.
+> * Admins can return to the Deploy & Template step at any time to apply a saved template and recreate the site layout.
+
+- - -
+
+## 2. Welcome Banner
 
 ![Welcome Banner](assets/screenshot-2025-10-23-155025.png)
 
----
+- - -
 
 ### ⚙️ Configuration
 
@@ -79,7 +110,7 @@ The Home page should be configured using the "Design 3 Setup" web part to ensure
 | Enable Dragging          | Toggle to enable or disable dragging functionality for the web part.    | On/Off  |
 | Reset Component Position | Reset the position of the web part to its default location on the page. | Button  |
 
-## 2. Breaking News
+## 3. Breaking News
 
 ![Breaking News](assets/screenshot-2025-10-23-174319.png)
 
@@ -154,17 +185,16 @@ The Home page should be configured using the "Design 3 Setup" web part to ensure
 | -------------------------------------------- | ------------------------------------------------------------------ | ------- |
 | Hide this webpart is there's nothing to show | Toggle to hide the web part when there are no breaking news items. | On/Off  |
 
-## 3. Quick Links
+## 4. Quick Links
 
 ![Quick links](assets/screenshot-2025-10-24-091358.png)
 
 Provide fast and intuitive access to essential resources:
 
-- **Essential Resources**
+* **Essential Resources**
 
   : Direct users to frequently used tools, forms, documents, and company policies.
-
-- **Icons & Labels**
+* **Icons & Labels**
   : Enhance navigation with clearly labeled links and intuitive icons.
 
 ### ⚙️Configuration
@@ -228,7 +258,7 @@ Provide fast and intuitive access to essential resources:
 | Title theme color                            | Choose a theme color for the Quick Links title.                  | Dropdown |
 | Button hover theme color                     | Choose a theme color for the Quick Links button hover effect.    | Dropdown |
 
-## 📰 4. News
+## 📰 5. News
 
 Deliver the latest updates and announcements through a dynamic, filterable news section featuring categories, sorting, and RSS integration.
 
@@ -333,9 +363,9 @@ Deliver the latest updates and announcements through a dynamic, filterable news 
 Use descriptive tags and consistent images (1300×450 px) for better layout alignment and category filtering.
 :::
 
----
+- - -
 
-## 5. New Joiners & Anniversaries
+## 6. New Joiners & Anniversaries
 
 Celebrate your people! Showcase birthdays, anniversaries, and new joiners with vibrant cards or carousel views.
 
@@ -353,7 +383,7 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 | **Date**                     | Date and Time   | Event date                          |
 | **Category**                 | Choice          | Birthday / Anniversary / New Joiner |
 
----
+- - -
 
 ### Configuration
 
@@ -366,7 +396,7 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 
 </details>
 
-| 🏷️ Name             | 🎯 Purpose                  | 💡 Select Option           |
+| 🏷️ Name            | 🎯 Purpose                  | 💡 Select Option           |
 | ------------------- | --------------------------- | -------------------------- |
 | Title               | Section title               | “Birthday & Anniversaries” |
 | Show See All Button | Toggle to display “See All” | On                         |
@@ -381,7 +411,7 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 
 </details>
 
-| 🏷️ Name            | 🎯 Purpose                   | 💡 Select Option       |
+| 🏷️ Name           | 🎯 Purpose                   | 💡 Select Option       |
 | ------------------ | ---------------------------- | ---------------------- |
 | Select a List      | Choose SharePoint data list  | EmployeeSpotlights     |
 | Filter by Category | Filter items by event type   | Birthday / Anniversary |
@@ -411,13 +441,13 @@ Celebrate your people! Showcase birthdays, anniversaries, and new joiners with v
 
 </details>
 
-| 🏷️ Name            | 🎯 Purpose                        | 💡 Select Option                |
+| 🏷️ Name           | 🎯 Purpose                        | 💡 Select Option                |
 | ------------------ | --------------------------------- | ------------------------------- |
 | Button Hover color | Button hover color and text color | Theme 4 (Text #243666, BG #fff) |
 
----
+- - -
 
-## 6. Company Directory
+## 7. Company Directory
 
 Display your organizational hierarchy with interactive nodes showing employees, departments, and reporting lines.
 
@@ -470,7 +500,7 @@ Ideal for visualizing reporting structures — users can hover to view names, ti
 | Developed By  | Credit attribution       | SharePoint Designs |
 | Documentation | Opens help documentation | Documentation Link |
 
-## 7. Calendar
+## 8. Calendar
 
 Show upcoming meetings, holidays, and key events in a clear monthly or weekly calendar format.
 
@@ -554,13 +584,13 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 | Webpart title color | Choose theme color for title   | Dropdown (Theme 3 #243666)               |
 | Button colors       | Choose theme color for buttons | Dropdown (Theme 4 Text #243666, BG #fff) |
 
----
+- - -
 
-## 8. Top Navigation
+## 9. Top Navigation
 
 ![Top Naigation](assets/screenshot-2025-10-24-120427.png)
 
 ### ⚙️Configuration
 
-- Edit the web part to access navigation settings.
-- Click Manage Navigation Items to add or edit entries.
+* Edit the web part to access navigation settings.
+* Click Manage Navigation Items to add or edit entries.
