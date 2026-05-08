@@ -6,40 +6,33 @@ sidebar_position: 4
 
 The Home page should be configured using the "Healthcare 2 Setup" web part to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
 
-Configuration settings for each web part.
+## 1. Set Up Wizard
 
-## 🧪1. Site config (Application customizer)
+![](assets/setup-img.txt "Set up suitebar")
 
-## Steps to Test and Apply Template
+1. Since this is a first-time setup (or setup was not previously completed), a **full-page Setup Wizard** will automatically appear — no need to manually add any web part.
 
-1. On the SharePoint site, locate the new icon in the top suite bar (on the right side of the header bar). This icon opens the design template panel.
+   ![Set up wizard](assets/screenshot-2026-05-08-110024.png "Set up wizard")
+2. Walk through the wizard steps:
 
-   ![](assets/addapp.png)
-2. Click the icon to open the Page creation Panel.
+   * **Organizational Details** — Enter your organization information.
+   * **Branding** — Upload your site logo. The wizard uses AI to automatically generate a brand color palette from the logo. You can review, adjust, or change the suggested colors before clicking **Save and Apply Theme**. You can also upload a custom favicon and configure regional settings.
+   * **Deploy & Template** — Deploy the intranet layout. Once deployed, the page is saved as a template so it can be reused later to recreate the site layout.
+3. Do not close the browser during deployment. The wizard will create the required lists, libraries, and layout with sample data.
+4. Once deployment is complete, you will be given the option to **set the newly created page as your homepage**. Click **View Page** to open the new page with the full Design 2 layout applied.
 
-   ![](assets/pagecreationpannel.png)
-3. In the panel:
+<details>
+<summary>📸 View Property Panel Screenshots</summary>
 
-   * Select the **"Home Page"** template
-   * Click the **Create Page** button
+![](assets/screenshot-2026-05-08-110420.png)
 
-     ![](assets/createpagebtn.png)
-4. Do not close or refresh the browser. A pop-up will appear to create the required lists and libraries:
+</details>
 
-* `Employee Spotlight` list
-* `Document Content` library
-* `Take a Breath` library
-* `Gallery` library
-  (_Mock items are added automatically for Employee Spotlight, Document Content, Take a Breath, Gallery, News)
-
-5. After the items are created, the site page will **refresh automatically**, and it will continue to creating page and adding webparts.
-6. Once setup is complete, a button will appear to open the newly created homepage. Click it to view the result.
-
-   ![](assets/sucess.png)
-
-- - -
-
-# Healthcare 2 – Web Parts Configuration
+> **After Setup**
+>
+> * The full-page wizard will no longer appear on page load.
+> * You can relaunch the Setup Wizard at any time from the **suite bar** at the top of the site to update settings.
+> * Admins can return to the Deploy & Template step at any time to apply a saved template and recreate the site layout.
 
 - - -
 
