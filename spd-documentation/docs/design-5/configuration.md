@@ -9,7 +9,7 @@ description: configuration settings and customization guide for each web part.
 Note:
 The Home page should be configured using the "Design 5 Setup" extension to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
 
-## 1. Set Up Wizard
+## 1. Set Up Wizard 
 
 ![](assets/setup-img.txt "Set up suitebar")
 
