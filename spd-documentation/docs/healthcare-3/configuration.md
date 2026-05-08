@@ -5,129 +5,33 @@ title: Configuration
 
 The Home page should be configured using the "Healthcare 3 Setup" extension to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
 
-Configuration settings for each web part.
+## 1. Set Up Wizard
 
-## 🧪1. Site config (Application customizer)
+![](assets/setup-img.txt "Set up suitebar")
 
-Follow the steps below to configure your SharePoint site using the setup wizard:
+1. Since this is a first-time setup (or setup was not previously completed), a **full-page Setup Wizard** will automatically appear — no need to manually add any web part.
 
-- - -
+   ![Set up wizard](assets/screenshot-2026-05-08-110024.png "Set up wizard")
+2. Walk through the wizard steps:
 
-### 🔹 Step 1: Welcome Screen
-
-1. Open the **Site Setup panel** from the top suite bar.
-2. You will land on the **Welcome screen**.
-3. This screen provides an overview of what will be configured:
-
-   * Organization details
-   * Branding and theme
-   * Automatic deployment of web parts
-4. Click **Get Started** to proceed.
+   * **Organizational Details** — Enter your organization information.
+   * **Branding** — Upload your site logo. The wizard uses AI to automatically generate a brand color palette from the logo. You can review, adjust, or change the suggested colors before clicking **Save and Apply Theme**. You can also upload a custom favicon and configure regional settings.
+   * **Deploy & Template** — Deploy the intranet layout. Once deployed, the page is saved as a template so it can be reused later to recreate the site layout.
+3. Do not close the browser during deployment. The wizard will create the required lists, libraries, and layout with sample data.
+4. Once deployment is complete, you will be given the option to **set the newly created page as your homepage**. Click **View Page** to open the new page with the full Design 2 layout applied.
 
 <details>
+<summary>📸 View Property Panel Screenshots</summary>
 
-<summary>📸 View Apply template Screenshots</summary>
-
-![](assets/screenshot-2026-04-09-173227.png)
+![](assets/screenshot-2026-05-08-110420.png)
 
 </details>
 
-- - -
-
-### 🔹 Step 2: Organization Details
-
-1. Enter the required **Contact Information**:
-
-   * First Name
-   * Last Name
-2. Fill in **Company Information**:
-
-   * Company Name
-   * Industry
-   * Number of Employees
-3. Provide additional details:
-
-   * Vision
-   * Mission
-4. Click **Next** to continue.
-
-<details>
-<summary>📸 View Apply Template Screenshots</summary>
-
-![](assets/screenshot-2026-04-09-173440.png)
-
-</details>
-
-- - -
-
-### 🔹 Step 3: Branding
-
-1. Upload your organization branding:
-
-   * Company Logo
-   * Favicon
-2. Configure regional settings if required:
-
-   * Click **Open Regional Settings**
-3. Apply site theme:
-
-   * Click **Open Brand Center** to choose or create a theme
-4. Once done, click **Review & Apply**
-
-<details>
-<summary>📸 View Apply Template Screenshots</summary>
-
-![](assets/screenshot-2026-04-09-173458.png)
-
-</details>
-
-- - -
-
-### 🔹 Step 4: Review Configuration
-
-1. Review all the configured details:
-
-   * Organization Details
-   * Branding Settings
-2. Check the **What will be created** section:
-
-   * SharePoint Lists
-   * Document Libraries
-   * Home Page
-   * Branding Assets
-3. Click **Apply Template** to start the setup process.
-
-<details>
-
-<summary>📸 View Apply Template Screenshots</summary>
-!\[](assets/screenshot-2026-04-09-173518.png)
-</details>
-
-- - -
-
-### 🔹 Step 5: Setup Completion
-
-1. The system will begin configuring your site and display a **Configuration Summary**.
-2. You can track:
-
-   * List creation progress
-   * Library setup
-   * Web part deployment
-3. Once completed, a success message will appear:\
-   **“Site Setup Complete!”**
-4. Click **View New Home Page** to open your newly created site.
-
-<details>
-<summary>📸 View Apply Template Screenshots</summary>
-
-![](assets/screenshot-2026-04-09-173619.png)
-
-</details>
-
-> 💡 **Note:**
+> **After Setup**
 >
-> * If any step fails during setup, it will be highlighted in the configuration summary.
-> * Do not refresh the page while the setup is in progress.
+> * The full-page wizard will no longer appear on page load.
+> * You can relaunch the Setup Wizard at any time from the **suite bar** at the top of the site to update settings.
+> * Admins can return to the Deploy & Template step at any time to apply a saved template and recreate the site layout.
 
 - - -
 
