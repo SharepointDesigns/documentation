@@ -11,8 +11,9 @@ This guide provides step-by-step configuration details for each web part, includ
 - - -
 
 ## 📚 Table of Contents
+
 1. Set Up Wizard
-2. [Welcome Banner](#-1-welcome-banner)
+2. [Welcome Banner](#-1-welcome-https://documentation.sharepointdesigns.com/docs/design-4/configuration#%EF%B8%8F-1-welcome-banner)
 3. [Announcements](#-2-announcements)
 4. [Quicklinks](#-3-quicklinks)
 5. [News](#-4-news)
