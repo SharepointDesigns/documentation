@@ -302,7 +302,7 @@ The Company & Announcements web part provides flexible configuration grouped int
 | **See All**                 | Toggle | Enabled                         | Show a "See All" link in the header.                         |
 | **Show Search Box**         | Toggle | Disabled                        | Display a search box for news items.                         |
 | **Show Sort By**            | Toggle | Disabled                        | Enable sorting options (e.g., by date or title).             |
-| **See All Link**            | Text   | {siteUrl}/_layouts/15/news.aspx | URL for the "See All" link. Enabled only when See All is on. |
+| **See All Link**            | Text   | {"siteUrl"}/_layouts/15/news.aspx | URL for the "See All" link. Enabled only when See All is on. |
 
 - - -
 
@@ -558,7 +558,7 @@ The **Calendar** web part by SharePoint Designs provides a modern, interactive w
 | **Webpart Title**           | Text   | Calendar                                            | Title for the web part. Visible only when header is enabled. |
 | **Hide space above header** | Toggle | Enabled                                             | Removes extra spacing above the header section when enabled. |
 | **See All**                 | Toggle | On                                                  | Show a "See All" link in the header.                         |
-| **See All Link**            | Text   | {siteUrl}/_layouts/15/Events.aspx?ListGuid={listID} | URL for the "See All" link. Enabled only when See All is on. |
+| **See All Link**            | Text   | {"siteUrl"}/_layouts/15/Events.aspx?ListGuid={listID} | URL for the "See All" link. Enabled only when See All is on. |
 | **Events Heading**          | Text   | Important Dates                                     | Heading for the events section below the main title.         |
 
 - - -
