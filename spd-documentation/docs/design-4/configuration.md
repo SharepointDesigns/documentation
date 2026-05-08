@@ -270,21 +270,21 @@ Deliver the latest updates and announcements through a dynamic, filterable news 
 
 #### ⚙️ General Settings
 
-| 🏷️ Name             | 🎯 Purpose                        | 💡 Select Option/Type             |
-| -------------------- | --------------------------------- | --------------------------------- |
-| Search Sites         | Define source site collections    | Search Box                        |
-| Filter by Tag        | Display filtered news by tag      | Dropdown (“All”)                  |
-| Enable RSS Feed      | Fetch external RSS feeds          | Toggle (On)                       |
-| RSS Links            | Manage RSS links                  | Manage Links button               |
-| RSS API Key          | Enter API Key for secure access   | Textbox                           |
-| Get API Key          | Generate or retrieve API Key      | Button                            |
-| Show Category Filter | Enable filtering by categories    | Toggle (On)                       |
-| Show Search Box      | Add search functionality          | Toggle (Off)                      |
-| Show Sort By         | Enable sorting                    | Toggle (Off)                      |
-| Show See All Button  | Include “See All” navigation      | Toggle (On)                       |
-| View All URL         | Destination for full news list    | `{siteUrl}/_layouts/15/news.aspx` |
-| Target Audience      | Restrict visibility by audience   | Textbox                           |
-| Manage News Posts    | Open the list for content editing | Manage News Posts button          |
+| 🏷️ Name             | 🎯 Purpose                        | 💡 Select Option/Type               |
+| -------------------- | --------------------------------- | ----------------------------------- |
+| Search Sites         | Define source site collections    | Search Box                          |
+| Filter by Tag        | Display filtered news by tag      | Dropdown (“All”)                    |
+| Enable RSS Feed      | Fetch external RSS feeds          | Toggle (On)                         |
+| RSS Links            | Manage RSS links                  | Manage Links button                 |
+| RSS API Key          | Enter API Key for secure access   | Textbox                             |
+| Get API Key          | Generate or retrieve API Key      | Button                              |
+| Show Category Filter | Enable filtering by categories    | Toggle (On)                         |
+| Show Search Box      | Add search functionality          | Toggle (Off)                        |
+| Show Sort By         | Enable sorting                    | Toggle (Off)                        |
+| Show See All Button  | Include “See All” navigation      | Toggle (On)                         |
+| View All URL         | Destination for full news list    | `{"siteUrl"}/_layouts/15/news.aspx` |
+| Target Audience      | Restrict visibility by audience   | Textbox                             |
+| Manage News Posts    | Open the list for content editing | Manage News Posts button            |
 
 #### 🛠️ Admin Settings
 
@@ -536,14 +536,14 @@ The **Calendar** web part pulls events directly from a SharePoint list, helping 
 
 #### 📌 Header Settings
 
-| 🏷️ Name                  | 🎯 Purpose                            | 💡 Select Option                                 |
-| ------------------------- | ------------------------------------- | ------------------------------------------------ |
-| Web Part Title            | Title displayed at the top            | “Event Calendar”                                 |
-| Webpart Title Theme Color | Color theme for title                 | Dropdown (Theme 3 #243666)                       |
-| Preview                   | Displays color preview                | Color Block Display                              |
-| Hide Webpart Title        | Toggle to show/hide the webpart title | Toggle (on/off)                                  |
-| Show See All Link         | Display link to full events view      | Show                                             |
-| View All URL              | Destination for full events page      | `{siteUrl}/_layouts/15/Events.aspx?ListGuid=...` |
+| 🏷️ Name                  | 🎯 Purpose                            | 💡 Select Option                                   |
+| ------------------------- | ------------------------------------- | -------------------------------------------------- |
+| Web Part Title            | Title displayed at the top            | “Event Calendar”                                   |
+| Webpart Title Theme Color | Color theme for title                 | Dropdown (Theme 3 #243666)                         |
+| Preview                   | Displays color preview                | Color Block Display                                |
+| Hide Webpart Title        | Toggle to show/hide the webpart title | Toggle (on/off)                                    |
+| Show See All Link         | Display link to full events view      | Show                                               |
+| View All URL              | Destination for full events page      | `{"siteUrl"}/_layouts/15/Events.aspx?ListGuid=...` |
 
 #### ⚙️ General Settings
 
