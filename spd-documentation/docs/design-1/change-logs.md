@@ -7,6 +7,21 @@ sidebar_position: 5
 
 ---
 
+
+## Release Summary
+
+This release includes major improvements to the Design 1. The solution has also been upgraded to SPFx v1.22.2, bringing improved performance, updated dependencies, and compatibility with the latest SharePoint features.
+
+Several web parts have been enhanced with new capabilities and usability improvements, including:
+- Collection Data support in Quick Links, Breaking News, and FAQ web parts
+- Improved “See All” navigation experience for RSS Feed and FAQ
+- Documentation and usability enhancements in the License Module
+- Add to Outlook functionality in the Calendar Web Part
+- Meaningful FAQ content replacing placeholder data
+- Breaking News documentation updates for improved configuration clarity
+
+Overall, this release focuses on improved setup experience, modernized platform support, enhanced configurability, and better end-user usability across the solution.
+
 ### Design 1 Site Setup
 
 - 🆕 Upgraded with new Wizard Configuration has Welcome Screen, Organizational Details Screen, Branding Screen(which has Regional Settings update, Brand Center Update, site logo) and Review with apply template
