@@ -1,6 +1,20 @@
 ---
 title: Change Log
 ---
+## Version - 1.0.0.4
+
+### Calendar Web Part
+
+* 🆕 Implemented Add to Outlook functionality for events
+
+
+
+### Site Setup
+
+* 🆕 Implemented Skip Button in Organizational Details Screen — allows users to quickly continue with site setup by directly triggering the Apply Template process without filling data in Wizard Step 2 and Step 3, making the setup faster and more user-friendly.
+
+
+
 ## Version - 1.0.0.3
 
 ### Fixes
