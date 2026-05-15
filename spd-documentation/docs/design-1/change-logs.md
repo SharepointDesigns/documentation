@@ -3,6 +3,31 @@ title: Change Log
 sidebar_position: 5
 ---
 
+
+
+## Version - 1.0.0.4
+
+
+
+* ### Redesigned Wizard Experience
+
+  * The wizard has been rebuilt with a cleaner layout, improved header, close button, and footer. It now walks you through a structured flow.
+
+* ### Jump Between Steps
+
+  * Click on any previously completed step to go back and make changes — no need to step through the wizard sequentially.
+
+* ### Progress Saved Automatically
+
+  * The wizard keeps track of where you are across steps, so your setup progress isn't lost if you close and reopen it.
+
+* ### Extension Icon Visibility Validation
+
+  * Added validation to ensure the extension icon is displayed only for Site Collection Administrators, improving access control and preventing visibility for unauthorized users.
+* ### Site Branding Background Color Support
+
+  * Added functionality to customize and apply background colors dynamically within Site Branding settings for better visual customization and branding flexibility.
+
 ## Version - 1.0.0.3
 
 ---
