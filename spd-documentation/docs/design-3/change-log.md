@@ -1,6 +1,20 @@
 ---
 title: Change Log
 ---
+
+
+## Version - 1.0.0.6
+
+### Fixes
+
+### Calendar Web Part
+
+* Fixed Add to Outlook functionality for events.
+
+### Design 3 Site Setup Web Part
+
+* Fixed the list with proper mock data.
+
 ## Version - 1.0.0.5
 
 * ### Redesigned Wizard Experience
@@ -13,10 +27,8 @@ title: Change Log
 
   * The wizard keeps track of where you are across steps, so your setup progress isn't lost if you close and reopen it.
 * ### Extension Icon Visibility Validation
-   * Added validation to ensure the extension icon is displayed only for Site Collection Administrators, improving access control and preventing visibility for unauthorized users.
 
-
-
+  * Added validation to ensure the extension icon is displayed only for Site Collection Administrators, improving access control and preventing visibility for unauthorized users.
 
 ## Version - 1.0.0.4
 
