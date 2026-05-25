@@ -2,7 +2,7 @@
 title: Change Log
 sidebar_position: 5
 ---
-## Version - 1.0.0.6
+## Version - 1.0.0.6 
 ---
 
 * ### Full Width Implementation
