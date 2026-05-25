@@ -2,14 +2,10 @@
 title: Change Log
 sidebar_position: 5
 ---
-## Version - 1.0.0.6 
----
 
-* ### Full Width Implementation
 
-  * The Extension Setup screen has been enhanced with a full-width implementation option, allowing the extension to utilize the complete page width for a more immersive layout. This provides improved content visibility and a seamless user experience across different screen sizes
+## Version - 1.0.0.4
 
-## Version - 1.0.0.5
 ---
 
 * ### Live Preview Panel
@@ -20,9 +16,9 @@ sidebar_position: 5
 
   * The footer section has been included within the Home Page layout, ensuring a complete page structure and a consistent user experience.
 
-## Version - 1.0.0.4
+* ### Full Width Implementation
 
----
+  * The Extension Setup screen has been enhanced with a full-width implementation option, allowing the extension to utilize the complete page width for a more immersive layout. This provides improved content visibility and a seamless user experience across different screen sizes
 
 * ### Redesigned Wizard Experience
 
