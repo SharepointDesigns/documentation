@@ -3,6 +3,15 @@ title: Change Log
 sidebar_position: 5
 ---
 
+## Version - 1.0.0.5
+
+---
+* ### Full Width Loader Alignment Fix
+   * The loader behavior has been updated for the Full Width layout configuration.
+
+* ### Footer Styling and Default Content Enhancement
+
+  * The footer section has been updated with refined color styling and improved default content configuration, ensuring a more consistent visual appearance and providing meaningful initial content during page setup.
 
 ## Version - 1.0.0.4
 
