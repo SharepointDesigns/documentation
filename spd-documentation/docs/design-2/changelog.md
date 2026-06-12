@@ -7,6 +7,15 @@ description: Change Log settings and customization guide for each web part.
 sidebar_position: 5
 ---
 
+## Version 1.0.0.8
+* ### Exit Setup
+   * Fixed the Exit Setup option to properly close the setup wizard after installation.
+* ### Wizard Visibility
+   * Upgraded The setup wizard is now visible only to Site Collection Administrators.
+* ### Header Theme Support
+   * Updated the wizard header to use the current SharePoint theme instead of a hardcoded color.
+* ### Site Theme Creation
+   * Added support to create and apply Site Themes directly through the setup wizard.
 
 ## Version 1.0.0.7
 * ### Implemented New Extension  setup 
