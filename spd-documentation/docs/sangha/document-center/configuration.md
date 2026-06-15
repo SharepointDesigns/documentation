@@ -8,7 +8,7 @@ Each web part is configured through its **settings panel**. To open it, click th
 
 The Document Welcome Banner is the full-width hero at the top of the page. It displays a background image and a department or page title that identifies the document area to visitors.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -25,7 +25,7 @@ The Document Welcome Banner is the full-width hero at the top of the page. It di
 
 ---
 
-### ⚙️ Appearance Settings
+### 🎨 Appearance Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -41,7 +41,7 @@ The Document Welcome Banner is the full-width hero at the top of the page. It di
 
 Document Contents is the main document browsing section. It pulls files from a SharePoint library and presents them in a chosen view, with optional filtering by folder, category, and file type.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -72,7 +72,7 @@ Document Contents is the main document browsing section. It pulls files from a S
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -81,7 +81,7 @@ Document Contents is the main document browsing section. It pulls files from a S
 
 ---
 
-### ⚙️ Appearance Settings
+### 🎨 Appearance Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -96,7 +96,7 @@ Document Contents is the main document browsing section. It pulls files from a S
 
 FAQs displays a list of questions and answers as an expandable accordion. Questions can come from a SharePoint list or be entered and managed directly within the web part settings.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -134,7 +134,7 @@ FAQs displays a list of questions and answers as an expandable accordion. Questi
 
 Contact displays one or more key contacts with their photo, name, role, and a description. Choose between showing two named contacts side by side or building a full multi-person collection.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -166,7 +166,7 @@ Contact displays one or more key contacts with their photo, name, role, and a de
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|

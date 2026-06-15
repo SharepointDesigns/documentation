@@ -8,7 +8,7 @@ Each web part is configured through its **settings panel**. To open it, click th
 
 The Employee Welcome Banner is the branded hero at the top of the directory page. It displays a full-width background image with an overlay title that names the page for visitors.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -25,7 +25,7 @@ The Employee Welcome Banner is the branded hero at the top of the directory page
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|

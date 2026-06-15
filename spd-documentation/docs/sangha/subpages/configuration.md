@@ -8,7 +8,7 @@ Each web part is configured through its **settings panel**. To open it, click th
 
 The Welcome Banner sits at the top of each sub-page and displays a full-width background image, department name, and an optional announcement or message strip. It offers two styles: **Department Banner** (Layout 1) and **Employee Resource Banner** (Layout 2).
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -66,7 +66,7 @@ The Welcome Banner sits at the top of each sub-page and displays a full-width ba
 
 Featured News pulls news posts from one or more SharePoint sites and displays them in a chosen layout. You can filter by category, audience, or add RSS feeds from external sources.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -102,7 +102,7 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -111,7 +111,7 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 
 ---
 
-### ⚙️ Appearance Settings
+### 🎨 Appearance Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -123,7 +123,7 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 
 ---
 
-### ⚙️ Admin Settings
+### ⚙️ 🛠 Admin Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -138,7 +138,7 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 
 Common Tools displays a grid of quick-access link tiles with icons. Editors add and arrange links in a manage panel, choose how each link opens, and customise colours to match the site theme.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -166,7 +166,7 @@ Common Tools displays a grid of quick-access link tiles with icons. Editors add 
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -174,7 +174,7 @@ Common Tools displays a grid of quick-access link tiles with icons. Editors add 
 
 ---
 
-### ⚙️ Appearance Settings
+### 🎨 Appearance Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -191,7 +191,7 @@ Common Tools displays a grid of quick-access link tiles with icons. Editors add 
 
 Document Contents surfaces files from a SharePoint document library in a chosen view. Editors can filter by folder, category, and control which file details are visible.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -215,7 +215,7 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -224,7 +224,7 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 
 ---
 
-### ⚙️ Appearance Settings
+### 🎨 Appearance Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -242,7 +242,7 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 
 ---
 
-### ⚙️ Admin Settings
+### ⚙️ 🛠 Admin Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -257,7 +257,7 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 
 Feedback is a simple call-to-action banner with a background image and a button that directs employees to a feedback destination, such as a Microsoft Form or support mailbox.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -276,7 +276,7 @@ Feedback is a simple call-to-action banner with a background image and a button 
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -290,7 +290,7 @@ Feedback is a simple call-to-action banner with a background image and a button 
 
 Goals displays your department or team's key objectives as visual cards with an icon, title, description, and optional link. Cards can be reordered in the manage panel.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -315,7 +315,7 @@ Goals displays your department or team's key objectives as visual cards with an 
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -323,7 +323,7 @@ Goals displays your department or team's key objectives as visual cards with an 
 
 ---
 
-### ⚙️ Appearance Settings
+### 🎨 Appearance Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -338,7 +338,7 @@ Goals displays your department or team's key objectives as visual cards with an 
 
 Newsletter pulls editions from a SharePoint document library and displays them as a gallery with cover images, titles, and a "Read More" link. A month filter lets employees browse past editions, and an optional carousel lets editors showcase multiple issues at once.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -359,7 +359,7 @@ Newsletter pulls editions from a SharePoint document library and displays them a
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -367,7 +367,7 @@ Newsletter pulls editions from a SharePoint document library and displays them a
 
 ---
 
-### ⚙️ Admin Settings
+### ⚙️ 🛠 Admin Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -382,7 +382,7 @@ Newsletter pulls editions from a SharePoint document library and displays them a
 
 The Team displays a curated list of team members or subject-matter experts (SMEs) with their profile photo, role, and an optional custom name. Cards can be shown as a static grid or in a scrollable carousel.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -411,7 +411,7 @@ The Team displays a curated list of team members or subject-matter experts (SMEs
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|

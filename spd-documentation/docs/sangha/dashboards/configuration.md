@@ -10,7 +10,7 @@ The Intelligence Dashboard is an AI-powered intranet analytics and content hub. 
 
 ---
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name                    | Purpose                                                                                                                         | Control Type |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------ |
@@ -83,7 +83,7 @@ The Personal Dashboard is a personalised daily productivity hub that pulls live 
 
 ---
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 Controls whether the web part title is shown and what it displays.
 
@@ -98,7 +98,7 @@ Controls whether the web part title is shown and what it displays.
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 Controls the visual style of the dashboard and the birthday notification window.
 

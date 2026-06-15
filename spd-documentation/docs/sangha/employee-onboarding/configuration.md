@@ -8,7 +8,7 @@ Each web part is configured through its **settings panel**. To open it, click th
 
 The Employee Welcome banner sits at the top of the onboarding page and creates a warm, branded first impression for new joiners.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -25,7 +25,7 @@ The Employee Welcome banner sits at the top of the onboarding page and creates a
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|

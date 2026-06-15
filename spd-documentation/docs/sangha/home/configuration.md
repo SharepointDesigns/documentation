@@ -46,7 +46,7 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name          | Purpose                                                                                                | Control Type |
 | ------------- | ------------------------------------------------------------------------------------------------------ | ------------ |
@@ -54,7 +54,7 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 
 ---
 
-### ⚙️ Appearance Settings
+### 🎨 Appearance Settings
 
 | Name                                    | Purpose                                                                                                                                | Control Type  |
 | --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
@@ -81,7 +81,7 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 
 The Announcement web part shows a rotating carousel of company messages. Each announcement can include a link, an expiry date for automatic removal, and an optional icon image.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name                      | Purpose                                                                                              | Control Type |
 | ------------------------- | ---------------------------------------------------------------------------------------------------- | ------------ |
@@ -126,7 +126,7 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 
 The Featured News web part aggregates SharePoint news posts from one or more sites and displays them in a variety of layouts. It also supports RSS feeds and audience targeting.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name                | Purpose                                                   | Control Type |
 | ------------------- | --------------------------------------------------------- | ------------ |
@@ -159,7 +159,7 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name                    | Purpose                                                                                         | Control Type  |
 | ----------------------- | ----------------------------------------------------------------------------------------------- | ------------- |
@@ -169,7 +169,7 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 
 ---
 
-### ⚙️ Admin Settings
+### ⚙️ 🛠 Admin Settings
 
 | Name                    | Purpose                                                                             | Control Type  |
 | ----------------------- | ----------------------------------------------------------------------------------- | ------------- |
@@ -182,7 +182,7 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 
 The Common Tools web part is a quick links panel for the apps and tools your team uses every day. Each link supports a title, URL, Fluent UI icon, and open-in option.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name                      | Purpose                                                   | Control Type |
 | ------------------------- | --------------------------------------------------------- | ------------ |
@@ -212,7 +212,7 @@ The Common Tools web part is a quick links panel for the apps and tools your tea
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name          | Purpose                                                                         | Control Type |
 | ------------- | ------------------------------------------------------------------------------- | ------------ |
@@ -220,7 +220,7 @@ The Common Tools web part is a quick links panel for the apps and tools your tea
 
 ---
 
-### ⚙️ Appearance Settings
+### 🎨 Appearance Settings
 
 | Name                          | Purpose                                                                           | Control Type |
 | ----------------------------- | --------------------------------------------------------------------------------- | ------------ |
@@ -235,7 +235,7 @@ The Common Tools web part is a quick links panel for the apps and tools your tea
 
 The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries, and recent new joiners. Data is pulled automatically from Azure Active Directory or managed manually.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name                      | Purpose                                                                | Control Type |
 | ------------------------- | ---------------------------------------------------------------------- | ------------ |
@@ -270,7 +270,7 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name          | Purpose                                                            | Control Type |
 | ------------- | ------------------------------------------------------------------ | ------------ |
@@ -279,7 +279,7 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 
 ---
 
-### ⚙️ Appearance Settings
+### 🎨 Appearance Settings
 
 | Name                   | Purpose                                                                          | Control Type |
 | ---------------------- | -------------------------------------------------------------------------------- | ------------ |
@@ -291,7 +291,7 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 
 The Org Chart web part draws an interactive organisational tree from Microsoft 365. Hover over any person to see their contact details.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name                | Purpose                                                   | Control Type |
 | ------------------- | --------------------------------------------------------- | ------------ |
@@ -315,7 +315,7 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name   | Purpose                                                       | Control Type |
 | ------ | ------------------------------------------------------------- | ------------ |
@@ -323,7 +323,7 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 
 ---
 
-### ⚙️ Appearance Settings
+### 🎨 Appearance Settings
 
 | Name                       | Purpose                                                                   | Control Type |
 | -------------------------- | ------------------------------------------------------------------------- | ------------ |
@@ -335,7 +335,7 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 
 The Upcoming Events web part shows company events and dates from a SharePoint calendar, a shared mailbox, or the logged-in user's Outlook calendar.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name                      | Purpose                                                                           | Control Type |
 | ------------------------- | --------------------------------------------------------------------------------- | ------------ |
@@ -362,7 +362,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name          | Purpose                                                       | Control Type |
 | ------------- | ------------------------------------------------------------- | ------------ |
@@ -370,7 +370,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 
 ---
 
-### ⚙️ Admin Settings
+### ⚙️ 🛠 Admin Settings
 
 | Name                    | Purpose                                                          | Control Type  |
 | ----------------------- | ---------------------------------------------------------------- | ------------- |
@@ -383,7 +383,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 
 The Facilities web part showcases your organisation's offices and locations with photos, descriptions, and map links.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name                      | Purpose                                                   | Control Type |
 | ------------------------- | --------------------------------------------------------- | ------------ |
@@ -412,7 +412,7 @@ The Facilities web part showcases your organisation's offices and locations with
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name          | Purpose                                                | Control Type |
 | ------------- | ------------------------------------------------------ | ------------ |
@@ -420,7 +420,7 @@ The Facilities web part showcases your organisation's offices and locations with
 
 ---
 
-### ⚙️ Appearance Settings
+### 🎨 Appearance Settings
 
 | Name                      | Purpose                                                                                                         | Control Type |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------ |
@@ -436,7 +436,7 @@ The Facilities web part showcases your organisation's offices and locations with
 
 The Message from CEO web part displays a leadership message with a profile photo, designation, and message body. The full message opens in a modal overlay when users click to read more.
 
-### ⚙️ Header Settings
+### 📌 Header Settings
 
 | Name                     | Purpose                                                           | Control Type  |
 | ------------------------ | ----------------------------------------------------------------- | ------------- |
@@ -469,7 +469,7 @@ The Message from CEO web part displays a leadership message with a profile photo
 
 ---
 
-### ⚙️ Layout Settings
+###  📐 Layout Settings
 
 | Name          | Purpose                                                                            | Control Type |
 | ------------- | ---------------------------------------------------------------------------------- | ------------ |
@@ -477,7 +477,7 @@ The Message from CEO web part displays a leadership message with a profile photo
 
 ---
 
-### ⚙️ Appearance Settings
+### 🎨 Appearance Settings
 
 | Name                              | Purpose                                                                                                                | Control Type |
 | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------ |
