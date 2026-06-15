@@ -1,6 +1,7 @@
 ---
 title: Changelog
 ---
+
 # Dashboard Suite — Changelog
 
 ---
@@ -9,7 +10,7 @@ title: Changelog
 
 ### Initial Release
 
-This is the first public release of DIY Sangha Home.
+This is the first public release of DIY Intranet Home.
 
 ---
 

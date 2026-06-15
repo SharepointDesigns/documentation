@@ -2,9 +2,10 @@
 title: Changelog
 sidebar_position: 4
 ---
-# DIY Sangha Home — Changelog
 
-All notable changes to DIY Sangha Home by SharePoint Designs are recorded here.
+# DIY Intranet Home — Changelog
+
+All notable changes to DIY Intranet Home by SharePoint Designs are recorded here.
 
 ---
 
@@ -12,8 +13,8 @@ All notable changes to DIY Sangha Home by SharePoint Designs are recorded here.
 
 ### Initial Release
 
-This is the first public release of DIY Sangha Home.
+This is the first public release of DIY Intranet Home.
 
 ---
 
-*For questions or support, contact SharePoint Designs at [sharepointdesigns.com](https://www.sharepointdesigns.com).*
+_For questions or support, contact SharePoint Designs at [sharepointdesigns.com](https://www.sharepointdesigns.com)._

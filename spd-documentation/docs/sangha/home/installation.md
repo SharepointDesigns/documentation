@@ -2,9 +2,10 @@
 title: Installation
 sidebar_position: 1
 ---
-# DIY Sangha Home — Installation Guide
 
-This guide walks you through installing DIY Sangha Home on your SharePoint Online tenant. It is intended for SharePoint administrators or IT staff.
+# DIY Intranet Home — Installation Guide
+
+This guide walks you through installing DIY Intranet Home on your SharePoint Online tenant. It is intended for SharePoint administrators or IT staff.
 
 ---
 
@@ -49,7 +50,7 @@ This file is provided by SharePoint Designs. Contact your SharePoint Designs rep
 
 ## Step 3 — Approve Microsoft Graph Permissions
 
-DIY Sangha Home requires permission to read calendar events, user profiles, and tasks from Microsoft 365. These must be approved by an administrator.
+DIY Intranet Home requires permission to read calendar events, user profiles, and tasks from Microsoft 365. These must be approved by an administrator.
 
 1. In the **SharePoint Admin Centre**, go to **Advanced** → **API access**.
 2. You will see a list of pending permission requests. Look for the following and approve each one:
@@ -72,7 +73,7 @@ DIY Sangha Home requires permission to read calendar events, user profiles, and 
 
 ## Step 4 — (Recommended) Use the SetUp Wizard
 
-DIY Sangha Home includes a guided SetUp Wizard that can automatically configure your site in minutes. The wizard:
+DIY Intranet Home includes a guided SetUp Wizard that can automatically configure your site in minutes. The wizard:
 
 - Creates any required SharePoint lists.
 - Applies your chosen colour theme and logo.
