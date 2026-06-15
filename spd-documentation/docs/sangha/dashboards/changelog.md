@@ -1,3 +1,6 @@
+---
+title: Changelog
+---
 # Dashboard Suite — Changelog
 
 ---
