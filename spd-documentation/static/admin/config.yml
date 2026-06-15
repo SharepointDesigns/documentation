@@ -7,7 +7,7 @@ backend:
   auth_endpoint: /api/auth
   token_endpoint: /api/callback
   # Uncomment when running locally
-  local_backend: true
+  # local_backend: true
 
 publish_mode: editorial_workflow
 media_folder: "/spd-documentation/static/img/uploads"
@@ -19,7 +19,7 @@ editor:
 # Site URL for previews
 site_url: https://documentation.sharepointdesigns.com
 logo:
-  src: https://documentation.sharepointdesigns.com/img/spdlogo.svg
+  src: http://documentation.sharepointdesigns.com/img/spdlogo.svg
   alt: Sharepoint Designs
   show_in_header: true
 
@@ -757,6 +757,31 @@ collections:
     extension: "md"
     slug: "{{slug}}"
     media_folder: "/spd-documentation/docs/healthcare-3/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  - name: "sangha"
+    label: "Sangha"
+    label_singular: "Sangha Doc"
+    folder: "spd-documentation/docs/sangha"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/sangha/assets"
     public_folder: "assets"
     sortable_fields: ["sidebar_position", "title"]
     sort:
