@@ -19,7 +19,7 @@ editor:
 # Site URL for previews
 site_url: https://documentation.sharepointdesigns.com
 logo:
-  src: http://documentation.sharepointdesigns.com/img/spdlogo.svg
+  src: https://documentation.sharepointdesigns.com/img/spdlogo.svg
   alt: Sharepoint Designs
   show_in_header: true
 
