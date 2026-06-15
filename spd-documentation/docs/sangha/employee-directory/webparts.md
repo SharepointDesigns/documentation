@@ -1,4 +1,4 @@
-# DIY Sangha Employee Directory — Web Parts
+# Web Parts
 
 | Sl No. | Web Part Name | Type | Description |
 |---|---|---|---|

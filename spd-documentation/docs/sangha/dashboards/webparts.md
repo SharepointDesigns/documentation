@@ -1,4 +1,4 @@
-# Dashboard Suite — Web Parts & Extensions
+# Web parts
 
 This page lists all web parts and extensions included across both packages in the Dashboard Suite.
 

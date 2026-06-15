@@ -1,4 +1,4 @@
-# Intranet Sangha — Installation & Setup Guide
+# Installation
 
 ---
 

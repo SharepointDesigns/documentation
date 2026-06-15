@@ -1,4 +1,4 @@
-# DIY Sangha Employee Directory — Configuration
+# Configuration
 
 Each web part is configured through its **settings panel**. To open it, click the web part while editing the page and click the **pencil (edit) icon**.
 

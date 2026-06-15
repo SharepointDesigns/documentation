@@ -1,4 +1,4 @@
-# DIY Sangha Employee Onboarding — Overview
+# Overview
 
 ## What Is DIY Sangha Employee Onboarding?
 
@@ -8,20 +8,20 @@ DIY Sangha Employee Onboarding is a ready-built SharePoint solution that gives y
 
 ## Who Is This For?
 
-| Audience | How They Use It |
-|---|---|
+| Audience                  | How They Use It                                                                                                     |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | HR / People Team (Admins) | Create and manage onboarding task templates, set up employee records in the list, and review progress in Admin view |
-| New Employees (Users) | Log in and see their personal onboarding checklist with tasks to complete |
-| Site Owners | Deploy the page, configure the web part to point to the right lists, and manage access |
+| New Employees (Users)     | Log in and see their personal onboarding checklist with tasks to complete                                           |
+| Site Owners               | Deploy the page, configure the web part to point to the right lists, and manage access                              |
 
 ---
 
 ## What's Included?
 
-| # | Web Part | Description |
-|---|---|---|
-| 1 | Employee Welcome | Full-width hero banner with a background image and a welcome heading for the onboarding page |
-| 2 | Employee Onboarding | Task-based onboarding tracker that connects to SharePoint lists for templates and employee records, with separate Admin and User views |
+| #   | Web Part            | Description                                                                                                                            |
+| --- | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Employee Welcome    | Full-width hero banner with a background image and a welcome heading for the onboarding page                                           |
+| 2   | Employee Onboarding | Task-based onboarding tracker that connects to SharePoint lists for templates and employee records, with separate Admin and User views |
 
 ---
 
@@ -37,8 +37,8 @@ DIY Sangha Employee Onboarding is a ready-built SharePoint solution that gives y
 
 ## Microsoft Graph Permission Required
 
-| Permission | Purpose |
-|---|---|
+| Permission    | Purpose                                                                              |
+| ------------- | ------------------------------------------------------------------------------------ |
 | User.Read.All | Reads Microsoft 365 user profiles to match new employees to their onboarding records |
 
 This permission must be approved by a Global Admin or SharePoint Admin in the SharePoint Admin Centre after the package is deployed.
@@ -64,7 +64,7 @@ This permission must be approved by a Global Admin or SharePoint Admin in the Sh
 
 ## Screenshots
 
-📸 View Overview Screenshots *(add screenshots here)*
+📸 View Overview Screenshots _(add screenshots here)_
 
 ---
 

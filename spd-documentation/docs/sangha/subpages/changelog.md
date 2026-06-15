@@ -1,4 +1,4 @@
-# DIY Sangha Sub Pages — Changelog
+# Changelog
 
 ## v0.0.0.1 — 2026-06-15
 

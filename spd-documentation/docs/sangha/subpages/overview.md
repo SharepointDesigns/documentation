@@ -1,4 +1,4 @@
-# DIY Sangha Sub Pages (Departments & Employee Resources) — Overview
+# Overview
 
 ## What Is DIY Sangha Sub Pages?
 

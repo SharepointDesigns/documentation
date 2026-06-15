@@ -1,4 +1,4 @@
-# DIY Sangha Employee Directory — Overview
+# Overview
 
 ## What Is DIY Sangha Employee Directory?
 
@@ -8,20 +8,20 @@ DIY Sangha Employee Directory is a ready-built SharePoint page solution that giv
 
 ## Who Is This For?
 
-| Audience | How They Use It |
-|---|---|
-| Site Owners / Admins | Deploy the page, configure the banner, exclude specific accounts, and manage pagination |
-| HR / People Team | Verify directory accuracy by checking profiles are complete in Microsoft 365 |
-| End Users | Search for colleagues by name or department, view contact details, and find the right person to contact |
+| Audience             | How They Use It                                                                                         |
+| -------------------- | ------------------------------------------------------------------------------------------------------- |
+| Site Owners / Admins | Deploy the page, configure the banner, exclude specific accounts, and manage pagination                 |
+| HR / People Team     | Verify directory accuracy by checking profiles are complete in Microsoft 365                            |
+| End Users            | Search for colleagues by name or department, view contact details, and find the right person to contact |
 
 ---
 
 ## What's Included?
 
-| # | Web Part | Description |
-|---|---|---|
-| 1 | Employee Welcome Banner | Full-width hero banner with a background image and page title |
-| 2 | Employee Directory | Searchable staff directory that reads all user profiles from Microsoft 365 |
+| #   | Web Part                | Description                                                                |
+| --- | ----------------------- | -------------------------------------------------------------------------- |
+| 1   | Employee Welcome Banner | Full-width hero banner with a background image and page title              |
+| 2   | Employee Directory      | Searchable staff directory that reads all user profiles from Microsoft 365 |
 
 ---
 
@@ -38,8 +38,8 @@ DIY Sangha Employee Directory is a ready-built SharePoint page solution that giv
 
 ## Microsoft Graph Permission Required
 
-| Permission | Purpose |
-|---|---|
+| Permission    | Purpose                                                              |
+| ------------- | -------------------------------------------------------------------- |
 | User.Read.All | Reads all user profiles from Microsoft 365 to populate the directory |
 
 This permission must be approved by a Global Admin or SharePoint Admin in the SharePoint Admin Centre after the package is deployed.
@@ -56,7 +56,7 @@ This permission must be approved by a Global Admin or SharePoint Admin in the Sh
 
 ## Screenshots
 
-📸 View Overview Screenshots *(add screenshots here)*
+📸 View Overview Screenshots _(add screenshots here)_
 
 ---
 

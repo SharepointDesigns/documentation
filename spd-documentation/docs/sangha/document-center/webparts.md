@@ -1,4 +1,4 @@
-# DIY Sangha Document Center — Web Parts
+# Web Parts
 
 | Sl No. | Web Part Name | Type | Description |
 |---|---|---|---|

@@ -1,4 +1,4 @@
-# Intranet Sangha — Product Overview
+# Overview
 
 ---
 

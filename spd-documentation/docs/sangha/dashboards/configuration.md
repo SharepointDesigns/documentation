@@ -1,4 +1,4 @@
-# Dashboard Suite — Configuration Reference
+# onfiguration
 
 This page describes every setting available in the settings panel for both the **Intelligence Dashboard** and **Personal Dashboard** web parts. Open the settings panel for either web part by selecting it on a page and clicking the pencil (edit) icon on the left.
 
