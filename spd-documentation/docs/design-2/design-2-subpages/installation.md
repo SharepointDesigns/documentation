@@ -217,5 +217,5 @@ Follow the steps below to uninstall the **Intranet Design 2 Sub Pages by SharePo
 ## 🆘 Support
 
 Please contact **SharePoint Designs**
-🌐 [www.sharepointdesigns.com](http://www.sharepointdesigns.com)
+🌐 [www.sharepointdesigns.com](https://www.sharepointdesigns.com)
 📧 support@sharepointdesigns.com

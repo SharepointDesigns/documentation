@@ -33,13 +33,11 @@ description: Installation settings and customization guide for each web part.
    ![](assets/diy5_adminPanel.png)
 
 3. In the panel:
-
    - Select the **"Home Page"** template
    - Click the **Create Page** button  
      ![](assets/diy5_createPage.png)
 
 4. Do not close or refresh the browser. A pop-up will appear to create the required lists and libraries:
-
    - `Quick Links` list
    - `AnnouncementList` list
    - `Welcome Banner` library
@@ -175,5 +173,5 @@ To uninstall **DIY Design 5 by SharePoint Designs**:
 ## 🆘 Support
 
 Need help? Contact **SharePoint Designs**:  
-🌐 [www.sharepointdesigns.com](http://www.sharepointdesigns.com)  
+🌐 [www.sharepointdesigns.com](https://www.sharepointdesigns.com)  
 📧 support@sharepointdesigns.com

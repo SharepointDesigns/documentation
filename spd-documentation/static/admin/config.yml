@@ -7,7 +7,7 @@ backend:
   auth_endpoint: /api/auth
   token_endpoint: /api/callback
   # Uncomment when running locally
-local_backend: true
+  local_backend: true
 
 publish_mode: editorial_workflow
 media_folder: "/spd-documentation/static/img/uploads"
@@ -17,9 +17,9 @@ editor:
   preview: true
 
 # Site URL for previews
-site_url: http://documentation.sharepointdesigns.com//documentation
+site_url: https://documentation.sharepointdesigns.com
 logo:
-  src: http://documentation.sharepointdesigns.com//img/spdlogo.svg
+  src: https://documentation.sharepointdesigns.com/img/spdlogo.svg
   alt: Sharepoint Designs
   show_in_header: true
 

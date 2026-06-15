@@ -62,7 +62,7 @@ This web part offers support contact information, including a phone number and e
 - The webpart features a prominent message encouraging users to seek assistance.
 - Contact details are clearly displayed with phone and email icons for quick access.
 
-![Assist](assets\assist.png)
+![Assist](assets/assist.png)
 
 ---
 
@@ -99,7 +99,7 @@ Customize your Assist web part effortlessly to suit your requirements:
 - Displays team-specific contact cards grouped under headings like "Contact HR Team" and "Contact Legal Team" for easy reference.
 - Each card includes a placeholder image, name, job title, and a short description field (up to 255 characters), offering a simple and clean layout.
 
-![Contact Cards](assets\ContactCards.png)
+![Contact Cards](assets/ContactCards.png)
 
 ---
 

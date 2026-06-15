@@ -50,7 +50,6 @@ description: Installation settings and customization guide for each web part.
    ![](assets/adminSidebar.png)
 
 3. In the panel:
-
    - Select the **"Home Page"** template
    - Click the **Create Page** button
 
@@ -199,5 +198,5 @@ Follow the steps below to uninstall the **Employee Onboarding by SharePoint Desi
 ## 🆘 Support
 
 Please contact **SharePoint Designs**
-🌐 [www.sharepointdesigns.com](http://www.sharepointdesigns.com)
+🌐 [www.sharepointdesigns.com](https://www.sharepointdesigns.com)
 📧 support@sharepointdesigns.com

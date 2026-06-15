@@ -148,5 +148,5 @@ A new homepage will be created as per this design:\
 ## 🆘 Support
 
 For help or inquiries, contact **SharePoint Designs**:\
-🌐 [www.sharepointdesigns.com](http://www.sharepointdesigns.com)\
+🌐 [www.sharepointdesigns.com](https://www.sharepointdesigns.com)\
 📧 support@sharepointdesigns.com

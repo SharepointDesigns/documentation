@@ -265,5 +265,5 @@ Follow the steps below to uninstall the **Healthcare Intranet Design 3 by ShareP
 ## 🆘 Support
 
 Please contact **SharePoint Designs**
-🌐 [www.sharepointdesigns.com](http://www.sharepointdesigns.com)
+🌐 [www.sharepointdesigns.com](https://www.sharepointdesigns.com)
 📧 support@sharepointdesigns.com

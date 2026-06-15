@@ -31,7 +31,6 @@ sidebar_position: 3
 5. Do not close the browser. A pop-up will appear to create required lists and libraries with mock data (_Applicable only for lists_).
 6. After creation, the page will refresh automatically and proceed with adding the necessary web parts and layout.
 7. Once setup is complete - "Set as Homepage" checkbox will appear
-
    - If checked, clicking "Open New Page" will open the newly created page and set it as the homepage.
    - If unchecked, the new page opens normally without changing the homepage.
 
@@ -168,5 +167,5 @@ Follow the steps below to uninstall the **Intranet Design 4 by SharePoint Design
 ## 🆘 Support
 
 Please contact **SharePoint Designs**
-🌐 [www.sharepointdesigns.com](http://www.sharepointdesigns.com)
+🌐 [www.sharepointdesigns.com](https://www.sharepointdesigns.com)
 📧 support@sharepointdesigns.com

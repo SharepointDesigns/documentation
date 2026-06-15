@@ -41,7 +41,6 @@ description: Installation settings and customization guide for each web part.
    ![Select Home Page](./assets/ExtS2.png)
 
 4. **Do not close** or **refresh** the browser. A pop-up will appear to create required lists:
-
    - `Announcement List` list
    - `Quick Links` list
    - `Events` list
@@ -167,5 +166,5 @@ A new homepage will be created as per this design:
 ## 🆘 Support
 
 For help or inquiries, contact **SharePoint Designs**:
-🌐 [www.sharepointdesigns.com](http://www.sharepointdesigns.com)
+🌐 [www.sharepointdesigns.com](https://www.sharepointdesigns.com)
 📧 support@sharepointdesigns.com

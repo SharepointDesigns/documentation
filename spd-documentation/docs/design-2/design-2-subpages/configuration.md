@@ -168,7 +168,7 @@ Note: For the **FAQ** section, if a list named **FAQs** already exists, you may 
 - **Central Updates**: Keep everyone informed with company news.
 - **Professional Display**: Present announcements/department news clearly and formally.
 - **Structured Layout**: Organized sections for each department.
-  ![Featured News](assets\news.png)
+  ![Featured News](assets/news.png)
 
 ### 🏷️ Featured News Web Part – Property Pane Configuration
 
@@ -224,7 +224,7 @@ Note: For the **FAQ** section, if a list named **FAQs** already exists, you may 
 - **Streamlined Communication**: Feedback is routed through the specified email or link.
 - **Customizable Design**: Adjust image, button, and layout to match site branding.
 
-  ![Featured News](assets\Feedback.png)
+  ![Featured News](assets/Feedback.png)
 
 ### 🏷️ Feedback / Share Your Ideas Web Part – Property Pane Configuration
 
@@ -258,7 +258,7 @@ Note: For the **FAQ** section, if a list named **FAQs** already exists, you may 
 - **Custom Layouts**: Choose from multiple visual arrangements to best fit your site design.
 - **List-Based Management**: Pulls goal data dynamically from a SharePoint list.
 
-  ![Featured News](assets\goals.png)
+  ![Featured News](assets/goals.png)
 
 ### List Config
 
@@ -347,7 +347,7 @@ Note: For the Newsletter section, if a library named **Newsletter** exists, simp
 - **Custom Limits**: Control the number of visible items with a configurable slider.
 - **Flexible Layout**: Hide or show borders and titles to match page styling.
 
-  ![Featured News](assets\links.png)
+  ![Featured News](assets/links.png)
 
 ### List Config
 
@@ -396,7 +396,7 @@ Note: For the **Quick Links** section, create a list with the following columns.
 - **Enhanced Visibility**: Showcase SMEs to increase awareness and foster collaboration.
 - **Customizable Display**: Control layout, number of items, and image size.
 - **Interactive Design**: Optional carousel for dynamic presentation.
-  ![Featured News](assets\sme.png)
+  ![Featured News](assets/sme.png)
 
 ### List Config
 
