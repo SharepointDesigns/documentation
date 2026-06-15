@@ -120,7 +120,7 @@ Once the solution is deployed, you can add any of the nine web parts to a modern
 
 ### The SetUp Wizard button is not visible
 
-- Confirm you are signed in as a site owner or administrator.
+- Confirm you are signed in as an administrator.
 - Check the SharePoint Admin Centre to confirm the application customizer extension is deployed.
 
 ### Images uploaded via file picker are not saving
