@@ -17,7 +17,7 @@ The Employee Welcome Banner is the branded hero at the top of the directory page
 
 ---
 
-### ⚙️ Component Settings
+### ⚙️ General Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|

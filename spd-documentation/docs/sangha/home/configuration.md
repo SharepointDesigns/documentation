@@ -68,7 +68,7 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 
 ---
 
-### ⚙️ Draggable Configuration
+### 🤚🏻 Draggable Configuration
 
 | Name                        | Purpose                                                                       | Control Type |
 | --------------------------- | ----------------------------------------------------------------------------- | ------------ |
@@ -91,7 +91,7 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 
 ---
 
-### ⚙️ Component Settings
+### ⚙️ General Settings
 
 | Name                     | Purpose                                                                                          | Control Type    |
 | ------------------------ | ------------------------------------------------------------------------------------------------ | --------------- |
@@ -108,7 +108,7 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 | ExpiryDate   | The date after which this announcement is hidden automatically.   | Date picker  |
 | Description  | The announcement text. Required. Supports multiple lines.         | Text area    |
 
-📸 View Component Settings Screenshots
+📸 View General Settings Screenshots
 
 ---
 
@@ -136,7 +136,7 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 
 ---
 
-### ⚙️ Component Settings
+### ⚙️ General Settings
 
 | Name                 | Purpose                                                                                                                                      | Control Type    |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
@@ -155,7 +155,7 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 | Target Audience      | Restrict who sees this web part to specific people or security groups. Leave blank to show to everyone.                                      | People picker   |
 | Manage News Posts    | Quick link to the news management page for the current site.                                                                                 | Link            |
 
-📸 View Component Settings Screenshots
+📸 View General Settings Screenshots
 
 ---
 
@@ -169,7 +169,7 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 
 ---
 
-### ⚙️ 🛠 Admin Settings
+### 🛠 Admin Settings
 
 | Name                    | Purpose                                                                             | Control Type  |
 | ----------------------- | ----------------------------------------------------------------------------------- | ------------- |
@@ -192,7 +192,7 @@ The Common Tools web part is a quick links panel for the apps and tools your tea
 
 ---
 
-### ⚙️ Component Settings
+### ⚙️ General Settings
 
 | Name              | Purpose                                                                                 | Control Type    |
 | ----------------- | --------------------------------------------------------------------------------------- | --------------- |
@@ -208,7 +208,7 @@ The Common Tools web part is a quick links panel for the apps and tools your tea
 | Icon    | A Fluent UI icon shown on the tile. Choose from a visual icon picker. | Icon picker  |
 | Open In | Whether the link opens in a new tab or the same tab.                  | Dropdown     |
 
-📸 View Component Settings Screenshots
+📸 View General Settings Screenshots
 
 ---
 
@@ -245,7 +245,7 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 
 ---
 
-### ⚙️ Component Settings
+### ⚙️ General Settings
 
 | Name                                               | Purpose                                                                                                   | Control Type    |
 | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------- |
@@ -266,7 +266,7 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 | Category                 | The milestone type: Birthday, Anniversary, or New Joinee. Required. | Dropdown           |
 | Celebration Date (MM-DD) | The month and day of the person's birthday or anniversary.          | Custom date picker |
 
-📸 View Component Settings Screenshots
+📸 View General Settings Screenshots
 
 ---
 
@@ -300,7 +300,7 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 
 ---
 
-### ⚙️ Component Settings
+### ⚙️ General Settings
 
 | Name                      | Purpose                                                                                                                                                               | Control Type           |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -311,7 +311,7 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | Manager Email             | Email address of the manager whose team to display. Required when View Options is set to Show Other Team.                                                             | Text field             |
 | Reorder Org Chart Users   | Use the up/down buttons to change the display order of a manager's direct reports. Appears after a Manager Email is entered.                                          | Custom reorder control |
 
-📸 View Component Settings Screenshots
+📸 View General Settings Screenshots
 
 ---
 
@@ -346,7 +346,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 
 ---
 
-### ⚙️ Component Settings
+### ⚙️ General Settings
 
 | Name                     | Purpose                                                                                                                             | Control Type |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- | ------------ |
@@ -358,7 +358,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 | Show Calendar            | Toggle between a full monthly calendar view (Yes) or an events list only (No).                                                      | Toggle       |
 | Filter Events            | Date range to display: Upcoming only, Previous 3 months + upcoming, Previous 6 months + upcoming, or Previous 12 months + upcoming. | Dropdown     |
 
-📸 View Component Settings Screenshots
+📸 View General Settings Screenshots
 
 ---
 
@@ -370,7 +370,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 
 ---
 
-### ⚙️ 🛠 Admin Settings
+### 🛠 Admin Settings
 
 | Name                    | Purpose                                                          | Control Type  |
 | ----------------------- | ---------------------------------------------------------------- | ------------- |
@@ -393,7 +393,7 @@ The Facilities web part showcases your organisation's offices and locations with
 
 ---
 
-### ⚙️ Component Settings
+### ⚙️ General Settings
 
 | Name              | Purpose                                                           | Control Type    |
 | ----------------- | ----------------------------------------------------------------- | --------------- |
@@ -408,7 +408,7 @@ The Facilities web part showcases your organisation's offices and locations with
 | Content     | A short description of the facility. Optional.                              | Text area    |
 | Thumbnail   | Upload or select a photo for the facility. Stored in Site Assets. Optional. | File picker  |
 
-📸 View Component Settings Screenshots
+📸 View General Settings Screenshots
 
 ---
 
@@ -445,7 +445,7 @@ The Message from CEO web part displays a leadership message with a profile photo
 
 ---
 
-### ⚙️ Component Settings
+### ⚙️ General Settings
 
 | Name                            | Purpose                                                                                  | Control Type    |
 | ------------------------------- | ---------------------------------------------------------------------------------------- | --------------- |
@@ -465,7 +465,7 @@ The Message from CEO web part displays a leadership message with a profile photo
 | Title         | Short topic title shown on the message card preview.                                                               | Text field    |
 | Content       | The full message text. Required. Supports multiple lines.                                                          | Text area     |
 
-📸 View Component Settings Screenshots
+📸 View General Settings Screenshots
 
 ---
 

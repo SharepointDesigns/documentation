@@ -17,7 +17,7 @@ The Document Welcome Banner is the full-width hero at the top of the page. It di
 
 ---
 
-### ⚙️ Component Settings
+### ⚙️ General Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|

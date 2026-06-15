@@ -17,7 +17,7 @@ The Employee Welcome banner sits at the top of the onboarding page and creates a
 
 ---
 
-### ⚙️ Component Settings
+### ⚙️ General Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|

@@ -16,7 +16,7 @@ The Welcome Banner sits at the top of each sub-page and displays a full-width ba
 
 ---
 
-### ⚙️ Component Settings (Department Banner — Layout 1)
+### ⚙️ General Settings (Department Banner — Layout 1)
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -39,7 +39,7 @@ The Welcome Banner sits at the top of each sub-page and displays a full-width ba
 
 ---
 
-### ⚙️ Component Settings (Employee Resource Banner — Layout 2)
+### ⚙️ General Settings (Employee Resource Banner — Layout 2)
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -51,7 +51,7 @@ The Welcome Banner sits at the top of each sub-page and displays a full-width ba
 
 ---
 
-### ⚙️ Draggable Configuration Settings
+### 🤚🏻 Draggable Configuration Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -123,7 +123,7 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 
 ---
 
-### ⚙️ 🛠 Admin Settings
+### 🛠 Admin Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -242,7 +242,7 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 
 ---
 
-### ⚙️ 🛠 Admin Settings
+### 🛠 Admin Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -265,7 +265,7 @@ Feedback is a simple call-to-action banner with a background image and a button 
 
 ---
 
-### ⚙️ Component Settings
+### ⚙️ General Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
@@ -367,7 +367,7 @@ Newsletter pulls editions from a SharePoint document library and displays them a
 
 ---
 
-### ⚙️ 🛠 Admin Settings
+### 🛠 Admin Settings
 
 | Name | Purpose | Control Type |
 |---|---|---|
