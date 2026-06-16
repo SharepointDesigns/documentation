@@ -373,6 +373,8 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 
 📸 View Header Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-16.12.33.png)
+
 - - -
 
 ### ⚙️ General Settings
@@ -388,6 +390,8 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 
 📸 View General Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-16.12.41.png)
+
 - - -
 
 ### 📐 Layout Settings
@@ -396,7 +400,7 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | ------ | ------------------------------------------------------------- | ------------ |
 | Layout | Switch between Standard (Layout 1) and Accent Bar (Layout 2). | Dropdown     |
 
-📸 View Layout Settings Screenshots
+
 
 - - -
 
@@ -407,6 +411,8 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | Height of the Webpart (px) | How tall the org chart display area is. Range: 100–1200 px. Default: 535. | Slider       |
 
 📸 View Appearance Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-16.13.07.png)
 
 - - -
 
