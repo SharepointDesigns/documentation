@@ -19,9 +19,12 @@ The Employee Welcome Banner is the branded hero at the top of the directory page
 | Enter Department Name        | The main heading shown over the banner image (e.g., "Employee Directory") | Text field            |
 | Text Color (Title in Banner) | Picks a colour for the title text from the site theme palette             | Theme colour dropdown |
 
-📸 View Header Settings Screenshots
+<details>
+<summary>📸 View Header Settings Screenshots</summary>
 
 ![Header Settings](assets/screenshot-2026-06-16-164312.png "Header Settings")
+
+</details>
 
 - - -
 
@@ -31,9 +34,12 @@ The Employee Welcome Banner is the branded hero at the top of the directory page
 | ----------------- | -------------------------------------------- | ------------ |
 | Change Background | Select or upload the banner background image | Image picker |
 
-📸 View General Settings Screenshots
+<details>
+<summary>📸 View General Settings Screenshots</summary>
 
 ![General Settings](assets/screenshot-2026-06-16-154101.png "General Settings")
+
+</details>
 
 - - -
 
@@ -45,9 +51,12 @@ The Employee Welcome Banner is the branded hero at the top of the directory page
 | Title Position           | Moves the title text up or down on the banner                                       | Slider (1–87%)      |
 | Banner Height            | Controls the overall height of the banner                                           | Slider (250–550 px) |
 
-📸 View Appearance Settings Screenshots 
+<details>
+<summary>📸 View Appearance Settings Screenshots</summary>
 
 ![Appearance Settings](assets/screenshot-2026-06-16-154149.png "Appearance Settings")
+
+</details>
 
 - - -
 
@@ -66,6 +75,9 @@ Employee Directory automatically reads all active user profiles from Microsoft 3
 
 > **Note:** The directory content is populated automatically from Microsoft 365. There are no manual content settings — only pagination and exclusion controls.
 
-📸 View General Settings Screenshots
+<details>
+<summary>📸 View General Settings Screenshots</summary>
 
 ![General Settings](assets/screenshot-2026-06-16-170050.png "General Settings")
+
+</details>

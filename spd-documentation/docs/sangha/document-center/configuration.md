@@ -19,9 +19,12 @@ The Document Welcome Banner is the full-width hero at the top of the page. It di
 | Enter Department Name        | The main heading shown over the banner image                  | Text field            |
 | Text Color (Title in Banner) | Picks a colour for the title text from the site theme palette | Theme colour dropdown |
 
-📸 View Header Settings Screenshots
+<details>
+<summary>📸 View Header Settings Screenshots</summary>
 
 ![Header Settings](assets/screenshot-2026-06-16-153829.png "Header Settings")
+
+</details>
 
 - - -
 
@@ -31,9 +34,12 @@ The Document Welcome Banner is the full-width hero at the top of the page. It di
 | ----------------- | -------------------------------------------- | ------------ |
 | Change Background | Select or upload the banner background image | Image picker |
 
-📸 View General Settings Screenshots
+<details>
+<summary>📸 View General Settings Screenshots</summary>
 
 ![General Settings](assets/screenshot-2026-06-16-154101.png "General Settings")
+
+</details>
 
 - - -
 
@@ -45,9 +51,12 @@ The Document Welcome Banner is the full-width hero at the top of the page. It di
 | Title Position           | Moves the title text up or down on the banner                                       | Slider (1–87%)      |
 | Banner Height            | Controls the overall height of the banner                                           | Slider (250–550 px) |
 
-📸 View Appearance Settings Screenshots
+<details>
+<summary>📸 View Appearance Settings Screenshots</summary>
 
 ![Appearance Settings](assets/screenshot-2026-06-16-154149.png "Appearance Settings")
+
+</details>
 
 - - -
 
@@ -68,9 +77,12 @@ Document Contents is the main document browsing section. It pulls files from a S
 | Title Theme Color | Picks a colour for the title from the site theme palette (visible only when a title is entered)       | Theme colour dropdown |
 | Show See All      | Shows a "See All" link that opens the full library (visible only when Source is "A document library") | Toggle                |
 
-📸 View Header Settings Screenshot
+<details>
+<summary>📸 View Header Settings Screenshot</summary>
 
 ![Header Settings](assets/screenshot-2026-06-16-154908.png "Header Settings")
+
+</details>
 
 - - -
 
@@ -90,13 +102,16 @@ Document Contents is the main document browsing section. It pulls files from a S
 | Include File Types         | Limit results to Videos or Images (visible only when Source is "This site")                              | Multi-select   |
 | Number of Items to Display | Maximum number of files to show (1–4999)                                                                 | Number field   |
 
-📸 View General Settings Screenshot
+<details>
+<summary>📸 View General Settings Screenshot</summary>
 
 ![This Site General Settings](assets/screenshot-2026-06-16-155003.png "This Site General Settings")
 
 ![Multiple Library General Settings](assets/screenshot-2026-06-16-155036.png "Multiple Library General Settings")
 
 ![Multi Sites General Settings](assets/screenshot-2026-06-16-155152.png "Multi Sites General Settings")
+
+</details>
 
 - - -
 
@@ -107,9 +122,12 @@ Document Contents is the main document browsing section. It pulls files from a S
 | Selected Design             | Switch between Standard (all-round border) and Accent Bar (top bar only) | Dropdown     |
 | Hide This Web Part if Empty | Hides the entire web part when no documents match the current filter     | Checkbox     |
 
-📸 View Layout Settings Screenshot
+<details>
+<summary>📸 View Layout Settings Screenshot</summary>
 
 ![Layout Settings](assets/screenshot-2026-06-16-155256.png "Layout Settings")
+
+</details>
 
 - - -
 
@@ -120,9 +138,12 @@ Document Contents is the main document browsing section. It pulls files from a S
 | Hide Category Filter | Hides the category filter tabs visible to users (visible only when Source is "A document library") | Toggle               |
 | Height               | Controls the height of the document section                                                        | Slider (400–2000 px) |
 
-📸 View Appearance Settings Screenshot
+<details>
+<summary>📸 View Appearance Settings Screenshot</summary>
 
 ![Appearance Settings](assets/screenshot-2026-06-16-155323.png "Appearance Settings")
+
+</details>
 
 - - -
 
@@ -139,9 +160,12 @@ FAQs displays a list of questions and answers as an expandable accordion. Questi
 | Webpart Title     | The heading shown above the FAQ list                                                            | Text field            |
 | Title Theme Color | Picks a colour for the title from the site theme palette (visible only when a title is entered) | Theme colour dropdown |
 
-📸 View Header Settings Screenshot
+<details>
+<summary>📸 View Header Settings Screenshot</summary>
 
 ![Header Settings](assets/screenshot-2026-06-16-160001.png "Header Settings")
+
+</details>
 
 - - -
 
@@ -159,11 +183,14 @@ FAQs displays a list of questions and answers as an expandable accordion. Questi
 | View All URL      | URL for the "View All" link (visible only when Display All Items is off)                                       | Text field    |
 | Sort By           | Sort order for FAQ items: Default, Ascending, or Descending                                                    | Dropdown      |
 
-📸 View General Settings Screenshot
+<details>
+<summary>📸 View General Settings Screenshot</summary>
 
 ![General Settings](assets/screenshot-2026-06-16-160801.png "General Settings")
 
 ![General Settings](assets/screenshot-2026-06-16-160814.png "General Settings")
+
+</details>
 
 **FAQ Items Panel Fields:**
 
@@ -188,9 +215,12 @@ Contact displays one or more key contacts with their photo, name, role, and a de
 | Webpart Title for Contact 2 | Heading for the second contact card (visible only when Layout is "User Selection") | Text field            |
 | Title Theme Color           | Picks a colour for the contact heading text from the site theme palette            | Theme colour dropdown |
 
-📸 View Header Settings Screenshot
+<details>
+<summary>📸 View Header Settings Screenshot</summary>
 
 ![Header Settings](assets/screenshot-2026-06-16-160830.png "Header Settings")
+
+</details>
 
 - - -
 
@@ -205,11 +235,14 @@ Contact displays one or more key contacts with their photo, name, role, and a de
 | Contact Collection | Opens a panel to add, edit, and manage multiple contact entries (visible only when Layout is "Collection View") | Manage panel        |
 | Height             | Controls the height of the contact section                                                                      | Slider (200–500 px) |
 
-📸 View General Settings Screenshot
+<details>
+<summary>📸 View General Settings Screenshot</summary>
 
 ![General Settings](assets/screenshot-2026-06-16-160855.png "General Settings")
 
 ![General Settings](assets/screenshot-2026-06-16-160911.png "General Settings")
+
+</details>
 
 **Contact Collection Panel Fields:**
 
@@ -230,6 +263,9 @@ Contact displays one or more key contacts with their photo, name, role, and a de
 | Selected Design            | Switch between Standard and Accent Bar                                                    | Dropdown     |
 | Show Shadow                | Adds a drop shadow to the contact cards                                                   | Toggle       |
 
-📸 View Layout Settings Screenshot
+<details>
+<summary>📸 View Layout Settings Screenshot</summary>
 
 ![Layout Settings](assets/screenshot-2026-06-16-160844.png "Layout Settings")
+
+</details>
