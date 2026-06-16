@@ -23,7 +23,7 @@ DIY Sangha Document Center is a ready-built SharePoint page solution that gives 
 
 | \#  | Web Part                | Description                                                                                            |
 | --- | ----------------------- | ------------------------------------------------------------------------------------------------------ |
-| 1   | Document Welcome Banner | Full-width hero banner with a background image and department/page title                               |
+| 1   | Document Welcome Banner | Hero banner with a background image and department/page title                                          |
 | 2   | Document Contents       | Surfaces documents from one or more SharePoint libraries in Grid view                                  |
 | 3   | FAQs                    | Expandable accordion of frequently asked questions, sourced from a SharePoint list or managed directly |
 | 4   | Contact                 | Displays one or two key contacts (or a full contact collection) with name, role, and description       |
