@@ -54,11 +54,10 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 | Name          | Purpose                                                                                                | Control Type |
 | ------------- | ------------------------------------------------------------------------------------------------------ | ------------ |
 | Choose Layout | Switch between Layout 1 (standard banner) and Layout 2 (banner with a separate dashboard panel below). | Dropdown     |
+- - -
 📸 View Layout Settings Screenshots
 
 ![](assets/screenshot-2026-06-16-at-15.10.18.png)
-- - -
-
 
 
 ### 🎨 Appearance Settings
@@ -85,9 +84,11 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 | --------------------------- | ----------------------------------------------------------------------------- | ------------ |
 | Enable Draggable Components | When on, users can drag dashboard cards around and their positions are saved. | Toggle       |
 | Reset Component Positions   | Moves all dashboard cards back to their original default positions.           | Button       |
+
 📸 View Draggable Settings Screenshots
 
 ![](assets/screenshot-2026-06-16-at-15.11.18.png)
+
 - - -
 
 ## 2. Announcement
