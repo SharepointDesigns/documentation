@@ -269,7 +269,7 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 | ------------- | ------------------------------------------------------------------------------- | ------------ |
 | Select Layout | Switch between Standard (icon tile grid) and Accent Bar (list with top border). | Dropdown     |
 
-📸 View General Settings Screenshots
+
 
 - - -
 
@@ -282,7 +282,7 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 | Icon Background & Color Theme | Background and icon colour theme for icon boxes. Shown only in Accent Bar layout. | Dropdown     |
 | Button Hover Theme            | Hover colour theme for link tiles, from the site's theme palette.                 | Dropdown     |
 
-📸 View General Settings Screenshots
+📸 View Appearance Settings Screenshots
 
 ![](assets/screenshot-2026-06-16-at-15.52.12.png)
 
