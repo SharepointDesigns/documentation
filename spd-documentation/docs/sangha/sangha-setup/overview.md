@@ -111,6 +111,8 @@ Administrators apply the organization's visual identity — logo, colors, fonts,
 
 ### Step 4 — Navigation Setup
 
+![Navigation Setup Screen](assets/screenshot-2026-06-16-123423.png "Navigation Setup Screen")
+
 Administrators build the top navigation structure that employees will use to move around the intranet.
 
 **What administrators do:** Add navigation items, organize them into groups, assign icons, configure links, and optionally target items to specific audiences (e.g., show a section only to managers).
@@ -119,6 +121,10 @@ Administrators build the top navigation structure that employees will use to mov
 - - -
 
 ### Step 5 — User Access & Permissions
+
+![User Permission Screen](assets/screenshot-2026-06-16-123541.png "User Permission Screen")
+
+![User Notification Alerts](assets/screenshot-2026-06-16-123557.png "User Notification Alerts")
 
 Administrators define who can access the intranet and at what level.
 
@@ -129,6 +135,12 @@ Administrators define who can access the intranet and at what level.
 
 ### Step 6 — Deploy
 
+![Pre-Deployment Screen](assets/screenshot-2026-06-16-124232.png "Pre-Deployment Screen")
+
+![During Deployment Screen](assets/screenshot-2026-06-16-124351.png "During Deployment Screen")
+
+![Post Deployment Screen](assets/screenshot-2026-06-16-124530.png "Post Deployment Screen")
+
 The wizard deploys all configured settings and creates the intranet pages and data.
 
 **What administrators do:** Review the summary and click Deploy.
@@ -137,6 +149,8 @@ The wizard deploys all configured settings and creates the intranet pages and da
 - - -
 
 ### Step 7 — Templates (Post-Launch)
+
+![Templates Screen](assets/screenshot-2026-06-16-131852.png "Templates Screen")
 
 After deployment, administrators can create additional pages from pre-built templates.
 
