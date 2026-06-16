@@ -2,8 +2,6 @@
 title: Configuration
 sidebar_position: 3
 ---
-# Configuration
-
 This page covers how to configure each web part in DIY Intranet Home. All settings are managed through the property panel on the right-hand side of the page — no code or technical knowledge is required.
 
 To open the settings panel, edit the page and click the **pencil icon (✏️)** on any web part.
