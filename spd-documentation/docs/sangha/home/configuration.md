@@ -4,7 +4,7 @@ sidebar_position: 3
 ---
 This page covers how to configure each web part in DIY Intranet Home. All settings are managed through the property panel on the right-hand side of the page — no code or technical knowledge is required.
 
-To open the settings panel, edit the page and click the **pencil icon (✏️)** on any web part.
+To open the settings panel, edit the page and click the **Edit Properties (icon)** on any web part.
 
 - - -
 
@@ -12,10 +12,10 @@ To open the settings panel, edit the page and click the **pencil icon (✏️)**
 
 Every web part supports two layout options that can be switched at any time from the **Layout** settings group.
 
-| Layout                    | Description                                                         |
-| ------------------------- | ------------------------------------------------------------------- |
-| **Layout 1 — Standard**   | Clean card-based style with borders on all sides of each item.      |
-| **Layout 2 — Accent Bar** | Modern style with a coloured top border only and square icon boxes. |
+| Layout                    | Description                                                    |
+| ------------------------- | -------------------------------------------------------------- |
+| **Layout 1 — Standard**   | Clean card-based style with borders on all sides of each item. |
+| **Layout 2 — Accent Bar** | Modern style with a coloured top border only.                  |
 
 - - -
 
@@ -79,10 +79,10 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 
 ### 🤚🏻 Draggable Configuration
 
-| Name                        | Purpose                                                                       | Control Type |
-| --------------------------- | ----------------------------------------------------------------------------- | ------------ |
-| Enable Draggable Components | When on, users can drag dashboard cards around and their positions are saved. | Toggle       |
-| Reset Component Positions   | Moves all dashboard cards back to their original default positions.           | Button       |
+| Name                        | Purpose                                                                          | Control Type |
+| --------------------------- | -------------------------------------------------------------------------------- | ------------ |
+| Enable Draggable Components | When on, users can drag user welcome cards around and their positions are saved. | Toggle       |
+| Reset Component Positions   | Moves cards back to their original default positions.                            | Button       |
 
 📸 View Draggable Settings Screenshots
 
@@ -593,8 +593,6 @@ The Message from CEO web part displays a leadership message with a profile photo
 | Name          | Purpose                                                                            | Control Type |
 | ------------- | ---------------------------------------------------------------------------------- | ------------ |
 | Choose Layout | Switch between Layout 1 (Standard card) and Layout 2 (Accent Bar with top border). | Dropdown     |
-
-
 
 - - -
 
