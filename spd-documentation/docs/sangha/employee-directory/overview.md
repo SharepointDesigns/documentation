@@ -23,7 +23,7 @@ DIY Sangha Employee Directory is a ready-built SharePoint page solution that giv
 
 | #   | Web Part                | Description                                                                |
 | --- | ----------------------- | -------------------------------------------------------------------------- |
-| 1   | Employee Welcome Banner | Full-width hero banner with a background image and page title              |
+| 1   | Employee Welcome Banner | Hero banner with a background image and page title              |
 | 2   | Employee Directory      | Searchable staff directory that reads all user profiles from Microsoft 365 |
 
 ---
