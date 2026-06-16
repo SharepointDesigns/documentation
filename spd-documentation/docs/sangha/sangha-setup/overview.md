@@ -104,7 +104,7 @@ The wizard collects basic information about the organization to personalize the 
 
 Administrators apply the organization's visual identity — logo, colors, fonts, and layout style.
 
-**What administrators do:** Upload a logo, review auto-suggested brand colors, adjust if needed, choose a font, select a page layout, and set display preferences such as rounded corners or dark mode.
+**What administrators do:** Upload a logo, review auto-suggested brand colors, adjust if needed, choose a font, select a page layout, and set display preferences such as rounded corners.
 **What happens after:** The logo is saved, brand colors are applied as a SharePoint theme, and the selected fonts and layout settings are activated across the site.
 
 - - -
