@@ -2,11 +2,12 @@
 title: Configuration
 sidebar_position: 3
 ---
+
 This page covers how to configure each web part in DIY Intranet Home. All settings are managed through the property panel on the right-hand side of the page — no code or technical knowledge is required.
 
 To open the settings panel, edit the page and click the **Edit Properties (icon)** on any web part.
 
-- - -
+---
 
 ## Understanding Layouts
 
@@ -17,13 +18,13 @@ Every web part supports two layout options that can be switched at any time from
 | **Layout 1 — Standard**   | Clean card-based style with borders on all sides of each item. |
 | **Layout 2 — Accent Bar** | Modern style with a coloured top border only.                  |
 
-- - -
+---
 
 ## Understanding Theme Colours
 
 All colour dropdowns in DIY Intranet Home read your site's theme palette automatically. When you select a colour, a swatch preview appears below the dropdown so you can see the result before saving. You can also use the full colour picker to enter any custom hex value.
 
-- - -
+---
 
 ## 1. Welcome Banner
 
@@ -41,11 +42,14 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 | Background Image Scaling | How the background image fills the banner area. Options: Cover, Contain, Auto, Stretch, Center.                                                                                          | Dropdown     |
 | Dashboard URL            | The web address for the "Go to My Dashboard" link on the banner. Leave blank to hide the link.                                                                                           | Text field   |
 
-📸 View General Settings Screenshots
+<details>
+<summary>📸 View General Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-15.09.40.png)
 
-- - -
+</details>
+
+---
 
 ### 📐 Layout Settings
 
@@ -53,11 +57,14 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 | ------------- | ------------------------------------------------------------------------------------------------------ | ------------ |
 | Choose Layout | Switch between Layout 1 (standard banner) and Layout 2 (banner with a separate dashboard panel below). | Dropdown     |
 
-- - -
+---
 
-📸 View Layout Settings Screenshots
+<details>
+<summary>📸 View Layout Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-15.10.18.png)
+
+</details>
 
 ### 🎨 Appearance Settings
 
@@ -71,11 +78,14 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 | Enable Gradient                         | Toggle the gradient effect on or off for the dashboard background.                                                                     | Toggle        |
 | Hide Dashboard                          | When on, the personal dashboard cards are hidden and only the greeting banner is shown.                                                | Toggle        |
 
-📸 View Appearance Settings Screenshots
+<details>
+<summary>📸 View Appearance Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-15.11.11.png)
 
-- - -
+</details>
+
+---
 
 ### 🤚🏻 Draggable Configuration
 
@@ -84,11 +94,14 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 | Enable Draggable Components | When on, users can drag user welcome cards around and their positions are saved. | Toggle       |
 | Reset Component Positions   | Moves cards back to their original default positions.                            | Button       |
 
-📸 View Draggable Settings Screenshots
+<details>
+<summary>📸 View Draggable Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-15.11.18.png)
 
-- - -
+</details>
+
+---
 
 ## 2. Announcement
 
@@ -104,11 +117,14 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 | Webpart title             | The heading text shown above the carousel (e.g. "Announcements"). Visible only when the title is on. | Text field   |
 | WebPart Title Theme Color | Colour for the title text, chosen from the site's theme palette. A preview swatch appears below.     | Dropdown     |
 
-📸 View Header Settings Screenshots
+<details>
+<summary>📸 View Header Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-15.32.40.png)
 
-- - -
+</details>
+
+---
 
 ### ⚙️ General Settings
 
@@ -127,11 +143,14 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 | ExpiryDate   | The date after which this announcement is hidden automatically.   | Date picker  |
 | Description  | The announcement text. Required. Supports multiple lines.         | Text area    |
 
-📸 View General Settings Screenshots
+<details>
+<summary>📸 View General Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-15.32.46.png)
 
-- - -
+</details>
+
+---
 
 ### ⚙️ Carousel Settings
 
@@ -141,11 +160,14 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 | Enable AutoPlay               | When on, the carousel advances automatically.                                                              | Toggle       |
 | Autoplay Speed (milliseconds) | How long each slide is shown before advancing. Default: 5000 (5 seconds). Active only when AutoPlay is on. | Text field   |
 
-📸 View Carousel Settings Screenshots
+<details>
+<summary>📸 View Carousel Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-15.32.55.png)
 
-- - -
+</details>
+
+---
 
 ## 3. Featured News
 
@@ -161,11 +183,14 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 | Webpart title color | Colour for the title text, from the site's theme palette. | Dropdown     |
 | Hide / Show title   | Toggle the title bar on or off.                           | Toggle       |
 
-📸 View Header Settings Screenshots
+<details>
+<summary>📸 View Header Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-15.45.07.png)
 
-- - -
+</details>
+
+---
 
 ### ⚙️ General Settings
 
@@ -186,13 +211,16 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 | Target Audience      | Restrict who sees this web part to specific people or security groups. Leave blank to show to everyone.                                      | People picker   |
 | Manage News Posts    | Quick link to the news management page for the current site.                                                                                 | Link            |
 
-📸 View General Settings Screenshots
+<details>
+<summary>📸 View General Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-15.45.29.png)
+| | |
+|---|---|
+| ![](assets/screenshot-2026-06-16-at-15.45.29.png) | ![](assets/screenshot-2026-06-16-at-15.45.37.png) |
 
-![](assets/screenshot-2026-06-16-at-15.45.37.png)
+</details>
 
-- - -
+---
 
 ### 📐 Layout Settings
 
@@ -202,11 +230,14 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 | Border Color            | Colour of the top accent border. Visible only in Layout 2.                                      | Colour picker |
 | Items to show per slide | Number of news cards shown side-by-side in the filmstrip. Range: 1–6. Visible only in Layout 2. | Slider        |
 
-📸 View Layout Settings Screenshots
+<details>
+<summary>📸 View Layout Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-15.45.57.png)
 
-- - -
+</details>
+
+---
 
 ### 🛠 Admin Settings
 
@@ -215,11 +246,14 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 | Show / Hide admin badge | Toggle an admin badge visible only to designated administrators.                    | Toggle        |
 | Web Part Admin          | People or groups who are administrators of this web part. They see the admin badge. | People picker |
 
-📸 View Admin Settings Screenshots
+<details>
+<summary>📸 View Admin Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-15.46.04.png)
 
-- - -
+</details>
+
+---
 
 ## 4. Quicklinks
 
@@ -235,11 +269,14 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 | WebPart Title Theme Color | Colour for the title text, from the site's theme palette. | Dropdown     |
 | Hide / Show title         | Toggle the title bar on or off.                           | Toggle       |
 
-📸 View Header Settings Screenshots
+<details>
+<summary>📸 View Header Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-15.51.57.png)
 
-- - -
+</details>
+
+---
 
 ### ⚙️ General Settings
 
@@ -257,11 +294,14 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 | Icon    | A Fluent UI icon shown on the tile. Choose from a visual icon picker. | Icon picker  |
 | Open In | Whether the link opens in a new tab or the same tab.                  | Dropdown     |
 
-📸 View General Settings Screenshots
+<details>
+<summary>📸 View General Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-15.52.03.png)
 
-- - -
+</details>
+
+---
 
 ### 📐 Layout Settings
 
@@ -269,7 +309,7 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 | ------------- | ------------------------------------------------------------------------------- | ------------ |
 | Select Layout | Switch between Standard (icon tile grid) and Accent Bar (list with top border). | Dropdown     |
 
-- - -
+---
 
 ### 🎨 Appearance Settings
 
@@ -280,11 +320,14 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 | Icon Background & Color Theme | Background and icon colour theme for icon boxes. Shown only in Accent Bar layout. | Dropdown     |
 | Button Hover Theme            | Hover colour theme for link tiles, from the site's theme palette.                 | Dropdown     |
 
-📸 View Appearance Settings Screenshots
+<details>
+<summary>📸 View Appearance Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-15.52.12.png)
 
-- - -
+</details>
+
+---
 
 ## 5. Employee Spotlight
 
@@ -300,11 +343,14 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 | WebPart Title Theme Color | Colour for the title text, from the site's theme palette.              | Dropdown     |
 | Hide / Show title         | Toggle the title bar on or off.                                        | Toggle       |
 
-📸 View Header Settings Screenshots
+<details>
+<summary>📸 View Header Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.03.00.png)
 
-- - -
+</details>
+
+---
 
 ### ⚙️ General Settings
 
@@ -327,11 +373,14 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 | Category                 | The milestone type: Birthday, Anniversary, or New Joinee. Required. | Dropdown           |
 | Celebration Date (MM-DD) | The month and day of the person's birthday or anniversary.          | Custom date picker |
 
-📸 View General Settings Screenshots
+<details>
+<summary>📸 View General Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.03.10.png)
 
-- - -
+</details>
+
+---
 
 ### 📐 Layout Settings
 
@@ -340,11 +389,14 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 | Choose Layout | Switch between Layout 1 (Standard) and Layout 2 (Accent Bar).      | Dropdown     |
 | See All URL   | Web address for a "See All" link at the top-right of the web part. | Text field   |
 
-📸 View Layout Settings Screenshots
+<details>
+<summary>📸 View Layout Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.03.16.png)
 
-- - -
+</details>
+
+---
 
 ### 🎨 Appearance Settings
 
@@ -352,11 +404,14 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 | ---------------------- | -------------------------------------------------------------------------------- | ------------ |
 | Card Photo Height (px) | Height of the employee photo area on each card. Range: 140–400 px. Default: 240. | Slider       |
 
-📸 View Appearance Settings Screenshots
+<details>
+<summary>📸 View Appearance Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.03.21.png)
 
-- - -
+</details>
+
+---
 
 ## 6. Org Chart
 
@@ -371,11 +426,14 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | Webpart Title       | Heading shown above the org chart.                        | Text field   |
 | WebPart Title Color | Colour for the title text, from the site's theme palette. | Dropdown     |
 
-📸 View Header Settings Screenshots
+<details>
+<summary>📸 View Header Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.12.33.png)
 
-- - -
+</details>
+
+---
 
 ### ⚙️ General Settings
 
@@ -388,11 +446,14 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | Manager Email             | Email address of the manager whose team to display. Required when View Options is set to Show Other Team.                                                             | Text field             |
 | Reorder Org Chart Users   | Use the up/down buttons to change the display order of a manager's direct reports. Appears after a Manager Email is entered.                                          | Custom reorder control |
 
-📸 View General Settings Screenshots
+<details>
+<summary>📸 View General Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.12.41.png)
 
-- - -
+</details>
+
+---
 
 ### 📐 Layout Settings
 
@@ -400,7 +461,7 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | ------ | ------------------------------------------------------------- | ------------ |
 | Layout | Switch between Standard (Layout 1) and Accent Bar (Layout 2). | Dropdown     |
 
-- - -
+---
 
 ### 🎨 Appearance Settings
 
@@ -408,11 +469,14 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | -------------------------- | ------------------------------------------------------------------------- | ------------ |
 | Height of the Webpart (px) | How tall the org chart display area is. Range: 100–1200 px. Default: 535. | Slider       |
 
-📸 View Appearance Settings Screenshots
+<details>
+<summary>📸 View Appearance Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.13.07.png)
 
-- - -
+</details>
+
+---
 
 ## 7. Upcoming Events
 
@@ -429,11 +493,14 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 | Hide / Show title         | Toggle the title bar on or off.                                                   | Toggle       |
 | View All URL              | Web address for a "View All Events" link. Visible only when calendar view is off. | Text field   |
 
-📸 View Header Settings Screenshots
+<details>
+<summary>📸 View Header Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.14.12.png)
 
-- - -
+</details>
+
+---
 
 ### ⚙️ General Settings
 
@@ -447,11 +514,14 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 | Show Calendar            | Toggle between a full monthly calendar view (Yes) or an events list only (No).                                                      | Toggle       |
 | Filter Events            | Date range to display: Upcoming only, Previous 3 months + upcoming, Previous 6 months + upcoming, or Previous 12 months + upcoming. | Dropdown     |
 
-📸 View General Settings Screenshots
+<details>
+<summary>📸 View General Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.14.18.png)
 
-- - -
+</details>
+
+---
 
 ### 📐 Layout Settings
 
@@ -459,7 +529,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 | ------------- | ------------------------------------------------------------- | ------------ |
 | Choose Layout | Switch between Layout 1 (Standard) and Layout 2 (Accent Bar). | Dropdown     |
 
-- - -
+---
 
 ### 🛠 Admin Settings
 
@@ -468,11 +538,14 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 | Show / Hide admin badge | Toggle an admin badge visible only to designated administrators. | Toggle        |
 | Web Part Admin          | People or groups who are administrators of this web part.        | People picker |
 
-📸 View Admin Settings Screenshots
+<details>
+<summary>📸 View Admin Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.14.33.png)
 
-- - -
+</details>
+
+---
 
 ## 8. Facilities
 
@@ -488,11 +561,14 @@ The Facilities web part showcases your organisation's offices and locations with
 | WebPart Title Theme Color | Colour for the title text, from the site's theme palette. | Dropdown     |
 | Hide / Show title         | Toggle the title bar on or off.                           | Toggle       |
 
-📸 View Header Settings Screenshots
+<details>
+<summary>📸 View Header Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.24.56.png)
 
-- - -
+</details>
+
+---
 
 ### ⚙️ General Settings
 
@@ -509,11 +585,14 @@ The Facilities web part showcases your organisation's offices and locations with
 | Content     | A short description of the facility. Optional.                              | Text area    |
 | Thumbnail   | Upload or select a photo for the facility. Stored in Site Assets. Optional. | File picker  |
 
-📸 View General Settings Screenshots
+<details>
+<summary>📸 View General Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.25.02.png)
 
-- - -
+</details>
+
+---
 
 ### 📐 Layout Settings
 
@@ -521,11 +600,14 @@ The Facilities web part showcases your organisation's offices and locations with
 | ------------- | ------------------------------------------------------ | ------------ |
 | Select Layout | Switch between Standard and Accent Bar display styles. | Dropdown     |
 
-📸 View Layout Settings Screenshots
+<details>
+<summary>📸 View Layout Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.25.07.png)
 
-- - -
+</details>
+
+---
 
 ### 🎨 Appearance Settings
 
@@ -537,11 +619,14 @@ The Facilities web part showcases your organisation's offices and locations with
 | Select duration to scroll | Seconds each facility is shown before auto-advancing. Range: 1–15 seconds. Visible only when Auto Scroll is on. | Slider       |
 | Height                    | Height of the facilities display area in pixels. Range: 250–600 px.                                             | Slider       |
 
-📸 View Appearance Settings Screenshots
+<details>
+<summary>📸 View Appearance Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.25.11.png)
 
-- - -
+</details>
+
+---
 
 ## 9. Message from CEO
 
@@ -556,11 +641,14 @@ The Message from CEO web part displays a leadership message with a profile photo
 | Webpart title            | Title shown above the message card (e.g. "Message from the CEO"). | Text field    |
 | Webpart title text color | Colour for the title text.                                        | Colour picker |
 
-📸 View Header Settings Screenshots
+<details>
+<summary>📸 View Header Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.26.23.png)
 
-- - -
+</details>
+
+---
 
 ### ⚙️ General Settings
 
@@ -582,11 +670,14 @@ The Message from CEO web part displays a leadership message with a profile photo
 | Title         | Short topic title shown on the message card preview.                                                               | Text field    |
 | Content       | The full message text. Required. Supports multiple lines.                                                          | Text area     |
 
-📸 View General Settings Screenshots
+<details>
+<summary>📸 View General Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.26.27.png)
 
-- - -
+</details>
+
+---
 
 ### 📐 Layout Settings
 
@@ -594,7 +685,7 @@ The Message from CEO web part displays a leadership message with a profile photo
 | ------------- | ---------------------------------------------------------------------------------- | ------------ |
 | Choose Layout | Switch between Layout 1 (Standard card) and Layout 2 (Accent Bar with top border). | Dropdown     |
 
-- - -
+---
 
 ### 🎨 Appearance Settings
 
@@ -604,8 +695,11 @@ The Message from CEO web part displays a leadership message with a profile photo
 | Number of lines to show (content) | How many lines of the message preview are shown before cutting off with a "Read More" prompt. Range: 2–20. Default: 8. | Slider       |
 | Hide the Heading in Modal Popup   | When on, the heading text inside the overlay panel is hidden.                                                          | Toggle       |
 
-📸 View Appearance Settings Screenshots
+<details>
+<summary>📸 View Appearance Settings Screenshots</summary>
 
 ![](assets/screenshot-2026-06-16-at-16.26.33.png)
 
-- - -
+</details>
+
+---
