@@ -1,4 +1,7 @@
-# Configuration
+---
+title: Configuration
+sidebar_position: 3
+---
 
 Each web part is configured through its **settings panel**. To open it, click the web part while editing the page and click the **pencil (edit) icon**.
 

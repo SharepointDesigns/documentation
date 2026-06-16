@@ -1,4 +1,7 @@
-# Changelog
+---
+title: Changelog
+sidebar_position: 5
+---
 
 All notable changes to Intranet Sangha are documented here. Versions are listed in reverse chronological order.
 

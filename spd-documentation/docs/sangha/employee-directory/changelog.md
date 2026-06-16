@@ -1,4 +1,7 @@
-# Changelog
+---
+title: Changelog
+sidebar_position: 5
+---
 
 ## v0.0.0.1 — 2026-06-15
 

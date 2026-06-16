@@ -1,4 +1,7 @@
-# onfiguration
+---
+title: Configuration
+sidebar_position: 3
+---
 
 This page describes every setting available in the settings panel for both the **Intelligence Dashboard** and **Personal Dashboard** web parts. Open the settings panel for either web part by selecting it on a page and clicking the pencil (edit) icon on the left.
 
@@ -98,7 +101,7 @@ Controls whether the web part title is shown and what it displays.
 
 ---
 
-###  📐 Layout Settings
+### 📐 Layout Settings
 
 Controls the visual style of the dashboard and the birthday notification window.
 

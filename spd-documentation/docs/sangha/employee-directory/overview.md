@@ -1,4 +1,7 @@
-# Overview
+---
+title: Overview
+sidebar_position: 1
+---
 
 ## What Is DIY Sangha Employee Directory?
 

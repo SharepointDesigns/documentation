@@ -1,5 +1,6 @@
 ---
 title: Changelog
+sidebar_position: 5
 ---
 
 # Dashboard Suite — Changelog

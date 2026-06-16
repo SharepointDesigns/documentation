@@ -1,4 +1,7 @@
-# Overview
+---
+title: Overview
+sidebar_position: 1
+---
 
 > **Product:** Dashboard Suite by SharePoint Designs
 > **Version:** 0.0.1
