@@ -16,6 +16,8 @@ DIY Intranet Home is a ready-to-use SharePoint intranet solution that turns a bl
 
 It comes with nine purpose-built web parts that you can add to any modern SharePoint page. Each web part is self-contained, independently configurable, and designed to work together to create a polished employee experience.
 
+![Home](assets/home.png "Home")
+
 - - -
 
 ## Who Is It For?
