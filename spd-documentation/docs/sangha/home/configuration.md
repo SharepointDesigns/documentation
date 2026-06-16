@@ -54,11 +54,12 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 | Name          | Purpose                                                                                                | Control Type |
 | ------------- | ------------------------------------------------------------------------------------------------------ | ------------ |
 | Choose Layout | Switch between Layout 1 (standard banner) and Layout 2 (banner with a separate dashboard panel below). | Dropdown     |
+
 - - -
+
 📸 View Layout Settings Screenshots
 
 ![](assets/screenshot-2026-06-16-at-15.10.18.png)
-
 
 ### 🎨 Appearance Settings
 
@@ -75,8 +76,8 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 📸 View Appearance Settings Screenshots
 
 ![](assets/screenshot-2026-06-16-at-15.11.11.png)
-- - -
 
+- - -
 
 ### 🤚🏻 Draggable Configuration
 
@@ -105,6 +106,10 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 | Webpart title             | The heading text shown above the carousel (e.g. "Announcements"). Visible only when the title is on. | Text field   |
 | WebPart Title Theme Color | Colour for the title text, chosen from the site's theme palette. A preview swatch appears below.     | Dropdown     |
 
+📸 View Header Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-15.32.40.png)
+
 - - -
 
 ### ⚙️ General Settings
@@ -126,6 +131,8 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 
 📸 View General Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-15.32.46.png)
+
 - - -
 
 ### ⚙️ Carousel Settings
@@ -135,6 +142,10 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 | Show Arrows                   | Toggle the left/right navigation arrows on the carousel.                                                   | Toggle       |
 | Enable AutoPlay               | When on, the carousel advances automatically.                                                              | Toggle       |
 | Autoplay Speed (milliseconds) | How long each slide is shown before advancing. Default: 5000 (5 seconds). Active only when AutoPlay is on. | Text field   |
+
+📸 View Carousel Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-15.32.55.png)
 
 - - -
 
