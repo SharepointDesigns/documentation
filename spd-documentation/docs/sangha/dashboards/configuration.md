@@ -2,27 +2,28 @@
 title: Configuration
 sidebar_position: 3
 ---
-
 This page describes every setting available in the settings panel for both the **Intelligence Dashboard** and **Personal Dashboard** web parts. Open the settings panel for either web part by selecting it on a page and clicking the pencil (edit) icon on the left.
 
----
+- - -
 
 ## Intelligence Dashboard
 
 The Intelligence Dashboard is an AI-powered intranet analytics and content hub. It brings together site performance data, Microsoft Copilot-generated content suggestions, auto-drafted articles, and trending topics into one configurable dashboard. Administrators can customise the title, banner image, and which cards are visible — as well as the order in which those cards appear on the page.
 
----
+- - -
 
-### 📌 Header Settings
+### 📌 General Settings
 
 | Name                    | Purpose                                                                                                                         | Control Type |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------ |
 | Title                   | Sets the heading text displayed at the top of the web part on the page                                                          | Text field   |
 | Banner background image | Uploads a custom image displayed in the header area of the dashboard. Supports .png, .jpg, .jpeg, .gif, .webp, and .svg formats | File picker  |
 
-📸 View Intelligence Dashboard — Header Settings Screenshots
+📸 View Intelligence Dashboard — General Settings Screenshots
 
----
+![Header settings](assets/idheader.png "Header settings")
+
+- - -
 
 ### ⚙️ Card Order & Visibility Settings
 
@@ -43,14 +44,16 @@ Controls which dashboard cards are visible and the order they appear in. All fiv
 | Trending in Your Organisation | Trending in Your Organisation | The most-read and most-searched content across the organisation               |
 
 > **Note:** The Card Order & Visibility panel is collapsed by default. Click the section header to expand it.
-
+>
 > **How to reorder:** Drag any row in the list up or down to change the order cards appear on the dashboard. The top row becomes the first card displayed.
-
+>
 > **How to hide a card:** Switch the **Show** toggle off for any card you do not want displayed. The card is hidden from visitors but stays in the list and can be re-enabled at any time.
 
 📸 View Intelligence Dashboard — Card Order & Visibility Settings Screenshots
 
----
+![Card order](assets/cardorder.png "Card order")
+
+- - -
 
 ## Intelligence Dashboard Cards
 
@@ -76,15 +79,17 @@ Surfaces the content most actively read and searched across the organisation, pu
 
 📸 View Intelligence Dashboard Cards Screenshots
 
----
+![Intelligence dashboard](assets/admindashboard.png "Intelligence dashboard")
 
----
+- - -
+
+- - -
 
 ## Personal Dashboard
 
 The Personal Dashboard is a personalised daily productivity hub that pulls live data from Microsoft 365 each time the page loads. It displays each employee's meetings, tasks, team presence, birthdays, holidays, and training assignments in a single, configurable view. Administrators can control the layout style, header visibility, birthday notification window, and holiday data source from the settings panel.
 
----
+- - -
 
 ### 📌 Header Settings
 
@@ -99,9 +104,11 @@ Controls whether the web part title is shown and what it displays.
 
 📸 View Personal Dashboard — Header Settings Screenshots
 
----
+![header settings](assets/header.png "headers settings")
 
-### 📐 Layout Settings
+- - -
+
+### 📐 Appearance Settings
 
 Controls the visual style of the dashboard and the birthday notification window.
 
@@ -127,9 +134,11 @@ Controls the visual style of the dashboard and the birthday notification window.
 
 > **Note:** This group is collapsed by default. Click the section header to expand it.
 
-📸 View Personal Dashboard — Layout Settings Screenshots
+📸 View Personal Dashboard — Appearance Settings Screenshots
 
----
+![Appearance](assets/appearance.png "Appearance")
+
+- - -
 
 ### ⚙️ Holiday Source Settings
 
@@ -150,14 +159,16 @@ Controls where the Holidays card reads public holiday data from. Choose the opti
 | Shared Calendar             | Reads holidays from a shared calendar mailbox (e.g. `holidays@contoso.com`)        |
 
 > **When SharePoint Calendar List is selected:** The SharePoint Holiday Calendar list picker appears. It only shows lists based on the SharePoint Events template (template 106). Select the list containing your public holidays.
-
+>
 > **When Shared Calendar is selected:** The Shared Calendar Owner Email field appears. Enter the full email address or UPN of the account that owns the shared calendar.
-
+>
 > **Note:** This group is collapsed by default. Click the section header to expand it.
 
 📸 View Personal Dashboard — Holiday Source Settings Screenshots
 
----
+![Holiday source](assets/holiday.png "Holiday source")
+
+- - -
 
 ### ⚙️ About
 
@@ -165,7 +176,7 @@ Controls where the Holidays card reads public holiday data from. Choose the opti
 | ------------------ | ------------------------------------------------------------ | ------------ |
 | Documentation link | Opens the full documentation site for the Personal Dashboard | Link         |
 
----
+- - -
 
 ## Personal Dashboard Cards
 
@@ -205,3 +216,5 @@ Upcoming public holidays from the selected holiday source. Each entry shows the 
 Outstanding Viva Learning assignments for the signed-in user. Each entry shows the course title, thumbnail, due date, and an **Open** link. Urgent courses are highlighted. Requires all four `Learning*` Graph permissions and Viva Learning enabled for the tenant.
 
 📸 View Personal Dashboard Cards Screenshots
+
+![Personal Dashboard](assets/personaldashboard.png "Personal Dashboard")
