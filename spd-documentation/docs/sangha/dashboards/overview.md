@@ -16,8 +16,6 @@ The Dashboard Suite is a collection of two complementary SharePoint web parts �
 
 Both web parts install independently so organisations can deploy one or both, and each connects to live Microsoft 365 data so the information is always current — no manual updates required.
 
-📸 View Suite Overview Screenshots
-
 - - -
 
 ## Who Is It For?
