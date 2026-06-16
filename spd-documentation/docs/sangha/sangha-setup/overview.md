@@ -94,6 +94,12 @@ The wizard collects basic information about the organization to personalize the 
 
 ![Branding Screen](assets/screenshot-2026-06-16-112706.png "Branding Screen")
 
+![Branding - Theme Configuration](assets/screenshot-2026-06-16-122801.png "Branding - Theme Configuration")
+
+![Branding - Favicon Configuration](assets/screenshot-2026-06-16-122821.png "Branding - Favicon Configuration")
+
+![Branding - Regional Settings Configuration](assets/screenshot-2026-06-16-122833.png "Branding - Regional Settings Configuration")
+
 Administrators apply the organization's visual identity — logo, colors, fonts, and layout style.
 
 **What administrators do:** Upload a logo, review auto-suggested brand colors, adjust if needed, choose a font, select a page layout, and set display preferences such as rounded corners or dark mode.
