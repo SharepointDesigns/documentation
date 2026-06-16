@@ -45,6 +45,8 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 
 📸 View General Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-15.09.40.png)
+
 - - -
 
 ### 📐 Layout Settings
@@ -52,8 +54,12 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 | Name          | Purpose                                                                                                | Control Type |
 | ------------- | ------------------------------------------------------------------------------------------------------ | ------------ |
 | Choose Layout | Switch between Layout 1 (standard banner) and Layout 2 (banner with a separate dashboard panel below). | Dropdown     |
+📸 View Layout Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-15.10.18.png)
 - - -
+
+
 
 ### 🎨 Appearance Settings
 
@@ -67,7 +73,11 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 | Enable Gradient                         | Toggle the gradient effect on or off for the dashboard background.                                                                     | Toggle        |
 | Hide Dashboard                          | When on, the personal dashboard cards are hidden and only the greeting banner is shown.                                                | Toggle        |
 
+📸 View Appearance Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-15.11.11.png)
 - - -
+
 
 ### 🤚🏻 Draggable Configuration
 
@@ -75,7 +85,9 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 | --------------------------- | ----------------------------------------------------------------------------- | ------------ |
 | Enable Draggable Components | When on, users can drag dashboard cards around and their positions are saved. | Toggle       |
 | Reset Component Positions   | Moves all dashboard cards back to their original default positions.           | Button       |
+📸 View Draggable Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-15.11.18.png)
 - - -
 
 ## 2. Announcement
