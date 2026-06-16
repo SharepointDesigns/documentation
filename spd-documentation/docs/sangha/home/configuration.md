@@ -237,7 +237,7 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 
 📸 View Header Settings Screenshots
 
-![]()
+![](assets/screenshot-2026-06-16-at-15.51.57.png)
 
 - - -
 
@@ -258,6 +258,8 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 | Open In | Whether the link opens in a new tab or the same tab.                  | Dropdown     |
 
 📸 View General Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-15.52.03.png)
 
 - - -
 
@@ -281,6 +283,8 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 | Button Hover Theme            | Hover colour theme for link tiles, from the site's theme palette.                 | Dropdown     |
 
 📸 View General Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-15.52.12.png)
 
 - - -
 
