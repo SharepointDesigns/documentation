@@ -138,8 +138,6 @@ FAQs displays a list of questions and answers as an expandable accordion. Questi
 
 ![FAQs](assets/screenshot-2026-06-16-155917.png "FAQs")
 
-![](<>)
-
 ### 📌 Header Settings
 
 | Name              | Purpose                                                                                         | Control Type          |
