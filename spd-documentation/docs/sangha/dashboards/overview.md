@@ -56,7 +56,6 @@ Both web parts install independently so organisations can deploy one or both, an
 - **Trending topics** — What the organisation is reading and searching, powered by Microsoft Graph Insights
 - **Card ordering and visibility** — Show, hide, and reorder any dashboard card from the settings panel
 - **Custom banner image** — Upload a branded banner to match the site's identity
-- **Full-page layout support** — Can be added as the entire page, not just a zone
 
 **Personal Dashboard**
 
@@ -78,9 +77,7 @@ Both web parts install independently so organisations can deploy one or both, an
 | SharePoint Online             | Yes                    | Yes                |
 | SharePoint Modern Pages       | Yes                    | Yes                |
 | SharePoint Full-Page Layout   | Yes                    | Yes                |
-| Microsoft Teams Tab           | No                     | No                 |
 | SharePoint 2019 / on-premises | No                     | No                 |
-| SharePoint Classic Pages      | No                     | No                 |
 
 ---
 
