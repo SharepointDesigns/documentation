@@ -269,8 +269,6 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 | ------------- | ------------------------------------------------------------------------------- | ------------ |
 | Select Layout | Switch between Standard (icon tile grid) and Accent Bar (list with top border). | Dropdown     |
 
-📸 View General Settings Screenshots
-
 - - -
 
 ### 🎨 Appearance Settings
@@ -282,7 +280,7 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 | Icon Background & Color Theme | Background and icon colour theme for icon boxes. Shown only in Accent Bar layout. | Dropdown     |
 | Button Hover Theme            | Hover colour theme for link tiles, from the site's theme palette.                 | Dropdown     |
 
-📸 View General Settings Screenshots
+📸 View Appearance Settings Screenshots
 
 ![](assets/screenshot-2026-06-16-at-15.52.12.png)
 
@@ -302,7 +300,9 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 | WebPart Title Theme Color | Colour for the title text, from the site's theme palette.              | Dropdown     |
 | Hide / Show title         | Toggle the title bar on or off.                                        | Toggle       |
 
-📸 View General Settings Screenshots
+📸 View Header Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-16.03.00.png)
 
 - - -
 
@@ -329,6 +329,8 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 
 📸 View General Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-16.03.10.png)
+
 - - -
 
 ### 📐 Layout Settings
@@ -338,7 +340,9 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 | Choose Layout | Switch between Layout 1 (Standard) and Layout 2 (Accent Bar).      | Dropdown     |
 | See All URL   | Web address for a "See All" link at the top-right of the web part. | Text field   |
 
-📸 View General Settings Screenshots
+📸 View Layout Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-16.03.16.png)
 
 - - -
 
@@ -348,7 +352,9 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 | ---------------------- | -------------------------------------------------------------------------------- | ------------ |
 | Card Photo Height (px) | Height of the employee photo area on each card. Range: 140–400 px. Default: 240. | Slider       |
 
-📸 View General Settings Screenshots
+📸 View Appearance Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-16.03.21.png)
 
 - - -
 
@@ -365,7 +371,7 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | Webpart Title       | Heading shown above the org chart.                        | Text field   |
 | WebPart Title Color | Colour for the title text, from the site's theme palette. | Dropdown     |
 
-📸 View General Settings Screenshots
+📸 View Header Settings Screenshots
 
 - - -
 
@@ -390,7 +396,7 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | ------ | ------------------------------------------------------------- | ------------ |
 | Layout | Switch between Standard (Layout 1) and Accent Bar (Layout 2). | Dropdown     |
 
-📸 View General Settings Screenshots
+📸 View Layout Settings Screenshots
 
 - - -
 
@@ -400,7 +406,7 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | -------------------------- | ------------------------------------------------------------------------- | ------------ |
 | Height of the Webpart (px) | How tall the org chart display area is. Range: 100–1200 px. Default: 535. | Slider       |
 
-📸 View General Settings Screenshots
+📸 View Appearance Settings Screenshots
 
 - - -
 
@@ -419,7 +425,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 | Hide / Show title         | Toggle the title bar on or off.                                                   | Toggle       |
 | View All URL              | Web address for a "View All Events" link. Visible only when calendar view is off. | Text field   |
 
-📸 View General Settings Screenshots
+📸 View Header Settings Screenshots
 
 - - -
 
@@ -445,7 +451,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 | ------------- | ------------------------------------------------------------- | ------------ |
 | Choose Layout | Switch between Layout 1 (Standard) and Layout 2 (Accent Bar). | Dropdown     |
 
-📸 View General Settings Screenshots
+📸 View Layout Settings Screenshots
 
 - - -
 
@@ -456,7 +462,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 | Show / Hide admin badge | Toggle an admin badge visible only to designated administrators. | Toggle        |
 | Web Part Admin          | People or groups who are administrators of this web part.        | People picker |
 
-📸 View General Settings Screenshots
+📸 View Admin Settings Screenshots
 
 - - -
 
@@ -474,7 +480,7 @@ The Facilities web part showcases your organisation's offices and locations with
 | WebPart Title Theme Color | Colour for the title text, from the site's theme palette. | Dropdown     |
 | Hide / Show title         | Toggle the title bar on or off.                           | Toggle       |
 
-📸 View General Settings Screenshots
+📸 View Header Settings Screenshots
 
 - - -
 
@@ -503,7 +509,7 @@ The Facilities web part showcases your organisation's offices and locations with
 | ------------- | ------------------------------------------------------ | ------------ |
 | Select Layout | Switch between Standard and Accent Bar display styles. | Dropdown     |
 
-📸 View General Settings Screenshots
+📸 View Layout Settings Screenshots
 
 - - -
 
@@ -517,7 +523,7 @@ The Facilities web part showcases your organisation's offices and locations with
 | Select duration to scroll | Seconds each facility is shown before auto-advancing. Range: 1–15 seconds. Visible only when Auto Scroll is on. | Slider       |
 | Height                    | Height of the facilities display area in pixels. Range: 250–600 px.                                             | Slider       |
 
-📸 View General Settings Screenshots
+📸 View Appearance Settings Screenshots
 
 - - -
 
@@ -534,7 +540,7 @@ The Message from CEO web part displays a leadership message with a profile photo
 | Webpart title            | Title shown above the message card (e.g. "Message from the CEO"). | Text field    |
 | Webpart title text color | Colour for the title text.                                        | Colour picker |
 
-📸 View General Settings Screenshots
+📸 View Header Settings Screenshots
 
 - - -
 
@@ -568,7 +574,7 @@ The Message from CEO web part displays a leadership message with a profile photo
 | ------------- | ---------------------------------------------------------------------------------- | ------------ |
 | Choose Layout | Switch between Layout 1 (Standard card) and Layout 2 (Accent Bar with top border). | Dropdown     |
 
-📸 View General Settings Screenshots
+📸 View Layout Settings Screenshots
 
 - - -
 
@@ -580,6 +586,6 @@ The Message from CEO web part displays a leadership message with a profile photo
 | Number of lines to show (content) | How many lines of the message preview are shown before cutting off with a "Read More" prompt. Range: 2–20. Default: 8. | Slider       |
 | Hide the Heading in Modal Popup   | When on, the heading text inside the overlay panel is hidden.                                                          | Toggle       |
 
-📸 View General Settings Screenshots
+📸 View Appearance Settings Screenshots
 
 - - -
