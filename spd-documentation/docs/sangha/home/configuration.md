@@ -2,14 +2,13 @@
 title: Configuration
 sidebar_position: 3
 ---
-
 # Configuration
 
 This page covers how to configure each web part in DIY Intranet Home. All settings are managed through the property panel on the right-hand side of the page — no code or technical knowledge is required.
 
 To open the settings panel, edit the page and click the **pencil icon (✏️)** on any web part.
 
----
+- - -
 
 ## Understanding Layouts
 
@@ -20,17 +19,19 @@ Every web part supports two layout options that can be switched at any time from
 | **Layout 1 — Standard**   | Clean card-based style with borders on all sides of each item.      |
 | **Layout 2 — Accent Bar** | Modern style with a coloured top border only and square icon boxes. |
 
----
+- - -
 
 ## Understanding Theme Colours
 
 All colour dropdowns in DIY Intranet Home read your site's theme palette automatically. When you select a colour, a swatch preview appears below the dropdown so you can see the result before saving. You can also use the full colour picker to enter any custom hex value.
 
----
+- - -
 
 ## 1. Welcome Banner
 
 The Welcome Banner greets each employee by name with a live clock and a customisable background image. Below the greeting, personal dashboard cards surface the user's meetings, tasks, and training from their Microsoft 365 account.
+
+![](assets/banner.png)
 
 ### ⚙️ General Settings
 
@@ -44,15 +45,15 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 
 📸 View General Settings Screenshots
 
----
+- - -
 
-###  📐 Layout Settings
+### 📐 Layout Settings
 
 | Name          | Purpose                                                                                                | Control Type |
 | ------------- | ------------------------------------------------------------------------------------------------------ | ------------ |
 | Choose Layout | Switch between Layout 1 (standard banner) and Layout 2 (banner with a separate dashboard panel below). | Dropdown     |
 
----
+- - -
 
 ### 🎨 Appearance Settings
 
@@ -66,7 +67,7 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 | Enable Gradient                         | Toggle the gradient effect on or off for the dashboard background.                                                                     | Toggle        |
 | Hide Dashboard                          | When on, the personal dashboard cards are hidden and only the greeting banner is shown.                                                | Toggle        |
 
----
+- - -
 
 ### 🤚🏻 Draggable Configuration
 
@@ -75,11 +76,13 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 | Enable Draggable Components | When on, users can drag dashboard cards around and their positions are saved. | Toggle       |
 | Reset Component Positions   | Moves all dashboard cards back to their original default positions.           | Button       |
 
----
+- - -
 
 ## 2. Announcement
 
 The Announcement web part shows a rotating carousel of company messages. Each announcement can include a link, an expiry date for automatic removal, and an optional icon image.
+
+![Announcements](assets/announcements.png "Announcements")
 
 ### 📌 Header Settings
 
@@ -89,7 +92,7 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 | Webpart title             | The heading text shown above the carousel (e.g. "Announcements"). Visible only when the title is on. | Text field   |
 | WebPart Title Theme Color | Colour for the title text, chosen from the site's theme palette. A preview swatch appears below.     | Dropdown     |
 
----
+- - -
 
 ### ⚙️ General Settings
 
@@ -110,7 +113,7 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 
 📸 View General Settings Screenshots
 
----
+- - -
 
 ### ⚙️ Carousel Settings
 
@@ -120,11 +123,13 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 | Enable AutoPlay               | When on, the carousel advances automatically.                                                              | Toggle       |
 | Autoplay Speed (milliseconds) | How long each slide is shown before advancing. Default: 5000 (5 seconds). Active only when AutoPlay is on. | Text field   |
 
----
+- - -
 
 ## 3. Featured News
 
 The Featured News web part aggregates SharePoint news posts from one or more sites and displays them in a variety of layouts. It also supports RSS feeds and audience targeting.
+
+![](assets/news.png)
 
 ### 📌 Header Settings
 
@@ -134,7 +139,7 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 | Webpart title color | Colour for the title text, from the site's theme palette. | Dropdown     |
 | Hide / Show title   | Toggle the title bar on or off.                           | Toggle       |
 
----
+- - -
 
 ### ⚙️ General Settings
 
@@ -157,9 +162,9 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 
 📸 View General Settings Screenshots
 
----
+- - -
 
-###  📐 Layout Settings
+### 📐 Layout Settings
 
 | Name                    | Purpose                                                                                         | Control Type  |
 | ----------------------- | ----------------------------------------------------------------------------------------------- | ------------- |
@@ -167,7 +172,7 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 | Border Color            | Colour of the top accent border. Visible only in Layout 2.                                      | Colour picker |
 | Items to show per slide | Number of news cards shown side-by-side in the filmstrip. Range: 1–6. Visible only in Layout 2. | Slider        |
 
----
+- - -
 
 ### 🛠 Admin Settings
 
@@ -176,11 +181,13 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 | Show / Hide admin badge | Toggle an admin badge visible only to designated administrators.                    | Toggle        |
 | Web Part Admin          | People or groups who are administrators of this web part. They see the admin badge. | People picker |
 
----
+- - -
 
-## 4. Common Tools
+## 4. Quicklinks
 
-The Common Tools web part is a quick links panel for the apps and tools your team uses every day. Each link supports a title, URL, Fluent UI icon, and open-in option.
+The Quicklinks web part is a quick links panel for the apps and tools your team uses every day. Each link supports a title, URL, Fluent UI icon, and open-in option.
+
+![Quicklinks](assets/quicklinks.png "Quicklinks")
 
 ### 📌 Header Settings
 
@@ -190,7 +197,7 @@ The Common Tools web part is a quick links panel for the apps and tools your tea
 | WebPart Title Theme Color | Colour for the title text, from the site's theme palette. | Dropdown     |
 | Hide / Show title         | Toggle the title bar on or off.                           | Toggle       |
 
----
+- - -
 
 ### ⚙️ General Settings
 
@@ -210,15 +217,15 @@ The Common Tools web part is a quick links panel for the apps and tools your tea
 
 📸 View General Settings Screenshots
 
----
+- - -
 
-###  📐 Layout Settings
+### 📐 Layout Settings
 
 | Name          | Purpose                                                                         | Control Type |
 | ------------- | ------------------------------------------------------------------------------- | ------------ |
 | Select Layout | Switch between Standard (icon tile grid) and Accent Bar (list with top border). | Dropdown     |
 
----
+- - -
 
 ### 🎨 Appearance Settings
 
@@ -229,11 +236,13 @@ The Common Tools web part is a quick links panel for the apps and tools your tea
 | Icon Background & Color Theme | Background and icon colour theme for icon boxes. Shown only in Accent Bar layout. | Dropdown     |
 | Button Hover Theme            | Hover colour theme for link tiles, from the site's theme palette.                 | Dropdown     |
 
----
+- - -
 
 ## 5. Employee Spotlight
 
 The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries, and recent new joiners. Data is pulled automatically from Azure Active Directory or managed manually.
+
+![](assets/spotlight.png)
 
 ### 📌 Header Settings
 
@@ -243,7 +252,7 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 | WebPart Title Theme Color | Colour for the title text, from the site's theme palette.              | Dropdown     |
 | Hide / Show title         | Toggle the title bar on or off.                                        | Toggle       |
 
----
+- - -
 
 ### ⚙️ General Settings
 
@@ -268,16 +277,16 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 
 📸 View General Settings Screenshots
 
----
+- - -
 
-###  📐 Layout Settings
+### 📐 Layout Settings
 
 | Name          | Purpose                                                            | Control Type |
 | ------------- | ------------------------------------------------------------------ | ------------ |
 | Choose Layout | Switch between Layout 1 (Standard) and Layout 2 (Accent Bar).      | Dropdown     |
 | See All URL   | Web address for a "See All" link at the top-right of the web part. | Text field   |
 
----
+- - -
 
 ### 🎨 Appearance Settings
 
@@ -285,11 +294,13 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 | ---------------------- | -------------------------------------------------------------------------------- | ------------ |
 | Card Photo Height (px) | Height of the employee photo area on each card. Range: 140–400 px. Default: 240. | Slider       |
 
----
+- - -
 
 ## 6. Org Chart
 
 The Org Chart web part draws an interactive organisational tree from Microsoft 365. Hover over any person to see their contact details.
+
+![](assets/directory.png)
 
 ### 📌 Header Settings
 
@@ -298,7 +309,7 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | Webpart Title       | Heading shown above the org chart.                        | Text field   |
 | WebPart Title Color | Colour for the title text, from the site's theme palette. | Dropdown     |
 
----
+- - -
 
 ### ⚙️ General Settings
 
@@ -313,15 +324,15 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 
 📸 View General Settings Screenshots
 
----
+- - -
 
-###  📐 Layout Settings
+### 📐 Layout Settings
 
 | Name   | Purpose                                                       | Control Type |
 | ------ | ------------------------------------------------------------- | ------------ |
 | Layout | Switch between Standard (Layout 1) and Accent Bar (Layout 2). | Dropdown     |
 
----
+- - -
 
 ### 🎨 Appearance Settings
 
@@ -329,11 +340,13 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | -------------------------- | ------------------------------------------------------------------------- | ------------ |
 | Height of the Webpart (px) | How tall the org chart display area is. Range: 100–1200 px. Default: 535. | Slider       |
 
----
+- - -
 
 ## 7. Upcoming Events
 
 The Upcoming Events web part shows company events and dates from a SharePoint calendar, a shared mailbox, or the logged-in user's Outlook calendar.
+
+![](assets/calendar.png)
 
 ### 📌 Header Settings
 
@@ -344,7 +357,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 | Hide / Show title         | Toggle the title bar on or off.                                                   | Toggle       |
 | View All URL              | Web address for a "View All Events" link. Visible only when calendar view is off. | Text field   |
 
----
+- - -
 
 ### ⚙️ General Settings
 
@@ -360,15 +373,15 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 
 📸 View General Settings Screenshots
 
----
+- - -
 
-###  📐 Layout Settings
+### 📐 Layout Settings
 
 | Name          | Purpose                                                       | Control Type |
 | ------------- | ------------------------------------------------------------- | ------------ |
 | Choose Layout | Switch between Layout 1 (Standard) and Layout 2 (Accent Bar). | Dropdown     |
 
----
+- - -
 
 ### 🛠 Admin Settings
 
@@ -377,11 +390,13 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 | Show / Hide admin badge | Toggle an admin badge visible only to designated administrators. | Toggle        |
 | Web Part Admin          | People or groups who are administrators of this web part.        | People picker |
 
----
+- - -
 
 ## 8. Facilities
 
 The Facilities web part showcases your organisation's offices and locations with photos, descriptions, and map links.
+
+![](assets/facilities.png)
 
 ### 📌 Header Settings
 
@@ -391,7 +406,7 @@ The Facilities web part showcases your organisation's offices and locations with
 | WebPart Title Theme Color | Colour for the title text, from the site's theme palette. | Dropdown     |
 | Hide / Show title         | Toggle the title bar on or off.                           | Toggle       |
 
----
+- - -
 
 ### ⚙️ General Settings
 
@@ -410,15 +425,15 @@ The Facilities web part showcases your organisation's offices and locations with
 
 📸 View General Settings Screenshots
 
----
+- - -
 
-###  📐 Layout Settings
+### 📐 Layout Settings
 
 | Name          | Purpose                                                | Control Type |
 | ------------- | ------------------------------------------------------ | ------------ |
 | Select Layout | Switch between Standard and Accent Bar display styles. | Dropdown     |
 
----
+- - -
 
 ### 🎨 Appearance Settings
 
@@ -430,11 +445,13 @@ The Facilities web part showcases your organisation's offices and locations with
 | Select duration to scroll | Seconds each facility is shown before auto-advancing. Range: 1–15 seconds. Visible only when Auto Scroll is on. | Slider       |
 | Height                    | Height of the facilities display area in pixels. Range: 250–600 px.                                             | Slider       |
 
----
+- - -
 
 ## 9. Message from CEO
 
 The Message from CEO web part displays a leadership message with a profile photo, designation, and message body. The full message opens in a modal overlay when users click to read more.
+
+![](assets/ceomessage.png)
 
 ### 📌 Header Settings
 
@@ -443,7 +460,7 @@ The Message from CEO web part displays a leadership message with a profile photo
 | Webpart title            | Title shown above the message card (e.g. "Message from the CEO"). | Text field    |
 | Webpart title text color | Colour for the title text.                                        | Colour picker |
 
----
+- - -
 
 ### ⚙️ General Settings
 
@@ -467,15 +484,15 @@ The Message from CEO web part displays a leadership message with a profile photo
 
 📸 View General Settings Screenshots
 
----
+- - -
 
-###  📐 Layout Settings
+### 📐 Layout Settings
 
 | Name          | Purpose                                                                            | Control Type |
 | ------------- | ---------------------------------------------------------------------------------- | ------------ |
 | Choose Layout | Switch between Layout 1 (Standard card) and Layout 2 (Accent Bar with top border). | Dropdown     |
 
----
+- - -
 
 ### 🎨 Appearance Settings
 
@@ -484,21 +501,3 @@ The Message from CEO web part displays a leadership message with a profile photo
 | Height of the Webpart (px)        | How tall the message card is. Range: 65–700 px.                                                                        | Slider       |
 | Number of lines to show (content) | How many lines of the message preview are shown before cutting off with a "Read More" prompt. Range: 2–20. Default: 8. | Slider       |
 | Hide the Heading in Modal Popup   | When on, the heading text inside the overlay panel is hidden.                                                          | Toggle       |
-
----
-
-## 10. SetUp Launcher
-
-The SetUp Launcher is a guided wizard that configures your site on first use. It appears as a button in the top navigation bar, visible to site administrators only.
-
-### ⚙️ Wizard Steps
-
-| Step                         | What happens                                                                                                               |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| **1 — Welcome**              | Introduction to the setup process and what will be configured.                                                             |
-| **2 — Branding**             | Set your organisation's name, logo, and colour theme.                                                                      |
-| **3 — Organisation Details** | Enter details such as the organisation name and description.                                                               |
-| **4 — Choose Template**      | Select a pre-built page layout template from the available options, with a live preview.                                   |
-| **5 — Apply**                | The wizard provisions all required lists, applies the chosen branding, and places all web parts on the page automatically. |
-
-> **Note:** The wizard only needs to be run once. After setup is complete, all web parts can be configured individually through their own settings panels. Re-running the wizard will overwrite existing page content.
