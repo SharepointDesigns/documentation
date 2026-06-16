@@ -157,7 +157,7 @@ Review the available plans and activate the one that fits your organization.
 | Plan                 | Monthly Price | Pages Included                                                         |
 | -------------------- | ------------- | ---------------------------------------------------------------------- |
 | Free Trial (15 days) | $0            | All pages — full access for evaluation                                 |
-| Spark                | $199/month    | Homepage, Personal Dashboard, Admin Dashboard                          |
+| Spark                | $199/month    | Homepage, Personal Dashboard, Admin Dashboard, AI based navigation     |
 | Flame                | $499/month    | Spark pages + Departments, Employee Resources                          |
 | Blaze                | $999/month    | Flame pages + Document Center, Employee Directory, Employee Onboarding |
 
