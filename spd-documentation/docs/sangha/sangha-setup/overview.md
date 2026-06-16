@@ -92,7 +92,7 @@ The wizard collects basic information about the organization to personalize the 
 
 ### Step 3 — Branding Configuration
 
-![Branding Screen](assets/screenshot-2026-06-16-112706.png "Branding Screen")
+![Branding Screen With Site Logo Configuration](assets/screenshot-2026-06-16-112706.png "Branding Screen With Site Logo Configuration")
 
 ![Branding - Theme Configuration](assets/screenshot-2026-06-16-122801.png "Branding - Theme Configuration")
 
