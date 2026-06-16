@@ -161,6 +161,10 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 | Webpart title color | Colour for the title text, from the site's theme palette. | Dropdown     |
 | Hide / Show title   | Toggle the title bar on or off.                           | Toggle       |
 
+📸 View Header Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-15.45.07.png)
+
 - - -
 
 ### ⚙️ General Settings
@@ -184,6 +188,10 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 
 📸 View General Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-15.45.29.png)
+
+![](assets/screenshot-2026-06-16-at-15.45.37.png)
+
 - - -
 
 ### 📐 Layout Settings
@@ -194,6 +202,10 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 | Border Color            | Colour of the top accent border. Visible only in Layout 2.                                      | Colour picker |
 | Items to show per slide | Number of news cards shown side-by-side in the filmstrip. Range: 1–6. Visible only in Layout 2. | Slider        |
 
+📸 View Draggable Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-15.45.57.png)
+
 - - -
 
 ### 🛠 Admin Settings
@@ -202,6 +214,10 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 | ----------------------- | ----------------------------------------------------------------------------------- | ------------- |
 | Show / Hide admin badge | Toggle an admin badge visible only to designated administrators.                    | Toggle        |
 | Web Part Admin          | People or groups who are administrators of this web part. They see the admin badge. | People picker |
+
+📸 View Draggable Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-15.46.04.png)
 
 - - -
 
