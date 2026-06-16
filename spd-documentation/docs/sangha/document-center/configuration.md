@@ -8,11 +8,11 @@ Each web part is configured through its **settings panel**. To open it, click th
 
 ## 1. Document Welcome Banner
 
+The Document Welcome Banner is the full-width hero at the top of the page. It displays a background image and a department or page title that identifies the document area to visitors.
+
 📸 View Document Welcome Banner
 
 ![Document Welcome Banner](assets/screenshot-2026-06-16-153402.png "Document Welcome Banner")
-
-The Document Welcome Banner is the full-width hero at the top of the page. It displays a background image and a department or page title that identifies the document area to visitors.
 
 ### 📌 Header Settings
 
@@ -57,6 +57,10 @@ The Document Welcome Banner is the full-width hero at the top of the page. It di
 
 Document Contents is the main document browsing section. It pulls files from a SharePoint library and presents them in a chosen view, with optional filtering by folder, category, and file type.
 
+📸 View Document Contents
+
+![Document Contents](assets/screenshot-2026-06-16-154649.png "Document Contents")
+
 ### 📌 Header Settings
 
 | Name              | Purpose                                                                                               | Control Type          |
@@ -67,6 +71,10 @@ Document Contents is the main document browsing section. It pulls files from a S
 | Custom Font Size  | Exact font size in pixels (visible only when Heading Level is set to Custom)                          | Slider (10–68 px)     |
 | Title Theme Color | Picks a colour for the title from the site theme palette (visible only when a title is entered)       | Theme colour dropdown |
 | Show See All      | Shows a "See All" link that opens the full library (visible only when Source is "A document library") | Toggle                |
+
+📸 View Header Settings Screenshot
+
+![Header Settings](assets/screenshot-2026-06-16-154908.png "Header Settings")
 
 - - -
 
@@ -86,6 +94,14 @@ Document Contents is the main document browsing section. It pulls files from a S
 | Include File Types         | Limit results to Videos or Images (visible only when Source is "This site")                              | Multi-select   |
 | Number of Items to Display | Maximum number of files to show (1–4999)                                                                 | Number field   |
 
+📸 View General Settings Screenshot
+
+![This Site General Settings](assets/screenshot-2026-06-16-155003.png "This Site General Settings")
+
+![Multiple Library General Settings](assets/screenshot-2026-06-16-155036.png "Multiple Library General Settings")
+
+![Multi Sites General Settings](assets/screenshot-2026-06-16-155152.png "Multi Sites General Settings")
+
 - - -
 
 ### 📐 Layout Settings
@@ -94,6 +110,10 @@ Document Contents is the main document browsing section. It pulls files from a S
 | --------------------------- | ------------------------------------------------------------------------ | ------------ |
 | Selected Design             | Switch between Standard (all-round border) and Accent Bar (top bar only) | Dropdown     |
 | Hide This Web Part if Empty | Hides the entire web part when no documents match the current filter     | Checkbox     |
+
+📸 View Layout Settings Screenshot
+
+![Layout Settings](assets/screenshot-2026-06-16-155256.png "Layout Settings")
 
 - - -
 
@@ -104,13 +124,21 @@ Document Contents is the main document browsing section. It pulls files from a S
 | Hide Category Filter | Hides the category filter tabs visible to users (visible only when Source is "A document library") | Toggle               |
 | Height               | Controls the height of the document section                                                        | Slider (400–2000 px) |
 
-📸 View Document Contents Screenshots *(add screenshots here)*
+📸 View Appearance Settings Screenshot
+
+![Appearance Settings](assets/screenshot-2026-06-16-155323.png "Appearance Settings")
 
 - - -
 
 ## 3. FAQs
 
 FAQs displays a list of questions and answers as an expandable accordion. Questions can come from a SharePoint list or be entered and managed directly within the web part settings.
+📸 View FAQs
+
+
+![FAQs](assets/screenshot-2026-06-16-155917.png "FAQs")
+
+![](<>)
 
 ### 📌 Header Settings
 
@@ -118,6 +146,10 @@ FAQs displays a list of questions and answers as an expandable accordion. Questi
 | ----------------- | ----------------------------------------------------------------------------------------------- | --------------------- |
 | Webpart Title     | The heading shown above the FAQ list                                                            | Text field            |
 | Title Theme Color | Picks a colour for the title from the site theme palette (visible only when a title is entered) | Theme colour dropdown |
+
+📸 View Header Settings Screenshot
+
+![Header Settings](assets/screenshot-2026-06-16-160001.png "Header Settings")
 
 - - -
 
@@ -135,20 +167,29 @@ FAQs displays a list of questions and answers as an expandable accordion. Questi
 | View All URL      | URL for the "View All" link (visible only when Display All Items is off)                                       | Text field    |
 | Sort By           | Sort order for FAQ items: Default, Ascending, or Descending                                                    | Dropdown      |
 
+📸 View General Settings Screenshot
+
+![General Settings](assets/screenshot-2026-06-16-160801.png "General Settings")
+
+![General Settings](assets/screenshot-2026-06-16-160814.png "General Settings")
+
 **FAQ Items Panel Fields:**
 
-| Field        | Purpose                                                  |
-| ------------ | -------------------------------------------------------- |
-| FAQ Question | The question text displayed in the accordion header      |
-| Description  | The answer text shown when the accordion row is expanded |
+| Field       | Purpose                                                  |
+| ----------- | -------------------------------------------------------- |
+| Order       | Order to show items in UI                                |
+| Description | The answer text shown when the accordion row is expanded |
 
-📸 View FAQs Screenshots *(add screenshots here)*
+
 
 - - -
 
 ## 4. Contact
 
 Contact displays one or more key contacts with their photo, name, role, and a description. Choose between showing two named contacts side by side or building a full multi-person collection.
+📸 View Contact
+
+![Contact](assets/screenshot-2026-06-16-155936.png "Contact")
 
 ### 📌 Header Settings
 
@@ -157,6 +198,10 @@ Contact displays one or more key contacts with their photo, name, role, and a de
 | Webpart Title for Contact 1 | Heading for the first contact card (visible only when Layout is "User Selection")  | Text field            |
 | Webpart Title for Contact 2 | Heading for the second contact card (visible only when Layout is "User Selection") | Text field            |
 | Title Theme Color           | Picks a colour for the contact heading text from the site theme palette            | Theme colour dropdown |
+
+📸 View Header Settings Screenshot
+
+![Header Settings](assets/screenshot-2026-06-16-160830.png "Header Settings")
 
 - - -
 
@@ -170,6 +215,13 @@ Contact displays one or more key contacts with their photo, name, role, and a de
 | Description 2      | Short text shown below the second contact's name (visible only when Layout is "User Selection")                 | Text field          |
 | Contact Collection | Opens a panel to add, edit, and manage multiple contact entries (visible only when Layout is "Collection View") | Manage panel        |
 | Height             | Controls the height of the contact section                                                                      | Slider (200–500 px) |
+
+📸 View General Settings Screenshot
+
+![General Settings](assets/screenshot-2026-06-16-160855.png "General Settings")
+
+![General Settings](assets/screenshot-2026-06-16-160911.png "General Settings")
+
 
 **Contact Collection Panel Fields:**
 
@@ -190,4 +242,6 @@ Contact displays one or more key contacts with their photo, name, role, and a de
 | Selected Design            | Switch between Standard and Accent Bar                                                    | Dropdown     |
 | Show Shadow                | Adds a drop shadow to the contact cards                                                   | Toggle       |
 
-📸 View Contact Screenshots *(add screenshots here)*
+📸 View Layout Settings Screenshot
+
+![Layout Settings](assets/screenshot-2026-06-16-160844.png "Layout Settings")
