@@ -459,8 +459,6 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 | ------------- | ------------------------------------------------------------- | ------------ |
 | Choose Layout | Switch between Layout 1 (Standard) and Layout 2 (Accent Bar). | Dropdown     |
 
-
-
 - - -
 
 ### 🛠 Admin Settings
@@ -492,6 +490,8 @@ The Facilities web part showcases your organisation's offices and locations with
 
 📸 View Header Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-16.24.56.png)
+
 - - -
 
 ### ⚙️ General Settings
@@ -511,6 +511,8 @@ The Facilities web part showcases your organisation's offices and locations with
 
 📸 View General Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-16.25.02.png)
+
 - - -
 
 ### 📐 Layout Settings
@@ -520,6 +522,8 @@ The Facilities web part showcases your organisation's offices and locations with
 | Select Layout | Switch between Standard and Accent Bar display styles. | Dropdown     |
 
 📸 View Layout Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-16.25.07.png)
 
 - - -
 
@@ -534,6 +538,8 @@ The Facilities web part showcases your organisation's offices and locations with
 | Height                    | Height of the facilities display area in pixels. Range: 250–600 px.                                             | Slider       |
 
 📸 View Appearance Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-16.25.11.png)
 
 - - -
 
@@ -551,6 +557,8 @@ The Message from CEO web part displays a leadership message with a profile photo
 | Webpart title text color | Colour for the title text.                                        | Colour picker |
 
 📸 View Header Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-16.26.23.png)
 
 - - -
 
@@ -576,6 +584,8 @@ The Message from CEO web part displays a leadership message with a profile photo
 
 📸 View General Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-16.26.27.png)
+
 - - -
 
 ### 📐 Layout Settings
@@ -584,7 +594,7 @@ The Message from CEO web part displays a leadership message with a profile photo
 | ------------- | ---------------------------------------------------------------------------------- | ------------ |
 | Choose Layout | Switch between Layout 1 (Standard card) and Layout 2 (Accent Bar with top border). | Dropdown     |
 
-📸 View Layout Settings Screenshots
+
 
 - - -
 
@@ -597,5 +607,7 @@ The Message from CEO web part displays a leadership message with a profile photo
 | Hide the Heading in Modal Popup   | When on, the heading text inside the overlay panel is hidden.                                                          | Toggle       |
 
 📸 View Appearance Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-16.26.33.png)
 
 - - -
