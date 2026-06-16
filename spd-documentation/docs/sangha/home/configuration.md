@@ -373,6 +373,8 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 
 📸 View Header Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-16.12.33.png)
+
 - - -
 
 ### ⚙️ General Settings
@@ -388,6 +390,8 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 
 📸 View General Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-16.12.41.png)
+
 - - -
 
 ### 📐 Layout Settings
@@ -395,8 +399,6 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | Name   | Purpose                                                       | Control Type |
 | ------ | ------------------------------------------------------------- | ------------ |
 | Layout | Switch between Standard (Layout 1) and Accent Bar (Layout 2). | Dropdown     |
-
-📸 View Layout Settings Screenshots
 
 - - -
 
@@ -407,6 +409,8 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | Height of the Webpart (px) | How tall the org chart display area is. Range: 100–1200 px. Default: 535. | Slider       |
 
 📸 View Appearance Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-16.13.07.png)
 
 - - -
 
@@ -427,6 +431,8 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 
 📸 View Header Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-16.14.12.png)
+
 - - -
 
 ### ⚙️ General Settings
@@ -443,6 +449,8 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 
 📸 View General Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-16.14.18.png)
+
 - - -
 
 ### 📐 Layout Settings
@@ -451,7 +459,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 | ------------- | ------------------------------------------------------------- | ------------ |
 | Choose Layout | Switch between Layout 1 (Standard) and Layout 2 (Accent Bar). | Dropdown     |
 
-📸 View Layout Settings Screenshots
+
 
 - - -
 
@@ -463,6 +471,8 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 | Web Part Admin          | People or groups who are administrators of this web part.        | People picker |
 
 📸 View Admin Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-16.14.33.png)
 
 - - -
 
