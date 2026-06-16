@@ -9,7 +9,6 @@ Each web part is configured through its **settings panel**. To open it, click th
 ## 1. Employee Welcome Banner
 
 The Employee Welcome Banner is the branded hero at the top of the directory page. It displays a full-width background image with an overlay title that names the page for visitors.
-📸 View Employee Welcome Banner
 
 ![Employee Directory Welcome Banner](assets/screenshot-2026-06-16-164110.png "Employee Directory Welcome Banner")
 
@@ -55,8 +54,6 @@ The Employee Welcome Banner is the branded hero at the top of the directory page
 ## 2. Employee Directory
 
 Employee Directory automatically reads all active user profiles from Microsoft 365 and presents them as a searchable, filterable staff list. Employees can search by name, department, or job title without any content management by the admin.
-
-📸 View Employee Directory
 
 ![Employee Directory](assets/screenshot-2026-06-16-164632.png "Employee Directory")
 
