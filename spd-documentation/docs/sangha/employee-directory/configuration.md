@@ -56,6 +56,10 @@ The Employee Welcome Banner is the branded hero at the top of the directory page
 
 Employee Directory automatically reads all active user profiles from Microsoft 365 and presents them as a searchable, filterable staff list. Employees can search by name, department, or job title without any content management by the admin.
 
+📸 View Employee Directory
+
+![Employee Directory](assets/screenshot-2026-06-16-164632.png "Employee Directory")
+
 ### ⚙️ General Settings
 
 | Name              | Purpose                                                                                   | Control Type  |
@@ -65,4 +69,6 @@ Employee Directory automatically reads all active user profiles from Microsoft 3
 
 > **Note:** The directory content is populated automatically from Microsoft 365. There are no manual content settings — only pagination and exclusion controls.
 
-📸 View Employee Directory Screenshots *(add screenshots here)*
+📸 View General Settings Screenshots
+
+![General Settings](assets/screenshot-2026-06-16-164824.png "General Settings")
