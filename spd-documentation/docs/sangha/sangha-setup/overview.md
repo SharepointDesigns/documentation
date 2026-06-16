@@ -104,7 +104,7 @@ The wizard collects basic information about the organization to personalize the 
 
 Administrators apply the organization's visual identity — logo, colors, fonts, and layout style.
 
-**What administrators do:** Upload a logo, review auto-suggested brand colors, adjust if needed, choose a font, select a page layout, and set display preferences such as rounded corners or dark mode.
+**What administrators do:** Upload a logo, review auto-suggested brand colors, adjust if needed, choose a font, select a page layout, and set display preferences such as rounded corners.
 **What happens after:** The logo is saved, brand colors are applied as a SharePoint theme, and the selected fonts and layout settings are activated across the site.
 
 - - -
@@ -166,7 +166,7 @@ After deployment, administrators can create additional pages from pre-built temp
 | Branding Configuration | Upload a logo, set brand colors, choose fonts, select layout styles, and apply a favicon — all reflected across the entire site                  |
 | Navigation Setup       | Build a multi-level top navigation with icons, sub-menus, audience targeting, and a drag-and-drop editor                                         |
 | Site Provisioning      | Automatically creates SharePoint lists, document libraries, site pages, and content columns required by each intranet page                       |
-| Theme Application      | Generates and applies a custom SharePoint theme using your brand colors, including light and dark mode options                                   |
+| Theme Application      | Generates and applies a custom SharePoint theme using your brand colors                                                                          |
 | Permission Assignment  | Assigns users to Admin, Owner, and Contributor roles and controls whether the site is open to all staff, internal users only, or specific groups |
 | Content Setup          | Populates pages with starter content including sample news, announcements, events, and department structures                                     |
 | Page Templates         | Provides a template gallery for creating additional custom pages after the initial deployment                                                    |
