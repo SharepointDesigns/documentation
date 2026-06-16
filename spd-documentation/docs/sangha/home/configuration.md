@@ -400,8 +400,6 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | ------ | ------------------------------------------------------------- | ------------ |
 | Layout | Switch between Standard (Layout 1) and Accent Bar (Layout 2). | Dropdown     |
 
-
-
 - - -
 
 ### 🎨 Appearance Settings
@@ -433,6 +431,8 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 
 📸 View Header Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-16.14.12.png)
+
 - - -
 
 ### ⚙️ General Settings
@@ -449,6 +449,8 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 
 📸 View General Settings Screenshots
 
+![](assets/screenshot-2026-06-16-at-16.14.18.png)
+
 - - -
 
 ### 📐 Layout Settings
@@ -457,7 +459,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 | ------------- | ------------------------------------------------------------- | ------------ |
 | Choose Layout | Switch between Layout 1 (Standard) and Layout 2 (Accent Bar). | Dropdown     |
 
-📸 View Layout Settings Screenshots
+
 
 - - -
 
@@ -469,6 +471,8 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 | Web Part Admin          | People or groups who are administrators of this web part.        | People picker |
 
 📸 View Admin Settings Screenshots
+
+![](assets/screenshot-2026-06-16-at-16.14.33.png)
 
 - - -
 
