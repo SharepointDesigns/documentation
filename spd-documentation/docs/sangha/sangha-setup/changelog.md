@@ -7,7 +7,7 @@ All notable changes to Intranet Sangha are documented here. Versions are listed 
 
 ---
 
-## 0.0.0.1 — 2026-06-15
+## 1.0.0.0 — 2026-06-15
 
 This is the initial release of Intranet Sangha by SharePoint Designs.
 

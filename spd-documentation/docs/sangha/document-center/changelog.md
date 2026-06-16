@@ -3,7 +3,7 @@ title: Changelog
 sidebar_position: 5
 ---
 
-## v0.0.0.1 — 2026-06-15
+## v1.0.0.0 — 2026-06-15
 
 ### Initial Release
 

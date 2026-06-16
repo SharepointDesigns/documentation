@@ -6,7 +6,7 @@ sidebar_position: 1
 # DIY Intranet Home — Solution Overview
 
 **Product:** DIY Intranet Home by SharePoint Designs  
-**Version:** 0.0.0.1  
+**Version:** 1.0.0.0  
 **Compatible with:** SharePoint Online (Microsoft 365)
 
 ---

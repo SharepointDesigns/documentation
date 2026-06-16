@@ -59,5 +59,5 @@ DIY Sangha Document Center is a ready-built SharePoint page solution that gives 
 
 ## Version
 
-**Current Version:** 0.0.0.1
+**Current Version:** 1.0.0.0
 **Developed by:** SharePoint Designs — [www.sharepointdesigns.com](https://www.sharepointdesigns.com)

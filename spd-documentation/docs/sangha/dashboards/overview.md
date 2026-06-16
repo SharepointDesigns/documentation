@@ -5,7 +5,7 @@ sidebar_position: 1
 
 > **Product:** Dashboard Suite by SharePoint Designs
 > **Version:** 0.0.1
-> **Package Version:** 0.0.0.1
+> **Package Version:** 1.0.0.0
 > **SharePoint Framework Version:** 1.22.2
 > **Compatible with:** SharePoint Online (Microsoft 365)
 

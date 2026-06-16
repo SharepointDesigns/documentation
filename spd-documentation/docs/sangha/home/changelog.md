@@ -9,7 +9,7 @@ All notable changes to DIY Intranet Home by SharePoint Designs are recorded here
 
 ---
 
-## [0.0.0.1] — 2026-06-15
+## [1.0.0.0] — 2026-06-15
 
 ### Initial Release
 

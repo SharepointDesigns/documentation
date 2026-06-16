@@ -76,5 +76,5 @@ When you run the Configure Site Sub Pages wizard, it automatically provisions th
 
 ## Version
 
-**Current Version:** 0.0.0.1
+**Current Version:** 1.0.0.0
 **Developed by:** SharePoint Designs — [www.sharepointdesigns.com](https://www.sharepointdesigns.com)

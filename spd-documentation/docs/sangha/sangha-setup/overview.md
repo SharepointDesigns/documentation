@@ -20,7 +20,7 @@ Organizations use Intranet Sangha to eliminate the weeks of manual work typicall
 | Item              | Details                                     |
 | ----------------- | ------------------------------------------- |
 | Product Name      | Intranet Sangha Setup by SharePoint Designs |
-| Version           | 0.0.0.1                                     |
+| Version           | 1.0.0.0                                     |
 | Compatible With   | SharePoint Online (Microsoft 365)           |
 | Deployment Type   | SharePoint Online                           |
 | Intended Audience | Administrators, Site Owners                 |
