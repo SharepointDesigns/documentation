@@ -92,7 +92,7 @@ The wizard collects basic information about the organization to personalize the 
 
 ### Step 3 — Branding Configuration
 
-
+![Branding Screen](assets/screenshot-2026-06-16-112706.png "Branding Screen")
 
 Administrators apply the organization's visual identity — logo, colors, fonts, and layout style.
 
