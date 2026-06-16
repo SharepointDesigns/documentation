@@ -2,14 +2,13 @@
 title: Overview
 sidebar_position: 1
 ---
-
 # DIY Intranet Home — Solution Overview
 
-**Product:** DIY Intranet Home by SharePoint Designs  
-**Version:** 1.0.0.0  
+**Product:** DIY Intranet Home by SharePoint Designs\
+**Version:** 1.0.0.0\
 **Compatible with:** SharePoint Online (Microsoft 365)
 
----
+- - -
 
 ## What Is DIY Intranet Home?
 
@@ -17,7 +16,7 @@ DIY Intranet Home is a ready-to-use SharePoint intranet solution that turns a bl
 
 It comes with nine purpose-built web parts that you can add to any modern SharePoint page. Each web part is self-contained, independently configurable, and designed to work together to create a polished employee experience.
 
----
+- - -
 
 ## Who Is It For?
 
@@ -27,7 +26,7 @@ It comes with nine purpose-built web parts that you can add to any modern ShareP
 | **End users / employees**        | View personalised greetings, read news and announcements, find events, explore the org chart, and access quick links |
 | **IT / deployment team**         | Install the solution package to the App Catalog and approve API permissions                                          |
 
----
+- - -
 
 ## What Does It Include?
 
@@ -47,24 +46,21 @@ DIY Intranet Home includes nine web parts that you can place anywhere on a Share
 
 It also includes a **SetUp Wizard** that walks you through provisioning the site on first use — creating the required lists, applying branding, and placing web parts on the page automatically.
 
----
+- - -
 
 ## Key Highlights
 
-- **No coding required.** All configuration is done through the SharePoint settings panel on the right-hand side of the page.
-- **Consistent design.** Every web part follows the same look-and-feel and respects your site's theme colours automatically.
-- **Two layouts per web part.** Switch between Standard and Accent Bar layouts with a single dropdown — no page rebuilding needed.
-- **Theme-aware colours.** The colour pickers in each web part pull from your site's theme palette, so colours always stay on-brand.
-- **Live previews.** Colour selections show a preview swatch before you save.
-- **Loading states.** All web parts show a smooth shimmer animation while data is loading, instead of a blank page.
+* **No coding required.** All configuration is done through the SharePoint settings panel on the right-hand side of the page.
+* **Consistent design.** Every web part follows the same look-and-feel and respects your site's theme colours automatically.
+* **Two layouts per web part.** Switch between Standard and Accent Bar layouts with a single dropdown — no page rebuilding needed.
+* **Theme-aware colours.** The colour pickers in each web part pull from your site's theme palette, so colours always stay on-brand.
+* **Live previews.** Colour selections show a preview swatch before you save.
+* **Loading states.** All web parts show a smooth shimmer animation while data is loading, instead of a blank page.
 
----
+- - -
 
 ## Supported Microsoft 365 Environments
 
-- SharePoint Online modern pages
-- Microsoft Teams (as a tab)
-- Microsoft Office (web)
-- Microsoft Outlook (web)
+* SharePoint Online modern pages
 
----
+- - -
