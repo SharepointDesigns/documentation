@@ -10,8 +10,6 @@ Each web part is configured through its **settings panel**. To open it, click th
 
 The Document Welcome Banner is the full-width hero at the top of the page. It displays a background image and a department or page title that identifies the document area to visitors.
 
-📸 View Document Welcome Banner
-
 ![Document Welcome Banner](assets/screenshot-2026-06-16-153402.png "Document Welcome Banner")
 
 ### 📌 Header Settings
@@ -56,8 +54,6 @@ The Document Welcome Banner is the full-width hero at the top of the page. It di
 ## 2. Document Contents
 
 Document Contents is the main document browsing section. It pulls files from a SharePoint library and presents them in a chosen view, with optional filtering by folder, category, and file type.
-
-📸 View Document Contents
 
 ![Document Contents](assets/screenshot-2026-06-16-154649.png "Document Contents")
 
@@ -133,8 +129,6 @@ Document Contents is the main document browsing section. It pulls files from a S
 ## 3. FAQs
 
 FAQs displays a list of questions and answers as an expandable accordion. Questions can come from a SharePoint list or be entered and managed directly within the web part settings.
-📸 View FAQs
-
 
 ![FAQs](assets/screenshot-2026-06-16-155917.png "FAQs")
 
@@ -178,14 +172,11 @@ FAQs displays a list of questions and answers as an expandable accordion. Questi
 | Order       | Order to show items in UI                                |
 | Description | The answer text shown when the accordion row is expanded |
 
-
-
 - - -
 
 ## 4. Contact
 
 Contact displays one or more key contacts with their photo, name, role, and a description. Choose between showing two named contacts side by side or building a full multi-person collection.
-📸 View Contact
 
 ![Contact](assets/screenshot-2026-06-16-155936.png "Contact")
 
@@ -219,7 +210,6 @@ Contact displays one or more key contacts with their photo, name, role, and a de
 ![General Settings](assets/screenshot-2026-06-16-160855.png "General Settings")
 
 ![General Settings](assets/screenshot-2026-06-16-160911.png "General Settings")
-
 
 **Contact Collection Panel Fields:**
 
