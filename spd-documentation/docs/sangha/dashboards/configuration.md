@@ -108,7 +108,7 @@ Controls whether the web part title is shown and what it displays.
 
 - - -
 
-### 📐 Layout Settings
+### 📐 Appearance Settings
 
 Controls the visual style of the dashboard and the birthday notification window.
 
@@ -134,7 +134,9 @@ Controls the visual style of the dashboard and the birthday notification window.
 
 > **Note:** This group is collapsed by default. Click the section header to expand it.
 
-📸 View Personal Dashboard — Layout Settings Screenshots
+📸 View Personal Dashboard — Appearance Settings Screenshots
+
+![Appearance](assets/appearance.png "Appearance")
 
 - - -
 
@@ -163,6 +165,8 @@ Controls where the Holidays card reads public holiday data from. Choose the opti
 > **Note:** This group is collapsed by default. Click the section header to expand it.
 
 📸 View Personal Dashboard — Holiday Source Settings Screenshots
+
+![Holiday source](assets/holiday.png "Holiday source")
 
 - - -
 
@@ -212,3 +216,5 @@ Upcoming public holidays from the selected holiday source. Each entry shows the 
 Outstanding Viva Learning assignments for the signed-in user. Each entry shows the course title, thumbnail, due date, and an **Open** link. Urgent courses are highlighted. Requires all four `Learning*` Graph permissions and Viva Learning enabled for the tenant.
 
 📸 View Personal Dashboard Cards Screenshots
+
+![Personal Dashboard](assets/personaldashboard.png "Personal Dashboard")
