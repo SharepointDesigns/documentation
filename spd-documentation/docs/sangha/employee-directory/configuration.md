@@ -71,4 +71,4 @@ Employee Directory automatically reads all active user profiles from Microsoft 3
 
 📸 View General Settings Screenshots
 
-![General Settings](assets/screenshot-2026-06-16-164824.png "General Settings")
+![General Settings](assets/screenshot-2026-06-16-170050.png "General Settings")
