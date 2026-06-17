@@ -12,7 +12,7 @@ sidebar_position: 1
 
 At the heart of the solution is the **Setup Wizard** — a guided, step-by-step experience that walks administrators through every aspect of the intranet: branding, navigation, user access, and page deployment. Once the wizard completes, the site is ready for employees to use immediately.
 
-Organizations use Intranet Sangha to eliminate the weeks of manual work typically required to stand up a SharePoint intranet. Rather than configuring lists, uploading logos, building navigation menus, and setting permissions one by one, the Setup Wizard handles all of it in a single session — usually completed in under an hour.
+Organizations use Intranet Sangha to eliminate the weeks of manual work typically required to stand up a SharePoint intranet. Rather than configuring lists, uploading logos, building navigation menus, and setting permissions one by one, the Setup Wizard handles all of it in a single session — usually completed in 5-10 minutes.
 
 - - -
 
@@ -46,7 +46,7 @@ Organizations use Intranet Sangha to eliminate the weeks of manual work typicall
 * **Branding setup** — Upload a logo, pick colors, select fonts, and apply your corporate identity in minutes
 * **Navigation configuration** — Build a structured top navigation with icons, sub-menus, and audience targeting
 * **User access control** — Assign roles (Admin, Owner, Contributor) and control who can access the site
-* **Quick deployment** — The full intranet deploys in a single guided session, typically under one hour
+* **Quick deployment** — The full intranet deploys in a single guided session, typically under 5-10 minutes
 * **Tenant-wide setup support** — The solution installs once and can be activated on any modern SharePoint site
 * **Flexible subscription plans** — Choose the page set that fits your organization size and needs
 * **Live preview** — See branding and navigation changes in real time before deploying
