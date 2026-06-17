@@ -41,6 +41,8 @@ The Welcome Banner sits at the top of each sub-page and displays a full-width ba
 | Role                | The person's role or title                                    |
 | Message Description | Short message or announcement text to display                 |
 
+📸 View General settings Screenshots
+
 - - -
 
 ### ⚙️ General Settings (Employee Resource Banner — Layout 2)
@@ -53,6 +55,8 @@ The Welcome Banner sits at the top of each sub-page and displays a full-width ba
 | Change Background              | Select or upload the banner background image | Image picker          |
 | Enable Announcement Section    | Shows or hides the announcement block        | Toggle                |
 
+📸 View General settings (Layout2) Screenshots
+
 - - -
 
 ### 🤚🏻 Draggable Configuration Settings
@@ -62,7 +66,7 @@ The Welcome Banner sits at the top of each sub-page and displays a full-width ba
 | Enable Draggable Components | Allows content panels on the banner to be freely repositioned | Toggle       |
 | Reset Component Positions   | Moves all draggable panels back to their default positions    | Button       |
 
-📸 View Welcome Banner Screenshots *(add screenshots here)*
+📸 View Draggable settings Screenshots
 
 - - -
 
@@ -78,6 +82,8 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 | ------------- | -------------------------------------- | ------------ |
 | Webpart Title | The title shown above the news section | Text field   |
 | Hide Title    | Shows or hides the web part title      | Toggle       |
+
+📸 View Header settings Screenshots
 
 - - -
 
@@ -106,6 +112,8 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 | Title    | A friendly label for the feed (optional) |
 | RSS Link | The full URL of the RSS feed             |
 
+📸 View General settings Screenshots
+
 - - -
 
 ### 📐 Layout Settings
@@ -114,6 +122,8 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 | ------------- | ---------------------------------------------------------------------------------------------------------------- | ------------ |
 | Choose Layout | Sets the display style: Top Story, Grid, Filmstrip, or Tiles                                                     | Dropdown     |
 | Border Style  | Switches between Standard (all-round border) and Accent Bar (top bar only) — visible only when Show Border is on | Dropdown     |
+
+📸 View Layout settings Screenshots
 
 - - -
 
@@ -127,6 +137,8 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 | Items to Show per Page  | Number of items per page (Grid layout)                               | Slider (4–16) |
 | Items to Show per Slide | Number of items visible per carousel slide (Filmstrip layout)        | Slider (1–6)  |
 
+📸 View Appearance settings Screenshots
+
 - - -
 
 ### 🛠 Admin Settings
@@ -135,8 +147,6 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 | ----------- | ---------------------------------------------------------------------------- | ------------- |
 | Show Admin  | Shows or hides the admin section on the web part for specified users         | Toggle        |
 | Admin Users | Pick people who can see the admin tools (visible only when Show Admin is on) | People picker |
-
-📸 View Featured News Screenshots *(add screenshots here)*
 
 - - -
 
@@ -153,6 +163,8 @@ Common Tools displays a grid of quick-access link tiles with icons. Editors add 
 | Webpart Title             | The title shown above the links grid                              | Text field            |
 | WebPart Title Theme Color | Picks a colour for the web part title from the site theme palette | Theme colour dropdown |
 | Hide Title                | Shows or hides the web part title                                 | Toggle                |
+
+📸 View Header settings Screenshots
 
 - - -
 
@@ -171,6 +183,8 @@ Common Tools displays a grid of quick-access link tiles with icons. Editors add 
 | Link    | The destination URL                                 |
 | Icon    | Fabric icon shown on the tile (icon picker)         |
 | Open In | Whether the link opens in the same tab or a new tab |
+
+📸 View General settings Screenshots
 
 - - -
 
@@ -191,7 +205,7 @@ Common Tools displays a grid of quick-access link tiles with icons. Editors add 
 | Icon Background & Color Theme | Picks colours for the icon box background and icon (Accent Bar layout only) | Theme colour dropdown |
 | Button Hover Theme            | Picks the hover highlight colour from the site theme palette                | Theme colour dropdown |
 
-📸 View Common Tools Screenshots *(add screenshots here)*
+📸 View Appearance settings Screenshots
 
 - - -
 
@@ -208,6 +222,8 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 | Show Webpart Title | Shows or hides the web part title                                                    | Toggle       |
 | Title              | The title shown above the document list (visible only when Show Webpart Title is on) | Text field   |
 
+📸 View Header settings Screenshots
+
 - - -
 
 ### ⚙️ General Settings
@@ -222,6 +238,8 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 | Include Sub-Folder Files  | Also shows files from folders inside the selected folder (visible only when Folder Name is set) | Toggle         |
 | Category Name             | The choice column to use for filtering (auto-detected from the library)                         | Dropdown       |
 | Filter the Category Value | Pre-filter documents to show only selected category values                                      | Multi-select   |
+
+📸 View General settings Screenshots
 
 - - -
 
@@ -250,6 +268,8 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 | Enable Pagination          | Shows page dots below the carousel (Film Strip layout)                                    | Toggle        |
 | Number of Items to Display | Limits how many files are shown before the "See All" link appears                         | Slider (1–25) |
 
+📸 View Appearance settings Screenshots
+
 - - -
 
 ### 🛠 Admin Settings
@@ -258,8 +278,6 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 | ----------- | ---------------------------------------------------------------------------- | ------------- |
 | Show Admin  | Shows or hides the admin view for specified users                            | Toggle        |
 | Admin Users | Pick people who can see the admin tools (visible only when Show Admin is on) | People picker |
-
-📸 View Document Contents Screenshots *(add screenshots here)*
 
 - - -
 
@@ -275,6 +293,8 @@ Feedback is a simple call-to-action banner with a background image and a button 
 | ------------- | ------------------------------- | ------------ |
 | Webpart Title | The heading shown on the banner | Text field   |
 
+📸 View Header settings Screenshots
+
 - - -
 
 ### ⚙️ General Settings
@@ -286,6 +306,8 @@ Feedback is a simple call-to-action banner with a background image and a button 
 | Action Link    | URL the button navigates to (e.g., a Microsoft Form or email link) | Text field           |
 | Webpart Height | Controls the height of the banner                                  | Slider (100–1000 px) |
 
+📸 View General settings Screenshots
+
 - - -
 
 ### 📐 Layout Settings
@@ -293,8 +315,6 @@ Feedback is a simple call-to-action banner with a background image and a button 
 | Name   | Purpose                                | Control Type |
 | ------ | -------------------------------------- | ------------ |
 | Layout | Switch between Standard and Accent Bar | Dropdown     |
-
-📸 View Feedback Screenshots *(add screenshots here)*
 
 - - -
 
@@ -309,6 +329,8 @@ Goals displays your department or team's key objectives as visual cards with an 
 | Name                | Purpose                              | Control Type |
 | ------------------- | ------------------------------------ | ------------ |
 | Enter Webpart Title | The title shown above the goals grid | Text field   |
+
+📸 View Header settings Screenshots
 
 - - -
 
@@ -327,6 +349,8 @@ Goals displays your department or team's key objectives as visual cards with an 
 | Link URL    | Optional link to a related page or document |
 | Icon        | Fabric icon shown on the card (icon picker) |
 
+📸 View General settings Screenshots
+
 - - -
 
 ### 📐 Layout Settings
@@ -344,7 +368,7 @@ Goals displays your department or team's key objectives as visual cards with an 
 | Text Alignment        | Aligns the card text: Left, Centre, or Right           | Dropdown     |
 | Show Full Description | Shows the complete description text without truncation | Toggle       |
 
-📸 View Goals Screenshots *(add screenshots here)*
+📸 View Appearance settings Screenshots
 
 - - -
 
@@ -373,6 +397,8 @@ Newsletter pulls editions from a SharePoint document library and displays them a
 | Height                    | Controls the height of the web part                                                             | Slider (200–700 px) |
 | Number of Items per Slide | How many editions are visible per slide (visible only when Enable Carousel is on)               | Slider (1–10)       |
 
+📸 View General settings Screenshots
+
 - - -
 
 ### 📐 Layout Settings
@@ -390,8 +416,6 @@ Newsletter pulls editions from a SharePoint document library and displays them a
 | Show Admin  | Shows or hides the admin section for specified users                     | Toggle        |
 | Admin Users | Pick people who can see admin tools (visible only when Show Admin is on) | People picker |
 
-📸 View Newsletter Screenshots *(add screenshots here)*
-
 - - -
 
 ## 8. The Team
@@ -406,6 +430,8 @@ The Team displays a curated list of team members or subject-matter experts (SMEs
 | ------------- | ------------------------------------------- | ------------ |
 | Webpart Title | The title shown above the team grid         | Text field   |
 | See All Link  | URL for a "See All" or "Meet the Team" link | Text field   |
+
+📸 View Header settings Screenshots
 
 - - -
 
@@ -427,6 +453,8 @@ The Team displays a curated list of team members or subject-matter experts (SMEs
 | Role                | Optional role or title to display beneath the person's name                             |
 | Custom Display Name | Optional alternative name to display instead of the person's Microsoft 365 display name |
 
+📸 View General settings Screenshots
+
 - - -
 
 ### 📐 Layout Settings
@@ -434,7 +462,5 @@ The Team displays a curated list of team members or subject-matter experts (SMEs
 | Name          | Purpose                                | Control Type |
 | ------------- | -------------------------------------- | ------------ |
 | Select Layout | Switch between Standard and Accent Bar | Dropdown     |
-
-📸 View The Team Screenshots *(add screenshots here)*
 
 - - -
