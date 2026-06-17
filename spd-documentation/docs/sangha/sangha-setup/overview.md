@@ -66,7 +66,7 @@ Each step validates the choices made before moving forward, ensuring the intrane
 
 ## Setup Wizard Flow
 
-The Setup Wizard guides administrators through seven steps. Each step builds on the previous one to produce a fully configured intranet.
+The Setup Wizard guides administrators through six steps. Each step builds on the previous one to produce a fully configured intranet.
 
 ### Step 1 — Welcome & Plan Selection
 
