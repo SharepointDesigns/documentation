@@ -26,6 +26,9 @@ All colour dropdowns in DIY Intranet Home read your site's theme palette automat
 
 ---
 
+<details>
+<summary>1. Welcome Banner</summary>
+
 ## 1. Welcome Banner
 
 The Welcome Banner greets each employee by name with a live clock and a customisable background image. Below the greeting, personal dashboard cards surface the user's meetings, tasks, and training from their Microsoft 365 account.
@@ -101,7 +104,12 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary>2. Announcement</summary>
 
 ## 2. Announcement
 
@@ -167,7 +175,12 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary>3. Featured News</summary>
 
 ## 3. Featured News
 
@@ -253,7 +266,12 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary>4. Quicklinks</summary>
 
 ## 4. Quicklinks
 
@@ -327,7 +345,12 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary>5. Employee Spotlight</summary>
 
 ## 5. Employee Spotlight
 
@@ -411,7 +434,12 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary>6. Org Chart</summary>
 
 ## 6. Org Chart
 
@@ -476,7 +504,12 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary>7. Upcoming Events</summary>
 
 ## 7. Upcoming Events
 
@@ -545,7 +578,12 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary>8. Facilities</summary>
 
 ## 8. Facilities
 
@@ -626,7 +664,12 @@ The Facilities web part showcases your organisation's offices and locations with
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary>9. Message from CEO</summary>
 
 ## 9. Message from CEO
 
@@ -702,4 +745,4 @@ The Message from CEO web part displays a leadership message with a profile photo
 
 </details>
 
----
+</details>

@@ -2,11 +2,14 @@
 title: Configuration
 sidebar_position: 3
 ---
+
 Each web part is configured through its **settings panel**. To open it, click the web part while editing the page and click the **pencil (edit) icon**.
 
-- - -
+---
 
-## 1. Welcome Banner
+<details>
+<summary>1. Welcome Banner</summary>
+## Welcome Banner
 
 The Welcome Banner sits at the top of each sub-page and displays a full-width background image, department name, and an optional announcement or message strip. It offers two styles: **Department Banner** (Layout 1) and **Employee Resource Banner** (Layout 2).
 
@@ -18,7 +21,7 @@ The Welcome Banner sits at the top of each sub-page and displays a full-width ba
 | ------------- | ------------------------------------------------------------- | ------------ |
 | Select Layout | Switch between Department Banner and Employee Resource Banner | Dropdown     |
 
-- - -
+---
 
 ### ⚙️ General Settings (Department Banner — Layout 1)
 
@@ -48,7 +51,7 @@ The Welcome Banner sits at the top of each sub-page and displays a full-width ba
 
 </details>
 
-- - -
+---
 
 ### ⚙️ General Settings (Employee Resource Banner — Layout 2)
 
@@ -67,7 +70,7 @@ The Welcome Banner sits at the top of each sub-page and displays a full-width ba
 
 </details>
 
-- - -
+---
 
 ### 🤚🏻 Draggable Configuration Settings
 
@@ -83,9 +86,14 @@ The Welcome Banner sits at the top of each sub-page and displays a full-width ba
 
 </details>
 
-- - -
+</details>
 
-## 2. Featured News
+---
+
+<details>
+<summary>2. Featured News</summary>
+
+## Featured News
 
 Featured News pulls news posts from one or more SharePoint sites and displays them in a chosen layout. You can filter by category, audience, or add RSS feeds from external sources.
 
@@ -105,7 +113,7 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 
 </details>
 
-- - -
+---
 
 ### ⚙️ General Settings
 
@@ -135,13 +143,13 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-| | |
-|---|---|
+|                                                   |                                                   |
+| ------------------------------------------------- | ------------------------------------------------- |
 | ![](assets/screenshot-2026-06-17-at-09.20.27.png) | ![](assets/screenshot-2026-06-17-at-09.20.31.png) |
 
 </details>
 
-- - -
+---
 
 ### 📐 Layout Settings
 
@@ -157,7 +165,7 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 
 </details>
 
-- - -
+---
 
 ### 🎨 Appearance Settings
 
@@ -176,7 +184,7 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 
 </details>
 
-- - -
+---
 
 ### 🛠 Admin Settings
 
@@ -185,9 +193,14 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 | Show Admin  | Shows or hides the admin section on the web part for specified users         | Toggle        |
 | Admin Users | Pick people who can see the admin tools (visible only when Show Admin is on) | People picker |
 
-- - -
+</details>
 
-## 3. Common Tools
+---
+
+<details>
+<summary>3. Common Tools</summary>
+
+## Common Tools
 
 Common Tools displays a grid of quick-access link tiles with icons. Editors add and arrange links in a manage panel, choose how each link opens, and customize colours to match the site theme.
 
@@ -208,7 +221,7 @@ Common Tools displays a grid of quick-access link tiles with icons. Editors add 
 
 </details>
 
-- - -
+---
 
 ### ⚙️ General Settings
 
@@ -233,7 +246,7 @@ Common Tools displays a grid of quick-access link tiles with icons. Editors add 
 
 </details>
 
-- - -
+---
 
 ### 📐 Layout Settings
 
@@ -241,7 +254,7 @@ Common Tools displays a grid of quick-access link tiles with icons. Editors add 
 | ------------- | --------------------------------------------------------------------------------- | ------------ |
 | Select Layout | Switch between Standard (bordered tiles) and Accent Bar (icon boxes with top bar) | Dropdown     |
 
-- - -
+---
 
 ### 🎨 Appearance Settings
 
@@ -259,9 +272,14 @@ Common Tools displays a grid of quick-access link tiles with icons. Editors add 
 
 </details>
 
-- - -
+</details>
 
-## 4. Document Contents
+---
+
+<details>
+<summary>4. Document Contents</summary>
+
+## Document Contents
 
 Document Contents surfaces files from a SharePoint document library in a chosen view. Editors can filter by folder, category, and control which file details are visible.
 
@@ -281,7 +299,7 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 
 </details>
 
-- - -
+---
 
 ### ⚙️ General Settings
 
@@ -303,7 +321,7 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 
 </details>
 
-- - -
+---
 
 ### 📐 Layout Settings
 
@@ -312,7 +330,7 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 | Layout Type  | Display style: Film Strip, Grid, List, or Compact                        | Dropdown     |
 | Layout Style | Switch between Standard (all-round border) and Accent Bar (top bar only) | Dropdown     |
 
-- - -
+---
 
 ### 🎨 Appearance Settings
 
@@ -337,7 +355,7 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 
 </details>
 
-- - -
+---
 
 ### 🛠 Admin Settings
 
@@ -346,9 +364,14 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 | Show Admin  | Shows or hides the admin view for specified users                            | Toggle        |
 | Admin Users | Pick people who can see the admin tools (visible only when Show Admin is on) | People picker |
 
-- - -
+</details>
 
-## 5. Feedback
+---
+
+<details>
+<summary>5. Feedback</summary>
+
+## Feedback
 
 Feedback is a simple call-to-action banner with a background image and a button that directs employees to a feedback destination, such as a Microsoft Form or support mailbox.
 
@@ -360,7 +383,7 @@ Feedback is a simple call-to-action banner with a background image and a button 
 | ------------- | ------------------------------- | ------------ |
 | Webpart Title | The heading shown on the banner | Text field   |
 
-- - -
+---
 
 ### ⚙️ General Settings
 
@@ -378,7 +401,7 @@ Feedback is a simple call-to-action banner with a background image and a button 
 
 </details>
 
-- - -
+---
 
 ### 📐 Layout Settings
 
@@ -386,9 +409,14 @@ Feedback is a simple call-to-action banner with a background image and a button 
 | ------ | -------------------------------------- | ------------ |
 | Layout | Switch between Standard and Accent Bar | Dropdown     |
 
-- - -
+</details>
 
-## 6. Goals
+---
+
+<details>
+<summary>6. Goals</summary>
+
+## Goals
 
 Goals displays your department or team's key objectives as visual cards with an icon, title, description, and optional link. Cards can be reordered in the manage panel.
 
@@ -400,7 +428,7 @@ Goals displays your department or team's key objectives as visual cards with an 
 | ------------------- | ------------------------------------ | ------------ |
 | Enter Webpart Title | The title shown above the goals grid | Text field   |
 
-- - -
+---
 
 ### ⚙️ General Settings
 
@@ -424,7 +452,7 @@ Goals displays your department or team's key objectives as visual cards with an 
 
 </details>
 
-- - -
+---
 
 ### 📐 Layout Settings
 
@@ -432,7 +460,7 @@ Goals displays your department or team's key objectives as visual cards with an 
 | ------------- | -------------------------------------- | ------------ |
 | Select Layout | Switch between Standard and Accent Bar | Dropdown     |
 
-- - -
+---
 
 ### 🎨 Appearance Settings
 
@@ -448,9 +476,14 @@ Goals displays your department or team's key objectives as visual cards with an 
 
 </details>
 
-- - -
+</details>
 
-## 7. Newsletter
+---
+
+<details>
+<summary>7. Newsletter</summary>
+
+## Newsletter
 
 Newsletter pulls editions from a SharePoint document library and displays them as a gallery with cover images, titles, and a "Read More" link. A month filter lets employees browse past editions, and an optional carousel lets editors showcase multiple issues at once.
 
@@ -462,7 +495,7 @@ Newsletter pulls editions from a SharePoint document library and displays them a
 | ------------- | -------------------------------------------- | ------------ |
 | Webpart Title | The title shown above the newsletter gallery | Text field   |
 
-- - -
+---
 
 ### ⚙️ General Settings
 
@@ -482,7 +515,7 @@ Newsletter pulls editions from a SharePoint document library and displays them a
 
 </details>
 
-- - -
+---
 
 ### 📐 Layout Settings
 
@@ -490,7 +523,7 @@ Newsletter pulls editions from a SharePoint document library and displays them a
 | ------ | -------------------------------------- | ------------ |
 | Layout | Switch between Standard and Accent Bar | Dropdown     |
 
-- - -
+---
 
 ### 🛠 Admin Settings
 
@@ -499,9 +532,14 @@ Newsletter pulls editions from a SharePoint document library and displays them a
 | Show Admin  | Shows or hides the admin section for specified users                     | Toggle        |
 | Admin Users | Pick people who can see admin tools (visible only when Show Admin is on) | People picker |
 
-- - -
+</details>
 
-## 8. The Team
+---
+
+<details>
+<summary>8. The Team</summary>
+
+## The Team
 
 The Team displays a curated list of team members or subject-matter experts (SMEs) with their profile photo, role, and an optional custom name. Cards can be shown as a static grid or in a scrollable carousel.
 
@@ -521,7 +559,7 @@ The Team displays a curated list of team members or subject-matter experts (SMEs
 
 </details>
 
-- - -
+---
 
 ### ⚙️ General Settings
 
@@ -548,7 +586,7 @@ The Team displays a curated list of team members or subject-matter experts (SMEs
 
 </details>
 
-- - -
+---
 
 ### 📐 Layout Settings
 
@@ -556,4 +594,4 @@ The Team displays a curated list of team members or subject-matter experts (SMEs
 | ------------- | -------------------------------------- | ------------ |
 | Select Layout | Switch between Standard and Accent Bar | Dropdown     |
 
-- - -
+</details>
