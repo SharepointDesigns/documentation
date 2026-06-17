@@ -49,7 +49,7 @@ Setting up Intranet Sangha involves two phases: installing the package, then run
 1. Upload the solution package to the SharePoint App Catalog
 2. Approve required Microsoft 365 permissions
 3. Open the SharePoint site and add the Setup Wizard
-4. Run the seven-step guided Setup Wizard
+4. Run the six-step guided Setup Wizard
 5. Review the deployed intranet
 6. Complete post-installation checks
 
