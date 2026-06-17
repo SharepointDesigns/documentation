@@ -142,6 +142,9 @@ The Setup Wizard opens as a full-screen overlay on top of the SharePoint site. I
 
 - - -
 
+<details>
+<summary>Step 1 — Welcome & Plan Selection</summary>
+
 ## Step 1 — Welcome & Plan Selection
 
 ### Purpose
@@ -171,11 +174,21 @@ The selected plan is validated and saved. The wizard unlocks the remaining steps
 * If a previous payment was completed but pages were not fully deployed, a **Deploy pending pages** button appears to resume from where setup stopped
 * The current active plan is shown with a badge if a subscription is already in place
 
+<details>
+<summary>📸 View Plan Selection Screenshots</summary>
+
 📸 Plan Selection Screenshot
 
 ![Plan Selection](assets/screenshot-2026-06-16-112430.png "Plan Selection")
 
+</details>
+
+</details>
+
 - - -
+
+<details>
+<summary>Step 2 — Organization Details</summary>
 
 ## Step 2 — Organization Details
 
@@ -204,11 +217,21 @@ The SharePoint site title is updated immediately. Organization name and industry
 * The organization name can be edited at any time by returning to this step
 * If the Microsoft Graph permission was not approved, the organization name field will be blank and must be filled in manually
 
+<details>
+<summary>📸 View Organization Details Screenshots</summary>
+
 📸 Organization Details Screenshot
 
 ![Organization Details](assets/screenshot-2026-06-16-112614.png "Organization Details")
 
+</details>
+
+</details>
+
 - - -
+
+<details>
+<summary>Step 3 — Branding Configuration</summary>
 
 ## Step 3 — Branding Configuration
 
@@ -264,6 +287,9 @@ Administrators can also browse and apply existing SharePoint themes (including a
 * The branding step can be revisited at any time to make adjustments
 * Colors can be entered as hex codes or selected using the color picker
 
+<details>
+<summary>📸 View Branding Configuration Screenshots</summary>
+
 📸 Branding Configuration Screenshot
 
 ![Branding Configuration](assets/screenshot-2026-06-16-112706.png "Branding Configuration")
@@ -284,7 +310,14 @@ Administrators can also browse and apply existing SharePoint themes (including a
 
 ![Branding Appearance Settings Configuration](assets/screenshot-2026-06-16-122854.png "Branding Appearance Settings Configuration")
 
+</details>
+
+</details>
+
 - - -
+
+<details>
+<summary>Step 4 — Navigation Setup</summary>
 
 ## Step 4 — Navigation Setup
 
@@ -326,11 +359,21 @@ The navigation structure is saved to a SharePoint list and applied to the site. 
 * Changes are shown in a live preview alongside the navigation editor
 * Audience targeting requires that users are signed in to their Microsoft 365 account for targeting to take effect
 
+<details>
+<summary>📸 View Navigation Setup Screenshots</summary>
+
 📸 Navigation Setup Screenshot
 
 ![Navigation Setup Screen](assets/screenshot-2026-06-16-123423.png "Navigation Setup Screen")
 
+</details>
+
+</details>
+
 - - -
+
+<details>
+<summary>Step 5 — User Access & Permissions</summary>
 
 ## Step 5 — User Access & Permissions
 
@@ -374,6 +417,9 @@ This step defines who can access the intranet, assigns user roles, and optionall
 * Multiple users can be added in bulk
 * The access control setting can be changed after deployment by returning to this step or through the SharePoint Admin Center
 
+<details>
+<summary>📸 View User Access & Permissions Screenshots</summary>
+
 📸 User Access Configuration Screenshot
 
 ![User Access Configuration](assets/screenshot-2026-06-16-123541.png "User Access Configuration")
@@ -382,7 +428,14 @@ This step defines who can access the intranet, assigns user roles, and optionall
 
 ![User Notification Alerts](assets/screenshot-2026-06-16-123557.png "User Notification Alerts")
 
+</details>
+
+</details>
+
 - - -
+
+<details>
+<summary>Step 6 — Deploy</summary>
 
 ## Step 6 — Deploy
 
@@ -452,6 +505,9 @@ As each page is created, a **View \[Page Name]** button appears so administrator
 * If deployment is interrupted, the wizard can be reopened and will detect which steps were completed; use the **Deploy pending pages** button on the Welcome screen to resume
 * After deployment, any pending API permissions requested by installed web parts will be listed for administrator review
 
+<details>
+<summary>📸 View Deployment Screenshots</summary>
+
 📸 Pre-Deployment Screenshot
 
 ![Pre-Deployment Screen](assets/screenshot-2026-06-16-124232.png "Pre-Deployment Screen")
@@ -468,7 +524,14 @@ As each page is created, a **View \[Page Name]** button appears so administrator
 
 ![Live Preview](assets/screenshot-2026-06-16-124530.png "Live Preview")
 
+</details>
+
+</details>
+
 - - -
+
+<details>
+<summary>Step 7 — Templates (Post-Launch)</summary>
 
 ## Step 7 — Templates (Post-Launch)
 
@@ -492,9 +555,16 @@ A new SharePoint page is created from the selected template and added to the sit
 * There is no limit to the number of pages that can be created from templates
 * Created pages are independent and can be edited using standard SharePoint page editing tools
 
+<details>
+<summary>📸 View Template Gallery Screenshots</summary>
+
 📸 Template Gallery Screenshot
 
 ![Template Gallery](assets/screenshot-2026-06-16-131852.png "Template Gallery")
+
+</details>
+
+</details>
 
 - - -
 
