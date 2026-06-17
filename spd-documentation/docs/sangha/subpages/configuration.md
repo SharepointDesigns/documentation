@@ -246,6 +246,8 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 
 📸 View Header settings Screenshots
 
+![](assets/screenshot-2026-06-17-at-09.26.38.png)
+
 - - -
 
 ### ⚙️ General Settings
@@ -262,6 +264,8 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 | Filter the Category Value | Pre-filter documents to show only selected category values                                      | Multi-select   |
 
 📸 View General settings Screenshots
+
+![](assets/screenshot-2026-06-17-at-09.26.44.png)
 
 - - -
 
@@ -292,6 +296,8 @@ Document Contents surfaces files from a SharePoint document library in a chosen 
 
 📸 View Appearance settings Screenshots
 
+![](assets/screenshot-2026-06-17-at-09.26.55.png)
+
 - - -
 
 ### 🛠 Admin Settings
@@ -315,8 +321,6 @@ Feedback is a simple call-to-action banner with a background image and a button 
 | ------------- | ------------------------------- | ------------ |
 | Webpart Title | The heading shown on the banner | Text field   |
 
-📸 View Header settings Screenshots
-
 - - -
 
 ### ⚙️ General Settings
@@ -329,6 +333,8 @@ Feedback is a simple call-to-action banner with a background image and a button 
 | Webpart Height | Controls the height of the banner                                  | Slider (100–1000 px) |
 
 📸 View General settings Screenshots
+
+![](assets/screenshot-2026-06-17-at-09.28.15.png)
 
 - - -
 
@@ -352,8 +358,6 @@ Goals displays your department or team's key objectives as visual cards with an 
 | ------------------- | ------------------------------------ | ------------ |
 | Enter Webpart Title | The title shown above the goals grid | Text field   |
 
-📸 View Header settings Screenshots
-
 - - -
 
 ### ⚙️ General Settings
@@ -373,6 +377,8 @@ Goals displays your department or team's key objectives as visual cards with an 
 
 📸 View General settings Screenshots
 
+![](assets/screenshot-2026-06-17-at-09.29.14.png)
+
 - - -
 
 ### 📐 Layout Settings
@@ -391,6 +397,8 @@ Goals displays your department or team's key objectives as visual cards with an 
 | Show Full Description | Shows the complete description text without truncation | Toggle       |
 
 📸 View Appearance settings Screenshots
+
+![](assets/screenshot-2026-06-17-at-09.29.45.png)
 
 - - -
 
@@ -420,6 +428,8 @@ Newsletter pulls editions from a SharePoint document library and displays them a
 | Number of Items per Slide | How many editions are visible per slide (visible only when Enable Carousel is on)               | Slider (1–10)       |
 
 📸 View General settings Screenshots
+
+![](assets/screenshot-2026-06-17-at-09.30.18.png)
 
 - - -
 
@@ -455,6 +465,8 @@ The Team displays a curated list of team members or subject-matter experts (SMEs
 
 📸 View Header settings Screenshots
 
+![](assets/screenshot-2026-06-17-at-09.31.13.png)
+
 - - -
 
 ### ⚙️ General Settings
@@ -476,6 +488,8 @@ The Team displays a curated list of team members or subject-matter experts (SMEs
 | Custom Display Name | Optional alternative name to display instead of the person's Microsoft 365 display name |
 
 📸 View General settings Screenshots
+
+![](assets/screenshot-2026-06-17-at-09.31.17.png)
 
 - - -
 
