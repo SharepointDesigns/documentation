@@ -182,6 +182,8 @@ Common Tools displays a grid of quick-access link tiles with icons. Editors add 
 
 📸 View Header settings Screenshots
 
+![](assets/screenshot-2026-06-17-at-09.23.14.png)
+
 - - -
 
 ### ⚙️ General Settings
@@ -201,6 +203,8 @@ Common Tools displays a grid of quick-access link tiles with icons. Editors add 
 | Open In | Whether the link opens in the same tab or a new tab |
 
 📸 View General settings Screenshots
+
+![](assets/screenshot-2026-06-17-at-09.24.03.png)
 
 - - -
 
@@ -222,6 +226,8 @@ Common Tools displays a grid of quick-access link tiles with icons. Editors add 
 | Button Hover Theme            | Picks the hover highlight colour from the site theme palette                | Theme colour dropdown |
 
 📸 View Appearance settings Screenshots
+
+![](assets/screenshot-2026-06-17-at-09.24.08.png)
 
 - - -
 
