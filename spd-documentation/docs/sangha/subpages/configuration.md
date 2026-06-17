@@ -43,6 +43,8 @@ The Welcome Banner sits at the top of each sub-page and displays a full-width ba
 
 📸 View General settings Screenshots
 
+![](assets/screenshot-2026-06-17-at-09.18.51.png)
+
 - - -
 
 ### ⚙️ General Settings (Employee Resource Banner — Layout 2)
@@ -57,6 +59,8 @@ The Welcome Banner sits at the top of each sub-page and displays a full-width ba
 
 📸 View General settings (Layout2) Screenshots
 
+![](assets/screenshot-2026-06-17-at-09.19.09.png)
+
 - - -
 
 ### 🤚🏻 Draggable Configuration Settings
@@ -67,6 +71,8 @@ The Welcome Banner sits at the top of each sub-page and displays a full-width ba
 | Reset Component Positions   | Moves all draggable panels back to their default positions    | Button       |
 
 📸 View Draggable settings Screenshots
+
+![](assets/screenshot-2026-06-17-at-09.18.59.png)
 
 - - -
 
@@ -84,6 +90,8 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 | Hide Title    | Shows or hides the web part title      | Toggle       |
 
 📸 View Header settings Screenshots
+
+![](assets/screenshot-2026-06-17-at-09.20.12.png)
 
 - - -
 
@@ -114,6 +122,10 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 
 📸 View General settings Screenshots
 
+![](assets/screenshot-2026-06-17-at-09.20.27.png)
+
+![](assets/screenshot-2026-06-17-at-09.20.31.png)
+
 - - -
 
 ### 📐 Layout Settings
@@ -124,6 +136,8 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 | Border Style  | Switches between Standard (all-round border) and Accent Bar (top bar only) — visible only when Show Border is on | Dropdown     |
 
 📸 View Layout settings Screenshots
+
+![](assets/screenshot-2026-06-17-at-09.20.38.png)
 
 - - -
 
@@ -139,6 +153,8 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 
 📸 View Appearance settings Screenshots
 
+![](assets/screenshot-2026-06-17-at-09.20.44.png)
+
 - - -
 
 ### 🛠 Admin Settings
@@ -152,7 +168,7 @@ Featured News pulls news posts from one or more SharePoint sites and displays th
 
 ## 3. Common Tools
 
-Common Tools displays a grid of quick-access link tiles with icons. Editors add and arrange links in a manage panel, choose how each link opens, and customise colours to match the site theme.
+Common Tools displays a grid of quick-access link tiles with icons. Editors add and arrange links in a manage panel, choose how each link opens, and customize colours to match the site theme.
 
 ![](assets/screenshot-2026-06-17-at-09.04.04.png)
 
