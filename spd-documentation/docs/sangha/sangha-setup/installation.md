@@ -49,7 +49,7 @@ Setting up Intranet Sangha involves two phases: installing the package, then run
 1. Upload the solution package to the SharePoint App Catalog
 2. Approve required Microsoft 365 permissions
 3. Open the SharePoint site and add the Setup Wizard
-4. Run the seven-step guided Setup Wizard
+4. Run the six-step guided Setup Wizard
 5. Review the deployed intranet
 6. Complete post-installation checks
 
@@ -157,7 +157,7 @@ Review the available plans and activate the one that fits your organization.
 | Plan                 | Monthly Price | Pages Included                                                         |
 | -------------------- | ------------- | ---------------------------------------------------------------------- |
 | Free Trial (15 days) | $0            | All pages — full access for evaluation                                 |
-| Spark                | $199/month    | Homepage, Personal Dashboard, Admin Dashboard                          |
+| Spark                | $199/month    | Homepage, Personal Dashboard, Admin Dashboard, AI based navigation     |
 | Flame                | $499/month    | Spark pages + Departments, Employee Resources                          |
 | Blaze                | $999/month    | Flame pages + Document Center, Employee Directory, Employee Onboarding |
 
