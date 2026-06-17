@@ -6,6 +6,9 @@ Each web part is configured through its **settings panel**. To open it, click th
 
 - - -
 
+<details>
+<summary>1. Document Welcome Banner</summary>
+
 ## 1. Document Welcome Banner
 
 The Document Welcome Banner is the full-width hero at the top of the page. It displays a background image and a department or page title that identifies the document area to visitors.
@@ -58,7 +61,12 @@ The Document Welcome Banner is the full-width hero at the top of the page. It di
 
 </details>
 
+</details>
+
 - - -
+
+<details>
+<summary>2. Document Contents</summary>
 
 ## 2. Document Contents
 
@@ -78,7 +86,7 @@ Document Contents is the main document browsing section. It pulls files from a S
 | Show See All      | Shows a "See All" link that opens the full library (visible only when Source is "A document library") | Toggle                |
 
 <details>
-<summary>📸 View Header Settings Screenshot</summary>
+<summary>📸 View Header Settings Screenshots</summary>
 
 ![Header Settings](assets/screenshot-2026-06-16-154908.png "Header Settings")
 
@@ -103,11 +111,11 @@ Document Contents is the main document browsing section. It pulls files from a S
 | Number of Items to Display | Maximum number of files to show (1–4999)                                                                 | Number field   |
 
 <details>
-<summary>📸 View General Settings Screenshot</summary>
+<summary>📸 View General Settings Screenshots</summary>
 
-![This Site General Settings](assets/screenshot-2026-06-16-155003.png "This Site General Settings")
-
-![Multiple Library General Settings](assets/screenshot-2026-06-16-155036.png "Multiple Library General Settings")
+| | |
+|---|---|
+| ![This Site General Settings](assets/screenshot-2026-06-16-155003.png "This Site General Settings") | ![Multiple Library General Settings](assets/screenshot-2026-06-16-155036.png "Multiple Library General Settings") |
 
 ![Multi Sites General Settings](assets/screenshot-2026-06-16-155152.png "Multi Sites General Settings")
 
@@ -123,7 +131,7 @@ Document Contents is the main document browsing section. It pulls files from a S
 | Hide This Web Part if Empty | Hides the entire web part when no documents match the current filter     | Checkbox     |
 
 <details>
-<summary>📸 View Layout Settings Screenshot</summary>
+<summary>📸 View Layout Settings Screenshots</summary>
 
 ![Layout Settings](assets/screenshot-2026-06-16-155256.png "Layout Settings")
 
@@ -139,13 +147,18 @@ Document Contents is the main document browsing section. It pulls files from a S
 | Height               | Controls the height of the document section                                                        | Slider (400–2000 px) |
 
 <details>
-<summary>📸 View Appearance Settings Screenshot</summary>
+<summary>📸 View Appearance Settings Screenshots</summary>
 
 ![Appearance Settings](assets/screenshot-2026-06-16-155323.png "Appearance Settings")
 
 </details>
 
+</details>
+
 - - -
+
+<details>
+<summary>3. FAQs</summary>
 
 ## 3. FAQs
 
@@ -161,7 +174,7 @@ FAQs displays a list of questions and answers as an expandable accordion. Questi
 | Title Theme Color | Picks a colour for the title from the site theme palette (visible only when a title is entered) | Theme colour dropdown |
 
 <details>
-<summary>📸 View Header Settings Screenshot</summary>
+<summary>📸 View Header Settings Screenshots</summary>
 
 ![Header Settings](assets/screenshot-2026-06-16-160001.png "Header Settings")
 
@@ -184,11 +197,11 @@ FAQs displays a list of questions and answers as an expandable accordion. Questi
 | Sort By           | Sort order for FAQ items: Default, Ascending, or Descending                                                    | Dropdown      |
 
 <details>
-<summary>📸 View General Settings Screenshot</summary>
+<summary>📸 View General Settings Screenshots</summary>
 
-![General Settings](assets/screenshot-2026-06-16-160801.png "General Settings")
-
-![General Settings](assets/screenshot-2026-06-16-160814.png "General Settings")
+| | |
+|---|---|
+| ![General Settings](assets/screenshot-2026-06-16-160801.png "General Settings") | ![General Settings](assets/screenshot-2026-06-16-160814.png "General Settings") |
 
 </details>
 
@@ -199,7 +212,12 @@ FAQs displays a list of questions and answers as an expandable accordion. Questi
 | Order       | Order to show items in UI                                |
 | Description | The answer text shown when the accordion row is expanded |
 
+</details>
+
 - - -
+
+<details>
+<summary>4. Contact</summary>
 
 ## 4. Contact
 
@@ -216,7 +234,7 @@ Contact displays one or more key contacts with their photo, name, role, and a de
 | Title Theme Color           | Picks a colour for the contact heading text from the site theme palette            | Theme colour dropdown |
 
 <details>
-<summary>📸 View Header Settings Screenshot</summary>
+<summary>📸 View Header Settings Screenshots</summary>
 
 ![Header Settings](assets/screenshot-2026-06-16-160830.png "Header Settings")
 
@@ -236,11 +254,11 @@ Contact displays one or more key contacts with their photo, name, role, and a de
 | Height             | Controls the height of the contact section                                                                      | Slider (200–500 px) |
 
 <details>
-<summary>📸 View General Settings Screenshot</summary>
+<summary>📸 View General Settings Screenshots</summary>
 
-![General Settings](assets/screenshot-2026-06-16-160855.png "General Settings")
-
-![General Settings](assets/screenshot-2026-06-16-160911.png "General Settings")
+| | |
+|---|---|
+| ![General Settings](assets/screenshot-2026-06-16-160855.png "General Settings") | ![General Settings](assets/screenshot-2026-06-16-160911.png "General Settings") |
 
 </details>
 
@@ -264,8 +282,10 @@ Contact displays one or more key contacts with their photo, name, role, and a de
 | Show Shadow                | Adds a drop shadow to the contact cards                                                   | Toggle       |
 
 <details>
-<summary>📸 View Layout Settings Screenshot</summary>
+<summary>📸 View Layout Settings Screenshots</summary>
 
 ![Layout Settings](assets/screenshot-2026-06-16-160844.png "Layout Settings")
+
+</details>
 
 </details>

@@ -6,6 +6,9 @@ Each web part is configured through its **settings panel**. To open it, click th
 
 - - -
 
+<details>
+<summary>1. Employee Welcome Banner</summary>
+
 ## 1. Employee Welcome Banner
 
 The Employee Welcome Banner is the branded hero at the top of the directory page. It displays a full-width background image with an overlay title that names the page for visitors.
@@ -58,7 +61,12 @@ The Employee Welcome Banner is the branded hero at the top of the directory page
 
 </details>
 
+</details>
+
 - - -
+
+<details>
+<summary>2. Employee Directory</summary>
 
 ## 2. Employee Directory
 
@@ -79,5 +87,7 @@ Employee Directory automatically reads all active user profiles from Microsoft 3
 <summary>📸 View General Settings Screenshots</summary>
 
 ![General Settings](assets/screenshot-2026-06-16-170050.png "General Settings")
+
+</details>
 
 </details>

@@ -6,6 +6,9 @@ Each web part is configured through its **settings panel**. To open it, click th
 
 - - -
 
+<details>
+<summary>1. Employee Welcome</summary>
+
 ## 1. Employee Welcome
 
 The Employee Welcome banner sits at the top of the onboarding page and creates a warm, branded first impression for new joiners.
@@ -58,7 +61,12 @@ The Employee Welcome banner sits at the top of the onboarding page and creates a
 
 </details>
 
+</details>
+
 - - -
+
+<details>
+<summary>2. Employee Onboarding</summary>
 
 ## 2. Employee Onboarding
 
@@ -90,3 +98,5 @@ Employee Onboarding connects to three SharePoint lists to deliver a personalised
 | User   | New Employees    | Their own personal checklist of onboarding tasks to complete                           |
 
 > **Tip:** Set View Mode to **Admin** on the HR team's version of the page and **User** on the employee-facing version. You can use SharePoint page audiences or separate pages to show each view to the right people.
+
+</details>
