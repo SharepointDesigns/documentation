@@ -2,7 +2,7 @@
   "label": "Additional templates",
   "position": 2,
   "link": {
-    "type": "generated-index",
-    "description": "Components developed for Design Sangha Sub pages. 📧 sales@sharepointdesigns.com 📞 +91 9884189463"
+    "type": "doc",
+    "id": "sangha/subpages/index"
   }
 }
