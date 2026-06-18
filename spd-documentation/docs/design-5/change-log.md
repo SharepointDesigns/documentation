@@ -6,6 +6,11 @@ sidebar_position: 5
 
 ## Version 1.0.0.3
 
+* ### Welcome Banner Improvements
+   * Organized the Welcome Banner Property Pane settings into categorized sections such as Welcome and Announcement for improved usability and easier configuration.
+
+* ### Property Pane Enhancements
+   * Added a Reset option to all color picker controls in the Property Pane, allowing users to quickly revert to the default color settings.
 
 * ### Exit Setup
    * Fixed the Exit Setup option to properly close the setup wizard after installation.
