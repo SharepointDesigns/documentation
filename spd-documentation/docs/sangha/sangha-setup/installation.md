@@ -140,6 +140,12 @@ The Setup Wizard opens as a full-screen overlay on top of the SharePoint site. I
 
 📸 Setup Wizard Launch Screenshot
 
+![Settings Gear Icon](assets/screenshot-2026-06-18-191241.png "Settings Gear Icon")
+
+![Add an app](assets/screenshot-2026-06-18-191259.png "Add an app")
+
+![Setup](assets/screenshot-2026-06-18-191314.png "Setup")
+
 - - -
 
 # Setup Wizard Walkthrough
