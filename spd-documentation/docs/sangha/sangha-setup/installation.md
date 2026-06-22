@@ -87,10 +87,13 @@ The solution package (`.sppkg` file) is the installer for Intranet Sangha. It is
 
 The App Catalog is Microsoft's trusted location for SharePoint solutions. Uploading the package here ensures the wizard installs securely and is recognized by SharePoint as an approved solution.
 
-📸 Upload Package Screenshot
+<details>
+
+<summary>📸 Upload Package Screenshot</summary>
 
 ![Upload Package](assets/screenshot-2026-06-22-122742.png "Upload Package")
 
+</details>
 - - -
 
 ## Step 2 — Approve Required Permissions
@@ -114,10 +117,13 @@ Intranet Sangha uses one Microsoft 365 permission to read basic organization inf
 
 The Setup Wizard will still run, but the organization name field will not be pre-filled automatically. You can type the organization name manually in Step 2 of the wizard. No other wizard functionality is blocked.
 
-📸 API Permission Approval Screenshot
+<details>
+
+<summary>📸 API Permission Approval Screenshot</summary>
 
 ![API Permission Approval](assets/screenshot-2026-06-22-122032.png "API Permission Approval")
 
+</details>
 - - -
 
 ## Step 3 — Add the Setup Wizard to Your Site
@@ -138,7 +144,9 @@ Once added, the Setup Wizard will appear automatically the next time the site is
 
 The Setup Wizard opens as a full-screen overlay on top of the SharePoint site. It guides you through each configuration step in sequence. Non-administrator users will not see the wizard and will continue to see the standard site.
 
-📸 Setup Wizard Launch Screenshot
+<details>
+
+<summary>📸 Setup Wizard Launch Screenshot </summary>
 
 ![Settings Gear Icon](assets/screenshot-2026-06-18-191241.png "Settings Gear Icon")
 
@@ -146,6 +154,7 @@ The Setup Wizard opens as a full-screen overlay on top of the SharePoint site. I
 
 ![Setup](assets/screenshot-2026-06-18-191314.png "Setup")
 
+</details>
 - - -
 
 # Setup Wizard Walkthrough
