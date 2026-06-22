@@ -133,11 +133,11 @@ Administrators define who can access the intranet and at what level.
 
 ### Step 6 — Deploy
 
-![Pre-Deployment Screen](assets/screenshot-2026-06-16-124232.png "Pre-Deployment Screen")
+![Pre-Deployment Screen](assets/screenshot-2026-06-22-131303.png "Pre-Deployment Screen")
 
-![During Deployment Screen](assets/screenshot-2026-06-16-124351.png "During Deployment Screen")
+![During Deployment Screen](assets/screenshot-2026-06-22-131425.png "During Deployment Screen")
 
-![Post Deployment Screen](assets/screenshot-2026-06-16-124530.png "Post Deployment Screen")
+![Post Deployment Screen](assets/screenshot-2026-06-22-131603.png "Post Deployment Screen")
 
 The wizard deploys all configured settings and creates the intranet pages and data.
 
@@ -148,7 +148,7 @@ The wizard deploys all configured settings and creates the intranet pages and da
 
 ### Step 7 — Templates (Post-Launch)
 
-![Templates Screen](assets/screenshot-2026-06-16-131852.png "Templates Screen")
+![Templates Screen](assets/screenshot-2026-06-22-131950.png "Templates Screen")
 
 After deployment, administrators can create additional pages from pre-built templates.
 
