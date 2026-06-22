@@ -512,7 +512,7 @@ As each page is created, a **View \[Page Name]** button appears so administrator
 - - -
 
 <details>
-<summary>Step 7 — Templates (Post-Launch)</summary>
+<summary>Step 7 - Templates (Post-Launch)</summary>
 
 ## Step 7 — Templates (Post-Launch)
 
@@ -569,13 +569,13 @@ A new SharePoint page is created from the selected template and added to the sit
 
 Use this checklist after the Setup Wizard completes to confirm the intranet is ready for employees.
 
-* **Homepage loads correctly** — Open the intranet homepage and confirm content, logo, and layout appear as expected
-* **Branding is applied** — Verify logo, brand colors, and fonts display correctly across all pages
-* **Navigation works** — Click each top navigation item and confirm it links to the correct page
-* **User access is correct** — Sign in as a standard employee and confirm they can access the site
-* **Permissions are applied** — Confirm Admin, Owner, and Contributor users have the correct level of access
-* **Pages are live** — Open each deployed page (Homepage, Dashboard, Departments, etc.) and confirm content is present
-* **Web parts are functional** — Scroll each page and confirm news, events, and other web parts load without errors
-* **Mobile experience** — Open the intranet on a mobile device or resize the browser and confirm the layout is responsive
-* **API permissions are approved** — Check the SharePoint Admin Center API access screen for any pending approvals from installed web parts
-* **Launch email delivered** — Confirm launch notification emails were received by the users added in Step 5
+* **Homepage loads correctly** - Open the intranet homepage and confirm content, logo, and layout appear as expected
+* **Branding is applied** - Verify logo, brand colors, and fonts display correctly across all pages
+* **Navigation works** - Click each top navigation item and confirm it links to the correct page
+* **User access is correct** - Sign in as a standard employee and confirm they can access the site
+* **Permissions are applied** - Confirm Admin, Owner, and Contributor users have the correct level of access
+* **Pages are live** - Open each deployed page (Homepage, Dashboard, Departments, etc.) and confirm content is present
+* **Web parts are functional** - Scroll each page and confirm news, events, and other web parts load without errors
+* **Mobile experience** - Open the intranet on a mobile device or resize the browser and confirm the layout is responsive
+* **API permissions are approved** - Check the SharePoint Admin Center API access screen for any pending approvals from installed web parts
+* **Launch email delivered** - Confirm launch notification emails were received by the users added in Step 5
