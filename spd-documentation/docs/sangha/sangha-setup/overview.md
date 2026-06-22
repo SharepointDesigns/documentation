@@ -41,22 +41,22 @@ Organizations use Intranet Sangha to eliminate the weeks of manual work typicall
 
 ## Key Highlights
 
-* **Guided setup experience** — A clear, step-by-step wizard that prevents errors and skipped configuration
-* **Automated intranet configuration** — Lists, libraries, pages, and web parts are created automatically
-* **Branding setup** — Upload a logo, pick colors, select fonts, and apply your corporate identity in minutes
-* **Navigation configuration** — Build a structured top navigation with icons, sub-menus, and audience targeting
-* **User access control** — Assign roles (Admin, Owner, Contributor) and control who can access the site
-* **Quick deployment** — The full intranet deploys in a single guided session, typically under 5-10 minutes
-* **Tenant-wide setup support** — The solution installs once and can be activated on any modern SharePoint site
-* **Flexible subscription plans** — Choose the page set that fits your organization size and needs
-* **Live preview** — See branding and navigation changes in real time before deploying
-* **Template-based page creation** — Add new pages after launch using pre-built templates
+* **Guided setup experience** - A clear, step-by-step wizard that prevents errors and skipped configuration
+* **Automated intranet configuration** - Lists, libraries, pages, and web parts are created automatically
+* **Branding setup** - Upload a logo, pick colors, select fonts, and apply your corporate identity in minutes
+* **Navigation configuration** - Build a structured top navigation with icons, sub-menus, and audience targeting
+* **User access control** - Assign roles (Admin, Owner, Contributor) and control who can access the site
+* **Quick deployment** - The full intranet deploys in a single guided session, typically under 5-10 minutes
+* **Tenant-wide setup support** - The solution installs once and can be activated on any modern SharePoint site
+* **Flexible subscription plans** - Choose the page set that fits your organization size and needs
+* **Live preview** - See branding and navigation changes in real time before deploying
+* **Template-based page creation** - Add new pages after launch using pre-built templates
 
 - - -
 
 ## What the Setup Wizard Does
 
-The Setup Wizard guides administrators through the complete intranet configuration process from start to finish. It presents each decision — branding, navigation, users, pages — as a simple screen with clear options, then applies those choices to your SharePoint site automatically.
+The Setup Wizard guides administrators through the complete intranet configuration process from start to finish. It presents each decision - branding, navigation, users, pages - as a simple screen with clear options, then applies those choices to your SharePoint site automatically.
 
 The wizard reduces the need for manual SharePoint configuration. Administrators do not need to create lists, build page layouts, upload assets individually, or manage permissions through the SharePoint admin center. The wizard handles all of that behind the scenes.
 
