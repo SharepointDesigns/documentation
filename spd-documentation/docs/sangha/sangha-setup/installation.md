@@ -424,7 +424,7 @@ This step defines who can access the intranet, assigns user roles, and optionall
 - - -
 
 <details>
-<summary>Step 6 — Deploy</summary>
+<summary>Step 6 - Deploy</summary>
 
 ## Step 6 — Deploy
 
@@ -497,13 +497,13 @@ As each page is created, a **View \[Page Name]** button appears so administrator
 <details>
 <summary>📸 View Deployment Screenshots</summary>
 
-![Pre-Deployment Screen](assets/screenshot-2026-06-16-124232.png "Pre-Deployment Screen")
+![Pre-Deployment Screen](assets/screenshot-2026-06-22-131303.png "Pre-Deployment Screen")
 
-![Deployment Progress Screen](assets/screenshot-2026-06-16-124351.png "Deployment Progress Screen")
+![Deployment Progress Screen](assets/screenshot-2026-06-22-131425.png "Deployment Progress Screen")
 
-![Post Deployment Screen](assets/screenshot-2026-06-16-124530.png "Post Deployment Screen")
+![Post Deployment Screen](assets/screenshot-2026-06-22-131603.png "Post Deployment Screen")
 
-![Live Preview](assets/screenshot-2026-06-16-124530.png "Live Preview")
+![Live Preview](assets/screenshot-2026-06-22-131710.png "Live Preview")
 
 </details>
 
