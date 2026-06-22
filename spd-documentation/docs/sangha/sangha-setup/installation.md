@@ -89,6 +89,8 @@ The App Catalog is Microsoft's trusted location for SharePoint solutions. Upload
 
 📸 Upload Package Screenshot
 
+![Upload Package](assets/screenshot-2026-06-22-122742.png "Upload Package")
+
 - - -
 
 ## Step 2 — Approve Required Permissions
@@ -99,7 +101,7 @@ Intranet Sangha uses one Microsoft 365 permission to read basic organization inf
 
 | Permission                              | Why It Is Needed                                                                                                |
 | --------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Microsoft Graph — Organization.Read.All | Reads your organization's name from Microsoft 365 to pre-fill the organization details step in the Setup Wizard |
+| Microsoft Graph - Organization.Read.All | Reads your organization's name from Microsoft 365 to pre-fill the organization details step in the Setup Wizard |
 
 ### How to Approve
 
@@ -113,6 +115,8 @@ Intranet Sangha uses one Microsoft 365 permission to read basic organization inf
 The Setup Wizard will still run, but the organization name field will not be pre-filled automatically. You can type the organization name manually in Step 2 of the wizard. No other wizard functionality is blocked.
 
 📸 API Permission Approval Screenshot
+
+![API Permission Approval](assets/screenshot-2026-06-22-122032.png "API Permission Approval")
 
 - - -
 
