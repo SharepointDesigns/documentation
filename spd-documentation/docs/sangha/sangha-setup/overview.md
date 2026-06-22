@@ -68,9 +68,9 @@ Each step validates the choices made before moving forward, ensuring the intrane
 
 The Setup Wizard guides administrators through six steps. Each step builds on the previous one to produce a fully configured intranet.
 
-### Step 1 — Welcome & Plan Selection
+### Step 1 - Welcome & Plan Selection
 
-![Welcome & Plan Selection Screen](assets/screenshot-2026-06-16-112430.png "Welcome & Plan Selection Screen")
+![Welcome & Plan Selection Screen](assets/screenshot-2026-06-22-124947.png "Welcome & Plan Selection Screen")
 
 The wizard opens with a welcome screen that shows available subscription plans: **Free Trial**, **Spark**, **Flame**, and **Blaze**. Each plan includes a different set of intranet pages. Administrators select the plan that matches their needs and activate it before proceeding.
 
@@ -81,7 +81,7 @@ The wizard opens with a welcome screen that shows available subscription plans: 
 
 ### Step 2 — Organization Details
 
-![Organization Details Screen](assets/screenshot-2026-06-16-112614.png "Organization Details Screen")
+![Organization Details Screen](assets/screenshot-2026-06-22-125741.png "Organization Details Screen")
 
 The wizard collects basic information about the organization to personalize the intranet.
 
@@ -92,15 +92,13 @@ The wizard collects basic information about the organization to personalize the 
 
 ### Step 3 — Branding Configuration
 
-![Branding Screen With Site Logo Configuration](assets/screenshot-2026-06-16-112706.png "Branding Screen With Site Logo Configuration")
+![Branding Screen With Site Logo Configuration](assets/screenshot-2026-06-22-125906.png "Branding Screen With Site Logo Configuration")
 
-![Branding - Theme Configuration](assets/screenshot-2026-06-16-122801.png "Branding - Theme Configuration")
+![Branding - Theme Configuration](assets/screenshot-2026-06-22-125921.png "Branding - Theme Configuration")
 
-![Branding - Favicon Configuration](assets/screenshot-2026-06-16-122821.png "Branding - Favicon Configuration")
+![Branding - Favicon & Regional Settings Configuration](assets/screenshot-2026-06-22-125940.png "Branding - Favicon & Regional Settings Configuration")
 
-![Branding - Regional Settings Configuration](assets/screenshot-2026-06-16-122833.png "Branding - Regional Settings Configuration")
-
-![Branding - Appearance Settings Configuration](assets/screenshot-2026-06-16-122854.png "Branding - Appearance Settings Configuration")
+![Branding - Appearance Settings Configuration](assets/screenshot-2026-06-22-130013.png "Branding - Appearance Settings Configuration")
 
 Administrators apply the organization's visual identity — logo, colors, fonts, and layout style.
 
@@ -111,7 +109,7 @@ Administrators apply the organization's visual identity — logo, colors, fonts,
 
 ### Step 4 — Navigation Setup
 
-![Navigation Setup Screen](assets/screenshot-2026-06-16-123423.png "Navigation Setup Screen")
+![Navigation Setup Screen](assets/screenshot-2026-06-22-130634.png "Navigation Setup Screen")
 
 Administrators build the top navigation structure that employees will use to move around the intranet.
 
