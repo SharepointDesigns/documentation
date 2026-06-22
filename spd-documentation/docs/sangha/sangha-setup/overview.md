@@ -120,9 +120,9 @@ Administrators build the top navigation structure that employees will use to mov
 
 ### Step 5 — User Access & Permissions
 
-![User Permission Screen](assets/screenshot-2026-06-16-123541.png "User Permission Screen")
+![User Permission Screen](assets/screenshot-2026-06-22-131109.png "User Permission Screen")
 
-![User Notification Alerts](assets/screenshot-2026-06-16-123557.png "User Notification Alerts")
+![User Notification Alerts](assets/screenshot-2026-06-22-131150.png "User Notification Alerts")
 
 Administrators define who can access the intranet and at what level.
 
