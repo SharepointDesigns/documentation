@@ -196,7 +196,7 @@ The selected plan is validated and saved. The wizard unlocks the remaining steps
 - - -
 
 <details>
-<summary>Step 2 — Organization Details</summary>
+<summary>Step 2 - Organization Details</summary>
 
 ## Step 2 — Organization Details
 
@@ -237,7 +237,7 @@ The SharePoint site title is updated immediately. Organization name and industry
 - - -
 
 <details>
-<summary>Step 3 — Branding Configuration</summary>
+<summary>Step 3 - Branding Configuration</summary>
 
 ## Step 3 — Branding Configuration
 
@@ -312,7 +312,7 @@ Administrators can also browse and apply existing SharePoint themes (including a
 - - -
 
 <details>
-<summary>Step 4 — Navigation Setup</summary>
+<summary>Step 4 - Navigation Setup</summary>
 
 ## Step 4 — Navigation Setup
 
@@ -366,7 +366,7 @@ The navigation structure is saved to a SharePoint list and applied to the site. 
 - - -
 
 <details>
-<summary>Step 5 — User Access & Permissions</summary>
+<summary>Step 5 - User Access & Permissions</summary>
 
 ## Step 5 — User Access & Permissions
 
@@ -413,9 +413,9 @@ This step defines who can access the intranet, assigns user roles, and optionall
 <details>
 <summary>📸 View User Access & Permissions Screenshots</summary>
 
-![User Access Configuration](assets/screenshot-2026-06-16-123541.png "User Access Configuration")
+![User Access Configuration](assets/screenshot-2026-06-22-131109.png "User Access Configuration")
 
-![User Notification Alerts](assets/screenshot-2026-06-16-123557.png "User Notification Alerts")
+![User Notification Alerts](assets/screenshot-2026-06-22-131150.png "User Notification Alerts")
 
 </details>
 
