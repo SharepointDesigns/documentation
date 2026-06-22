@@ -153,7 +153,7 @@ The Setup Wizard opens as a full-screen overlay on top of the SharePoint site. I
 - - -
 
 <details>
-<summary>Step 1 — Welcome & Plan Selection</summary>
+<summary>Step 1 - Welcome & Plan Selection</summary>
 
 ## Step 1 — Welcome & Plan Selection
 
@@ -169,7 +169,7 @@ Review the available plans and activate the one that fits your organization.
 
 | Plan                 | Monthly Price | Pages Included                                                         |
 | -------------------- | ------------- | ---------------------------------------------------------------------- |
-| Free Trial (15 days) | $0            | All pages — full access for evaluation                                 |
+| Free Trial (15 days) | $0            | All pages - full access for evaluation                                 |
 | Spark                | $199/month    | Homepage, Personal Dashboard, Admin Dashboard, AI based navigation     |
 | Flame                | $499/month    | Spark pages + Departments, Employee Resources                          |
 | Blaze                | $999/month    | Flame pages + Document Center, Employee Directory, Employee Onboarding |
@@ -187,7 +187,7 @@ The selected plan is validated and saved. The wizard unlocks the remaining steps
 <details>
 <summary>📸 View Plan Selection Screenshots</summary>
 
-![Plan Selection](assets/screenshot-2026-06-16-112430.png "Plan Selection")
+![Plan Selection](assets/screenshot-2026-06-18-143722.png "Plan Selection")
 
 </details>
 
@@ -228,7 +228,7 @@ The SharePoint site title is updated immediately. Organization name and industry
 <details>
 <summary>📸 View Organization Details Screenshots</summary>
 
-![Organization Details](assets/screenshot-2026-06-16-112614.png "Organization Details")
+![Organization Details](assets/screenshot-2026-06-22-125741.png "Organization Details")
 
 </details>
 
@@ -260,15 +260,16 @@ When a logo is uploaded, the wizard automatically analyzes it and suggests match
 
 #### Appearance Settings
 
-| Setting          | Purpose                                                                                         |
-| ---------------- | ----------------------------------------------------------------------------------------------- |
-| Border Radius    | Controls the roundness of cards and panels. Options: 0px (sharp), 12px, 16px, or 32px (rounded) |
-| Theme Mode       | Sets the site to Light mode or Dark mode                                                        |
-| Font Package     | Selects the typography used across all pages                                                    |
-| Page Layout      | Chooses between Layout 1 and Layout 2 (different homepage arrangements)                         |
-| Full-Width Page  | Expands the page content area to fill the full browser width                                    |
-| Footer Alignment | Sets footer content alignment: Left, Center, or Right                                           |
-| Hide Site Title  | Hides the SharePoint site title text from the header if desired                                 |
+| Setting             | Purpose                                                                                         |
+| ------------------- | ----------------------------------------------------------------------------------------------- |
+| Border Radius       | Controls the roundness of cards and panels. Options: 0px (sharp), 12px, 16px, or 32px (rounded) |
+| Theme Mode          | Sets the site to Light mode or Dark mode                                                        |
+| Font Package        | Selects the typography used across all pages                                                    |
+| Page Layout         | Chooses between Layout 1 and Layout 2 (different homepage arrangements)                         |
+| Full-Width Page     | Expands the page content area to fill the full browser width                                    |
+| Footer Alignment    | Sets footer content alignment: Left, Center, or Right                                           |
+| Hide Site Title     | Hides the SharePoint site title text from the header if desired                                 |
+| Header Nav Emphasis | Hides brand color emphasis to the site header navigation.                                       |
 
 #### Favicon
 
@@ -296,23 +297,13 @@ Administrators can also browse and apply existing SharePoint themes (including a
 <details>
 <summary>📸 View Branding Configuration Screenshots</summary>
 
-![Branding Configuration](assets/screenshot-2026-06-16-112706.png "Branding Configuration")
+![Branding Configuration](assets/screenshot-2026-06-22-125906.png "Branding Configuration")
 
+![Branding Theme Color Configuration](assets/screenshot-2026-06-22-125921.png "Branding Theme Color Configuration")
 
+![Branding Favicon & Regional Settings Configuration](assets/screenshot-2026-06-22-125940.png "Branding Favicon & Regional Settings Configuration")
 
-![Branding Theme Color Configuration](assets/screenshot-2026-06-16-122801.png "Branding Theme Color Configuration")
-
-
-
-![Branding Favicon Configuration](assets/screenshot-2026-06-16-122821.png "Branding Favicon Configuration")
-
-
-
-![Branding Regional Settings Configuration](assets/screenshot-2026-06-16-122833.png "Branding Regional Settings Configuration")
-
-
-
-![Branding Appearance Settings Configuration](assets/screenshot-2026-06-16-122854.png "Branding Appearance Settings Configuration")
+![Branding Appearance Settings Configuration](assets/screenshot-2026-06-22-130013.png "Branding Appearnace Settings Configuration")
 
 </details>
 
@@ -366,9 +357,7 @@ The navigation structure is saved to a SharePoint list and applied to the site. 
 <details>
 <summary>📸 View Navigation Setup Screenshots</summary>
 
-
-
-![Navigation Setup Screen](assets/screenshot-2026-06-16-123423.png "Navigation Setup Screen")
+![Navigation Setup Screen](assets/screenshot-2026-06-22-130634.png "Navigation Setup Screen")
 
 </details>
 
@@ -425,8 +414,6 @@ This step defines who can access the intranet, assigns user roles, and optionall
 <summary>📸 View User Access & Permissions Screenshots</summary>
 
 ![User Access Configuration](assets/screenshot-2026-06-16-123541.png "User Access Configuration")
-
-
 
 ![User Notification Alerts](assets/screenshot-2026-06-16-123557.png "User Notification Alerts")
 
@@ -510,19 +497,11 @@ As each page is created, a **View \[Page Name]** button appears so administrator
 <details>
 <summary>📸 View Deployment Screenshots</summary>
 
-
-
 ![Pre-Deployment Screen](assets/screenshot-2026-06-16-124232.png "Pre-Deployment Screen")
-
-
 
 ![Deployment Progress Screen](assets/screenshot-2026-06-16-124351.png "Deployment Progress Screen")
 
-
-
 ![Post Deployment Screen](assets/screenshot-2026-06-16-124530.png "Post Deployment Screen")
-
-
 
 ![Live Preview](assets/screenshot-2026-06-16-124530.png "Live Preview")
 
@@ -559,8 +538,6 @@ A new SharePoint page is created from the selected template and added to the sit
 
 <details>
 <summary>📸 View Template Gallery Screenshots</summary>
-
-
 
 ![Template Gallery](assets/screenshot-2026-06-16-131852.png "Template Gallery")
 
