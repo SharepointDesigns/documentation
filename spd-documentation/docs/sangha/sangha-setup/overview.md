@@ -8,11 +8,11 @@ sidebar_position: 1
 
 ## Product Overview
 
-**Intranet Sangha** by SharePoint Designs is a ready-made intranet solution for Microsoft 365 organizations. It transforms a blank SharePoint site into a fully branded, structured, and populated company intranet — without any manual configuration or technical expertise.
+**Intranet Sangha** by SharePoint Designs is a ready-made intranet solution for Microsoft 365 organizations. It transforms a blank SharePoint site into a fully branded, structured, and populated company intranet - without any manual configuration or technical expertise.
 
-At the heart of the solution is the **Setup Wizard** — a guided, step-by-step experience that walks administrators through every aspect of the intranet: branding, navigation, user access, and page deployment. Once the wizard completes, the site is ready for employees to use immediately.
+At the heart of the solution is the **Setup Wizard** - a guided, step-by-step experience that walks administrators through every aspect of the intranet: branding, navigation, user access, and page deployment. Once the wizard completes, the site is ready for employees to use immediately.
 
-Organizations use Intranet Sangha to eliminate the weeks of manual work typically required to stand up a SharePoint intranet. Rather than configuring lists, uploading logos, building navigation menus, and setting permissions one by one, the Setup Wizard handles all of it in a single session — usually completed in 5-10 minutes.
+Organizations use Intranet Sangha to eliminate the weeks of manual work typically required to stand up a SharePoint intranet. Rather than configuring lists, uploading logos, building navigation menus, and setting permissions one by one, the Setup Wizard handles all of it in a single session - usually completed in 5-10 minutes.
 
 - - -
 
@@ -41,22 +41,22 @@ Organizations use Intranet Sangha to eliminate the weeks of manual work typicall
 
 ## Key Highlights
 
-* **Guided setup experience** — A clear, step-by-step wizard that prevents errors and skipped configuration
-* **Automated intranet configuration** — Lists, libraries, pages, and web parts are created automatically
-* **Branding setup** — Upload a logo, pick colors, select fonts, and apply your corporate identity in minutes
-* **Navigation configuration** — Build a structured top navigation with icons, sub-menus, and audience targeting
-* **User access control** — Assign roles (Admin, Owner, Contributor) and control who can access the site
-* **Quick deployment** — The full intranet deploys in a single guided session, typically under 5-10 minutes
-* **Tenant-wide setup support** — The solution installs once and can be activated on any modern SharePoint site
-* **Flexible subscription plans** — Choose the page set that fits your organization size and needs
-* **Live preview** — See branding and navigation changes in real time before deploying
-* **Template-based page creation** — Add new pages after launch using pre-built templates
+* **Guided setup experience** - A clear, step-by-step wizard that prevents errors and skipped configuration
+* **Automated intranet configuration** - Lists, libraries, pages, and web parts are created automatically
+* **Branding setup** - Upload a logo, pick colors, select fonts, and apply your corporate identity in minutes
+* **Navigation configuration** - Build a structured top navigation with icons, sub-menus, and audience targeting
+* **User access control** - Assign roles (Admin, Owner, Contributor) and control who can access the site
+* **Quick deployment** - The full intranet deploys in a single guided session, typically under 5-10 minutes
+* **Tenant-wide setup support** - The solution installs once and can be activated on any modern SharePoint site
+* **Flexible subscription plans** - Choose the page set that fits your organization size and needs
+* **Live preview** - See branding and navigation changes in real time before deploying
+* **Template-based page creation** - Add new pages after launch using pre-built templates
 
 - - -
 
 ## What the Setup Wizard Does
 
-The Setup Wizard guides administrators through the complete intranet configuration process from start to finish. It presents each decision — branding, navigation, users, pages — as a simple screen with clear options, then applies those choices to your SharePoint site automatically.
+The Setup Wizard guides administrators through the complete intranet configuration process from start to finish. It presents each decision - branding, navigation, users, pages - as a simple screen with clear options, then applies those choices to your SharePoint site automatically.
 
 The wizard reduces the need for manual SharePoint configuration. Administrators do not need to create lists, build page layouts, upload assets individually, or manage permissions through the SharePoint admin center. The wizard handles all of that behind the scenes.
 
@@ -68,9 +68,9 @@ Each step validates the choices made before moving forward, ensuring the intrane
 
 The Setup Wizard guides administrators through six steps. Each step builds on the previous one to produce a fully configured intranet.
 
-### Step 1 — Welcome & Plan Selection
+### Step 1 - Welcome & Plan Selection
 
-![Welcome & Plan Selection Screen](assets/screenshot-2026-06-16-112430.png "Welcome & Plan Selection Screen")
+![Welcome & Plan Selection Screen](assets/screenshot-2026-06-22-124947.png "Welcome & Plan Selection Screen")
 
 The wizard opens with a welcome screen that shows available subscription plans: **Free Trial**, **Spark**, **Flame**, and **Blaze**. Each plan includes a different set of intranet pages. Administrators select the plan that matches their needs and activate it before proceeding.
 
@@ -81,7 +81,7 @@ The wizard opens with a welcome screen that shows available subscription plans: 
 
 ### Step 2 — Organization Details
 
-![Organization Details Screen](assets/screenshot-2026-06-16-112614.png "Organization Details Screen")
+![Organization Details Screen](assets/screenshot-2026-06-22-125741.png "Organization Details Screen")
 
 The wizard collects basic information about the organization to personalize the intranet.
 
@@ -92,15 +92,13 @@ The wizard collects basic information about the organization to personalize the 
 
 ### Step 3 — Branding Configuration
 
-![Branding Screen With Site Logo Configuration](assets/screenshot-2026-06-16-112706.png "Branding Screen With Site Logo Configuration")
+![Branding Screen With Site Logo Configuration](assets/screenshot-2026-06-22-125906.png "Branding Screen With Site Logo Configuration")
 
-![Branding - Theme Configuration](assets/screenshot-2026-06-16-122801.png "Branding - Theme Configuration")
+![Branding - Theme Configuration](assets/screenshot-2026-06-22-125921.png "Branding - Theme Configuration")
 
-![Branding - Favicon Configuration](assets/screenshot-2026-06-16-122821.png "Branding - Favicon Configuration")
+![Branding - Favicon & Regional Settings Configuration](assets/screenshot-2026-06-22-125940.png "Branding - Favicon & Regional Settings Configuration")
 
-![Branding - Regional Settings Configuration](assets/screenshot-2026-06-16-122833.png "Branding - Regional Settings Configuration")
-
-![Branding - Appearance Settings Configuration](assets/screenshot-2026-06-16-122854.png "Branding - Appearance Settings Configuration")
+![Branding - Appearance Settings Configuration](assets/screenshot-2026-06-22-130013.png "Branding - Appearance Settings Configuration")
 
 Administrators apply the organization's visual identity — logo, colors, fonts, and layout style.
 
@@ -111,7 +109,7 @@ Administrators apply the organization's visual identity — logo, colors, fonts,
 
 ### Step 4 — Navigation Setup
 
-![Navigation Setup Screen](assets/screenshot-2026-06-16-123423.png "Navigation Setup Screen")
+![Navigation Setup Screen](assets/screenshot-2026-06-22-130634.png "Navigation Setup Screen")
 
 Administrators build the top navigation structure that employees will use to move around the intranet.
 
@@ -122,9 +120,9 @@ Administrators build the top navigation structure that employees will use to mov
 
 ### Step 5 — User Access & Permissions
 
-![User Permission Screen](assets/screenshot-2026-06-16-123541.png "User Permission Screen")
+![User Permission Screen](assets/screenshot-2026-06-22-131109.png "User Permission Screen")
 
-![User Notification Alerts](assets/screenshot-2026-06-16-123557.png "User Notification Alerts")
+![User Notification Alerts](assets/screenshot-2026-06-22-131150.png "User Notification Alerts")
 
 Administrators define who can access the intranet and at what level.
 
@@ -135,11 +133,11 @@ Administrators define who can access the intranet and at what level.
 
 ### Step 6 — Deploy
 
-![Pre-Deployment Screen](assets/screenshot-2026-06-16-124232.png "Pre-Deployment Screen")
+![Pre-Deployment Screen](assets/screenshot-2026-06-22-131303.png "Pre-Deployment Screen")
 
-![During Deployment Screen](assets/screenshot-2026-06-16-124351.png "During Deployment Screen")
+![During Deployment Screen](assets/screenshot-2026-06-22-131425.png "During Deployment Screen")
 
-![Post Deployment Screen](assets/screenshot-2026-06-16-124530.png "Post Deployment Screen")
+![Post Deployment Screen](assets/screenshot-2026-06-22-131603.png "Post Deployment Screen")
 
 The wizard deploys all configured settings and creates the intranet pages and data.
 
@@ -150,7 +148,7 @@ The wizard deploys all configured settings and creates the intranet pages and da
 
 ### Step 7 — Templates (Post-Launch)
 
-![Templates Screen](assets/screenshot-2026-06-16-131852.png "Templates Screen")
+![Templates Screen](assets/screenshot-2026-06-22-131950.png "Templates Screen")
 
 After deployment, administrators can create additional pages from pre-built templates.
 
