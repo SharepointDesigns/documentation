@@ -539,7 +539,7 @@ A new SharePoint page is created from the selected template and added to the sit
 <details>
 <summary>📸 View Template Gallery Screenshots</summary>
 
-![Template Gallery](assets/screenshot-2026-06-16-131852.png "Template Gallery")
+![Template Gallery](assets/screenshot-2026-06-22-131950.png "Template Gallery")
 
 </details>
 
