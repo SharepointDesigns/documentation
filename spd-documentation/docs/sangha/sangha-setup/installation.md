@@ -17,7 +17,7 @@ By the end of this process, your SharePoint site will have:
 * Configured user roles and permissions
 * Automatically created lists, libraries, and content
 
-**Approximate setup time:** 5–10 minutes, depending on the plan selected and the number of users being configured.
+**Approximate setup time:** 5-10 minutes, depending on the plan selected and the number of users being configured.
 
 **Who should run this guide:** A SharePoint Administrator or Global Administrator with access to the SharePoint App Catalog.
 
