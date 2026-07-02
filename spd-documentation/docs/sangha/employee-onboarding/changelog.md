@@ -13,7 +13,7 @@ sidebar_position: 5
 
 ### Initial Release
 
-This is the first public release of DIY Intranet Home.
+This is the first public release of DIY Sangha Employee Onboarding.
 
 - - -
 
