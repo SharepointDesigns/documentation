@@ -225,24 +225,24 @@ Contact displays one or more key contacts with their photo, name, role, and a de
 
 ![Contact](assets/screenshot-2026-06-16-155936.png "Contact")
 
-### 📌 Header Settings
+### 📌 Header
 
-| Name                        | Purpose                                                                            | Control Type          |
-| --------------------------- | ---------------------------------------------------------------------------------- | --------------------- |
-| Webpart Title for Contact 1 | Heading for the first contact card (visible only when Layout is "User Selection")  | Text field            |
-| Webpart Title for Contact 2 | Heading for the second contact card (visible only when Layout is "User Selection") | Text field            |
-| Title Theme Color           | Picks a colour for the contact heading text from the site theme palette            | Theme colour dropdown |
+| Name                        | Purpose                                                                            | Control Type |
+| --------------------------- | ---------------------------------------------------------------------------------- | ------------ |
+| Webpart Title for Contact 1 | Heading for the first contact card (visible only when Layout is "User Selection")  | Text field   |
+| Webpart Title for Contact 2 | Heading for the second contact card (visible only when Layout is "User Selection") | Text field   |
+| Webpart Title Color         | Picks a colour for the contact heading text from the site theme palette            | Color picker |
 
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
 
-![Header Settings](assets/screenshot-2026-06-16-160830.png "Header Settings")
+![Header](assets/screenshot-2026-07-02-200229.png "Header")
 
 </details>
 
 - - -
 
-### ⚙️ General Settings
+### ⚙️ General
 
 | Name               | Purpose                                                                                                         | Control Type        |
 | ------------------ | --------------------------------------------------------------------------------------------------------------- | ------------------- |
@@ -254,11 +254,11 @@ Contact displays one or more key contacts with their photo, name, role, and a de
 | Height             | Controls the height of the contact section                                                                      | Slider (200–500 px) |
 
 <details>
-<summary>📸 View General Settings Screenshots</summary>
+<summary>📸 View General Screenshots</summary>
 
-|                                                                                 |                                                                                 |
-| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| ![General Settings](assets/screenshot-2026-06-16-160855.png "General Settings") | ![General Settings](assets/screenshot-2026-06-16-160911.png "General Settings") |
+![User Selection - General](assets/screenshot-2026-07-02-203457.png "User Selection - General")
+
+![Collection Data - General](assets/screenshot-2026-07-02-203513.png "Collection Data - General")
 
 </details>
 
@@ -273,18 +273,17 @@ Contact displays one or more key contacts with their photo, name, role, and a de
 
 - - -
 
-### 📐 Layout Settings
+### 📐 Layout
 
 | Name                       | Purpose                                                                                   | Control Type |
 | -------------------------- | ----------------------------------------------------------------------------------------- | ------------ |
 | Select Layout to Show Data | Switch between User Selection (two named contacts) and Collection View (multiple entries) | Dropdown     |
-| Selected Design            | Switch between Standard and Accent Bar                                                    | Dropdown     |
-| Show Shadow                | Adds a drop shadow to the contact cards                                                   | Toggle       |
+| Choose layout              | Switch between Standard and Accent Bar                                                    | Choicegroup  |
 
 <details>
-<summary>📸 View Layout Settings Screenshots</summary>
+<summary>📸 View Layout Screenshots</summary>
 
-![Layout](assets/screenshot-2026-06-16-160844.png "Layout")
+![Layout](assets/screenshot-2026-07-02-203345.png "Layout")
 
 </details>
 
