@@ -15,17 +15,17 @@ The Employee Welcome Banner is the branded hero at the top of the directory page
 
 ![Employee Directory Welcome Banner](assets/screenshot-2026-06-16-164110.png "Employee Directory Welcome Banner")
 
-### 📌 Header Settings
+### 📌 Header
 
-| Name                         | Purpose                                                                   | Control Type          |
-| ---------------------------- | ------------------------------------------------------------------------- | --------------------- |
-| Enter Department Name        | The main heading shown over the banner image (e.g., "Employee Directory") | Text field            |
-| Text Color (Title in Banner) | Picks a colour for the title text from the site theme palette             | Theme colour dropdown |
+| Name                   | Purpose                                                                   | Control Type |
+| ---------------------- | ------------------------------------------------------------------------- | ------------ |
+| Department Title       | The main heading shown over the banner image (e.g., "Employee Directory") | Text field   |
+| Department Title Color | Picks a colour for the title text from the site theme palette             | Color picker |
 
 <details>
-<summary>📸 View Header Settings Screenshots</summary>
+<summary>📸 View Header Screenshots</summary>
 
-![Header Settings](assets/screenshot-2026-06-16-164312.png "Header Settings")
+![Header](assets/screenshot-2026-07-02-174258.png "Header")
 
 </details>
 
