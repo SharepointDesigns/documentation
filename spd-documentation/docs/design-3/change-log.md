@@ -1,9 +1,14 @@
 ---
 title: Change Log
 ---
-
-
 ## Version - 1.0.0.6
+
+### Feature
+
+#### Site setup
+
+* Added Trial expiry Notification
+* Added Custom push notification (Handled by SharePoint Designs)
 
 ### Fixes
 
