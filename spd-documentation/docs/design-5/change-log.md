@@ -22,7 +22,7 @@ sidebar_position: 5
    * Added support to create and apply Site Themes directly through the setup wizard.
 
 * ### Implemented New Extension  setup 
-   * Implemented the new extension setup For Design 2. 
+   * Implemented the new extension setup For Design 5. 
 
 * ### Implemented exit Setup
    * If existing user comes in we can exit without again setting up the site .
