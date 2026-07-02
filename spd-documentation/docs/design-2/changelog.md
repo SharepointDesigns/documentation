@@ -6,6 +6,14 @@ updated: October 2025
 description: Change Log settings and customization guide for each web part.
 sidebar_position: 5
 ---
+## Version 1.0.0.9
+
+### Feature
+
+#### Site setup
+
+* Added Trial expiry notification
+* Added custom push notifications (Handled by SharePoint Designs)
 
 ## Version 1.0.0.8
 * ### Exit Setup
