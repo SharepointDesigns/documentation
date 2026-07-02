@@ -10,11 +10,11 @@ DIY Sangha Employee Onboarding is a ready-built SharePoint solution that gives y
 
 ## Who Is This For?
 
-| Audience                  | How They Use It                                                                                                     |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| HR / People Team (Admins) | Create and manage onboarding task templates, set up employee records in the list, and review progress in Admin view |
-| New Employees (Users)     | Log in and see their personal onboarding checklist with tasks to complete                                           |
-| Site Owners               | Deploy the page, configure the web part to point to the right lists, and manage access                              |
+| Audience                  | How They Use It                                                                                                    |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| HR / People Team (Admins) | Create and manage onboarding task templates, set up employee records in the list and review progress in Admin view |
+| New Employees (Users)     | Log in and see their personal onboarding checklist with tasks to complete                                          |
+| Site Owners               | Deploy the page, configure the web part to point to the right lists, and manage access                             |
 
 - - -
 
@@ -29,11 +29,11 @@ DIY Sangha Employee Onboarding is a ready-built SharePoint solution that gives y
 
 ## Key Highlights
 
-* **Template-Driven Tasks** — Onboarding tasks are defined in a SharePoint list template, making it easy for HR to update the checklist without changing the web part.
-* **Dual View Mode** — Admins see all employees and their task progress; new employees see only their own checklist.
-* **SharePoint List Integration** — Connects to three SharePoint lists: onboarding tasks, employee records, and the task template — all of which can be managed through familiar SharePoint list views.
-* **Branded Welcome Banner** — A full-width hero banner with a customisable background image sets the tone for new joiners.
-* **No Coding Required** — All settings are managed through the web part settings panel and standard SharePoint lists.
+* **Template-Driven Tasks** - Onboarding tasks are defined in a SharePoint list template, making it easy for HR to update the checklist without changing the web part.
+* **Dual View Mode** -  Admins see all employees and their task progress; new employees see only their own checklist.
+* **SharePoint List Integration** - Connects to three SharePoint lists: onboarding tasks, employee records and the task template, all of which can be managed through familiar SharePoint list views.
+* **Branded Welcome Banner** -  A full-width hero banner with a customisable background image sets the tone for new joiners.
+* **No Coding Required** - All settings are managed through the web part settings panel and standard SharePoint lists.
 
 - - -
 
@@ -49,7 +49,7 @@ This permission must be approved by a Global Admin or SharePoint Admin in the Sh
 
 ## How It Works
 
-1. HR creates onboarding task items in the **Onboarding Task List** and defines a task template in the **Onboarding Template** list.
+1. HR creates onboarding task items in the **Onboarding Task List** and defines a task template in the **Onboarding Tasks Template** list.
 2. When a new employee joins, HR adds them to the **Employee List**.
 3. The Employee Onboarding web part reads these lists and shows each new joiner their personalised checklist.
 4. New employees tick off tasks as they complete them. Admins can monitor progress across all employees.
@@ -64,13 +64,11 @@ This permission must be approved by a Global Admin or SharePoint Admin in the Sh
 
 ## Screenshots
 
-📸 View Overview Screenshots *(add screenshots here)*
-
 ![Employee Onboarding Overview](assets/employee-onboarding-overview.png "Employee Onboarding Overview")
 
 - - -
 
 ## Version
 
-**Current Version:** 1.0.0.0
+**Current Version:** 1.0.1.0
 **Developed by:** SharePoint Designs — [www.sharepointdesigns.com](https://www.sharepointdesigns.com)
