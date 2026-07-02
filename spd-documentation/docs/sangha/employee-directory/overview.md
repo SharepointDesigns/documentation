@@ -62,5 +62,5 @@ This permission must be approved by a Global Admin or SharePoint Admin in the Sh
 
 ## Version
 
-**Current Version:** 1.0.0.0
+**Current Version:** 1.0.1.0
 **Developed by:** SharePoint Designs — [www.sharepointdesigns.com](https://www.sharepointdesigns.com)
