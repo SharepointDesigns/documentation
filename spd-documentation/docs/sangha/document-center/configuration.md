@@ -15,49 +15,49 @@ The Document Welcome Banner is the full-width hero at the top of the page. It di
 
 ![Document Welcome Banner](assets/screenshot-2026-06-16-153402.png "Document Welcome Banner")
 
-### 📌 Header Settings
+### 📌 Header
 
-| Name                         | Purpose                                                       | Control Type          |
-| ---------------------------- | ------------------------------------------------------------- | --------------------- |
-| Enter Department Name        | The main heading shown over the banner image                  | Text field            |
-| Text Color (Title in Banner) | Picks a colour for the title text from the site theme palette | Theme colour dropdown |
+| Name                   | Purpose                                                       | Control Type |
+| ---------------------- | ------------------------------------------------------------- | ------------ |
+| Department Title       | The main heading shown over the banner image                  | Text field   |
+| Department Title Color | Picks a colour for the title text from the site theme palette | Color picker |
 
 <details>
-<summary>📸 View Header Settings Screenshots</summary>
+<summary>📸 View Header Screenshots</summary>
 
-![Header Settings](assets/screenshot-2026-06-16-153829.png "Header Settings")
+![Header](assets/screenshot-2026-07-02-193649.png "Header")
 
 </details>
 
 - - -
 
-### ⚙️ General Settings
+### 📸 Background Image
 
-| Name              | Purpose                                      | Control Type |
-| ----------------- | -------------------------------------------- | ------------ |
-| Change Background | Select or upload the banner background image | Image picker |
+| Name                     | Purpose                                                                             | Control Type |
+| ------------------------ | ----------------------------------------------------------------------------------- | ------------ |
+| Change Background        | Select or upload the banner background image                                        | Image picker |
+| Background Image Scaling | How the background image fills the banner: Cover, Contain, Auto, Stretch, or Centre | Dropdown     |
 
 <details>
-<summary>📸 View General Settings Screenshots</summary>
+<summary>📸 View Background Image Screenshots</summary>
 
-![General Settings](assets/screenshot-2026-06-16-154101.png "General Settings")
+![Background Image](assets/screenshot-2026-07-02-193833.png "Background Image")
 
 </details>
 
 - - -
 
-### 🎨 Appearance Settings
+### 🎨 Appearance
 
-| Name                     | Purpose                                                                             | Control Type        |
-| ------------------------ | ----------------------------------------------------------------------------------- | ------------------- |
-| Background Image Scaling | How the background image fills the banner: Cover, Contain, Auto, Stretch, or Centre | Dropdown            |
-| Title Position           | Moves the title text up or down on the banner                                       | Slider (1–87%)      |
-| Banner Height            | Controls the overall height of the banner                                           | Slider (250–550 px) |
+| Name           | Purpose                                       | Control Type        |
+| -------------- | --------------------------------------------- | ------------------- |
+| Title Position | Moves the title text up or down on the banner | Slider (1–87%)      |
+| Banner Height  | Controls the overall height of the banner     | Slider (250–550 px) |
 
 <details>
-<summary>📸 View Appearance Settings Screenshots</summary>
+<summary>📸 View Appearance Screenshots</summary>
 
-![Appearance Settings](assets/screenshot-2026-06-16-154149.png "Appearance Settings")
+![Appearance](assets/screenshot-2026-07-02-194112.png "Appearance")
 
 </details>
 
@@ -74,27 +74,27 @@ Document Contents is the main document browsing section. It pulls files from a S
 
 ![Document Contents](assets/screenshot-2026-06-16-154649.png "Document Contents")
 
-### 📌 Header Settings
+### 📌 Header
 
-| Name              | Purpose                                                                                               | Control Type          |
-| ----------------- | ----------------------------------------------------------------------------------------------------- | --------------------- |
-| Show Header       | Shows or hides the web part title and "See All" link                                                  | Toggle                |
-| Title             | Heading text shown above the document list (visible only when Show Header is on)                      | Text field            |
-| Heading Level     | Font size for the title heading                                                                       | Dropdown              |
-| Custom Font Size  | Exact font size in pixels (visible only when Heading Level is set to Custom)                          | Slider (10–68 px)     |
-| Title Theme Color | Picks a colour for the title from the site theme palette (visible only when a title is entered)       | Theme colour dropdown |
-| Show See All      | Shows a "See All" link that opens the full library (visible only when Source is "A document library") | Toggle                |
+| Name                | Purpose                                                                                               | Control Type      |
+| ------------------- | ----------------------------------------------------------------------------------------------------- | ----------------- |
+| Show Header         | Shows or hides the web part title and "See All" link                                                  | Toggle            |
+| Title               | Heading text shown above the document list (visible only when Show Header is on)                      | Text field        |
+| Heading Level       | Font size for the title heading                                                                       | Dropdown          |
+| Custom Font Size    | Exact font size in pixels (visible only when Heading Level is set to Custom)                          | Slider (10–68 px) |
+| Webpart Title Color | Picks a colour for the title from the site theme palette (visible only when a title is entered)       | Color picker      |
+| Show See All        | Shows a "See All" link that opens the full library (visible only when Source is "A document library") | Toggle            |
 
 <details>
-<summary>📸 View Header Settings Screenshots</summary>
+<summary>📸 View Header Screenshots</summary>
 
-![Header Settings](assets/screenshot-2026-06-16-154908.png "Header Settings")
+![Header](assets/screenshot-2026-07-02-194243.png "Header")
 
 </details>
 
 - - -
 
-### ⚙️ General Settings
+### ⚙️ General
 
 | Name                       | Purpose                                                                                                  | Control Type   |
 | -------------------------- | -------------------------------------------------------------------------------------------------------- | -------------- |
@@ -111,35 +111,35 @@ Document Contents is the main document browsing section. It pulls files from a S
 | Number of Items to Display | Maximum number of files to show (1–4999)                                                                 | Number field   |
 
 <details>
-<summary>📸 View General Settings Screenshots</summary>
+<summary>📸 View General Screenshots</summary>
 
-| | |
-|---|---|
-| ![This Site General Settings](assets/screenshot-2026-06-16-155003.png "This Site General Settings") | ![Multiple Library General Settings](assets/screenshot-2026-06-16-155036.png "Multiple Library General Settings") |
+![This Site - General](assets/screenshot-2026-07-02-194722.png "This Site - General")
 
-![Multi Sites General Settings](assets/screenshot-2026-06-16-155152.png "Multi Sites General Settings")
+![Multiple library - General](assets/screenshot-2026-07-02-194821.png "Multiple library - General")
+
+![Multiple Site - General](assets/screenshot-2026-07-02-194929.png "Multiple Site - General")
 
 </details>
 
 - - -
 
-### 📐 Layout Settings
+### 📐 Layout
 
 | Name                        | Purpose                                                                  | Control Type |
 | --------------------------- | ------------------------------------------------------------------------ | ------------ |
-| Selected Design             | Switch between Standard (all-round border) and Accent Bar (top bar only) | Dropdown     |
+| Choose Layout               | Switch between Standard (all-round border) and Accent Bar (top bar only) | Choicegroup  |
 | Hide This Web Part if Empty | Hides the entire web part when no documents match the current filter     | Checkbox     |
 
 <details>
-<summary>📸 View Layout Settings Screenshots</summary>
+<summary>📸 View Layout Screenshots</summary>
 
-![Layout Settings](assets/screenshot-2026-06-16-155256.png "Layout Settings")
+![Layout](assets/screenshot-2026-07-02-195003.png "Layout")
 
 </details>
 
 - - -
 
-### 🎨 Appearance Settings
+### 🎨 Appearance
 
 | Name                 | Purpose                                                                                            | Control Type         |
 | -------------------- | -------------------------------------------------------------------------------------------------- | -------------------- |
@@ -147,9 +147,9 @@ Document Contents is the main document browsing section. It pulls files from a S
 | Height               | Controls the height of the document section                                                        | Slider (400–2000 px) |
 
 <details>
-<summary>📸 View Appearance Settings Screenshots</summary>
+<summary>📸 View Appearance Screenshots</summary>
 
-![Appearance Settings](assets/screenshot-2026-06-16-155323.png "Appearance Settings")
+![Appearance](assets/screenshot-2026-07-02-195025.png "Appearance")
 
 </details>
 
@@ -166,28 +166,29 @@ FAQs displays a list of questions and answers as an expandable accordion. Questi
 
 ![FAQs](assets/screenshot-2026-06-16-155917.png "FAQs")
 
-### 📌 Header Settings
+### 📌 Header
 
-| Name              | Purpose                                                                                         | Control Type          |
-| ----------------- | ----------------------------------------------------------------------------------------------- | --------------------- |
-| Webpart Title     | The heading shown above the FAQ list                                                            | Text field            |
-| Title Theme Color | Picks a colour for the title from the site theme palette (visible only when a title is entered) | Theme colour dropdown |
+| Name                | Purpose                                                                                         | Control Type |
+| ------------------- | ----------------------------------------------------------------------------------------------- | ------------ |
+| Webpart Title       | The heading shown above the FAQ list                                                            | Text field   |
+| Webpart Title Color | Picks a colour for the title from the site theme palette (visible only when a title is entered) | Color picker |
+| Show Title          | Toggle to turn on and off the webpart title                                                     | Toggle       |
 
 <details>
-<summary>📸 View Header Settings Screenshots</summary>
+<summary>📸 View Header Screenshots</summary>
 
-![Header Settings](assets/screenshot-2026-06-16-160001.png "Header Settings")
+![Header](assets/screenshot-2026-07-02-195607.png "Header")
 
 </details>
 
 - - -
 
-### ⚙️ General Settings
+### ⚙️ General
 
 | Name              | Purpose                                                                                                        | Control Type  |
 | ----------------- | -------------------------------------------------------------------------------------------------------------- | ------------- |
-| Layout            | Choose whether FAQs come from a SharePoint list or are entered as custom items                                 | Dropdown      |
-| Selected Design   | Switch between Standard and Accent Bar                                                                         | Dropdown      |
+| Data Source       | Choose whether FAQs come from a SharePoint list or are entered as custom items                                 | Dropdown      |
+| Choose Layout     | Switch between Standard and Accent Bar                                                                         | Choicegroup   |
 | Select FAQs List  | Pick the SharePoint list containing FAQ items (visible only when Layout is "Accordion (SharePoint list)")      | List picker   |
 | Go to FAQ's List  | Opens the selected list to add or edit items                                                                   | Link          |
 | FAQ Items         | Opens a panel to add, edit, and reorder FAQ entries (visible only when Layout is "Accordion (Custom items)")   | Manage panel  |
@@ -199,13 +200,12 @@ FAQs displays a list of questions and answers as an expandable accordion. Questi
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-| | |
-|---|---|
-| ![General Settings](assets/screenshot-2026-06-16-160801.png "General Settings") | ![General Settings](assets/screenshot-2026-06-16-160814.png "General Settings") |
+![General](assets/screenshot-2026-07-02-195645.png "General")
 
 </details>
 
-**FAQ Items Panel Fields:**
+| **FAQ Items Panel Fields:** |
+| --------------------------- |
 
 | Field       | Purpose                                                  |
 | ----------- | -------------------------------------------------------- |
@@ -256,8 +256,8 @@ Contact displays one or more key contacts with their photo, name, role, and a de
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-| | |
-|---|---|
+|                                                                                 |                                                                                 |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | ![General Settings](assets/screenshot-2026-06-16-160855.png "General Settings") | ![General Settings](assets/screenshot-2026-06-16-160911.png "General Settings") |
 
 </details>
@@ -284,7 +284,7 @@ Contact displays one or more key contacts with their photo, name, role, and a de
 <details>
 <summary>📸 View Layout Settings Screenshots</summary>
 
-![Layout Settings](assets/screenshot-2026-06-16-160844.png "Layout Settings")
+![Layout](assets/screenshot-2026-06-16-160844.png "Layout")
 
 </details>
 
