@@ -7,8 +7,8 @@ title: Change Log
 
 #### Site setup
 
-* Added Trial expiry Notification
-* Added Custom push notification (Handled by SharePoint Designs)
+* Added Trial expiry notification
+* Added custom push notifications (Handled by SharePoint Designs)
 
 ### Fixes
 
