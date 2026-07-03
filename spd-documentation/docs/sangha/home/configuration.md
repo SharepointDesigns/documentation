@@ -147,7 +147,7 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-15.32.40.png)
+![Header](assets/commonheader.png "Header")
 
 </details>
 
@@ -172,7 +172,7 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-15.32.46.png)
+![](assets/announcementgeneral.png)
 
 </details>
 
@@ -184,6 +184,13 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 | ---------------- | -------------------------------------------------------------------------- | ------------ |
 | Button color     | Colour theme for the carousel navigation buttons, from the site's palette. | Dropdown     |
 | Background color | Colour theme for the carousel's background, from the site's palette.       | Dropdown     |
+
+<details>
+<summary>📸 View General Settings Screenshots</summary>
+
+![Announcement Appearance](assets/announcementappearance.png "Announcement Appearance")
+
+</details>
 
 - - -
 
@@ -198,7 +205,7 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 <details>
 <summary>📸 View Carousel Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-15.32.55.png)
+![Carousel](assets/announcementcarousel.png "Carousel")
 
 </details>
 
