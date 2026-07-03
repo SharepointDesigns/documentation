@@ -15,49 +15,49 @@ The Employee Welcome banner sits at the top of the onboarding page and creates a
 
 ![Employee Onboaring Welcome Banner](assets/screenshot-2026-06-16-172636.png "Employee Onboaring Welcome Banner")
 
-### 📌 Header Settings
+### 📌 Header
 
-| Name                         | Purpose                                                                     | Control Type          |
-| ---------------------------- | --------------------------------------------------------------------------- | --------------------- |
-| Enter Department Name        | The main heading shown over the banner image (e.g., "Welcome to the Team!") | Text field            |
-| Text Color (Title in Banner) | Picks a colour for the title text from the site theme palette               | Theme colour dropdown |
+| Name                         | Purpose                                                                     | Control Type |
+| ---------------------------- | --------------------------------------------------------------------------- | ------------ |
+| Department Title             | The main heading shown over the banner image (e.g., "Welcome to the Team!") | Text field   |
+| Text Color (Title in Banner) | Picks a colour for the title text from the site theme palette               | Color picker |
 
 <details>
-<summary>📸 View Header Settings Screenshots</summary>
+<summary>📸 View Header Screenshots</summary>
 
-![Header Settings](assets/screenshot-2026-06-16-173020.png "Header Settings")
+![Header ](assets/screenshot-2026-07-02-164818.png "Header")
 
 </details>
 
 - - -
 
-### ⚙️ General Settings
+### 📸 Background Image
 
-| Name              | Purpose                                      | Control Type |
-| ----------------- | -------------------------------------------- | ------------ |
-| Change Background | Select or upload the banner background image | Image picker |
+| Name                     | Purpose                                                                             | Control Type |
+| ------------------------ | ----------------------------------------------------------------------------------- | ------------ |
+| Change Background        | Select or upload the banner background image                                        | Image picker |
+| Background Image Scaling | How the background image fills the banner: Cover, Contain, Auto, Stretch, or Centre | Dropdown     |
 
 <details>
-<summary>📸 View General Settings Screenshots</summary>
+<summary>📸 View General Screenshots</summary>
 
-![General Settings](assets/screenshot-2026-06-16-154101.png "General Settings")
+![Background Image](assets/screenshot-2026-07-02-164836.png "Background Image")
 
 </details>
 
 - - -
 
-### 🎨 Appearance Settings
+### 🎨 Appearance
 
-| Name                     | Purpose                                                                             | Control Type        |
-| ------------------------ | ----------------------------------------------------------------------------------- | ------------------- |
-| Background Image Scaling | How the background image fills the banner: Cover, Contain, Auto, Stretch, or Centre | Dropdown            |
-| Title Position           | Moves the title text up or down on the banner                                       | Slider (1–87%)      |
-| Banner Height            | Controls the overall height of the banner                                           | Slider (250–550 px) |
+| Name           | Purpose                                       | Control Type        |
+| -------------- | --------------------------------------------- | ------------------- |
+| Title Position | Moves the title text up or down on the banner | Slider (1–87%)      |
+| Banner Height  | Controls the overall height of the banner     | Slider (250–550 px) |
 
 <details>
-<summary>📸 View Appearance Settings Screenshots</summary>
+<summary>📸 View Appearance Screenshots</summary>
 
-![Appearance Settings](assets/screenshot-2026-06-16-154149.png "Appearance Settings")
+![Appearance](assets/screenshot-2026-07-02-164854.png "Appearance")
 
 </details>
 
@@ -74,7 +74,7 @@ Employee Onboarding connects to three SharePoint lists to deliver a personalised
 
 ![Employee Onboarding](assets/screenshot-2026-06-16-173338.png "Employee Onboarding")
 
-### ⚙️ General Settings
+### ⚙️ General
 
 | Name                        | Purpose                                                                                              | Control Type |
 | --------------------------- | ---------------------------------------------------------------------------------------------------- | ------------ |
@@ -84,9 +84,9 @@ Employee Onboarding connects to three SharePoint lists to deliver a personalised
 | View Mode                   | Switch between Admin view (all employees and their progress) and User view (personal checklist only) | Dropdown     |
 
 <details>
-<summary>📸 View General Settings Screenshots</summary>
+<summary>📸 View General Screenshots</summary>
 
-![General Settings](assets/screenshot-2026-06-16-173444.png "General Settings")
+![General](assets/screenshot-2026-07-02-170455.png "General")
 
 </details>
 
