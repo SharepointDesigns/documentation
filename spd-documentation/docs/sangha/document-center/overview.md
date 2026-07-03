@@ -4,7 +4,7 @@ sidebar_position: 1
 ---
 ## What Is DIY Sangha Document Center?
 
-DIY Sangha Document Center is a ready-built SharePoint page solution that gives your organisation a polished, searchable document hub in minutes. It combines a branded hero banner, a powerful document library viewer, an FAQ accordion, and a contacts section — everything employees need to find policies, download forms, and get help, all in one place.
+DIY Sangha Document Center is a ready-built SharePoint page solution that gives your organisation a polished, searchable document hub in minutes. It combines a branded hero banner, a powerful document library viewer, an FAQ accordion, and a contacts section - everything employees need to find policies, download forms, and get help, all in one place.
 
 - - -
 
@@ -32,13 +32,13 @@ DIY Sangha Document Center is a ready-built SharePoint page solution that gives 
 
 ## Key Highlights
 
-* **Flexible Document Source** — Connect to the current site's documents, a specific library, or multiple SharePoint sites at once.
-* **Category Filtering** — Automatically detects choice columns in your document library so employees can filter by document type or category.
-* **Dual FAQ Modes** — FAQs can pull directly from a SharePoint list or be managed entirely within the web part settings — no list required.
-* **Dual Layout System** — Every web part supports Standard and Accent Bar layouts.
-* **Consistent Branding** — All web parts use the site's SharePoint theme colours automatically.
-* **Contact Flexibility** — Show two named contacts side by side, or build a full multi-entry contact collection.
-* **No Coding Required** — All settings are managed through the web part settings panel.
+* **Flexible Document Source** - Connect to the current site's documents, a specific library, or multiple SharePoint sites at once.
+* **Category Filtering** - Automatically detects choice columns in your document library so employees can filter by document type or category.
+* **Dual FAQ Modes** - FAQs can pull directly from a SharePoint list or be managed entirely within the web part settings - no list required.
+* **Dual Layout System** - Every web part supports Standard and Accent Bar layouts.
+* **Consistent Branding** - All web parts use the site's SharePoint theme colours automatically.
+* **Contact Flexibility** - Show two named contacts side by side, or build a full multi-entry contact collection.
+* **No Coding Required** - All settings are managed through the web part settings panel.
 
 - - -
 
@@ -50,13 +50,11 @@ DIY Sangha Document Center is a ready-built SharePoint page solution that gives 
 
 ## Screenshots
 
-📸 View Overview Screenshots *(add screenshots here)*
-
 ![Document Center Overview](assets/document-center-overview.png "Document Center Overview")
 
 - - -
 
 ## Version
 
-**Current Version:** 1.0.0.0
+**Current Version:** 1.0.1.0
 **Developed by:** SharePoint Designs — [www.sharepointdesigns.com](https://www.sharepointdesigns.com)
