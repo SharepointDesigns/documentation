@@ -367,9 +367,9 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 | Choose design | Switch between Standard (icon tile grid) and Accent Bar (list with top border). | Visual picker |
 
 <details>
-<summary>📸 View General Settings Screenshots</summary>
+<summary>📸 View Layout Settings Screenshots</summary>
 
-![General](assets/layoutsettings.png)
+![General](assets/commonlayout.png)
 
 </details>
 
@@ -388,7 +388,7 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
 
-![](assets/quicklinksappearance.png)
+![Appearance](assets/quicklinksappearance.png "Appearance")
 
 </details>
 
@@ -416,7 +416,7 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-16.03.00.png)
+![Header](assets/commonheader.png "Header")
 
 </details>
 
@@ -462,7 +462,7 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 <details>
 <summary>📸 View Layout Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-16.03.16.png)
+![](assets/spotlightlayout.png)
 
 </details>
 
@@ -505,7 +505,7 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-16.12.33.png)
+![Header](assets/commonheader.png)
 
 </details>
 
@@ -525,7 +525,7 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-16.12.41.png)
+![](assets/orgchartgeneral.png)
 
 </details>
 
@@ -536,6 +536,13 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | Name   | Purpose                                                       | Control Type |
 | ------ | ------------------------------------------------------------- | ------------ |
 | Layout | Switch between Standard (Layout 1) and Accent Bar (Layout 2). | Dropdown     |
+
+<details>
+<summary>📸 View Layout Settings Screenshots</summary>
+
+![Layout](assets/commonlayout.png)
+
+</details>
 
 - - -
 
