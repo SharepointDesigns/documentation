@@ -329,7 +329,7 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-15.51.57.png)
+![Header](assets/commonheader.png "Header")
 
 </details>
 
@@ -354,7 +354,7 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-15.52.03.png)
+![General](assets/quicklinksgeneral1.png)
 
 </details>
 
@@ -365,6 +365,13 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 | Name          | Purpose                                                                         | Control Type  |
 | ------------- | ------------------------------------------------------------------------------- | ------------- |
 | Choose design | Switch between Standard (icon tile grid) and Accent Bar (list with top border). | Visual picker |
+
+<details>
+<summary>📸 View General Settings Screenshots</summary>
+
+![General](assets/layoutsettings.png)
+
+</details>
 
 - - -
 
@@ -381,7 +388,7 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-15.52.12.png)
+![](assets/quicklinksappearance.png)
 
 </details>
 
