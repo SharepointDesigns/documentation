@@ -262,9 +262,9 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-|                                                   |                                                   |
-| ------------------------------------------------- | ------------------------------------------------- |
-| ![](assets/screenshot-2026-06-16-at-15.45.29.png) | ![](assets/screenshot-2026-06-16-at-15.45.37.png) |
+![General1](assets/newsgeneral1.png)
+
+![General 2](assets/newsgenral2.png)
 
 </details>
 
@@ -285,7 +285,7 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 <details>
 <summary>📸 View Layout Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-15.45.57.png)
+![Newslayout](assets/newslayout.png)
 
 </details>
 
@@ -301,7 +301,7 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 <details>
 <summary>📸 View Admin Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-15.46.04.png)
+![Admin](assets/admin.png "Admin")
 
 </details>
 
