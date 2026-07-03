@@ -235,7 +235,7 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-15.45.07.png)
+![Header](assets/commonheader.png "Header")
 
 </details>
 
