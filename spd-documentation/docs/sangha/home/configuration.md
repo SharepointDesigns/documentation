@@ -584,7 +584,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-16.14.12.png)
+![](assets/commonheader.png)
 
 </details>
 
@@ -629,7 +629,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 <details>
 <summary>📸 View Admin Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-16.14.33.png)
+![](assets/admin.png)
 
 </details>
 
@@ -657,7 +657,7 @@ The Facilities web part showcases your organisation's offices and locations with
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-16.24.56.png)
+![](assets/commonheader.png)
 
 </details>
 
@@ -681,7 +681,7 @@ The Facilities web part showcases your organisation's offices and locations with
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-16.25.02.png)
+![](assets/facilitiesgeneral.png)
 
 </details>
 
@@ -696,7 +696,7 @@ The Facilities web part showcases your organisation's offices and locations with
 <details>
 <summary>📸 View Layout Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-16.25.07.png)
+![](assets/commonlayout.png)
 
 </details>
 
@@ -743,7 +743,7 @@ The Message from CEO web part displays a leadership message with a profile photo
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-16.26.23.png)
+![](assets/commonheader.png)
 
 </details>
 
@@ -772,7 +772,7 @@ The Message from CEO web part displays a leadership message with a profile photo
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-![](assets/screenshot-2026-06-16-at-16.26.27.png)
+![](assets/ceo-general.png)
 
 </details>
 
