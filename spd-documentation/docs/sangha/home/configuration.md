@@ -2,7 +2,6 @@
 title: Configuration
 sidebar_position: 3
 ---
-
 This page covers how to configure each web part in DIY Intranet Home. All settings are managed through the property panel on the right-hand side of the page — no code or technical knowledge is required.
 
 To open the settings panel, edit the page and click the **Edit Properties (icon)** on any web part.
@@ -26,6 +25,12 @@ All colour dropdowns in DIY Intranet Home read your site's theme palette automat
 
 ---
 
+## About Each Web Part
+
+Every web part's settings panel also includes a collapsed **About** group at the bottom, with a link to this documentation page and the current solution version. It isn't repeated in the sections below.
+
+---
+
 <details>
 <summary>1. Welcome Banner</summary>
 
@@ -35,15 +40,14 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 
 ![](assets/banner.png)
 
-### ⚙️ General Settings
+### ⚙️ General
 
-| Name                     | Purpose                                                                                                                                                                                  | Control Type |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| Welcome message          | The greeting text displayed on the banner. Use `{firstName}`, `{lastName}`, or `{fullName}` as placeholders replaced with the logged-in user's name (e.g. `Welcome back, {firstName}!`). | Text field   |
-| Format Date and Time     | Controls how the date and time are displayed below the greeting.                                                                                                                         | Dropdown     |
-| Change background        | Upload or select a background image for the banner. Stored in Site Assets.                                                                                                               | File picker  |
-| Background Image Scaling | How the background image fills the banner area. Options: Cover, Contain, Auto, Stretch, Center.                                                                                          | Dropdown     |
-| Dashboard URL            | The web address for the "Go to My Dashboard" link on the banner. Leave blank to hide the link.                                                                                           | Text field   |
+| Name                    | Purpose                                                                                                                                                                                  | Control Type |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| Welcome message         | The greeting text displayed on the banner. Use `{firstName}`, `{lastName}`, or `{fullName}` as placeholders replaced with the logged-in user's name (e.g. `Welcome back, {firstName}!`). | Text field   |
+| Date & Time Format      | Controls how the date and time are displayed below the greeting.                                                                                                                         | Dropdown     |
+| Dashboard URL           | The web address for the "Go to My Dashboard" link on the banner. Leave blank to hide the link.                                                                                           | Text field   |
+| Show Dashboard Section  | When on, the personal dashboard cards are shown below the greeting. When off, only the greeting banner is shown. The Appearance fields below only apply when this is on.                | Toggle       |
 
 <details>
 <summary>📸 View General Settings Screenshots</summary>
@@ -54,7 +58,16 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 
 ---
 
-### 📐 Layout Settings
+### 🖼️ Background Image
+
+| Name              | Purpose                                                                     | Control Type |
+| ----------------- | ---------------------------------------------------------------------------- | ------------ |
+| Change background | Upload or select a background image for the banner. Stored in Site Assets. | File picker  |
+| Image Scaling     | How the background image fills the banner area. Options: Cover, Contain, Auto, Stretch, Center. | Dropdown     |
+
+---
+
+### 📐 Layout
 
 | Name          | Purpose                                                                                                | Control Type |
 | ------------- | ------------------------------------------------------------------------------------------------------ | ------------ |
@@ -69,17 +82,16 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 
 </details>
 
-### 🎨 Appearance Settings
+### 🎨 Appearance
 
-| Name                                    | Purpose                                                                                                                                | Control Type  |
-| --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| Text color (Greeting + date/time)       | Colour of the greeting text and clock.                                                                                                 | Colour picker |
-| Background color (Greeting + date/time) | Background colour behind the greeting text area. Useful for readability over busy photos.                                              | Colour picker |
-| Dashboard card color                    | Background colour for the personal dashboard cards. Visible when the dashboard is shown.                                               | Colour picker |
-| Dashboard background gradient           | Choose a gradient from your site's theme palette for the dashboard section background. Available in Layout 2 when gradient is enabled. | Dropdown      |
-| Dashboard background color              | Solid colour for the dashboard background. Shown when gradient is disabled in Layout 2.                                                | Colour picker |
-| Enable Gradient                         | Toggle the gradient effect on or off for the dashboard background.                                                                     | Toggle        |
-| Hide Dashboard                          | When on, the personal dashboard cards are hidden and only the greeting banner is shown.                                                | Toggle        |
+| Name                           | Purpose                                                                                                                                  | Control Type  |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------- |
+| Text color                     | Colour of the greeting text and clock.                                                                                                      | Colour picker |
+| Background color               | Background colour behind the greeting text area. Useful for readability over busy photos.                                                  | Colour picker |
+| Dashboard card color           | Background colour for the personal dashboard cards. Visible only when Show Dashboard Section (General) is on.                              | Colour picker |
+| Dashboard background gradient  | Choose a gradient from your site's theme palette for the dashboard section background. Visible in Layout 2 when Enable Gradient is on.      | Dropdown      |
+| Dashboard background color     | Solid colour for the dashboard background. Visible in Layout 2 when Enable Gradient is off.                                                 | Colour picker |
+| Enable Gradient                | Toggle the gradient effect on or off for the dashboard background. Visible only when Show Dashboard Section (General) is on.                | Toggle        |
 
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
@@ -92,10 +104,10 @@ The Welcome Banner greets each employee by name with a live clock and a customis
 
 ### 🤚🏻 Draggable Configuration
 
-| Name                        | Purpose                                                                          | Control Type |
-| --------------------------- | -------------------------------------------------------------------------------- | ------------ |
-| Enable Draggable Components | When on, users can drag user welcome cards around and their positions are saved. | Toggle       |
-| Reset Component Positions   | Moves cards back to their original default positions.                            | Button       |
+| Name              | Purpose                                                                          | Control Type |
+| ----------------- | ---------------------------------------------------------------------------------- | ------------ |
+| Enable Draggable  | When on, users can drag user welcome cards around and their positions are saved. | Toggle       |
+| Reset Positions   | Moves cards back to their original default positions.                            | Button       |
 
 <details>
 <summary>📸 View Draggable Settings Screenshots</summary>
@@ -117,13 +129,13 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 
 ![Announcements](assets/announcements.png "Announcements")
 
-### 📌 Header Settings
+### 📌 Header
 
 | Name                      | Purpose                                                                                              | Control Type |
 | ------------------------- | ---------------------------------------------------------------------------------------------------- | ------------ |
-| Show Webpart Title        | Toggle the title bar above the carousel on or off.                                                   | Toggle       |
+| Show Title                | Toggle the title bar above the carousel on or off.                                                   | Toggle       |
 | Webpart title             | The heading text shown above the carousel (e.g. "Announcements"). Visible only when the title is on. | Text field   |
-| WebPart Title Theme Color | Colour for the title text, chosen from the site's theme palette. A preview swatch appears below.     | Dropdown     |
+| WebPart Title Theme Color | Colour for the title text, chosen from the site's theme palette. Visible only when the title is on. A preview swatch appears below.     | Dropdown     |
 
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
@@ -134,13 +146,12 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 
 ---
 
-### ⚙️ General Settings
+### ⚙️ General
 
 | Name                     | Purpose                                                                                          | Control Type    |
 | ------------------------ | ------------------------------------------------------------------------------------------------ | --------------- |
-| Manage Announcement Data | Opens a panel to add, edit, remove, and reorder announcements.                                   | Collection data |
+| Edit Announcements       | Opens a panel to add, edit, remove, and reorder announcements.                                   | Collection data |
 | Select announcement icon | Upload or select an image to use as an icon beside the announcement text. Stored in Site Assets. | File picker     |
-| Button Theme             | Colour theme for the carousel navigation buttons, from the site's palette.                       | Dropdown        |
 
 **Fields inside Manage Announcement Data:**
 
@@ -160,13 +171,22 @@ The Announcement web part shows a rotating carousel of company messages. Each an
 
 ---
 
-### ⚙️ Carousel Settings
+### 🎨 Appearance
 
-| Name                          | Purpose                                                                                                    | Control Type |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------ |
-| Show Arrows                   | Toggle the left/right navigation arrows on the carousel.                                                   | Toggle       |
-| Enable AutoPlay               | When on, the carousel advances automatically.                                                              | Toggle       |
-| Autoplay Speed (milliseconds) | How long each slide is shown before advancing. Default: 5000 (5 seconds). Active only when AutoPlay is on. | Text field   |
+| Name             | Purpose                                                                     | Control Type |
+| ---------------- | ---------------------------------------------------------------------------- | ------------ |
+| Button color     | Colour theme for the carousel navigation buttons, from the site's palette.   | Dropdown     |
+| Background color | Colour theme for the carousel's background, from the site's palette.        | Dropdown     |
+
+---
+
+### 🎠 Carousel
+
+| Name                       | Purpose                                                                                             | Control Type |
+| -------------------------- | ----------------------------------------------------------------------------------------------------- | ------------ |
+| Show Arrows                | Toggle the left/right navigation arrows on the carousel.                                              | Toggle       |
+| Enable AutoPlay            | When on, the carousel advances automatically.                                                         | Toggle       |
+| Autoplay Speed (seconds)   | How long each slide is shown before advancing. Range: 1–60. Default: 5. Active only when AutoPlay is on. | Slider       |
 
 <details>
 <summary>📸 View Carousel Settings Screenshots</summary>
@@ -188,13 +208,15 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 
 ![](assets/news.png)
 
-### 📌 Header Settings
+### 📌 Header
 
-| Name                | Purpose                                                   | Control Type |
-| ------------------- | --------------------------------------------------------- | ------------ |
-| Webpart Title       | Heading shown above the news feed (e.g. "Latest News").   | Text field   |
-| Webpart title color | Colour for the title text, from the site's theme palette. | Dropdown     |
-| Hide / Show title   | Toggle the title bar on or off.                           | Toggle       |
+| Name                | Purpose                                                                    | Control Type  |
+| ------------------- | ------------------------------------------------------------------------- | ------------- |
+| Show Header         | Toggle the title bar on or off.                                            | Toggle        |
+| Webpart Title       | Heading shown above the news feed (e.g. "Latest News"). Visible only when the title is on. | Text field    |
+| Webpart title color | Colour for the title text. Visible only when the title is on.             | Colour picker |
+
+> For best fit, the banner image resolution should be 1300×400px or 1300×450px (width × height).
 
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
@@ -205,15 +227,14 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 
 ---
 
-### ⚙️ General Settings
+### ⚙️ General
 
 | Name                 | Purpose                                                                                                                                      | Control Type    |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
 | Search sites         | Select one or more SharePoint sites to pull news from. The current site is selected by default.                                              | Site picker     |
-| One view height (px) | Height of the news display area in Layout 1. Range: 100–500 px.                                                                              | Slider          |
 | Enable RSS Feed      | Toggle to add external RSS news sources alongside SharePoint news.                                                                           | Toggle          |
 | RSS Links            | Add RSS feed URLs with optional titles. Visible only when RSS Feed is enabled.                                                               | Collection data |
-| RSS API Key          | API key from rss2json.com to convert RSS feeds. A link to get a free key is provided below the field. Visible only when RSS Feed is enabled. | Text field      |
+| RSS API Key          | API key from rss2json.com to convert RSS feeds. A "Get API Key" link to rss2json.com is provided below the field. Visible only when RSS Feed is enabled. | Text field      |
 | Show Search Box      | Toggle a keyword search box for users to filter news.                                                                                        | Toggle          |
 | Show Sort By         | Toggle a sort control so users can sort news by date or relevance.                                                                           | Toggle          |
 | Show See All Button  | Toggle a "See All" button linking to the full news listing.                                                                                  | Toggle          |
@@ -227,21 +248,25 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 <details>
 <summary>📸 View General Settings Screenshots</summary>
 
-| | |
-|---|---|
+|                                                   |                                                   |
+| ------------------------------------------------- | ------------------------------------------------- |
 | ![](assets/screenshot-2026-06-16-at-15.45.29.png) | ![](assets/screenshot-2026-06-16-at-15.45.37.png) |
 
 </details>
 
 ---
 
-### 📐 Layout Settings
+### 📐 Layout
 
-| Name                    | Purpose                                                                                         | Control Type  |
-| ----------------------- | ----------------------------------------------------------------------------------------------- | ------------- |
-| Choose Layout           | Select Layout 1 (Standard full-view) or Layout 2 (Accent Bar with top border).                  | Dropdown      |
-| Border Color            | Colour of the top accent border. Visible only in Layout 2.                                      | Colour picker |
-| Items to show per slide | Number of news cards shown side-by-side in the filmstrip. Range: 1–6. Visible only in Layout 2. | Slider        |
+| Name                    | Purpose                                                                                                       | Control Type  |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------- | ------------- |
+| Choose Layout           | Display style for the news feed: Top Story, Grid, Filmstrip, Filmstrip One, or Tiles.                            | Visual picker |
+| Select Design           | Border style for the news cards: Standard (border on all sides) or Accent Bar (top border only).                 | Visual picker |
+| Border Color            | Colour of the top accent border. Visible only when Select Design is Accent Bar.                                  | Colour picker |
+| One view height (px)    | Height of the news display area. Range: 100–500 px. Visible for the Top Story and Filmstrip One layouts.         | Slider        |
+| Items to show           | Number of news items to display. Range: 3–50. Visible for the Top Story layout.                                  | Slider        |
+| Items to show per page  | Number of items shown per page. Range: 4–16. Visible for the Grid layout.                                        | Slider        |
+| Items to show per slide | Number of news cards shown side-by-side in the filmstrip. Range: 1–6. Visible for the Filmstrip layout.          | Slider        |
 
 <details>
 <summary>📸 View Layout Settings Screenshots</summary>
@@ -252,12 +277,12 @@ The Featured News web part aggregates SharePoint news posts from one or more sit
 
 ---
 
-### 🛠 Admin Settings
+### 🛠 Admin
 
 | Name                    | Purpose                                                                             | Control Type  |
 | ----------------------- | ----------------------------------------------------------------------------------- | ------------- |
-| Show / Hide admin badge | Toggle an admin badge visible only to designated administrators.                    | Toggle        |
-| Web Part Admin          | People or groups who are administrators of this web part. They see the admin badge. | People picker |
+| Admin Menu              | Toggle an admin badge visible only to designated administrators.                    | Toggle        |
+| Select Admin            | People or groups who are administrators of this web part. They see the admin badge. | People picker |
 
 <details>
 <summary>📸 View Admin Settings Screenshots</summary>
@@ -279,13 +304,13 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 
 ![Quicklinks](assets/quicklinks.png "Quicklinks")
 
-### 📌 Header Settings
+### 📌 Header
 
-| Name                      | Purpose                                                   | Control Type |
-| ------------------------- | --------------------------------------------------------- | ------------ |
-| Webpart Title             | Heading shown above the quick links (e.g. "Quick Links"). | Text field   |
-| WebPart Title Theme Color | Colour for the title text, from the site's theme palette. | Dropdown     |
-| Hide / Show title         | Toggle the title bar on or off.                           | Toggle       |
+| Name              | Purpose                                                                   | Control Type  |
+| ----------------- | -------------------------------------------------------------------------- | ------------- |
+| Show Title        | Toggle the title bar on or off.                                            | Toggle        |
+| Title             | Heading shown above the quick links (e.g. "Quick Links"). Visible only when the title is on. | Text field    |
+| WebPart Title Color | Colour for the title text. Visible only when the title is on.            | Colour picker |
 
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
@@ -296,11 +321,11 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 
 ---
 
-### ⚙️ General Settings
+### ⚙️ General
 
 | Name              | Purpose                                                                                 | Control Type    |
 | ----------------- | --------------------------------------------------------------------------------------- | --------------- |
-| Manage Quicklinks | Opens a panel to add, edit, remove, and reorder links.                                  | Collection data |
+| Edit Quicklinks   | Opens a panel to add, edit, remove, and reorder links.                                  | Collection data |
 | See All URL       | Web address for a "See All" link at the top-right of the web part. Leave blank to hide. | Text field      |
 
 **Fields inside Manage Quicklinks:**
@@ -321,22 +346,23 @@ The Quicklinks web part is a quick links panel for the apps and tools your team 
 
 ---
 
-### 📐 Layout Settings
+### 📐 Layout
 
-| Name          | Purpose                                                                         | Control Type |
-| ------------- | ------------------------------------------------------------------------------- | ------------ |
-| Select Layout | Switch between Standard (icon tile grid) and Accent Bar (list with top border). | Dropdown     |
+| Name          | Purpose                                                                         | Control Type  |
+| ------------- | ------------------------------------------------------------------------------- | ------------- |
+| Choose design | Switch between Standard (icon tile grid) and Accent Bar (list with top border). | Visual picker |
 
 ---
 
-### 🎨 Appearance Settings
+### 🎨 Appearance
 
-| Name                          | Purpose                                                                           | Control Type |
-| ----------------------------- | --------------------------------------------------------------------------------- | ------------ |
-| Show Gradient on hover        | When on, a gradient overlay appears on tiles when a user hovers over them.        | Toggle       |
-| Quicklinks title color        | Colour for the link title text, from the site's theme palette.                    | Dropdown     |
-| Icon Background & Color Theme | Background and icon colour theme for icon boxes. Shown only in Accent Bar layout. | Dropdown     |
-| Button Hover Theme            | Hover colour theme for link tiles, from the site's theme palette.                 | Dropdown     |
+| Name                    | Purpose                                                                           | Control Type  |
+| ----------------------- | ----------------------------------------------------------------------------------- | ------------- |
+| Show Gradient on hover  | When on, a gradient overlay appears on tiles when a user hovers over them.        | Toggle        |
+| QuickLinks title color  | Colour for the link title text.                                                   | Colour picker |
+| Background color        | Background colour for the quicklinks tiles.                                       | Colour picker |
+| Icon color              | Background and icon colour theme for icon boxes. Shown only in Accent Bar layout.  | Dropdown      |
+| Background hover color  | Hover colour theme for link tiles, from the site's theme palette.                 | Dropdown      |
 
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
@@ -358,7 +384,7 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 
 ![](assets/spotlight.png)
 
-### 📌 Header Settings
+### 📌 Header
 
 | Name                      | Purpose                                                                | Control Type |
 | ------------------------- | ---------------------------------------------------------------------- | ------------ |
@@ -375,12 +401,12 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 
 ---
 
-### ⚙️ General Settings
+### ⚙️ General
 
 | Name                                               | Purpose                                                                                                   | Control Type    |
 | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------- |
 | Source                                             | Choose where data comes from: **Azure Active Directory** (automatic) or **Property Collection** (manual). | Dropdown        |
-| Spotlight data                                     | Opens a panel to add people manually. Visible only when Source is set to Property Collection.             | Collection data |
+| Spotlight data                                     | Opens a panel to add people manually. Only shown when Source is set to Property Collection — hidden entirely otherwise.             | Collection data |
 | Visible Categories                                 | Choose which milestones to show: Birthdays, Work Anniversaries, New Joinees — any combination.            | Multi-select    |
 | Upcoming window — birthdays & anniversaries (days) | How many days ahead to look for upcoming birthdays and anniversaries. Range: 1–180 days. Default: 7.      | Slider          |
 | New joinee look-back window (days)                 | How many days back to consider someone a new joiner. Range: 7–365 days. Default: 90.                      | Slider          |
@@ -393,7 +419,7 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 | Person                   | Search for and select a person from your organisation.              | People picker      |
 | Job Title                | The person's job title.                                             | Text field         |
 | Department               | The person's department.                                            | Text field         |
-| Category                 | The milestone type: Birthday, Anniversary, or New Joinee. Required. | Dropdown           |
+| Category                 | The milestone type: Birthday, Anniversary, or New Joinee (singular). Required. | Dropdown           |
 | Celebration Date (MM-DD) | The month and day of the person's birthday or anniversary.          | Custom date picker |
 
 <details>
@@ -405,7 +431,7 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 
 ---
 
-### 📐 Layout Settings
+### 📐 Layout settings
 
 | Name          | Purpose                                                            | Control Type |
 | ------------- | ------------------------------------------------------------------ | ------------ |
@@ -421,7 +447,7 @@ The Employee Spotlight web part surfaces upcoming birthdays, work anniversaries,
 
 ---
 
-### 🎨 Appearance Settings
+### 🎨 Appearance
 
 | Name                   | Purpose                                                                          | Control Type |
 | ---------------------- | -------------------------------------------------------------------------------- | ------------ |
@@ -447,12 +473,13 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 
 ![](assets/directory.png)
 
-### 📌 Header Settings
+### 📌 Header
 
-| Name                | Purpose                                                   | Control Type |
-| ------------------- | --------------------------------------------------------- | ------------ |
-| Webpart Title       | Heading shown above the org chart.                        | Text field   |
-| WebPart Title Color | Colour for the title text, from the site's theme palette. | Dropdown     |
+| Name          | Purpose                                                             | Control Type  |
+| ------------- | ----------------------------------------------------------------------- | ------------- |
+| Show Title    | Toggle the title bar on or off.                                         | Toggle        |
+| Title         | Heading shown above the org chart. Visible only when the title is on.   | Text field    |
+| Title color   | Colour for the title text. Visible only when the title is on.          | Colour picker |
 
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
@@ -463,7 +490,7 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 
 ---
 
-### ⚙️ General Settings
+### ⚙️ General
 
 | Name                      | Purpose                                                                                                                                                               | Control Type           |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -471,8 +498,8 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 | Max Depth                 | How many hierarchy levels are expanded automatically. Range: 1–10.                                                                                                    | Number field           |
 | Show Detail on Mouse Over | When on, hovering over a person shows a popup with their contact details.                                                                                             | Toggle                 |
 | Excluded Users            | Email addresses (comma-separated) of people who should not appear in the chart.                                                                                       | Text field             |
-| Manager Email             | Email address of the manager whose team to display. Required when View Options is set to Show Other Team.                                                             | Text field             |
-| Reorder Org Chart Users   | Use the up/down buttons to change the display order of a manager's direct reports. Appears after a Manager Email is entered.                                          | Custom reorder control |
+| Manager                   | Search for and select the manager whose team to display. Required when View Options is set to Show Other Team.                                                        | People picker           |
+| Reorder Org Chart Users   | Use the up/down buttons to change the display order of a manager's direct reports. Appears once a Manager is selected and their direct reports have loaded.           | Custom reorder control |
 
 <details>
 <summary>📸 View General Settings Screenshots</summary>
@@ -483,7 +510,7 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 
 ---
 
-### 📐 Layout Settings
+### 📐 Layout
 
 | Name   | Purpose                                                       | Control Type |
 | ------ | ------------------------------------------------------------- | ------------ |
@@ -491,11 +518,11 @@ The Org Chart web part draws an interactive organisational tree from Microsoft 3
 
 ---
 
-### 🎨 Appearance Settings
+### 🎨 Appearance
 
 | Name                       | Purpose                                                                   | Control Type |
 | -------------------------- | ------------------------------------------------------------------------- | ------------ |
-| Height of the Webpart (px) | How tall the org chart display area is. Range: 100–1200 px. Default: 535. | Slider       |
+| Height of the Webpart in (px) | How tall the org chart display area is. Range: 100–1200 px. Default: 535. | Slider       |
 
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
@@ -517,14 +544,14 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 
 ![](assets/calendar.png)
 
-### 📌 Header Settings
+### 📌 Header
 
-| Name                      | Purpose                                                                           | Control Type |
-| ------------------------- | --------------------------------------------------------------------------------- | ------------ |
-| Webpart Title             | Heading shown above the events list (e.g. "Upcoming Events").                     | Text field   |
-| WebPart Title Theme Color | Colour for the title text, from the site's theme palette.                         | Dropdown     |
-| Hide / Show title         | Toggle the title bar on or off.                                                   | Toggle       |
-| View All URL              | Web address for a "View All Events" link. Visible only when calendar view is off. | Text field   |
+| Name                      | Purpose                                                                           | Control Type  |
+| ------------------------- | --------------------------------------------------------------------------------- | ------------- |
+| Show Title                | Toggle the title bar on or off.                                                   | Toggle        |
+| Title                     | Heading shown above the events list (e.g. "Upcoming Events"). Visible only when the title is on. | Text field    |
+| Title color               | Colour for the title text. Visible only when the title is on.                     | Colour picker |
+| View All Url              | Web address for a "View All Events" link. Visible only when calendar view is off. | Text field    |
 
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
@@ -535,7 +562,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 
 ---
 
-### ⚙️ General Settings
+### ⚙️ General
 
 | Name                     | Purpose                                                                                                                             | Control Type |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- | ------------ |
@@ -556,7 +583,7 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 
 ---
 
-### 📐 Layout Settings
+### 📐 Layout
 
 | Name          | Purpose                                                       | Control Type |
 | ------------- | ------------------------------------------------------------- | ------------ |
@@ -564,12 +591,12 @@ The Upcoming Events web part shows company events and dates from a SharePoint ca
 
 ---
 
-### 🛠 Admin Settings
+### 🛠 Admin
 
 | Name                    | Purpose                                                          | Control Type  |
 | ----------------------- | ---------------------------------------------------------------- | ------------- |
-| Show / Hide admin badge | Toggle an admin badge visible only to designated administrators. | Toggle        |
-| Web Part Admin          | People or groups who are administrators of this web part.        | People picker |
+| Admin Menu              | Toggle an admin badge visible only to designated administrators. | Toggle        |
+| Select Admin            | People or groups who are administrators of this web part.        | People picker |
 
 <details>
 <summary>📸 View Admin Settings Screenshots</summary>
@@ -591,13 +618,13 @@ The Facilities web part showcases your organisation's offices and locations with
 
 ![](assets/facilities.png)
 
-### 📌 Header Settings
+### 📌 Header
 
-| Name                      | Purpose                                                   | Control Type |
-| ------------------------- | --------------------------------------------------------- | ------------ |
-| Webpart Title             | Heading shown above the facilities panel.                 | Text field   |
-| WebPart Title Theme Color | Colour for the title text, from the site's theme palette. | Dropdown     |
-| Hide / Show title         | Toggle the title bar on or off.                           | Toggle       |
+| Name        | Purpose                                                             | Control Type  |
+| ----------- | ----------------------------------------------------------------------- | ------------- |
+| Show Title  | Toggle the title bar on or off.                                         | Toggle        |
+| Title       | Heading shown above the facilities panel. Visible only when the title is on. | Text field    |
+| Title color | Colour for the title text. Visible only when the title is on.          | Colour picker |
 
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
@@ -608,7 +635,7 @@ The Facilities web part showcases your organisation's offices and locations with
 
 ---
 
-### ⚙️ General Settings
+### ⚙️ General
 
 | Name              | Purpose                                                           | Control Type    |
 | ----------------- | ----------------------------------------------------------------- | --------------- |
@@ -632,7 +659,7 @@ The Facilities web part showcases your organisation's offices and locations with
 
 ---
 
-### 📐 Layout Settings
+### 📐 Layout
 
 | Name          | Purpose                                                | Control Type |
 | ------------- | ------------------------------------------------------ | ------------ |
@@ -647,12 +674,12 @@ The Facilities web part showcases your organisation's offices and locations with
 
 ---
 
-### 🎨 Appearance Settings
+### 🎨 Appearance
 
 | Name                      | Purpose                                                                                                         | Control Type |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------ |
 | See All URL               | Web address for a "View All" link to a full facilities listing page.                                            | Text field   |
-| Show navigation           | Toggle the navigation arrows and dots for browsing between facilities.                                          | Toggle       |
+| Show Navigation           | Toggle the navigation arrows and dots for browsing between facilities.                                          | Toggle       |
 | Enable Auto Scroll        | When on, the web part advances through facilities automatically. Visible only when navigation is on.            | Toggle       |
 | Select duration to scroll | Seconds each facility is shown before auto-advancing. Range: 1–15 seconds. Visible only when Auto Scroll is on. | Slider       |
 | Height                    | Height of the facilities display area in pixels. Range: 250–600 px.                                             | Slider       |
@@ -677,12 +704,13 @@ The Message from CEO web part displays a leadership message with a profile photo
 
 ![](assets/ceomessage.png)
 
-### 📌 Header Settings
+### 📌 Header
 
-| Name                     | Purpose                                                           | Control Type  |
-| ------------------------ | ----------------------------------------------------------------- | ------------- |
-| Webpart title            | Title shown above the message card (e.g. "Message from the CEO"). | Text field    |
-| Webpart title text color | Colour for the title text.                                        | Colour picker |
+| Name        | Purpose                                                                        | Control Type  |
+| ----------- | ------------------------------------------------------------------------------- | ------------- |
+| Show Title  | Toggle the title bar on or off.                                                 | Toggle        |
+| Title       | Heading shown above the message card (e.g. "Message from the CEO"). Visible only when the title is on. | Text field    |
+| Title color | Colour for the title text. Visible only when the title is on.                  | Colour picker |
 
 <details>
 <summary>📸 View Header Settings Screenshots</summary>
@@ -693,7 +721,7 @@ The Message from CEO web part displays a leadership message with a profile photo
 
 ---
 
-### ⚙️ General Settings
+### ⚙️ General
 
 | Name                            | Purpose                                                                                  | Control Type    |
 | ------------------------------- | ---------------------------------------------------------------------------------------- | --------------- |
@@ -722,7 +750,7 @@ The Message from CEO web part displays a leadership message with a profile photo
 
 ---
 
-### 📐 Layout Settings
+### 📐 Layout
 
 | Name          | Purpose                                                                            | Control Type |
 | ------------- | ---------------------------------------------------------------------------------- | ------------ |
@@ -730,13 +758,13 @@ The Message from CEO web part displays a leadership message with a profile photo
 
 ---
 
-### 🎨 Appearance Settings
+### 🎨 Appearance
 
 | Name                              | Purpose                                                                                                                | Control Type |
 | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------ |
-| Height of the Webpart (px)        | How tall the message card is. Range: 65–700 px.                                                                        | Slider       |
+| Height of the Webpart (in px)     | How tall the message card is. Range: 65–700 px.                                                                        | Slider       |
 | Number of lines to show (content) | How many lines of the message preview are shown before cutting off with a "Read More" prompt. Range: 2–20. Default: 8. | Slider       |
-| Hide the Heading in Modal Popup   | When on, the heading text inside the overlay panel is hidden.                                                          | Toggle       |
+| Show Heading in Modal Popup       | When on (the default), the heading text is shown inside the overlay panel. Turn off to hide it.                        | Toggle       |
 
 <details>
 <summary>📸 View Appearance Settings Screenshots</summary>
