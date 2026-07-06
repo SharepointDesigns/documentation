@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ## Introduction
 
-This guide walks a SharePoint Administrator through the complete process of installing Intranet Sangha and running the Setup Wizard to deploy a fully configured company intranet.
+This guide walks a SharePoint Administrator through the complete process of installing Sangha Intranet and running the Setup Wizard to deploy a fully configured company intranet.
 
 By the end of this process, your SharePoint site will have:
 
@@ -44,7 +44,7 @@ By the end of this process, your SharePoint site will have:
 
 ## Installation Overview
 
-Setting up Intranet Sangha involves two phases: installing the package, then running the Setup Wizard.
+Setting up Sangha Intarnet involves two phases: installing the package, then running the Setup Wizard.
 
 1. Upload the solution package to the SharePoint App Catalog
 2. Approve required Microsoft 365 permissions
@@ -61,7 +61,7 @@ Setting up Intranet Sangha involves two phases: installing the package, then run
 
 ## Step 1 — Upload the Solution Package
 
-The solution package (`.sppkg` file) is the installer for Intranet Sangha. It is uploaded to the SharePoint App Catalog, which makes it available across your Microsoft 365 tenant.
+The solution package (`.sppkg` file) is the installer for Sangha Intranet. It is uploaded to the SharePoint App Catalog, which makes it available across your Microsoft 365 tenant.
 
 ### How to Upload
 
@@ -98,7 +98,7 @@ The App Catalog is Microsoft's trusted location for SharePoint solutions. Upload
 
 ## Step 2 — Approve Required Permissions
 
-Intranet Sangha uses one Microsoft 365 permission to read basic organization information during setup. This permission must be approved by an administrator before the Setup Wizard can complete certain steps.
+Sangha Intranet uses one Microsoft 365 permission to read basic organization information during setup. This permission must be approved by an administrator before the Setup Wizard can complete certain steps.
 
 ### Permissions Required
 
@@ -135,7 +135,7 @@ Once the package is deployed, you activate the Setup Wizard on the specific Shar
 1. Open the SharePoint site where the intranet will be deployed
 2. Click the **gear icon** (Settings) in the top-right corner
 3. Select **Add an app**
-4. Search for **Intranet Sangha Setup**
+4. Search for **Sangha Intranet by Sharepoint Designs**
 5. Click **Add** to install it on the site
 
 Once added, the Setup Wizard will appear automatically the next time the site is opened by a Site Collection Administrator.
