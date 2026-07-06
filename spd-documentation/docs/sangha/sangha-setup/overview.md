@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ## Product Overview
 
-**Intranet Sangha** by SharePoint Designs is a ready-made intranet solution for Microsoft 365 organizations. It transforms a blank SharePoint site into a fully branded, structured, and populated company intranet - without any manual configuration or technical expertise.
+**Sangha Intranet** by SharePoint Designs is a ready-made intranet solution for Microsoft 365 organizations. It transforms a blank SharePoint site into a fully branded, structured, and populated company intranet - without any manual configuration or technical expertise.
 
 At the heart of the solution is the **Setup Wizard** - a guided, step-by-step experience that walks administrators through every aspect of the intranet: branding, navigation, user access, and page deployment. Once the wizard completes, the site is ready for employees to use immediately.
 
