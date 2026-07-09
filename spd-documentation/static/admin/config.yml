@@ -975,3 +975,29 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # DocVault
+  - name: "docvault"
+    label: "DocVault"
+    label_singular: "DocVault Doc"
+    folder: "spd-documentation/docs/docvault"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/docvault/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
