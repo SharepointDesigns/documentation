@@ -4,7 +4,7 @@ sidebar_position: 1
 ---
 ## What Is DIY Sangha Employee Directory?
 
-DIY Sangha Employee Directory is a ready-built SharePoint page solution that gives your organisation a searchable, up-to-date staff directory pulled automatically from Microsoft 365 user profiles. No manual data entry is needed — the directory reads your organisation's user data and presents it as a clean, filterable grid. A branded hero banner sits at the top of the page to give the directory its own identity.
+DIY Sangha Employee Directory is a ready-built SharePoint page solution that gives your organisation a searchable, up-to-date staff directory pulled automatically from Microsoft 365 user profiles. No manual data entry is needed - the directory reads your organisation's user data and presents it as a clean, filterable grid. A branded hero banner sits at the top of the page to give the directory its own identity.
 
 - - -
 
@@ -29,12 +29,12 @@ DIY Sangha Employee Directory is a ready-built SharePoint page solution that giv
 
 ## Key Highlights
 
-* **Automatic Data** — The directory is populated directly from Microsoft 365 user profiles. No SharePoint list or manual updates required.
-* **Search Built In** — Employees can search by name, job title, or department without any additional configuration.
-* **Exclude Accounts** — Admins can hide service accounts, shared mailboxes, or any specific user from the directory view.
-* **Optional Pagination** — Enable page-by-page navigation for large organisations to keep the view manageable.
-* **Branded Banner** — The welcome banner can be personalised with a custom background image and page title.
-* **No Coding Required** — All settings are managed through the web part settings panel.
+* **Automatic Data** - The directory is populated directly from Microsoft 365 user profiles. No SharePoint list or manual updates required.
+* **Search Built In** - Employees can search by name, job title, or department without any additional configuration.
+* **Exclude Accounts** - Admins can hide service accounts, shared mailboxes, or any specific user from the directory view.
+* **Optional Pagination** - Enable page-by-page navigation for large organisations to keep the view manageable.
+* **Branded Banner** - The welcome banner can be personalised with a custom background image and page title.
+* **No Coding Required** - All settings are managed through the web part settings panel.
 
 - - -
 
@@ -56,13 +56,11 @@ This permission must be approved by a Global Admin or SharePoint Admin in the Sh
 
 ## Screenshots
 
-📸 View Overview Screenshots *(add screenshots here)*
-
 ![Employee Directory Overview](assets/employee-directory-overview.png "Employee Directory Overview")
 
 - - -
 
 ## Version
 
-**Current Version:** 1.0.0.0
+**Current Version:** 1.0.1.0
 **Developed by:** SharePoint Designs — [www.sharepointdesigns.com](https://www.sharepointdesigns.com)

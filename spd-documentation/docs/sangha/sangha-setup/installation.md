@@ -3,12 +3,12 @@ title: Installation
 sidebar_position: 2
 ---
 
-
+## ⚙️ Installation Instructions
 - - -
 
 ## Introduction
 
-This guide walks a SharePoint Administrator through the complete process of installing Intranet Sangha and running the Setup Wizard to deploy a fully configured company intranet.
+This guide walks a SharePoint Administrator through the complete process of installing Sangha Intranet and running the Setup Wizard to deploy a fully configured company intranet.
 
 By the end of this process, your SharePoint site will have:
 
@@ -44,7 +44,7 @@ By the end of this process, your SharePoint site will have:
 
 ## Installation Overview
 
-Setting up Intranet Sangha involves two phases: installing the package, then running the Setup Wizard.
+Setting up Sangha Intarnet involves two phases: installing the package, then running the Setup Wizard.
 
 1. Upload the solution package to the SharePoint App Catalog
 2. Approve required Microsoft 365 permissions
@@ -61,7 +61,7 @@ Setting up Intranet Sangha involves two phases: installing the package, then run
 
 ## Step 1 — Upload the Solution Package
 
-The solution package (`.sppkg` file) is the installer for Intranet Sangha. It is uploaded to the SharePoint App Catalog, which makes it available across your Microsoft 365 tenant.
+The solution package (`.sppkg` file) is the installer for Sangha Intranet. It is uploaded to the SharePoint App Catalog, which makes it available across your Microsoft 365 tenant.
 
 ### How to Upload
 
@@ -98,7 +98,7 @@ The App Catalog is Microsoft's trusted location for SharePoint solutions. Upload
 
 ## Step 2 — Approve Required Permissions
 
-Intranet Sangha uses one Microsoft 365 permission to read basic organization information during setup. This permission must be approved by an administrator before the Setup Wizard can complete certain steps.
+Sangha Intranet uses one Microsoft 365 permission to read basic organization information during setup. This permission must be approved by an administrator before the Setup Wizard can complete certain steps.
 
 ### Permissions Required
 
@@ -135,7 +135,7 @@ Once the package is deployed, you activate the Setup Wizard on the specific Shar
 1. Open the SharePoint site where the intranet will be deployed
 2. Click the **gear icon** (Settings) in the top-right corner
 3. Select **Add an app**
-4. Search for **Intranet Sangha Setup**
+4. Search for **Sangha Intranet by Sharepoint Designs**
 5. Click **Add** to install it on the site
 
 Once added, the Setup Wizard will appear automatically the next time the site is opened by a Site Collection Administrator.
@@ -196,7 +196,7 @@ The selected plan is validated and saved. The wizard unlocks the remaining steps
 <details>
 <summary>📸 View Plan Selection Screenshots</summary>
 
-![Plan Selection](assets/screenshot-2026-06-18-143722.png "Plan Selection")
+![Plan Selection](assets/screenshot-2026-07-03-101322.png "Plan Selection")
 
 </details>
 
@@ -237,7 +237,7 @@ The SharePoint site title is updated immediately. Organization name and industry
 <details>
 <summary>📸 View Organization Details Screenshots</summary>
 
-![Organization Details](assets/screenshot-2026-06-22-125741.png "Organization Details")
+![Organization Details](assets/screenshot-2026-07-03-101352.png "Organization Details")
 
 </details>
 
@@ -306,13 +306,15 @@ Administrators can also browse and apply existing SharePoint themes (including a
 <details>
 <summary>📸 View Branding Configuration Screenshots</summary>
 
-![Branding Configuration](assets/screenshot-2026-06-22-125906.png "Branding Configuration")
+![Branding Configuration](assets/screenshot-2026-07-03-101423.png "Branding Configuration")
+
+![Site Logo Upload](assets/screenshot-2026-07-03-101448.png "Site Logo Upload")
 
 ![Branding Theme Color Configuration](assets/screenshot-2026-06-22-125921.png "Branding Theme Color Configuration")
 
-![Branding Favicon & Regional Settings Configuration](assets/screenshot-2026-06-22-125940.png "Branding Favicon & Regional Settings Configuration")
+![Branding Favicon & Regional Settings Configuration](assets/screenshot-2026-07-03-101503.png "Branding Favicon & Regional Settings Configuration")
 
-![Branding Appearance Settings Configuration](assets/screenshot-2026-06-22-130013.png "Branding Appearnace Settings Configuration")
+![Branding Appearance Settings Configuration](assets/screenshot-2026-07-03-101547.png "Branding Appearnace Settings Configuration")
 
 </details>
 
@@ -366,7 +368,7 @@ The navigation structure is saved to a SharePoint list and applied to the site. 
 <details>
 <summary>📸 View Navigation Setup Screenshots</summary>
 
-![Navigation Setup Screen](assets/screenshot-2026-06-22-130634.png "Navigation Setup Screen")
+![Navigation Setup Screen](assets/screenshot-2026-07-03-101620.png "Navigation Setup Screen")
 
 </details>
 
@@ -422,7 +424,7 @@ This step defines who can access the intranet, assigns user roles, and optionall
 <details>
 <summary>📸 View User Access & Permissions Screenshots</summary>
 
-![User Access Configuration](assets/screenshot-2026-06-22-131109.png "User Access Configuration")
+![User Access Configuration](assets/screenshot-2026-07-03-101641.png "User Access Configuration")
 
 ![User Notification Alerts](assets/screenshot-2026-06-22-131150.png "User Notification Alerts")
 
@@ -506,11 +508,11 @@ As each page is created, a **View \[Page Name]** button appears so administrator
 <details>
 <summary>📸 View Deployment Screenshots</summary>
 
-![Pre-Deployment Screen](assets/screenshot-2026-06-22-131303.png "Pre-Deployment Screen")
+![Pre-Deployment Screen](assets/screenshot-2026-07-03-101734.png "Pre-Deployment Screen")
 
 ![Deployment Progress Screen](assets/screenshot-2026-06-22-131425.png "Deployment Progress Screen")
 
-![Post Deployment Screen](assets/screenshot-2026-06-22-131603.png "Post Deployment Screen")
+![Post Deployment Screen](assets/screenshot-2026-07-03-102405.png "Post Deployment Screen")
 
 ![Live Preview](assets/screenshot-2026-06-22-131710.png "Live Preview")
 

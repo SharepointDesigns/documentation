@@ -3,13 +3,13 @@ title: Changelog
 sidebar_position: 5
 ---
 
-All notable changes to Intranet Sangha are documented here. Versions are listed in reverse chronological order.
+All notable changes to Sangha Intranet are documented here. Versions are listed in reverse chronological order.
 
 ---
 
 ## 1.0.0.0 — 2026-06-15
 
-This is the initial release of Intranet Sangha by SharePoint Designs.
+This is the initial release of Sangha Intranet by SharePoint Designs.
 
 ---
 
