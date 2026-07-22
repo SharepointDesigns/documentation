@@ -28,7 +28,7 @@ sidebar_position: 5
 - Regional Settings  Configure time zone, locale, and working hours directly from within the wizard.
 - Appearance Settings  Show/hide the tenant logo, site logo, and site title, toggle the header color, adjust web part spacing, enable full-width pages, set footer alignment, and control corner roundness.
 - Font Selection  Choose a font package for the whole site, or open the font manager to add and edit fonts.
-- Footer Text Visibility * Improved footer text color for better readability.
+- Footer Text Visibility-  Improved footer text color for better readability.
 
 
 ## Version - 1.0.0.1
