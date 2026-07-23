@@ -2,59 +2,62 @@
 title: Configuration
 sidebar_position: 4
 ---
-### Note:
+## ⚙️ Installation Instructions
 
-The Home page should be configured using the "Healthcare 1 Setup" web part to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts. 
+* Upload the `spd-healthcare-03.sppkg` file to your **App Catalog** and click **Deploy**.
+* In the SharePoint Admin Center → **Advanced → API access**, approve the pending Microsoft Graph permission requests (`Calendars.Read`, `Calendars.Read.Shared`, `User.Read.All`, `Group.Read.All`, `Sites.Read.All`).
+* Navigate to your modern SharePoint site.
+* Click the **Settings (gear)** icon → select **"Add an app"**.
 
-Configuration settings for each web part.
+  ![](assets/screenshot-2026-03-06-113113.png)
+* Choose **Healthcare Intranet Design 3 – SharePoint with KPIs & Wellness** (by SharePoint Designs).
+* Click **Add**.
+* After installation, go to **Site Contents** to confirm it's added to the site.
 
-## 🧪1. Site config (Application customizer)
+- - -
 
-## Steps to Test and Apply Template
+## 🧪 Testing Instructions
 
-1. On the SharePoint site, locate the new icon in the top suite bar (on the right side of the header bar). This icon opens the design template panel.
+## Steps to Set Up and Apply the Site Template
 
-<details>
-  <summary>Click to expand</summary>
+The extension runs a **guided setup wizard** with 4 steps. It opens automatically the first time; you can also reopen it any time from the **launcher icon in the top suite bar** (right side of the header).
 
-   ![](assets/screenshot-2026-03-04-171536.png)
+1. **Welcome** — The wizard opens on a welcome screen summarizing what it will configure (organization details, branding, and auto-deployed web parts). Click **Get Started**.
 
-</details>
-2. Click the icon to open the Page creation Panel.
+2. **Organization Details** — Fill in your organization information:
 
-<details>
-  <summary>Click to expand</summary>
-   ![](assets/screenshot-2026-03-05-114236.png)
+   * **Organization Name** (required — auto-filled from your tenant)
+   * **Site Title** (writes live to the SharePoint site header)
+   * **Industry**
+   * **Vision Title** and **Vision** statement (shown in the Welcome Banner)
 
-</details>
-3. In the panel:
+   > Existing users whose home page is already set up can click **Exit Setup** to keep their current page as-is.
 
-   * Select the **"Home Page"** template
-   * Click the **Create Page** button
-<details>
-  <summary>Click to expand</summary>
+3. **Branding** — Customize the look and feel (all changes shown in a live preview):
 
-     ![](assets/screenshot-2026-03-04-172006.png)
+   * Upload your **Site Logo** — brand colors are auto-extracted from it.
+   * Review/adjust the **theme colors**, name the theme, and click **Apply Theme** (or pick from **Available Site Themes**).
+   * Upload a **Favicon**.
+   * Optionally open **Regional Settings** and adjust **Appearance Settings** (header color, logo/title visibility, web part spacing, full-width page, footer alignment, border radius, fonts).
 
-</details>
+4. **Review & Apply** — The final step shows a summary of your organization and branding choices. Click **Apply Template** to begin provisioning.
 
-4. Do not close or refresh the browser. A pop-up will appear to create the required lists and libraries:
+5. **Do not close or refresh the browser.** A progress screen with a live log appears while the wizard automatically creates the required lists and libraries:
 
-* `Quick Links` list
-* `Document Content` library
-* `Knowledge Hub` library
-* `Events` list
-* `Training Video` library
-  (_Mock items are added automatically for QuickLinks, Document Content, Knowledge hub, News)
+   * `QuickLinks` list
+   * `Appointments` list
+   * `Anniversaries` list
+   * `Mindfullness` list
+   * `Facilities` list
+   * `Events` list
+   * `TrainingVideos` library
+   * News items
+     (_Mock/seed items are added automatically so the web parts render with content._)
 
-5. After the items are created, the site page will **refresh automatically**, and it will continue to creating page and adding webparts.
-6. Once setup is complete, a button will appear to open the newly created homepage. Click it to view the result.
-<details>
-  <summary>Click to expand</summary>
+6. After the lists are created, the wizard continues to **build the home page** (`NewHome`) and add all the configured web parts.
 
-   ![](assets/screenshot-2026-03-04-171409.png)
+7. Once setup is complete, a **Completed** screen appears with a button to **open the newly created homepage**. You can also tick **Set as home page** before viewing it.
 
-</details>
 - - -
 
 ## 👋 2. Welcome Banner
