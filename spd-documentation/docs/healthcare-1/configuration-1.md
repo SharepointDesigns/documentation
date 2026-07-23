@@ -2,61 +2,37 @@
 title: Configuration
 sidebar_position: 4
 ---
-## ⚙️ Installation Instructions
+### Note:
 
-* Upload the `spd-healthcare-03.sppkg` file to your **App Catalog** and click **Deploy**.
-* In the SharePoint Admin Center → **Advanced → API access**, approve the pending Microsoft Graph permission requests (`Calendars.Read`, `Calendars.Read.Shared`, `User.Read.All`, `Group.Read.All`, `Sites.Read.All`).
-* Navigate to your modern SharePoint site.
-* Click the **Settings (gear)** icon → select **"Add an app"**.
+The Home page should be configured using the "Healthcare 1 Setup" extension to ensure that the required lists and libraries are created automatically. Without this configuration, users will need to manually create dedicated lists or libraries for the respective web parts.
 
-  ![](assets/screenshot-2026-03-06-113113.png)
-* Choose **Healthcare Intranet Design 3 – SharePoint with KPIs & Wellness** (by SharePoint Designs).
-* Click **Add**.
-* After installation, go to **Site Contents** to confirm it's added to the site.
+## 1. Set Up Wizard
 
-- - -
+![](assets/icons_green_circled.png "Set up suitebar")
 
-## 🧪 Testing Instructions
+1. Since this is a first-time setup (or setup was not previously completed), a **full-page Setup Wizard** will automatically appear — no need to manually add any web part.
 
-## Steps to Set Up and Apply the Site Template
+   ![Set up wizard](assets/screenshot-2026-07-20-160111.png "Set up wizard")
+2. Walk through the wizard steps:
 
-The extension runs a **guided setup wizard** with 4 steps. It opens automatically the first time; you can also reopen it any time from the **launcher icon in the top suite bar** (right side of the header).
+   * **Organizational Details** — Enter your organization information.
+   * **Branding** — Upload your site logo. The wizard uses AI to automatically generate a brand color palette from the logo. You can review, adjust, or change the suggested colors before clicking **Save and Apply Theme**. You can also upload a custom favicon and configure regional settings.
+   * **Deploy & Template** — Deploy the intranet layout. Once deployed, the page is saved as a template so it can be reused later to recreate the site layout.
+3. Do not close the browser during deployment. The wizard will create the required lists, libraries, and layout with sample data.
+4. Once deployment is complete, you will be given the option to **set the newly created page as your homepage**. Click **View Page** to open the new page with the full Design 2 layout applied.
 
-1. **Welcome** — The wizard opens on a welcome screen summarizing what it will configure (organization details, branding, and auto-deployed web parts). Click **Get Started**.
+<details>
+<summary>📸 View Property Panel Screenshots</summary>
 
-2. **Organization Details** — Fill in your organization information:
+![](assets/screenshot-2026-07-22-111454.png)
 
-   * **Organization Name** (required — auto-filled from your tenant)
-   * **Site Title** (writes live to the SharePoint site header)
-   * **Industry**
-   * **Vision Title** and **Vision** statement (shown in the Welcome Banner)
+</details>
 
-   > Existing users whose home page is already set up can click **Exit Setup** to keep their current page as-is.
-
-3. **Branding** — Customize the look and feel (all changes shown in a live preview):
-
-   * Upload your **Site Logo** — brand colors are auto-extracted from it.
-   * Review/adjust the **theme colors**, name the theme, and click **Apply Theme** (or pick from **Available Site Themes**).
-   * Upload a **Favicon**.
-   * Optionally open **Regional Settings** and adjust **Appearance Settings** (header color, logo/title visibility, web part spacing, full-width page, footer alignment, border radius, fonts).
-
-4. **Review & Apply** — The final step shows a summary of your organization and branding choices. Click **Apply Template** to begin provisioning.
-
-5. **Do not close or refresh the browser.** A progress screen with a live log appears while the wizard automatically creates the required lists and libraries:
-
-   * `QuickLinks` list
-   * `Appointments` list
-   * `Anniversaries` list
-   * `Mindfullness` list
-   * `Facilities` list
-   * `Events` list
-   * `TrainingVideos` library
-   * News items
-     (_Mock/seed items are added automatically so the web parts render with content._)
-
-6. After the lists are created, the wizard continues to **build the home page** (`NewHome`) and add all the configured web parts.
-
-7. Once setup is complete, a **Completed** screen appears with a button to **open the newly created homepage**. You can also tick **Set as home page** before viewing it.
+> **After Setup**
+>
+> * The full-page wizard will no longer appear on page load.
+> * You can relaunch the Setup Wizard at any time from the **suite bar** at the top of the site to update settings.
+> * Admins can return to the Deploy & Template step at any time to apply a saved template and recreate the site layout.
 
 - - -
 
@@ -113,11 +89,13 @@ This section allows customization of the Welcome Banner and Quick Links display.
 | 🌐**Read More URL**            | Specifies the destination URL that opens when users click the “Read More” link.                                                                                  | `https://www.sharepointdesigns.com` |
 
 #### ℹ️ Appearance Settings
+
 <details>
 
 <summary>📸 View Property Pane Screenshots</summary>
 
 ![](assets/screenshot-2026-03-06-123337.png)
+
 </details>
 
 | 🏷️ Name                           | 🎯 Purpose                                                                                                                                                             | 💡 Select Option |
@@ -202,10 +180,12 @@ This section allows customization of the Document Library Web Part, including he
 | 🌐**Show See All Link**          | Specifies the URL that opens when users click “See All”. | URL Field        |
 
 #### ⚙️ Content settings Section
+
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
 ![](assets/screenshot-2026-03-04-172800.png)
+
 </details>
 
 | 🏷️ Name                         | 🎯 Purpose                                                               | 💡 Select Option                |
@@ -218,6 +198,7 @@ This section allows customization of the Document Library Web Part, including he
 | 🔢**Number of Items to Display** | Defines how many documents are displayed in the web part.                | 25                              |
 
 #### ⚙️ Appearance settings Section
+
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
@@ -260,6 +241,7 @@ This section allows customization of the Document Library Web Part, including he
 - - -
 
 ### ⚙️ Configuration Options
+
 #### 📌 Header Settings Section
 
 <details>
@@ -268,8 +250,6 @@ This section allows customization of the Document Library Web Part, including he
 ![header](assets/screenshot-2026-03-04-173119.png)
 
 </details>
-
-
 
 | 🏷️ Name                         | 🎯 Purpose                                                  | 💡 Select Option |
 | -------------------------------- | ----------------------------------------------------------- | ---------------- |
@@ -280,10 +260,12 @@ This section allows customization of the Document Library Web Part, including he
 | 🌐**Show See All Link**          | Specifies the URL that opens when users click “See All”.    | URL Field        |
 
 #### ⚙️General Settings Section
+
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
 ![](assets/screenshot-2026-03-04-173209.png)
+
 </details>
 
 | 🏷️ Name                        | 🎯 Purpose                                                               | 💡 Select Option                |
@@ -295,6 +277,7 @@ This section allows customization of the Document Library Web Part, including he
 | 🔎**Filter the Category Value** | Filters documents by a selected category value.                          | Dropdown                        |
 
 #### ⚙️ Appearance settings Section
+
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
@@ -311,6 +294,7 @@ This section allows customization of the Document Library Web Part, including he
 | 🔎**Height of the container** | Adjust the height occurding to our requirement.               | Slider           |
 
 #### 🎨 Theme settings
+
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
 
@@ -370,7 +354,7 @@ Showcase concise company updates in a clean, minimal layout. Integrates with Sha
 
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
-![](assets/screenshot-2026-03-04-195014.png)
+!\[](assets/screenshot-2026-03-04-195014.png)
 </details>
 
 | 🏷️ Name            | 🎯 Purpose             | 💡 Select Option |
@@ -380,7 +364,6 @@ Showcase concise company updates in a clean, minimal layout. Integrates with Sha
 | **RSS Links**       | Manage external feeds  | \[Manage Links]  |
 
 #### Layout Settings
-
 
 <details>
 <summary>📸 View Property Pane Screenshots</summary>
