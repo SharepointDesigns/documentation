@@ -59,8 +59,12 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 
 | Name | Purpose | Example / Options |
 | ---- | ------- | ----------------- |
-
-\| 
+| Layout View | To display cards in two layouts | Grid/ Carousel |
+| Loading Shimmer & Card Animations | Toggle to Show Shimmer & Animations on card loading | Enabled/Disabled |
+| Auto Play | Toggle to autoplay the carousel | Enabled/Disabled |
+| Auto Play Speed (seconds) | Slider to control the speed of the autoplay | Slider |
+| Navigation Arrows | Toggle to show/hide the navigation arrows | On/Off |
+| Navigation Dots | Toggle to show/hide the navigation dots | On/Off |
 
 - - -
 
