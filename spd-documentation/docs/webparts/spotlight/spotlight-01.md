@@ -42,8 +42,27 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 | Filter the Period            | Select a filter period for displaying data         | Dropdown            |
 | Show Category Filter Buttons | Toggle to show category filter                     | On/Off              |
 | Filter by Category           | To display a particular category alone.            | Dropdown            |
+| Event Categories             | Collection Data to add new Category                | Collection Data     |
 
----
+- - -
+
+### Layout Settings
+
+<details>
+<summary>📸 View Layout Settings Screenshots</summary>
+
+![Layout - Grid](assets/screenshot-2026-08-24-173132.png "Layout - Grid")
+
+![Layout - Carousel](assets/screenshot-2026-08-24-173223.png "Layout - Carousel")
+
+</details>
+
+| Name | Purpose | Example / Options |
+| ---- | ------- | ----------------- |
+
+\| 
+
+- - -
 
 ### Apperanace Settings
 
@@ -56,21 +75,21 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 
 </details>
 
-| Name                       | Purpose                                                     | Example/Options                |
-| -------------------------- | ------------------------------------------------------- | ------------------------------------ |
-| Cards to Show | Adjust the Slider to show number of cards to be displayed | Slider       |
-| Category Filter Alignment | Select the desired alignment for the filter category | Choice  |
-| Show Border | Toggle to show or hide the border | On/Off            |    
-| Show Shadow on Border | Toggle to show or hide the shadow for border | On/Off            | 
-| Border Radius For Border (in px) | Adjusts the roundness of corners for items. | Slider(8px to 25px) |
-| Accent Color | Choose the background color applied to the category tag on the card | Color Picker |
-| Card Color 1 | Choose the bacckground color applied on the first card  | Color Picker |
-| Card Color 2 |  Choose the bacckground color applied on the second card | Color Picker |
-| Card Color 3 |  Choose the bacckground color applied on the third card  | Color Picker |
-| Color Mode  |  Select the color mode for Send Greetings button and Category | Dropdown |
-| Theme Color | Select the theme color to be applied for Send Greetings button and category button | Dropdown |
+| Name                             | Purpose                                                                            | Example/Options     |
+| -------------------------------- | ---------------------------------------------------------------------------------- | ------------------- |
+| Cards to Show                    | Adjust the Slider to show number of cards to be displayed                          | Slider              |
+| Category Filter Alignment        | Select the desired alignment for the filter category                               | Choice              |
+| Show Border                      | Toggle to show or hide the border                                                  | On/Off              |
+| Show Shadow on Border            | Toggle to show or hide the shadow for border                                       | On/Off              |
+| Border Radius For Border (in px) | Adjusts the roundness of corners for items.                                        | Slider(8px to 25px) |
+| Accent Color                     | Choose the background color applied to the category tag on the card                | Color Picker        |
+| Card Color 1                     | Choose the bacckground color applied on the first card                             | Color Picker        |
+| Card Color 2                     | Choose the bacckground color applied on the second card                            | Color Picker        |
+| Card Color 3                     | Choose the bacckground color applied on the third card                             | Color Picker        |
+| Color Mode                       | Select the color mode for Send Greetings button and Category                       | Dropdown            |
+| Theme Color                      | Select the theme color to be applied for Send Greetings button and category button | Dropdown            |
 
----
+- - -
 
 ### Admin Settings
 
@@ -85,7 +104,7 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 | --------------- | ------------------------------------- | --------------- |
 | Show Admin Menu | Toggle to show or hide the Admin Menu | Show/Hide       |
 
----
+- - -
 
 ### About
 
@@ -102,4 +121,4 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 | **Documentation Link** | Links to this documentation for easy reference.                   |
 | **Activate License**   | Button to activate the licensed or premium version if applicable. |
 
----
+- - -
