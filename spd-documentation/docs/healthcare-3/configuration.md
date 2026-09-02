@@ -7,11 +7,11 @@ The Home page should be configured using the "Healthcare 3 Setup" extension to e
 
 ## 1. Set Up Wizard
 
-![](assets/setup-img.txt "Set up suitebar")
+![](assets/icons_first_circled_red.png "Set up suitebar")
 
 1. Since this is a first-time setup (or setup was not previously completed), a **full-page Setup Wizard** will automatically appear — no need to manually add any web part.
 
-   ![Set up wizard](assets/screenshot-2026-05-08-110024.png "Set up wizard")
+   ![Set up wizard](assets/screenshot-2026-07-20-160111.png "Set up wizard")
 2. Walk through the wizard steps:
 
    * **Organizational Details** — Enter your organization information.
@@ -23,7 +23,7 @@ The Home page should be configured using the "Healthcare 3 Setup" extension to e
 <details>
 <summary>📸 View Property Panel Screenshots</summary>
 
-![](assets/screenshot-2026-05-08-110420.png)
+![](assets/screenshot-2026-07-22-111454.png)
 
 </details>
 
@@ -127,7 +127,7 @@ This web part provides a quick overview of key appointment metrics in a visually
 * **Highlighted Values**: Uses visually distinct badges to emphasize key numbers for quick readability.
 * **Customizable Title**: Includes a configurable header section (e.g., KPI Appointments).
 
-![Assist](assets/screenshot-2026-03-27-152122.png)
+![Assist](assets/screenshot-2026-07-20-164926.png)
 
 - - -
 
