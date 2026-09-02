@@ -218,6 +218,29 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
 
+  # Design 4 Subpages (Nested under Design 4)
+  - name: "design-4-subpages"
+    label: "└─ Design 4 Subpages"
+    label_singular: "Design 4 Subpage"
+    folder: "spd-documentation/docs/design-4/design-4-subpages"
+    media_folder: "/spd-documentation/docs/design-4/design-4-subpages/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
   # Design 5 Documentation
   - name: "design-5"
     label: "Design 5 Docs"
@@ -388,6 +411,26 @@ collections:
       - label: "Design 4 Category"
         name: "design-4-category"
         file: "spd-documentation/docs/design-4/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
+
+      - label: "Design 4 Subpages Category"
+        name: "design-4-subpages-category"
+        file: "spd-documentation/docs/design-4/design-4-subpages/_category_.json"
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Position", name: "position", widget: "number" }
