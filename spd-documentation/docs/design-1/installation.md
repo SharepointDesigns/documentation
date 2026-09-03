@@ -1,8 +1,11 @@
 ---
-sidebar_position: 2
+title: Installation
+sidebar_position: 3
+author: SharePoint Designs
+version: 1
+updated: October 2025
+description: Installation settings and customization guide for each web part.
 ---
-
-# Installation
 
 ## ⚙️ Installation Instructions
 
@@ -19,6 +22,10 @@ sidebar_position: 2
 
 ---
 
+## Update Instructions
+
+For detailed steps on updating the package, refer to our [Update Package Guide](../get-started/update-package.md).
+
 ## 🧪 Testing Instructions
 
 ### ➕ Add the Design 1 Site Setup Web Part
@@ -32,7 +39,7 @@ sidebar_position: 2
 
 ### ✅ Expected Behaviour
 
-A new homepage will be created as per this design:  
+A new homepage will be created as per this design:\
 🔗 [Home Page Design](https://www.sharepointdesigns.com/diy-intranet-designs)
 
 **Automatically Created Lists (pre-filled with mock data):**
@@ -140,6 +147,6 @@ A new homepage will be created as per this design:
 
 ## 🆘 Support
 
-For help or inquiries, contact **SharePoint Designs**:  
-🌐 [www.sharepointdesigns.com](http://www.sharepointdesigns.com)  
+For help or inquiries, contact **SharePoint Designs**:\
+🌐 [www.sharepointdesigns.com](https://www.sharepointdesigns.com)\
 📧 support@sharepointdesigns.com

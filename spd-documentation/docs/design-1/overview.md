@@ -1,12 +1,15 @@
 ---
+title: Overview
 sidebar_position: 1
+author: SharePoint Designs
+version: 1
+updated: October 2025
+description: Overview settings and customization guide for each web part.
 ---
-
-# Overview
 
 ## Intranet Design 1 by SharePoint Designs
 
-🧩 **Design 1 Site Setup by SharePoint Designs**  
+🧩 **Design 1 Site Setup by SharePoint Designs**\
 Effortless SharePoint site creation starts here.
 
 The **Design 1 Site Setup** web part by SharePoint Designs empowers organizations to quickly deploy a beautifully designed, fully structured SharePoint site—based on our popular Design 1 layout.
@@ -40,5 +43,5 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 
 ## 📄 Documentation
 
-Everything you need to get started, configure, and deploy Design 1 is available in our documentation:  
-👉 [View Documentation](/documentation/docs/design-1/installation)
+Everything you need to get started, configure, and deploy Design 1 is available in our documentation:\
+👉 [View Documentation](/docs/design-1/installation)

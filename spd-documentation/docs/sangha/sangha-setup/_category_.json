@@ -1,0 +1,8 @@
+{
+  "label": "Get started",
+  "position": 0,
+  "link": {
+    "type": "doc",
+    "id": "sangha/sangha-setup/index"
+  }
+}

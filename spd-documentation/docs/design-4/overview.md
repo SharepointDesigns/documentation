@@ -1,8 +1,7 @@
 ---
+title: Overview
 sidebar_position: 1
 ---
-
-# Overview
 
 ## Intranet Design 4 by SharePoint Designs
 
@@ -42,4 +41,4 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 ## 📄 Documentation
 
 Everything you need to get started, configure, and deploy Design 4 is available in our documentation:
-👉 [View Documentation](/documentation/docs/design-4/installation)
+👉 [View Documentation](/docs/design-4/installation)

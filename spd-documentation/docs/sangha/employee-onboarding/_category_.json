@@ -1,0 +1,8 @@
+{
+  "label": "Employee Onboarding",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "sangha/employee-onboarding/index"
+  }
+}

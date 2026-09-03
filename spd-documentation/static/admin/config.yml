@@ -1,0 +1,1046 @@
+backend:
+  name: github
+  repo: SharepointDesigns/documentation
+  branch: Deploy-Automate
+  base_url: https://spdproductdocs-e3epgcb4dvcwasdy.centralindia-01.azurewebsites.net
+  auth_type: implicit
+  auth_endpoint: /api/auth
+  token_endpoint: /api/callback
+  # Uncomment when running locally
+  # local_backend: true
+
+publish_mode: editorial_workflow
+media_folder: "/spd-documentation/static/img/uploads"
+public_folder: "uploads"
+show_preview_links: true
+editor:
+  preview: true
+
+# Site URL for previews
+site_url: https://documentation.sharepointdesigns.com
+logo:
+  src: https://documentation.sharepointdesigns.com/img/spdlogo.svg
+  alt: Sharepoint Designs
+  show_in_header: true
+
+collections:
+  # Main Documentation Pages
+  - name: "docs"
+    label: "Main Documentation"
+    folder: "spd-documentation/docs"
+    create: true
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/static/img/uploads"
+    public_folder: "/img/uploads"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  #Get Started Documentation
+  - name: "get-started"
+    label: "Get Started"
+    label_singular: "Get Started Doc"
+    folder: "spd-documentation/docs/get-started"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/get-started/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+  # Design 1 Documentation (Parent)
+  - name: "design-1"
+    label: "Design 1"
+    label_singular: "Design 1 Doc"
+    folder: "spd-documentation/docs/design-1"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/design-1/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Design 1 Subpages (Nested under Design 1)
+  - name: "design-1-subpages"
+    label: "└─ Design 1 Subpages"
+    label_singular: "Design 1 Subpage"
+    folder: "spd-documentation/docs/design-1/design-1-subpages"
+    media_folder: "/spd-documentation/docs/design-1/design-1-subpages/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Design 2 Documentation (Parent)
+  - name: "design-2"
+    label: "Design 2"
+    label_singular: "Design 2 Doc"
+    folder: "spd-documentation/docs/design-2"
+    create: true
+    format: frontmatter
+    extension: "md"
+    media_folder: "/spd-documentation/docs/design-2/assets"
+    public_folder: "assets"
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Design 2 Subpages (Nested under Design 2)
+  - name: "design-2-subpages"
+    label: "└─ Design 2 Subpages"
+    label_singular: "Design 2 Subpage"
+    folder: "spd-documentation/docs/design-2/design-2-subpages"
+    media_folder: "/spd-documentation/docs/design-2/design-2-subpages/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Design 3 Documentation (Parent)
+  - name: "design-3"
+    label: "Design 3"
+    label_singular: "Design 3 Doc"
+    folder: "spd-documentation/docs/design-3"
+    create: true
+    format: frontmatter
+    extension: "md"
+    media_folder: "/spd-documentation/docs/design-3/assets"
+    public_folder: "assets"
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Design 4 Documentation
+  - name: "design-4"
+    label: "Design 4 Docs"
+    folder: "spd-documentation/docs/design-4"
+    media_folder: "/spd-documentation/docs/design-4/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Design 4 Subpages (Nested under Design 4)
+  - name: "design-4-subpages"
+    label: "└─ Design 4 Subpages"
+    label_singular: "Design 4 Subpage"
+    folder: "spd-documentation/docs/design-4/design-4-subpages"
+    media_folder: "/spd-documentation/docs/design-4/design-4-subpages/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Design 5 Documentation
+  - name: "design-5"
+    label: "Design 5 Docs"
+    folder: "spd-documentation/docs/design-5"
+    create: true
+    media_folder: "/spd-documentation/docs/design-5/assets"
+    public_folder: "assets"
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Employee Onboarding Documentation
+  - name: "employee-onboarding"
+    label: "Employee Onboarding Docs"
+    folder: "spd-documentation/docs/employee-onboarding"
+    create: true
+    media_folder: "/spd-documentation/docs/employee-onboarding/assets"
+    public_folder: "assets"
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Free Template Documentation
+  - name: "free-template"
+    label: "Free Template Docs"
+    folder: "spd-documentation/docs/free-template"
+    create: true
+    media_folder: "/spd-documentation/docs/free-template/assets"
+    public_folder: "assets"
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Blog Posts
+  # - name: "blog"
+  #   label: "Blog"
+  #   folder: "blog"
+  #   create: true
+
+  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  #   fields:
+  #     - { label: "Title", name: "title", widget: "string" }
+  #     - { label: "Publish Date", name: "date", widget: "datetime" }
+  #     - { label: "Author", name: "authors", widget: "list", allow_add: true }
+  #     - { label: "Tags", name: "tags", widget: "list", required: false }
+  #     - { label: "Body", name: "body", widget: "markdown" }
+
+  # Category Configuration Files
+  - name: "categories"
+    label: "Category Settings"
+    files:
+      - label: "Design 1 Category"
+        name: "design-1-category"
+        file: "spd-documentation/docs/design-1/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
+
+      - label: "Design 1 Subpages Category"
+        name: "design-1-subpages-category"
+        file: "spd-documentation/docs/design-1/design-1-subpages/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
+
+      - label: "Design 2 Category"
+        name: "design-2-category"
+        file: "spd-documentation/docs/design-2/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
+
+      - label: "Design 2 Subpages Category"
+        name: "design-2-subpages-category"
+        file: "spd-documentation/docs/design-2/design-2-subpages/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
+
+      - label: "Design 4 Category"
+        name: "design-4-category"
+        file: "spd-documentation/docs/design-4/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
+
+      - label: "Design 4 Subpages Category"
+        name: "design-4-subpages-category"
+        file: "spd-documentation/docs/design-4/design-4-subpages/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
+
+      - label: "Design 5 Category"
+        name: "design-5-category"
+        file: "spd-documentation/docs/design-5/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
+
+      - label: "Employee Onboarding Category"
+        name: "employee-onboarding-category"
+        file: "spd-documentation/docs/employee-onboarding/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
+
+      - label: "Free Template Category"
+        name: "free-template-category"
+        file: "spd-documentation/docs/free-template/_category_.json"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Position", name: "position", widget: "number" }
+          - {
+              label: "Link Type",
+              name: "link.type",
+              widget: "select",
+              options: ["generated-index", "doc"],
+              required: false,
+            }
+          - {
+              label: "Link Description",
+              name: "link.description",
+              widget: "text",
+              required: false,
+            }
+
+  # banner
+  - name: "banner"
+    label: "└─ Welcome Banner"
+    label_singular: "Welcome Banner"
+    folder: "spd-documentation/docs/webparts/banner"
+    media_folder: "/spd-documentation/docs/webparts/banner/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # calendar
+  - name: "calendar"
+    label: "└─ Calendar"
+    label_singular: "Calendar"
+    folder: "spd-documentation/docs/webparts/calendar"
+    media_folder: "/spd-documentation/docs/webparts/calendar/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # documentlibrary
+  - name: "documentlibrary"
+    label: "└─ Document Library"
+    label_singular: "Document Library"
+    folder: "spd-documentation/docs/webparts/documentlibrary"
+    media_folder: "/spd-documentation/docs/webparts/documentlibrary/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+    # news
+  - name: "news"
+    label: "└─ News"
+    label_singular: "News"
+    folder: "spd-documentation/docs/webparts/news"
+    media_folder: "/spd-documentation/docs/webparts/news/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # orgchart
+  - name: "orgchart"
+    label: "└─ Organization Chart"
+    label_singular: "Organization Chart"
+    folder: "spd-documentation/docs/webparts/orgchart"
+    media_folder: "/spd-documentation/docs/webparts/orgchart/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # quicklinks
+  - name: "quicklinks"
+    label: "└─ Quick Links"
+    label_singular: "Quick Link"
+    folder: "spd-documentation/docs/webparts/quicklinks"
+    media_folder: "/spd-documentation/docs/webparts/quicklinks/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # spotlight
+  - name: "spotlight"
+    label: "└─ Spotlight"
+    label_singular: "Spotlight"
+    folder: "spd-documentation/docs/webparts/spotlight"
+    media_folder: "/spd-documentation/docs/webparts/spotlight/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # weather
+  - name: "weather"
+    label: "└─ Weather"
+    label_singular: "Weather"
+    folder: "spd-documentation/docs/webparts/weather"
+    media_folder: "/spd-documentation/docs/webparts/weather/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  #Training
+  - name: "training"
+    label: "└─ Training"
+    label_singular: "Training"
+    folder: "spd-documentation/docs/webparts/training"
+    media_folder: "/spd-documentation/docs/webparts/training/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+    #Map
+  - name: "Location"
+    label: "└─ Location"
+    label_singular: "Location"
+    folder: "spd-documentation/docs/webparts/location"
+    media_folder: "/spd-documentation/docs/webparts/location/assets"
+    public_folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Healthcare 1 Documentation
+  - name: "healthcare-1"
+    label: "Healthcare 1"
+    label_singular: "Healthcare 1 Doc"
+    folder: "spd-documentation/docs/healthcare-1"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/healthcare-1/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Healthcare 2 Documentation
+  - name: "healthcare-2"
+    label: "Healthcare 2"
+    label_singular: "Healthcare 2 Doc"
+    folder: "spd-documentation/docs/healthcare-2"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/healthcare-2/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+      # Healthcare 3 Documentation
+  - name: "healthcare-3"
+    label: "Healthcare 3"
+    label_singular: "Healthcare 3 Doc"
+    folder: "spd-documentation/docs/healthcare-3"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/healthcare-3/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  - name: "sangha"
+    label: "Sangha"
+    label_singular: "Sangha Doc"
+    folder: "spd-documentation/docs/sangha"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/sangha/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+  # Sangha - Set up
+  - name: "sangha-setup"
+    label: "└─ Setup"
+    label_singular: "Setup Doc"
+    folder: "spd-documentation/docs/sangha/sangha-setup"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/sangha/sangha-setup/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+  # Sangha - Home
+  - name: "sangha-home"
+    label: "└─ Home"
+    label_singular: "Home Doc"
+    folder: "spd-documentation/docs/sangha/home"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/sangha/home/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+  # Sangha - Subpages
+  - name: "sangha-subpages"
+    label: "└─ Subpages"
+    label_singular: "Subpage Doc"
+    folder: "spd-documentation/docs/sangha/subpages"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/sangha/subpages/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+  # Sangha - Dashboards
+  - name: "sangha-dashboards"
+    label: "└─ Dashboards"
+    label_singular: "Dashboard Doc"
+    folder: "spd-documentation/docs/sangha/dashboards"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/sangha/dashboards/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Sangha - Document Center
+  - name: "sangha-document-center"
+    label: "└─ Document Center"
+    label_singular: "Document Center Doc"
+    folder: "spd-documentation/docs/sangha/document-center"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/sangha/document-center/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Sangha - Employee Directory
+  - name: "sangha-employee-directory"
+    label: "└─ Employee Directory"
+    label_singular: "Employee Directory Doc"
+    folder: "spd-documentation/docs/sangha/employee-directory"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/sangha/employee-directory/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Sangha - Employee Onboarding
+  - name: "sangha-employee-onboarding"
+    label: "└─ Employee Onboarding"
+    label_singular: "Employee Onboarding Doc"
+    folder: "spd-documentation/docs/sangha/employee-onboarding"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/sangha/employee-onboarding/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # DocVault
+  - name: "docvault"
+    label: "DocVault"
+    label_singular: "DocVault Doc"
+    folder: "spd-documentation/docs/docvault"
+    create: true
+    format: frontmatter
+    extension: "md"
+    slug: "{{slug}}"
+    media_folder: "/spd-documentation/docs/docvault/assets"
+    public_folder: "assets"
+    sortable_fields: ["sidebar_position", "title"]
+    sort:
+      field: "sidebar_position"
+      direction: "asc"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }

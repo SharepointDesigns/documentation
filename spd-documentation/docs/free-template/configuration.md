@@ -1,8 +1,11 @@
 ---
-sidebar_position: 3
+title: Configuration
+sidebar_position: 4
+author: SharePoint Designs
+version: 1
+updated: October 2025
+description: configuration settings and customization guide for each web part.
 ---
-
-# Configuration
 
 ### Note:
 
@@ -26,7 +29,12 @@ Make sure to include banner image and title for the newspage.
 
 ### 🏷️ Features News Carousel Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Features News Property Pane](./assets/NewsWBP1.png) ![Features News Property Pane2](assets/NewsWBP2.png) ![Doc](./assets/NewsWBP3.png)
+
+</details>
 
 #### 📌 **Header Settings**
 
@@ -87,7 +95,12 @@ For the **New Associate** webpart, create a list with the following columns.
 
 ### 🏷️ New Associate Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![New Associate Property Pane](./assets/NewAssociateWBP.png)
+
+</details>
 
 #### 📌 **Header Settings**
 
@@ -146,7 +159,12 @@ Note: For the **Holiday** webpart, create a list with the following columns.
 
 ### 🏷️ Holiday Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Holiday Property Pane](assets/HolidayWBP1.png) ![Holiday Property Pane](assets/HolidayWBP2.png)
+
+</details>
 
 #### 📌 Header Settings
 
@@ -205,9 +223,14 @@ Note: For the **Announcement Banner** webpart, create a list with the following 
 
 ### 🏷️ WelcomeBanner – Property Pane Configurations
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![WelcomeBanner Property Pane](assets/WelcomeBannerHeaderPanel.png)
 
 ![WelcomeBanner Property Pane](assets/WelcomeBannerGernalPanel.png)
+
+</details>
 
 #### 📌 Header Settings
 
@@ -256,9 +279,14 @@ Note: For the **Quick Links** webpart, create a list with the following columns.
 
 ## 🏷️ Quick Links – Property Pane Configurations
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Qucik Link ](assets/QuickLinksApperance.png)
 
 ![Qucik Link ](assets/QuickLinksGeneral.png)
+
+</details>
 
 #### 📌Appearance Settings
 
@@ -291,9 +319,14 @@ Keep everyone updated with key organizational dates and activities:
 
 ### 🏷️ Events Calendar Web Part – Property Pane Configuration
 
+<details>
+<summary>📸 View Property Pane Screenshots</summary>
+
 ![Events Calendar Property Pane](assets/CalendarHeader.png)
 
 ![Events Calendar Property Pane](assets/CalendarGeneral.png)
+
+</details>
 
 #### ⚙️ Configuration Options
 

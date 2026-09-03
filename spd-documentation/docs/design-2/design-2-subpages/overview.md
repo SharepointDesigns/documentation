@@ -1,8 +1,11 @@
 ---
+title: Overview
 sidebar_position: 1
+author: SharePoint Designs
+version: 1
+updated: October 2025
+description: Overview settings and customization guide for each web part.
 ---
-
-# Overview
 
 ## Intranet Design 2 Sub Pages by SharePoint Designs
 
@@ -25,7 +28,7 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 
 - When the web part is added to a SharePoint page, a **free 15-day trial** starts automatically.
 - After the trial period ends, users will need to **purchase a license key** to continue using the web part.
-- The activation process is simple and guided — once the trial expires, users can click the **Activate** button on the web part, which opens a dialog with a **"Get Key"** option that redirects them to the payment page. [Refer here](/documentation/docs/design-2/design-2-subpages/installation#-activating-a-license-key)
+- The activation process is simple and guided — once the trial expires, users can click the **Activate** button on the web part, which opens a dialog with a **"Get Key"** option that redirects them to the payment page. [Refer here](/docs/design-2/design-2-subpages/installation#-activating-a-license-key)
 
 ---
 
@@ -75,4 +78,4 @@ Whether you're building a new departmental hub, intranet landing page, or team c
 ## 📄 Documentation
 
 Everything you need to get started, configure, and deploy Design 2 Sub Pages is available in our documentation:
-👉 [View Documentation](/documentation/docs/design-2/design-2-subpages/installation)
+👉 [View Documentation](/docs/design-2/design-2-subpages/installation)

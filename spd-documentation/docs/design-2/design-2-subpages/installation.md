@@ -1,8 +1,11 @@
 ---
-sidebar_position: 2
+title: Installation
+sidebar_position: 3
+author: SharePoint Designs
+version: 1
+updated: October 2025
+description: Installation settings and customization guide for each web part.
 ---
-
-# Installation
 
 ## ⚙️ Installation Instructions
 
@@ -51,14 +54,14 @@ sidebar_position: 2
 
 ### License Activation Steps
 
-| **Step** | **Action**                 | **Details / Notes**                                                                                                                                                                                                                                                                                                   |
-| -------- | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1        | Go to the app page         | Navigate to the SharePoint page where the app is installed.                                                                                                                                                                                                                                                           |
-| 2        | Open activation panel      | - If the trial **has expired**, you'll see an **"Activate"** button on the app — click it.<br/>![](assets/activate.png)<br/>- If the trial **is still active** and you want to activate it, edit the page → open the **Web Part property panel** → click **"Activate License"**.<br/><br/>![](assets/activatewpp.png) |
-| 3        | Launch activation dialog   | A dialog box will appear prompting for a key.<br/><br/>![](assets/GetKey.png)                                                                                                                                                                                                                                         |
-| 4        | Click **Get Key**          | In the license dialog, click **Get Key** — this will take you to the payment page in a new tab.                                                                                                                                                                                                                       |
-| 5        | Purchase the license       | Complete the payment process. Once done, you’ll receive a license key via email. Be sure to check your spam/junk folder if you don't see it.                                                                                                                                                                          |
-| 6        | Enter and activate the key | Go back to the SharePoint page, paste the license key into the dialog box, and click **Activate** to complete activation.                                                                                                                                                                                             |
+| **Step** | **Action**                 | **Details / Notes**                                                                                                                                                                                                                                                                                                    |
+| -------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1        | Go to the app page         | Navigate to the SharePoint page where the app is installed.                                                                                                                                                                                                                                                            |
+| 2        | Open activation panel      | \- If the trial **has expired**, you'll see an **"Activate"** button on the app — click it.<br/>![](assets/activate.png)<br/>- If the trial **is still active** and you want to activate it, edit the page → open the **Web Part property panel** → click **"Activate License"**.<br/><br/>![](assets/activatewpp.png) |
+| 3        | Launch activation dialog   | A dialog box will appear prompting for a key.<br/><br/>![](assets/GetKey.png)                                                                                                                                                                                                                                          |
+| 4        | Click **Get Key**          | In the license dialog, click **Get Key** — this will take you to the payment page in a new tab.                                                                                                                                                                                                                        |
+| 5        | Purchase the license       | Complete the payment process. Once done, you’ll receive a license key via email. Be sure to check your spam/junk folder if you don't see it.                                                                                                                                                                           |
+| 6        | Enter and activate the key | Go back to the SharePoint page, paste the license key into the dialog box, and click **Activate** to complete activation.                                                                                                                                                                                              |
 
 ✅ **Done! Your app is now fully activated.**
 
@@ -97,40 +100,40 @@ The following SharePoint Library are automatically created based on the selectio
 
 ## DEPARTMENT PAGE
 
-| **Webpart**             | **Description**                                                                                                                                                                |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Welcome Banner**      | - Large hero image with department title and key managers’ profiles to establish context<br/> - Highlights leadership, setting the tone for department-specific content below. |
-| **Department Links**    | - Quick-access icons/tiles directing users to frequently used resources<br/> - Simplifies navigation by grouping critical department tools in one place                        |
-| **Goals**               | - Prominent cards illustrating clear, measurable objectives (e.g., revenue growth)<br/> - Keeps everyone aligned by showcasing priorities at a glance                          |
-| **Department Policies** | - Horizontal carousel or tiles for policy documents (Word, PDF) with quick previews<br/> - Ensures staff can easily find and reference key procedural docs                     |
-| **Important Documents** | - Card layout featuring essential policies and handbooks in downloadable format<br/> - Centralizes employee manuals for quick reference and compliance                         |
-| **Meet the SMEs**       | - Showcases expert profiles with names, roles, and potential contact links.<br/> - Makes it easy to identify and reach out to departmental specialists                         |
-| **Department News**     | - Date-stamped announcements or articles with brief summaries<br/> - Provides timely updates on departmental or industry developments                                          |
+| **Webpart**             | **Description**                                                                                                                                                                 |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Welcome Banner**      | \- Large hero image with department title and key managers’ profiles to establish context<br/> - Highlights leadership, setting the tone for department-specific content below. |
+| **Department Links**    | \- Quick-access icons/tiles directing users to frequently used resources<br/> - Simplifies navigation by grouping critical department tools in one place                        |
+| **Goals**               | \- Prominent cards illustrating clear, measurable objectives (e.g., revenue growth)<br/> - Keeps everyone aligned by showcasing priorities at a glance                          |
+| **Department Policies** | \- Horizontal carousel or tiles for policy documents (Word, PDF) with quick previews<br/> - Ensures staff can easily find and reference key procedural docs                     |
+| **Important Documents** | \- Card layout featuring essential policies and handbooks in downloadable format<br/> - Centralizes employee manuals for quick reference and compliance                         |
+| **Meet the SMEs**       | \- Showcases expert profiles with names, roles, and potential contact links.<br/> - Makes it easy to identify and reach out to departmental specialists                         |
+| **Department News**     | \- Date-stamped announcements or articles with brief summaries<br/> - Provides timely updates on departmental or industry developments                                          |
 
 ---
 
 ## EMPLOYEE RESOURCES
 
-| **Webpart**                   | **Description**                                                                                                                                                 |
-| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Employee Resources Banner** | - Illustrated hero section showing various employee service categories (IT, HR, etc,)<br/> - Helps staff quickly spot essential support areas and request help, |
-| **Resources Links**           | - Icon-based shortcuts to critical internal portals or tools (travel, marketing, contacts)<br/> - Speeds up navigation to commonly accessed services.           |
-| **Benefits and Perks**        | - Displays health insurance, retirement plans, and wellness program info.<br/> - Links to detailed PDF documents explaning each benefit offering.               |
-| **Share Your Ideas**          | - Calls employees to submit suggestions, foatering and innovative culture.<br/> - May link to a feedback form or discussing explaning each benefit offering.    |
-| **Newsletter**                | - Showcases the latest monthly publication with organizational highlights.<br/> - Keeps employees informed about current evets, milestones, and stories.        |
-| **Trainings**                 | - Displays available or upcoming sessions with tags like "New Course".<br/> - Direct links to registration or deeper course info encourage ongoing development. |
+| **Webpart**                   | **Description**                                                                                                                                                  |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Employee Resources Banner** | \- Illustrated hero section showing various employee service categories (IT, HR, etc,)<br/> - Helps staff quickly spot essential support areas and request help, |
+| **Resources Links**           | \- Icon-based shortcuts to critical internal portals or tools (travel, marketing, contacts)<br/> - Speeds up navigation to commonly accessed services.           |
+| **Benefits and Perks**        | \- Displays health insurance, retirement plans, and wellness program info.<br/> - Links to detailed PDF documents explaning each benefit offering.               |
+| **Share Your Ideas**          | \- Calls employees to submit suggestions, foatering and innovative culture.<br/> - May link to a feedback form or discussing explaning each benefit offering.    |
+| **Newsletter**                | \- Showcases the latest monthly publication with organizational highlights.<br/> - Keeps employees informed about current evets, milestones, and stories.        |
+| **Trainings**                 | \- Displays available or upcoming sessions with tags like "New Course".<br/> - Direct links to registration or deeper course info encourage ongoing development. |
 
 ---
 
 ## POLICIES & PROCEDURES
 
-| **Webpart**                              | **Description**                                                                                                                                          |
-| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Banner & Title**                       | - Visual theme emphasizing security and compliance, plus rotating updates. <br/> - Immediately draws attention to new or crucial policy changes.         |
-| **Policy Links**                         | - Icon-based categories for HR, Genral, DEI, Travel, and other key policies.<br/> - Streamlines navigation to relevant policy documents or sub-pages.    |
-| **SOPs (Standard Operating Procedures)** | - Carousel of PDF documents outlining critical processes like Data Security.<br/> - Offers quick scrolling to find and open the needed procedural guide. |
-| **FAQs**                                 | - Expandable common questions on data privacy, refunds and more.<br/> - Promotes self-service by offering immediate answers to frequent queries.         |
-| **Contact HR & Legal Teams**             | - Profile-like cards with names, roles, and direct links for support)<br/> - Streamlines access to departmental experts for policy-related questions.    |
+| **Webpart**                              | **Description**                                                                                                                                           |
+| ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Banner & Title**                       | \- Visual theme emphasizing security and compliance, plus rotating updates. <br/> - Immediately draws attention to new or crucial policy changes.         |
+| **Policy Links**                         | \- Icon-based categories for HR, Genral, DEI, Travel, and other key policies.<br/> - Streamlines navigation to relevant policy documents or sub-pages.    |
+| **SOPs (Standard Operating Procedures)** | \- Carousel of PDF documents outlining critical processes like Data Security.<br/> - Offers quick scrolling to find and open the needed procedural guide. |
+| **FAQs**                                 | \- Expandable common questions on data privacy, refunds and more.<br/> - Promotes self-service by offering immediate answers to frequent queries.         |
+| **Contact HR & Legal Teams**             | \- Profile-like cards with names, roles, and direct links for support)<br/> - Streamlines access to departmental experts for policy-related questions.    |
 
 ## 🧹 Uninstall Guide
 
@@ -214,5 +217,5 @@ Follow the steps below to uninstall the **Intranet Design 2 Sub Pages by SharePo
 ## 🆘 Support
 
 Please contact **SharePoint Designs**
-🌐 [www.sharepointdesigns.com](http://www.sharepointdesigns.com)
+🌐 [www.sharepointdesigns.com](https://www.sharepointdesigns.com)
 📧 support@sharepointdesigns.com

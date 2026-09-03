@@ -1,0 +1,8 @@
+{
+  "label": "Employee Directory",
+  "position": 4,
+  "link": {
+    "type": "doc",
+    "id": "sangha/employee-directory/index"
+  }
+}

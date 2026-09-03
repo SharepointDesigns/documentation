@@ -15,28 +15,35 @@ const FeatureList: FeatureItem[] = [
     imageUrl:
       "https://cdn.prod.website-files.com/624fdbbf2da9f429057410bc/685cd98b18ba7446f63df947_Design%20-%201.avif",
     // buttonLabel: 'Get Started',
-    buttonLink: "/documentation/docs/design-1/overview",
+    buttonLink: "/docs/design-1/overview",
   },
   {
     title: "Design 2",
     imageUrl:
       "https://cdn.prod.website-files.com/624fdbbf2da9f429057410bc/686f5ab8c3819215008d1cf1_Design%20-%202.avif",
     // buttonLabel: 'Customize',
-    buttonLink: "/documentation/docs/design-2/overview",
+    buttonLink: "/docs/design-2/overview",
+  },
+  {
+    title: "Design 3",
+    imageUrl:
+      "https://github.com/SharepointDesigns/documentation/blob/Deploy-Automate/spd-documentation/static/img/uploads/diy-3-latest.png?raw=true",
+    // buttonLabel: 'Customize',
+    buttonLink: "/docs/design-3/overview",
   },
   {
     title: "Design 4",
     imageUrl:
       "https://cdn.prod.website-files.com/624fdbbf2da9f429057410bc/685cd989e9bc30b23e26e737_Design%20-%204.avif",
     // buttonLabel: 'View Docs',
-    buttonLink: "/documentation/docs/design-4/overview",
+    buttonLink: "/docs/design-4/overview",
   },
   {
     title: "Design 5",
     imageUrl:
       "https://cdn.prod.website-files.com/624fdbbf2da9f429057410bc/685cd98a82265059400a7626_Design%20-%205.avif",
     // buttonLabel: 'View Docs',
-    buttonLink: "/documentation/docs/design-5/overview",
+    buttonLink: "/docs/design-5/overview",
   },
 ];
 

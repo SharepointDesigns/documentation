@@ -1,8 +1,11 @@
 ---
-sidebar_position: 2
+title: Installation
+sidebar_position: 3
+author: SharePoint Designs
+version: 1
+updated: October 2025
+description: Installation settings and customization guide for each web part.
 ---
-
-# Installation
 
 ## ⚙️ Installation Instructions
 
@@ -19,24 +22,29 @@ sidebar_position: 2
 
 ## 🧪 Testing Instructions
 
-> **Note:** _Upon adding the web part to the page, a **free 15-day trial** will start automatically._
+> **Note:** _Upon adding the application to the site, a **free 15-day trial** will start automatically._
 
-1. Navigate to a modern SharePoint page or create a new one.
-2. Edit the page and add the **"Design 2 Site Setup"** web part.
-   ![](assets/addwebparttoPage.png)
-3. **Republish** the page.
-4. Click the **“Apply Design”** button.
+1. Add the **"Intranet Design 2 by SharePoint Designs"** app to your SharePoint site.
+2. Refresh the page at least once so that the new changes are properly loaded.
+3. Since this is a first-time setup (or setup was not previously completed), a **full-page Setup Wizard** will automatically appear — no need to manually add any web part.
 
-   > ![](assets/applyDesign.png)
+   ![Set up wizard](assets/setupwizard.png "Set up wizard")
 
-5. Do not close the browser. A pop-up will appear to create required lists and libraries with mock data (_Applicable only for lists_).
-6. After creation, the page will refresh automatically and proceed with adding the necessary web parts and layout.
-7. Once setup is complete - "Set as Homepage" checkbox will appear
+4. Walk through the wizard steps:
+   - **Organizational Details** — Enter your organization information.
+   - **Branding** — Upload your site logo. The wizard uses AI to automatically generate a brand color palette from the logo. You can review, adjust, or change the suggested colors before clicking **Save and Apply Theme**. You can also upload a custom favicon and configure regional settings.
+   - **Deploy & Template** — Deploy the intranet layout. Once deployed, the page is saved as a template so it can be reused later to recreate the site layout.
 
-   - If checked, clicking "Open New Page" will open the newly created page and set it as the homepage.
-   - If unchecked, the new page opens normally without changing the homepage.
+5. Do not close the browser during deployment. The wizard will create the required lists, libraries, and layout with sample data.
+6. Once deployment is complete, you will be given the option to **set the newly created page as your homepage**. Click **View Page** to open the new page with the full Design 2 layout applied.
 
-   ![](assets/creationComplete.png)
+   ![Completed](assets/setupcomplete.png "competed set up")
+
+> **After Setup**
+>
+> - The full-page wizard will no longer appear on page load.
+> - You can relaunch the Setup Wizard at any time from the **suite bar** at the top of the site to update settings.
+> - Admins can return to the Deploy & Template step at any time to apply a saved template and recreate the site layout.
 
 ---
 
@@ -46,14 +54,14 @@ sidebar_position: 2
 
 ### License Activation Steps
 
-| **Step** | **Action**                 | **Details / Notes**                                                                                                                                                                                                                                                                                              |
-| -------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1        | Go to the app page         | Navigate to the SharePoint page where the app is installed.                                                                                                                                                                                                                                                      |
-| 2        | Open activation panel      | - If the trial**has expired**, you'll see an **"Activate"** button on the app — click it.<br/>![](assets/activate.png)<br/>- If the trial **is still active** and you want to activate it, edit the page → open the **Web Part property panel** → click **"Activate License"**.<br />![](assets/activatewpp.png) |
-| 3        | Launch activation dialog   | A dialog box will appear prompting for a key.<br/><br/>![](assets/GetKey.png)                                                                                                                                                                                                                                    |
-| 4        | Click**Get Key**           | In the license dialog, click**Get Key** — this will take you to the payment page in a new tab.                                                                                                                                                                                                                   |
-| 5        | Purchase the license       | Complete the payment process. Once done, you’ll receive a license key via email. Be sure to check your spam/junk folder if you don't see it.                                                                                                                                                                     |
-| 6        | Enter and activate the key | Go back to the SharePoint page, paste the license key into the dialog box, and click**Activate** to complete activation.                                                                                                                                                                                         |
+| **Step** | **Action**                 | **Details / Notes**                                                                                                                                                                                                                                                                                               |
+| -------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1        | Go to the app page         | Navigate to the SharePoint page where the app is installed.                                                                                                                                                                                                                                                       |
+| 2        | Open activation panel      | \- If the trial**has expired**, you'll see an **"Activate"** button on the app — click it.<br/>![](assets/activate.png)<br/>- If the trial **is still active** and you want to activate it, edit the page → open the **Web Part property panel** → click **"Activate License"**.<br />![](assets/activatewpp.png) |
+| 3        | Launch activation dialog   | A dialog box will appear prompting for a key.<br/><br/>![](assets/GetKey.png)                                                                                                                                                                                                                                     |
+| 4        | Click**Get Key**           | In the license dialog, click**Get Key** — this will take you to the payment page in a new tab.                                                                                                                                                                                                                    |
+| 5        | Purchase the license       | Complete the payment process. Once done, you’ll receive a license key via email. Be sure to check your spam/junk folder if you don't see it.                                                                                                                                                                      |
+| 6        | Enter and activate the key | Go back to the SharePoint page, paste the license key into the dialog box, and click**Activate** to complete activation.                                                                                                                                                                                          |
 
 ✅ **Done! Your app is now fully activated.**
 
@@ -77,15 +85,15 @@ The following SharePoint Lists are automatically created based on the Home Page:
 
 ## HOME PAGE
 
-| **Webpart**            | **Description**                                                                                                                                                   |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **🧭 Top Navigation**  | -**Intuitive Access**: Minimalist top navigation for easy access to essential intranet areas.                                                                     |
-| **👋 Welcome Banner**  | -**Personalized Welcome Banner**: Greets the user by name with the current date and time, creating a friendly and engaging intranet experience.                   |
-| **🔗 Quick Links**     | -**Essential Resources**: Provide easy access to frequently used tools and documents. <br/> - **Clear Icons**: Use formal icons and labels for better navigation. |
-| **📰 News**            | -Date-stamped announcements or articles with brief summaries. Provides timely updates on departmental or industry developments                                    |
-| **🏢 Facilities**      | -**Organizational Facilities**: Highlight various facilities of your organization with brief descriptions and images.                                             |
-| **🎉 Holidays**        | -**Upcoming Holidays Overview**: Displays a list of upcoming holidays with corresponding dates for user awareness and planning.                                   |
-| **📅 Events Calendar** | -**Event Calendar**: Display meetings and company events. <br/> - **Detailed Info**: Include dates, times, and locations.                                         |
+| **Webpart**            | **Description**                                                                                                                                                    |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **🧭 Top Navigation**  | \-**Intuitive Access**: Minimalist top navigation for easy access to essential intranet areas.                                                                     |
+| **👋 Welcome Banner**  | \-**Personalized Welcome Banner**: Greets the user by name with the current date and time, creating a friendly and engaging intranet experience.                   |
+| **🔗 Quick Links**     | \-**Essential Resources**: Provide easy access to frequently used tools and documents. <br/> - **Clear Icons**: Use formal icons and labels for better navigation. |
+| **📰 News**            | \-Date-stamped announcements or articles with brief summaries. Provides timely updates on departmental or industry developments                                    |
+| **🏢 Facilities**      | \-**Organizational Facilities**: Highlight various facilities of your organization with brief descriptions and images.                                             |
+| **🎉 Holidays**        | \-**Upcoming Holidays Overview**: Displays a list of upcoming holidays with corresponding dates for user awareness and planning.                                   |
+| **📅 Events Calendar** | \-**Event Calendar**: Display meetings and company events. <br/> - **Detailed Info**: Include dates, times, and locations.                                         |
 
 ## 🧹 Uninstall Guide
 
@@ -169,5 +177,5 @@ Follow the steps below to uninstall the **Intranet Design 2 by SharePoint Design
 ## 🆘 Support
 
 Please contact **SharePoint Designs**
-🌐 [www.sharepointdesigns.com](http://www.sharepointdesigns.com)
+🌐 [www.sharepointdesigns.com](https://www.sharepointdesigns.com)
 📧 support@sharepointdesigns.com

@@ -1,8 +1,11 @@
 ---
 sidebar_position: 1
+title: Overview
+author: SharePoint Designs
+version: 1
+updated: October 2025
+description: Overview settings and customization guide for each web part.
 ---
-
-# Overview
 
 ## Intranet Design 5 by SharePoint Designs
 
@@ -41,4 +44,4 @@ Ideal for corporate communications, team portals, or departmental hubs, this sol
 ## 📄 Documentation
 
 Start, configure, and publish your Design 5 intranet homepage with ease:  
-👉 [View Documentation](/documentation/docs/design-5/installation)
+👉 [View Documentation](/docs/design-5/installation)
