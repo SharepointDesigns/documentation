@@ -46,6 +46,38 @@ This web part highlights upcoming Birthdays, Work Anniversaries, and New Joiners
 
 - - -
 
+### Managing Categories
+
+The **Event Categories** control lets you add, rename, or remove the categories shown as filter buttons on the card. Categories aren't limited to Birthday, Anniversary, and New Joiner — you can add any custom category (e.g. Promotions, Certifications, Awards, Employee Achievements, Team Milestones, Life Events & Milestones).
+
+Each row has two fields:
+
+| Field         | Purpose                                                        |
+| ------------- | --------------------------------------------------------------- |
+| Category Name | The label shown on the filter button and used to tag items.     |
+| Category Icon | An emoji shown on the card for items in that category.          |
+
+**Adding a category** automatically adds it as a valid choice on the list's `Category` column — no need to edit the list manually.
+
+**Renaming a category** (editing an existing row's name, without reordering rows) automatically:
+- Replaces the old choice with the new one on the list's `Category` column.
+- Re-tags every existing item that was using the old name to the new name.
+
+If a rename can't be applied (e.g. a permissions or connectivity issue), an error banner appears explaining what failed — check it before assuming the rename went through. Reordering rows in the same save as a rename isn't reliably detected as a rename, since the control doesn't track a stable row identity — rename one row at a time without reordering for predictable results.
+
+**Which date column each category uses:**
+
+| Category                                             | Date column  | Recurs every year? |
+| ----------------------------------------------------- | ------------ | ------------------- |
+| Birthday                                               | `DOB`        | Yes                  |
+| Anniversary (any name containing "anniversary")        | `DateOfJoin` | Yes                  |
+| New Joiner (any name containing "joiner")              | `DateOfJoin` | No — exact date only |
+| Any other/custom category                              | `EventDate`  | No — exact date only |
+
+Birthday and Anniversary are treated as recurring annual events, so a period filter like "This Month" matches them by month/day regardless of the year stored. New Joiner and every custom category are treated as one-time events — they only match a period filter in the actual month **and year** they happened.
+
+- - -
+
 ### Layout Settings
 
 <details>
